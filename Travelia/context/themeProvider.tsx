@@ -1,9 +1,9 @@
 // context/themeContext.tsx
-import { createContext, useContext, useEffect, useState, PropsWithChildren } from "react";
-import  {useColorScheme}  from 'react-native';
+import { createContext, useContext, useState, PropsWithChildren } from "react";
+import { useColorScheme } from "react-native";
 
-
-type ThemeName = "light" | "dark";
+// 👇 importa o tipo ThemeName e as cores do mesmo arquivo pra ficar tudo consistente
+import { ThemeName } from "@/constants/theme";
 
 interface ThemeContextType {
   theme: ThemeName;
@@ -12,38 +12,27 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
+export function ThemeProvider({ children }: PropsWithChildren) {
+  const systemColorScheme = useColorScheme(); // "light" | "dark" | null | undefined
 
-export function ThemeProvider({ children }:PropsWithChildren) {
+  // 👇 aqui o TS garante que SEMPRE será "light" ou "dark"
+  const initialTheme: ThemeName =
+    systemColorScheme === "dark" ? "dark" : "light";
 
-  const systemColorScheme = useColorScheme();
+  const [userTheme, setUserTheme] = useState<ThemeName>(initialTheme);
 
-  const [userTheme, setUserTheme] = useState<ThemeName>("light");
-
-  // Adiciona um useEffect para garantir que o tema do sistema seja capturado assim que disponível
-  useEffect(() => {
-    if (systemColorScheme && userTheme === null) {
-      setUserTheme(systemColorScheme);
-    }
-  }, [systemColorScheme, userTheme]);
-
+  // 👇 toggle simples e 100% typesafe
   const toggleTheme = () => {
-    setUserTheme(prevTheme => {
-      // Lógica para alternar com segurança, mesmo se prevTheme for null
-      if (prevTheme === 'light') return 'dark';
-      if (prevTheme === 'dark') return 'light';
-      // Fallback: se for null, alterna com base no tema atual do sistema
-      return systemColorScheme === 'light' ? 'dark' : 'light';
-    });
+    setUserTheme(prev =>
+      prev === "light" ? "dark" : "light"
+    );
   };
-
 
   return (
     <ThemeContext.Provider value={{ theme: userTheme, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );
-
-
 }
 
 export function useTheme() {
@@ -53,6 +42,3 @@ export function useTheme() {
   }
   return context;
 }
-
-
-

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 // Importe suas cores e o hook useTheme
 import { themeColors } from '@/constants/theme'; 
 import { ThemedButton } from '@/components/buttons/themedButton';
-import { useTheme } from '../../context/themeProvider'; // Verifique se o caminho está correto
+import { useTheme } from '../../../context/themeProvider'; // Verifique se o caminho está correto
 import { router} from 'expo-router';
 
 // --- 1. MOVA O COMPONENTE DO BOTÃO PARA FORA DO HOMESCREEN ---
@@ -23,7 +23,11 @@ function ThemeToggleButton() {
 }
 
 function handleLogin () {
-  router.navigate('/stacks/login');
+  router.navigate('/_auth/login');
+}
+
+function handleWelcome () {
+  router.navigate('/_auth/welcome');
 }
 
 
@@ -44,6 +48,11 @@ export default function HomeScreen() {
       <ThemedButton 
         title="Login" // Passe a string dinâmica para a prop title
         onPress={handleLogin} // Passe a função para onPress
+      />
+
+      <ThemedButton 
+        title="WelcomeScreen" // Passe a string dinâmica para a prop title
+        onPress={handleWelcome} // Passe a função para onPress
       />
 
     </View>

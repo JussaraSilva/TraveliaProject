@@ -53,7 +53,11 @@ export const themeColors = {
     colorGreen:'#4aaf57',
     starYellowColor:'#ff981f',
   },
-}
+} as const;
+
+
+export type ThemeName = keyof typeof themeColors;
+
 
 export const Fonts = Platform.select({
   ios: {

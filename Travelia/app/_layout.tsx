@@ -1,23 +1,15 @@
-
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
-
 import { ThemeProvider } from '@/context/themeProvider';
 
-
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
-
 export default function RootLayout() {
-
   return (
     <ThemeProvider>
-      <Stack>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="_tabs" />
+        <Stack.Screen name="_auth" />
+        
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

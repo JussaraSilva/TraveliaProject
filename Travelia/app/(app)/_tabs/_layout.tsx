@@ -1,12 +1,11 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
-import { HapticTab } from '@/components/haptic-tab';
 import { themeColors } from '@/constants/theme';
 import { CalendarDotsIcon, ChatsCircleIcon, HouseIcon, SealPercentIcon, UserIcon } from "phosphor-react-native";
 
 
-import { useTheme } from '../../context/themeProvider'; // Verifique se o caminho está correto
+import { useTheme } from '../../../context/themeProvider'; // Verifique se o caminho está correto
 
 export default function TabLayout() {
   
@@ -25,7 +24,7 @@ export default function TabLayout() {
                       paddingTop: 10,
                     },
         headerShown: false,
-        tabBarButton: HapticTab,
+        
       }}>
       <Tabs.Screen
         name="index"
