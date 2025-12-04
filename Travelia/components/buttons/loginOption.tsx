@@ -6,8 +6,8 @@ import { useTheme } from "@/context/themeProvider";
 
 
 interface LoginOptionProps {
-  title: string;
-  icon: React.ReactNode;
+  title?: string;
+  icon?: React.ReactNode;
   onPress: () => void;
   style?: StyleProp<ViewStyle>;
   textStyle?: StyleProp<TextStyle>; // Estilo do texto
@@ -42,19 +42,26 @@ const createStyles = (theme: ThemeName) =>
   button: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     width: '100%',
     paddingVertical: 10,
     paddingHorizontal: 24,
     borderRadius: 20,
     borderWidth: 1,
     borderColor: themeColors[theme].borderColor,
+    backgroundColor: themeColors[theme].backgroundCard,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 5,
     
   },
 
   iconContainer: {
     flex:1,
     marginRight: 10,
+    justifyContent: 'center',
   },
 
   textContainer: {

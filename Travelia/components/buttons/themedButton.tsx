@@ -1,31 +1,35 @@
-import { TouchableOpacity, Text, StyleSheet } from "react-native";
+import { TouchableOpacity, Text, StyleSheet, TextStyle, ViewStyle, StyleProp } from "react-native";
 
-import { themeColors } from "../../constants/theme";
-import { useThemeColor } from "../../hooks/use-theme-color";
+import { themeColors, ThemeName } from "../../constants/theme";
+import { useTheme } from "@/context/themeProvider";
+import { useMemo } from "react";
 
 
 interface ThemedButtonProps {
   title: string;
   onPress: () => void;
+  style?: StyleProp<ViewStyle>
+  textStyle?: StyleProp<TextStyle>;
 }
 
 
-export function ThemedButton ({title,onPress}: ThemedButtonProps) {
-  const buttonBackground = useThemeColor({ light: themeColors.light.backButton, dark: themeColors.dark.backButton }, 'backButton');
-  
-  const buttonTextColor = useThemeColor({ light: themeColors.light.textButton, dark: themeColors.dark.textButton }, 'textButton');
+export function ThemedButton ({title,onPress, style, textStyle}: ThemedButtonProps) {
+
+  const { theme } = useTheme();
+  const styles = useMemo(() => createStyles(theme), [theme]);
   
   return (
     <TouchableOpacity
-      style={[styles.button, { backgroundColor: buttonBackground }]}
+      style={[styles.button, style]}
       onPress={onPress}
     >
-      <Text style={[styles.buttonText, { color: buttonTextColor }]}>{title}</Text>
+      <Text style={[styles.buttonText, textStyle]}>{title}</Text>
     </TouchableOpacity>
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (theme: ThemeName) =>
+  StyleSheet.create({
   button: {
     paddingVertical: 12,
     paddingHorizontal: 24,
@@ -37,10 +41,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 4,
     elevation: 5,
+    backgroundColor: themeColors[theme].backButton,
   },
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
+    color: themeColors[theme].colorTextButton,
   },
 });
   

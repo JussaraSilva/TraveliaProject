@@ -1,11 +1,15 @@
 import { Logo } from "@/components/others/logo"
 import { View, StyleSheet, TouchableOpacity, Text } from "react-native"
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from '../../context/themeProvider'; // 
-import {  ArrowLeftIcon, EnvelopeSimpleIcon, LockSimpleIcon} from "phosphor-react-native";
+import {  AppleLogoIcon, ArrowLeftIcon,  EnvelopeSimpleIcon, EyeClosedIcon, FacebookLogoIcon, GoogleLogoIcon, LockSimpleIcon, XLogoIcon} from "phosphor-react-native";
 import { InputLogin } from "@/components/inputs/inputLogin";
+import CustomCheckbox from "@/components/others/customCheckbox";
+import { LoginOption } from "@/components/buttons/loginOption";
+import { router } from "expo-router";
+
 
 export default function Login() {
 
@@ -13,18 +17,24 @@ export default function Login() {
   
   const styles = useMemo(() => createStyles(theme), [theme]);
 
+  const [checked, setChecked] = useState(true);
+
+  const handleHome = () => {
+    router.replace('/(app)/_tabs/home');
+  }
+
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <View style={styles.contentHeader}>
             <TouchableOpacity style={styles.buttonBack}>
               <ArrowLeftIcon 
                 size={30}
-                color="black"
+                color={themeColors[theme].icon}
                 weight="light" 
               />
             </TouchableOpacity>
+        <View style={styles.contentHeader}>
           <View style={styles.iconContainer}>
             <Logo 
               size={50}
@@ -36,10 +46,10 @@ export default function Login() {
       </View>
       <View style={styles.containerTextTop}>
           <Text style={styles.textTop}>
-              Your Travel Awaits
+              Welcome Back
           </Text>
           <Text style={styles.textSubTop}>
-              Start Your journey in just a minute.
+              Let´s pick up where you left off.
           </Text>
       </View>
 
@@ -47,8 +57,8 @@ export default function Login() {
           <InputLogin 
               icon={<EnvelopeSimpleIcon 
                 size={30} 
-                color="black" 
-                weight="fill" 
+                color= {themeColors[theme].icon} 
+                weight="light" 
               />}
               label="Email" 
               placeholder="Enter your email" 
@@ -59,17 +69,103 @@ export default function Login() {
           <InputLogin 
               icon={<LockSimpleIcon 
                 size={30} 
-                color="black" 
-                weight="fill" 
+                color={themeColors[theme].icon}  
+                weight="light" 
               />}
               label="Password" 
               placeholder="Password" 
               secureTextEntry={false} 
-              
-              
+              iconPassword={
+                <EyeClosedIcon
+                  size={30} 
+                  color={themeColors[theme].icon} 
+                  weight="light" 
+                />
+              }
           />
 
-        </View>
+      </View>
+      
+      <View style={styles.checkboxContainer}>
+          <CustomCheckbox 
+            label="Remember me" 
+            checked={checked} 
+            onChange={setChecked}
+          />
+
+          <TouchableOpacity>
+            <Text style={styles.textForgot}>Forgot Password?</Text>
+          </TouchableOpacity>
+      </View>
+
+      <View style={styles.signUpContainer}>
+        <Text style={styles.textSignUp}>Don&apos;t have an account?</Text>
+        <TouchableOpacity>
+          <Text style={styles.linkSignUp}>Sign Up</Text>
+        </TouchableOpacity>
+          
+      </View>
+
+      <View style={styles.continueContainer}>
+        <View style={styles.separator}></View>
+        <Text style={styles.textContinue}>or continue with</Text>
+        <View style={styles.separator}></View>
+      </View>
+
+      <View style={styles.containerButtonsLogin}>
+        <LoginOption 
+          style={styles.buttonLogo}  
+          onPress={() => {}}
+          icon={<GoogleLogoIcon 
+            size={30}
+            color="#f44b3c" 
+            weight="bold"
+          />}
+        />
+        <LoginOption 
+          style={styles.buttonLogo}  
+          onPress={() => {}}
+          icon={
+          <AppleLogoIcon 
+            size={30} 
+            color="#a7adb0" 
+            weight="fill" 
+          />}
+        />
+
+        <LoginOption 
+          style={styles.buttonLogo}  
+          onPress={() => {}}
+          icon={
+            <FacebookLogoIcon 
+              size={30} 
+              color="#0862f6" 
+              weight="fill" 
+            />}
+        />
+
+        
+        <LoginOption 
+          style={styles.buttonLogo}  
+          onPress={() => {}}
+          icon={
+            <XLogoIcon 
+              size={30} 
+              color="#000000" 
+              weight="fill" 
+          />}
+        />
+      </View>
+
+      <View style={styles.containerFooter}>
+        <LoginOption 
+          style={styles.buttonLogin}  
+          onPress={handleHome}
+          title="Sign In"
+          textStyle={styles.textLogin}
+        />
+      </View>
+
     </View>
   )
 }
@@ -87,7 +183,7 @@ const createStyles = (theme: ThemeName) =>
     flexDirection: 'row',
     alignItems: 'center',
     alignContent: 'center',
-    marginTop: 40,
+    marginTop: 30,
     width: '100%',
     
   },
@@ -158,6 +254,134 @@ const createStyles = (theme: ThemeName) =>
     fontWeight: 'bold',
     color: themeColors[theme].textPrimary,
   },
+
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 20,
+  },
+
+  textCheckbox: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+
+  checkbox: {
+    width: 20,
+    height: 20,
+    marginRight: 10,
+
+  },
+
+  textForgot: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: themeColors[theme].realceBlue,
+  },
+
+  signUpContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 40,
+    gap: 5
+  },
+
+  textSignUp: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+
+  linkSignUp: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: themeColors[theme].realceBlue,
+  },
+
+  continueContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 40,
+    gap: 10
+  },
+
+  separator: {
+    flex: 1,
+    height: 1,
+    backgroundColor: themeColors[theme].borderColor,
+  },
+
+  textContinue: {
+    fontSize: 16,
+    fontWeight: 'light',
+    color: themeColors[theme].textPrimary,
+  },
+
+  containerButtonsLogin: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 40,
+  },
+
+  buttonLogo: {
+    width: "20%",
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 20,
+    paddingHorizontal: 20,
+  },
+
+  containerFooter: {
+    flexDirection: 'row',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 50,
+    borderTopColor: themeColors[theme].borderColor,
+    borderTopWidth: 1,
+  },
+
+  textFooter: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: themeColors[theme].realceBlue,
+  },
+
+  buttonLogin: {
+    paddingHorizontal: 75,
+    backgroundColor: themeColors[theme].realceBlue,
+    height: 50,
+    marginTop: 30,
+    flex:1,
+    borderRadius: 20,
+  },
+
+  textLogin: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: "#fff",
+  },
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
 
 
 

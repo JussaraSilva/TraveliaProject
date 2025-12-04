@@ -19,7 +19,7 @@ export function Logo({size, textStyle, style}: LogoProps) {
     <View style={[styles.logo, style]}>
           <PaperPlaneTiltIcon
             size={size} 
-            color="black"
+            color={themeColors[theme].icon}
             weight="fill" 
           />
           <Text style={[styles.textLogo, textStyle]}>Travelia</Text>

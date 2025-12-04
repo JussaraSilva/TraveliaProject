@@ -132,6 +132,8 @@ const createStyles = (theme: ThemeName) =>
 
   textHeaderContainer: {
     marginTop: 40,
+    marginBottom: 40,
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -139,10 +141,12 @@ const createStyles = (theme: ThemeName) =>
   textCall: {
     fontSize: 30,
     fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
   },
 
   textSubCall: {
     fontSize: 20,
+    color: themeColors[theme].textPrimary,
     
   },
 

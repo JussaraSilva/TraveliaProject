@@ -10,6 +10,7 @@ const tintColorDark = '#fff';
 
 export const themeColors = {
   light: {
+    colorTextButton: '#fff',
     textPrimary: '#212121',
     textSecondary: '#666666',
     background: '#f5f5f5',
@@ -17,6 +18,7 @@ export const themeColors = {
     tabIconActive: '#237fff',
     tint: tintColorLight,
     backgroundCard: '#fff',
+    icon: '#212121',
     colorRealceIcon:'#237fff',
     borderColor:"#DEDEDE",
     backButton:"#237fff",
@@ -33,13 +35,15 @@ export const themeColors = {
     
   },
   dark: {
+    colorTextButton: '#000',
     textPrimary: '#ffff',
     textSecondary: '#dadadb',
     background: '#181a20',
     tabIconInative: '#687076',
     tabIconActive: '#237fff',
     tint: tintColorDark,
-    backgroundCard: '#1f222a',
+    backgroundCard: '#1e2129',
+    icon: '#ababae',
     colorRealceIcon:'#237fff',
     borderColor:"#242424",
     backButton:"#237fff",
