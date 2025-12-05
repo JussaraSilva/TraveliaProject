@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { FlatList, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 // Importe suas cores e o hook useTheme
 import { themeColors, ThemeName } from '@/constants/theme'; 
@@ -6,6 +6,15 @@ import { useTheme } from '../../../context/themeProvider'; // Verifique se o cam
 import { router} from 'expo-router';
 import { useMemo } from 'react';
 import { BellIcon, HeartIcon, MagnifyingGlassIcon } from 'phosphor-react-native';
+import { DadosViagem, PacoteViagem } from '@/assets/types';
+
+
+import pacotes from '../../../assets/data/packetTrips.json';
+import CardPacketTrips from '@/components/cards/cardPacketTrips';
+
+const dadosCompletos: DadosViagem = pacotes as DadosViagem;
+
+const listaDePacotes: PacoteViagem[] = dadosCompletos.pacotes;
 
 
 export default function HomeScreen() {
@@ -29,29 +38,50 @@ export default function HomeScreen() {
               <MagnifyingGlassIcon 
                 size={30}
                 color={themeColors[theme].icon}
-                weight="fill"
+                weight="light"
               />
             </View>
             <View style={styles.iconsBack}>
               <HeartIcon 
                 size={30}
                 color={themeColors[theme].icon}
-                weight="fill"
+                weight="light"
               />
             </View>
             <View style={styles.iconsBack}>
               <BellIcon 
                 size={30}
                 color={themeColors[theme].icon}
-                weight="fill"
+                weight="light"
               />
             </View>
           </View>  
         </View>
 
 
-        </View>
       </View>
+      <ScrollView style={styles.containerScroll}>
+        <View style={styles.containerContentHome}>
+          <View style={styles.containerTextUserName}>
+            <Text style={styles.textWelcome}>Hello,</Text>
+            <Text style={styles.textNameUser}>Andrew!</Text>
+          </View>
+
+          <FlatList
+            data={listaDePacotes}
+            renderItem={({ item }) => 
+              <CardPacketTrips pacote={item} />
+              }
+            keyExtractor={item => String(item.id)}
+            horizontal={true} // Define a rolagem para horizontal
+            showsHorizontalScrollIndicator={false}
+          />
+          
+          <Text style={styles.tituloCards}>Promoções Principais (Vertical)</Text>
+          
+        </View>
+      </ScrollView>
+    </View>
       
   );
 }
@@ -69,7 +99,7 @@ const createStyles = (theme: ThemeName) =>
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginTop: 40,
+    marginTop: 50,
   },
 
   containerContentHeader: {
@@ -94,6 +124,7 @@ const createStyles = (theme: ThemeName) =>
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    gap: 5,
   },
 
 
@@ -112,16 +143,58 @@ const createStyles = (theme: ThemeName) =>
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    width: 100,
+    maxWidth: "100%",
+    gap: 10,
   },
 
   iconsBack: {
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: themeColors[theme].borderColor,
+    borderRadius: 20,
+    padding: 5,
     justifyContent: 'center',
   },
 
   textLocation: {
     fontSize: 18,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+
+  containerScroll: {
+    flex: 1,
+  },
+
+  containerContentHome: {
+    flexDirection: 'column',
+    flex: 1,
+    alignItems: 'center',
+    gap: 10,
+    marginTop: 20,
+  },
+
+  containerTextUserName: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    width: '100%',
+  },
+
+  textWelcome: {
+    fontSize: 30,
+    fontWeight: 'light',
+    color: themeColors[theme].textPrimary,
+  },
+
+  textNameUser: {
+    fontSize: 30,
+    fontWeight: 800,
+    color: themeColors[theme].textPrimary,
+  },
+
+  tituloCards: {
+    fontSize: 20,
     fontWeight: 'bold',
     color: themeColors[theme].textPrimary,
   },

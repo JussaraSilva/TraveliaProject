@@ -1,0 +1,3102 @@
+{
+  "pacotes": [
+    {
+      "id": 1,
+      "ranking": 1,
+      "destino": {
+        "nome": "Maldivas",
+        "pais": "Maldivas",
+        "continente": "Ásia",
+        "descricao": "Paraíso tropical com águas cristalinas"
+      },
+      "preco": {
+        "total": 12500,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 1.250,00",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Bangalô Overwater",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Luxury Water Villa Resort",
+        "servicos": ["Café da manhã", "Wi-Fi", "SPA"]
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 18
+      },
+      "voos": {
+        "ida": {
+          "numero": "LA 3456",
+          "horario_partida": "22:30",
+          "horario_chegada": "18:15",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "MLE - Malé",
+          "escala": "Dubai"
+        },
+        "volta": {
+          "numero": "LA 3457",
+          "horario_partida": "20:00",
+          "horario_chegada": "06:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.8,
+        "total_avaliacoes": 342,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Maria Silva",
+          "data": "2023-11-10",
+          "nota": 10,
+          "comentario": "Experiência incrível! O bangalô era espetacular.",
+          "votos_uteis": 45
+        },
+        {
+          "autor": "João Santos",
+          "data": "2023-10-28",
+          "nota": 9,
+          "comentario": "Serviço impecável, apenas o voo teve atraso.",
+          "votos_uteis": 32
+        }
+      ],
+      "imagens": [
+        "https://cdn6.campograndenews.com.br/uploads/noticias/2020/12/28/44f1b87df61dfaecb4141a236286342c44bff37d.jpg",
+        "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsZGl2YXN8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFsZGl2YXN8ZW58MHx8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1578922746465-3a80a228f223?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFsZGl2YXN8ZW58MHx8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1666286163385-abe05f0326c4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFsZGl2YXN8ZW58MHx8MHx8fDA%3D"
+      ],
+      "atividades": [
+        {
+          "nome": "Mergulho com snorkel",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco atardecer",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Massagem no SPA",
+          "duracao": "1 hora",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 350
+        }
+      ],
+      "incluso": [
+        "Passagem aérea ida e volta",
+        "Hospedagem com café",
+        "Transfer aeroporto-hotel",
+        "Seguro viagem",
+        "City tour"
+      ],
+      "tags": ["tropical", "luxo", "praia", "romântico", "lua-de-mel"],
+      "disponibilidade": {
+        "vagas": 8,
+        "datas_disponiveis": ["2024-03-15", "2024-04-10", "2024-05-05"]
+      }
+    },
+    {
+      "id": 2,
+      "ranking": 2,
+      "destino": {
+        "nome": "Paris",
+        "pais": "França",
+        "continente": "Europa",
+        "descricao": "Cidade Luz com romantismo e cultura"
+      },
+      "preco": {
+        "total": 8900,
+        "moeda": "R$",
+        "parcelamento": "12x R$ 741,67",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel Boutique",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Le Marais Charm",
+        "servicos": ["Café da manhã", "Wi-Fi", "Recepção 24h"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AF 447",
+          "horario_partida": "23:45",
+          "horario_chegada": "14:20",
+          "aeroporto_origem": "GIG - Rio de Janeiro",
+          "aeroporto_destino": "CDG - Paris",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AF 448",
+          "horario_partida": "12:00",
+          "horario_chegada": "18:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 521,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Ana Oliveira",
+          "data": "2023-12-05",
+          "nota": 9,
+          "comentario": "Hotel charmoso e bem localizado.",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGFyaXN8ZW58MHx8MHx8fDA%3D",
+        "https://exemplo.com/paris2.jpg",
+        "https://exemplo.com/paris3.jpg",
+        "https://exemplo.com/paris4.jpg",
+        "https://exemplo.com/paris5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo Museu do Louvre",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco no Sena",
+          "duracao": "1 hora",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar na Torre Eiffel",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 600
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Traslados",
+        "Ingresso Louvre"
+      ],
+      "tags": ["cultura", "romântico", "história", "gastronomia"],
+      "disponibilidade": {
+        "vagas": 15,
+        "datas_disponiveis": ["2024-02-20", "2024-03-15", "2024-04-12"]
+      }
+    },
+    {
+      "id": 3,
+      "ranking": 3,
+      "destino": {
+        "nome": "Santorini",
+        "pais": "Grécia",
+        "continente": "Europa",
+        "descricao": "Ilha grega com casas brancas e vistas deslumbrantes do mar Egeu"
+      },
+      "preco": {
+        "total": 9800,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 980,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel com vista para a caldeira",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Caldera View Suites",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina infinita", "Transfer"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 16
+      },
+      "voos": {
+        "ida": {
+          "numero": "AZ 789",
+          "horario_partida": "21:15",
+          "horario_chegada": "13:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "JTR - Santorini",
+          "escala": "Atenas"
+        },
+        "volta": {
+          "numero": "AZ 790",
+          "horario_partida": "15:30",
+          "horario_chegada": "05:20"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.7,
+        "total_avaliacoes": 289,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Carla Mendes",
+          "data": "2023-09-22",
+          "nota": 10,
+          "comentario": "Pôr do sol em Oia é inesquecível!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/santorini1.jpg",
+        "https://exemplo.com/santorini2.jpg",
+        "https://exemplo.com/santorini3.jpg",
+        "https://exemplo.com/santorini4.jpg",
+        "https://exemplo.com/santorini5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelas vinícolas",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de catamarã",
+          "duracao": "5 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar romântico com vista",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 450
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour pela ilha",
+        "Seguro viagem"
+      ],
+      "tags": ["romântico", "ilha", "gastronomia", "fotografia"],
+      "disponibilidade": {
+        "vagas": 6,
+        "datas_disponiveis": ["2024-06-10", "2024-07-05", "2024-08-20"]
+      }
+    },
+    {
+      "id": 4,
+      "ranking": 4,
+      "destino": {
+        "nome": "Tóquio",
+        "pais": "Japão",
+        "continente": "Ásia",
+        "descricao": "Metrópole futurista com tradição milenar"
+      },
+      "preco": {
+        "total": 13500,
+        "moeda": "R$",
+        "parcelamento": "12x R$ 1.125,00",
+        "taxas_inclusas": true,
+        "desconto": 8
+      },
+      "duracao": {
+        "dias": 10,
+        "noites": 9,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel de Negócios",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Shinjuku Grand Hotel",
+        "servicos": ["Wi-Fi", "Café da manhã ocidental", "Business center"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 12
+      },
+      "voos": {
+        "ida": {
+          "numero": "JL 67",
+          "horario_partida": "01:30",
+          "horario_chegada": "05:00",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "HND - Tóquio",
+          "escala": "Los Angeles"
+        },
+        "volta": {
+          "numero": "JL 68",
+          "horario_partida": "18:45",
+          "horario_chegada": "08:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 412,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Ricardo Tanaka",
+          "data": "2023-11-30",
+          "nota": 9,
+          "comentario": "Cultura fascinante e tecnologia impressionante.",
+          "votos_uteis": 56
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/toquio1.jpg",
+        "https://exemplo.com/toquio2.jpg",
+        "https://exemplo.com/toquio3.jpg",
+        "https://exemplo.com/toquio4.jpg",
+        "https://exemplo.com/toquio5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Visita ao Tsukiji Market",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour por Akihabara",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Cerimônia do chá tradicional",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 300
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Passeio metrô",
+        "Guia local"
+      ],
+      "tags": ["cultura", "tecnologia", "gastronomia", "shopping"],
+      "disponibilidade": {
+        "vagas": 12,
+        "datas_disponiveis": ["2024-04-15", "2024-05-22", "2024-09-10"]
+      }
+    },
+    {
+      "id": 5,
+      "ranking": 5,
+      "destino": {
+        "nome": "Nova York",
+        "pais": "EUA",
+        "continente": "América do Norte",
+        "descricao": "A cidade que nunca dorme, centro cultural e financeiro"
+      },
+      "preco": {
+        "total": 8200,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 1.025,00",
+        "taxas_inclusas": true,
+        "desconto": 5
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel Times Square",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Manhattan Central Hotel",
+        "servicos": ["Wi-Fi", "Café da manhã", "Fitness center"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AA 904",
+          "horario_partida": "22:00",
+          "horario_chegada": "06:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "JFK - Nova York",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AA 905",
+          "horario_partida": "20:15",
+          "horario_chegada": "07:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 678,
+        "estrelas": 4,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Fernanda Costa",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Localização perfeita para turistar!",
+          "votos_uteis": 102
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/ny1.jpg",
+        "https://exemplo.com/ny2.jpg",
+        "https://exemplo.com/ny3.jpg",
+        "https://exemplo.com/ny4.jpg",
+        "https://exemplo.com/ny5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pela Estátua da Liberdade",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio pelo Central Park",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Musical na Broadway",
+          "duracao": "3 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 550
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Metrô card 7 dias"
+      ],
+      "tags": ["cidade", "shopping", "cultura", "musicais"],
+      "disponibilidade": {
+        "vagas": 20,
+        "datas_disponiveis": ["2024-03-25", "2024-06-15", "2024-10-08"]
+      }
+    },
+    {
+      "id": 6,
+      "ranking": 6,
+      "destino": {
+        "nome": "Machu Picchu",
+        "pais": "Peru",
+        "continente": "América do Sul",
+        "descricao": "Cidade perdida dos Incas nas montanhas dos Andes"
+      },
+      "preco": {
+        "total": 5200,
+        "moeda": "R$",
+        "parcelamento": "6x R$ 866,67",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Baixa"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Cusco",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Andean Lodge Cusco",
+        "servicos": ["Café da manhã", "Wi-Fi", "Aquecimento"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Aventura",
+        "idade_minima": 12
+      },
+      "voos": {
+        "ida": {
+          "numero": "LA 2345",
+          "horario_partida": "08:00",
+          "horario_chegada": "10:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "CUZ - Cusco",
+          "escala": "Lima"
+        },
+        "volta": {
+          "numero": "LA 2346",
+          "horario_partida": "11:45",
+          "horario_chegada": "16:20"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 234,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Carlos Andrade",
+          "data": "2023-10-15",
+          "nota": 10,
+          "comentario": "Experiência espiritual inesquecível!",
+          "votos_uteis": 78
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/machu1.jpg",
+        "https://exemplo.com/machu2.jpg",
+        "https://exemplo.com/machu3.jpg",
+        "https://exemplo.com/machu4.jpg",
+        "https://exemplo.com/machu5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Trilha até Machu Picchu",
+          "duracao": "6 horas",
+          "dificuldade": "Difícil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour por Cusco histórico",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Almoço no Vale Sagrado",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 180
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Ingresso Machu Picchu",
+        "Guia especializado"
+      ],
+      "tags": ["aventura", "história", "trilha", "cultura"],
+      "disponibilidade": {
+        "vagas": 10,
+        "datas_disponiveis": ["2024-04-05", "2024-05-18", "2024-08-22"]
+      }
+    },
+    {
+      "id": 7,
+      "ranking": 7,
+      "destino": {
+        "nome": "Sydney",
+        "pais": "Austrália",
+        "continente": "Oceania",
+        "descricao": "Cidade costeira famosa pela Opera House e praias"
+      },
+      "preco": {
+        "total": 14800,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 1.480,00",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 12,
+        "noites": 11,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel com vista para o porto",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Harbour View Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "QF 12",
+          "horario_partida": "22:45",
+          "horario_chegada": "08:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "SYD - Sydney",
+          "escala": "Santiago"
+        },
+        "volta": {
+          "numero": "QF 11",
+          "horario_partida": "11:00",
+          "horario_chegada": "14:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 189,
+        "estrelas": 4,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Roberto Alves",
+          "data": "2023-11-05",
+          "nota": 9,
+          "comentario": "A Opera House é ainda mais bonita ao vivo!",
+          "votos_uteis": 45
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/sydney1.jpg",
+        "https://exemplo.com/sydney2.jpg",
+        "https://exemplo.com/sydney3.jpg",
+        "https://exemplo.com/sydney4.jpg",
+        "https://exemplo.com/sydney5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pela Opera House",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio a Bondi Beach",
+          "duracao": "5 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Cruzeiro pelo porto",
+          "duracao": "3 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 420
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer aeroporto"
+      ],
+      "tags": ["praia", "cidade", "cultura", "família"],
+      "disponibilidade": {
+        "vagas": 8,
+        "datas_disponiveis": ["2024-01-20", "2024-03-10", "2024-11-15"]
+      }
+    },
+    {
+      "id": 8,
+      "ranking": 8,
+      "destino": {
+        "nome": "Barcelona",
+        "pais": "Espanha",
+        "continente": "Europa",
+        "descricao": "Cidade de Gaudí, arquitetura única e vida noturna vibrante"
+      },
+      "preco": {
+        "total": 7600,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 760,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Las Ramblas",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Ramblas Central Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Ar condicionado"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "IB 6825",
+          "horario_partida": "20:30",
+          "horario_chegada": "10:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "BCN - Barcelona",
+          "escala": "Madrid"
+        },
+        "volta": {
+          "numero": "IB 6826",
+          "horario_partida": "13:20",
+          "horario_chegada": "00:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 345,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Sofia Martinez",
+          "data": "2023-10-08",
+          "nota": 10,
+          "comentario": "Arquitetura deslumbrante e tapas deliciosas!",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/barcelona1.jpg",
+        "https://exemplo.com/barcelona2.jpg",
+        "https://exemplo.com/barcelona3.jpg",
+        "https://exemplo.com/barcelona4.jpg",
+        "https://exemplo.com/barcelona5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pela Sagrada Família",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio pelo Parque Güell",
+          "duracao": "2 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Show de flamenco",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 250
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Ingresso Sagrada Família",
+        "City tour"
+      ],
+      "tags": ["arquitetura", "gastronomia", "cultura", "noite"],
+      "disponibilidade": {
+        "vagas": 14,
+        "datas_disponiveis": ["2024-04-18", "2024-06-05", "2024-09-20"]
+      }
+    },
+    {
+      "id": 9,
+      "ranking": 9,
+      "destino": {
+        "nome": "Rio de Janeiro",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Cidade maravilhosa com praias famosas e Cristo Redentor"
+      },
+      "preco": {
+        "total": 3200,
+        "moeda": "R$",
+        "parcelamento": "4x R$ 800,00",
+        "taxas_inclusas": true,
+        "desconto": 20
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Copacabana",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Copacabana Palace View",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "G3 1501",
+          "horario_partida": "07:30",
+          "horario_chegada": "09:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "GIG - Rio de Janeiro",
+          "escala": null
+        },
+        "volta": {
+          "numero": "G3 1502",
+          "horario_partida": "18:00",
+          "horario_chegada": "20:15"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 892,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Pedro Santos",
+          "data": "2023-12-22",
+          "nota": 9,
+          "comentario": "Vista do Cristo é de tirar o fôlego!",
+          "votos_uteis": 156
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/rio1.jpg",
+        "https://exemplo.com/rio2.jpg",
+        "https://exemplo.com/rio3.jpg",
+        "https://exemplo.com/rio4.jpg",
+        "https://exemplo.com/rio5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Visita ao Cristo Redentor",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de bondinho no Pão de Açúcar",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Almoço em restaurante típico",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 180
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer"
+      ],
+      "tags": ["praia", "cidade", "nacional", "paisagem"],
+      "disponibilidade": {
+        "vagas": 25,
+        "datas_disponiveis": ["2024-02-10", "2024-07-15", "2024-12-20"]
+      }
+    },
+    {
+      "id": 10,
+      "ranking": 10,
+      "destino": {
+        "nome": "Londres",
+        "pais": "Reino Unido",
+        "continente": "Europa",
+        "descricao": "Capital histórica com tradição real e modernidade"
+      },
+      "preco": {
+        "total": 9500,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 950,00",
+        "taxas_inclusas": true,
+        "desconto": 8
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Westminster",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Big Ben View Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Chá da tarde"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "BA 247",
+          "horario_partida": "21:00",
+          "horario_chegada": "11:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "LHR - Londres",
+          "escala": null
+        },
+        "volta": {
+          "numero": "BA 246",
+          "horario_partida": "14:00",
+          "horario_chegada": "02:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 478,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Thomas Wilson",
+          "data": "2023-11-14",
+          "nota": 9,
+          "comentario": "Troca da guarda no Palácio é imperdível!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/londres1.jpg",
+        "https://exemplo.com/londres2.jpg",
+        "https://exemplo.com/londres3.jpg",
+        "https://exemplo.com/londres4.jpg",
+        "https://exemplo.com/londres5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo Palácio de Buckingham",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao British Museum",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Cruzeiro no Rio Tâmisa",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 320
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Oyster card"
+      ],
+      "tags": ["história", "cultura", "shopping", "museus"],
+      "disponibilidade": {
+        "vagas": 18,
+        "datas_disponiveis": ["2024-03-08", "2024-05-25", "2024-09-12"]
+      }
+    },
+    {
+      "id": 11,
+      "ranking": 11,
+      "destino": {
+        "nome": "Dubai",
+        "pais": "Emirados Árabes",
+        "continente": "Ásia",
+        "descricao": "Cidade futurista com arranha-céus e luxo no deserto"
+      },
+      "preco": {
+        "total": 11200,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 1.400,00",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 8,
+        "noites": 7,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel 5 estrelas",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Burj View Luxury Hotel",
+        "servicos": ["Café da manhã buffet", "Wi-Fi", "SPA", "Piscina"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 18
+      },
+      "voos": {
+        "ida": {
+          "numero": "EK 262",
+          "horario_partida": "23:45",
+          "horario_chegada": "20:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "DXB - Dubai",
+          "escala": null
+        },
+        "volta": {
+          "numero": "EK 263",
+          "horario_partida": "03:30",
+          "horario_chegada": "12:15"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.7,
+        "total_avaliacoes": 312,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Ahmed Al-Mansoor",
+          "data": "2023-10-30",
+          "nota": 10,
+          "comentario": "Luxo e modernidade impressionantes!",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/dubai1.jpg",
+        "https://exemplo.com/dubai2.jpg",
+        "https://exemplo.com/dubai3.jpg",
+        "https://exemplo.com/dubai4.jpg",
+        "https://exemplo.com/dubai5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Visita ao Burj Khalifa",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Safári no deserto",
+          "duracao": "6 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar no Burj Al Arab",
+          "duracao": "3 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 800
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour pela cidade",
+        "Seguro viagem"
+      ],
+      "tags": ["luxo", "moderno", "deserto", "shopping"],
+      "disponibilidade": {
+        "vagas": 10,
+        "datas_disponiveis": ["2024-02-28", "2024-04-15", "2024-10-20"]
+      }
+    },
+    {
+      "id": 12,
+      "ranking": 12,
+      "destino": {
+        "nome": "Fernando de Noronha",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Arquipélago preservado com praias paradisíacas"
+      },
+      "preco": {
+        "total": 6800,
+        "moeda": "R$",
+        "parcelamento": "6x R$ 1.133,33",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Pousada ecológica",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Pousada Maravilha",
+        "servicos": ["Café da manhã", "Wi-Fi", "Trilhas guiadas"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 12
+      },
+      "voos": {
+        "ida": {
+          "numero": "G3 1750",
+          "horario_partida": "06:00",
+          "horario_chegada": "10:30",
+          "aeroporto_origem": "REC - Recife",
+          "aeroporto_destino": "FEN - Fernando de Noronha",
+          "escala": null
+        },
+        "volta": {
+          "numero": "G3 1751",
+          "horario_partida": "11:30",
+          "horario_chegada": "16:00"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.9,
+        "total_avaliacoes": 198,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Juliana Ferreira",
+          "data": "2023-09-12",
+          "nota": 10,
+          "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada.",
+          "votos_uteis": 112
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/noronha1.jpg",
+        "https://exemplo.com/noronha2.jpg",
+        "https://exemplo.com/noronha3.jpg",
+        "https://exemplo.com/noronha4.jpg",
+        "https://exemplo.com/noronha5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Mergulho com tartarugas",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Trilha até a Baía do Sancho",
+          "duracao": "3 horas",
+          "dificuldade": "Difícil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco noturno",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 280
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Taxa ambiental",
+        "Trilhas guiadas"
+      ],
+      "tags": ["ecoturismo", "praia", "mergulho", "nacional"],
+      "disponibilidade": {
+        "vagas": 6,
+        "datas_disponiveis": ["2024-03-05", "2024-06-18", "2024-11-10"]
+      }
+    },
+    {
+      "id": 13,
+      "ranking": 13,
+      "destino": {
+        "nome": "Roma",
+        "pais": "Itália",
+        "continente": "Europa",
+        "descricao": "Cidade eterna com história milenar e arte renascentista"
+      },
+      "preco": {
+        "total": 8300,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 830,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel no centro histórico",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Colosseum View Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Ar condicionado"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AZ 680",
+          "horario_partida": "20:15",
+          "horario_chegada": "12:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "FCO - Roma",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AZ 681",
+          "horario_partida": "14:00",
+          "horario_chegada": "04:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 567,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Giovanni Rossi",
+          "data": "2023-10-25",
+          "nota": 10,
+          "comentario": "História em cada esquina e comida divina!",
+          "votos_uteis": 134
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/roma1.jpg",
+        "https://exemplo.com/roma2.jpg",
+        "https://exemplo.com/roma3.jpg",
+        "https://exemplo.com/roma4.jpg",
+        "https://exemplo.com/roma5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo Coliseu e Fórum Romano",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à Fontana di Trevi",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour gastronômico por Trastevere",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 350
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Ingresso Coliseu",
+        "City tour"
+      ],
+      "tags": ["história", "arte", "gastronomia", "cultura"],
+      "disponibilidade": {
+        "vagas": 22,
+        "datas_disponiveis": ["2024-04-10", "2024-06-25", "2024-09-15"]
+      }
+    },
+    {
+      "id": 14,
+      "ranking": 14,
+      "destino": {
+        "nome": "Cancún",
+        "pais": "México",
+        "continente": "América do Norte",
+        "descricao": "Destino caribenho com praias de areia branca e resorts all-inclusive"
+      },
+      "preco": {
+        "total": 7200,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 900,00",
+        "taxas_inclusas": true,
+        "desconto": 20
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Resort All-Inclusive",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Caribe Paradise Resort",
+        "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AM 532",
+          "horario_partida": "09:30",
+          "horario_chegada": "15:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "CUN - Cancún",
+          "escala": "Cidade do México"
+        },
+        "volta": {
+          "numero": "AM 533",
+          "horario_partida": "17:30",
+          "horario_chegada": "05:15"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 423,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Isabela Garcia",
+          "data": "2023-11-20",
+          "nota": 9,
+          "comentario": "Resort maravilhoso e comida excelente!",
+          "votos_uteis": 78
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/cancun1.jpg",
+        "https://exemplo.com/cancun2.jpg",
+        "https://exemplo.com/cancun3.jpg",
+        "https://exemplo.com/cancun4.jpg",
+        "https://exemplo.com/cancun5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour às ruínas de Chichen Itzá",
+          "duracao": "8 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Snorkel em Isla Mujeres",
+          "duracao": "5 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Nado com golfinhos",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 450
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem all-inclusive",
+        "Bebidas",
+        "Atividades no resort",
+        "Transfer"
+      ],
+      "tags": ["all-inclusive", "praia", "ruínas", "família"],
+      "disponibilidade": {
+        "vagas": 16,
+        "datas_disponiveis": ["2024-03-12", "2024-07-08", "2024-12-01"]
+      }
+    },
+    {
+      "id": 15,
+      "ranking": 15,
+      "destino": {
+        "nome": "Amsterdã",
+        "pais": "Holanda",
+        "continente": "Europa",
+        "descricao": "Cidade dos canais, bicicletas e cultura liberal"
+      },
+      "preco": {
+        "total": 7800,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 780,00",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel à beira do canal",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Canal House Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Aluguel de bicicleta"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 18
+      },
+      "voos": {
+        "ida": {
+          "numero": "KL 792",
+          "horario_partida": "22:00",
+          "horario_chegada": "13:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "AMS - Amsterdã",
+          "escala": null
+        },
+        "volta": {
+          "numero": "KL 793",
+          "horario_partida": "15:30",
+          "horario_chegada": "05:20"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 289,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Lucas van Dijk",
+          "data": "2023-10-18",
+          "nota": 9,
+          "comentario": "Cidade encantadora, pedalar pelos canais é único!",
+          "votos_uteis": 56
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/amsterda1.jpg",
+        "https://exemplo.com/amsterda2.jpg",
+        "https://exemplo.com/amsterda3.jpg",
+        "https://exemplo.com/amsterda4.jpg",
+        "https://exemplo.com/amsterda5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de barco pelos canais",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Museu Van Gogh",
+          "duracao": "3 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Tour pelos moinhos de vento",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 220
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Passeio de barco",
+        "Bicicleta por 1 dia"
+      ],
+      "tags": ["canais", "cultura", "bicicleta", "museus"],
+      "disponibilidade": {
+        "vagas": 12,
+        "datas_disponiveis": ["2024-05-08", "2024-07-22", "2024-09-30"]
+      }
+    },
+    {
+      "id": 16,
+      "ranking": 16,
+      "destino": {
+        "nome": "Lisboa",
+        "pais": "Portugal",
+        "continente": "Europa",
+        "descricao": "Cidade das sete colinas com charme e história"
+      },
+      "preco": {
+        "total": 6500,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 812,50",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Alfama",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Alfama Charm Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o rio"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "TP 17",
+          "horario_partida": "20:45",
+          "horario_chegada": "09:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "LIS - Lisboa",
+          "escala": null
+        },
+        "volta": {
+          "numero": "TP 18",
+          "horario_partida": "12:00",
+          "horario_chegada": "19:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 345,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "António Silva",
+          "data": "2023-11-05",
+          "nota": 10,
+          "comentario": "Pastéis de Belém são divinos!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/lisboa1.jpg",
+        "https://exemplo.com/lisboa2.jpg",
+        "https://exemplo.com/lisboa3.jpg",
+        "https://exemplo.com/lisboa4.jpg",
+        "https://exemplo.com/lisboa5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo bairro de Belém",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de eléctrico 28",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar com fado tradicional",
+          "duracao": "3 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 280
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer"
+      ],
+      "tags": ["história", "gastronomia", "vistas", "cultura"],
+      "disponibilidade": {
+        "vagas": 18,
+        "datas_disponiveis": ["2024-04-20", "2024-06-10", "2024-10-05"]
+      }
+    },
+    {
+      "id": 17,
+      "ranking": 17,
+      "destino": {
+        "nome": "Buenos Aires",
+        "pais": "Argentina",
+        "continente": "América do Sul",
+        "descricao": "Paris da América do Sul com tango e cultura vibrante"
+      },
+      "preco": {
+        "total": 3800,
+        "moeda": "R$",
+        "parcelamento": "4x R$ 950,00",
+        "taxas_inclusas": true,
+        "desconto": 25
+      },
+      "duracao": {
+        "dias": 4,
+        "noites": 3,
+        "temporada": "Baixa"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Recoleta",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Recoleta Grand Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AR 1240",
+          "horario_partida": "08:00",
+          "horario_chegada": "11:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "EZE - Buenos Aires",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AR 1241",
+          "horario_partida": "19:00",
+          "horario_chegada": "22:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 456,
+        "estrelas": 4,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Diego Pérez",
+          "data": "2023-12-10",
+          "nota": 9,
+          "comentario": "Tango show inesquecível e carne excelente!",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/buenosaires1.jpg",
+        "https://exemplo.com/buenosaires2.jpg",
+        "https://exemplo.com/buenosaires3.jpg",
+        "https://exemplo.com/buenosaires4.jpg",
+        "https://exemplo.com/buenosaires5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Show de tango em San Telmo",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour pelo bairro de La Boca",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar em steakhouse premium",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 200
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Show de tango"
+      ],
+      "tags": ["tango", "gastronomia", "cultura", "economico"],
+      "disponibilidade": {
+        "vagas": 30,
+        "datas_disponiveis": ["2024-03-15", "2024-05-20", "2024-08-10"]
+      }
+    },
+    {
+      "id": 18,
+      "ranking": 18,
+      "destino": {
+        "nome": "Phuket",
+        "pais": "Tailândia",
+        "continente": "Ásia",
+        "descricao": "Ilha tropical com praias de areia branca e águas turquesa"
+      },
+      "preco": {
+        "total": 9200,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 920,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 8,
+        "noites": 7,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Resort à beira-mar",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Andaman Sea Resort",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "TG 925",
+          "horario_partida": "01:00",
+          "horario_chegada": "00:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "HKT - Phuket",
+          "escala": "Bangkok"
+        },
+        "volta": {
+          "numero": "TG 926",
+          "horario_partida": "03:00",
+          "horario_chegada": "09:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 278,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Chen Li",
+          "data": "2023-10-22",
+          "nota": 10,
+          "comentario": "Paraíso tropical com cultura tailandesa única!",
+          "votos_uteis": 78
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/phuket1.jpg",
+        "https://exemplo.com/phuket2.jpg",
+        "https://exemplo.com/phuket3.jpg",
+        "https://exemplo.com/phuket4.jpg",
+        "https://exemplo.com/phuket5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de barco às ilhas Phi Phi",
+          "duracao": "8 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Big Buddha",
+          "duracao": "3 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Massagem tailandesa tradicional",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 180
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour às ilhas",
+        "Transfer"
+      ],
+      "tags": ["tropical", "praia", "cultura", "aventura"],
+      "disponibilidade": {
+        "vagas": 9,
+        "datas_disponiveis": ["2024-02-25", "2024-06-15", "2024-11-08"]
+      }
+    },
+    {
+      "id": 19,
+      "ranking": 19,
+      "destino": {
+        "nome": "Veneza",
+        "pais": "Itália",
+        "continente": "Europa",
+        "descricao": "Cidade romântica construída sobre canais"
+      },
+      "preco": {
+        "total": 8900,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 890,00",
+        "taxas_inclusas": true,
+        "desconto": 8
+      },
+      "duracao": {
+        "dias": 4,
+        "noites": 3,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel à beira do canal",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Grand Canal Palace",
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AZ 712",
+          "horario_partida": "19:30",
+          "horario_chegada": "10:15",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "VCE - Veneza",
+          "escala": "Roma"
+        },
+        "volta": {
+          "numero": "AZ 713",
+          "horario_partida": "12:00",
+          "horario_chegada": "02:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.7,
+        "total_avaliacoes": 312,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Marco Bellini",
+          "data": "2023-09-30",
+          "nota": 10,
+          "comentario": "Passeio de gôndola no pôr do sol é mágico!",
+          "votos_uteis": 134
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/veneza1.jpg",
+        "https://exemplo.com/veneza2.jpg",
+        "https://exemplo.com/veneza3.jpg",
+        "https://exemplo.com/veneza4.jpg",
+        "https://exemplo.com/veneza5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de gôndola pelos canais",
+          "duracao": "1 hora",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à Praça de São Marcos",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar romântico em restaurante típico",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 380
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Passeio de gôndola",
+        "City tour"
+      ],
+      "tags": ["romântico", "canais", "gôndola", "história"],
+      "disponibilidade": {
+        "vagas": 7,
+        "datas_disponiveis": ["2024-04-05", "2024-07-18", "2024-10-12"]
+      }
+    },
+    {
+      "id": 20,
+      "ranking": 20,
+      "destino": {
+        "nome": "Cairo",
+        "pais": "Egito",
+        "continente": "África",
+        "descricao": "Tesouros do antigo Egito e grandiosas pirâmides"
+      },
+      "preco": {
+        "total": 7600,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 950,00",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel com vista para as pirâmides",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Pyramids View Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Transfer"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Aventura",
+        "idade_minima": 12
+      },
+      "voos": {
+        "ida": {
+          "numero": "MS 866",
+          "horario_partida": "18:00",
+          "horario_chegada": "12:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "CAI - Cairo",
+          "escala": "Paris"
+        },
+        "volta": {
+          "numero": "MS 867",
+          "horario_partida": "02:00",
+          "horario_chegada": "11:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 189,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Mohamed Ali",
+          "data": "2023-11-12",
+          "nota": 10,
+          "comentario": "As pirâmides são ainda mais impressionantes pessoalmente!",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/cairo1.jpg",
+        "https://exemplo.com/cairo2.jpg",
+        "https://exemplo.com/cairo3.jpg",
+        "https://exemplo.com/cairo4.jpg",
+        "https://exemplo.com/cairo5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelas Pirâmides de Gizé",
+          "duracao": "6 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Museu Egípcio",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de camelo no deserto",
+          "duracao": "2 horas",
+          "dificuldade": "Moderada",
+          "incluso": false,
+          "preco_extra": 150
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Ingressos para as pirâmides",
+        "Guia egiptólogo"
+      ],
+      "tags": ["história", "aventura", "pirâmides", "deserto"],
+      "disponibilidade": {
+        "vagas": 11,
+        "datas_disponiveis": ["2024-03-22", "2024-05-14", "2024-10-28"]
+      }
+    },
+    {
+      "id": 21,
+      "ranking": 21,
+      "destino": {
+        "nome": "São Paulo",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Metrópole vibrante com diversidade cultural e gastronômica"
+      },
+      "preco": {
+        "total": 2800,
+        "moeda": "R$",
+        "parcelamento": "3x R$ 933,33",
+        "taxas_inclusas": true,
+        "desconto": 30
+      },
+      "duracao": {
+        "dias": 3,
+        "noites": 2,
+        "temporada": "Baixa"
+      },
+      "acomodacao": {
+        "tipo": "Hotel na Avenida Paulista",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Paulista Business Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Business center"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "LA 3550",
+          "horario_partida": "16:00",
+          "horario_chegada": "17:30",
+          "aeroporto_origem": "GIG - Rio de Janeiro",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
+        },
+        "volta": {
+          "numero": "LA 3551",
+          "horario_partida": "20:00",
+          "horario_chegada": "21:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.1,
+        "total_avaliacoes": 723,
+        "estrelas": 4,
+        "destaque": "Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Camila Oliveira",
+          "data": "2023-12-08",
+          "nota": 9,
+          "comentario": "Gastronomia incrível e vida noturna vibrante!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/saopaulo1.jpg",
+        "https://exemplo.com/saopaulo2.jpg",
+        "https://exemplo.com/saopaulo3.jpg",
+        "https://exemplo.com/saopaulo4.jpg",
+        "https://exemplo.com/saopaulo5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour gastronômico pelo Mercado Municipal",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao MASP",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar em restaurante premiado",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 350
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Metrô card"
+      ],
+      "tags": ["gastronomia", "cultura", "negócios", "nacional"],
+      "disponibilidade": {
+        "vagas": 40,
+        "datas_disponiveis": ["2024-02-05", "2024-04-18", "2024-07-30"]
+      }
+    },
+    {
+      "id": 22,
+      "ranking": 22,
+      "destino": {
+        "nome": "Vancouver",
+        "pais": "Canadá",
+        "continente": "América do Norte",
+        "descricao": "Cidade entre montanhas e mar com qualidade de vida excepcional"
+      },
+      "preco": {
+        "total": 10500,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 1.050,00",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 8,
+        "noites": 7,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel no centro",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Vancouver Bay Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Bicicletas"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AC 82",
+          "horario_partida": "22:15",
+          "horario_chegada": "06:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "YVR - Vancouver",
+          "escala": "Toronto"
+        },
+        "volta": {
+          "numero": "AC 83",
+          "horario_partida": "14:00",
+          "horario_chegada": "08:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 234,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "John Smith",
+          "data": "2023-10-05",
+          "nota": 9,
+          "comentario": "Natureza deslumbrante e cidade limpa!",
+          "votos_uteis": 56
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/vancouver1.jpg",
+        "https://exemplo.com/vancouver2.jpg",
+        "https://exemplo.com/vancouver3.jpg",
+        "https://exemplo.com/vancouver4.jpg",
+        "https://exemplo.com/vancouver5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo Stanley Park",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à Capilano Suspension Bridge",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco para ver baleias",
+          "duracao": "5 horas",
+          "dificuldade": "Moderada",
+          "incluso": false,
+          "preco_extra": 420
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer"
+      ],
+      "tags": ["natureza", "aventura", "qualidade de vida", "paisagem"],
+      "disponibilidade": {
+        "vagas": 14,
+        "datas_disponiveis": ["2024-06-12", "2024-08-05", "2024-09-25"]
+      }
+    },
+    {
+      "id": 23,
+      "ranking": 23,
+      "destino": {
+        "nome": "Santiago",
+        "pais": "Chile",
+        "continente": "América do Sul",
+        "descricao": "Capital aos pés da Cordilheira dos Andes"
+      },
+      "preco": {
+        "total": 4200,
+        "moeda": "R$",
+        "parcelamento": "5x R$ 840,00",
+        "taxas_inclusas": true,
+        "desconto": 20
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Baixa"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Providencia",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Andes View Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "SPA"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "LA 601",
+          "horario_partida": "09:30",
+          "horario_chegada": "13:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "SCL - Santiago",
+          "escala": null
+        },
+        "volta": {
+          "numero": "LA 602",
+          "horario_partida": "18:15",
+          "horario_chegada": "22:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 345,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Juan Pérez",
+          "data": "2023-11-28",
+          "nota": 9,
+          "comentario": "Vista dos Andes é impressionante! Vinho chileno excelente.",
+          "votos_uteis": 78
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/santiago1.jpg",
+        "https://exemplo.com/santiago2.jpg",
+        "https://exemplo.com/santiago3.jpg",
+        "https://exemplo.com/santiago4.jpg",
+        "https://exemplo.com/santiago5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelas vinícolas do Vale Central",
+          "duracao": "8 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Cerro San Cristóbal",
+          "duracao": "3 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar com show folclórico",
+          "duracao": "3 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 250
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour vinícola",
+        "City tour"
+      ],
+      "tags": ["vinho", "montanhas", "cultura", "economico"],
+      "disponibilidade": {
+        "vagas": 25,
+        "datas_disponiveis": ["2024-03-10", "2024-05-22", "2024-08-14"]
+      }
+    },
+    {
+      "id": 24,
+      "ranking": 24,
+      "destino": {
+        "nome": "Jericoacoara",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Paraíso ecológico com dunas, lagoas e pôr do sol deslumbrante"
+      },
+      "preco": {
+        "total": 4800,
+        "moeda": "R$",
+        "parcelamento": "6x R$ 800,00",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Pousada rústica",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Jeri Eco Lodge",
+        "servicos": ["Café da manhã", "Wi-Fi", "Rede", "Aluguel de buggy"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Aventura",
+        "idade_minima": 12
+      },
+      "voos": {
+        "ida": {
+          "numero": "G3 1620",
+          "horario_partida": "06:30",
+          "horario_chegada": "10:00",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "JJD - Jericoacoara",
+          "escala": "Fortaleza"
+        },
+        "volta": {
+          "numero": "G3 1621",
+          "horario_partida": "11:00",
+          "horario_chegada": "16:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.8,
+        "total_avaliacoes": 167,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Bianca Costa",
+          "data": "2023-09-15",
+          "nota": 10,
+          "comentario": "Pôr do sol na duna mais lindo do Brasil!",
+          "votos_uteis": 112
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/jeri1.jpg",
+        "https://exemplo.com/jeri2.jpg",
+        "https://exemplo.com/jeri3.jpg",
+        "https://exemplo.com/jeri4.jpg",
+        "https://exemplo.com/jeri5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de buggy pelas dunas",
+          "duracao": "6 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Kitesurf na lagoa",
+          "duracao": "3 horas",
+          "dificuldade": "Difícil",
+          "incluso": false,
+          "preco_extra": 350
+        },
+        {
+          "nome": "Trilha até a Pedra Furada",
+          "duracao": "2 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Passeio de buggy",
+        "Trilhas guiadas"
+      ],
+      "tags": ["ecoturismo", "dunas", "aventura", "nacional"],
+      "disponibilidade": {
+        "vagas": 8,
+        "datas_disponiveis": ["2024-07-12", "2024-08-25", "2024-12-10"]
+      }
+    },
+    {
+      "id": 25,
+      "ranking": 25,
+      "destino": {
+        "nome": "Istambul",
+        "pais": "Turquia",
+        "continente": "Ásia/Europa",
+        "descricao": "Cidade entre dois continentes com história milenar"
+      },
+      "preco": {
+        "total": 7400,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 925,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel no bairro histórico",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Sultanahmet Palace Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o Bósforo"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "TK 16",
+          "horario_partida": "19:45",
+          "horario_chegada": "14:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "IST - Istambul",
+          "escala": null
+        },
+        "volta": {
+          "numero": "TK 17",
+          "horario_partida": "02:00",
+          "horario_chegada": "09:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 278,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Mehmet Yılmaz",
+          "data": "2023-10-10",
+          "nota": 10,
+          "comentario": "Cidade fascinante onde Oriente e Ocidente se encontram!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/istambul1.jpg",
+        "https://exemplo.com/istambul2.jpg",
+        "https://exemplo.com/istambul3.jpg",
+        "https://exemplo.com/istambul4.jpg",
+        "https://exemplo.com/istambul5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Visita à Hagia Sophia e Blue Mosque",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Tour pelo Grand Bazaar",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Cruzeiro pelo Bósforo",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 280
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour histórico",
+        "Guia local"
+      ],
+      "tags": ["história", "cultura", "shopping", "gastronomia"],
+      "disponibilidade": {
+        "vagas": 15,
+        "datas_disponiveis": ["2024-04-25", "2024-06-18", "2024-09-05"]
+      }
+    },
+    {
+      "id": 26,
+      "ranking": 26,
+      "destino": {
+        "nome": "Miami",
+        "pais": "EUA",
+        "continente": "América do Norte",
+        "descricao": "Cidade do sol com praias, art déco e vida noturna"
+      },
+      "preco": {
+        "total": 6800,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 850,00",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em South Beach",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Ocean Drive Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 21
+      },
+      "voos": {
+        "ida": {
+          "numero": "AA 904",
+          "horario_partida": "22:30",
+          "horario_chegada": "06:45",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "MIA - Miami",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AA 905",
+          "horario_partida": "20:15",
+          "horario_chegada": "08:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 412,
+        "estrelas": 4,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Jennifer Lopez",
+          "data": "2023-11-25",
+          "nota": 9,
+          "comentario": "Praias incríveis e vida noturna eletrizante!",
+          "votos_uteis": 67
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/miami1.jpg",
+        "https://exemplo.com/miami2.jpg",
+        "https://exemplo.com/miami3.jpg",
+        "https://exemplo.com/miami4.jpg",
+        "https://exemplo.com/miami5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelas casas art déco",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco pelas ilhas",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar em restaurante celebridade",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 450
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer"
+      ],
+      "tags": ["praia", "noite", "shopping", "luxo"],
+      "disponibilidade": {
+        "vagas": 20,
+        "datas_disponiveis": ["2024-03-18", "2024-06-08", "2024-11-22"]
+      }
+    },
+    {
+      "id": 27,
+      "ranking": 27,
+      "destino": {
+        "nome": "Bangkok",
+        "pais": "Tailândia",
+        "continente": "Ásia",
+        "descricao": "Cidade vibrante com templos dourados e cultura budista"
+      },
+      "preco": {
+        "total": 8200,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 820,00",
+        "taxas_inclusas": true,
+        "desconto": 15
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Média"
+      },
+      "acomodacao": {
+        "tipo": "Hotel no centro",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Bangkok Riverside Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 16
+      },
+      "voos": {
+        "ida": {
+          "numero": "TG 925",
+          "horario_partida": "01:00",
+          "horario_chegada": "23:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "BKK - Bangkok",
+          "escala": "Johanesburgo"
+        },
+        "volta": {
+          "numero": "TG 926",
+          "horario_partida": "02:30",
+          "horario_chegada": "09:15"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 289,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Somchai Wong",
+          "data": "2023-10-28",
+          "nota": 9,
+          "comentario": "Templos magníficos e comida de rua deliciosa!",
+          "votos_uteis": 78
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/bangkok1.jpg",
+        "https://exemplo.com/bangkok2.jpg",
+        "https://exemplo.com/bangkok3.jpg",
+        "https://exemplo.com/bangkok4.jpg",
+        "https://exemplo.com/bangkok5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Visita ao Wat Arun e Wat Pho",
+          "duracao": "5 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco pelos canais",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Massagem tailandesa tradicional",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 150
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour pelos templos",
+        "Transfer"
+      ],
+      "tags": ["templos", "cultura", "gastronomia", "aventura"],
+      "disponibilidade": {
+        "vagas": 12,
+        "datas_disponiveis": ["2024-05-10", "2024-08-15", "2024-11-05"]
+      }
+    },
+    {
+      "id": 28,
+      "ranking": 28,
+      "destino": {
+        "nome": "Gramado",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Cidade serrana com clima europeu e chocolates artesanais"
+      },
+      "preco": {
+        "total": 3200,
+        "moeda": "R$",
+        "parcelamento": "4x R$ 800,00",
+        "taxas_inclusas": true,
+        "desconto": 20
+      },
+      "duracao": {
+        "dias": 4,
+        "noites": 3,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel temático",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Gramado Suíço Hotel",
+        "servicos": ["Café da manhã", "Wi-Fi", "Lareira", "Chocolate quente"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "LA 4020",
+          "horario_partida": "08:00",
+          "horario_chegada": "10:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "POA - Porto Alegre",
+          "escala": null
+        },
+        "volta": {
+          "numero": "LA 4021",
+          "horario_partida": "19:00",
+          "horario_chegada": "21:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 456,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Paula Schmidt",
+          "data": "2023-12-20",
+          "nota": 10,
+          "comentario": "Clima romântico e chocolates divinos!",
+          "votos_uteis": 134
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/gramado1.jpg",
+        "https://exemplo.com/gramado2.jpg",
+        "https://exemplo.com/gramado3.jpg",
+        "https://exemplo.com/gramado4.jpg",
+        "https://exemplo.com/gramado5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelas fábricas de chocolate",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Mini Mundo",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar típico alemão",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 200
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "City tour",
+        "Transfer POA-Gramado"
+      ],
+      "tags": ["romântico", "chocolate", "serra", "nacional"],
+      "disponibilidade": {
+        "vagas": 22,
+        "datas_disponiveis": ["2024-06-20", "2024-07-30", "2024-12-01"]
+      }
+    },
+    {
+      "id": 29,
+      "ranking": 29,
+      "destino": {
+        "nome": "Las Vegas",
+        "pais": "EUA",
+        "continente": "América do Norte",
+        "descricao": "Capital do entretenimento com cassinos e shows world-class"
+      },
+      "preco": {
+        "total": 7800,
+        "moeda": "R$",
+        "parcelamento": "8x R$ 975,00",
+        "taxas_inclusas": true,
+        "desconto": 5
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel-cassino na Strip",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Bellagio Las Vegas",
+        "servicos": ["Wi-Fi", "Piscina", "Cassino", "Academia"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 21
+      },
+      "voos": {
+        "ida": {
+          "numero": "UA 821",
+          "horario_partida": "20:00",
+          "horario_chegada": "02:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "LAS - Las Vegas",
+          "escala": "Houston"
+        },
+        "volta": {
+          "numero": "UA 822",
+          "horario_partida": "23:45",
+          "horario_chegada": "13:30"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 389,
+        "estrelas": 5,
+        "destaque": "Muito Bom"
+      },
+      "reviews": [
+        {
+          "autor": "Michael Johnson",
+          "data": "2023-11-15",
+          "nota": 9,
+          "comentario": "Shows incríveis e energia única 24 horas!",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/vegas1.jpg",
+        "https://exemplo.com/vegas2.jpg",
+        "https://exemplo.com/vegas3.jpg",
+        "https://exemplo.com/vegas4.jpg",
+        "https://exemplo.com/vegas5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pela Las Vegas Strip",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Grand Canyon (opcional)",
+          "duracao": "12 horas",
+          "dificuldade": "Moderada",
+          "incluso": false,
+          "preco_extra": 650
+        },
+        {
+          "nome": "Show de circo no Bellagio",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 350
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Wi-Fi",
+        "Tour pela Strip",
+        "Transfer"
+      ],
+      "tags": ["entretenimento", "noite", "luxo", "cassino"],
+      "disponibilidade": {
+        "vagas": 28,
+        "datas_disponiveis": ["2024-04-12", "2024-07-25", "2024-10-18"]
+      }
+    },
+    {
+      "id": 30,
+      "ranking": 30,
+      "destino": {
+        "nome": "Punta Cana",
+        "pais": "República Dominicana",
+        "continente": "América do Norte",
+        "descricao": "Paraíso caribenho com resorts all-inclusive e praias de palmeiras"
+      },
+      "preco": {
+        "total": 8500,
+        "moeda": "R$",
+        "parcelamento": "10x R$ 850,00",
+        "taxas_inclusas": true,
+        "desconto": 18
+      },
+      "duracao": {
+        "dias": 7,
+        "noites": 6,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Resort All-Inclusive 5*",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Caribe Dreams Resort & SPA",
+        "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades aquáticas"]
+      },
+      "pessoas": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "ida": {
+          "numero": "AA 1234",
+          "horario_partida": "08:45",
+          "horario_chegada": "15:30",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "PUJ - Punta Cana",
+          "escala": "Miami"
+        },
+        "volta": {
+          "numero": "AA 1235",
+          "horario_partida": "17:00",
+          "horario_chegada": "06:45"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 278,
+        "estrelas": 5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Carlos Rodriguez",
+          "data": "2023-10-05",
+          "nota": 10,
+          "comentario": "Paraíso no Caribe! Serviço impecável e praias perfeitas.",
+          "votos_uteis": 98
+        }
+      ],
+      "imagens": [
+        "https://exemplo.com/puntacana1.jpg",
+        "https://exemplo.com/puntacana2.jpg",
+        "https://exemplo.com/puntacana3.jpg",
+        "https://exemplo.com/puntacana4.jpg",
+        "https://exemplo.com/puntacana5.jpg"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de catamarã com snorkel",
+          "duracao": "5 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à ilha Saona",
+          "duracao": "8 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Massagem romântica à beira-mar",
+          "duracao": "1 hora",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 320
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Resort all-inclusive",
+        "Bebidas premium",
+        "Atividades aquáticas",
+        "Entretenimento noturno"
+      ],
+      "tags": ["all-inclusive", "caribe", "praia", "romântico"],
+      "disponibilidade": {
+        "vagas": 15,
+        "datas_disponiveis": ["2024-03-28", "2024-06-14", "2024-11-20"]
+      }
+    }
+  ]
+}
