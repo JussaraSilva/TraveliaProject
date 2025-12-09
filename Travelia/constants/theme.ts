@@ -31,6 +31,7 @@ export const themeColors = {
     colorRed:'#f54336',
     colorGreen:'#4aaf57',
     starYellowColor:'#ff981f',
+    transparentColor: '#73a4bf',
     
     
   },
@@ -56,6 +57,7 @@ export const themeColors = {
     colorRed:'#f54336',
     colorGreen:'#4aaf57',
     starYellowColor:'#ff981f',
+    transparentColor: '#76acc7',
   },
 } as const;
 

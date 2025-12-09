@@ -13,6 +13,7 @@ import { Viajantes } from "./viajantes";
 export interface PacoteViagem {
   id:number;
   ranking:number;
+  nome_pacote: string;
   destino: Destino;
   preco: Preco;
   duracao: Duracao;
