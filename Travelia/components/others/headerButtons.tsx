@@ -44,6 +44,7 @@ const createStyles = (theme: ThemeName) =>
       alignItems: 'center',
       justifyContent: 'space-between',
       width: '100%',
+      paddingHorizontal: 10,
     },
 
     iconsHeader: {

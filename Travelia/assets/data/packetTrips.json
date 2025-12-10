@@ -34,10 +34,15 @@
         "idade_minima": 18
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "LATAM Airlines",
+          "logo": "https://download.logo.wine/logo/LATAM_Chile/LATAM_Chile-Logo.wine.png"
+        },
         "ida": {
           "numero": "LA 3456",
           "horario_partida": "22:30",
           "horario_chegada": "18:15",
+          "data_completa": "Sábado, 15 de Março de 2025",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "MLE - Malé",
           "escala": "Dubai"
@@ -45,7 +50,8 @@
         "volta": {
           "numero": "LA 3457",
           "horario_partida": "20:00",
-          "horario_chegada": "06:30"
+          "horario_chegada": "06:30",
+          "data_completa": "Sábado, 22 de Março de 2025"
         }
       },
       "avaliacao": {
@@ -145,10 +151,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Air France",
+          "logo": "https://logolook.net/wp-content/uploads/2021/01/Air-France-Logo-1998.png"
+        },
         "ida": {
           "numero": "AF 447",
           "horario_partida": "23:45",
           "horario_chegada": "14:20",
+          "data_completa": "Quinta-feira, 20 de Fevereiro de 2025",
           "aeroporto_origem": "GIG - Rio de Janeiro",
           "aeroporto_destino": "CDG - Paris",
           "escala": null
@@ -156,7 +167,8 @@
         "volta": {
           "numero": "AF 448",
           "horario_partida": "12:00",
-          "horario_chegada": "18:45"
+          "horario_chegada": "18:45",
+          "data_completa": "Terça-feira, 25 de Fevereiro de 2025"
         }
       },
       "avaliacao": {
@@ -249,10 +261,15 @@
         "idade_minima": 16
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "ITA Airways",
+          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+        },
         "ida": {
           "numero": "AZ 789",
           "horario_partida": "21:15",
           "horario_chegada": "13:45",
+          "data_completa": "Segunda-feira, 10 de Junho de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "JTR - Santorini",
           "escala": "Atenas"
@@ -260,7 +277,8 @@
         "volta": {
           "numero": "AZ 790",
           "horario_partida": "15:30",
-          "horario_chegada": "05:20"
+          "horario_chegada": "05:20",
+          "data_completa": "Domingo, 16 de Junho de 2024"
         }
       },
       "avaliacao": {
@@ -353,10 +371,15 @@
         "idade_minima": 12
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Japan Airlines",
+          "logo": "https://1000logos.net/wp-content/uploads/2021/04/Japan-Airlines-logo.png"
+        },
         "ida": {
           "numero": "JL 67",
           "horario_partida": "01:30",
           "horario_chegada": "05:00",
+          "data_completa": "Segunda-feira, 15 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "HND - Tóquio",
           "escala": "Los Angeles"
@@ -364,7 +387,8 @@
         "volta": {
           "numero": "JL 68",
           "horario_partida": "18:45",
-          "horario_chegada": "08:30"
+          "horario_chegada": "08:30",
+          "data_completa": "Quinta-feira, 25 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -457,10 +481,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "American Airlines",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/American_Airlines_logo_2013.svg/320px-American_Airlines_logo_2013.svg.png"
+        },
         "ida": {
           "numero": "AA 904",
           "horario_partida": "22:00",
           "horario_chegada": "06:30",
+          "data_completa": "Segunda-feira, 25 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "JFK - Nova York",
           "escala": null
@@ -468,7 +497,8 @@
         "volta": {
           "numero": "AA 905",
           "horario_partida": "20:15",
-          "horario_chegada": "07:45"
+          "horario_chegada": "07:45",
+          "data_completa": "Segunda-feira, 01 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -561,10 +591,15 @@
         "idade_minima": 12
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "LATAM Airlines",
+          "logo": "https://download.logo.wine/logo/LATAM_Chile/LATAM_Chile-Logo.wine.png"
+        },
         "ida": {
           "numero": "LA 2345",
           "horario_partida": "08:00",
           "horario_chegada": "10:30",
+          "data_completa": "Sexta-feira, 05 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "CUZ - Cusco",
           "escala": "Lima"
@@ -572,7 +607,8 @@
         "volta": {
           "numero": "LA 2346",
           "horario_partida": "11:45",
-          "horario_chegada": "16:20"
+          "horario_chegada": "16:20",
+          "data_completa": "Terça-feira, 09 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -665,10 +701,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Qantas Airways",
+          "logo": "https://logos-world.net/wp-content/uploads/2023/01/Qantas-Logo.png"
+        },
         "ida": {
           "numero": "QF 12",
           "horario_partida": "22:45",
           "horario_chegada": "08:30",
+          "data_completa": "Sábado, 20 de Janeiro de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "SYD - Sydney",
           "escala": "Santiago"
@@ -676,7 +717,8 @@
         "volta": {
           "numero": "QF 11",
           "horario_partida": "11:00",
-          "horario_chegada": "14:30"
+          "horario_chegada": "14:30",
+          "data_completa": "Quarta-feira, 31 de Janeiro de 2024"
         }
       },
       "avaliacao": {
@@ -769,10 +811,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Iberia",
+          "logo": "https://download.logo.wine/logo/Iberia_(airline)/Iberia_(airline)-Logo.wine.png"
+        },
         "ida": {
           "numero": "IB 6825",
           "horario_partida": "20:30",
           "horario_chegada": "10:45",
+          "data_completa": "Quinta-feira, 18 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "BCN - Barcelona",
           "escala": "Madrid"
@@ -780,7 +827,8 @@
         "volta": {
           "numero": "IB 6826",
           "horario_partida": "13:20",
-          "horario_chegada": "00:45"
+          "horario_chegada": "00:45",
+          "data_completa": "Quarta-feira, 24 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -839,118 +887,124 @@
         "datas_disponiveis": ["2024-04-18", "2024-06-05", "2024-09-20"]
       }
     },
-{
-  "id": 9,
-  "ranking": 9,
-  "nome_pacote": "Rio Maravilhoso: 5 Dias de Praia e Paisagens",
-  "destino": {
-    "nome": "Rio de Janeiro",
-    "pais": "Brasil",
-    "continente": "América do Sul",
-    "descricao": "Cidade maravilhosa com praias famosas e Cristo Redentor"
-  },
-  "preco": {
-    "total": 3200.00,
-    "moeda": "BRL",
-    "parcelamento": "4x R$ 800,00",
-    "taxas_inclusas": true,
-    "desconto": 20
-  },
-  "duracao": {
-    "dias": 5,
-    "noites": 4,
-    "temporada": "Alta"
-  },
-  "acomodacao": {
-    "tipo": "Hotel em Copacabana",
-    "categoria": "4 estrelas",
-    "nome_hotel": "Windsor Palace Copacabana",
-    "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia", "Restaurante"]
-  },
-  "viajantes": {
-    "quantidade": 2,
-    "tipo": "Casal",
-    "idade_minima": 0
-  },
-  "voos": {
-    "ida": {
-      "numero": "G3 1501",
-      "horario_partida": "08:30",
-      "horario_chegada": "10:45",
-      "aeroporto_origem": "GRU - São Paulo",
-      "aeroporto_destino": "SDU - Santos Dumont",
-      "escala": null
+    {
+      "id": 9,
+      "ranking": 9,
+      "nome_pacote": "Rio Maravilhoso: 5 Dias de Praia e Paisagens",
+      "destino": {
+        "nome": "Rio de Janeiro",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Cidade maravilhosa com praias famosas e Cristo Redentor"
+      },
+      "preco": {
+        "total": 3200.00,
+        "moeda": "BRL",
+        "parcelamento": "4x R$ 800,00",
+        "taxas_inclusas": true,
+        "desconto": 20
+      },
+      "duracao": {
+        "dias": 5,
+        "noites": 4,
+        "temporada": "Alta"
+      },
+      "acomodacao": {
+        "tipo": "Hotel em Copacabana",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Windsor Palace Copacabana",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia", "Restaurante"]
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "companhia_aerea": {
+          "nome": "Gol Linhas Aéreas",
+          "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
+        },
+        "ida": {
+          "numero": "G3 1501",
+          "horario_partida": "08:30",
+          "horario_chegada": "10:45",
+          "data_completa": "Sábado, 10 de Fevereiro de 2024",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "SDU - Santos Dumont",
+          "escala": null
+        },
+        "volta": {
+          "numero": "G3 1502",
+          "horario_partida": "19:15",
+          "horario_chegada": "21:30",
+          "data_completa": "Quarta-feira, 14 de Fevereiro de 2024"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 856,
+        "estrelas": 4.8,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Pedro Costa",
+          "data": "2023-12-20",
+          "nota": 10,
+          "comentario": "Vista do Cristo Redentor é de tirar o fôlego!",
+          "votos_uteis": 124
+        },
+        {
+          "autor": "Juliana Ribeiro",
+          "data": "2023-11-15",
+          "nota": 9,
+          "comentario": "Hotel bem localizado e praias lindas. Só o calor que estava intenso.",
+          "votos_uteis": 89
+        }
+      ],
+      "imagens": [
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1581617469280-073b8c3c8e8b?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1564501049418-3c27787d01e8?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio ao Cristo Redentor",
+          "duracao": "4 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour pelo Pão de Açúcar",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco pela Baía de Guanabara",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 280.00
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Transfer aeroporto-hotel",
+        "Ingresso Cristo Redentor",
+        "Ingresso Pão de Açúcar"
+      ],
+      "tags": ["praia", "cidade", "nacional", "paisagem", "cultura"],
+      "disponibilidade": {
+        "vagas": 25,
+        "datas_disponiveis": ["2024-02-10", "2024-03-25", "2024-07-15", "2024-12-20"]
+      }
     },
-    "volta": {
-      "numero": "G3 1502",
-      "horario_partida": "19:15",
-      "horario_chegada": "21:30"
-    }
-  },
-  "avaliacao": {
-    "pontuacao": 9.6,
-    "total_avaliacoes": 856,
-    "estrelas": 4.8,
-    "destaque": "Excelente"
-  },
-  "reviews": [
-    {
-      "autor": "Pedro Costa",
-      "data": "2023-12-20",
-      "nota": 10,
-      "comentario": "Vista do Cristo Redentor é de tirar o fôlego!",
-      "votos_uteis": 124
-    },
-    {
-      "autor": "Juliana Ribeiro",
-      "data": "2023-11-15",
-      "nota": 9,
-      "comentario": "Hotel bem localizado e praias lindas. Só o calor que estava intenso.",
-      "votos_uteis": 89
-    }
-  ],
-  "imagens": [
-    "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1200&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1581617469280-073b8c3c8e8b?w=1200&auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1564501049418-3c27787d01e8?w=1200&auto=format&fit=crop&q=80"
-  ],
-  "atividades": [
-    {
-      "nome": "Passeio ao Cristo Redentor",
-      "duracao": "4 horas",
-      "dificuldade": "Fácil",
-      "incluso": true
-    },
-    {
-      "nome": "Tour pelo Pão de Açúcar",
-      "duracao": "3 horas",
-      "dificuldade": "Fácil",
-      "incluso": true
-    },
-    {
-      "nome": "Passeio de barco pela Baía de Guanabara",
-      "duracao": "3 horas",
-      "dificuldade": "Fácil",
-      "incluso": false,
-      "preco_extra": 280.00
-    }
-  ],
-  "incluso": [
-    "Passagem aérea",
-    "Hospedagem",
-    "Café da manhã",
-    "Transfer aeroporto-hotel",
-    "Ingresso Cristo Redentor",
-    "Ingresso Pão de Açúcar"
-  ],
-  "tags": ["praia", "cidade", "nacional", "paisagem", "cultura"],
-  "disponibilidade": {
-    "vagas": 25,
-    "datas_disponiveis": ["2024-02-10", "2024-03-25", "2024-07-15", "2024-12-20"]
-  }
-  },
     {
       "id": 10,
       "ranking": 10,
@@ -985,10 +1039,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "British Airways",
+          "logo": "https://globalgoodawards.co.uk/wp-content/uploads/2020/01/british-airways-logo.png"
+        },
         "ida": {
           "numero": "BA 247",
           "horario_partida": "21:00",
           "horario_chegada": "11:30",
+          "data_completa": "Sexta-feira, 08 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "LHR - Londres",
           "escala": null
@@ -996,7 +1055,8 @@
         "volta": {
           "numero": "BA 246",
           "horario_partida": "14:00",
-          "horario_chegada": "02:30"
+          "horario_chegada": "02:30",
+          "data_completa": "Sexta-feira, 15 de Março de 2024"
         }
       },
       "avaliacao": {
@@ -1097,10 +1157,15 @@
         "idade_minima": 18
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Emirates",
+          "logo": "https://static.vecteezy.com/system/resources/previews/055/210/895/non_2x/emirates-logo-emirates-logo-transparent-emirates-logo-free-download-free-png.png"
+        },
         "ida": {
           "numero": "EK 262",
           "horario_partida": "23:45",
           "horario_chegada": "20:30",
+          "data_completa": "Quarta-feira, 28 de Fevereiro de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "DXB - Dubai",
           "escala": null
@@ -1108,7 +1173,8 @@
         "volta": {
           "numero": "EK 263",
           "horario_partida": "03:30",
-          "horario_chegada": "12:15"
+          "horario_chegada": "12:15",
+          "data_completa": "Quinta-feira, 07 de Março de 2024"
         }
       },
       "avaliacao": {
@@ -1209,10 +1275,15 @@
         "idade_minima": 12
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Gol Linhas Aéreas",
+          "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
+        },
         "ida": {
           "numero": "G3 1750",
           "horario_partida": "06:00",
           "horario_chegada": "10:30",
+          "data_completa": "Terça-feira, 05 de Março de 2024",
           "aeroporto_origem": "REC - Recife",
           "aeroporto_destino": "FEN - Fernando de Noronha",
           "escala": null
@@ -1220,7 +1291,8 @@
         "volta": {
           "numero": "G3 1751",
           "horario_partida": "11:30",
-          "horario_chegada": "16:00"
+          "horario_chegada": "16:00",
+          "data_completa": "Domingo, 10 de Março de 2024"
         }
       },
       "avaliacao": {
@@ -1321,10 +1393,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "ITA Airways",
+          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+        },
         "ida": {
           "numero": "AZ 680",
           "horario_partida": "20:15",
           "horario_chegada": "12:30",
+          "data_completa": "Quarta-feira, 10 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "FCO - Roma",
           "escala": null
@@ -1332,7 +1409,8 @@
         "volta": {
           "numero": "AZ 681",
           "horario_partida": "14:00",
-          "horario_chegada": "04:45"
+          "horario_chegada": "04:45",
+          "data_completa": "Terça-feira, 16 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -1433,10 +1511,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Aeroméxico",
+          "logo": "https://logodownload.org/wp-content/uploads/2019/09/aeromexico-logo-0.png"
+        },
         "ida": {
           "numero": "AM 532",
           "horario_partida": "09:30",
           "horario_chegada": "15:45",
+          "data_completa": "Terça-feira, 12 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "CUN - Cancún",
           "escala": "Cidade do México"
@@ -1444,7 +1527,8 @@
         "volta": {
           "numero": "AM 533",
           "horario_partida": "17:30",
-          "horario_chegada": "05:15"
+          "horario_chegada": "05:15",
+          "data_completa": "Terça-feira, 19 de Março de 2024"
         }
       },
       "avaliacao": {
@@ -1545,10 +1629,15 @@
         "idade_minima": 18
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "KLM",
+          "logo": "https://logos-world.net/wp-content/uploads/2023/01/KLM-Logo.png"
+        },
         "ida": {
           "numero": "KL 792",
           "horario_partida": "22:00",
           "horario_chegada": "13:45",
+          "data_completa": "Quarta-feira, 08 de Maio de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "AMS - Amsterdã",
           "escala": null
@@ -1556,7 +1645,8 @@
         "volta": {
           "numero": "KL 793",
           "horario_partida": "15:30",
-          "horario_chegada": "05:20"
+          "horario_chegada": "05:20",
+          "data_completa": "Segunda-feira, 13 de Maio de 2024"
         }
       },
       "avaliacao": {
@@ -1610,7 +1700,7 @@
         }
       ],
       "incluso": [
-        "Passagem aérea KLM",
+        "Passagem aárea KLM",
         "Hospedagem em hotel boutique",
         "Café da manhã típico",
         "Passeio de barco pelos canais",
@@ -1657,10 +1747,15 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "TAP Air Portugal",
+          "logo": "https://logolook.net/wp-content/uploads/2021/01/Air-France-Logo-1998.png"
+        },
         "ida": {
           "numero": "TP 17",
           "horario_partida": "20:45",
           "horario_chegada": "09:30",
+          "data_completa": "Sábado, 20 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "LIS - Lisboa",
           "escala": null
@@ -1668,7 +1763,8 @@
         "volta": {
           "numero": "TP 18",
           "horario_partida": "12:00",
-          "horario_chegada": "19:45"
+          "horario_chegada": "19:45",
+          "data_completa": "Sexta-feira, 26 de Abril de 2024"
         }
       },
       "avaliacao": {
@@ -1735,7 +1831,6 @@
         "datas_disponiveis": ["2024-04-20", "2024-06-10", "2024-10-05", "2025-02-15"]
       }
     },
-    
     {
       "id": 17,
       "ranking": 17,
@@ -1770,6 +1865,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Aerolíneas Argentinas",
+          "logo": "https://iconlogovector.com/uploads/images/2024/11/lg-673904ea9fb05-Aerolineas-Argentinas.webp"
+        },
         "ida": {
           "numero": "AR 1240",
           "horario_partida": "08:00",
@@ -1874,6 +1973,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Thai Airways",
+          "logo": "https://download.logo.wine/logo/Thai_Airways/Thai_Airways-Logo.wine.png"
+        },
         "ida": {
           "numero": "TG 925",
           "horario_partida": "01:00",
@@ -1978,6 +2081,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "ITA Airways",
+          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+        },
         "ida": {
           "numero": "AZ 712",
           "horario_partida": "19:30",
@@ -2082,6 +2189,10 @@
         "idade_minima": 12
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "EgyptAir",
+          "logo": "https://image.similarpng.com/file/similarpng/original-picture/2020/06/Logo-egypt-air-download-free-PNG.png"
+        },
         "ida": {
           "numero": "MS 866",
           "horario_partida": "18:00",
@@ -2186,6 +2297,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "LATAM Airlines",
+          "logo": "https://download.logo.wine/logo/LATAM_Chile/LATAM_Chile-Logo.wine.png"
+        },
         "ida": {
           "numero": "LA 3550",
           "horario_partida": "16:00",
@@ -2290,6 +2405,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Air Canada",
+          "logo": "https://logos-world.net/wp-content/uploads/2021/05/Air-Canada-Logo.png"
+        },
         "ida": {
           "numero": "AC 82",
           "horario_partida": "22:15",
@@ -2321,9 +2440,7 @@
       ],
       "imagens": [
         "https://images.unsplash.com/photo-1647655806923-e8202f4f2b8c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmFuY291dmVyJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D",
-
         "https://images.squarespace-cdn.com/content/v1/574512d92eeb81676262d877/1676605940800-7PZ43RLWG8CC6IFU678J/2023-Vancouver-Aerial-Skyline-Photography-Copyright-Photographer-Ian-Kobylanski-33.jpg",
-
         "https://images.unsplash.com/photo-1544161513-0179fe746fd5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHZhbmNvdXZlcnxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1559401001-0d9b6c7a3d0b?w=1200&auto=format&fit=crop&q=80",
         "https://images.unsplash.com/photo-1559401001-0d9b6c7a3d0b?w=1200&auto=format&fit=crop&q=80"
@@ -2396,6 +2513,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "LATAM Airlines",
+          "logo": "https://download.logo.wine/logo/LATAM_Chile/LATAM_Chile-Logo.wine.png"
+        },
         "ida": {
           "numero": "LA 601",
           "horario_partida": "09:30",
@@ -2500,6 +2621,10 @@
         "idade_minima": 12
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Gol Linhas Aéreas",
+          "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
+        },
         "ida": {
           "numero": "G3 1620",
           "horario_partida": "06:30",
@@ -2604,6 +2729,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Turkish Airlines",
+          "logo": "https://logodownload.org/wp-content/uploads/2020/03/turkish-airlines-logo-0.png"
+        },
         "ida": {
           "numero": "TK 16",
           "horario_partida": "19:45",
@@ -2708,6 +2837,10 @@
         "idade_minima": 21
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "American Airlines",
+          "logo": "https://s202.q4cdn.com/986123435/files/doc_downloads/logos/american-airlines/THUMB-aa_aa__ahz_4cp_grd_pos-(1).png"
+        },
         "ida": {
           "numero": "AA 904",
           "horario_partida": "22:30",
@@ -2812,6 +2945,10 @@
         "idade_minima": 16
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "Thai Airways",
+          "logo": "https://download.logo.wine/logo/Thai_Airways/Thai_Airways-Logo.wine.png"
+        },
         "ida": {
           "numero": "TG 925",
           "horario_partida": "01:00",
@@ -2916,6 +3053,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "LATAM Airlines",
+          "logo": "https://download.logo.wine/logo/LATAM_Chile/LATAM_Chile-Logo.wine.png"
+        },
         "ida": {
           "numero": "LA 4020",
           "horario_partida": "08:00",
@@ -3020,6 +3161,10 @@
         "idade_minima": 21
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "United Airlines",
+          "logo": "https://logoeps.com/wp-content/uploads/2012/12/united-airlines-logo-vector.png"
+        },
         "ida": {
           "numero": "UA 821",
           "horario_partida": "20:00",
@@ -3125,6 +3270,10 @@
         "idade_minima": 0
       },
       "voos": {
+        "companhia_aerea": {
+          "nome": "American Airlines",
+          "logo": "https://s202.q4cdn.com/986123435/files/doc_downloads/logos/american-airlines/THUMB-aa_aa__ahz_4cp_grd_pos-(1).png"
+        },
         "ida": {
           "numero": "AA 1234",
           "horario_partida": "08:45",
