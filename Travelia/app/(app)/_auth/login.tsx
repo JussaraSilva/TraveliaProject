@@ -3,7 +3,7 @@ import { View, StyleSheet, TouchableOpacity, Text } from "react-native"
 import { useMemo, useState } from "react";
 
 import { themeColors, ThemeName } from "@/constants/theme"
-import { useTheme } from '../../context/themeProvider'; // 
+import { useTheme } from '../../../context/themeProvider'; // 
 import {  AppleLogoIcon, ArrowLeftIcon,  EnvelopeSimpleIcon, EyeClosedIcon, FacebookLogoIcon, GoogleLogoIcon, LockSimpleIcon, XLogoIcon} from "phosphor-react-native";
 import { InputLogin } from "@/components/inputs/inputLogin";
 import CustomCheckbox from "@/components/others/customCheckbox";
@@ -49,7 +49,7 @@ export default function Login() {
               Welcome Back
           </Text>
           <Text style={styles.textSubTop}>
-              Let´s pick up where you left off.
+              Lets pick up where you left off.
           </Text>
       </View>
 

@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { View, StyleSheet, Text } from "react-native"
 
 import { themeColors, ThemeName } from "@/constants/theme"
-import { useTheme } from '../../context/themeProvider'; // 
+import { useTheme } from '../../../context/themeProvider'; // 
 import { LoginOption } from "@/components/buttons/loginOption";
 import { AppleLogoIcon, FacebookLogoIcon, GoogleLogoIcon, HandTapIcon,SignInIcon,  XLogoIcon } from "phosphor-react-native";
 import { router } from "expo-router";
@@ -15,7 +15,7 @@ export default function Welcome() {
   const styles = useMemo(() => createStyles(theme), [theme]);
 
   const handleLogin = () => {
-    router.navigate('/_auth/login');
+    router.navigate('/(app)/_auth/login');
   }
 
 
@@ -31,8 +31,8 @@ export default function Welcome() {
             />
         </View>
         <View style = {styles.textHeaderContainer}>
-          <Text style={styles.textCall}>Let´s Get Started!</Text>
-          <Text style={styles.textSubCall}>Let´s Dive in your account</Text>
+          <Text style={styles.textCall}>Lets Get Started!</Text>
+          <Text style={styles.textSubCall}>Lets Dive in your account</Text>
         </View>      
       </View>
       <View style={styles.containerButtonsLogin}>
