@@ -1,4 +1,6 @@
+import AccomodationInfo from '@/components/cards/accomodationInfo';
 import FlightDepartReturn from '@/components/cards/flightDepartReturn';
+import DescriptionPacket from '@/components/list/descriptionPacket';
 import Gallery from '@/components/others/carouselPagination';
 import HeaderButtons from '@/components/others/headerButtons';
 import { RatingStars } from '@/components/reviews/ratingStars';
@@ -68,11 +70,20 @@ export default function Details() {
               <Text style={styles.textPais}>{pacoteObj.destino.pais}</Text>
             </View>
           </View>
+
+          <DescriptionPacket
+            descriptionPacket={pacoteObj.destino.descricao}
+            includeList={pacoteObj.incluso}
+          />
+          
+
+          
         </View>
         <View style={styles.containerInfoMiddle}>
           <View style={styles.containerInfoInclude}>
-            <Text style={styles.textInclude}>Included in the Package</Text>
-            
+              <Text style={styles.textInclude}>Included in the Package</Text>
+
+              <View style={styles.containerIncludeFlight}>
               <FlightDepartReturn
                 include="Flight"
                 direction="Departure"
@@ -99,8 +110,26 @@ export default function Details() {
                 escala={pacoteObj.voos.ida.escala}
                 name_airline={pacoteObj.voos.companhia_aerea.nome}
                 logo_airline={pacoteObj.voos.companhia_aerea.logo}
-                
               />
+              </View>
+
+              <View style={styles.containerIncludeAccomodation}>
+                <AccomodationInfo
+                  include="Accommodation"
+                  includeStyle={styles.accomodation}
+                  checkIn={pacoteObj.estadia.checkin}
+                  checkOut={pacoteObj.estadia.checkout}
+                  noites={pacoteObj.estadia.noites}
+                  name_hotel={pacoteObj.acomodacao.nome_hotel}
+                  categoria_hotel={pacoteObj.acomodacao.categoria}
+                  nameCity={pacoteObj.destino.nome}
+                  nameCountry={pacoteObj.destino.pais}
+                  imagemHotel={pacoteObj.acomodacao.imagem_hotel}
+                />
+              </View>
+            
+              
+
           </View>
         </View>
       </ScrollView>
@@ -119,9 +148,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerScroll: {
-      
       backgroundColor: themeColors[theme].backgroundCard,
-      
     },
 
     containerInfoPacoteTop: {
@@ -200,6 +227,8 @@ const createStyles = (theme: ThemeName) =>
       color: themeColors[theme].textPrimary,
     },
 
+    
+
     containerInfoMiddle: {
       flexDirection: 'column',
       width: '100%',
@@ -215,6 +244,20 @@ const createStyles = (theme: ThemeName) =>
       paddingHorizontal: 12,
     },
 
+    containerIncludeFlight: {
+      flexDirection: 'column',
+      marginTop: 5,
+      width: '100%',
+      paddingHorizontal: 12,
+    },
+
+    containerIncludeAccomodation: {
+      flexDirection: 'column',
+      marginTop: 5,
+      width: '100%',
+      paddingHorizontal: 12,
+    },
+
     textInclude: {
       fontSize: 20,
       fontWeight: 'bold',
@@ -223,5 +266,11 @@ const createStyles = (theme: ThemeName) =>
 
     flightReturn: {
       backgroundColor: "transparent",
-    }
+    },
+
+    accomodation: {
+      backgroundColor: themeColors[theme].colorRed,
+    },
+
+
   });

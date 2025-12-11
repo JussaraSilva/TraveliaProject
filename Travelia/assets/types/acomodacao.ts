@@ -3,4 +3,5 @@ export interface Acomodacao {
   categoria: string;
   nome_hotel: string;
   servicos: string[];
+  imagem_hotel: string;
 }

@@ -6,6 +6,7 @@ import { Destino } from "./destino";
 import { Duracao } from "./duracao";
 import { Preco } from "./preco";
 import { Viajantes } from "./viajantes";
+import { Estadia } from './estadia';
 
 
 
@@ -22,6 +23,7 @@ export interface PacoteViagem {
     datas_disponiveis: string[]
   }
   acomodacao: Acomodacao;
+  estadia:Estadia;
   atividades: Atividades[];
   avaliacao: Avaliacao; // Inclui (reviews)
   viajantes: Viajantes;

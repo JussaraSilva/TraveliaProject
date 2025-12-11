@@ -22,11 +22,17 @@
         "noites": 6,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sábado, 15 de Março de 2025",
+        "checkout": "Sábado, 22 de Março de 2025",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Bangalô Overwater",
         "categoria": "5 estrelas",
         "nome_hotel": "Luxury Water Villa Resort",
-        "servicos": ["Café da manhã", "Wi-Fi", "SPA"]
+        "servicos": ["Café da manhã", "Wi-Fi", "SPA"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -51,7 +57,10 @@
           "numero": "LA 3457",
           "horario_partida": "20:00",
           "horario_chegada": "06:30",
-          "data_completa": "Sábado, 22 de Março de 2025"
+          "data_completa": "Sábado, 22 de Março de 2025",
+          "aeroporto_origem": "MLE - Malé",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Dubai"
         }
       },
       "avaliacao": {
@@ -91,7 +100,7 @@
           "incluso": true
         },
         {
-          "nome": "Passeio de barco atardecer",
+          "nome": "Passeio de barco ao entardecer",
           "duracao": "2 horas",
           "dificuldade": "Fácil",
           "incluso": true
@@ -114,7 +123,7 @@
       "tags": ["tropical", "luxo", "praia", "romântico", "lua-de-mel"],
       "disponibilidade": {
         "vagas": 8,
-        "datas_disponiveis": ["2024-03-15", "2024-04-10", "2024-05-05"]
+        "datas_disponiveis": ["2025-03-15", "2025-04-10", "2025-05-05"]
       }
     },
     {
@@ -139,13 +148,19 @@
         "noites": 4,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Quinta-feira, 20 de Fevereiro de 2025",
+        "checkout": "Terça-feira, 25 de Fevereiro de 2025",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Hotel Boutique",
         "categoria": "4 estrelas",
         "nome_hotel": "Le Marais Charm",
-        "servicos": ["Café da manhã", "Wi-Fi", "Recepção 24h"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Recepção 24h"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -168,7 +183,10 @@
           "numero": "AF 448",
           "horario_partida": "12:00",
           "horario_chegada": "18:45",
-          "data_completa": "Terça-feira, 25 de Fevereiro de 2025"
+          "data_completa": "Terça-feira, 25 de Fevereiro de 2025",
+          "aeroporto_origem": "CDG - Paris",
+          "aeroporto_destino": "GIG - Rio de Janeiro",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -224,7 +242,7 @@
       "tags": ["cultura", "romântico", "história", "gastronomia"],
       "disponibilidade": {
         "vagas": 15,
-        "datas_disponiveis": ["2024-02-20", "2024-03-15", "2024-04-12"]
+        "datas_disponiveis": ["2025-02-20", "2025-03-15", "2025-04-12"]
       }
     },
     {
@@ -249,13 +267,19 @@
         "noites": 5,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Segunda-feira, 10 de Junho de 2024",
+        "checkout": "Domingo, 16 de Junho de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Hotel com vista para a caldeira",
         "categoria": "4 estrelas",
         "nome_hotel": "Caldera View Suites",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina infinita", "Transfer"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina infinita", "Transfer"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 16
@@ -278,7 +302,10 @@
           "numero": "AZ 790",
           "horario_partida": "15:30",
           "horario_chegada": "05:20",
-          "data_completa": "Domingo, 16 de Junho de 2024"
+          "data_completa": "Domingo, 16 de Junho de 2024",
+          "aeroporto_origem": "JTR - Santorini",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Atenas"
         }
       },
       "avaliacao": {
@@ -359,13 +386,19 @@
         "noites": 9,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Segunda-feira, 15 de Abril de 2024",
+        "checkout": "Quinta-feira, 25 de Abril de 2024",
+        "noites": 9
+      },
       "acomodacao": {
         "tipo": "Hotel de Negócios",
         "categoria": "4 estrelas",
         "nome_hotel": "Shinjuku Grand Hotel",
-        "servicos": ["Wi-Fi", "Café da manhã ocidental", "Business center"]
+        "servicos": ["Wi-Fi", "Café da manhã ocidental", "Business center"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 12
@@ -388,7 +421,10 @@
           "numero": "JL 68",
           "horario_partida": "18:45",
           "horario_chegada": "08:30",
-          "data_completa": "Quinta-feira, 25 de Abril de 2024"
+          "data_completa": "Quinta-feira, 25 de Abril de 2024",
+          "aeroporto_origem": "HND - Tóquio",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Los Angeles"
         }
       },
       "avaliacao": {
@@ -469,13 +505,19 @@
         "noites": 6,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Segunda-feira, 25 de Março de 2024",
+        "checkout": "Segunda-feira, 01 de Abril de 2024",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Hotel Times Square",
         "categoria": "3 estrelas",
         "nome_hotel": "Manhattan Central Hotel",
-        "servicos": ["Wi-Fi", "Café da manhã", "Fitness center"]
+        "servicos": ["Wi-Fi", "Café da manhã", "Fitness center"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -498,7 +540,10 @@
           "numero": "AA 905",
           "horario_partida": "20:15",
           "horario_chegada": "07:45",
-          "data_completa": "Segunda-feira, 01 de Abril de 2024"
+          "data_completa": "Segunda-feira, 01 de Abril de 2024",
+          "aeroporto_origem": "JFK - Nova York",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -579,13 +624,19 @@
         "noites": 4,
         "temporada": "Baixa"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 05 de Abril de 2024",
+        "checkout": "Terça-feira, 09 de Abril de 2024",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Hotel em Cusco",
         "categoria": "3 estrelas",
         "nome_hotel": "Andean Lodge Cusco",
-        "servicos": ["Café da manhã", "Wi-Fi", "Aquecimento"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Aquecimento"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Aventura",
         "idade_minima": 12
@@ -608,7 +659,10 @@
           "numero": "LA 2346",
           "horario_partida": "11:45",
           "horario_chegada": "16:20",
-          "data_completa": "Terça-feira, 09 de Abril de 2024"
+          "data_completa": "Terça-feira, 09 de Abril de 2024",
+          "aeroporto_origem": "CUZ - Cusco",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Lima"
         }
       },
       "avaliacao": {
@@ -678,7 +732,7 @@
         "descricao": "Cidade costeira famosa pela Opera House e praias"
       },
       "preco": {
-        "total": 14800.00,
+        "total": 14800.0,
         "moeda": "BRL",
         "parcelamento": "10x R$ 1.480,00",
         "taxas_inclusas": true,
@@ -689,13 +743,19 @@
         "noites": 11,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sábado, 20 de Janeiro de 2024",
+        "checkout": "Quarta-feira, 31 de Janeiro de 2024",
+        "noites": 11
+      },
       "acomodacao": {
         "tipo": "Hotel com vista para o porto",
         "categoria": "4 estrelas",
         "nome_hotel": "Harbour View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -718,7 +778,10 @@
           "numero": "QF 11",
           "horario_partida": "11:00",
           "horario_chegada": "14:30",
-          "data_completa": "Quarta-feira, 31 de Janeiro de 2024"
+          "data_completa": "Quarta-feira, 31 de Janeiro de 2024",
+          "aeroporto_origem": "SYD - Sydney",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Santiago"
         }
       },
       "avaliacao": {
@@ -761,7 +824,7 @@
           "duracao": "3 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 420.00
+          "preco_extra": 420.0
         }
       ],
       "incluso": [
@@ -788,7 +851,7 @@
         "descricao": "Cidade de Gaudí, arquitetura única e vida noturna vibrante"
       },
       "preco": {
-        "total": 7600.00,
+        "total": 7600.0,
         "moeda": "BRL",
         "parcelamento": "10x R$ 760,00",
         "taxas_inclusas": true,
@@ -799,13 +862,19 @@
         "noites": 5,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Quinta-feira, 18 de Abril de 2024",
+        "checkout": "Quarta-feira, 24 de Abril de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Hotel em Las Ramblas",
         "categoria": "3 estrelas",
         "nome_hotel": "Ramblas Central Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Ar condicionado"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Ar condicionado"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -828,7 +897,10 @@
           "numero": "IB 6826",
           "horario_partida": "13:20",
           "horario_chegada": "00:45",
-          "data_completa": "Quarta-feira, 24 de Abril de 2024"
+          "data_completa": "Quarta-feira, 24 de Abril de 2024",
+          "aeroporto_origem": "BCN - Barcelona",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Madrid"
         }
       },
       "avaliacao": {
@@ -871,7 +943,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 250.00
+          "preco_extra": 250.0
         }
       ],
       "incluso": [
@@ -898,7 +970,7 @@
         "descricao": "Cidade maravilhosa com praias famosas e Cristo Redentor"
       },
       "preco": {
-        "total": 3200.00,
+        "total": 3200.0,
         "moeda": "BRL",
         "parcelamento": "4x R$ 800,00",
         "taxas_inclusas": true,
@@ -909,11 +981,17 @@
         "noites": 4,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sábado, 10 de Fevereiro de 2024",
+        "checkout": "Quarta-feira, 14 de Fevereiro de 2024",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Hotel em Copacabana",
         "categoria": "4 estrelas",
         "nome_hotel": "Windsor Palace Copacabana",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia", "Restaurante"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia", "Restaurante"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -938,7 +1016,10 @@
           "numero": "G3 1502",
           "horario_partida": "19:15",
           "horario_chegada": "21:30",
-          "data_completa": "Quarta-feira, 14 de Fevereiro de 2024"
+          "data_completa": "Quarta-feira, 14 de Fevereiro de 2024",
+          "aeroporto_origem": "SDU - Santos Dumont",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -988,7 +1069,7 @@
           "duracao": "3 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.00
+          "preco_extra": 280.0
         }
       ],
       "incluso": [
@@ -1016,7 +1097,7 @@
         "descricao": "Capital histórica com tradição real e modernidade"
       },
       "preco": {
-        "total": 9500.00,
+        "total": 9500.0,
         "moeda": "BRL",
         "parcelamento": "10x R$ 950,00",
         "taxas_inclusas": true,
@@ -1027,11 +1108,17 @@
         "noites": 6,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 08 de Março de 2024",
+        "checkout": "Sexta-feira, 15 de Março de 2024",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Hotel em Westminster",
         "categoria": "4 estrelas",
         "nome_hotel": "Big Ben View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Chá da tarde", "Recepção 24h"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Chá da tarde", "Recepção 24h"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1056,7 +1143,10 @@
           "numero": "BA 246",
           "horario_partida": "14:00",
           "horario_chegada": "02:30",
-          "data_completa": "Sexta-feira, 15 de Março de 2024"
+          "data_completa": "Sexta-feira, 15 de Março de 2024",
+          "aeroporto_origem": "LHR - Londres",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -1106,7 +1196,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 320.00
+          "preco_extra": 320.0
         }
       ],
       "incluso": [
@@ -1134,7 +1224,7 @@
         "descricao": "Cidade futurista com arranha-céus e luxo no deserto"
       },
       "preco": {
-        "total": 11200.00,
+        "total": 11200.0,
         "moeda": "BRL",
         "parcelamento": "8x R$ 1.400,00",
         "taxas_inclusas": true,
@@ -1145,11 +1235,17 @@
         "noites": 7,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Quarta-feira, 28 de Fevereiro de 2024",
+        "checkout": "Quinta-feira, 07 de Março de 2024",
+        "noites": 7
+      },
       "acomodacao": {
         "tipo": "Hotel 5 estrelas com vista para Burj Khalifa",
         "categoria": "5 estrelas",
         "nome_hotel": "Burj View Luxury Hotel",
-        "servicos": ["Café da manhã buffet", "Wi-Fi premium", "SPA completo", "Piscina infinita", "Academia"]
+        "servicos": ["Café da manhã buffet", "Wi-Fi premium", "SPA completo", "Piscina infinita", "Academia"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1174,7 +1270,10 @@
           "numero": "EK 263",
           "horario_partida": "03:30",
           "horario_chegada": "12:15",
-          "data_completa": "Quinta-feira, 07 de Março de 2024"
+          "data_completa": "Quinta-feira, 07 de Março de 2024",
+          "aeroporto_origem": "DXB - Dubai",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -1224,7 +1323,7 @@
           "duracao": "3 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 800.00
+          "preco_extra": 800.0
         }
       ],
       "incluso": [
@@ -1252,7 +1351,7 @@
         "descricao": "Arquipélago preservado com praias paradisíacas e vida marinha"
       },
       "preco": {
-        "total": 6800.00,
+        "total": 6800.0,
         "moeda": "BRL",
         "parcelamento": "6x R$ 1.133,33",
         "taxas_inclusas": true,
@@ -1263,11 +1362,17 @@
         "noites": 5,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Terça-feira, 05 de Março de 2024",
+        "checkout": "Domingo, 10 de Março de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Pousada ecológica",
         "categoria": "3 estrelas",
         "nome_hotel": "Pousada Maravilha",
-        "servicos": ["Café da manhã regional", "Wi-Fi", "Trilhas guiadas", "Informações turísticas"]
+        "servicos": ["Café da manhã regional", "Wi-Fi", "Trilhas guiadas", "Informações turísticas"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1292,7 +1397,10 @@
           "numero": "G3 1751",
           "horario_partida": "11:30",
           "horario_chegada": "16:00",
-          "data_completa": "Domingo, 10 de Março de 2024"
+          "data_completa": "Domingo, 10 de Março de 2024",
+          "aeroporto_origem": "FEN - Fernando de Noronha",
+          "aeroporto_destino": "REC - Recife",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -1342,7 +1450,7 @@
           "duracao": "2 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.00
+          "preco_extra": 280.0
         }
       ],
       "incluso": [
@@ -1370,7 +1478,7 @@
         "descricao": "Cidade eterna com história milenar e arte renascentista"
       },
       "preco": {
-        "total": 8300.00,
+        "total": 8300.0,
         "moeda": "BRL",
         "parcelamento": "10x R$ 830,00",
         "taxas_inclusas": true,
@@ -1381,11 +1489,17 @@
         "noites": 5,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Quarta-feira, 10 de Abril de 2024",
+        "checkout": "Terça-feira, 16 de Abril de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Hotel no centro histórico",
         "categoria": "3 estrelas",
         "nome_hotel": "Colosseum View Hotel",
-        "servicos": ["Café da manhã italiano", "Wi-Fi", "Ar condicionado", "Recepção bilíngue"]
+        "servicos": ["Café da manhã italiano", "Wi-Fi", "Ar condicionado", "Recepção bilíngue"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1410,7 +1524,10 @@
           "numero": "AZ 681",
           "horario_partida": "14:00",
           "horario_chegada": "04:45",
-          "data_completa": "Terça-feira, 16 de Abril de 2024"
+          "data_completa": "Terça-feira, 16 de Abril de 2024",
+          "aeroporto_origem": "FCO - Roma",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -1460,7 +1577,7 @@
           "duracao": "3 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 350.00
+          "preco_extra": 350.0
         }
       ],
       "incluso": [
@@ -1478,468 +1595,6 @@
       }
     },
     {
-      "id": 14,
-      "ranking": 14,
-      "nome_pacote": "Cancún Caribenho: 7 Dias All-Inclusive",
-      "destino": {
-        "nome": "Cancún",
-        "pais": "México",
-        "continente": "América do Norte",
-        "descricao": "Destino caribenho com praias de areia branca e resorts all-inclusive"
-      },
-      "preco": {
-        "total": 7200.00,
-        "moeda": "BRL",
-        "parcelamento": "8x R$ 900,00",
-        "taxas_inclusas": true,
-        "desconto": 20
-      },
-      "duracao": {
-        "dias": 7,
-        "noites": 6,
-        "temporada": "Alta"
-      },
-      "acomodacao": {
-        "tipo": "Resort All-Inclusive 5 estrelas",
-        "categoria": "5 estrelas",
-        "nome_hotel": "Caribe Paradise Resort",
-        "servicos": ["All-inclusive completo", "Wi-Fi", "SPA", "Atividades diárias", "Bebidas ilimitadas", "4 restaurantes"]
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "Aeroméxico",
-          "logo": "https://logodownload.org/wp-content/uploads/2019/09/aeromexico-logo-0.png"
-        },
-        "ida": {
-          "numero": "AM 532",
-          "horario_partida": "09:30",
-          "horario_chegada": "15:45",
-          "data_completa": "Terça-feira, 12 de Março de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "CUN - Cancún",
-          "escala": "Cidade do México"
-        },
-        "volta": {
-          "numero": "AM 533",
-          "horario_partida": "17:30",
-          "horario_chegada": "05:15",
-          "data_completa": "Terça-feira, 19 de Março de 2024"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.4,
-        "total_avaliacoes": 423,
-        "estrelas": 4.8,
-        "destaque": "Muito Bom"
-      },
-      "reviews": [
-        {
-          "autor": "Isabela Garcia",
-          "data": "2023-11-20",
-          "nota": 9,
-          "comentario": "Resort maravilhoso e comida excelente! As ruínas de Chichen Itzá são impressionantes.",
-          "votos_uteis": 78
-        },
-        {
-          "autor": "Rodrigo Santos",
-          "data": "2023-10-15",
-          "nota": 10,
-          "comentario": "Tudo incluso de verdade! Não gastei nada extra dentro do resort.",
-          "votos_uteis": 92
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1504814532849-cff240bbc503?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1513326738677-b964603b136d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Tour às ruínas de Chichen Itzá",
-          "duracao": "8 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Snorkel em Isla Mujeres",
-          "duracao": "5 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Nado com golfinhos",
-          "duracao": "2 horas",
-          "dificuldade": "Fácil",
-          "incluso": false,
-          "preco_extra": 450.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea com Aeroméxico",
-        "Hospedagem all-inclusive 5 estrelas",
-        "Todas as refeições",
-        "Bebidas alcoólicas e não alcoólicas",
-        "Atividades no resort",
-        "Transfer aeroporto-resort"
-      ],
-      "tags": ["all-inclusive", "praia", "ruínas", "família", "caribenho"],
-      "disponibilidade": {
-        "vagas": 16,
-        "datas_disponiveis": ["2024-03-12", "2024-07-08", "2024-12-01", "2025-01-20"]
-      }
-    },
-    {
-      "id": 15,
-      "ranking": 15,
-      "nome_pacote": "Amsterdã Encantadora: 5 Dias nos Canais",
-      "destino": {
-        "nome": "Amsterdã",
-        "pais": "Holanda",
-        "continente": "Europa",
-        "descricao": "Cidade dos canais, bicicletas, museus e cultura única"
-      },
-      "preco": {
-        "total": 7800.00,
-        "moeda": "BRL",
-        "parcelamento": "10x R$ 780,00",
-        "taxas_inclusas": true,
-        "desconto": 10
-      },
-      "duracao": {
-        "dias": 5,
-        "noites": 4,
-        "temporada": "Média"
-      },
-      "acomodacao": {
-        "tipo": "Hotel boutique à beira do canal",
-        "categoria": "4 estrelas",
-        "nome_hotel": "Canal House Hotel",
-        "servicos": ["Café da manhã holandês", "Wi-Fi", "Aluguel de bicicleta incluído", "Guia da cidade"]
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 18
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "KLM",
-          "logo": "https://logos-world.net/wp-content/uploads/2023/01/KLM-Logo.png"
-        },
-        "ida": {
-          "numero": "KL 792",
-          "horario_partida": "22:00",
-          "horario_chegada": "13:45",
-          "data_completa": "Quarta-feira, 08 de Maio de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "AMS - Amsterdã",
-          "escala": null
-        },
-        "volta": {
-          "numero": "KL 793",
-          "horario_partida": "15:30",
-          "horario_chegada": "05:20",
-          "data_completa": "Segunda-feira, 13 de Maio de 2024"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.3,
-        "total_avaliacoes": 289,
-        "estrelas": 4.8,
-        "destaque": "Muito Bom"
-      },
-      "reviews": [
-        {
-          "autor": "Lucas van Dijk",
-          "data": "2023-10-18",
-          "nota": 9,
-          "comentario": "Cidade encantadora, pedalar pelos canais é uma experiência única! O Van Gogh Museum é imperdível.",
-          "votos_uteis": 56
-        },
-        {
-          "autor": "Camila Fernandes",
-          "data": "2023-09-05",
-          "nota": 10,
-          "comentario": "Adorei a atmosfera liberal e os cafés aconchegantes. Voltaria amanhã!",
-          "votos_uteis": 78
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFtc3RlcmQlQzMlQTN8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1584003564911-a7a321c84e1c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1zdGVyZCVDMyVBM3xlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1576924542622-772281b13aa8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFtc3RlcmQlQzMlQTN8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1512476446319-0e6c3ead2c5b?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Passeio de barco pelos canais",
-          "duracao": "2 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Visita ao Museu Van Gogh",
-          "duracao": "3 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Tour pelos moinhos de vento de Zaanse Schans",
-          "duracao": "4 horas",
-          "dificuldade": "Fácil",
-          "incluso": false,
-          "preco_extra": 220.00
-        }
-      ],
-      "incluso": [
-        "Passagem aárea KLM",
-        "Hospedagem em hotel boutique",
-        "Café da manhã típico",
-        "Passeio de barco pelos canais",
-        "Bicicleta por 3 dias",
-        "Ingresso Van Gogh Museum"
-      ],
-      "tags": ["canais", "cultura", "bicicleta", "museus", "liberal"],
-      "disponibilidade": {
-        "vagas": 12,
-        "datas_disponiveis": ["2024-05-08", "2024-07-22", "2024-09-30", "2025-03-15"]
-      }
-    },
-    {
-      "id": 16,
-      "ranking": 16,
-      "nome_pacote": "Lisboa Charmosa: 6 Dias nas Sete Colinas",
-      "destino": {
-        "nome": "Lisboa",
-        "pais": "Portugal",
-        "continente": "Europa",
-        "descricao": "Cidade das sete colinas com charme, história e vistas deslumbrantes"
-      },
-      "preco": {
-        "total": 6500.00,
-        "moeda": "BRL",
-        "parcelamento": "8x R$ 812,50",
-        "taxas_inclusas": true,
-        "desconto": 15
-      },
-      "duracao": {
-        "dias": 6,
-        "noites": 5,
-        "temporada": "Média"
-      },
-      "acomodacao": {
-        "tipo": "Hotel charmoso em Alfama",
-        "categoria": "3 estrelas",
-        "nome_hotel": "Alfama Charm Hotel",
-        "servicos": ["Café da manhã português", "Wi-Fi", "Vista para o rio Tejo", "Informações turísticas"]
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "TAP Air Portugal",
-          "logo": "https://logolook.net/wp-content/uploads/2021/01/Air-France-Logo-1998.png"
-        },
-        "ida": {
-          "numero": "TP 17",
-          "horario_partida": "20:45",
-          "horario_chegada": "09:30",
-          "data_completa": "Sábado, 20 de Abril de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "LIS - Lisboa",
-          "escala": null
-        },
-        "volta": {
-          "numero": "TP 18",
-          "horario_partida": "12:00",
-          "horario_chegada": "19:45",
-          "data_completa": "Sexta-feira, 26 de Abril de 2024"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.5,
-        "total_avaliacoes": 345,
-        "estrelas": 5.0,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "autor": "António Silva",
-          "data": "2023-11-05",
-          "nota": 10,
-          "comentario": "Pastéis de Belém são divinos! A vista do Castelo de São Jorge é inesquecível.",
-          "votos_uteis": 89
-        },
-        {
-          "autor": "Mariana Costa",
-          "data": "2023-10-12",
-          "nota": 9,
-          "comentario": "Cidade acolhedora e barata comparada a outras capitais europeias. As colinas cansam, mas valem a pena!",
-          "votos_uteis": 67
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1585208798174-7afe72dc0fbb?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1585208798174-7afe72dc0fbb?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Tour pelo bairro de Belém",
-          "duracao": "4 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Passeio de eléctrico 28 histórico",
-          "duracao": "2 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Jantar com fado tradicional",
-          "duracao": "3 horas",
-          "dificuldade": "Nenhuma",
-          "incluso": false,
-          "preco_extra": 280.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea TAP Portugal",
-        "Hospedagem em Alfama",
-        "Café da manhã típico",
-        "City tour pelas colinas",
-        "Passeio de eléctrico",
-        "Transfer aeroporto"
-      ],
-      "tags": ["história", "gastronomia", "vistas", "cultura", "fado"],
-      "disponibilidade": {
-        "vagas": 18,
-        "datas_disponiveis": ["2024-04-20", "2024-06-10", "2024-10-05", "2025-02-15"]
-      }
-    },
-    {
-      "id": 17,
-      "ranking": 17,
-      "nome_pacote": "Tango & Carne: 4 Dias de Imersão Portenha em Buenos Aires",
-      "destino": {
-        "nome": "Buenos Aires",
-        "pais": "Argentina",
-        "continente": "América do Sul",
-        "descricao": "Paris da América do Sul com tango e cultura vibrante"
-      },
-      "preco": {
-        "total": 3800,
-        "moeda": "BRL",
-        "parcelamento": "4x R$ 950,00",
-        "taxas_inclusas": true,
-        "desconto": 25
-      },
-      "duracao": {
-        "dias": 4,
-        "noites": 3,
-        "temporada": "Baixa"
-      },
-      "acomodacao": {
-        "tipo": "Hotel em Recoleta",
-        "categoria": "4 estrelas",
-        "nome_hotel": "Recoleta Grand Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia"]
-      },
-      "pessoas": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "Aerolíneas Argentinas",
-          "logo": "https://iconlogovector.com/uploads/images/2024/11/lg-673904ea9fb05-Aerolineas-Argentinas.webp"
-        },
-        "ida": {
-          "numero": "AR 1240",
-          "horario_partida": "08:00",
-          "horario_chegada": "11:30",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "EZE - Buenos Aires",
-          "escala": null
-        },
-        "volta": {
-          "numero": "AR 1241",
-          "horario_partida": "19:00",
-          "horario_chegada": "22:30"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.2,
-        "total_avaliacoes": 456,
-        "estrelas": 3.9,
-        "destaque": "Muito Bom"
-      },
-      "reviews": [
-        {
-          "autor": "Diego Pérez",
-          "data": "2023-12-10",
-          "nota": 9,
-          "comentario": "Tango show inesquecível e carne excelente!",
-          "votos_uteis": 67
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVlbm9zJTIwYWlyZXMlMkMlMjBhcmdlbnRpbmF8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1679417302656-9b5170584526?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVlbm9zJTIwYWlyZXN8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1610135206707-0f03e4800631?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVlbm9zJTIwYWlyZXN8ZW58MHx8MHx8fDA%3D",
-        "https://images.unsplash.com/photo-1599580420608-4956e1e7e7c5?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1599580420608-4956e1e7e7c5?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Show de tango em San Telmo",
-          "duracao": "3 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Tour pelo bairro de La Boca",
-          "duracao": "3 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Jantar em steakhouse premium",
-          "duracao": "2 horas",
-          "dificuldade": "Nenhuma",
-          "incluso": false,
-          "preco_extra": 200
-        }
-      ],
-      "incluso": [
-        "Passagem aérea",
-        "Hospedagem",
-        "Café da manhã",
-        "City tour",
-        "Show de tango"
-      ],
-      "tags": ["tango", "gastronomia", "cultura", "economico"],
-      "disponibilidade": {
-        "vagas": 30,
-        "datas_disponiveis": ["2024-03-15", "2024-05-20", "2024-08-10"]
-      }
-    },
-    {
       "id": 18,
       "ranking": 18,
       "nome_pacote": "Paraíso Tailandês: 8 Dias em Phuket com Resort 5 Estrelas",
@@ -1952,7 +1607,7 @@
       "preco": {
         "total": 9200,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 920,00",
+        "parcelamento": "10x R$ 920.00",
         "taxas_inclusas": true,
         "desconto": 12
       },
@@ -1961,13 +1616,18 @@
         "noites": 7,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Domingo, 25 de Fevereiro de 2024",
+        "checkout": "Domingo, 03 de Março de 2024",
+        "noites": 7
+      },
       "acomodacao": {
         "tipo": "Resort à beira-mar",
         "categoria": "5 estrelas",
         "nome_hotel": "Andaman Sea Resort",
         "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -1981,6 +1641,7 @@
           "numero": "TG 925",
           "horario_partida": "01:00",
           "horario_chegada": "00:30",
+          "data_completa": "Domingo, 25 de Fevereiro de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "HKT - Phuket",
           "escala": "Bangkok"
@@ -1988,7 +1649,11 @@
         "volta": {
           "numero": "TG 926",
           "horario_partida": "03:00",
-          "horario_chegada": "09:45"
+          "horario_chegada": "09:45",
+          "data_completa": "Domingo, 03 de Março de 2024",
+          "aeroporto_origem": "HKT - Phuket",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Bangkok"
         }
       },
       "avaliacao": {
@@ -2060,7 +1725,7 @@
       "preco": {
         "total": 8900,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 890,00",
+        "parcelamento": "10x R$ 890.00",
         "taxas_inclusas": true,
         "desconto": 8
       },
@@ -2069,13 +1734,18 @@
         "noites": 3,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 05 de Abril de 2024",
+        "checkout": "Segunda-feira, 08 de Abril de 2024",
+        "noites": 3
+      },
       "acomodacao": {
         "tipo": "Hotel à beira do canal",
         "categoria": "4 estrelas",
         "nome_hotel": "Grand Canal Palace",
         "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -2089,6 +1759,7 @@
           "numero": "AZ 712",
           "horario_partida": "19:30",
           "horario_chegada": "10:15",
+          "data_completa": "Sexta-feira, 05 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "VCE - Veneza",
           "escala": "Roma"
@@ -2096,7 +1767,11 @@
         "volta": {
           "numero": "AZ 713",
           "horario_partida": "12:00",
-          "horario_chegada": "02:45"
+          "horario_chegada": "02:45",
+          "data_completa": "Segunda-feira, 08 de Abril de 2024",
+          "aeroporto_origem": "VCE - Veneza",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Roma"
         }
       },
       "avaliacao": {
@@ -2168,7 +1843,7 @@
       "preco": {
         "total": 7600,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 950,00",
+        "parcelamento": "8x R$ 950.00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -2177,13 +1852,18 @@
         "noites": 6,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 22 de Março de 2024",
+        "checkout": "Sexta-feira, 29 de Março de 2024",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Hotel com vista para as pirâmides",
         "categoria": "4 estrelas",
         "nome_hotel": "Pyramids View Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Transfer"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Aventura",
         "idade_minima": 12
@@ -2197,6 +1877,7 @@
           "numero": "MS 866",
           "horario_partida": "18:00",
           "horario_chegada": "12:30",
+          "data_completa": "Sexta-feira, 22 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "CAI - Cairo",
           "escala": "Paris"
@@ -2204,7 +1885,11 @@
         "volta": {
           "numero": "MS 867",
           "horario_partida": "02:00",
-          "horario_chegada": "11:45"
+          "horario_chegada": "11:45",
+          "data_completa": "Sexta-feira, 29 de Março de 2024",
+          "aeroporto_origem": "CAI - Cairo",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Paris"
         }
       },
       "avaliacao": {
@@ -2276,7 +1961,7 @@
       "preco": {
         "total": 2800,
         "moeda": "BRL",
-        "parcelamento": "3x R$ 933,33",
+        "parcelamento": "3x R$ 933.33",
         "taxas_inclusas": true,
         "desconto": 30
       },
@@ -2285,13 +1970,18 @@
         "noites": 2,
         "temporada": "Baixa"
       },
+      "estadia": {
+        "checkin": "Segunda-feira, 05 de Fevereiro de 2024",
+        "checkout": "Quarta-feira, 07 de Fevereiro de 2024",
+        "noites": 2
+      },
       "acomodacao": {
         "tipo": "Hotel na Avenida Paulista",
         "categoria": "4 estrelas",
         "nome_hotel": "Paulista Business Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Business center"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -2305,6 +1995,7 @@
           "numero": "LA 3550",
           "horario_partida": "16:00",
           "horario_chegada": "17:30",
+          "data_completa": "Segunda-feira, 05 de Fevereiro de 2024",
           "aeroporto_origem": "GIG - Rio de Janeiro",
           "aeroporto_destino": "GRU - São Paulo",
           "escala": null
@@ -2312,7 +2003,11 @@
         "volta": {
           "numero": "LA 3551",
           "horario_partida": "20:00",
-          "horario_chegada": "21:30"
+          "horario_chegada": "21:30",
+          "data_completa": "Quarta-feira, 07 de Fevereiro de 2024",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "GIG - Rio de Janeiro",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -2384,7 +2079,7 @@
       "preco": {
         "total": 10500,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 1.050,00",
+        "parcelamento": "10x R$ 1.050.00",
         "taxas_inclusas": true,
         "desconto": 10
       },
@@ -2393,13 +2088,18 @@
         "noites": 7,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Quarta-feira, 12 de Junho de 2024",
+        "checkout": "Quarta-feira, 19 de Junho de 2024",
+        "noites": 7
+      },
       "acomodacao": {
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Vancouver Bay Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Bicicletas"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -2413,6 +2113,7 @@
           "numero": "AC 82",
           "horario_partida": "22:15",
           "horario_chegada": "06:45",
+          "data_completa": "Quarta-feira, 12 de Junho de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "YVR - Vancouver",
           "escala": "Toronto"
@@ -2420,7 +2121,11 @@
         "volta": {
           "numero": "AC 83",
           "horario_partida": "14:00",
-          "horario_chegada": "08:30"
+          "horario_chegada": "08:30",
+          "data_completa": "Quarta-feira, 19 de Junho de 2024",
+          "aeroporto_origem": "YVR - Vancouver",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Toronto"
         }
       },
       "avaliacao": {
@@ -2492,7 +2197,7 @@
       "preco": {
         "total": 4200,
         "moeda": "BRL",
-        "parcelamento": "5x R$ 840,00",
+        "parcelamento": "5x R$ 840.00",
         "taxas_inclusas": true,
         "desconto": 20
       },
@@ -2501,13 +2206,18 @@
         "noites": 4,
         "temporada": "Baixa"
       },
+      "estadia": {
+        "checkin": "Domingo, 10 de Março de 2024",
+        "checkout": "Quinta-feira, 14 de Março de 2024",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Hotel em Providencia",
         "categoria": "4 estrelas",
         "nome_hotel": "Andes View Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Academia", "SPA"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -2521,6 +2231,7 @@
           "numero": "LA 601",
           "horario_partida": "09:30",
           "horario_chegada": "13:45",
+          "data_completa": "Domingo, 10 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "SCL - Santiago",
           "escala": null
@@ -2528,7 +2239,11 @@
         "volta": {
           "numero": "LA 602",
           "horario_partida": "18:15",
-          "horario_chegada": "22:30"
+          "horario_chegada": "22:30",
+          "data_completa": "Quinta-feira, 14 de Março de 2024",
+          "aeroporto_origem": "SCL - Santiago",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -2600,7 +2315,7 @@
       "preco": {
         "total": 4800,
         "moeda": "BRL",
-        "parcelamento": "6x R$ 800,00",
+        "parcelamento": "6x R$ 800.00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -2609,13 +2324,18 @@
         "noites": 4,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 12 de Julho de 2024",
+        "checkout": "Terça-feira, 16 de Julho de 2024",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Pousada rústica",
         "categoria": "3 estrelas",
         "nome_hotel": "Jeri Eco Lodge",
         "servicos": ["Café da manhã", "Wi-Fi", "Rede", "Aluguel de buggy"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Aventura",
         "idade_minima": 12
@@ -2629,6 +2349,7 @@
           "numero": "G3 1620",
           "horario_partida": "06:30",
           "horario_chegada": "10:00",
+          "data_completa": "Sexta-feira, 12 de Julho de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "JJD - Jericoacoara",
           "escala": "Fortaleza"
@@ -2636,7 +2357,11 @@
         "volta": {
           "numero": "G3 1621",
           "horario_partida": "11:00",
-          "horario_chegada": "16:30"
+          "horario_chegada": "16:30",
+          "data_completa": "Terça-feira, 16 de Julho de 2024",
+          "aeroporto_origem": "JJD - Jericoacoara",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Fortaleza"
         }
       },
       "avaliacao": {
@@ -2708,7 +2433,7 @@
       "preco": {
         "total": 7400,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 925,00",
+        "parcelamento": "8x R$ 925.00",
         "taxas_inclusas": true,
         "desconto": 12
       },
@@ -2717,13 +2442,18 @@
         "noites": 5,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Quinta-feira, 25 de Abril de 2024",
+        "checkout": "Terça-feira, 30 de Abril de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Hotel no bairro histórico",
         "categoria": "4 estrelas",
         "nome_hotel": "Sultanahmet Palace Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Vista para o Bósforo"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -2737,6 +2467,7 @@
           "numero": "TK 16",
           "horario_partida": "19:45",
           "horario_chegada": "14:30",
+          "data_completa": "Quinta-feira, 25 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "IST - Istambul",
           "escala": null
@@ -2744,7 +2475,11 @@
         "volta": {
           "numero": "TK 17",
           "horario_partida": "02:00",
-          "horario_chegada": "09:45"
+          "horario_chegada": "09:45",
+          "data_completa": "Terça-feira, 30 de Abril de 2024",
+          "aeroporto_origem": "IST - Istambul",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -2816,7 +2551,7 @@
       "preco": {
         "total": 6800,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 850,00",
+        "parcelamento": "8x R$ 850.00",
         "taxas_inclusas": true,
         "desconto": 10
       },
@@ -2825,13 +2560,18 @@
         "noites": 5,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Segunda-feira, 18 de Março de 2024",
+        "checkout": "Sábado, 23 de Março de 2024",
+        "noites": 5
+      },
       "acomodacao": {
         "tipo": "Hotel em South Beach",
         "categoria": "4 estrelas",
         "nome_hotel": "Ocean Drive Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 21
@@ -2845,6 +2585,7 @@
           "numero": "AA 904",
           "horario_partida": "22:30",
           "horario_chegada": "06:45",
+          "data_completa": "Segunda-feira, 18 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "MIA - Miami",
           "escala": null
@@ -2852,7 +2593,11 @@
         "volta": {
           "numero": "AA 905",
           "horario_partida": "20:15",
-          "horario_chegada": "08:30"
+          "horario_chegada": "08:30",
+          "data_completa": "Sábado, 23 de Março de 2024",
+          "aeroporto_origem": "MIA - Miami",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -2924,7 +2669,7 @@
       "preco": {
         "total": 8200,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 820,00",
+        "parcelamento": "10x R$ 820.00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -2933,13 +2678,18 @@
         "noites": 6,
         "temporada": "Média"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 10 de Maio de 2024",
+        "checkout": "Sexta-feira, 17 de Maio de 2024",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Bangkok Riverside Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 16
@@ -2953,6 +2703,7 @@
           "numero": "TG 925",
           "horario_partida": "01:00",
           "horario_chegada": "23:30",
+          "data_completa": "Sexta-feira, 10 de Maio de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "BKK - Bangkok",
           "escala": "Johanesburgo"
@@ -2960,7 +2711,11 @@
         "volta": {
           "numero": "TG 926",
           "horario_partida": "02:30",
-          "horario_chegada": "09:15"
+          "horario_chegada": "09:15",
+          "data_completa": "Sexta-feira, 17 de Maio de 2024",
+          "aeroporto_origem": "BKK - Bangkok",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Johanesburgo"
         }
       },
       "avaliacao": {
@@ -3032,7 +2787,7 @@
       "preco": {
         "total": 3200,
         "moeda": "BRL",
-        "parcelamento": "4x R$ 800,00",
+        "parcelamento": "4x R$ 800.00",
         "taxas_inclusas": true,
         "desconto": 20
       },
@@ -3041,13 +2796,18 @@
         "noites": 3,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Quinta-feira, 20 de Junho de 2024",
+        "checkout": "Domingo, 23 de Junho de 2024",
+        "noites": 3
+      },
       "acomodacao": {
         "tipo": "Hotel temático",
         "categoria": "4 estrelas",
         "nome_hotel": "Gramado Suíço Hotel",
         "servicos": ["Café da manhã", "Wi-Fi", "Lareira", "Chocolate quente"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -3061,6 +2821,7 @@
           "numero": "LA 4020",
           "horario_partida": "08:00",
           "horario_chegada": "10:30",
+          "data_completa": "Quinta-feira, 20 de Junho de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "POA - Porto Alegre",
           "escala": null
@@ -3068,7 +2829,11 @@
         "volta": {
           "numero": "LA 4021",
           "horario_partida": "19:00",
-          "horario_chegada": "21:30"
+          "horario_chegada": "21:30",
+          "data_completa": "Domingo, 23 de Junho de 2024",
+          "aeroporto_origem": "POA - Porto Alegre",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
         }
       },
       "avaliacao": {
@@ -3140,7 +2905,7 @@
       "preco": {
         "total": 7800,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 975,00",
+        "parcelamento": "8x R$ 975.00",
         "taxas_inclusas": true,
         "desconto": 5
       },
@@ -3149,13 +2914,18 @@
         "noites": 4,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Sexta-feira, 12 de Abril de 2024",
+        "checkout": "Quarta-feira, 17 de Abril de 2024",
+        "noites": 4
+      },
       "acomodacao": {
         "tipo": "Hotel-cassino na Strip",
         "categoria": "5 estrelas",
         "nome_hotel": "Bellagio Las Vegas",
         "servicos": ["Wi-Fi", "Piscina", "Cassino", "Academia"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 21
@@ -3169,6 +2939,7 @@
           "numero": "UA 821",
           "horario_partida": "20:00",
           "horario_chegada": "02:30",
+          "data_completa": "Sexta-feira, 12 de Abril de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "LAS - Las Vegas",
           "escala": "Houston"
@@ -3176,7 +2947,11 @@
         "volta": {
           "numero": "UA 822",
           "horario_partida": "23:45",
-          "horario_chegada": "13:30"
+          "horario_chegada": "13:30",
+          "data_completa": "Quarta-feira, 17 de Abril de 2024",
+          "aeroporto_origem": "LAS - Las Vegas",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Houston"
         }
       },
       "avaliacao": {
@@ -3249,7 +3024,7 @@
       "preco": {
         "total": 8500,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 850,00",
+        "parcelamento": "10x R$ 850.00",
         "taxas_inclusas": true,
         "desconto": 18
       },
@@ -3258,13 +3033,18 @@
         "noites": 6,
         "temporada": "Alta"
       },
+      "estadia": {
+        "checkin": "Quinta-feira, 28 de Março de 2024",
+        "checkout": "Quarta-feira, 03 de Abril de 2024",
+        "noites": 6
+      },
       "acomodacao": {
         "tipo": "Resort All-Inclusive 5*",
         "categoria": "5 estrelas",
         "nome_hotel": "Caribe Dreams Resort & SPA",
         "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades aquáticas"]
       },
-      "pessoas": {
+      "viajantes": {
         "quantidade": 2,
         "tipo": "Casal",
         "idade_minima": 0
@@ -3278,6 +3058,7 @@
           "numero": "AA 1234",
           "horario_partida": "08:45",
           "horario_chegada": "15:30",
+          "data_completa": "Quinta-feira, 28 de Março de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "PUJ - Punta Cana",
           "escala": "Miami"
@@ -3285,7 +3066,11 @@
         "volta": {
           "numero": "AA 1235",
           "horario_partida": "17:00",
-          "horario_chegada": "06:45"
+          "horario_chegada": "06:45",
+          "data_completa": "Quarta-feira, 03 de Abril de 2024",
+          "aeroporto_origem": "PUJ - Punta Cana",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Miami"
         }
       },
       "avaliacao": {
