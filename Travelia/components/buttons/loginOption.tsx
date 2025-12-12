@@ -28,9 +28,7 @@ export function LoginOption ({title,onPress, icon, style, textStyle}: LoginOptio
         {icon}
       </View>
       <View style={styles.textContainer}>
-        <Text style={[styles.buttonText, textStyle]}>
-          {title}
-        </Text>
+        <Text style={[styles.buttonText, textStyle]}>{title}</Text>
       </View>
       
     </TouchableOpacity>

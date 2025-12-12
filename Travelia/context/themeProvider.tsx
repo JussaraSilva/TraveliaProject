@@ -1,9 +1,9 @@
-// context/themeContext.tsx
+// context/themeProvider.tsx
 import { createContext, useContext, useState, PropsWithChildren } from "react";
 import { useColorScheme } from "react-native";
 
 // 👇 importa o tipo ThemeName e as cores do mesmo arquivo pra ficar tudo consistente
-import { ThemeName } from "@/constants/theme";
+import { ThemeName, themeColors } from "@/constants/theme";
 
 interface ThemeContextType {
   theme: ThemeName;

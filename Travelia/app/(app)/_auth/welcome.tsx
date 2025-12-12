@@ -25,9 +25,8 @@ export default function Welcome() {
         <View style={styles.iconContainer}>
             <Logo 
               size={70}
-              style={styles.logo}
+              style={styles.logoHeaderWelcome}
               textStyle={styles.textLogo} 
-            
             />
         </View>
         <View style = {styles.textHeaderContainer}>
@@ -180,7 +179,7 @@ const createStyles = (theme: ThemeName) =>
     color: themeColors[theme].textButton,
   },
 
-  logo: {
+  logoHeaderWelcome: {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
