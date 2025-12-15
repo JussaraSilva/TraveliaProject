@@ -6,8 +6,8 @@ import { StyleSheet, Text, View } from "react-native";
 
 type Props = {
   estrelas?: number;
-  starsNumber: number;
-  avaliacoes: number;
+  starsNumber?: number;
+  avaliacoes?: number;
 
 }
 

@@ -1,5 +1,7 @@
 import AccomodationInfo from '@/components/cards/accomodationInfo';
+import ActivitiesInfo from '@/components/cards/activitiesInfo';
 import FlightDepartReturn from '@/components/cards/flightDepartReturn';
+import ReviewsDetails from '@/components/cards/reviewsDetails';
 import DescriptionPacket from '@/components/list/descriptionPacket';
 import Gallery from '@/components/others/carouselPagination';
 import HeaderButtons from '@/components/others/headerButtons';
@@ -7,9 +9,9 @@ import { RatingStars } from '@/components/reviews/ratingStars';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { useLocalSearchParams } from 'expo-router';
-import { MapPinIcon, TrophyIcon } from 'phosphor-react-native';
+import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
-import { StyleSheet, View, Text, ScrollView } from 'react-native';
+import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
 
 export default function Details() {
   const { theme } = useTheme();
@@ -75,9 +77,6 @@ export default function Details() {
             descriptionPacket={pacoteObj.destino.descricao}
             includeList={pacoteObj.incluso}
           />
-          
-
-          
         </View>
         <View style={styles.containerInfoMiddle}>
           <View style={styles.containerInfoInclude}>
@@ -127,11 +126,47 @@ export default function Details() {
                   imagemHotel={pacoteObj.acomodacao.imagem_hotel}
                 />
               </View>
+
+              <View style={styles.containerIncludeActivity}>
+                <ActivitiesInfo
+                  include="Activities"
+                  includeStyle={styles.activities}
+                  checkIn={pacoteObj.estadia.checkin}
+                  checkOut={pacoteObj.estadia.checkout}
+                  duracao={pacoteObj.duracao.dias}
+                  nome_pacote={pacoteObj.nome_pacote}
+                  atividades={pacoteObj.atividades}
+                  quantidade_pessoas={pacoteObj.viajantes.quantidade}
+                  tipo={pacoteObj.viajantes.tipo}
+                  idade_minima={pacoteObj.viajantes.idade_minima}
+                />
+              </View>
+          </View>
+
+          <View style={styles.containerTermsConditions}>
+            <View style={styles.containerTextTermsConditions}>
+              <Text style={styles.textTermsConditions}>
+                Terms & Conditions
+              </Text>
+              <TouchableOpacity style={styles.containerArrowMore}>
+                <ArrowRightIcon size={20} color={themeColors[theme].realceBlue} />
+              </TouchableOpacity>
+            </View>
             
-              
+
 
           </View>
+
+          <View style={styles.containerReviews}>
+            <ReviewsDetails
+              starsNumber={pacoteObj.avaliacao.estrelas}
+              mediaStars={pacoteObj.avaliacao.estrelas}
+              totalAvaliacoes={pacoteObj.avaliacao.total_avaliacoes}
+            />
+          </View>
+
         </View>
+
       </ScrollView>
     </View>
   );
@@ -271,6 +306,55 @@ const createStyles = (theme: ThemeName) =>
     accomodation: {
       backgroundColor: themeColors[theme].colorRed,
     },
+
+    containerIncludeActivity: {
+      flexDirection: 'column',
+      marginTop: 5,
+      width: '100%',
+      paddingHorizontal: 12,
+    },
+
+    activities: {
+      backgroundColor: themeColors[theme].colorRed,
+    },
+
+    containerTermsConditions: {
+      flexDirection: 'row',
+      width: '100%',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      backgroundColor: themeColors[theme].background,
+      marginTop: 10,
+      paddingHorizontal: 20,
+    },
+
+    containerTextTermsConditions: {
+      flexDirection: 'row',
+      padding: 10,
+      alignItems: 'center',
+      width: '100%',
+      justifyContent: 'space-between',
+      backgroundColor: themeColors[theme].backgroundCard,
+      borderRadius: 5,
+    },
+
+    textTermsConditions: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: themeColors[theme].textPrimary,
+    },
+
+    containerArrowMore: {
+      padding: 10,
+    },
+
+    containerReviews: {
+      flexDirection: 'column',
+      marginTop: 5,
+      width: '100%',
+      paddingHorizontal: 20,
+    },
+    
 
 
   });
