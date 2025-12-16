@@ -2,7 +2,7 @@ import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { CaretRightIcon } from "phosphor-react-native";
 import { useMemo } from "react";
-import { StyleSheet, View, Text, Image, ViewStyle, StyleProp } from "react-native";
+import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
 
 
 type Props = {
@@ -82,9 +82,12 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
           
           <View style={styles.textCardDateContainer}>
             <Text style={styles.textCardDate}>{dateBoarding}</Text>
-            <CaretRightIcon size={30} color={themeColors[theme].icon} weight="light" />
           </View>
-          
+          <View style={styles.containerButtonMore}>
+            <TouchableOpacity style={styles.buttonMore}>
+              <CaretRightIcon size={30} color={themeColors[theme].icon} weight="light" />
+            </TouchableOpacity>
+          </View>
         </View>
 
         <View style={styles.cardFlightMiddle}>
@@ -152,7 +155,7 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       padding: 10,
       gap: 5,
-      paddingHorizontal: 20,
+      paddingHorizontal: 10,
       width: "100%",
     },
 
@@ -178,7 +181,6 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      gap: 5,
       width: '100%',
       height: 50,
       borderBottomWidth: 1,
@@ -193,6 +195,7 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       alignItems: 'center',
       justifyContent: 'center',
+      width: "30%",
     },
 
     textCardDirection: {
@@ -204,12 +207,24 @@ const createStyles = (theme: ThemeName) =>
     textCardDateContainer: {
       flexDirection: 'row',
       alignItems: 'center',
+      justifyContent: 'flex-end',
+      wordWrap: 'break-word',
+      width: "65%",
     },
 
     textCardDate: {
       fontSize: 16,
       color: themeColors[theme].textPrimary,
       fontWeight: 'bold',
+    },
+
+    containerButtonMore: {
+      width: "5%",
+    }, 
+
+    buttonMore: {
+      alignItems: 'center',
+      justifyContent: 'center',
     },
 
     cardFlightMiddle: {

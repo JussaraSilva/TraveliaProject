@@ -1,6 +1,6 @@
 
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import CardPacketTrips from '../cards/cardPacketTrips';
+import CardPacketTrips from '../details/cardPacketTrips';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { useMemo } from 'react';

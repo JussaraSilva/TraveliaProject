@@ -75,14 +75,40 @@
           "data": "2023-11-10",
           "nota": 10,
           "comentario": "Experiência incrível! O bangalô era espetacular.",
-          "votos_uteis": 45
+          "votos_uteis": 45,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "João Santos",
           "data": "2023-10-28",
           "nota": 9,
           "comentario": "Serviço impecável, apenas o voo teve atraso.",
-          "votos_uteis": 32
+          "votos_uteis": 32,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ana Costa",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Lua de mel perfeita! O resort superou todas as expectativas.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ricardo Almeida",
+          "data": "2023-11-22",
+          "nota": 9,
+          "comentario": "Água cristalina e atendimento de primeira. Recomendo!",
+          "votos_uteis": 41,
+          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Lima",
+          "data": "2023-12-15",
+          "nota": 10,
+          "comentario": "O mergulho com snorkel foi inesquecível. Voltaríamos amanhã!",
+          "votos_uteis": 58,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -201,7 +227,40 @@
           "data": "2023-12-05",
           "nota": 9,
           "comentario": "Hotel charmoso e bem localizado.",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Pierre Dubois",
+          "data": "2023-11-18",
+          "nota": 10,
+          "comentario": "Paris nunca decepciona! Passeio no Sena foi romântico.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Clara Mendes",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Café da manhã francês delicioso. Quarto aconchegante.",
+          "votos_uteis": 54,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Marcos Torres",
+          "data": "2023-11-30",
+          "nota": 8,
+          "comentario": "Boa experiência, mas o tempo chuvoso atrapalhou.",
+          "votos_uteis": 32,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Isabelle Laurent",
+          "data": "2023-12-20",
+          "nota": 10,
+          "comentario": "Le Louvre est magnifique! J'y retournerai certainement.",
+          "votos_uteis": 76,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -320,7 +379,40 @@
           "data": "2023-09-22",
           "nota": 10,
           "comentario": "Pôr do sol em Oia é inesquecível!",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Nikolas Papadopoulos",
+          "data": "2023-10-15",
+          "nota": 10,
+          "comentario": "Como grego, digo: Santorini está ainda mais linda!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Beatriz Santos",
+          "data": "2023-11-08",
+          "nota": 9,
+          "comentario": "Hotel com vista incrível, mas as ruas são muito íngremes.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Rafael Costa",
+          "data": "2023-12-01",
+          "nota": 10,
+          "comentario": "Fotos não fazem justiça à beleza desse lugar!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Katsaros",
+          "data": "2023-11-20",
+          "nota": 10,
+          "comentario": "The most romantic sunset in the world! Absolutely magical.",
+          "votos_uteis": 95,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -439,7 +531,40 @@
           "data": "2023-11-30",
           "nota": 9,
           "comentario": "Cultura fascinante e tecnologia impressionante.",
-          "votos_uteis": 56
+          "votos_uteis": 56,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Yuki Nakamura",
+          "data": "2023-12-10",
+          "nota": 10,
+          "comentario": "Como japonesa, fiquei emocionada com a organização e limpeza.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Pedro Henrique",
+          "data": "2023-11-22",
+          "nota": 9,
+          "comentario": "Akihabara é um paraíso para fãs de tecnologia!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Camila Fernandes",
+          "data": "2023-12-18",
+          "nota": 8,
+          "comentario": "Maravilhoso, mas o jet lag foi intenso.",
+          "votos_uteis": 43,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Kenji Sato",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Tsukiji Market sushi is the best in the world!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -558,7 +683,40 @@
           "data": "2023-12-18",
           "nota": 9,
           "comentario": "Localização perfeita para turistar!",
-          "votos_uteis": 102
+          "votos_uteis": 102,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "John Smith",
+          "data": "2023-11-25",
+          "nota": 10,
+          "comentario": "Best city in the world! Broadway shows are amazing.",
+          "votos_uteis": 156,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberta Alves",
+          "data": "2023-12-08",
+          "nota": 8,
+          "comentario": "Cidade incrível, mas hotel um pouco antigo.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Lucas Martins",
+          "data": "2023-12-22",
+          "nota": 9,
+          "comentario": "Central Park no outono é uma pintura viva!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sarah Johnson",
+          "data": "2023-12-15",
+          "nota": 9,
+          "comentario": "Times Square at night is breathtaking! So much energy.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -677,7 +835,40 @@
           "data": "2023-10-15",
           "nota": 10,
           "comentario": "Experiência espiritual inesquecível!",
-          "votos_uteis": 78
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Juan Pérez",
+          "data": "2023-11-05",
+          "nota": 9,
+          "comentario": "Como peruano, me emocionei com a beleza do nosso patrimônio.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Amanda Silva",
+          "data": "2023-12-12",
+          "nota": 8,
+          "comentario": "A trilha é cansativa mas vale cada passo! Leve sapatos confortáveis.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Miguel Torres",
+          "data": "2023-11-28",
+          "nota": 10,
+          "comentario": "Guia muito conhecimento sobre a cultura Inca. Impressionante!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Lucía Mendoza",
+          "data": "2023-12-08",
+          "nota": 9,
+          "comentario": "El amanecer en Machu Picchu es una experiencia divina.",
+          "votos_uteis": 76,
+          "imagem_perfil": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -796,7 +987,40 @@
           "data": "2023-11-05",
           "nota": 9,
           "comentario": "A Opera House é ainda mais bonita ao vivo!",
-          "votos_uteis": 45
+          "votos_uteis": 45,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "James Wilson",
+          "data": "2023-12-10",
+          "nota": 10,
+          "comentario": "Best beaches I've ever seen! Bondi is paradise.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Santos",
+          "data": "2023-11-22",
+          "nota": 8,
+          "comentario": "Voo muito longo, mas a cidade compensa o cansaço.",
+          "votos_uteis": 54,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Diego Pereira",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Povo muito simpático e comida excelente!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Olivia Taylor",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Sydney Harbour at sunset is magical! Worth every penny.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -915,7 +1139,40 @@
           "data": "2023-10-08",
           "nota": 10,
           "comentario": "Arquitetura deslumbrante e tapas deliciosas!",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos García",
+          "data": "2023-11-15",
+          "nota": 9,
+          "comentario": "Como espanhol, recomendo os restaurantes locais fora das áreas turísticas.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Mariana Lima",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Sagrada Família é de tirar o fôlego!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Antonio Silva",
+          "data": "2023-11-28",
+          "nota": 8,
+          "comentario": "Cidade linda, mas muito cheia de turistas.",
+          "votos_uteis": 45,
+          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Elena Rodríguez",
+          "data": "2023-12-18",
+          "nota": 10,
+          "comentario": "¡Barcelona es arte vivo! Gaudí era un genio.",
+          "votos_uteis": 98,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1034,14 +1291,40 @@
           "data": "2023-12-20",
           "nota": 10,
           "comentario": "Vista do Cristo Redentor é de tirar o fôlego!",
-          "votos_uteis": 124
+          "votos_uteis": 124,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "Juliana Ribeiro",
           "data": "2023-11-15",
           "nota": 9,
           "comentario": "Hotel bem localizado e praias lindas. Só o calor que estava intenso.",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Eduardo",
+          "data": "2023-12-08",
+          "nota": 10,
+          "comentario": "Como carioca, digo: o pôr do sol em Arpoador é único!",
+          "votos_uteis": 156,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Amanda Souza",
+          "data": "2023-11-28",
+          "nota": 9,
+          "comentario": "Pão de Açúcar vale cada centavo. Vista espetacular!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernando Santos",
+          "data": "2023-12-15",
+          "nota": 8,
+          "comentario": "Cidade linda mas o trânsito é complicado.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1161,14 +1444,40 @@
           "data": "2023-11-14",
           "nota": 9,
           "comentario": "Troca da guarda no Palácio é imperdível!",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "Carla Mendonça",
           "data": "2023-10-22",
           "nota": 9,
           "comentario": "Hotel com localização perfeita para conhecer os principais pontos turísticos.",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Elizabeth Taylor",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Afternoon tea was absolutely delightful! Proper British experience.",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Rafael Martins",
+          "data": "2023-11-30",
+          "nota": 8,
+          "comentario": "Choveu bastante, mas os museus são incríveis e gratuitos!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Patricia Green",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Westminster Abbey is breathtaking. History comes alive!",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1288,14 +1597,40 @@
           "data": "2023-10-30",
           "nota": 10,
           "comentario": "Luxo e modernidade impressionantes! O safári no deserto foi inesquecível.",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "Sandra Oliveira",
           "data": "2023-11-25",
           "nota": 9,
           "comentario": "Cidade fascinante, mas muito quente durante o dia.",
-          "votos_uteis": 45
+          "votos_uteis": 45,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Mohammed Rahman",
+          "data": "2023-12-10",
+          "nota": 10,
+          "comentario": "Burj Khalifa view from 124th floor is mind-blowing!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Silva",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Compras excelentes, mas tudo é muito caro.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Robert Chen",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Desert safari with dinner under the stars - unforgettable!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1415,14 +1750,40 @@
           "data": "2023-09-12",
           "nota": 10,
           "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico.",
-          "votos_uteis": 112
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "Marcos Andrade",
           "data": "2023-08-30",
           "nota": 9,
           "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo!",
-          "votos_uteis": 78
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ana Carolina",
+          "data": "2023-10-15",
+          "nota": 10,
+          "comentario": "Baía do Sancho é a praia mais linda do Brasil!",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ricardo Lima",
+          "data": "2023-11-08",
+          "nota": 9,
+          "comentario": "Trilhas incríveis, mas exige preparo físico.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Beatriz Costa",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1542,14 +1903,40 @@
           "data": "2023-10-25",
           "nota": 10,
           "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo.",
-          "votos_uteis": 134
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
         },
         {
           "autor": "Patrícia Lima",
           "data": "2023-09-18",
           "nota": 9,
           "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar.",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Marco Bellini",
+          "data": "2023-11-30",
+          "nota": 10,
+          "comentario": "Colosseo di notte è magico! Da non perdere.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Alves",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Bianchi",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "La pasta carbonara più buona della mia vita! Roma è amore.",
+          "votos_uteis": 98,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1607,7 +1994,7 @@
       "preco": {
         "total": 9200,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 920.00",
+        "parcelamento": "10x R$ 920,00",
         "taxas_inclusas": true,
         "desconto": 12
       },
@@ -1625,7 +2012,8 @@
         "tipo": "Resort à beira-mar",
         "categoria": "5 estrelas",
         "nome_hotel": "Andaman Sea Resort",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1668,7 +2056,40 @@
           "data": "2023-10-22",
           "nota": 10,
           "comentario": "Paraíso tropical com cultura tailandesa única!",
-          "votos_uteis": 78
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sompong Wong",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Islands tour was amazing! Crystal clear water.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ana Paula",
+          "data": "2023-12-05",
+          "nota": 9,
+          "comentario": "Resort maravilhoso, mas cuidado com o sol forte!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "David Miller",
+          "data": "2023-11-28",
+          "nota": 10,
+          "comentario": "Best Thai massage ever! Beaches are paradise.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Mendes",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Comida tailandesa autêntica e deliciosa!",
+          "votos_uteis": 76,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1725,7 +2146,7 @@
       "preco": {
         "total": 8900,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 890.00",
+        "parcelamento": "10x R$ 890,00",
         "taxas_inclusas": true,
         "desconto": 8
       },
@@ -1743,7 +2164,8 @@
         "tipo": "Hotel à beira do canal",
         "categoria": "4 estrelas",
         "nome_hotel": "Grand Canal Palace",
-        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1786,7 +2208,40 @@
           "data": "2023-09-30",
           "nota": 10,
           "comentario": "Passeio de gôndola no pôr do sol é mágico!",
-          "votos_uteis": 134
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Isabella Conti",
+          "data": "2023-10-25",
+          "nota": 10,
+          "comentario": "Venezia è la città più romantica del mondo!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Santos",
+          "data": "2023-11-18",
+          "nota": 9,
+          "comentario": "Cidade única, mas cuidado com as marés altas.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Rossi",
+          "data": "2023-12-08",
+          "nota": 10,
+          "comentario": "Piazza San Marco at sunrise is absolutely magical!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Eduardo",
+          "data": "2023-12-20",
+          "nota": 8,
+          "comentario": "Romântico, mas os preços são muito elevados.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1843,7 +2298,7 @@
       "preco": {
         "total": 7600,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 950.00",
+        "parcelamento": "8x R$ 950,00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -1861,7 +2316,8 @@
         "tipo": "Hotel com vista para as pirâmides",
         "categoria": "4 estrelas",
         "nome_hotel": "Pyramids View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Transfer"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Transfer"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -1904,7 +2360,40 @@
           "data": "2023-11-12",
           "nota": 10,
           "comentario": "As pirâmides são ainda mais impressionantes pessoalmente!",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fatima Hassan",
+          "data": "2023-10-28",
+          "nota": 9,
+          "comentario": "Como egípcia, fiquei emocionada com o Museu Egípcio.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ricardo Gomes",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Esfinge de Gizé é surreal! História viva.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sarah Johnson",
+          "data": "2023-11-25",
+          "nota": 8,
+          "comentario": "Fascinating but very hot. Bring lots of water!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ahmed Farouk",
+          "data": "2023-12-15",
+          "nota": 10,
+          "comentario": "Camel ride at sunset - unforgettable experience!",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -1961,7 +2450,7 @@
       "preco": {
         "total": 2800,
         "moeda": "BRL",
-        "parcelamento": "3x R$ 933.33",
+        "parcelamento": "3x R$ 933,33",
         "taxas_inclusas": true,
         "desconto": 30
       },
@@ -1979,7 +2468,8 @@
         "tipo": "Hotel na Avenida Paulista",
         "categoria": "4 estrelas",
         "nome_hotel": "Paulista Business Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Business center"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Business center"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2022,7 +2512,40 @@
           "data": "2023-12-08",
           "nota": 9,
           "comentario": "Gastronomia incrível e vida noturna vibrante!",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Silva",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Como paulistano, recomendo o Mercado Municipal e a Avenida Paulista.",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Costa",
+          "data": "2023-12-18",
+          "nota": 8,
+          "comentario": "Cidade enorme, precisa de planejamento para aproveitar bem.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Lucas Almeida",
+          "data": "2023-11-30",
+          "nota": 9,
+          "comentario": "MASP é imperdível! Acervo incrível.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Patricia Santos",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Restaurantes de todos os cantos do mundo! Paraíso gastronômico.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2079,7 +2602,7 @@
       "preco": {
         "total": 10500,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 1.050.00",
+        "parcelamento": "10x R$ 1.050,00",
         "taxas_inclusas": true,
         "desconto": 10
       },
@@ -2097,7 +2620,8 @@
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Vancouver Bay Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Bicicletas"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Bicicletas"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1647655806923-e8202f4f2b8c?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2140,7 +2664,40 @@
           "data": "2023-10-05",
           "nota": 9,
           "comentario": "Natureza deslumbrante e cidade limpa!",
-          "votos_uteis": 56
+          "votos_uteis": 56,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Emily Chen",
+          "data": "2023-11-18",
+          "nota": 10,
+          "comentario": "Stanley Park is massive and beautiful! Perfect for biking.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Mendes",
+          "data": "2023-12-08",
+          "nota": 9,
+          "comentario": "Capilano Suspension Bridge vale o preço. Vista incrível!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sarah Wilson",
+          "data": "2023-11-25",
+          "nota": 10,
+          "comentario": "Whale watching tour was magical! Saw orcas!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Lima",
+          "data": "2023-12-15",
+          "nota": 8,
+          "comentario": "Cidade linda mas muito cara.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2197,7 +2754,7 @@
       "preco": {
         "total": 4200,
         "moeda": "BRL",
-        "parcelamento": "5x R$ 840.00",
+        "parcelamento": "5x R$ 840,00",
         "taxas_inclusas": true,
         "desconto": 20
       },
@@ -2215,7 +2772,8 @@
         "tipo": "Hotel em Providencia",
         "categoria": "4 estrelas",
         "nome_hotel": "Andes View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "SPA"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "SPA"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1549451371-64aa98a6f660?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2258,7 +2816,40 @@
           "data": "2023-11-28",
           "nota": 9,
           "comentario": "Vista dos Andes é impressionante! Vinho chileno excelente.",
-          "votos_uteis": 78
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "María González",
+          "data": "2023-12-12",
+          "nota": 10,
+          "comentario": "Los viñedos del Valle Central son maravillosos. ¡Vino excepcional!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Silva",
+          "data": "2023-11-15",
+          "nota": 9,
+          "comentario": "Cerro San Cristóbal tem vista panorâmica incrível da cidade.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Mendes",
+          "data": "2023-12-05",
+          "nota": 8,
+          "comentario": "Show folclórico muito bom, mas o jantar poderia ser melhor.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "David Miller",
+          "data": "2023-12-20",
+          "nota": 10,
+          "comentario": "Chilean wine tasting was fantastic! Malbec is amazing.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2315,7 +2906,7 @@
       "preco": {
         "total": 4800,
         "moeda": "BRL",
-        "parcelamento": "6x R$ 800.00",
+        "parcelamento": "6x R$ 800,00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -2333,7 +2924,8 @@
         "tipo": "Pousada rústica",
         "categoria": "3 estrelas",
         "nome_hotel": "Jeri Eco Lodge",
-        "servicos": ["Café da manhã", "Wi-Fi", "Rede", "Aluguel de buggy"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Rede", "Aluguel de buggy"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2376,7 +2968,40 @@
           "data": "2023-09-15",
           "nota": 10,
           "comentario": "Pôr do sol na duna mais lindo do Brasil!",
-          "votos_uteis": 112
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Eduardo",
+          "data": "2023-10-08",
+          "nota": 10,
+          "comentario": "Buggy pelas dunas é adrenalina pura! Lagoas paradisíacas.",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Lima",
+          "data": "2023-11-22",
+          "nota": 9,
+          "comentario": "Paraíso ecológico, mas a estrutura é rústica (faz parte do charme!).",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Rafael Santos",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Pedra Furada no pôr do sol é cena de filme!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Amanda Souza",
+          "data": "2023-12-18",
+          "nota": 8,
+          "comentario": "Kitesurf excelente, mas instrutores caros.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2433,7 +3058,7 @@
       "preco": {
         "total": 7400,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 925.00",
+        "parcelamento": "8x R$ 925,00",
         "taxas_inclusas": true,
         "desconto": 12
       },
@@ -2451,7 +3076,8 @@
         "tipo": "Hotel no bairro histórico",
         "categoria": "4 estrelas",
         "nome_hotel": "Sultanahmet Palace Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o Bósforo"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o Bósforo"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2494,7 +3120,40 @@
           "data": "2023-10-10",
           "nota": 10,
           "comentario": "Cidade fascinante onde Oriente e Ocidente se encontram!",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ayşe Demir",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Hagia Sophia ve Blue Mosque görülmeye değer!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Alves",
+          "data": "2023-12-05",
+          "nota": 9,
+          "comentario": "Grand Bazaar é imenso! Leve tempo para explorar.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Chen",
+          "data": "2023-11-28",
+          "nota": 10,
+          "comentario": "Bosphorus cruise at sunset - absolutely magical!",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Mendes",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Comida turca deliciosa! Baklava imperdível.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2551,7 +3210,7 @@
       "preco": {
         "total": 6800,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 850.00",
+        "parcelamento": "8x R$ 850,00",
         "taxas_inclusas": true,
         "desconto": 10
       },
@@ -2569,7 +3228,8 @@
         "tipo": "Hotel em South Beach",
         "categoria": "4 estrelas",
         "nome_hotel": "Ocean Drive Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2612,7 +3272,40 @@
           "data": "2023-11-25",
           "nota": 9,
           "comentario": "Praias incríveis e vida noturna eletrizante!",
-          "votos_uteis": 67
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Rodriguez",
+          "data": "2023-12-10",
+          "nota": 10,
+          "comentario": "South Beach art deco architecture is stunning!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Amanda Silva",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Passeio de barco pelas ilhas foi o ponto alto!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Michael Brown",
+          "data": "2023-11-15",
+          "nota": 8,
+          "comentario": "Great beaches but very expensive restaurants.",
+          "votos_uteis": 56,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Lima",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Celebrity restaurant experience was worth every penny!",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2669,7 +3362,7 @@
       "preco": {
         "total": 8200,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 820.00",
+        "parcelamento": "10x R$ 820,00",
         "taxas_inclusas": true,
         "desconto": 15
       },
@@ -2687,7 +3380,8 @@
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Bangkok Riverside Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2730,7 +3424,40 @@
           "data": "2023-10-28",
           "nota": 9,
           "comentario": "Templos magníficos e comida de rua deliciosa!",
-          "votos_uteis": 78
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Nicha Srisuk",
+          "data": "2023-11-20",
+          "nota": 10,
+          "comentario": "Wat Arun at sunset is breathtaking! True Thai beauty.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ricardo Almeida",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Canais de Bangkok são fascinantes, mas água não é muito limpa.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Emma Wilson",
+          "data": "2023-11-30",
+          "nota": 10,
+          "comentario": "Thai massage was heavenly! Best $15 ever spent.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Pedro Costa",
+          "data": "2023-12-18",
+          "nota": 8,
+          "comentario": "Calor intenso, mas os templos valem o desconforto.",
+          "votos_uteis": 76,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2787,7 +3514,7 @@
       "preco": {
         "total": 3200,
         "moeda": "BRL",
-        "parcelamento": "4x R$ 800.00",
+        "parcelamento": "4x R$ 800,00",
         "taxas_inclusas": true,
         "desconto": 20
       },
@@ -2805,7 +3532,8 @@
         "tipo": "Hotel temático",
         "categoria": "4 estrelas",
         "nome_hotel": "Gramado Suíço Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Lareira", "Chocolate quente"]
+        "servicos": ["Café da manhã", "Wi-Fi", "Lareira", "Chocolate quente"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1544716278-e513176f20b5?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2848,7 +3576,40 @@
           "data": "2023-12-20",
           "nota": 10,
           "comentario": "Clima romântico e chocolates divinos!",
-          "votos_uteis": 134
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Hans Müller",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Wie im Schwarzwald! Perfektes deutsches Essen.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Santos",
+          "data": "2023-12-08",
+          "nota": 9,
+          "comentario": "Mini Mundo encanta crianças e adultos! Detalhes incríveis.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Alves",
+          "data": "2023-11-28",
+          "nota": 10,
+          "comentario": "Fábricas de chocolate são paraíso para os doces!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Lima",
+          "data": "2023-12-15",
+          "nota": 8,
+          "comentario": "Frio intenso em junho, mas o chocolate quente ajuda!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -2905,7 +3666,7 @@
       "preco": {
         "total": 7800,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 975.00",
+        "parcelamento": "8x R$ 975,00",
         "taxas_inclusas": true,
         "desconto": 5
       },
@@ -2923,7 +3684,8 @@
         "tipo": "Hotel-cassino na Strip",
         "categoria": "5 estrelas",
         "nome_hotel": "Bellagio Las Vegas",
-        "servicos": ["Wi-Fi", "Piscina", "Cassino", "Academia"]
+        "servicos": ["Wi-Fi", "Piscina", "Cassino", "Academia"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -2966,7 +3728,40 @@
           "data": "2023-11-15",
           "nota": 9,
           "comentario": "Shows incríveis e energia única 24 horas!",
-          "votos_uteis": 89
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sarah Williams",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Bellagio fountains at night are magical! Best free show in Vegas.",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Santos",
+          "data": "2023-11-28",
+          "nota": 8,
+          "comentario": "Cidade vibrante, mas cuidado com os gastos nos cassinos!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Jennifer Lee",
+          "data": "2023-12-18",
+          "nota": 10,
+          "comentario": "Cirque du Soleil show was mind-blowing! Worth every penny.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Mendes",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Grand Canyon tour is a must-do! Breathtaking views.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
@@ -3024,7 +3819,7 @@
       "preco": {
         "total": 8500,
         "moeda": "BRL",
-        "parcelamento": "10x R$ 850.00",
+        "parcelamento": "10x R$ 850,00",
         "taxas_inclusas": true,
         "desconto": 18
       },
@@ -3042,7 +3837,8 @@
         "tipo": "Resort All-Inclusive 5*",
         "categoria": "5 estrelas",
         "nome_hotel": "Caribe Dreams Resort & SPA",
-        "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades aquáticas"]
+        "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades aquáticas"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -3085,7 +3881,40 @@
           "data": "2023-10-05",
           "nota": 10,
           "comentario": "Paraíso no Caribe! Serviço impecável e praias perfeitas.",
-          "votos_uteis": 98
+          "votos_uteis": 98,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Maria González",
+          "data": "2023-11-18",
+          "nota": 10,
+          "comentario": "¡La isla Saona es un sueño! Aguas turquesas increíbles.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "John Smith",
+          "data": "2023-12-08",
+          "nota": 9,
+          "comentario": "All-inclusive means ALL! Drinks, food, activities - amazing value.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Amanda Silva",
+          "data": "2023-11-25",
+          "nota": 10,
+          "comentario": "Massagem à beira-mar foi a experiência mais relaxante da minha vida!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "David Miller",
+          "data": "2023-12-15",
+          "nota": 9,
+          "comentario": "Catamaran snorkeling tour was fantastic! Saw amazing fish.",
+          "votos_uteis": 92,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [

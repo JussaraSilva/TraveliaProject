@@ -1,10 +1,10 @@
-import AccomodationInfo from '@/components/cards/accomodationInfo';
-import ActivitiesInfo from '@/components/cards/activitiesInfo';
-import FlightDepartReturn from '@/components/cards/flightDepartReturn';
-import ReviewsDetails from '@/components/cards/reviewsDetails';
+import AccomodationInfo from '@/components/details/accomodationInfo';
+import ActivitiesInfo from '@/components/details/activitiesInfo';
+import FlightDepartReturn from '@/components/details/flightDepartReturn';
+import ReviewsDetails from '@/components/reviews/reviewsDetails';
 import DescriptionPacket from '@/components/list/descriptionPacket';
 import Gallery from '@/components/others/carouselPagination';
-import HeaderButtons from '@/components/others/headerButtons';
+import HeaderButtons from '@/components/details/headerButtons';
 import { RatingStars } from '@/components/reviews/ratingStars';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
@@ -12,6 +12,7 @@ import { useLocalSearchParams } from 'expo-router';
 import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
+import FooterPrice from '@/components/details/footerPrice';
 
 export default function Details() {
   const { theme } = useTheme();
@@ -152,9 +153,6 @@ export default function Details() {
                 <ArrowRightIcon size={20} color={themeColors[theme].realceBlue} />
               </TouchableOpacity>
             </View>
-            
-
-
           </View>
 
           <View style={styles.containerReviews}>
@@ -162,9 +160,24 @@ export default function Details() {
               starsNumber={pacoteObj.avaliacao.estrelas}
               mediaStars={pacoteObj.avaliacao.estrelas}
               totalAvaliacoes={pacoteObj.avaliacao.total_avaliacoes}
+
+              reviews = {pacoteObj.reviews}
+
             />
           </View>
 
+        </View>
+
+        <View style={styles.containerInfoFooter}>
+          <FooterPrice 
+            destino={pacoteObj.destino.nome}
+            dataSaida={pacoteObj.voos.ida.data_completa}
+            dataRetorno={pacoteObj.voos.volta.data_completa}
+            passengers={pacoteObj.viajantes.quantidade}
+            total_price={pacoteObj.preco.total}
+            parcelamento={pacoteObj.preco.parcelamento}
+            moeda={pacoteObj.preco.moeda}
+          />
         </View>
 
       </ScrollView>
@@ -354,6 +367,16 @@ const createStyles = (theme: ThemeName) =>
       width: '100%',
       paddingHorizontal: 20,
     },
+
+    containerInfoFooter: {
+      flexDirection: 'column',
+      backgroundColor: themeColors[theme].backgroundCard,
+      marginTop: 5,
+      width: '100%',
+      
+    },
+
+    
     
 
 
