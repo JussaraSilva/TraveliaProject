@@ -99,7 +99,7 @@ export default function FooterPrice(
               color={themeColors[theme].icon} 
               weight="light"
             />
-            <Text> Total Price: </Text>
+            <Text style={styles.priceTextTotal}>Total Price: </Text>
           </View>
           <View style={styles.containerPriceValue}>
               <PriceText value={total_price}
@@ -108,7 +108,7 @@ export default function FooterPrice(
             />
           </View>
           <View style={styles.containerPriceDetailPassengers}>
-            <Text> Price Parcel: </Text>
+            <Text style={styles.priceTextTotal}>Price Parcel: </Text>
             <Text style={styles.textPriceDouble}>{parcelamento}</Text>
           </View>
         </View>
@@ -214,7 +214,7 @@ const createStyles = (theme: ThemeName) =>
     textButtonEditInfo: {
       fontSize: 14,
       fontWeight: 'bold',
-      color: themeColors[theme].realceBlue,
+      color: themeColors[theme].textColorButtonRealce,
     },
     
 
@@ -237,6 +237,12 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'row',
       alignItems: 'center',
       
+    },
+
+    priceTextTotal: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      color: themeColors[theme].textPrimary,
     },
 
     containerPriceValue: {
@@ -282,7 +288,7 @@ const createStyles = (theme: ThemeName) =>
     textButtonBuy: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].colorTextButton,
+      color: themeColors[theme].textColorButtonRealce,
     },
 
 

@@ -201,7 +201,7 @@ const createStyles = (theme: ThemeName) =>
     textCardDirection: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].realceBlue,
+      color: themeColors[theme].textColorButtonRealce,
     },
 
     textCardDateContainer: {
