@@ -7,10 +7,11 @@ import { StyleProp, StyleSheet, Text, TextStyle, View, ViewStyle } from "react-n
 
 interface LogoProps {
   size: number; 
+  showText?: boolean;
   textStyle?: StyleProp<TextStyle>;
   style?: StyleProp<ViewStyle>;
 }
-export function Logo({size, textStyle, style}: LogoProps) {
+export function Logo({size, textStyle, style, showText = true}: LogoProps) {
 
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -22,7 +23,11 @@ export function Logo({size, textStyle, style}: LogoProps) {
             color={themeColors[theme].icon}
             weight="fill" 
           />
-          <Text style={[styles.textLogo, textStyle]}>Travelia</Text>
+          {showText && (
+            <Text style={[styles.textLogo, textStyle]}>
+              Travelia
+            </Text>
+          )}
     </View>
   )
   

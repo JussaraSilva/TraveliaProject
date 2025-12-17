@@ -1,3 +1,4 @@
+// Import Components
 import AccomodationInfo from '@/components/details/accomodationInfo';
 import ActivitiesInfo from '@/components/details/activitiesInfo';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
@@ -6,13 +7,15 @@ import DescriptionPacket from '@/components/list/descriptionPacket';
 import Gallery from '@/components/others/carouselPagination';
 import HeaderButtons from '@/components/details/headerButtons';
 import { RatingStars } from '@/components/reviews/ratingStars';
+import FooterPrice from '@/components/details/footerPrice';
+
+// Import tolls
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { useLocalSearchParams } from 'expo-router';
 import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
-import FooterPrice from '@/components/details/footerPrice';
 
 export default function Details() {
   const { theme } = useTheme();
