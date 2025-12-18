@@ -3,34 +3,36 @@ import { useTheme } from "@/context/themeProvider";
 import { CaretRightIcon, SealPercentIcon } from "phosphor-react-native";
 
 import { useMemo } from "react";
-import {View, StyleSheet, StyleProp, ViewStyle, Image, Text } from "react-native";
+import {View, StyleSheet, StyleProp, ViewStyle, Image, Text, TouchableOpacity } from "react-native";
 
 
 type CardVariant = 'image-text' | 'icon-text-icon';
 
 type CardGlobalProps = {
   variant: CardVariant;
+  imagem?: string;
   contentDirection?: StyleProp<ViewStyle>;
   textTitle: string;
   textDescription: string;
+  onPress?: () => void
 };  
 
 
-export function CardGlobal({ variant, contentDirection, textTitle, textDescription }: CardGlobalProps) {
+export function CardGlobal({ variant, contentDirection, textTitle, textDescription, onPress, imagem }: CardGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
   return (
     <View style={styles.container}>
-      <View style={[styles.containerContent, contentDirection]}>
+      <TouchableOpacity style={[styles.containerContent, contentDirection]}
+        onPress={onPress}
+      >
 
         {/* IMAGE */}
         {variant === 'image-text' && (
           <View style={styles.containerMedia}>
             <Image
-              source={{
-                uri: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde',
-              }}
+              source={{uri: imagem}}
               style={styles.image}
             />
           </View>
@@ -66,7 +68,7 @@ export function CardGlobal({ variant, contentDirection, textTitle, textDescripti
           </View>
         )}
 
-      </View>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -75,7 +77,6 @@ const createStyles = (theme: ThemeName) =>
   StyleSheet.create({
     container: {
       backgroundColor: themeColors[theme].backgroundCard,
-      paddingHorizontal: 10,
       borderRadius: 15,
     },
 
@@ -84,6 +85,7 @@ const createStyles = (theme: ThemeName) =>
       width: '100%',
       backgroundColor: themeColors[theme].backgroundCard,
       borderRadius: 15,
+      paddingHorizontal: 10,
       paddingVertical: 10,
       justifyContent: 'space-between',
     },
@@ -103,6 +105,10 @@ const createStyles = (theme: ThemeName) =>
 
     containerTextPromo: {
       flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'flex-start',
+      paddingHorizontal : 10,
+      paddingBottom: 10,
       gap: 5,
     },
 

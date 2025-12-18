@@ -284,15 +284,17 @@ const createStyles = (theme: ThemeName) =>
     containerHorizontalCards: {
       width: '48%',
       flexDirection: 'column',
-      backgroundColor: themeColors[theme].backgroundCard,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: themeColors[theme].background,
       borderRadius: 10,
-      shadowColor: '#000',
-      shadowOffset: { width: 0, height: 2 },
+      shadowColor: themeColors[theme].shadowColor,
+      shadowOffset: { width: 0, height: 10 },
       shadowOpacity: 0.2,
       shadowRadius: 4,
       elevation: 5,
-      paddingHorizontal: 5,
-      paddingVertical: 5,
+      paddingHorizontal: 10,
+      paddingVertical: 25,
       height: 90,
     },
 
@@ -331,6 +333,7 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'flex-start',
       width: '100%',
       gap: 2,
+      // paddingHorizontal: 5,
     },
 
     textInfoActivity: {
@@ -433,7 +436,7 @@ const createStyles = (theme: ThemeName) =>
     textButtonEdit: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].realceBlue,
+      color: themeColors[theme].textColorButtonRealce,
     },
 
     

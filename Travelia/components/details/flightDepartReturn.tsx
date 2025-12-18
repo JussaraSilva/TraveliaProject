@@ -100,7 +100,7 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
           <View style={styles.flightLine}>
             <Image
               source={require('@/assets/images/imagesApp/flight_imageTransparent1.png')}
-              style={{ width: 120, height: 60, resizeMode: "contain" }}
+              style={{ width: 110, height: 50, resizeMode: "contain" }}
             />
             <Text style={styles.textLine}>{duration}</Text>
             <Text style={styles.textLine}>{escala}</Text>
@@ -118,7 +118,7 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
             <View style={styles.airline}>
               <View style={styles.logoAirline}>
                 <Image
-                  style={{ width: 40, height: 40, resizeMode: "contain" }}
+                  style={{ width: 50, height: 50, resizeMode: "contain" }}
                   source={{uri: logo_airline}}
                   />
               </View>
@@ -186,6 +186,7 @@ const createStyles = (theme: ThemeName) =>
       borderBottomWidth: 1,
       borderBottomColor: themeColors[theme].borderColor,
       marginTop: 10,
+      gap : 5,
       
     },
 
@@ -195,7 +196,7 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       alignItems: 'center',
       justifyContent: 'center',
-      width: "30%",
+      width: "28%",
     },
 
     textCardDirection: {
@@ -245,7 +246,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textBoardingCity: {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },
@@ -256,7 +257,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textBoardingAirport: {
-      fontSize: 16,
+      fontSize: 14,
       color: themeColors[theme].textPrimary,
     },
 
@@ -273,7 +274,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textLandingCity: {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },
@@ -284,7 +285,7 @@ const createStyles = (theme: ThemeName) =>
     },
     
     textLandingAirport: {
-      fontSize: 16,
+      fontSize: 14,
       color: themeColors[theme].textPrimary,
     },
 
@@ -316,11 +317,13 @@ const createStyles = (theme: ThemeName) =>
     },
 
     logoAirline: {
-      width: 40,
-      height: 40,
+      width: 50,
+      height: 50,
       borderRadius: 50,
       alignItems: 'center',
       justifyContent: 'center',
+      borderWidth: 1,
+      borderColor: themeColors[theme].borderColor,
     },
 
     nameAirline: {
@@ -341,7 +344,7 @@ const createStyles = (theme: ThemeName) =>
     textButton: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].realceBlue,
+      color: themeColors[theme].textColorButtonRealce,
     },
                                                                                                 
 

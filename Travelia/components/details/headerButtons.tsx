@@ -1,5 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from "@/context/themeProvider";
+import { useRouter } from "expo-router";
 import { CaretLeftIcon, HeartIcon, ShareNetworkIcon } from "phosphor-react-native";
 import { useMemo } from "react";
 import { StyleSheet, View, TouchableOpacity } from "react-native"
@@ -11,10 +12,13 @@ import { StyleSheet, View, TouchableOpacity } from "react-native"
 export default function HeaderButtons (){
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
+  const router = useRouter();
 
   return (
     <View style={styles.containerHeader}>
-      <TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => router.back()}
+      >
         <CaretLeftIcon 
         size={30} 
         color={themeColors[theme].icon} 
@@ -45,6 +49,7 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'space-between',
       width: '100%',
       paddingHorizontal: 10,
+      paddingVertical: 10,
     },
 
     iconsHeader: {

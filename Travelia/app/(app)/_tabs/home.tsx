@@ -5,7 +5,7 @@ import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '../../../context/themeProvider'; 
 import { useMemo } from 'react';
 import {  CaretRightIcon} from 'phosphor-react-native';
-import { DadosViagem, PacoteViagem } from '@/assets/types';
+import { DadosViagem, PacoteViagem } from '@/assets/types/bookingType';
 
 // Import componentes
 import pacotes from '../../../assets/data/packetTrips.json';

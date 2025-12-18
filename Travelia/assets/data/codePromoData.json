@@ -1,0 +1,214 @@
+{
+  "promocoes": [
+    {
+      "id": 1,
+      "imagem": "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+      "nome": "Férias em Dobro: 25% off",
+      "descricao": "Desconto especial para reservas com mais de 7 noites em destinos nacionais",
+      "codigo": "FVD25BRA",
+      "validade": "2024-12-31",
+      "valor_minimo": 1500.00,
+      "instrucoes": "Aplique o código FVD25BRA no checkout para reservas com check-in até 31/12/2024. Válido apenas para pacotes com hospedagem.",
+      "termos_condicoes": [
+        "Não cumulativo com outras promoções ou descontos de fidelidade",
+        "Sujeito à disponibilidade no momento da reserva",
+        "Cancelamentos sujeitos a taxas de até 30% do valor total"
+      ],
+      "outras_informacoes": [
+        "Válido para reservas de 2 a 4 pessoas",
+        "Café da manhã incluso em todas as diárias",
+        "Não inclui taxas de resort ou serviços extras"
+      ]
+    },
+    {
+      "id": 2,
+      "imagem": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "nome": "12% Cashback Voucher",
+      "descricao": "Cashback em qualquer booking para destinos no Caribe",
+      "codigo": "CB12CARIB",
+      "validade": "2024-11-15",
+      "valor_minimo": "Não há valor mínimo",
+      "instrucoes": "Reserve através do nosso aplicativo usando o código CB12CARIB. O cashback será devolvido em 30 dias.",
+      "termos_condicoes": [
+        "Cashback será creditado na forma de voucher para próxima viagem",
+        "Limite máximo de R$ 1.000 em cashback por reserva",
+        "Válido apenas para reservas pagas com cartão de crédito"
+      ],
+      "outras_informacoes": [
+        "Voucher de cashback tem validade de 6 meses",
+        "Apenas para reservas feitas através do app móvel",
+        "Não se aplica a tarifas aéreas low-cost"
+      ]
+    },
+    {
+      "id": 3,
+      "imagem": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+      "nome": "Pacote Lua de Mel: 30% off",
+      "descricao": "Desconto exclusivo para pacotes de lua de mel com voo + hotel + traslado",
+      "codigo": "LM30HONEY",
+      "validade": "2025-06-30",
+      "valor_minimo": 3000.00,
+      "instrucoes": "Selecione pacotes marcados como 'Lua de Mel' e aplique o código LM30HONEY na finalização.",
+      "termos_condicoes": [
+        "Exige comprovação de casamento (certidão com data máxima de 12 meses)",
+        "Reserva mínima de 8 dias e máxima de 15 dias",
+        "Alterações de datas sujeitas a disponibilidade e taxas"
+      ],
+      "outras_informacoes": [
+        "Upgrade de quarto sujeito à disponibilidade no check-in",
+        "Jantar romântico de boas-vindas incluso",
+        "Late check-out até 14h (mediante disponibilidade)"
+      ]
+    },
+    {
+      "id": 4,
+      "imagem": "https://images.unsplash.com/photo-1439066615861-d1af74d74000",
+      "nome": "Black Friday: 40% off Early Bird",
+      "descricao": "Promoção antecipada de Black Friday para viagens em 2025",
+      "codigo": "BF40EARLY",
+      "validade": "2024-11-20",
+      "valor_minimo": 2000.00,
+      "instrucoes": "Use o código BF40EARLY antes de 20/11 para reservar viagens com data até dezembro/2025.",
+      "termos_condicoes": [
+        "Pagamento não reembolsável em caso de cancelamento",
+        "Alterações de datas permitidas com taxa de R$ 200 por pessoa",
+        "Promoção limitada a 100 pacotes por destino"
+      ],
+      "outras_informacoes": [
+        "Voo incluso apenas para classes econômica ou básica",
+        "Bagagem despachada de 23kg por pessoa",
+        "Traslados aeroporto-hotel apenas em horários regulares"
+      ]
+    },
+    {
+      "id": 5,
+      "imagem": "https://images.unsplash.com/photo-1506929562872-bb421503ef21",
+      "nome": "Desconto Relâmpago: 15% off",
+      "descricao": "Promoção por tempo limitado para destinos na Europa",
+      "codigo": "DR15EURO",
+      "validade": "2024-10-10",
+      "valor_minimo": 5000.00,
+      "instrucoes": "Reserve em até 48 horas após consulta. Código válido apenas para pagamento à vista.",
+      "termos_condicoes": [
+        "Preços sujeitos a alteração sem aviso prévio",
+        "Válido apenas para primeiros 50 clientes por dia",
+        "Não aplicável a pacotes com cruzeiros"
+      ],
+      "outras_informacoes": [
+        "Seguro viagem Europa básico incluso",
+        "Taxas aeroportuárias e turísticas não inclusas",
+        "Documentação e vistos por conta do passageiro"
+      ]
+    },
+    {
+      "id": 6,
+      "imagem": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "nome": "Ofertas de Natal: 12% Cashback",
+      "descricao": "CashBack especial de Natal em qualquer booking familiar",
+      "codigo": "NATAL12FAM",
+      "validade": "2024-12-25",
+      "valor_minimo": "Não há valor mínimo",
+      "instrucoes": "Use o código NATAL12FAM para reservas com 3 ou mais pessoas. Cashback creditado em janeiro.",
+      "termos_condicoes": [
+        "Mínimo de 3 passageiros adultos por reserva",
+        "Cashback calculado sobre o valor líquido sem taxas",
+        "Não cumulativo com promoções de black friday"
+      ],
+      "outras_informacoes": [
+        "Crianças até 5 anos não pagam hospedagem",
+        "Cashback disponível a partir de 15/01/2025",
+        "Válido para destinos nacionais e internacionais"
+      ]
+    },
+    {
+      "id": 7,
+      "imagem": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3",
+      "nome": "Pacote Aventura: 18% off + Upgrade",
+      "descricao": "Desconto em pacotes de ecoturismo e aventura na América do Sul",
+      "codigo": "AV18SUD",
+      "validade": "2025-03-31",
+      "valor_minimo": 1800.00,
+      "instrucoes": "Selecione pacotes da categoria 'Aventura' e insira o código AV18SUD no carrinho.",
+      "termos_condicoes": [
+        "Inclui obrigatoriamente 2 atividades de aventura certificadas",
+        "Requer assinatura de termo de responsabilidade e seguro específico",
+        "Idade mínima de 16 anos para atividades de risco"
+      ],
+      "outras_informacoes": [
+        "Equipamentos de segurança básicos fornecidos",
+        "Guia local falando espanhol ou português",
+        "Alimentação durante as atividades não inclusa"
+      ]
+    },
+    {
+      "id": 8,
+      "imagem": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
+      "nome": "Melhor Negócio: 20% off Last Minute",
+      "descricao": "Descontos de última hora para viagens com partida em 30 dias",
+      "codigo": "LM20URG",
+      "validade": "2024-12-31",
+      "valor_minimo": 1200.00,
+      "instrucoes": "Aplicável apenas para viagens com início dentro de 30 dias a partir da reserva.",
+      "termos_condicoes": [
+        "Não permite alterações de datas ou nomes",
+        "Cancelamentos resultam em perda total do valor pago",
+        "Pagamento deve ser integral no ato da reserva"
+      ],
+      "outras_informacoes": [
+        "Verificar requisitos de vistos para destinos internacionais",
+        "Possibilidade de conexões longas em voos",
+        "Hospedagem em hotéis de categoria turística ou similar"
+      ]
+    },
+    {
+      "id": 9,
+      "imagem": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+      "nome": "Aniversário da Empresa: 22% off",
+      "descricao": "Promoção comemorativa de aniversário para todos os destinos",
+      "codigo": "AE22ALL",
+      "validade": "2024-11-30",
+      "valor_minimo": 2500.00,
+      "instrucoes": "Use o código AE22ALL em qualquer pacote completo (voo+hotel+traslado).",
+      "termos_condicoes": [
+        "Válido apenas para reservas diretas pelo site oficial",
+        "Não cumulativo com pontos de fidelidade",
+        "Limite de 1 uso por CPF durante a vigência"
+      ],
+      "outras_informacoes": [
+        "Brinde surpresa para reservas acima de R$ 5.000",
+        "Check-in antecipado gratuito (12h)",
+        "Cortesia de boas-vindas no hotel"
+      ]
+    },
+    {
+      "id": 10,
+      "imagem": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+      "nome": "Pacote Cultural: 10% off + City Tour",
+      "descricao": "Desconto em viagens culturais para cidades históricas",
+      "codigo": "PC10CULT",
+      "validade": "2025-02-28",
+      "valor_minimo": 2200.00,
+      "instrucoes": "Reserve pacotes marcados como 'Roteiros Culturais' e use o código PC10CULT.",
+      "termos_condicoes": [
+        "Deve incluir visita a pelo menos 3 museus ou sítios históricos",
+        "City tour é em grupo e com horários pré-definidos",
+        "Não inclui ingressos para eventos especiais ou temporadas"
+      ],
+      "outras_informacoes": [
+        "Guia turístico especializado incluso",
+        "Entradas para museus não inclusas no valor",
+        "Audio-guia disponível em 3 idiomas com custo extra"
+      ]
+    }
+  ],
+  "metadata": {
+    "data_geracao": "2024-10-09",
+    "total_promocoes": 10,
+    "moeda": "BRL",
+    "observacoes": [
+      "Todas as promoções estão sujeitas à disponibilidade",
+      "Imagens meramente ilustrativas",
+      "Consulte condições específicas de cada hotel/companhia aérea"
+    ]
+  }
+}

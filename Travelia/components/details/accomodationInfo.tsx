@@ -122,7 +122,7 @@ const createStyles = (theme: ThemeName) =>
       gap: 5,
       paddingHorizontal: 10,
       width: "100%",
-      height: 300,
+      height: 320,
     },
 
     containerNights: {
@@ -246,9 +246,9 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       gap: 10,
       wordWrap: 'wrap',
-      height: 130,
+      height: "100%",
       width: "60%",
-      marginTop: 10,
+      marginTop: 40,
     },
 
     textNameHotel: {
@@ -368,7 +368,7 @@ const createStyles = (theme: ThemeName) =>
     textButton: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].realceBlue,
+      color: themeColors[theme].textColorButtonRealce,
     },
                                                                                                 
 

@@ -288,7 +288,7 @@ const createStyles = (theme: ThemeName) =>
     textButtonBuy: {
       fontSize: 16,
       fontWeight: 'bold',
-      color: themeColors[theme].textColorButtonRealce,
+      color: themeColors[theme].textButton,
     },
 
 

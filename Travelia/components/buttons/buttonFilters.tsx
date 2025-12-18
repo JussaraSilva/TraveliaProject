@@ -72,6 +72,7 @@ const createStyles = (theme: ThemeName) =>
     alignItems: 'center',
     paddingHorizontal: 10,
     gap: 10,
+    marginBottom: 10,
   },
 
 

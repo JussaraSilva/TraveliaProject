@@ -8,7 +8,7 @@ import {  AppleLogoIcon, ArrowLeftIcon,  EnvelopeSimpleIcon, EyeClosedIcon, Face
 import { InputLogin } from "@/components/inputs/inputLogin";
 import CustomCheckbox from "@/components/others/customCheckbox";
 import { LoginOption } from "@/components/buttons/loginOption";
-import { router } from "expo-router";
+import { useRouter } from "expo-router";
 
 
 export default function Login() {
@@ -23,11 +23,15 @@ export default function Login() {
     router.replace('/(app)/_tabs/home');
   }
 
+  const router = useRouter();
+
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-            <TouchableOpacity style={styles.buttonBack}>
+            <TouchableOpacity style={styles.buttonBack}
+              onPress={() => router.back()}
+            >
               <ArrowLeftIcon 
                 size={30}
                 color={themeColors[theme].icon}

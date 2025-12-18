@@ -146,7 +146,7 @@ export default function Details() {
                 />
               </View>
           </View>
-
+          
           <View style={styles.containerTermsConditions}>
             <View style={styles.containerTextTermsConditions}>
               <Text style={styles.textTermsConditions}>
