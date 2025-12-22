@@ -52,7 +52,7 @@ export default function FooterPrice(
                 weight="duotone"
               />
               <DateText value={dataSaida} variant="short"
-                style={styles.textPeriod}
+                textStyle={styles.textPeriod}
                 />
               
 
@@ -64,7 +64,7 @@ export default function FooterPrice(
                 weight="duotone"
               />
                 <DateText value={dataRetorno} variant="short" 
-                  style={styles.textPeriod}
+                  textStyle={styles.textPeriod}
                 />
             </View>
           </View>
@@ -113,7 +113,9 @@ export default function FooterPrice(
           </View>
         </View>
         <View style={styles.containerButtonBuy}>
-          <TouchableOpacity style={styles.buttonBuy}>
+          <TouchableOpacity style={styles.buttonBuy}
+            onPress={ () => {} }
+          >
             <Text style={styles.textButtonBuy}>
               Book Now
             </Text>

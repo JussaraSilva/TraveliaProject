@@ -1,12 +1,19 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { DotsThreeVerticalIcon } from "phosphor-react-native";
 import { useMemo } from "react";
-import {View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {View, Text, StyleSheet, TouchableOpacity, StyleProp, ViewStyle } from "react-native";
 import { Logo } from "../others/logo";
 
 
-export default function HeaderGlobal() {
+interface HeaderGlobalProps {
+  titlePage: string;
+  showLogo?: boolean
+  containerReverse?: StyleProp<ViewStyle>
+  iconHeader?: React.ReactNode
+  onPressIcon?: () => void
+}
+
+export default function HeaderGlobal({titlePage, showLogo, containerReverse, iconHeader, onPressIcon}: HeaderGlobalProps) {
   const { theme } = useTheme(); 
   const styles = useMemo(() => createStyles(theme), [theme]);
 
@@ -14,23 +21,23 @@ export default function HeaderGlobal() {
   return (
 
       <View style={styles.header}>
-        <View style={styles.containerContentHeader}>
+        <View style={[styles.containerContentHeader, containerReverse]}>
           <View style={styles.logoContainer}>
-              <Logo size={40}
+              {showLogo && (
+                <Logo size={40}
                     style={styles.logo} 
                     showText={false}
-                    />
+                />
+              )}
           </View>
           <View style={styles.containerTextHeader}>
-            <Text style={styles.textPage}>Promos</Text>
+            <Text style={styles.textPage}>{titlePage}</Text>
           </View>
           <View style={styles.containerHeaderIcons}>              
-            <TouchableOpacity style={styles.iconsContainer}>
-              <DotsThreeVerticalIcon
-                size={30}
-                color={themeColors[theme].icon}
-                weight="bold"
-              />
+            <TouchableOpacity style={styles.iconsContainer}
+              onPress={onPressIcon}
+            >
+              {iconHeader}
             </TouchableOpacity>
           </View>  
         </View>

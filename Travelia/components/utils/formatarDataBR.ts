@@ -27,10 +27,39 @@ export function formatarDataBR(
   data: string,
   tipo: "short" | "full" = "full"
 ) {
+  if (!data) return ""
+
+  const isISO = /^\d{4}-\d{2}-\d{2}$/.test(data)
+
+  // 🔹 CASO 1 — Data ISO: "2024-12-31"
+  if (isISO) {
+    const dateObj = new Date(`${data}T00:00:00`)
+
+    if (tipo === "full") {
+      return dateObj.toLocaleDateString("pt-BR", {
+        weekday: "long",
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+      })
+    }
+
+    return dateObj.toLocaleDateString("pt-BR", {
+      weekday: "short",
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+    })
+  }
+
+  // 🔹 CASO 2 — String completa já formatada
   if (tipo === "full") return data
 
   // Ex: "Sexta-feira, 12 de Abril de 2024"
   const [diaSemanaRaw, resto] = data.split(", ")
+
+  if (!resto) return data // fallback de segurança
+
   const [dia, , mes, , ano] = resto.split(" ")
 
   const diaSemana = diasMap[diaSemanaRaw.replace("-feira", "")] ?? ""
@@ -38,3 +67,4 @@ export function formatarDataBR(
 
   return `${diaSemana}, ${dia} ${mesAbrev} ${ano}`
 }
+

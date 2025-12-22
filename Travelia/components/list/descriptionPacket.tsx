@@ -2,17 +2,27 @@ import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { DotIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, StyleProp, ViewStyle, TextStyle } from 'react-native';
 
 
 
 type Props = {
   descriptionPacket?: string;
   includeList: string[];
+  showDescriptionContainer?: boolean
+  titleList?: string
+  containerStyle?: StyleProp<ViewStyle>
+  itemTextStyle?: StyleProp<TextStyle>
+
+
 }
 export default function DescriptionPacket({
   descriptionPacket,
   includeList,
+  showDescriptionContainer = true,
+  titleList,
+  containerStyle,
+  itemTextStyle
   
 
 }: Props) {
@@ -20,15 +30,17 @@ export default function DescriptionPacket({
   const styles = useMemo(() => createStyles(theme), [theme]);
 
   return (
-    <View style={styles.containerPacoteDescription}>
-      <View style={styles.containerTextDescription}>
-        <Text style={styles.textDescription}>
-        {descriptionPacket}.
-        </Text>
-      </View>
+    <View style={[styles.containerPacoteDescription, containerStyle]}>
+      {showDescriptionContainer && (
+          <View style={styles.containerTextDescription}>
+          <Text style={styles.textDescription}>
+            {descriptionPacket}.
+          </Text>
+        </View>
+      )}
       
       <View style={styles.servicesIncludeList}>
-        <Text style={styles.textTitle}>Packet Services Include:</Text>
+        <Text style={styles.textTitle}>{titleList}</Text>
         {includeList.map((item, index) => (
           <View key={index}
           style={styles.containerIncludeItem}>
@@ -37,7 +49,7 @@ export default function DescriptionPacket({
             color={themeColors[theme].realceBlue}
             weight='duotone'
           />
-          <Text style={styles.textServicesIncludeItem}>
+          <Text style={[styles.textServicesIncludeItem, itemTextStyle]}>
             {item}
           </Text>
         </View>    

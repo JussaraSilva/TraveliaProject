@@ -79,6 +79,7 @@ export default function Details() {
 
           <DescriptionPacket
             descriptionPacket={pacoteObj.destino.descricao}
+            titleList="Included in the package"
             includeList={pacoteObj.incluso}
           />
         </View>

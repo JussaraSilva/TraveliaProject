@@ -13,7 +13,7 @@ interface ThemedButtonProps {
 }
 
 
-export function ThemedButton ({title,onPress, style, textStyle}: ThemedButtonProps) {
+export function ButtonGlobal ({title,onPress, style, textStyle}: ThemedButtonProps) {
 
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);

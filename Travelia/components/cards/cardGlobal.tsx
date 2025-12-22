@@ -11,30 +11,34 @@ type CardVariant = 'image-text' | 'icon-text-icon';
 type CardGlobalProps = {
   variant: CardVariant;
   imagem?: string;
-  contentDirection?: StyleProp<ViewStyle>;
+  contentCardStyle?: StyleProp<ViewStyle>;
   textTitle: string;
   textDescription: string;
   onPress?: () => void
 };  
 
 
-export function CardGlobal({ variant, contentDirection, textTitle, textDescription, onPress, imagem }: CardGlobalProps) {
+export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, onPress, imagem }: CardGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
-
+  
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={[styles.containerContent, contentDirection]}
+      <TouchableOpacity style={[styles.containerContent, contentCardStyle]}
         onPress={onPress}
       >
 
         {/* IMAGE */}
         {variant === 'image-text' && (
           <View style={styles.containerMedia}>
-            <Image
-              source={{uri: imagem}}
-              style={styles.image}
-            />
+  
+            {imagem && (
+              <Image
+                source={{ uri: imagem }}
+                style={styles.image}
+                resizeMode="cover"
+              />
+            )}
           </View>
         )}
 

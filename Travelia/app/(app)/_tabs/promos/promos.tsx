@@ -12,6 +12,7 @@ import {  StyleSheet, View, ScrollView } from 'react-native';
 
 import promocoes from '../../../../assets/data/codePromoData.json';
 import { PromoType } from '@/assets/types/promoType/promo';
+import { DotsThreeVerticalIcon } from 'phosphor-react-native';
 
 
 
@@ -34,13 +35,25 @@ export default function PromosScreen() {
   };
 
 
+
   return (
     <View style={styles.container}>
       <View style={styles.containerContent}>
-            <HeaderGlobal />
+            <HeaderGlobal 
+              titlePage={'Promos'}
+              showLogo={true}
+              iconHeader={
+                <DotsThreeVerticalIcon
+                  size={30}
+                  color={themeColors[theme].icon}
+                  weight="bold"
+                />
+              }
+              
+            />
           <CardGlobal 
             variant={'icon-text-icon'}
-            contentDirection={styles.contentDirection}
+            contentCardStyle={styles.contentDirection}
             textTitle='Have a Promo Code'
             textDescription='Enter your Promo Code'
             onPress={handleCodePromo}
@@ -56,7 +69,7 @@ export default function PromosScreen() {
           <ScrollView
             showsVerticalScrollIndicator={false}
             contentContainerStyle={
-              {gap: 15, paddingBottom: 280}
+              {gap: 15, paddingBottom: 20}
             }
             
           >
@@ -65,9 +78,17 @@ export default function PromosScreen() {
             key={promo.id}
             variant="image-text"
             imagem={promo.imagem}
-            contentDirection={styles.contentDirectionImage}
+            contentCardStyle={styles.contentDirectionImage}
             textTitle={promo.nome}
             textDescription={promo.descricao}
+            onPress={() => {
+              router.push({
+                pathname: '/(app)/_tabs/promos/promoDetails',
+                params: {
+                  promo: JSON.stringify(promo)
+                }
+              });
+            }}
           />
           ))}
         </ScrollView>
