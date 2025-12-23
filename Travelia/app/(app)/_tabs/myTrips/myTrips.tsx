@@ -1,7 +1,9 @@
 import ButtonFilter from '@/components/buttons/buttonFilters';
 import HeaderGlobal from '@/components/header/headerGlobal';
+import { Logo } from '@/components/others/logo';
 import { themeColors, ThemeName } from '@/constants/theme'
 import { useTheme } from '@/context/themeProvider';
+import { router } from 'expo-router';
 import { CalendarIcon, CaretRightIcon, MapPinIcon } from 'phosphor-react-native';
 import React, { useMemo, useState } from 'react'
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
@@ -13,20 +15,31 @@ export default function MyTrips() {
   const labelButton = ['OnGoing', 'Completed', 'Canceled'];
   const [activeFilter, setActiveFilter] = useState(0);
 
+  const handleNextPage = () => {
+    router.push({
+      pathname: '/(app)/_tabs/myTrips/tripDetails',
+    });
+  };
+
 
   return (
     <View style={styles.container}>
       <View style={styles.containerHeader}>
-        <HeaderGlobal titlePage='Minhas Reservas'
-          showLogo={true}
-          containerReverse={styles.stylecontainerHeader}
-          iconHeader={
-            <CalendarIcon 
-              size={30} 
-              color={themeColors[theme].icon} 
-              weight="light" 
-            />
-          }
+        <HeaderGlobal 
+          titlePage='My Trips'
+          leftIcon={
+                    <Logo 
+                      size={28} 
+                      showText={false}
+                    />
+                  }
+          rightIcon={
+                      <CalendarIcon 
+                        size={28}
+                        color={themeColors[theme].icon} 
+                      />}
+          onPressLeftIcon={() => {}}
+          onPressRightIcon={() => {}}
         />
       </View>
 
@@ -45,7 +58,9 @@ export default function MyTrips() {
         style={styles.containerScroll}
       >
         <View style={styles.containerCards}>
-          <TouchableOpacity style={styles.containerCardRow}>
+          <TouchableOpacity style={styles.containerCardRow}
+            onPress={handleNextPage}
+          >
             <View style={styles.containerImagem}>
 
             </View>

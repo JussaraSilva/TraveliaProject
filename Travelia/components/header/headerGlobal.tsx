@@ -1,50 +1,61 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { useMemo } from "react";
-import {View, Text, StyleSheet, TouchableOpacity, StyleProp, ViewStyle } from "react-native";
-import { Logo } from "../others/logo";
+import {View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
 interface HeaderGlobalProps {
-  titlePage: string;
-  showLogo?: boolean
-  containerReverse?: StyleProp<ViewStyle>
-  iconHeader?: React.ReactNode
-  onPressIcon?: () => void
+  titlePage: string
+  leftIcon?: React.ReactNode
+  rightIcon?: React.ReactNode
+  onPressLeftIcon?: () => void
+  onPressRightIcon?: () => void
 }
 
-export default function HeaderGlobal({titlePage, showLogo, containerReverse, iconHeader, onPressIcon}: HeaderGlobalProps) {
-  const { theme } = useTheme(); 
-  const styles = useMemo(() => createStyles(theme), [theme]);
 
+export default function HeaderGlobal({
+  titlePage,
+  leftIcon,
+  rightIcon,
+  onPressLeftIcon,
+  onPressRightIcon
+}: HeaderGlobalProps) {
+
+  const { theme } = useTheme()
+  const styles = useMemo(() => createStyles(theme), [theme])
 
   return (
+    <View style={styles.header}>
+      <View style={styles.containerContentHeader}>
 
-      <View style={styles.header}>
-        <View style={[styles.containerContentHeader, containerReverse]}>
-          <View style={styles.logoContainer}>
-              {showLogo && (
-                <Logo size={40}
-                    style={styles.logo} 
-                    showText={false}
-                />
-              )}
-          </View>
-          <View style={styles.containerTextHeader}>
-            <Text style={styles.textPage}>{titlePage}</Text>
-          </View>
-          <View style={styles.containerHeaderIcons}>              
-            <TouchableOpacity style={styles.iconsContainer}
-              onPress={onPressIcon}
-            >
-              {iconHeader}
+        {/* ESQUERDA */}
+        <View style={styles.sideContainer}>
+          {leftIcon && (
+            <TouchableOpacity onPress={onPressLeftIcon}>
+              {leftIcon}
             </TouchableOpacity>
-          </View>  
+          )}
         </View>
-      </View>
 
-  );
+        {/* CENTRO */}
+        <View style={styles.containerTextHeader}>
+          <Text style={styles.textPage}>{titlePage}</Text>
+        </View>
+
+        {/* DIREITA */}
+        <View style={styles.sideContainer}>
+          {rightIcon && (
+            <TouchableOpacity onPress={onPressRightIcon}>
+              {rightIcon}
+            </TouchableOpacity>
+          )}
+        </View>
+
+      </View>
+    </View>
+  )
 }
+
 
 
 
@@ -66,55 +77,26 @@ const createStyles = (theme: ThemeName) =>
     justifyContent: 'space-between',
   },
   
-  logoContainer: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    
-  },
-
-  logo: {
-    width: 50,
-    height: 50,
-    borderRadius: 25,
-  },
-
   containerTextHeader: {
     flexDirection: 'column',
     justifyContent: 'center',
     gap: 5,
   },
 
-
   textPage: {
     fontSize: 30,
     fontWeight: 'bold',
     color: themeColors[theme].textPrimary,
   },
-
-  subTextLocation: {
-    fontSize: 16,
-    color: themeColors[theme].textSecondary,
-  },
-
-  containerHeaderIcons: {
-    flexDirection: 'row',
+  
+  
+  sideContainer: {
+    width: 40, // reserva espaço fixo
     alignItems: 'center',
-    justifyContent: 'space-between',
-    maxWidth: "100%",
-    gap: 10,
-  },
-
-  iconsContainer: {
-    alignItems: 'center',
-    borderRadius: 20,
-    padding: 5,
     justifyContent: 'center',
   },
 
-  textLocation: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: themeColors[theme].textPrimary,
-  },
+
+
 
 });
