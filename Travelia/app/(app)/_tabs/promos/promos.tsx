@@ -13,6 +13,7 @@ import {  StyleSheet, View, ScrollView } from 'react-native';
 import promocoes from '../../../../assets/data/codePromoData.json';
 import { PromoType } from '@/assets/types/promoType/promo';
 import { DotsThreeVerticalIcon } from 'phosphor-react-native';
+import { Logo } from '@/components/others/logo';
 
 
 
@@ -39,18 +40,13 @@ export default function PromosScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.containerContent}>
-            <HeaderGlobal 
-              titlePage={'Promos'}
-              showLogo={true}
-              iconHeader={
-                <DotsThreeVerticalIcon
-                  size={30}
-                  color={themeColors[theme].icon}
-                  weight="bold"
-                />
-              }
-              
-            />
+            
+           <HeaderGlobal
+              titlePage="Promos"
+              leftIcon={Logo({size: 28, showText: false})}
+              rightIcon={<DotsThreeVerticalIcon size={24} color={themeColors[theme].icon} />}
+              onPressRightIcon={() => {}}
+           />
           <CardGlobal 
             variant={'icon-text-icon'}
             contentCardStyle={styles.contentDirection}

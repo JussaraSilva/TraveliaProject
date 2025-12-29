@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { DateText } from "../utils/formatDate";
 import { PriceText } from "../utils/priceText";
+import { router } from "expo-router";
 
 
 type Props = {
@@ -15,13 +16,22 @@ type Props = {
   total_price: number;
   parcelamento: string;
   moeda: string;
+  pacote: any;
 }
 export default function FooterPrice(
-  { destino, dataSaida, dataRetorno, passengers, total_price, parcelamento, moeda }: Props
+  { destino, dataSaida, dataRetorno, passengers, total_price, parcelamento, moeda, pacote }: Props
 ) {
   const { theme } = useTheme(); 
   const styles = useMemo(() => createStyles(theme), [theme]);
 
+  const handleBookPayment = () => {
+  router.push({
+    pathname: '/(app)/_tabs/home/booking',
+    params: {
+      pacote: JSON.stringify(pacote),
+    },
+  });
+};
 
 
   return (
@@ -114,7 +124,7 @@ export default function FooterPrice(
         </View>
         <View style={styles.containerButtonBuy}>
           <TouchableOpacity style={styles.buttonBuy}
-            onPress={ () => {} }
+            onPress={handleBookPayment}
           >
             <Text style={styles.textButtonBuy}>
               Book Now
@@ -133,7 +143,7 @@ const createStyles = (theme: ThemeName) =>
     containerFooter: {
       flexDirection: 'column',
       alignItems: 'center',
-      width: '100%',
+      width: 400,
       backgroundColor: themeColors[theme].backgroundCard,
     },
 
@@ -147,7 +157,7 @@ const createStyles = (theme: ThemeName) =>
     containerDestiny: {
       flexDirection: 'row',
       alignItems: 'center',
-      paddingHorizontal: 5,
+      paddingHorizontal: 3,
       gap: 2,
       borderRightWidth: 1,
       borderRightColor: themeColors[theme].borderColor,
@@ -156,7 +166,7 @@ const createStyles = (theme: ThemeName) =>
     containerDate: {
       flexDirection: 'row',
       alignItems: 'center',
-      paddingHorizontal: 5,
+      paddingHorizontal: 2,
       borderRightWidth: 1,
       borderRightColor: themeColors[theme].borderColor,
     },
@@ -173,7 +183,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textPeriod: {
-      fontSize: 16,
+      fontSize: 14,
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },

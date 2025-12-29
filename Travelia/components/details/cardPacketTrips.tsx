@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 
-import { PacoteViagem } from "@/assets/types/index";
+import { PacoteViagem } from "@/assets/types/bookingType";
 import { HeartIcon, StarIcon, TrophyIcon } from "phosphor-react-native";
 import { router } from "expo-router";
 
@@ -19,7 +19,7 @@ export default function CardPacketTrips({pacote}: Props) {
 
   const enviarDados = () => {
     router.push({
-      pathname: "/(app)/stacks/details",
+      pathname: "/(app)/_tabs/home/details",
       params: { pacote: JSON.stringify(pacote) }
     });
   };

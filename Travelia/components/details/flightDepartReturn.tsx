@@ -9,9 +9,9 @@ type Props = {
   include?: string;
   direction: string;
   dateBoarding: string;
-  airport_origin: string;
+  airport_origin?: string;
   hour_boarding: string;
-  airport_destination: string;
+  airport_destination?: string;
   hour_destination: string;
   numero_voo: string;
   escala?: string;
@@ -155,8 +155,8 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       padding: 10,
       gap: 5,
-      paddingHorizontal: 10,
-      width: "100%",
+      width: 370,
+      paddingHorizontal : 10,
     },
 
     cardTitleHeader: {
@@ -180,13 +180,12 @@ const createStyles = (theme: ThemeName) =>
     cardFlightTop: {
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'space-between',
       width: '100%',
+      justifyContent: 'space-between',
       height: 50,
       borderBottomWidth: 1,
       borderBottomColor: themeColors[theme].borderColor,
       marginTop: 10,
-      gap : 5,
       
     },
 
@@ -196,7 +195,7 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       alignItems: 'center',
       justifyContent: 'center',
-      width: "28%",
+      
     },
 
     textCardDirection: {
@@ -210,7 +209,7 @@ const createStyles = (theme: ThemeName) =>
       alignItems: 'center',
       justifyContent: 'flex-end',
       wordWrap: 'break-word',
-      width: "65%",
+      
     },
 
     textCardDate: {
@@ -231,11 +230,12 @@ const createStyles = (theme: ThemeName) =>
     cardFlightMiddle: {
       flexDirection: 'row',
       alignItems: 'center',     
-      justifyContent: 'space-between',
-      gap: 5,
-      width: "100%",
+      gap: 15,
+      maxWidth: "100%",
       borderBottomWidth: 1,
       borderBottomColor: themeColors[theme].borderColor,
+      paddingHorizontal : 10,
+      
     },
 
     flightBoardingContainer: {
@@ -298,8 +298,8 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      gap: 5,
-      width: '100%',
+      gap: 20,
+      maxWidth: '100%',
     },
 
     companyAreaContainer: {

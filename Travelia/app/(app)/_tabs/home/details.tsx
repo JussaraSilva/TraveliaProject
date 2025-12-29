@@ -181,6 +181,7 @@ export default function Details() {
             total_price={pacoteObj.preco.total}
             parcelamento={pacoteObj.preco.parcelamento}
             moeda={pacoteObj.preco.moeda}
+            pacote={pacoteObj}
           />
         </View>
 
@@ -197,6 +198,7 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'center',
       backgroundColor: themeColors[theme].backgroundCard,
       flex: 1,
+      
     },
 
     containerScroll: {
@@ -204,7 +206,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerInfoPacoteTop: {
-      width: '100%',
+      width: 400,
       marginTop: 5,
       alignItems: 'center',
     },
@@ -283,31 +285,33 @@ const createStyles = (theme: ThemeName) =>
 
     containerInfoMiddle: {
       flexDirection: 'column',
-      width: '100%',
+      width: 400,
       marginTop: 5,
       backgroundColor: themeColors[theme].background,
-      
+      paddingVertical: 5,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
 
     containerInfoInclude: {
       flexDirection: 'column',
       marginTop: 5,
-      width: '100%',
-      paddingHorizontal: 12,
+      maxWidth: '100%',
+      
     },
 
     containerIncludeFlight: {
       flexDirection: 'column',
       marginTop: 5,
-      width: '100%',
-      paddingHorizontal: 12,
+      maxWidth: '100%',
+      
     },
 
     containerIncludeAccomodation: {
       flexDirection: 'column',
       marginTop: 5,
-      width: '100%',
-      paddingHorizontal: 12,
+      maxWidth: '100%',
+      
     },
 
     textInclude: {
@@ -328,7 +332,8 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       marginTop: 5,
       width: '100%',
-      paddingHorizontal: 12,
+
+      
     },
 
     activities: {
@@ -342,7 +347,7 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'space-between',
       backgroundColor: themeColors[theme].background,
       marginTop: 10,
-      paddingHorizontal: 20,
+      
     },
 
     containerTextTermsConditions: {
@@ -369,14 +374,14 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       marginTop: 5,
       width: '100%',
-      paddingHorizontal: 20,
+      
     },
 
     containerInfoFooter: {
       flexDirection: 'column',
       backgroundColor: themeColors[theme].backgroundCard,
       marginTop: 5,
-      width: '100%',
+      width: 400,
       
     },
 

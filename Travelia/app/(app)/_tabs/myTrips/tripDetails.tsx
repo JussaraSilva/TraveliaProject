@@ -21,7 +21,7 @@ import {
   UsersIcon,
 } from 'phosphor-react-native';
 import { useMemo, useState } from 'react';
-import { Image, ScrollView, StyleSheet, View, Text } from 'react-native';
+import { Image, ScrollView, StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
 export default function TripDetails() {
   const { theme } = useTheme();
@@ -260,6 +260,28 @@ export default function TripDetails() {
               cardTitle='Price Details'
               iconTitle={<CurrencyDollarIcon size={20} color={themeColors[theme].icon} />}
             />
+          </View>
+
+          <View style={styles.containerButtonTrip}>
+            <View style={styles.containerButtons}>
+              <View style={styles.containerButtonRecibo}>
+                <TouchableOpacity style={styles.buttonRecibo}>
+                  <Text style={styles.textButtonRecibo}>
+                    Download Receipt
+                  </Text>
+                </TouchableOpacity>
+              </View>
+              <View style={styles.containerButtonCancel}>
+                <TouchableOpacity style={styles.buttonCancel}
+                  onPress={() => {}}
+                >
+                  <Text style={styles.textButtonCancel}>
+                    Cancel Booking & Request Refund
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+
           </View>
           
         </View>
@@ -554,12 +576,78 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerPriceDetails: {
+      
       flexDirection: 'column',
       gap: 10,
       backgroundColor: themeColors[theme].backgroundCard,
       borderRadius: 10,
       padding: 15,
     },
+
+    containerButtonTrip: {
+      maxWidth: '100%',
+      flex:1,
+      marginTop: 20,
+      marginBottom: 30,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+
+    containerButtons: {
+      flexDirection: 'column',
+      gap: 20,
+    },
+
+    containerButtonRecibo: {
+      flex:1,
+
+    },
+
+    buttonRecibo: {
+      borderColor: themeColors[theme].realceBlue,
+      borderWidth: 1,
+      borderRadius: 30,
+      padding:15,
+      alignItems:'center',
+
+    },
+
+    textButtonRecibo: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      color: themeColors[theme].realceBlue,
+    },
+
+
+    containerButtonCancel: {
+      flex:1,
+    },
+
+    buttonCancel: {
+      borderColor: themeColors[theme].colorRed,
+      borderWidth: 1,
+      borderRadius: 30,
+      padding:15,
+      alignItems:'center',
+    },
+
+    textButtonCancel: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      color: themeColors[theme].colorRed,
+    },
+
+    
+    containerInfoPayment: {
+      flexDirection: 'column',
+      gap: 10,
+    },
+
+    textInfoPayment: {
+      fontSize: 16,
+    },
+
+
 
     
 

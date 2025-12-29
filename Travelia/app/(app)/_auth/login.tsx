@@ -20,7 +20,7 @@ export default function Login() {
   const [checked, setChecked] = useState(true);
 
   const handleHome = () => {
-    router.replace('/(app)/_tabs/home');
+    router.replace('/(app)/_tabs/home/home');
   }
 
   const router = useRouter();

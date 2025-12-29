@@ -35,17 +35,10 @@ export default function PromoDetails() {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <HeaderGlobal 
-          titlePage={'Promo'}
-          showLogo={false}
-          containerReverse={{flexDirection: 'row-reverse'}}
-          iconHeader={
-            <CaretLeftIcon 
-              size={30} 
-              color={themeColors[theme].icon} 
-              weight="light" 
-            />}
-          onPressIcon={router.back}
+        <HeaderGlobal
+          titlePage="Promo"
+          leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+          onPressLeftIcon={() => router.back()}
         />
       </View>
 

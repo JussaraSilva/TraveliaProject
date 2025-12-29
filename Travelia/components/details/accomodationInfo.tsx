@@ -120,8 +120,7 @@ const createStyles = (theme: ThemeName) =>
       borderRadius: 10,
       padding: 10,
       gap: 5,
-      paddingHorizontal: 10,
-      width: "100%",
+      width: 370,
       height: 320,
     },
 
