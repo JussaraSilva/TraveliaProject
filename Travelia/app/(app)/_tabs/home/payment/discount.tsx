@@ -63,6 +63,7 @@ export default function Discount() {
 
         <View style={styles.containerCardsPromos}>
           <FlatList 
+            style={styles.flatCards}
             data={listaPromos}
             renderItem={({ item }) => (
               <CardGlobal
@@ -76,8 +77,8 @@ export default function Discount() {
             />
             )}
             keyExtractor={(item) => String(item.id)}
-            ItemSeparatorComponent={() => <View style={{ height: 20, flex: 1 }} />}
-            contentContainerStyle={{ paddingBottom: 150}}
+            ItemSeparatorComponent={() => <View style={{ height: 20}} />}
+            contentContainerStyle={{ paddingBottom: 105}}
             showsVerticalScrollIndicator={false}
           />
           
@@ -151,13 +152,17 @@ const createStyles = (theme: ThemeName) =>
 
     containerCardsPromos: {
       width: '100%',
-      flex: 1,
+      
       marginTop: 10,
       gap: 10,
-      backgroundColor: themeColors[theme].realceBlue,
     },
 
     cardActive: {
       backgroundColor: themeColors[theme].realceBlue,
+    },
+
+    flatCards: {
+      
+      marginBottom: 250,
     },
   });
