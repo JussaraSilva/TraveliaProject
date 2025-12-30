@@ -12,7 +12,7 @@ import {  StyleSheet, View, ScrollView } from 'react-native';
 
 import promocoes from '../../../../assets/data/codePromoData.json';
 import { PromoType } from '@/assets/types/promoType/promo';
-import { DotsThreeVerticalIcon } from 'phosphor-react-native';
+import { DotsThreeVerticalIcon, CaretRightIcon, SealPercentIcon } from 'phosphor-react-native';
 import { Logo } from '@/components/others/logo';
 
 
@@ -53,6 +53,16 @@ export default function PromosScreen() {
             textTitle='Have a Promo Code'
             textDescription='Enter your Promo Code'
             onPress={handleCodePromo}
+            leftIcon={<SealPercentIcon
+              size={30}
+              color={themeColors[theme].textButton}
+              weight="fill"
+            />}
+            rightIcon={<CaretRightIcon
+              size={40}
+              color={themeColors[theme].icon}
+              weight="light"
+            />}
           />
 
           <ButtonFilter 

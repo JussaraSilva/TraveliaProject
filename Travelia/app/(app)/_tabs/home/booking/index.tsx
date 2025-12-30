@@ -1,3 +1,9 @@
+/**
+ * BOOKING – tela inicial do fluxo de reserva
+ * Rota: /(app)/_tabs/home/booking
+ */
+
+
 import BookingStepsLine from '@/components/buttons/bookingStepsLine';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { themeColors, ThemeName } from '@/constants/theme';
@@ -5,7 +11,7 @@ import { useTheme } from '@/context/themeProvider';
 import { CaretLeftIcon, CaretRightIcon, PencilLineIcon, PlusIcon, SeatIcon, UserIcon, UsersIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
 import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 
 import { PacoteViagem } from '@/assets/types/bookingType';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
@@ -22,6 +28,16 @@ export default function Booking() {
   const params = useLocalSearchParams<{ pacote: string }>();
 
   const pacoteObj: PacoteViagem = JSON.parse(params.pacote);
+
+  const handleContinuePayment = () => {
+      router.push({
+        pathname: '/(app)/_tabs/home/payment',
+        params: {
+          pacote: JSON.stringify(pacoteObj,
+          ),
+        },
+      });
+  }
 
 
 return (
@@ -164,7 +180,9 @@ return (
     </View>
 
     <View style={styles.containerFooter}>
-        <TouchableOpacity style={styles.buttonFooter}>
+        <TouchableOpacity style={styles.buttonFooter}
+          onPress={handleContinuePayment}
+        >
           <Text style={styles.textButtonFooter}> Continue </Text>
         </TouchableOpacity>
     </View>

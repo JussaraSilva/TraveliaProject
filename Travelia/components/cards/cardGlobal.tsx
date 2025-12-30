@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CaretRightIcon, SealPercentIcon } from "phosphor-react-native";
+
 
 import { useMemo } from "react";
 import {View, StyleSheet, StyleProp, ViewStyle, Image, Text, TouchableOpacity } from "react-native";
@@ -12,13 +12,16 @@ type CardGlobalProps = {
   variant: CardVariant;
   imagem?: string;
   contentCardStyle?: StyleProp<ViewStyle>;
+  containerIconLeftStyle?: StyleProp<ViewStyle>;
   textTitle: string;
   textDescription: string;
+  leftIcon?: React.ReactNode;
+  rightIcon?: React.ReactNode;
   onPress?: () => void
 };  
 
 
-export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, onPress, imagem }: CardGlobalProps) {
+export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, onPress, imagem, leftIcon, rightIcon, containerIconLeftStyle }: CardGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
   
@@ -44,19 +47,18 @@ export function CardGlobal({ variant, contentCardStyle, textTitle, textDescripti
 
         {/* LEFT ICON */}
         {variant === 'icon-text-icon' && (
-          <View style={styles.containerIcon}>
-            <SealPercentIcon
-              size={30}
-              color={themeColors[theme].textButton}
-              weight="fill"
-            />
+          <View style={[styles.containerIcon, containerIconLeftStyle]}>
+            {leftIcon}
           </View>
         )}
 
         {/* TEXT (sempre existe) */}
         <View style={styles.containerTextPromo}>
           <Text style={styles.textPromoTitle}>{textTitle}</Text>
-          <Text style={styles.textPromoDescription}>
+          <Text style={styles.textPromoDescription}
+            numberOfLines={2}
+            ellipsizeMode="tail"
+          >
             {textDescription}
           </Text>
         </View>
@@ -64,11 +66,7 @@ export function CardGlobal({ variant, contentCardStyle, textTitle, textDescripti
         {/* RIGHT ICON */}
         {variant === 'icon-text-icon' && (
           <View style={styles.containerIconCaret}>
-            <CaretRightIcon
-              size={40}
-              color={themeColors[theme].icon}
-              weight="light"
-            />
+            {rightIcon}
           </View>
         )}
 
@@ -108,6 +106,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerTextPromo: {
+      width: 300,
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'flex-start',

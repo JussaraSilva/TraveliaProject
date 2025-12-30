@@ -1,20 +1,20 @@
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { useMemo } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, StyleProp, ViewStyle } from 'react-native';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
 type CardDetailsGlobalProps = {
   title: string;
-  leftIcon: React.ReactNode;
+  leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
   children?: React.ReactNode;
   onPressIcon?: () => void;
-  borderStyleProp?: StyleProp<ViewStyle>;
+  showDivider?: boolean; // 👈 NOVO
 }
 
 
 export default function CardDetailsGlobal (
-  { title, leftIcon, rightIcon, children, onPressIcon, borderStyleProp }: CardDetailsGlobalProps) {
+  { title, leftIcon, rightIcon, children, onPressIcon, showDivider }: CardDetailsGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
@@ -22,7 +22,7 @@ export default function CardDetailsGlobal (
   return (
     <View style={styles.containerCard}>
       {/* header */}
-      <View style={[styles.header, borderStyleProp]}>
+      <View style={[styles.header, !showDivider && styles.noDivider]}>
         <View style={styles.left}>
           {leftIcon}
           <Text style={styles.title}>{title}</Text>
@@ -34,9 +34,11 @@ export default function CardDetailsGlobal (
       </View>
 
       {/* body */}
-      <View style={styles.body}>
-        {children}
-      </View>
+      {children && (
+        <View style={styles.body}>
+          {children}
+        </View>
+      )}
     </View>
   );
 }
@@ -80,6 +82,12 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   body: {
     flexDirection: 'column',
     gap: 8,
+  },
+
+  noDivider: {
+    borderBottomWidth: 0,
+    paddingBottom: 0,
+    marginBottom: 0,
   },
 
 });
