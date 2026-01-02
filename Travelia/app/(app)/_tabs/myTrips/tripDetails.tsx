@@ -1,12 +1,15 @@
+import { PacoteViagem } from '@/assets/types/bookingType';
 import ButtonFilter from '@/components/buttons/buttonFilters';
 import PaymentInfoCard from '@/components/cards/paymentInfoCard';
 import AccomodationInfo from '@/components/details/accomodationInfo';
 import ActivitiesInfo from '@/components/details/activitiesInfo';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import HeaderGlobal from '@/components/header/headerGlobal';
+import { DateText } from '@/components/utils/formatDate';
+import { PriceText } from '@/components/utils/priceText';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
-import { useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 import {
   AirplaneInFlightIcon,
   AirplaneTakeoffIcon,
@@ -21,7 +24,14 @@ import {
   UsersIcon,
 } from 'phosphor-react-native';
 import { useMemo, useState } from 'react';
-import { Image, ScrollView, StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import {
+  Image,
+  ScrollView,
+  StyleSheet,
+  View,
+  Text,
+  TouchableOpacity,
+} from 'react-native';
 
 export default function TripDetails() {
   const { theme } = useTheme();
@@ -32,21 +42,76 @@ export default function TripDetails() {
   const labelButton = ['Package', 'E-Ticket'];
   const [activeFilter, setActiveFilter] = useState(0);
 
+  
+  const params = useLocalSearchParams<{
+    pacote?: string;
+    paymentId?: string;
+    paymentTitle?: string;
+    paymentSubtitle?: string;
+    discountId?: string;
+    discountTitle?: string;
+    discountSubtitle?: string;
+  }>();
+
+  
+  
+  const pacoteObj: PacoteViagem | null = params.pacote
+  ? JSON.parse(
+    Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
+  )
+  : null;
+
+  
+  
   const paymentInfo = [
   { label: 'Status', value: 'Paid', type: 'badge' },
-  { label: 'Payment Method', value: 'Mastercard (*4679)' },
+  {
+    label: 'Payment Method',
+    value: `${params.paymentSubtitle ?? 'None'} - ${params.paymentTitle ?? 'None'}`,
+  },
   { label: 'Date & Time', value: 'Dec 20, 2025 · 09:41 AM' },
   { label: 'Booking ID', value: 'BID122025BKG', copy: true },
   { label: 'Transaction ID', value: 'TID094125TRX', copy: true },
   { label: 'Merchant ID', value: 'MID374028MRC', copy: true },
-]
+];
+
+
+
+
   const priceInfo = [
-  { label: 'Travel Package (2 adults)', value: 'R$ 2.500,00'},
-  { label: 'Travel Insurance', value: 'R$ 40,00' },
-  { label: 'Tax', value: 'R$ 10,00' },
-  { label: 'Discount (20%)', value: 'R$ 580,00'},
-  { label: 'Total Price', value: 'R$ 2.670,00'},
-]
+  {
+    label: `${pacoteObj?.viajantes.quantidade ?? 0} Passengers`,
+    value: <PriceText 
+      value={pacoteObj?.preco.total ?? 0}
+      currency={pacoteObj?.preco.moeda ?? 'BRL'}
+    />,
+  },
+  {
+    label: 'Travel Insurance',
+    value: 'R$ 40,00',
+  },
+  {
+    label: 'Tax',
+    value: 'R$ 10,00',
+  },
+  {
+    label: params.discountTitle ?? 'Discount',
+    value: 'R$ 580,00',
+  },
+  {
+    label: 'Total Price',
+    value: String(pacoteObj?.preco.total ?? '0'),
+  },
+];
+
+
+  if (!pacoteObj) {
+  return (
+    <View>
+      <Text>Pacote não encontrado</Text>
+    </View>
+  );
+}
 
   return (
     <View style={styles.container}>
@@ -82,14 +147,14 @@ export default function TripDetails() {
               <View style={styles.containerImageTop}>
                 <Image
                   source={{
-                    uri: 'https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/2019/08/passagem-aerea-promocional-executiva-emirates-bali-indonesia-asia-voe-simples-promo-sdfull.jpg',
+                    uri: pacoteObj?.imagens[0],
                   }}
                   style={styles.imageTop}
                 />
               </View>
               <View style={styles.containerNameTop}>
                 <Text style={styles.textNameTop} numberOfLines={3}>
-                  Bali & Memorable 3-Days Journey to Top Destinations (E-Ticket)
+                  {pacoteObj?.nome_pacote}
                 </Text>
               </View>
             </View>
@@ -102,7 +167,9 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textLocationLeft}>New York / Bali</Text>
+                  <Text style={styles.textLocationLeft}>
+                    {pacoteObj?.destino.nome}, {pacoteObj?.destino.pais}
+                  </Text>
                 </View>
                 <View style={styles.containerDateLeft}>
                   <CalendarDotsIcon
@@ -110,7 +177,24 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textDateLeft}>Dec 27 - 29, 2025</Text>
+                  <View style={styles.containerDatas}>
+                    <Text style={styles.textDataCheckIn}>
+                      <DateText
+                        value={
+                          pacoteObj?.estadia.checkin ?? 'Data nao encontrada'
+                        }
+                        variant='short'
+                      />
+                    </Text>
+                    <Text style={styles.textDataCheckOut}>
+                      <DateText
+                        value={
+                          pacoteObj?.estadia.checkout ?? 'Data nao encontrada'
+                        }
+                        variant='short'
+                      />
+                    </Text>
+                  </View>
                 </View>
                 <View style={styles.containerPassengersLeft}>
                   <UsersIcon
@@ -118,7 +202,7 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textPassengersLeft}>2 Adults</Text>
+                  <Text style={styles.textPassengersLeft}>{pacoteObj?.viajantes.quantidade} Passengers</Text>
                 </View>
               </View>
               <View style={styles.containerInfoColumnRight}>
@@ -128,7 +212,9 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textFlightsRight}>2 Flights</Text>
+                  <Text style={styles.textFlightsRight}>
+                    {pacoteObj?.resumo.quantidade_voos} Flights
+                  </Text>
                 </View>
                 <View style={styles.containerAccomodationRight}>
                   <BuildingApartmentIcon
@@ -137,7 +223,7 @@ export default function TripDetails() {
                     weight='light'
                   />
                   <Text style={styles.textAccomodationRight}>
-                    1 Accomodation
+                    {pacoteObj?.resumo.quantidade_acomodacoes} Accomodation
                   </Text>
                 </View>
                 <View style={styles.containerActivityRight}>
@@ -146,7 +232,7 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textActivityRight}>1 Activity</Text>
+                  <Text style={styles.textActivityRight}>{pacoteObj?.resumo.quantidade_atividades} Activity</Text>
                 </View>
               </View>
             </View>
@@ -157,13 +243,13 @@ export default function TripDetails() {
               <View style={styles.containerImageTourGuide}>
                 <Image
                   source={{
-                    uri: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80',
+                    uri: pacoteObj?.resumo.guia_turistico.imagem,
                   }}
                   style={styles.imageTourGuide}
                 />
               </View>
               <View style={styles.containerNameGuide}>
-                <Text style={styles.textNameTourGuide}>Joaquin Holland</Text>
+                <Text style={styles.textNameTourGuide}>{pacoteObj?.resumo.guia_turistico.nome}</Text>
                 <Text style={styles.textDescriptionTourGuide}>
                   Your Tour Guide
                 </Text>
@@ -187,28 +273,28 @@ export default function TripDetails() {
             <FlightDepartReturn
               include='Flight'
               direction='Departure'
-              dateBoarding='Saturday Dec 27, 2025'
-              airport_origin='New York (JFK)'
-              hour_boarding='09:00'
-              airport_destination='Bali (DPS)'
-              hour_destination='08:00'
-              numero_voo='LH 123'
-              escala='Lima'
-              name_airline='Emirates'
-              logo_airline='https://logos-world.net/wp-content/uploads/2021/12/Emirates-Logo.png'
+              dateBoarding={pacoteObj?.voos.ida.data_completa ?? 'Data nao encontrada'}
+              airport_origin={pacoteObj?.voos.ida.aeroporto_origem ?? 'Data nao encontrada'}
+              hour_boarding={pacoteObj?.voos.ida.horario_partida ?? 'Data nao encontrada'}
+              airport_destination={pacoteObj?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_destination={pacoteObj?.voos.ida.horario_chegada ?? 'Horario nao encontrada'}
+              numero_voo={pacoteObj?.voos.ida.numero ?? 'Voo não encontrado'}
+              escala={pacoteObj?.voos.ida.escala ?? 'Sem escala'}
+              name_airline={pacoteObj?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
+              logo_airline={pacoteObj?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
             />
             <FlightDepartReturn
               includeStyle={styles.flightReturn}
               direction='Return'
-              dateBoarding='Monday, Dec 29 2025'
-              airport_origin='Bali (DPS)'
-              hour_boarding='10:00'
-              airport_destination='New York (JFK)'
-              hour_destination='08:30'
-              numero_voo='LH 123'
-              escala='Lima'
-              name_airline='Emirates'
-              logo_airline='https://logos-world.net/wp-content/uploads/2021/12/Emirates-Logo.png'
+              dateBoarding={pacoteObj?.voos.volta.data_completa ?? 'Data nao encontrada'}
+              airport_origin={pacoteObj?.voos.volta.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_boarding={pacoteObj?.voos.volta.horario_partida ?? 'Horario nao encontrada'}
+              airport_destination={pacoteObj?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_destination={pacoteObj?.voos.volta.horario_chegada ?? 'Horario nao encontrada'}
+              numero_voo={pacoteObj?.voos.volta.numero ?? 'Voo não encontrado'}
+              escala={pacoteObj?.voos.volta.escala ?? 'Sem escala'}
+              name_airline={pacoteObj?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
+              logo_airline={pacoteObj?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
             />
           </View>
 
@@ -216,14 +302,15 @@ export default function TripDetails() {
             <AccomodationInfo
               include='Accommodation'
               includeStyle={styles.accomodation}
-              checkIn='Saturday Dec 27, 2025'
-              checkOut='Monday, Dec 29 2025'
-              noites={6}
-              name_hotel='The Sky Hotel'
-              categoria_hotel='5 Star'
-              nameCity='New York'
-              nameCountry='United States'
-              imagemHotel='https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80'
+              checkIn={pacoteObj?.estadia.checkin ?? 'Data nao encontrada'}
+              checkOut={pacoteObj?.estadia.checkout ?? 'Data nao encontrada'}
+              noites={pacoteObj?.estadia.noites ?? 0}
+              name_hotel={pacoteObj?.acomodacao.nome_hotel ?? 'Hotel nao encontrado'}
+              tipo_hotel={pacoteObj?.acomodacao.tipo ?? 'Tipo nao encontrado'}
+              categoria_hotel={pacoteObj?.acomodacao.categoria ?? 'Categoria nao encontrado'}
+              nameCity={pacoteObj?.destino.nome ?? 'Cidade nao encontrada'}
+              nameCountry={pacoteObj?.destino.pais ?? 'País nao encontrada'}
+              imagemHotel={pacoteObj?.acomodacao.imagem_hotel ?? 'Categoria nao encontrado'}
             />
           </View>
 
@@ -231,34 +318,38 @@ export default function TripDetails() {
             <ActivitiesInfo
               include='Activities'
               includeStyle={styles.activities}
-              checkIn='Saturday Dec 27, 2025'
-              checkOut='Monday, Dec 29 2025'
+              checkIn={pacoteObj?.estadia.checkin ?? 'Data nao encontrada'}
+              checkOut={pacoteObj?.estadia.checkout ?? 'Data nao encontrada'}
               duracao={6}
-              nome_pacote='Bali Vacation'
-              atividades={[]}
-              quantidade_pessoas={4}
-              tipo='Group'
-              idade_minima={18}
+              nome_pacote={pacoteObj?.nome_pacote ?? 'Pacote nao encontrado'}
+              atividades={pacoteObj?.atividades}
+              quantidade_pessoas={pacoteObj?.viajantes.quantidade ?? 0}
+              tipo={pacoteObj?.viajantes.tipo ?? 'Tipo nao encontrado'}
+              idade_minima={pacoteObj?.viajantes.idade_minima ?? 0}
             />
           </View>
 
           <View style={styles.containerTitlePackageDetails}>
             <Text style={styles.textTitlePackageDetails}>Payment Details</Text>
           </View>
-          
+
           <View style={styles.containerPaymentInfo}>
-            <PaymentInfoCard 
+            <PaymentInfoCard
               paymentInfo={paymentInfo}
               cardTitle='Payment Info'
-              iconTitle={<ReceiptIcon size={20} color={themeColors[theme].icon} />}
+              iconTitle={
+                <ReceiptIcon size={20} color={themeColors[theme].icon} />
+              }
             />
           </View>
 
           <View style={styles.containerPriceDetails}>
-            <PaymentInfoCard 
+            <PaymentInfoCard
               paymentInfo={priceInfo}
               cardTitle='Price Details'
-              iconTitle={<CurrencyDollarIcon size={20} color={themeColors[theme].icon} />}
+              iconTitle={
+                <CurrencyDollarIcon size={20} color={themeColors[theme].icon} />
+              }
             />
           </View>
 
@@ -266,13 +357,12 @@ export default function TripDetails() {
             <View style={styles.containerButtons}>
               <View style={styles.containerButtonRecibo}>
                 <TouchableOpacity style={styles.buttonRecibo}>
-                  <Text style={styles.textButtonRecibo}>
-                    Download Receipt
-                  </Text>
+                  <Text style={styles.textButtonRecibo}>Download Receipt</Text>
                 </TouchableOpacity>
               </View>
               <View style={styles.containerButtonCancel}>
-                <TouchableOpacity style={styles.buttonCancel}
+                <TouchableOpacity
+                  style={styles.buttonCancel}
                   onPress={() => {}}
                 >
                   <Text style={styles.textButtonCancel}>
@@ -281,9 +371,7 @@ export default function TripDetails() {
                 </TouchableOpacity>
               </View>
             </View>
-
           </View>
-          
         </View>
       </ScrollView>
     </View>
@@ -399,10 +487,20 @@ const createStyles = (theme: ThemeName) =>
       gap: 5,
     },
 
-    textDateLeft: {
-      fontSize: 16,
+    containerDatas: {
+      flexDirection: 'column',
+    },
+
+    textDataCheckIn: {
+      fontSize: 14,
       fontWeight: 'bold',
-      color: themeColors[theme].textPrimary,
+      color: themeColors[theme].textSecondary,
+    },
+
+    textDataCheckOut: {
+      fontSize: 14,
+      fontWeight: 'bold',
+      color: themeColors[theme].textSecondary,
     },
 
     containerPassengersLeft: {
@@ -544,7 +642,6 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       marginTop: 5,
       width: '100%',
-      
     },
 
     textInclude: {
@@ -552,7 +649,7 @@ const createStyles = (theme: ThemeName) =>
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },
-    
+
     accomodation: {
       backgroundColor: themeColors[theme].colorRed,
     },
@@ -576,7 +673,6 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerPriceDetails: {
-      
       flexDirection: 'column',
       gap: 10,
       backgroundColor: themeColors[theme].backgroundCard,
@@ -586,7 +682,7 @@ const createStyles = (theme: ThemeName) =>
 
     containerButtonTrip: {
       maxWidth: '100%',
-      flex:1,
+      flex: 1,
       marginTop: 20,
       marginBottom: 30,
       alignItems: 'center',
@@ -599,17 +695,15 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerButtonRecibo: {
-      flex:1,
-
+      flex: 1,
     },
 
     buttonRecibo: {
       borderColor: themeColors[theme].realceBlue,
       borderWidth: 1,
       borderRadius: 30,
-      padding:15,
-      alignItems:'center',
-
+      padding: 15,
+      alignItems: 'center',
     },
 
     textButtonRecibo: {
@@ -618,17 +712,16 @@ const createStyles = (theme: ThemeName) =>
       color: themeColors[theme].realceBlue,
     },
 
-
     containerButtonCancel: {
-      flex:1,
+      flex: 1,
     },
 
     buttonCancel: {
       borderColor: themeColors[theme].colorRed,
       borderWidth: 1,
       borderRadius: 30,
-      padding:15,
-      alignItems:'center',
+      padding: 15,
+      alignItems: 'center',
     },
 
     textButtonCancel: {
@@ -637,7 +730,6 @@ const createStyles = (theme: ThemeName) =>
       color: themeColors[theme].colorRed,
     },
 
-    
     containerInfoPayment: {
       flexDirection: 'column',
       gap: 10,
@@ -646,10 +738,4 @@ const createStyles = (theme: ThemeName) =>
     textInfoPayment: {
       fontSize: 16,
     },
-
-
-
-    
-
-
   });

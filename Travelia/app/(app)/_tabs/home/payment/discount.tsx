@@ -25,7 +25,12 @@ export default function Discount() {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
-  const params = useLocalSearchParams<{ pacote?: string }>();
+  const params = useLocalSearchParams<{ 
+    pacote?: string
+    paymentId?: string,
+    paymentTitle?: string,
+    paymentSubtitle?: string,
+  }>();
 
   const listaPromos: PromoType[] = promocoes.promocoes;
   const selectVouchers = () => {
@@ -47,6 +52,10 @@ export default function Discount() {
         discountId: String(item.id),
         discountTitle: item.nome,
         discountSubtitle: item.descricao,
+        // Repassa o pagamento para não perdê-lo
+          paymentId: params.paymentId,
+          paymentTitle: params.paymentTitle,
+          paymentSubtitle: params.paymentSubtitle,
       },
     });
   }, 150);

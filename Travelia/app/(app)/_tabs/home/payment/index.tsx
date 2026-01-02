@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from "react-native";
-import { useMemo } from "react";
-import { CaretLeftIcon, CaretRightIcon, CoinsIcon, PercentIcon, WalletIcon} from "phosphor-react-native";
+import { useMemo, useState, useEffect } from "react";
+import { CaretLeftIcon, CaretRightIcon, CoinsIcon, PercentIcon, WalletIcon } from "phosphor-react-native";
 import HeaderGlobal from "@/components/header/headerGlobal";
 import { useTheme } from "@/context/themeProvider";
 import { themeColors, ThemeName } from "@/constants/theme";
@@ -11,9 +11,6 @@ import CardPacketResume from "@/components/cards/cardPacketResume";
 import CardDetailsGlobal from "@/components/cards/cardDetailsGlobal";
 import PriceDetailsResume from "@/components/cards/priceDetails";
 import { PriceText } from "@/components/utils/priceText";
-
-
-
 
 export default function Payment() {
   const { theme } = useTheme(); 
@@ -27,47 +24,109 @@ export default function Payment() {
     discountId?: string;
     discountTitle?: string;
     discountSubtitle?: string;
-  
   }>();
 
+  const [payment, setPayment] = useState<{id: string, title: string, subtitle: string} | null>(null);
+  const [discount, setDiscount] = useState<{id: string, title: string, subtitle: string} | null>(null);
+
+  /** 📦 Pacote */
   const pacoteObj: PacoteViagem | null = params.pacote
     ? JSON.parse(
         Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
       )
     : null;
 
+    
+    /** ✅ SINCRONIZA PAGAMENTO (uma vez por mudança) */
+    useEffect(() => {
+    if (params.paymentId) {
+      setPayment({
+        id: params.paymentId,
+        title: params.paymentTitle || "",
+        subtitle: params.paymentSubtitle || "",
+      });
+    }
+  }, [params.paymentId, params.paymentTitle, params.paymentSubtitle]);
+
+
+  /** ✅ SINCRONIZA DESCONTO (uma vez por mudança) */
+  useEffect(() => {
+    if (params.discountId) {
+      setDiscount({
+        id: params.discountId,
+        title: params.discountTitle || "",
+        subtitle: params.discountSubtitle || "",
+      });
+    }
+  }, [params.discountId, params.discountTitle, params.discountSubtitle]);
+
+  
   if (!pacoteObj) {
     return <View />;
   }
-
-  const paymentTitle = params.paymentTitle ?? "";
-  const paymentSubtitle = params.paymentSubtitle ?? "";
-
-  const discountTitle = params.discountTitle ?? "";
-
   const selectPayment = () => {
-    router.push({
-      pathname: '/(app)/_tabs/home/payment/selectPaymentMethod',
-      params: {
-        pacote: params.pacote, // 👈 AGORA SIM
+  router.push({
+    pathname: "/(app)/_tabs/home/payment/selectPaymentMethod",
+    params: {
+      pacote: params.pacote,
+
+      // mantém pagamento atual
+      paymentId: payment?.id,
+      paymentTitle: payment?.title,
+      paymentSubtitle: payment?.subtitle,
+
+      // mantém desconto atual
+      discountId: discount?.id,
+      discountTitle: discount?.title,
+      discountSubtitle: discount?.subtitle,
       },
     });
-  }
+     console.log('ENVIANDO Pagamento 2 👉', payment?.title, payment?.subtitle);
+  };
 
   const selectDiscount = () => {
-    router.push({
-      pathname: '/(app)/_tabs/home/payment/discount',
-      params: {
-        pacote: params.pacote, // 👈 AGORA SIM
+  router.push({
+    pathname: "/(app)/_tabs/home/payment/discount",
+    params: {
+        pacote: params.pacote,
+
+        // mantém pagamento
+        paymentId: payment?.id,
+        paymentTitle: payment?.title,
+        paymentSubtitle: payment?.subtitle,
+
+        // mantém desconto
+        discountId: discount?.id,
+        discountTitle: discount?.title,
+        discountSubtitle: discount?.subtitle,
       },
     });
+
+    console.log('ENVIANDO Desconto 1 👉', discount?.title, discount?.subtitle);
+  };
+
+
+  
+
+  const hasPaymentSelected = Boolean(payment);
+  const hasDiscountSelected = Boolean(discount);
+
+
+  const handleConfirmPayment = () => {
+      router.push({
+        pathname: '/(app)/_tabs/home/payment/E-Ticket',
+        params: {
+          pacote: JSON.stringify(pacoteObj),
+          paymentId: payment?.id,
+          paymentTitle: payment?.title,
+          paymentSubtitle: payment?.subtitle,
+
+          discountId: discount?.id,
+          discountTitle: discount?.title,
+          discountSubtitle: discount?.subtitle,
+        },
+      });
   }
-
-
-
-
-  const hasPaymentSelected = Boolean(paymentTitle);
-  const hasDiscountSelected = Boolean(discountTitle);
 
   return (
     <View style={styles.container}>
@@ -79,64 +138,50 @@ export default function Payment() {
         />
 
         <View style={styles.containerSteps}>
-            <BookingStepsLine />
+          <BookingStepsLine />
         </View>
-
-            
       </View>
-        <ScrollView
-        style={styles.containerScroll}
-        showsVerticalScrollIndicator={false}
-      >
 
+      <ScrollView style={styles.containerScroll} showsVerticalScrollIndicator={false}>
         <View style={styles.containerContentResume}>
-          <View style={styles.containerContentInfoResumePacket}>
-            <CardPacketResume 
-              namePacket={pacoteObj.nome_pacote}
-              dataCheckIn={pacoteObj.estadia.checkin}
-              dataCheckOut={pacoteObj.estadia.checkout}
-              imagePacket={pacoteObj.imagens[0]}
-              onPressResumePacket={() => {}}
-            />
+          <CardPacketResume 
+            namePacket={pacoteObj.nome_pacote}
+            dataCheckIn={pacoteObj.estadia.checkin}
+            dataCheckOut={pacoteObj.estadia.checkout}
+            imagePacket={pacoteObj.imagens[0]}
+            onPressResumePacket={() => {}}
+          />
 
-          </View>
-
-          <View style={styles.paymentMethodsContainer}>
-            <CardDetailsGlobal 
-              title="Payment Method"
-              leftIcon={<WalletIcon size={24} color={themeColors[theme].icon} />}
-              rightIcon={<CaretRightIcon size={20} color={themeColors[theme].icon}/>}
-              onPressIcon={selectPayment}
-              showDivider={hasPaymentSelected}
-            >
+          {/* 💳 Payment */}
+          <CardDetailsGlobal 
+            title="Payment Method"
+            leftIcon={<WalletIcon size={24} color={themeColors[theme].icon} />}
+            rightIcon={<CaretRightIcon size={20} color={themeColors[theme].icon} />}
+            onPressIcon={selectPayment}
+            showDivider={hasPaymentSelected}
+          >
             {hasPaymentSelected && (
               <View style={styles.paymentMethodStyleText}>
-                <Text style={styles.paymentMethodText}>{paymentTitle}</Text>
-                <Text style={styles.paymentMethodText}>{paymentSubtitle}</Text>
+                <Text style={styles.paymentMethodText}>{payment?.subtitle}</Text>
               </View>
             )}
-            </CardDetailsGlobal>
-          </View>
+          </CardDetailsGlobal>
 
-          <View style={styles.containerDiscountCodes}>
+          {/* 🎟️ Discount */}
           <CardDetailsGlobal 
-              title="Discount/Vouchers"
-              leftIcon={<PercentIcon size={24} color={themeColors[theme].icon} />}
-              rightIcon={<CaretRightIcon size={20} color={themeColors[theme].icon}/>}
-              onPressIcon={selectDiscount}
-              showDivider={hasDiscountSelected}
-            >
-
+            title="Discount / Vouchers"
+            leftIcon={<PercentIcon size={24} color={themeColors[theme].icon} />}
+            rightIcon={<CaretRightIcon size={20} color={themeColors[theme].icon} />}
+            onPressIcon={selectDiscount}
+            showDivider={hasDiscountSelected}
+          >
             {hasDiscountSelected && (
               <View style={styles.discountCodeStyleText}>
-                <Text style={styles.discountCodeText}>{discountTitle}</Text>
+                <Text style={styles.discountCodeText}>{discount?.title}</Text>
               </View>
             )}
-
           </CardDetailsGlobal>
-          </View>
 
-          <View style={styles.containerPriceFooter}>
           <PriceDetailsResume 
             leftIconPriceDetails={<CoinsIcon size={24} color={themeColors[theme].icon} />}
             labelRowPrice="Travel Package Price"
@@ -145,34 +190,25 @@ export default function Payment() {
             parcelamento={pacoteObj.preco.parcelamento}
             precoTotal={pacoteObj.preco.total}
           />
-
-          </View>
-
         </View>
-        </ScrollView>
+      </ScrollView>
+
       <View style={styles.containerFooter}>
-          <TouchableOpacity style={styles.buttonFooter}
-            onPress={() => {}}
+          <TouchableOpacity style={styles.iconButtonFooter}
+            onPress={handleConfirmPayment}
           >
-            <View style={styles.iconButtonFooter}>
-
-            <Text style={styles.textButtonFooter}> Confirm Payment - </Text> 
-            
-            <Text style={styles.textButtonFooter}>
-                <PriceText
-                  value={pacoteObj.preco.total}
-                  currency={pacoteObj.preco.moeda}
-                  style={styles.textPriceValue}
-              />
-            </Text>
-            </View>
-
+            <Text style={styles.textButtonFooter}>Confirm Payment - </Text> 
+            <PriceText
+              value={pacoteObj.preco.total}
+              currency={pacoteObj.preco.moeda}
+              style={styles.textPriceValue}
+            />
           </TouchableOpacity>
-
       </View>
     </View>
-  )
+  );
 }
+
 
 const createStyles = (theme: ThemeName) => (
   StyleSheet.create({
@@ -251,6 +287,10 @@ const createStyles = (theme: ThemeName) => (
     iconButtonFooter: {
       flexDirection: 'row',
       alignItems: 'center',
+      backgroundColor: themeColors[theme].realceBlue,
+      paddingVertical: 15,
+      paddingHorizontal: 60,
+      borderRadius: 20,
     },
 
     textPriceValue: {

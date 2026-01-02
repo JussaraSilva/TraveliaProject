@@ -21,7 +21,12 @@ export default function SelectPaymentMethod() {
   const { theme } = useTheme(); 
   const styles = useMemo(() => createStyles(theme), [theme]);
 
-  const params = useLocalSearchParams<{ pacote?: string }>();
+  const params = useLocalSearchParams<{ 
+    pacote?: string
+    discountId?: string, 
+    discountTitle?: string, 
+    discountSubtitle?: string,
+  }>();
 
   const iconLeftBack = () => {
     router.back();
@@ -39,6 +44,10 @@ export default function SelectPaymentMethod() {
         paymentId: String(item.id),
         paymentTitle: item.title,
         paymentSubtitle: item.subtitle,
+        // Repassa o desconto para não perdê-lo
+        discountId: params.discountId,
+        discountTitle: params.discountTitle,
+        discountSubtitle: params.discountSubtitle,
       },
     });
   };

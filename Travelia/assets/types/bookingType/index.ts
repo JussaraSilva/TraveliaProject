@@ -7,6 +7,7 @@ import { Duracao } from "./duracao";
 import { Preco } from "./preco";
 import { Viajantes } from "./viajantes";
 import { Estadia } from './estadia';
+import { Resumo } from './resumo';
 
 
 
@@ -15,6 +16,7 @@ export interface PacoteViagem {
   id:number;
   ranking:number;
   nome_pacote: string;
+  resumo: Resumo;
   destino: Destino;
   preco: Preco;
   duracao: Duracao;
@@ -31,6 +33,7 @@ export interface PacoteViagem {
   incluso:string[];
   tags:string[];
   imagens: string[];
+
   
 
 }

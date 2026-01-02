@@ -11,6 +11,7 @@ type Props = {
   checkOut: string;
   noites: number;
   name_hotel: string;
+  tipo_hotel: string;
   categoria_hotel: string;
   nameCity: string;
   nameCountry: string;
@@ -19,7 +20,7 @@ type Props = {
 }
 
 
-export default function AccomodationInfo({include, checkIn, checkOut, noites, name_hotel, categoria_hotel, nameCity, nameCountry, includeStyle, imagemHotel }: Props) {
+export default function AccomodationInfo({include, checkIn, checkOut, noites, name_hotel, tipo_hotel ,categoria_hotel, nameCity, nameCountry, includeStyle, imagemHotel }: Props) {
 
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -75,7 +76,8 @@ export default function AccomodationInfo({include, checkIn, checkOut, noites, na
                 />
               </View>
               <View style={styles.containerTextAccomodantion}>
-                <Text style={styles.textNameHotel}>{name_hotel}</Text>
+                  <Text style={styles.textNameHotel}>{name_hotel}</Text>
+                  <Text style={styles.textTipoHotel}>{tipo_hotel}</Text>
                 <View style={styles.textCategoriaEstrelas}>
                   <StarIcon 
                     size={20} 
@@ -255,6 +257,11 @@ const createStyles = (theme: ThemeName) =>
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
 
+    },
+
+    textTipoHotel: {
+      fontSize: 16,
+      color: themeColors[theme].textSecondary,
     },
 
     textCategoriaEstrelas: {

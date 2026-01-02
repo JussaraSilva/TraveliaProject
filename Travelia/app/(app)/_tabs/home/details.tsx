@@ -17,6 +17,7 @@ import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
 import { useMemo } from 'react';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
 
+
 export default function Details() {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -125,6 +126,7 @@ export default function Details() {
                   checkOut={pacoteObj.estadia.checkout}
                   noites={pacoteObj.estadia.noites}
                   name_hotel={pacoteObj.acomodacao.nome_hotel}
+                  tipo_hotel={pacoteObj.acomodacao.tipo}
                   categoria_hotel={pacoteObj.acomodacao.categoria}
                   nameCity={pacoteObj.destino.nome}
                   nameCountry={pacoteObj.destino.pais}

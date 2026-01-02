@@ -4,6 +4,17 @@
       "id": 1,
       "ranking": 1,
       "nome_pacote": "Paraíso nas Maldivas: 7 Dias de Luxo em Bangalô Overwater",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Ahmed Hassan",
+          "especialidade": "Destinos Tropicais",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Maldivas",
         "pais": "Maldivas",
@@ -156,6 +167,17 @@
       "id": 2,
       "ranking": 2,
       "nome_pacote": "Romance em Paris: 5 Dias na Cidade Luz",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Sophie Dubois",
+          "especialidade": "Europa Romântica",
+          "anos_experiencia": 6,
+          "imagem": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Paris",
         "pais": "França",
@@ -308,6 +330,17 @@
       "id": 3,
       "ranking": 3,
       "nome_pacote": "Santorini Dream: 6 Dias nas Casas Brancas do Mar Egeu",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Nikolas Papadopoulos",
+          "especialidade": "Destinos Gregos",
+          "anos_experiencia": 10,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Santorini",
         "pais": "Grécia",
@@ -460,6 +493,17 @@
       "id": 4,
       "ranking": 4,
       "nome_pacote": "Japão Futurista: 10 Dias Explorando Tóquio",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Kenji Tanaka",
+          "especialidade": "Cultura Japonesa",
+          "anos_experiencia": 12,
+          "imagem": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Tóquio",
         "pais": "Japão",
@@ -612,6 +656,17 @@
       "id": 5,
       "ranking": 5,
       "nome_pacote": "Nova York: 7 Dias na Cidade que Nunca Dorme",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Michael Johnson",
+          "especialidade": "Destinos Urbanos",
+          "anos_experiencia": 7,
+          "imagem": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Nova York",
         "pais": "EUA",
@@ -764,6 +819,17 @@
       "id": 6,
       "ranking": 6,
       "nome_pacote": "Machu Picchu Mística: 5 Dias na Cidade Perdida dos Incas",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Juan Pérez",
+          "especialidade": "Arqueologia e Cultura Inca",
+          "anos_experiencia": 15,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Machu Picchu",
         "pais": "Peru",
@@ -916,6 +982,17 @@
       "id": 7,
       "ranking": 7,
       "nome_pacote": "Sydney Down Under: 12 Dias na Austrália",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "James Wilson",
+          "especialidade": "Destinos da Oceania",
+          "anos_experiencia": 9,
+          "imagem": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Sydney",
         "pais": "Austrália",
@@ -923,7 +1000,7 @@
         "descricao": "Cidade costeira famosa pela Opera House e praias"
       },
       "preco": {
-        "total": 14800.0,
+        "total": 14800.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 1.480,00",
         "taxas_inclusas": true,
@@ -1048,7 +1125,7 @@
           "duracao": "3 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 420.0
+          "preco_extra": 420.00
         }
       ],
       "incluso": [
@@ -1068,6 +1145,17 @@
       "id": 8,
       "ranking": 8,
       "nome_pacote": "Arquitetura de Barcelona: 6 Dias Explorando Gaudí",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Carlos García",
+          "especialidade": "Arquitetura e Cultura Espanhola",
+          "anos_experiencia": 11,
+          "imagem": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Barcelona",
         "pais": "Espanha",
@@ -1075,7 +1163,7 @@
         "descricao": "Cidade de Gaudí, arquitetura única e vida noturna vibrante"
       },
       "preco": {
-        "total": 7600.0,
+        "total": 7600.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 760,00",
         "taxas_inclusas": true,
@@ -1200,7 +1288,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 250.0
+          "preco_extra": 250.00
         }
       ],
       "incluso": [
@@ -1220,6 +1308,17 @@
       "id": 9,
       "ranking": 9,
       "nome_pacote": "Rio Maravilhoso: 5 Dias de Praia e Paisagens",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Carlos Eduardo",
+          "especialidade": "Destinos Brasileiros",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Rio de Janeiro",
         "pais": "Brasil",
@@ -1227,7 +1326,7 @@
         "descricao": "Cidade maravilhosa com praias famosas e Cristo Redentor"
       },
       "preco": {
-        "total": 3200.0,
+        "total": 3200.00,
         "moeda": "BRL",
         "parcelamento": "4x R$ 800,00",
         "taxas_inclusas": true,
@@ -1352,7 +1451,7 @@
           "duracao": "3 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.0
+          "preco_extra": 280.00
         }
       ],
       "incluso": [
@@ -1373,6 +1472,17 @@
       "id": 10,
       "ranking": 10,
       "nome_pacote": "Londres Clássica: 7 Dias na Capital do Reino",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Thomas Wilson",
+          "especialidade": "História Britânica",
+          "anos_experiencia": 14,
+          "imagem": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Londres",
         "pais": "Reino Unido",
@@ -1380,7 +1490,7 @@
         "descricao": "Capital histórica com tradição real e modernidade"
       },
       "preco": {
-        "total": 9500.0,
+        "total": 9500.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 950,00",
         "taxas_inclusas": true,
@@ -1505,7 +1615,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 320.0
+          "preco_extra": 320.00
         }
       ],
       "incluso": [
@@ -1526,6 +1636,17 @@
       "id": 11,
       "ranking": 11,
       "nome_pacote": "Dubai Futurista: 8 Dias de Luxo no Deserto",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Ahmed Al-Mansoor",
+          "especialidade": "Destinos do Oriente Médio",
+          "anos_experiencia": 10,
+          "imagem": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Dubai",
         "pais": "Emirados Árabes Unidos",
@@ -1533,7 +1654,7 @@
         "descricao": "Cidade futurista com arranha-céus e luxo no deserto"
       },
       "preco": {
-        "total": 11200.0,
+        "total": 11200.00,
         "moeda": "BRL",
         "parcelamento": "8x R$ 1.400,00",
         "taxas_inclusas": true,
@@ -1658,7 +1779,7 @@
           "duracao": "3 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 800.0
+          "preco_extra": 800.00
         }
       ],
       "incluso": [
@@ -1679,6 +1800,17 @@
       "id": 12,
       "ranking": 12,
       "nome_pacote": "Paraíso em Noronha: 6 Dias no Arquipélago Preservado",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Juliana Ferreira",
+          "especialidade": "Ecoturismo e Natureza",
+          "anos_experiencia": 7,
+          "imagem": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Fernando de Noronha",
         "pais": "Brasil",
@@ -1686,7 +1818,7 @@
         "descricao": "Arquipélago preservado com praias paradisíacas e vida marinha"
       },
       "preco": {
-        "total": 6800.0,
+        "total": 6800.00,
         "moeda": "BRL",
         "parcelamento": "6x R$ 1.133,33",
         "taxas_inclusas": true,
@@ -1811,7 +1943,7 @@
           "duracao": "2 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.0
+          "preco_extra": 280.00
         }
       ],
       "incluso": [
@@ -1832,6 +1964,17 @@
       "id": 13,
       "ranking": 13,
       "nome_pacote": "Roma Eterna: 6 Dias na Capital da História",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Giovanni Rossi",
+          "especialidade": "História Romana",
+          "anos_experiencia": 13,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Roma",
         "pais": "Itália",
@@ -1839,7 +1982,7 @@
         "descricao": "Cidade eterna com história milenar e arte renascentista"
       },
       "preco": {
-        "total": 8300.0,
+        "total": 8300.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 830,00",
         "taxas_inclusas": true,
@@ -1964,7 +2107,7 @@
           "duracao": "3 horas",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 350.0
+          "preco_extra": 350.00
         }
       ],
       "incluso": [
@@ -1982,9 +2125,20 @@
       }
     },
     {
-      "id": 18,
-      "ranking": 18,
+      "id": 14,
+      "ranking": 14,
       "nome_pacote": "Paraíso Tailandês: 8 Dias em Phuket com Resort 5 Estrelas",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Sompong Wong",
+          "especialidade": "Cultura Tailandesa",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Phuket",
         "pais": "Tailândia",
@@ -1992,7 +2146,7 @@
         "descricao": "Ilha tropical com praias de areia branca e águas turquesa"
       },
       "preco": {
-        "total": 9200,
+        "total": 9200.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 920,00",
         "taxas_inclusas": true,
@@ -2117,7 +2271,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 180
+          "preco_extra": 180.00
         }
       ],
       "incluso": [
@@ -2134,9 +2288,20 @@
       }
     },
     {
-      "id": 19,
-      "ranking": 19,
+      "id": 15,
+      "ranking": 15,
       "nome_pacote": "Canais da Paixão: 4 Dias Românticos em Veneza",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Marco Bellini",
+          "especialidade": "Destinos Românticos Italianos",
+          "anos_experiencia": 9,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Veneza",
         "pais": "Itália",
@@ -2144,7 +2309,7 @@
         "descricao": "Cidade romântica construída sobre canais"
       },
       "preco": {
-        "total": 8900,
+        "total": 8900.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 890,00",
         "taxas_inclusas": true,
@@ -2269,7 +2434,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 380
+          "preco_extra": 380.00
         }
       ],
       "incluso": [
@@ -2286,9 +2451,20 @@
       }
     },
     {
-      "id": 20,
-      "ranking": 20,
+      "id": 16,
+      "ranking": 16,
       "nome_pacote": "Mistério Egípcio: 7 Dias Explorando Pirâmides e Faraós",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Mohamed Ali",
+          "especialidade": "Egiptologia e História Antiga",
+          "anos_experiencia": 16,
+          "imagem": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Cairo",
         "pais": "Egito",
@@ -2296,7 +2472,7 @@
         "descricao": "Tesouros do antigo Egito e grandiosas pirâmides"
       },
       "preco": {
-        "total": 7600,
+        "total": 7600.00,
         "moeda": "BRL",
         "parcelamento": "8x R$ 950,00",
         "taxas_inclusas": true,
@@ -2421,7 +2597,7 @@
           "duracao": "2 horas",
           "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 150
+          "preco_extra": 150.00
         }
       ],
       "incluso": [
@@ -2438,9 +2614,20 @@
       }
     },
     {
-      "id": 21,
-      "ranking": 21,
+      "id": 17,
+      "ranking": 17,
       "nome_pacote": "Metrópole Paulistana: 3 Dias de Gastronomia e Cultura",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Roberto Silva",
+          "especialidade": "Gastronomia Paulistana",
+          "anos_experiencia": 10,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "São Paulo",
         "pais": "Brasil",
@@ -2448,7 +2635,7 @@
         "descricao": "Metrópole vibrante com diversidade cultural e gastronômica"
       },
       "preco": {
-        "total": 2800,
+        "total": 2800.00,
         "moeda": "BRL",
         "parcelamento": "3x R$ 933,33",
         "taxas_inclusas": true,
@@ -2573,7 +2760,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 350
+          "preco_extra": 350.00
         }
       ],
       "incluso": [
@@ -2590,9 +2777,20 @@
       }
     },
     {
-      "id": 22,
-      "ranking": 22,
+      "id": 18,
+      "ranking": 18,
       "nome_pacote": "Natureza Canadense: 8 Dias entre Montanhas e Mar em Vancouver",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "John Smith",
+          "especialidade": "Natureza e Ecoturismo",
+          "anos_experiencia": 11,
+          "imagem": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Vancouver",
         "pais": "Canadá",
@@ -2600,7 +2798,7 @@
         "descricao": "Cidade entre montanhas e mar com qualidade de vida excepcional"
       },
       "preco": {
-        "total": 10500,
+        "total": 10500.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 1.050,00",
         "taxas_inclusas": true,
@@ -2725,7 +2923,7 @@
           "duracao": "5 horas",
           "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 420
+          "preco_extra": 420.00
         }
       ],
       "incluso": [
@@ -2742,9 +2940,20 @@
       }
     },
     {
-      "id": 23,
-      "ranking": 23,
+      "id": 19,
+      "ranking": 19,
       "nome_pacote": "Vinhos e Andes: 5 Dias no Coração do Chile",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Juan Pérez",
+          "especialidade": "Enologia e Cultura Chilena",
+          "anos_experiencia": 9,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Santiago",
         "pais": "Chile",
@@ -2752,7 +2961,7 @@
         "descricao": "Capital aos pés da Cordilheira dos Andes"
       },
       "preco": {
-        "total": 4200,
+        "total": 4200.00,
         "moeda": "BRL",
         "parcelamento": "5x R$ 840,00",
         "taxas_inclusas": true,
@@ -2877,7 +3086,7 @@
           "duracao": "3 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 250
+          "preco_extra": 250.00
         }
       ],
       "incluso": [
@@ -2894,9 +3103,20 @@
       }
     },
     {
-      "id": 24,
-      "ranking": 24,
+      "id": 20,
+      "ranking": 20,
       "nome_pacote": "Dunas e Mar: 5 Dias de Aventura em Jericoacoara",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Carlos Eduardo",
+          "especialidade": "Ecoturismo Brasileiro",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Jericoacoara",
         "pais": "Brasil",
@@ -2904,7 +3124,7 @@
         "descricao": "Paraíso ecológico com dunas, lagoas e pôr do sol deslumbrante"
       },
       "preco": {
-        "total": 4800,
+        "total": 4800.00,
         "moeda": "BRL",
         "parcelamento": "6x R$ 800,00",
         "taxas_inclusas": true,
@@ -3023,7 +3243,7 @@
           "duracao": "3 horas",
           "dificuldade": "Difícil",
           "incluso": false,
-          "preco_extra": 350
+          "preco_extra": 350.00
         },
         {
           "nome": "Trilha até a Pedra Furada",
@@ -3046,9 +3266,20 @@
       }
     },
     {
-      "id": 25,
-      "ranking": 25,
+      "id": 21,
+      "ranking": 21,
       "nome_pacote": "Entre Dois Continentes: 6 Dias na Fascinante Istambul",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Mehmet Yılmaz",
+          "especialidade": "Cultura Turca e Otomana",
+          "anos_experiencia": 14,
+          "imagem": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Istambul",
         "pais": "Turquia",
@@ -3056,7 +3287,7 @@
         "descricao": "Cidade entre dois continentes com história milenar"
       },
       "preco": {
-        "total": 7400,
+        "total": 7400.00,
         "moeda": "BRL",
         "parcelamento": "8x R$ 925,00",
         "taxas_inclusas": true,
@@ -3181,7 +3412,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 280
+          "preco_extra": 280.00
         }
       ],
       "incluso": [
@@ -3198,9 +3429,20 @@
       }
     },
     {
-      "id": 26,
-      "ranking": 26,
+      "id": 22,
+      "ranking": 22,
       "nome_pacote": "Sol da Florida: 6 Dias de Luxo e Praia em Miami",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Carlos Rodriguez",
+          "especialidade": "Destinos Caribenhos",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Miami",
         "pais": "EUA",
@@ -3208,7 +3450,7 @@
         "descricao": "Cidade do sol com praias, art déco e vida noturna"
       },
       "preco": {
-        "total": 6800,
+        "total": 6800.00,
         "moeda": "BRL",
         "parcelamento": "8x R$ 850,00",
         "taxas_inclusas": true,
@@ -3333,7 +3575,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 450
+          "preco_extra": 450.00
         }
       ],
       "incluso": [
@@ -3350,9 +3592,20 @@
       }
     },
     {
-      "id": 27,
-      "ranking": 27,
+      "id": 23,
+      "ranking": 23,
       "nome_pacote": "Templos Dourados: 7 Dias na Exótica Bangkok",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Somchai Wong",
+          "especialidade": "Cultura Tailandesa e Budismo",
+          "anos_experiencia": 12,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Bangkok",
         "pais": "Tailândia",
@@ -3360,7 +3613,7 @@
         "descricao": "Cidade vibrante com templos dourados e cultura budista"
       },
       "preco": {
-        "total": 8200,
+        "total": 8200.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 820,00",
         "taxas_inclusas": true,
@@ -3485,7 +3738,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 150
+          "preco_extra": 150.00
         }
       ],
       "incluso": [
@@ -3502,9 +3755,20 @@
       }
     },
     {
-      "id": 28,
-      "ranking": 28,
+      "id": 24,
+      "ranking": 24,
       "nome_pacote": "Europa no Brasil: 4 Dias de Chocolate e Clima Europeu em Gramado",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Hans Müller",
+          "especialidade": "Cultura Europeia no Brasil",
+          "anos_experiencia": 7,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Gramado",
         "pais": "Brasil",
@@ -3512,7 +3776,7 @@
         "descricao": "Cidade serrana com clima europeu e chocolates artesanais"
       },
       "preco": {
-        "total": 3200,
+        "total": 3200.00,
         "moeda": "BRL",
         "parcelamento": "4x R$ 800,00",
         "taxas_inclusas": true,
@@ -3637,7 +3901,7 @@
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 200
+          "preco_extra": 200.00
         }
       ],
       "incluso": [
@@ -3654,9 +3918,20 @@
       }
     },
     {
-      "id": 29,
-      "ranking": 29,
+      "id": 25,
+      "ranking": 25,
       "nome_pacote": "Las Vegas: 5 Dias de Shows e Cassinos na Capital do Entretenimento",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Michael Johnson",
+          "especialidade": "Entretenimento e Noite",
+          "anos_experiencia": 9,
+          "imagem": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Las Vegas",
         "pais": "EUA",
@@ -3664,7 +3939,7 @@
         "descricao": "Capital do entretenimento com cassinos e shows world-class"
       },
       "preco": {
-        "total": 7800,
+        "total": 7800.00,
         "moeda": "BRL",
         "parcelamento": "8x R$ 975,00",
         "taxas_inclusas": true,
@@ -3783,14 +4058,14 @@
           "duracao": "12 horas",
           "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 650
+          "preco_extra": 650.00
         },
         {
           "nome": "Show de circo no Bellagio",
           "duracao": "2 horas",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 350
+          "preco_extra": 350.00
         }
       ],
       "incluso": [
@@ -3807,9 +4082,20 @@
       }
     },
     {
-      "id": 30,
-      "ranking": 30,
+      "id": 26,
+      "ranking": 26,
       "nome_pacote": "Caribe Total: 7 Dias All-Inclusive em Punta Cana",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Carlos Rodriguez",
+          "especialidade": "Destinos Caribenhos",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
       "destino": {
         "nome": "Punta Cana",
         "pais": "República Dominicana",
@@ -3817,7 +4103,7 @@
         "descricao": "Paraíso caribenho com resorts all-inclusive e praias de palmeiras"
       },
       "preco": {
-        "total": 8500,
+        "total": 8500.00,
         "moeda": "BRL",
         "parcelamento": "10x R$ 850,00",
         "taxas_inclusas": true,
@@ -3942,7 +4228,7 @@
           "duracao": "1 hora",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 320
+          "preco_extra": 320.00
         }
       ],
       "incluso": [
@@ -3956,6 +4242,660 @@
       "disponibilidade": {
         "vagas": 15,
         "datas_disponiveis": ["2024-03-28", "2024-06-14", "2024-11-20"]
+      }
+    },
+    {
+      "id": 27,
+      "ranking": 27,
+      "nome_pacote": "Paraíso em Noronha: 6 Dias no Arquipélago Preservado",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Juliana Ferreira",
+          "especialidade": "Ecoturismo e Natureza",
+          "anos_experiencia": 7,
+          "imagem": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80"
+        }
+      },
+      "destino": {
+        "nome": "Fernando de Noronha",
+        "pais": "Brasil",
+        "continente": "América do Sul",
+        "descricao": "Arquipélago preservado com praias paradisíacas e vida marinha"
+      },
+      "preco": {
+        "total": 6800.00,
+        "moeda": "BRL",
+        "parcelamento": "6x R$ 1.133,33",
+        "taxas_inclusas": true,
+        "desconto": 10
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Alta"
+      },
+      "estadia": {
+        "checkin": "Terça-feira, 05 de Março de 2024",
+        "checkout": "Domingo, 10 de Março de 2024",
+        "noites": 5
+      },
+      "acomodacao": {
+        "tipo": "Pousada ecológica",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Pousada Maravilha",
+        "servicos": ["Café da manhã regional", "Wi-Fi", "Trilhas guiadas", "Informações turísticas"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 12
+      },
+      "voos": {
+        "companhia_aerea": {
+          "nome": "Gol Linhas Aéreas",
+          "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
+        },
+        "ida": {
+          "numero": "G3 1750",
+          "horario_partida": "06:00",
+          "horario_chegada": "10:30",
+          "data_completa": "Terça-feira, 05 de Março de 2024",
+          "aeroporto_origem": "REC - Recife",
+          "aeroporto_destino": "FEN - Fernando de Noronha",
+          "escala": null
+        },
+        "volta": {
+          "numero": "G3 1751",
+          "horario_partida": "11:30",
+          "horario_chegada": "16:00",
+          "data_completa": "Domingo, 10 de Março de 2024",
+          "aeroporto_origem": "FEN - Fernando de Noronha",
+          "aeroporto_destino": "REC - Recife",
+          "escala": null
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.9,
+        "total_avaliacoes": 198,
+        "estrelas": 4.8,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Juliana Ferreira",
+          "data": "2023-09-12",
+          "nota": 10,
+          "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Marcos Andrade",
+          "data": "2023-08-30",
+          "nota": 9,
+          "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ana Carolina",
+          "data": "2023-10-15",
+          "nota": 10,
+          "comentario": "Baía do Sancho é a praia mais linda do Brasil!",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ricardo Lima",
+          "data": "2023-11-08",
+          "nota": 9,
+          "comentario": "Trilhas incríveis, mas exige preparo físico.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Beatriz Costa",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        }
+      ],
+      "imagens": [
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1564501049418-3c27787d01e8?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "atividades": [
+        {
+          "nome": "Mergulho com tartarugas marinhas",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Trilha até a Baía do Sancho",
+          "duracao": "3 horas",
+          "dificuldade": "Difícil",
+          "incluso": true
+        },
+        {
+          "nome": "Passeio de barco noturno",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 280.00
+        }
+      ],
+      "incluso": [
+        "Passagem aérea Recife-Noronha",
+        "Hospedagem em pousada ecológica",
+        "Café da manhã",
+        "Taxa ambiental da ilha",
+        "Trilhas guiadas",
+        "Kit snorkel"
+      ],
+      "tags": ["ecoturismo", "praia", "mergulho", "nacional", "preservação"],
+      "disponibilidade": {
+        "vagas": 6,
+        "datas_disponiveis": ["2024-03-05", "2024-06-18", "2024-11-10", "2025-01-15"]
+      }
+    },
+    {
+      "id": 28,
+      "ranking": 28,
+      "nome_pacote": "Roma Eterna: 6 Dias na Capital da História",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Giovanni Rossi",
+          "especialidade": "História Romana",
+          "anos_experiencia": 13,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
+      "destino": {
+        "nome": "Roma",
+        "pais": "Itália",
+        "continente": "Europa",
+        "descricao": "Cidade eterna com história milenar e arte renascentista"
+      },
+      "preco": {
+        "total": 8300.00,
+        "moeda": "BRL",
+        "parcelamento": "10x R$ 830,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 6,
+        "noites": 5,
+        "temporada": "Média"
+      },
+      "estadia": {
+        "checkin": "Quarta-feira, 10 de Abril de 2024",
+        "checkout": "Terça-feira, 16 de Abril de 2024",
+        "noites": 5
+      },
+      "acomodacao": {
+        "tipo": "Hotel no centro histórico",
+        "categoria": "3 estrelas",
+        "nome_hotel": "Colosseum View Hotel",
+        "servicos": ["Café da manhã italiano", "Wi-Fi", "Ar condicionado", "Recepção bilíngue"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "companhia_aerea": {
+          "nome": "ITA Airways",
+          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+        },
+        "ida": {
+          "numero": "AZ 680",
+          "horario_partida": "20:15",
+          "horario_chegada": "12:30",
+          "data_completa": "Quarta-feira, 10 de Abril de 2024",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "FCO - Roma",
+          "escala": null
+        },
+        "volta": {
+          "numero": "AZ 681",
+          "horario_partida": "14:00",
+          "horario_chegada": "04:45",
+          "data_completa": "Terça-feira, 16 de Abril de 2024",
+          "aeroporto_origem": "FCO - Roma",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": null
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 567,
+        "estrelas": 4.8,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Giovanni Rossi",
+          "data": "2023-10-25",
+          "nota": 10,
+          "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo.",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Patrícia Lima",
+          "data": "2023-09-18",
+          "nota": 9,
+          "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Marco Bellini",
+          "data": "2023-11-30",
+          "nota": 10,
+          "comentario": "Colosseo di notte è magico! Da non perdere.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Fernanda Alves",
+          "data": "2023-12-12",
+          "nota": 9,
+          "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Bianchi",
+          "data": "2023-12-05",
+          "nota": 10,
+          "comentario": "La pasta carbonara più buona della mia vita! Roma è amore.",
+          "votos_uteis": 98,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        }
+      ],
+      "imagens": [
+        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1588614959060-4d144f28b207?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "atividades": [
+        {
+          "nome": "Tour pelo Coliseu e Fórum Romano",
+          "duracao": "4 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à Fontana di Trevi",
+          "duracao": "2 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Tour gastronômico por Trastevere",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": false,
+          "preco_extra": 350.00
+        }
+      ],
+      "incluso": [
+        "Passagem aérea Alitalia",
+        "Hospedagem em hotel histórico",
+        "Café da manhã italiano",
+        "Ingresso para o Coliseu",
+        "City tour guiado",
+        "Transfer aeroporto"
+      ],
+      "tags": ["história", "arte", "gastronomia", "cultura", "antiguidade"],
+      "disponibilidade": {
+        "vagas": 22,
+        "datas_disponiveis": ["2024-04-10", "2024-06-25", "2024-09-15", "2024-11-05"]
+      }
+    },
+    {
+      "id": 29,
+      "ranking": 29,
+      "nome_pacote": "Paraíso Tailandês: 8 Dias em Phuket com Resort 5 Estrelas",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Sompong Wong",
+          "especialidade": "Cultura Tailandesa",
+          "anos_experiencia": 8,
+          "imagem": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&auto=format&fit=crop&q=80"
+        }
+      },
+      "destino": {
+        "nome": "Phuket",
+        "pais": "Tailândia",
+        "continente": "Ásia",
+        "descricao": "Ilha tropical com praias de areia branca e águas turquesa"
+      },
+      "preco": {
+        "total": 9200.00,
+        "moeda": "BRL",
+        "parcelamento": "10x R$ 920,00",
+        "taxas_inclusas": true,
+        "desconto": 12
+      },
+      "duracao": {
+        "dias": 8,
+        "noites": 7,
+        "temporada": "Média"
+      },
+      "estadia": {
+        "checkin": "Domingo, 25 de Fevereiro de 2024",
+        "checkout": "Domingo, 03 de Março de 2024",
+        "noites": 7
+      },
+      "acomodacao": {
+        "tipo": "Resort à beira-mar",
+        "categoria": "5 estrelas",
+        "nome_hotel": "Andaman Sea Resort",
+        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "companhia_aerea": {
+          "nome": "Thai Airways",
+          "logo": "https://download.logo.wine/logo/Thai_Airways/Thai_Airways-Logo.wine.png"
+        },
+        "ida": {
+          "numero": "TG 925",
+          "horario_partida": "01:00",
+          "horario_chegada": "00:30",
+          "data_completa": "Domingo, 25 de Fevereiro de 2024",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "HKT - Phuket",
+          "escala": "Bangkok"
+        },
+        "volta": {
+          "numero": "TG 926",
+          "horario_partida": "03:00",
+          "horario_chegada": "09:45",
+          "data_completa": "Domingo, 03 de Março de 2024",
+          "aeroporto_origem": "HKT - Phuket",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Bangkok"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 278,
+        "estrelas": 5.0,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Chen Li",
+          "data": "2023-10-22",
+          "nota": 10,
+          "comentario": "Paraíso tropical com cultura tailandesa única!",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sompong Wong",
+          "data": "2023-11-15",
+          "nota": 10,
+          "comentario": "Islands tour was amazing! Crystal clear water.",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Ana Paula",
+          "data": "2023-12-05",
+          "nota": 9,
+          "comentario": "Resort maravilhoso, mas cuidado com o sol forte!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "David Miller",
+          "data": "2023-11-28",
+          "nota": 10,
+          "comentario": "Best Thai massage ever! Beaches are paradise.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carla Mendes",
+          "data": "2023-12-18",
+          "nota": 9,
+          "comentario": "Comida tailandesa autêntica e deliciosa!",
+          "votos_uteis": 76,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        }
+      ],
+      "imagens": [
+        "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGh1a2V0fGVufDB8fDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1661962958462-9e52fda9954d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGh1a2V0fGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGh1a2V0fGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de barco às ilhas Phi Phi",
+          "duracao": "8 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Visita ao Big Buddha",
+          "duracao": "3 horas",
+          "dificuldade": "Moderada",
+          "incluso": true
+        },
+        {
+          "nome": "Massagem tailandesa tradicional",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 180.00
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Tour às ilhas",
+        "Transfer"
+      ],
+      "tags": ["tropical", "praia", "cultura", "aventura"],
+      "disponibilidade": {
+        "vagas": 9,
+        "datas_disponiveis": ["2024-02-25", "2024-06-15", "2024-11-08"]
+      }
+    },
+    {
+      "id": 30,
+      "ranking": 30,
+      "nome_pacote": "Canais da Paixão: 4 Dias Românticos em Veneza",
+      "resumo": {
+        "quantidade_voos": 2,
+        "quantidade_atividades": 3,
+        "quantidade_acomodacoes": 1,
+        "guia_turistico": {
+          "nome": "Marco Bellini",
+          "especialidade": "Destinos Românticos Italianos",
+          "anos_experiencia": 9,
+          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+        }
+      },
+      "destino": {
+        "nome": "Veneza",
+        "pais": "Itália",
+        "continente": "Europa",
+        "descricao": "Cidade romântica construída sobre canais"
+      },
+      "preco": {
+        "total": 8900.00,
+        "moeda": "BRL",
+        "parcelamento": "10x R$ 890,00",
+        "taxas_inclusas": true,
+        "desconto": 8
+      },
+      "duracao": {
+        "dias": 4,
+        "noites": 3,
+        "temporada": "Alta"
+      },
+      "estadia": {
+        "checkin": "Sexta-feira, 05 de Abril de 2024",
+        "checkout": "Segunda-feira, 08 de Abril de 2024",
+        "noites": 3
+      },
+      "acomodacao": {
+        "tipo": "Hotel à beira do canal",
+        "categoria": "4 estrelas",
+        "nome_hotel": "Grand Canal Palace",
+        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"],
+        "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+      },
+      "viajantes": {
+        "quantidade": 2,
+        "tipo": "Casal",
+        "idade_minima": 0
+      },
+      "voos": {
+        "companhia_aerea": {
+          "nome": "ITA Airways",
+          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+        },
+        "ida": {
+          "numero": "AZ 712",
+          "horario_partida": "19:30",
+          "horario_chegada": "10:15",
+          "data_completa": "Sexta-feira, 05 de Abril de 2024",
+          "aeroporto_origem": "GRU - São Paulo",
+          "aeroporto_destino": "VCE - Veneza",
+          "escala": "Roma"
+        },
+        "volta": {
+          "numero": "AZ 713",
+          "horario_partida": "12:00",
+          "horario_chegada": "02:45",
+          "data_completa": "Segunda-feira, 08 de Abril de 2024",
+          "aeroporto_origem": "VCE - Veneza",
+          "aeroporto_destino": "GRU - São Paulo",
+          "escala": "Roma"
+        }
+      },
+      "avaliacao": {
+        "pontuacao": 9.7,
+        "total_avaliacoes": 312,
+        "estrelas": 5.0,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "autor": "Marco Bellini",
+          "data": "2023-09-30",
+          "nota": 10,
+          "comentario": "Passeio de gôndola no pôr do sol é mágico!",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Isabella Conti",
+          "data": "2023-10-25",
+          "nota": 10,
+          "comentario": "Venezia è la città più romantica del mondo!",
+          "votos_uteis": 112,
+          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Roberto Santos",
+          "data": "2023-11-18",
+          "nota": 9,
+          "comentario": "Cidade única, mas cuidado com as marés altas.",
+          "votos_uteis": 78,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Sophia Rossi",
+          "data": "2023-12-08",
+          "nota": 10,
+          "comentario": "Piazza San Marco at sunrise is absolutely magical!",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Carlos Eduardo",
+          "data": "2023-12-20",
+          "nota": 8,
+          "comentario": "Romântico, mas os preços são muito elevados.",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+        }
+      ],
+      "imagens": [
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "atividades": [
+        {
+          "nome": "Passeio de gôndola pelos canais",
+          "duracao": "1 hora",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Visita à Praça de São Marcos",
+          "duracao": "3 horas",
+          "dificuldade": "Fácil",
+          "incluso": true
+        },
+        {
+          "nome": "Jantar romântico em restaurante típico",
+          "duracao": "2 horas",
+          "dificuldade": "Nenhuma",
+          "incluso": false,
+          "preco_extra": 380.00
+        }
+      ],
+      "incluso": [
+        "Passagem aérea",
+        "Hospedagem",
+        "Café da manhã",
+        "Passeio de gôndola",
+        "City tour"
+      ],
+      "tags": ["romântico", "canais", "gôndola", "história"],
+      "disponibilidade": {
+        "vagas": 7,
+        "datas_disponiveis": ["2024-04-05", "2024-07-18", "2024-10-12"]
       }
     }
   ]

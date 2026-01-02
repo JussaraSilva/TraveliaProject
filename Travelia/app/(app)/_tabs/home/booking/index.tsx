@@ -127,7 +127,7 @@ return (
         title="Departures Flight Seats"
         leftIcon={<SeatIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<CaretRightIcon size={24} color={themeColors[theme].realceBlue} />}
-        borderStyleProp={styles.borderPriceDetails}
+        showDivider={false}
       />
     </View>
 
@@ -136,7 +136,7 @@ return (
         title="Return Flight Seats"
         leftIcon={<SeatIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<CaretRightIcon size={24} color={themeColors[theme].realceBlue} />}
-        borderStyleProp={styles.borderPriceDetails}
+        showDivider={false}
       />
     </View>
 

@@ -313,7 +313,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     titleActivity: {
-      fontSize: 16,
+      fontSize: 15,
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },

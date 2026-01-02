@@ -3,6 +3,7 @@ import { useTheme } from "@/context/themeProvider";
 import { CaretRightIcon } from "phosphor-react-native";
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
+import { DateText } from "../utils/formatDate";
 
 
 type Props = {
@@ -81,7 +82,10 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
           </View>
           
           <View style={styles.textCardDateContainer}>
-            <Text style={styles.textCardDate}>{dateBoarding}</Text>
+            <Text style={styles.textCardDate}><DateText 
+            value={dateBoarding}
+            variant="full"
+            /></Text>
           </View>
           <View style={styles.containerButtonMore}>
             <TouchableOpacity style={styles.buttonMore}>
@@ -118,7 +122,7 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
             <View style={styles.airline}>
               <View style={styles.logoAirline}>
                 <Image
-                  style={{ width: 50, height: 50, resizeMode: "contain" }}
+                  style={{ width: "100%", height: "100%", resizeMode: "contain" }}
                   source={{uri: logo_airline}}
                   />
               </View>
@@ -153,9 +157,9 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'center',
       backgroundColor: themeColors[theme].backgroundCard,
       borderRadius: 10,
-      padding: 10,
+      padding: 15,
       gap: 5,
-      width: 370,
+      width: 360,
       paddingHorizontal : 10,
     },
 
@@ -213,7 +217,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textCardDate: {
-      fontSize: 16,
+      fontSize: 14,
       color: themeColors[theme].textPrimary,
       fontWeight: 'bold',
     },
@@ -299,21 +303,21 @@ const createStyles = (theme: ThemeName) =>
       alignItems: 'center',
       justifyContent: 'space-between',
       gap: 20,
-      maxWidth: '100%',
+      width: "100%",
     },
 
     companyAreaContainer: {
       flexDirection: 'column',
       alignItems: 'center',
-      justifyContent: 'center',
     },
 
     airline: {
+      
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'center',
-      gap: 5,
-      
+      justifyContent: 'flex-start',
+      gap: 20,
+
     },
 
     logoAirline: {

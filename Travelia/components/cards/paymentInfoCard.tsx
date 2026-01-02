@@ -1,14 +1,14 @@
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { CopyIcon } from 'phosphor-react-native';
-import { useMemo } from 'react';
+import { ReactNode, useMemo } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
 
 interface paymentProps {
   paymentInfo: {
     label: string;
-    value: string;
+    value: ReactNode;
     type?: string;
     copy?: boolean;
   }[];
