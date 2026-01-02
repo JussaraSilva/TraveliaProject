@@ -44,7 +44,6 @@ export default function Payment() {
   const paymentSubtitle = params.paymentSubtitle ?? "";
 
   const discountTitle = params.discountTitle ?? "";
-  const discountSubtitle = params.discountSubtitle ?? "";
 
   const selectPayment = () => {
     router.push({
@@ -54,7 +53,8 @@ export default function Payment() {
       },
     });
   }
-  const selectVouchers = () => {
+
+  const selectDiscount = () => {
     router.push({
       pathname: '/(app)/_tabs/home/payment/discount',
       params: {
@@ -62,6 +62,9 @@ export default function Payment() {
       },
     });
   }
+
+
+
 
   const hasPaymentSelected = Boolean(paymentTitle);
   const hasDiscountSelected = Boolean(discountTitle);
@@ -119,15 +122,14 @@ export default function Payment() {
           <CardDetailsGlobal 
               title="Discount/Vouchers"
               leftIcon={<PercentIcon size={24} color={themeColors[theme].icon} />}
-              onPressIcon={selectVouchers}
               rightIcon={<CaretRightIcon size={20} color={themeColors[theme].icon}/>}
+              onPressIcon={selectDiscount}
               showDivider={hasDiscountSelected}
             >
 
             {hasDiscountSelected && (
               <View style={styles.discountCodeStyleText}>
                 <Text style={styles.discountCodeText}>{discountTitle}</Text>
-                <Text style={styles.discountCodeText}>{discountSubtitle}</Text>
               </View>
             )}
 

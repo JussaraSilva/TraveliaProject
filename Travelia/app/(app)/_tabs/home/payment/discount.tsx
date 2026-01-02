@@ -4,8 +4,8 @@ import { CardGlobal } from '@/components/cards/cardGlobal';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
-import { CaretLeftIcon,  SealPercentIcon } from 'phosphor-react-native';
-import { useMemo } from 'react';
+import { CaretLeftIcon,  CheckCircleIcon,  SealPercentIcon } from 'phosphor-react-native';
+import { useMemo, useState } from 'react';
 import {
   View,
   StyleSheet,
@@ -16,15 +16,41 @@ import {
 } from 'react-native';
 
 import promocoes from '@/assets/data/codePromoData.json';
+import { router, useLocalSearchParams } from 'expo-router';
+
+
 
 
 export default function Discount() {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
-  const listaPromos: PromoType[] = promocoes.promocoes;
+  const params = useLocalSearchParams<{ pacote?: string }>();
 
-  const selectVouchers = () => {};
+  const listaPromos: PromoType[] = promocoes.promocoes;
+  const selectVouchers = () => {
+    router.push({
+      pathname: '/(app)/_tabs/promos/codePromoDetails',
+    });
+  };
+
+  const [selectedId, setSelectedId] = useState<number | null>(null);
+
+  const handleSelectDiscount = (item: PromoType) => {
+  setSelectedId(item.id);
+
+  setTimeout(() => {
+    router.push({
+      pathname: '/(app)/_tabs/home/payment',
+      params: {
+        pacote: params.pacote,
+        discountId: String(item.id),
+        discountTitle: item.nome,
+        discountSubtitle: item.descricao,
+      },
+    });
+  }, 150);
+  };
 
   return (
     <View style={styles.container}>
@@ -62,25 +88,46 @@ export default function Discount() {
         </View>
 
         <View style={styles.containerCardsPromos}>
-          <FlatList 
-            style={styles.flatCards}
-            data={listaPromos}
-            renderItem={({ item }) => (
+          <FlatList
+          style={styles.flatCards}
+          data={listaPromos}
+          renderItem={({ item }) => {
+            const isActive = selectedId === item.id;
+
+            return (
               <CardGlobal
-                key={item.id}
-                variant='icon-text-icon'
-                leftIcon={<SealPercentIcon size={30} weight ="fill" color={themeColors[theme].textButton}/>}
-                contentCardStyle={styles.cardStyleRow}
+                variant="icon-text-icon"
+                leftIcon={
+                  <SealPercentIcon
+                    size={30}
+                    weight="fill"
+                    color={themeColors[theme].textButton}
+                  />
+                }
+                rightIcon={
+                  isActive ? (
+                    <CheckCircleIcon
+                      size={26}
+                      color={themeColors[theme].realceBlue}
+                    />
+                  ) : null
+                }
                 textTitle={item.nome}
                 textDescription={item.descricao}
-                onPress={() => {}}
-            />
-            )}
-            keyExtractor={(item) => String(item.id)}
-            ItemSeparatorComponent={() => <View style={{ height: 20}} />}
-            contentContainerStyle={{ paddingBottom: 105}}
-            showsVerticalScrollIndicator={false}
-          />
+                contentCardStyle={[
+                  styles.cardStyleRow,
+                  isActive && styles.cardActive, // 👈 seleção visual
+                ]}
+                onPress={() => handleSelectDiscount(item)}
+              />
+            );
+          }}
+          keyExtractor={(item) => String(item.id)}
+          ItemSeparatorComponent={() => <View style={{ height: 20 }} />}
+          contentContainerStyle={{ paddingBottom: 105 }}
+          showsVerticalScrollIndicator={false}
+        />
+
           
         </View>
       </View>
@@ -148,6 +195,7 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
+      paddingHorizontal: 20,
     },
 
     containerCardsPromos: {
@@ -158,7 +206,8 @@ const createStyles = (theme: ThemeName) =>
     },
 
     cardActive: {
-      backgroundColor: themeColors[theme].realceBlue,
+      borderWidth: 1,
+      borderColor: themeColors[theme].realceBlue,
     },
 
     flatCards: {
