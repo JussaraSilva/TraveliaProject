@@ -1,4 +1,3 @@
-import { PacoteViagem } from '@/assets/types/bookingType';
 import ButtonFilter from '@/components/buttons/buttonFilters';
 import PaymentInfoCard from '@/components/cards/paymentInfoCard';
 import AccomodationInfo from '@/components/details/accomodationInfo';
@@ -45,21 +44,16 @@ export default function TripDetails() {
   
   const params = useLocalSearchParams<{
     pacote?: string;
-    paymentId?: string;
-    paymentTitle?: string;
-    paymentSubtitle?: string;
-    discountId?: string;
-    discountTitle?: string;
-    discountSubtitle?: string;
   }>();
 
   
   
-  const pacoteObj: PacoteViagem | null = params.pacote
+  const pacoteFinal = params.pacote
   ? JSON.parse(
-    Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
-  )
+      Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
+    )
   : null;
+
 
   
   
@@ -67,9 +61,13 @@ export default function TripDetails() {
   { label: 'Status', value: 'Paid', type: 'badge' },
   {
     label: 'Payment Method',
-    value: `${params.paymentSubtitle ?? 'None'} - ${params.paymentTitle ?? 'None'}`,
+    value: `${pacoteFinal?.pagamento?.subtitle ?? 'None'}`,
+
   },
-  { label: 'Date & Time', value: 'Dec 20, 2025 · 09:41 AM' },
+  { label: 'Date & Time', value: 
+  <DateText 
+  value={pacoteFinal?.data_reserva}
+  variant='short'/> },
   { label: 'Booking ID', value: 'BID122025BKG', copy: true },
   { label: 'Transaction ID', value: 'TID094125TRX', copy: true },
   { label: 'Merchant ID', value: 'MID374028MRC', copy: true },
@@ -80,10 +78,10 @@ export default function TripDetails() {
 
   const priceInfo = [
   {
-    label: `${pacoteObj?.viajantes.quantidade ?? 0} Passengers`,
+    label: `${pacoteFinal?.viajantes.quantidade ?? 0} Passengers`,
     value: <PriceText 
-      value={pacoteObj?.preco.total ?? 0}
-      currency={pacoteObj?.preco.moeda ?? 'BRL'}
+      value={pacoteFinal?.preco.total ?? 0}
+      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
     />,
   },
   {
@@ -95,17 +93,24 @@ export default function TripDetails() {
     value: 'R$ 10,00',
   },
   {
-    label: params.discountTitle ?? 'Discount',
-    value: 'R$ 580,00',
+    label:  'Desconto Aplicado',
+    value: pacoteFinal.desconto?.title ?? 'None',
+  },
+  {
+    label:  'Valor Desconto',
+    value: pacoteFinal?.desconto?.valorDesconto ?? 0,
   },
   {
     label: 'Total Price',
-    value: String(pacoteObj?.preco.total ?? '0'),
+    value: <PriceText 
+      value={pacoteFinal?.preco.total ?? 0 + 40 + 10} 
+      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
+    />,
   },
 ];
 
 
-  if (!pacoteObj) {
+  if (!pacoteFinal) {
   return (
     <View>
       <Text>Pacote não encontrado</Text>
@@ -147,14 +152,14 @@ export default function TripDetails() {
               <View style={styles.containerImageTop}>
                 <Image
                   source={{
-                    uri: pacoteObj?.imagens[0],
+                    uri: pacoteFinal?.imagens[0],
                   }}
                   style={styles.imageTop}
                 />
               </View>
               <View style={styles.containerNameTop}>
                 <Text style={styles.textNameTop} numberOfLines={3}>
-                  {pacoteObj?.nome_pacote}
+                  {pacoteFinal?.nome_pacote}
                 </Text>
               </View>
             </View>
@@ -168,7 +173,7 @@ export default function TripDetails() {
                     weight='light'
                   />
                   <Text style={styles.textLocationLeft}>
-                    {pacoteObj?.destino.nome}, {pacoteObj?.destino.pais}
+                    {pacoteFinal?.destino.nome}, {pacoteFinal?.destino.pais}
                   </Text>
                 </View>
                 <View style={styles.containerDateLeft}>
@@ -181,7 +186,7 @@ export default function TripDetails() {
                     <Text style={styles.textDataCheckIn}>
                       <DateText
                         value={
-                          pacoteObj?.estadia.checkin ?? 'Data nao encontrada'
+                          pacoteFinal?.estadia.checkin ?? 'Data nao encontrada'
                         }
                         variant='short'
                       />
@@ -189,7 +194,7 @@ export default function TripDetails() {
                     <Text style={styles.textDataCheckOut}>
                       <DateText
                         value={
-                          pacoteObj?.estadia.checkout ?? 'Data nao encontrada'
+                          pacoteFinal?.estadia.checkout ?? 'Data nao encontrada'
                         }
                         variant='short'
                       />
@@ -202,7 +207,7 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textPassengersLeft}>{pacoteObj?.viajantes.quantidade} Passengers</Text>
+                  <Text style={styles.textPassengersLeft}>{pacoteFinal?.viajantes.quantidade} Passengers</Text>
                 </View>
               </View>
               <View style={styles.containerInfoColumnRight}>
@@ -213,7 +218,7 @@ export default function TripDetails() {
                     weight='light'
                   />
                   <Text style={styles.textFlightsRight}>
-                    {pacoteObj?.resumo.quantidade_voos} Flights
+                    {pacoteFinal?.resumo.quantidade_voos} Flights
                   </Text>
                 </View>
                 <View style={styles.containerAccomodationRight}>
@@ -223,7 +228,7 @@ export default function TripDetails() {
                     weight='light'
                   />
                   <Text style={styles.textAccomodationRight}>
-                    {pacoteObj?.resumo.quantidade_acomodacoes} Accomodation
+                    {pacoteFinal?.resumo.quantidade_acomodacoes} Accomodation
                   </Text>
                 </View>
                 <View style={styles.containerActivityRight}>
@@ -232,7 +237,7 @@ export default function TripDetails() {
                     color={themeColors[theme].icon}
                     weight='light'
                   />
-                  <Text style={styles.textActivityRight}>{pacoteObj?.resumo.quantidade_atividades} Activity</Text>
+                  <Text style={styles.textActivityRight}>{pacoteFinal?.resumo.quantidade_atividades} Activity</Text>
                 </View>
               </View>
             </View>
@@ -243,13 +248,13 @@ export default function TripDetails() {
               <View style={styles.containerImageTourGuide}>
                 <Image
                   source={{
-                    uri: pacoteObj?.resumo.guia_turistico.imagem,
+                    uri: pacoteFinal?.resumo.guia_turistico.imagem,
                   }}
                   style={styles.imageTourGuide}
                 />
               </View>
               <View style={styles.containerNameGuide}>
-                <Text style={styles.textNameTourGuide}>{pacoteObj?.resumo.guia_turistico.nome}</Text>
+                <Text style={styles.textNameTourGuide}>{pacoteFinal?.resumo.guia_turistico.nome}</Text>
                 <Text style={styles.textDescriptionTourGuide}>
                   Your Tour Guide
                 </Text>
@@ -273,28 +278,28 @@ export default function TripDetails() {
             <FlightDepartReturn
               include='Flight'
               direction='Departure'
-              dateBoarding={pacoteObj?.voos.ida.data_completa ?? 'Data nao encontrada'}
-              airport_origin={pacoteObj?.voos.ida.aeroporto_origem ?? 'Data nao encontrada'}
-              hour_boarding={pacoteObj?.voos.ida.horario_partida ?? 'Data nao encontrada'}
-              airport_destination={pacoteObj?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
-              hour_destination={pacoteObj?.voos.ida.horario_chegada ?? 'Horario nao encontrada'}
-              numero_voo={pacoteObj?.voos.ida.numero ?? 'Voo não encontrado'}
-              escala={pacoteObj?.voos.ida.escala ?? 'Sem escala'}
-              name_airline={pacoteObj?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
-              logo_airline={pacoteObj?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
+              dateBoarding={pacoteFinal?.voos.ida.data_completa ?? 'Data nao encontrada'}
+              airport_origin={pacoteFinal?.voos.ida.aeroporto_origem ?? 'Data nao encontrada'}
+              hour_boarding={pacoteFinal?.voos.ida.horario_partida ?? 'Data nao encontrada'}
+              airport_destination={pacoteFinal?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_destination={pacoteFinal?.voos.ida.horario_chegada ?? 'Horario nao encontrada'}
+              numero_voo={pacoteFinal?.voos.ida.numero ?? 'Voo não encontrado'}
+              escala={pacoteFinal?.voos.ida.escala ?? 'Sem escala'}
+              name_airline={pacoteFinal?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
+              logo_airline={pacoteFinal?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
             />
             <FlightDepartReturn
               includeStyle={styles.flightReturn}
               direction='Return'
-              dateBoarding={pacoteObj?.voos.volta.data_completa ?? 'Data nao encontrada'}
-              airport_origin={pacoteObj?.voos.volta.aeroporto_destino ?? 'Aeroporto nao encontrada'}
-              hour_boarding={pacoteObj?.voos.volta.horario_partida ?? 'Horario nao encontrada'}
-              airport_destination={pacoteObj?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
-              hour_destination={pacoteObj?.voos.volta.horario_chegada ?? 'Horario nao encontrada'}
-              numero_voo={pacoteObj?.voos.volta.numero ?? 'Voo não encontrado'}
-              escala={pacoteObj?.voos.volta.escala ?? 'Sem escala'}
-              name_airline={pacoteObj?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
-              logo_airline={pacoteObj?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
+              dateBoarding={pacoteFinal?.voos.volta.data_completa ?? 'Data nao encontrada'}
+              airport_origin={pacoteFinal?.voos.volta.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_boarding={pacoteFinal?.voos.volta.horario_partida ?? 'Horario nao encontrada'}
+              airport_destination={pacoteFinal?.voos.ida.aeroporto_destino ?? 'Aeroporto nao encontrada'}
+              hour_destination={pacoteFinal?.voos.volta.horario_chegada ?? 'Horario nao encontrada'}
+              numero_voo={pacoteFinal?.voos.volta.numero ?? 'Voo não encontrado'}
+              escala={pacoteFinal?.voos.volta.escala ?? 'Sem escala'}
+              name_airline={pacoteFinal?.voos.companhia_aerea.nome ?? 'Companhia nao encontrada'}
+              logo_airline={pacoteFinal?.voos.companhia_aerea.logo ?? 'Companhia nao encontrada'}
             />
           </View>
 
@@ -302,15 +307,15 @@ export default function TripDetails() {
             <AccomodationInfo
               include='Accommodation'
               includeStyle={styles.accomodation}
-              checkIn={pacoteObj?.estadia.checkin ?? 'Data nao encontrada'}
-              checkOut={pacoteObj?.estadia.checkout ?? 'Data nao encontrada'}
-              noites={pacoteObj?.estadia.noites ?? 0}
-              name_hotel={pacoteObj?.acomodacao.nome_hotel ?? 'Hotel nao encontrado'}
-              tipo_hotel={pacoteObj?.acomodacao.tipo ?? 'Tipo nao encontrado'}
-              categoria_hotel={pacoteObj?.acomodacao.categoria ?? 'Categoria nao encontrado'}
-              nameCity={pacoteObj?.destino.nome ?? 'Cidade nao encontrada'}
-              nameCountry={pacoteObj?.destino.pais ?? 'País nao encontrada'}
-              imagemHotel={pacoteObj?.acomodacao.imagem_hotel ?? 'Categoria nao encontrado'}
+              checkIn={pacoteFinal?.estadia.checkin ?? 'Data nao encontrada'}
+              checkOut={pacoteFinal?.estadia.checkout ?? 'Data nao encontrada'}
+              noites={pacoteFinal?.estadia.noites ?? 0}
+              name_hotel={pacoteFinal?.acomodacao.nome_hotel ?? 'Hotel nao encontrado'}
+              tipo_hotel={pacoteFinal?.acomodacao.tipo ?? 'Tipo nao encontrado'}
+              categoria_hotel={pacoteFinal?.acomodacao.categoria ?? 'Categoria nao encontrado'}
+              nameCity={pacoteFinal?.destino.nome ?? 'Cidade nao encontrada'}
+              nameCountry={pacoteFinal?.destino.pais ?? 'País nao encontrada'}
+              imagemHotel={pacoteFinal?.acomodacao.imagem_hotel ?? 'Categoria nao encontrado'}
             />
           </View>
 
@@ -318,14 +323,14 @@ export default function TripDetails() {
             <ActivitiesInfo
               include='Activities'
               includeStyle={styles.activities}
-              checkIn={pacoteObj?.estadia.checkin ?? 'Data nao encontrada'}
-              checkOut={pacoteObj?.estadia.checkout ?? 'Data nao encontrada'}
+              checkIn={pacoteFinal?.estadia.checkin ?? 'Data nao encontrada'}
+              checkOut={pacoteFinal?.estadia.checkout ?? 'Data nao encontrada'}
               duracao={6}
-              nome_pacote={pacoteObj?.nome_pacote ?? 'Pacote nao encontrado'}
-              atividades={pacoteObj?.atividades}
-              quantidade_pessoas={pacoteObj?.viajantes.quantidade ?? 0}
-              tipo={pacoteObj?.viajantes.tipo ?? 'Tipo nao encontrado'}
-              idade_minima={pacoteObj?.viajantes.idade_minima ?? 0}
+              nome_pacote={pacoteFinal?.nome_pacote ?? 'Pacote nao encontrado'}
+              atividades={pacoteFinal?.atividades}
+              quantidade_pessoas={pacoteFinal?.viajantes.quantidade ?? 0}
+              tipo={pacoteFinal?.viajantes.tipo ?? 'Tipo nao encontrado'}
+              idade_minima={pacoteFinal?.viajantes.idade_minima ?? 0}
             />
           </View>
 

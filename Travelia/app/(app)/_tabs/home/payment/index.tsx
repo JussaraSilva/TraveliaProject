@@ -24,10 +24,12 @@ export default function Payment() {
     discountId?: string;
     discountTitle?: string;
     discountSubtitle?: string;
+    discountValor?: string
+    discountType?: string
   }>();
 
   const [payment, setPayment] = useState<{id: string, title: string, subtitle: string} | null>(null);
-  const [discount, setDiscount] = useState<{id: string, title: string, subtitle: string} | null>(null);
+  const [discount, setDiscount] = useState<{id: string, title: string, subtitle: string, valorDesconto: number} | null>(null);
 
   /** 📦 Pacote */
   const pacoteObj: PacoteViagem | null = params.pacote
@@ -56,14 +58,31 @@ export default function Payment() {
         id: params.discountId,
         title: params.discountTitle || "",
         subtitle: params.discountSubtitle || "",
+        valorDesconto: params.discountTitle ? Number(params.discountTitle) : 0
       });
     }
   }, [params.discountId, params.discountTitle, params.discountSubtitle]);
+
+
+useEffect(() => {
+  if (payment) {
+    console.log("PAGAMENTO DEFINIDO 👉", payment.title, payment.subtitle);
+  }
+}, [payment]);
+
+useEffect(() => {
+  if (discount) {
+    console.log("DESCONTO DEFINIDO 👉", discount.title, discount.subtitle);
+  }
+}, [discount]);
+
 
   
   if (!pacoteObj) {
     return <View />;
   }
+
+  
   const selectPayment = () => {
   router.push({
     pathname: "/(app)/_tabs/home/payment/selectPaymentMethod",
@@ -81,8 +100,9 @@ export default function Payment() {
       discountSubtitle: discount?.subtitle,
       },
     });
-     console.log('ENVIANDO Pagamento 2 👉', payment?.title, payment?.subtitle);
   };
+
+
 
   const selectDiscount = () => {
   router.push({
@@ -99,10 +119,9 @@ export default function Payment() {
         discountId: discount?.id,
         discountTitle: discount?.title,
         discountSubtitle: discount?.subtitle,
+        discountValor: discount?.valorDesconto,
       },
     });
-
-    console.log('ENVIANDO Desconto 1 👉', discount?.title, discount?.subtitle);
   };
 
 
@@ -113,20 +132,44 @@ export default function Payment() {
 
 
   const handleConfirmPayment = () => {
-      router.push({
-        pathname: '/(app)/_tabs/home/payment/E-Ticket',
-        params: {
-          pacote: JSON.stringify(pacoteObj),
-          paymentId: payment?.id,
-          paymentTitle: payment?.title,
-          paymentSubtitle: payment?.subtitle,
+  const pacoteFinal = {
+    ...pacoteObj,
 
-          discountId: discount?.id,
-          discountTitle: discount?.title,
-          discountSubtitle: discount?.subtitle,
-        },
-      });
-  }
+    
+
+    pagamento: payment
+      ? {
+          id: payment.id,
+          title: payment.title,
+          subtitle: payment.subtitle,
+        }
+      : null,
+
+    desconto: discount
+      ? {
+          id: discount.id,
+          title: discount.title,
+          subtitle: discount.subtitle,
+          valorDesconto: discount.valorDesconto,
+        }
+      : null,
+
+      data_reserva: new Date().toISOString(),
+      
+  };
+
+  router.push({
+    pathname: '/(app)/_tabs/home/payment/E-Ticket',
+    params: {
+      pacote: JSON.stringify(pacoteFinal),
+    },
+    
+  });
+  console.log('PACOTE FINAL 👉', pacoteFinal);
+};
+
+
+  
 
   return (
     <View style={styles.container}>

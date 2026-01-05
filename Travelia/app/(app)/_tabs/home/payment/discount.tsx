@@ -52,6 +52,8 @@ export default function Discount() {
         discountId: String(item.id),
         discountTitle: item.nome,
         discountSubtitle: item.descricao,
+        discountValor: item.valor_desconto,
+        discountType: item.tipo_desconto,
         // Repassa o pagamento para não perdê-lo
           paymentId: params.paymentId,
           paymentTitle: params.paymentTitle,
@@ -123,6 +125,7 @@ export default function Discount() {
                 }
                 textTitle={item.nome}
                 textDescription={item.descricao}
+                textValue={item.valor_desconto}
                 contentCardStyle={[
                   styles.cardStyleRow,
                   isActive && styles.cardActive, // 👈 seleção visual

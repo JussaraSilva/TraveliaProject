@@ -22,6 +22,8 @@ import {
 } from 'react-native';
 
 export default function MyTrips() {
+  
+
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
@@ -30,12 +32,6 @@ export default function MyTrips() {
 
   const params = useLocalSearchParams<{
       pacote?: string;
-      paymentId?: string;
-      paymentTitle?: string;
-      paymentSubtitle?: string;
-      discountId?: string;
-      discountTitle?: string;
-      discountSubtitle?: string;
     }>();
 
   const pacoteObj: PacoteViagem | null = params.pacote
@@ -43,6 +39,9 @@ export default function MyTrips() {
         Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
       )
   : null;
+
+
+  console.log('PARAMS MyTrips 👉', params);
 
   const handleNextPage = () => {
   router.push({

@@ -14,6 +14,7 @@ type CardGlobalProps = {
   contentCardStyle?: StyleProp<ViewStyle>;
   containerIconLeftStyle?: StyleProp<ViewStyle>;
   textTitle: string;
+  textValue?: number | string;
   textDescription: string;
   leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
@@ -21,7 +22,7 @@ type CardGlobalProps = {
 };  
 
 
-export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, onPress, imagem, leftIcon, rightIcon, containerIconLeftStyle }: CardGlobalProps) {
+export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, textValue, onPress, imagem, leftIcon, rightIcon, containerIconLeftStyle }: CardGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
   

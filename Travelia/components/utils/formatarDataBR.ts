@@ -29,9 +29,32 @@ export function formatarDataBR(
 ) {
   if (!data) return ""
 
-  const isISO = /^\d{4}-\d{2}-\d{2}$/.test(data)
+  // 🔹 CASO 0 — Data ISO completo: "2026-01-05T18:17:01.850Z"
+  const isFullISO = /^\d{4}-\d{2}-\d{2}T/.test(data)
+
+  if (isFullISO) {
+    const dateObj = new Date(data)
+
+    const datePart = dateObj.toLocaleDateString("en-US", {
+      month: "short",
+      day: "2-digit",
+      year: "numeric",
+    })
+
+    const timePart = dateObj.toLocaleTimeString("en-US", {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    })
+
+    const ampm = dateObj.getHours() >= 12 ? "PM" : "AM"
+
+    return `${datePart} - ${timePart} ${ampm}`
+  }
+
 
   // 🔹 CASO 1 — Data ISO: "2024-12-31"
+  const isISO = /^\d{4}-\d{2}-\d{2}$/.test(data)
   if (isISO) {
     const dateObj = new Date(`${data}T00:00:00`)
 

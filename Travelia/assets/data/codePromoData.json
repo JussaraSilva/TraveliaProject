@@ -8,6 +8,9 @@
       "codigo": "FVD25BRA",
       "validade": "2024-12-31",
       "valor_minimo": 1500.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 25,
+      "aplicacao": "total_pacote",
       "instrucoes": "Aplique o código FVD25BRA no checkout para reservas com check-in até 31/12/2024. Válido apenas para pacotes com hospedagem.",
       "termos_condicoes": [
         "Não cumulativo com outras promoções ou descontos de fidelidade",
@@ -27,7 +30,10 @@
       "descricao": "Cashback em qualquer booking para destinos no Caribe",
       "codigo": "CB12CARIB",
       "validade": "2024-11-15",
-      "valor_minimo": "Não há valor mínimo",
+      "valor_minimo": 0,
+      "tipo_desconto": "cashback",
+      "valor_desconto": 12,
+      "aplicacao": "total_pacote",
       "instrucoes": "Reserve através do nosso aplicativo usando o código CB12CARIB. O cashback será devolvido em 30 dias.",
       "termos_condicoes": [
         "Cashback será creditado na forma de voucher para próxima viagem",
@@ -48,6 +54,9 @@
       "codigo": "LM30HONEY",
       "validade": "2025-06-30",
       "valor_minimo": 3000.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 30,
+      "aplicacao": "total_pacote",
       "instrucoes": "Selecione pacotes marcados como 'Lua de Mel' e aplique o código LM30HONEY na finalização.",
       "termos_condicoes": [
         "Exige comprovação de casamento (certidão com data máxima de 12 meses)",
@@ -68,6 +77,9 @@
       "codigo": "BF40EARLY",
       "validade": "2024-11-20",
       "valor_minimo": 2000.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 40,
+      "aplicacao": "total_pacote",
       "instrucoes": "Use o código BF40EARLY antes de 20/11 para reservar viagens com data até dezembro/2025.",
       "termos_condicoes": [
         "Pagamento não reembolsável em caso de cancelamento",
@@ -88,6 +100,9 @@
       "codigo": "DR15EURO",
       "validade": "2024-10-10",
       "valor_minimo": 5000.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 15,
+      "aplicacao": "total_pacote",
       "instrucoes": "Reserve em até 48 horas após consulta. Código válido apenas para pagamento à vista.",
       "termos_condicoes": [
         "Preços sujeitos a alteração sem aviso prévio",
@@ -107,7 +122,10 @@
       "descricao": "CashBack especial de Natal em qualquer booking familiar",
       "codigo": "NATAL12FAM",
       "validade": "2024-12-25",
-      "valor_minimo": "Não há valor mínimo",
+      "valor_minimo": 0,
+      "tipo_desconto": "cashback",
+      "valor_desconto": 12,
+      "aplicacao": "total_pacote",
       "instrucoes": "Use o código NATAL12FAM para reservas com 3 ou mais pessoas. Cashback creditado em janeiro.",
       "termos_condicoes": [
         "Mínimo de 3 passageiros adultos por reserva",
@@ -128,6 +146,9 @@
       "codigo": "AV18SUD",
       "validade": "2025-03-31",
       "valor_minimo": 1800.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 18,
+      "aplicacao": "total_pacote",
       "instrucoes": "Selecione pacotes da categoria 'Aventura' e insira o código AV18SUD no carrinho.",
       "termos_condicoes": [
         "Inclui obrigatoriamente 2 atividades de aventura certificadas",
@@ -148,6 +169,9 @@
       "codigo": "LM20URG",
       "validade": "2024-12-31",
       "valor_minimo": 1200.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 20,
+      "aplicacao": "total_pacote",
       "instrucoes": "Aplicável apenas para viagens com início dentro de 30 dias a partir da reserva.",
       "termos_condicoes": [
         "Não permite alterações de datas ou nomes",
@@ -168,6 +192,9 @@
       "codigo": "AE22ALL",
       "validade": "2024-11-30",
       "valor_minimo": 2500.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 22,
+      "aplicacao": "total_pacote",
       "instrucoes": "Use o código AE22ALL em qualquer pacote completo (voo+hotel+traslado).",
       "termos_condicoes": [
         "Válido apenas para reservas diretas pelo site oficial",
@@ -188,6 +215,9 @@
       "codigo": "PC10CULT",
       "validade": "2025-02-28",
       "valor_minimo": 2200.00,
+      "tipo_desconto": "percentual",
+      "valor_desconto": 10,
+      "aplicacao": "total_pacote",
       "instrucoes": "Reserve pacotes marcados como 'Roteiros Culturais' e use o código PC10CULT.",
       "termos_condicoes": [
         "Deve incluir visita a pelo menos 3 museus ou sítios históricos",

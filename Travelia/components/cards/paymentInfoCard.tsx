@@ -36,7 +36,10 @@ export default function PaymentInfoCard({paymentInfo,cardTitle,iconTitle}:paymen
                 <Text style={styles.badgeText}>{item.value}</Text>
               </View>
             ) : (
-              <Text style={styles.value}>{item.value}</Text>
+              <Text style={styles.value}
+                numberOfLines={2}
+                ellipsizeMode="tail"
+              >{item.value}</Text>
             )}
 
             {item.copy && (
@@ -76,20 +79,24 @@ const createStyles = (theme: ThemeName) =>
     row: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      padding: 8,
+      padding: 10,
+
       
     },
     label: {
-      fontSize: 16,
+      fontSize: 14,
       color: themeColors[theme].textSecondary,
     },
 
     valueContainer: {
+      width: '60%',
       flexDirection: 'row',
       alignItems: 'center',
+      justifyContent: 'flex-end',
     },
     value: {
       fontSize: 16,
+      textAlign: 'right',
       fontWeight: 'bold',
       color: themeColors[theme].textPrimary,
     },
