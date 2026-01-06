@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CaretRightIcon } from "phosphor-react-native";
+import { CaretRightIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
 import { DateText } from "../utils/formatDate";

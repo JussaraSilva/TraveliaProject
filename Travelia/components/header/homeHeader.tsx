@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { BellIcon, HeartIcon, MagnifyingGlassIcon } from "phosphor-react-native";
+import { BellIcon, HeartIcon, MagnifyingGlassIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { Image, View, Text, StyleSheet } from "react-native";
 

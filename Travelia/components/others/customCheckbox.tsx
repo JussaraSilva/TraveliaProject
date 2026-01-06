@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CheckSquareIcon, SquareIcon } from "phosphor-react-native";
+import { CheckSquareIcon, SquareIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 

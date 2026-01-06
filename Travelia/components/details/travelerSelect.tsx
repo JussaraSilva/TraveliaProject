@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CaretDownIcon } from "phosphor-react-native";
+import { CaretDownIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, TouchableOpacity, View, Text } from "react-native";
 

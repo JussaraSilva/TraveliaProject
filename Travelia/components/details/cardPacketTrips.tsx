@@ -5,7 +5,7 @@ import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 
 import { PacoteViagem } from "@/assets/types/bookingType";
-import { HeartIcon, StarIcon, TrophyIcon } from "phosphor-react-native";
+import { HeartIcon, StarIcon, TrophyIcon } from 'phosphor-react-native';
 import { router } from "expo-router";
 
 

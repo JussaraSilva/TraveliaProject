@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { StarHalfIcon, StarIcon } from "phosphor-react-native";
+import { StarHalfIcon, StarIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, Text, View } from "react-native";
 

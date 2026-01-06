@@ -1,7 +1,7 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { useRouter } from "expo-router";
-import {  QuestionIcon, XIcon } from "phosphor-react-native";
+import {  QuestionIcon, XIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Image, TextInput, KeyboardAvoidingView, Platform, TouchableWithoutFeedback, Keyboard } from "react-native"
 

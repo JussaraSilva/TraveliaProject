@@ -5,7 +5,7 @@ import { View, StyleSheet, Text } from "react-native"
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from '../../../context/themeProvider'; // 
 import { LoginOption } from "@/components/buttons/loginOption";
-import { AppleLogoIcon, FacebookLogoIcon, GoogleLogoIcon, HandTapIcon,SignInIcon,  XLogoIcon } from "phosphor-react-native";
+import { AppleLogoIcon, FacebookLogoIcon, GoogleLogoIcon, HandTapIcon,SignInIcon,  XLogoIcon } from 'phosphor-react-native';
 import { router } from "expo-router";
 
 export default function Welcome() {

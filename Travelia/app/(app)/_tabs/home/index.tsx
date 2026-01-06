@@ -59,7 +59,7 @@ export default function HomeScreen() {
               start={10}
               end={15}
               icon={
-                <CaretRightIcon 
+                <CaretRightIcon
                   size={20} 
                   color={themeColors[theme].realceBlue} 
                 />

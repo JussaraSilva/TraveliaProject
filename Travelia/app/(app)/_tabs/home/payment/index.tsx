@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { useMemo, useState, useEffect } from "react";
-import { CaretLeftIcon, CaretRightIcon, CoinsIcon, PercentIcon, WalletIcon } from "phosphor-react-native";
+import { CaretLeftIcon, CaretRightIcon, CoinsIcon, PercentIcon, WalletIcon } from 'phosphor-react-native';
 import HeaderGlobal from "@/components/header/headerGlobal";
 import { useTheme } from "@/context/themeProvider";
 import { themeColors, ThemeName } from "@/constants/theme";
@@ -64,17 +64,7 @@ export default function Payment() {
   }, [params.discountId, params.discountTitle, params.discountSubtitle]);
 
 
-useEffect(() => {
-  if (payment) {
-    console.log("PAGAMENTO DEFINIDO 👉", payment.title, payment.subtitle);
-  }
-}, [payment]);
 
-useEffect(() => {
-  if (discount) {
-    console.log("DESCONTO DEFINIDO 👉", discount.title, discount.subtitle);
-  }
-}, [discount]);
 
 
   
@@ -98,6 +88,7 @@ useEffect(() => {
       discountId: discount?.id,
       discountTitle: discount?.title,
       discountSubtitle: discount?.subtitle,
+      discountValor: discount?.valorDesconto,
       },
     });
   };
@@ -122,6 +113,7 @@ useEffect(() => {
         discountValor: discount?.valorDesconto,
       },
     });
+    console.log('pacoteObj', pacoteObj);
   };
 
 
@@ -165,7 +157,6 @@ useEffect(() => {
     },
     
   });
-  console.log('PACOTE FINAL 👉', pacoteFinal);
 };
 
 

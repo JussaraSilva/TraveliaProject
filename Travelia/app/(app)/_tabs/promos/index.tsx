@@ -12,7 +12,7 @@ import {  StyleSheet, View, ScrollView } from 'react-native';
 
 import promocoes from '../../../../assets/data/codePromoData.json';
 import { PromoType } from '@/assets/types/promoType/promo';
-import { DotsThreeVerticalIcon, CaretRightIcon, SealPercentIcon } from 'phosphor-react-native';
+import { DotsThreeVerticalIcon, CaretRight, SealPercentIcon } from 'phosphor-react-native';
 import { Logo } from '@/components/others/logo';
 
 
@@ -58,7 +58,7 @@ export default function PromosScreen() {
               color={themeColors[theme].textButton}
               weight="fill"
             />}
-            rightIcon={<CaretRightIcon
+            rightIcon={<CaretRight
               size={40}
               color={themeColors[theme].icon}
               weight="light"

@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "../../constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { PaperPlaneTiltIcon } from "phosphor-react-native";
+import { PaperPlaneTiltIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleProp, StyleSheet, Text, TextStyle, View, ViewStyle } from "react-native";
 

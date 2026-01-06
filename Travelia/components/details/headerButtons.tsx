@@ -1,7 +1,7 @@
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from "@/context/themeProvider";
 import { useRouter } from "expo-router";
-import { CaretLeftIcon, HeartIcon, ShareNetworkIcon } from "phosphor-react-native";
+import { CaretLeftIcon, HeartIcon, ShareNetworkIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, TouchableOpacity } from "react-native"
 

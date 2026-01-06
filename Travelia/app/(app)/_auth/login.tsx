@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from '../../../context/themeProvider'; // 
-import {  AppleLogoIcon, ArrowLeftIcon,  EnvelopeSimpleIcon, EyeClosedIcon, FacebookLogoIcon, GoogleLogoIcon, LockSimpleIcon, XLogoIcon} from "phosphor-react-native";
+import {  AppleLogoIcon, ArrowLeftIcon,  EnvelopeSimpleIcon, EyeClosedIcon, FacebookLogoIcon, GoogleLogoIcon, LockSimpleIcon, XLogoIcon} from 'phosphor-react-native';
 import { InputLogin } from "@/components/inputs/inputLogin";
 import CustomCheckbox from "@/components/others/customCheckbox";
 import { LoginOption } from "@/components/buttons/loginOption";
@@ -20,7 +20,7 @@ export default function Login() {
   const [checked, setChecked] = useState(true);
 
   const handleHome = () => {
-    router.replace('/(app)/_tabs/home/home');
+    router.replace('/(app)/_tabs/home');
   }
 
   const router = useRouter();

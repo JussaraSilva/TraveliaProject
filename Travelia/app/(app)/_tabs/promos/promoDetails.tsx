@@ -7,7 +7,7 @@ import { PriceText } from "@/components/utils/priceText";
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { CaretLeftIcon, CopyIcon } from "phosphor-react-native";
+import { CaretLeftIcon, CopyIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { View,  StyleSheet, Text, ScrollView, TouchableOpacity } from "react-native";
 

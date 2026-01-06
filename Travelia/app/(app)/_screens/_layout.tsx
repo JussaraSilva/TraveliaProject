@@ -1,6 +1,6 @@
 import { Slot } from "expo-router";
 
-export default function StackLayout() {
+export default function ScreensLayout() {
   return <Slot />;
 }
 

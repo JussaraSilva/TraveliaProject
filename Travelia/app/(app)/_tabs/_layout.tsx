@@ -2,7 +2,7 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 
 import { themeColors } from '@/constants/theme';
-import { CalendarDotsIcon, ChatsCircleIcon, HouseIcon, SealPercentIcon, UserIcon } from "phosphor-react-native";
+import { CalendarDotsIcon, ChatsCircleIcon, HouseIcon, SealPercentIcon, UserIcon } from 'phosphor-react-native';
 
 
 import { useTheme } from '../../../context/themeProvider'; // Verifique se o caminho está correto

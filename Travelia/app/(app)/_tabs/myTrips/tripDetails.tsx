@@ -98,14 +98,17 @@ export default function TripDetails() {
   },
   {
     label:  'Valor Desconto',
-    value: pacoteFinal?.desconto?.valorDesconto ?? 0,
+    value:pacoteFinal?.desconto?.tipo_desconto === 'percentual'
+    ? ((pacoteFinal?.preco.total ?? 0) *
+        (pacoteFinal?.desconto?.valor_desconto ?? 0)) / 100
+    : pacoteFinal?.desconto?.valor_desconto ?? 0,
   },
   {
     label: 'Total Price',
-    value: <PriceText 
-      value={pacoteFinal?.preco.total ?? 0 + 40 + 10} 
-      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
-    />,
+    value:<PriceText
+          value={(pacoteFinal?.preco.total ?? 0) + 40 + 10}
+          currency={pacoteFinal?.preco.moeda ?? 'BRL'}
+        />,
   },
 ];
 

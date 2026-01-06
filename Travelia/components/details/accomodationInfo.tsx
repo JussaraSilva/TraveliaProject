@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CaretRightIcon, DotIcon, MapPinAreaIcon, StarIcon } from "phosphor-react-native";
+import { CaretRight, DotIcon, MapPinAreaIcon, StarIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
 
@@ -57,7 +57,7 @@ export default function AccomodationInfo({include, checkIn, checkOut, noites, na
           </View>
           
           <TouchableOpacity style={styles.containerArrow}>
-            <CaretRightIcon size={30} color={themeColors[theme].icon} weight="light" />
+            <CaretRight size={30} color={themeColors[theme].icon} weight="light" />
           </TouchableOpacity>
           
         </View>

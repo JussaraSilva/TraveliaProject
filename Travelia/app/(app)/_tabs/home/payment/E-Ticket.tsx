@@ -2,7 +2,7 @@ import { PacoteViagem } from "@/assets/types/bookingType";
 import { themeColors, ThemeName } from "@/constants/theme"
 import { useTheme } from "@/context/themeProvider";
 import { router, useLocalSearchParams } from "expo-router";
-import { CheckCircleIcon } from "phosphor-react-native";
+import { CheckCircleIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native"
 
@@ -30,16 +30,17 @@ export default function ETicket(){
       : null;
 
   const backHome = () => {
-    router.push('/(app)/_tabs/home/home');
+    router.push('/(app)/_tabs/home');
   }
 
   const viewBooking = () => {
       router.push({
-        pathname: '/(app)/_tabs/myTrips/myTrips',
+        pathname: '/(app)/_tabs/myTrips',
         params: {
           pacote: JSON.stringify(pacoteObj),
         },
       });
+      console.log('pacoteObj', pacoteObj);
   }
 
   return(

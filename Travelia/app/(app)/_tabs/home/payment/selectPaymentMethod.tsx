@@ -3,7 +3,7 @@ import HeaderGlobal from "@/components/header/headerGlobal";
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { router, useLocalSearchParams } from "expo-router";
-import { AppleLogoIcon, CaretLeftIcon, CheckCircleIcon, CreditCardIcon, GooglePlayLogoIcon, PaypalLogoIcon, PlusIcon } from "phosphor-react-native";
+import { AppleLogoIcon, CaretLeftIcon, CheckCircleIcon, CreditCardIcon, GooglePlayLogoIcon, PaypalLogoIcon, PlusIcon } from 'phosphor-react-native';
 import { useMemo, useState } from "react";
 import { FlatList, StyleSheet, View } from "react-native"
 

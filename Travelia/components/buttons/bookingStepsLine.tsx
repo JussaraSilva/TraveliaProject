@@ -2,7 +2,7 @@ import { StyleSheet, View, Text } from "react-native";
 import { useMemo } from "react";
 import { useTheme } from "@/context/themeProvider";
 import { themeColors, ThemeName } from "@/constants/theme";
-import { CheckIcon } from "phosphor-react-native";
+import { CheckIcon } from 'phosphor-react-native';
 import { usePathname } from "expo-router";
 
 

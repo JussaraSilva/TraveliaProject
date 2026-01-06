@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { useTheme } from "@/context/themeProvider";
 import { themeColors, ThemeName } from "@/constants/theme";
 import { DateText } from "@/components/utils/formatDate";
-import { CaretRightIcon } from "phosphor-react-native";
+import { CaretRight } from 'phosphor-react-native';
 
 type PacoteResumeProps = {
   namePacket: string;
@@ -60,7 +60,7 @@ export default function CardPacketResume({ namePacket, dataCheckIn, dataCheckOut
 
           </View>
           <View style={styles.containerIconMore}>
-            <CaretRightIcon size={20} color={themeColors[theme].icon} />
+            <CaretRight size={20} color={themeColors[theme].icon} />
           </View>
         </TouchableOpacity>
   )
