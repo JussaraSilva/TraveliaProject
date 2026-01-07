@@ -42,12 +42,8 @@ export default function TripDetails() {
   const [activeFilter, setActiveFilter] = useState(0);
 
   
-  const params = useLocalSearchParams<{
-    pacote?: string;
-  }>();
+  const params = useLocalSearchParams();
 
-  
-  
   const pacoteFinal = params.pacote
   ? JSON.parse(
       Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
@@ -73,6 +69,12 @@ export default function TripDetails() {
   { label: 'Merchant ID', value: 'MID374028MRC', copy: true },
 ];
 
+  const valorDescontoFinal =
+  pacoteFinal?.desconto?.tipoDesconto === 'percentual'
+    ? ((pacoteFinal?.preco.total ?? 0) *
+        (pacoteFinal?.desconto?.valorDesconto ?? 0)) / 100
+    : pacoteFinal?.desconto?.valorDesconto ?? 0;
+
 
 
 
@@ -97,19 +99,22 @@ export default function TripDetails() {
     value: pacoteFinal.desconto?.title ?? 'None',
   },
   {
-    label:  'Valor Desconto',
-    value:pacoteFinal?.desconto?.tipo_desconto === 'percentual'
-    ? ((pacoteFinal?.preco.total ?? 0) *
-        (pacoteFinal?.desconto?.valor_desconto ?? 0)) / 100
-    : pacoteFinal?.desconto?.valor_desconto ?? 0,
-  },
-  {
-    label: 'Total Price',
+    label: 'Valor Desconto',
     value:<PriceText
-          value={(pacoteFinal?.preco.total ?? 0) + 40 + 10}
-          currency={pacoteFinal?.preco.moeda ?? 'BRL'}
-        />,
+      value={valorDescontoFinal}
+      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
+    />,
   },
+
+  {
+  label: 'Total Price',
+  value: (
+    <PriceText
+      value={(pacoteFinal?.preco.total ?? 0) + 40 + 10 - valorDescontoFinal}
+      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
+    />
+  ),
+},
 ];
 
 

@@ -41,8 +41,6 @@ export default function MyTrips() {
   : null;
 
 
-  console.log('PARAMS MyTrips 👉', params);
-
   const handleNextPage = () => {
   router.push({
     pathname: '/(app)/_tabs/myTrips/tripDetails',

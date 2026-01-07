@@ -52,7 +52,7 @@ export default function Discount() {
         discountId: String(item.id),
         discountTitle: item.nome,
         discountSubtitle: item.descricao,
-        discountValor: item.valor_desconto,
+        discountValor: String(item.valor_desconto),
         discountType: item.tipo_desconto,
         // Repassa o pagamento para não perdê-lo
           paymentId: params.paymentId,

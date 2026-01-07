@@ -29,7 +29,7 @@ export default function Payment() {
   }>();
 
   const [payment, setPayment] = useState<{id: string, title: string, subtitle: string} | null>(null);
-  const [discount, setDiscount] = useState<{id: string, title: string, subtitle: string, valorDesconto: number} | null>(null);
+  const [discount, setDiscount] = useState<{id: string, title: string, subtitle: string, valorDesconto: number, tipoDesconto: string} | null>(null);
 
   /** 📦 Pacote */
   const pacoteObj: PacoteViagem | null = params.pacote
@@ -38,7 +38,6 @@ export default function Payment() {
       )
     : null;
 
-    
     /** ✅ SINCRONIZA PAGAMENTO (uma vez por mudança) */
     useEffect(() => {
     if (params.paymentId) {
@@ -53,21 +52,25 @@ export default function Payment() {
 
   /** ✅ SINCRONIZA DESCONTO (uma vez por mudança) */
   useEffect(() => {
-    if (params.discountId) {
+  if (params.discountId) {
       setDiscount({
         id: params.discountId,
         title: params.discountTitle || "",
         subtitle: params.discountSubtitle || "",
-        valorDesconto: params.discountTitle ? Number(params.discountTitle) : 0
+        valorDesconto: params.discountValor
+          ? Number(params.discountValor)
+          : 0,
+        tipoDesconto: params.discountType || "",
       });
     }
-  }, [params.discountId, params.discountTitle, params.discountSubtitle]);
+  }, [
+    params.discountId,
+    params.discountTitle,
+    params.discountSubtitle,
+    params.discountValor,
+    params.discountType,
+  ]);
 
-
-
-
-
-  
   if (!pacoteObj) {
     return <View />;
   }
@@ -89,6 +92,7 @@ export default function Payment() {
       discountTitle: discount?.title,
       discountSubtitle: discount?.subtitle,
       discountValor: discount?.valorDesconto,
+      tipoDesconto: discount?.tipoDesconto,
       },
     });
   };
@@ -111,9 +115,9 @@ export default function Payment() {
         discountTitle: discount?.title,
         discountSubtitle: discount?.subtitle,
         discountValor: discount?.valorDesconto,
+        tipoDesconto: discount?.tipoDesconto,
       },
     });
-    console.log('pacoteObj', pacoteObj);
   };
 
 
@@ -143,6 +147,7 @@ export default function Payment() {
           title: discount.title,
           subtitle: discount.subtitle,
           valorDesconto: discount.valorDesconto,
+          tipoDesconto: discount?.tipoDesconto,
         }
       : null,
 
@@ -160,7 +165,16 @@ export default function Payment() {
 };
 
 
-  
+  const valorDescontoCalculado = useMemo(() => {
+    if (!discount) return 0;
+
+    if (discount.tipoDesconto === 'percentual') {
+      return ((pacoteObj.preco.total ?? 0) * discount.valorDesconto) / 100;
+    }
+
+    return discount.valorDesconto ?? 0;
+  }, [discount, pacoteObj.preco.total]);
+
 
   return (
     <View style={styles.container}>
@@ -222,6 +236,7 @@ export default function Payment() {
             precoPorPessoa={pacoteObj.preco.total}
             moeda={pacoteObj.preco.moeda}
             parcelamento={pacoteObj.preco.parcelamento}
+            valorDesconto={pacoteFinal?.desconto?.valorDesconto}
             precoTotal={pacoteObj.preco.total}
           />
         </View>

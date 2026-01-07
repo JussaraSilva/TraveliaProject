@@ -62,6 +62,12 @@ export function CardGlobal({ variant, contentCardStyle, textTitle, textDescripti
           >
             {textDescription}
           </Text>
+          <Text style={styles.textPromoDescription}
+            numberOfLines={2}
+            ellipsizeMode="tail"
+          >
+            {textValue}
+          </Text>
         </View>
 
         {/* RIGHT ICON */}

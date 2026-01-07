@@ -12,6 +12,7 @@ type PriceDetailsProps = {
   moeda: string;
   parcelamento: string;
   precoTotal: number;
+  valorDesconto?: number;
   leftIconPriceDetails?: React.ReactNode;
 };
 
@@ -22,7 +23,8 @@ export default function PriceDetailsResume({
   moeda,
   parcelamento,
   precoTotal,
-  leftIconPriceDetails
+  leftIconPriceDetails,
+  valorDesconto,
 }: PriceDetailsProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -53,6 +55,14 @@ export default function PriceDetailsResume({
               {parcelamento}
             </Text>
           </View>
+
+          <View style={styles.rowPriceDetails}>
+            <Text style={styles.labelPriceDetails}>Discount</Text>
+            <Text style={styles.valuePriceDetails}>
+              {valorDesconto}
+            </Text>
+          </View>
+
           <View style={styles.rowPriceDetailsTotal}>
             <Text style={styles.labelPriceDetails}>Total Price</Text>
             <Text style={styles.valuePriceDetails}>
