@@ -5,13 +5,13 @@ import { Logo } from '@/components/others/logo';
 import { DateText } from '@/components/utils/formatDate';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
-import { router, useLocalSearchParams } from 'expo-router';
+import { router} from 'expo-router';
 import {
   CalendarIcon,
   CaretRightIcon,
   MapPinIcon,
 } from 'phosphor-react-native';
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import {
   Image,
   ScrollView,
@@ -20,6 +20,8 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { getTrips } from "@/services/tripStorage";
+
 
 export default function MyTrips() {
   
@@ -30,25 +32,17 @@ export default function MyTrips() {
   const labelButton = ['OnGoing', 'Completed', 'Canceled'];
   const [activeFilter, setActiveFilter] = useState(0);
 
-  const params = useLocalSearchParams<{
-      pacote?: string;
-    }>();
-
-  const pacoteObj: PacoteViagem | null = params.pacote
-    ? JSON.parse(
-        Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
-      )
-  : null;
+  const [trips, setTrips] = useState<PacoteViagem[]>([]);
 
 
-  const handleNextPage = () => {
-  router.push({
-    pathname: '/(app)/_tabs/myTrips/tripDetails',
-    params: {
-      pacote: JSON.stringify(pacoteObj),
-    },
-  });
-};
+  useEffect(() => {
+  async function fetchTrips() {
+    const allTrips = await getTrips();
+    setTrips(allTrips);
+  }
+      fetchTrips();
+    }, []);
+
 
   return (
     <View style={styles.container}>
@@ -73,67 +67,59 @@ export default function MyTrips() {
       </View>
 
       <ScrollView
-        showsVerticalScrollIndicator={false}
-        style={styles.containerScroll}
+  showsVerticalScrollIndicator={false}
+  style={styles.containerScroll}
+>
+  <View style={styles.containerCards}>
+    {trips.map((pacote) => (
+      <TouchableOpacity
+        key={pacote.id} // ou outro identificador único
+        style={styles.containerCardRow}
+        onPress={() => {
+          router.push({
+            pathname: '/(app)/_tabs/myTrips/tripDetails',
+            params: { pacote: JSON.stringify(pacote) },
+          });
+        }}
       >
-        <View style={styles.containerCards}>
-          <TouchableOpacity
-            style={styles.containerCardRow}
-            onPress={handleNextPage}
-          >
-            <View style={styles.containerImagem}>
-              <Image
-                source={{
-                  uri: pacoteObj?.imagens[0],
-                }}
-                style={styles.imagem}
-              />
-              
-            </View>
-            <View style={styles.containerInformacoes}>
-              <View style={styles.containerNomePacote}>
-                <Text
-                  style={styles.textNomePacote}
-                  numberOfLines={2}
-                  ellipsizeMode='tail'
-                >
-                  {pacoteObj?.nome_pacote ?? 'Pacote não encontrado'}
-                </Text>
-              </View>
-              <View style={styles.containerData}>
-                <Text style={styles.textDataCheckIn}>
-                  <DateText 
-                    value={pacoteObj?.estadia.checkin ?? 'Data nao encontrada'} 
-                    variant='short'
-                  />
-                  
-                </Text>
-                <Text>-</Text>
-                <Text style={styles.textDataCheckOut}>
-                  <DateText 
-                    value={pacoteObj?.estadia.checkout ?? 'Data nao encontrada'} 
-                    variant='short'
-                  />
-                </Text>
-              </View>
-              <View style={styles.containerLocation}>
-                <MapPinIcon
-                  size={20}
-                  color={themeColors[theme].realceBlue}
-                  weight='duotone'
-                />
-                <Text style={styles.textLocation}>
-                  {pacoteObj?.destino.nome}, {pacoteObj?.destino.pais}
-                </Text>
-              </View>
-            </View>
-
-            <View style={styles.containerIcon}>
-              <CaretRightIcon size={20} color={themeColors[theme].realceBlue} />
-            </View>
-          </TouchableOpacity>
+        <View style={styles.containerImagem}>
+          <Image
+            source={{ uri: pacote.imagens[0] }}
+            style={styles.imagem}
+          />
         </View>
-      </ScrollView>
+
+        <View style={styles.containerInformacoes}>
+          <View style={styles.containerNomePacote}>
+            <Text style={styles.textNomePacote} numberOfLines={2}>
+              {pacote.nome_pacote ?? 'Pacote não encontrado'}
+            </Text>
+          </View>
+          <View style={styles.containerData}>
+            <Text style={styles.textDataCheckIn}>
+              <DateText value={pacote.estadia.checkin} variant="short" />
+            </Text>
+            <Text>-</Text>
+            <Text style={styles.textDataCheckOut}>
+              <DateText value={pacote.estadia.checkout} variant="short" />
+            </Text>
+          </View>
+          <View style={styles.containerLocation}>
+            <MapPinIcon size={20} color={themeColors[theme].realceBlue} weight='duotone'/>
+            <Text style={styles.textLocation}>
+              {pacote.destino.nome}, {pacote.destino.pais}
+            </Text>
+          </View>
+        </View>
+
+        <View style={styles.containerIcon}>
+          <CaretRightIcon size={20} color={themeColors[theme].realceBlue} />
+        </View>
+      </TouchableOpacity>
+    ))}
+  </View>
+</ScrollView>
+
     </View>
   );
 }

@@ -1,4 +1,5 @@
 import { useRouter } from "expo-router";
+import { saveTrip } from "@/services/tripStorage";
 
 export function useConfirmPayment({
   pacoteObj,
@@ -11,7 +12,7 @@ export function useConfirmPayment({
 }) {
   const router = useRouter();
 
-  return () => {
+  return async () => {
     if (!pacoteObj) return;
 
     const pacoteFinal = {
@@ -21,6 +22,10 @@ export function useConfirmPayment({
       data_reserva: new Date().toISOString(),
     };
 
+    // 1️⃣ Salva o pacote em My Trips
+    await saveTrip(pacoteFinal);
+
+    // 2️⃣ Redireciona para E-Ticket
     router.push({
       pathname: "/(app)/_tabs/home/payment/E-Ticket",
       params: {

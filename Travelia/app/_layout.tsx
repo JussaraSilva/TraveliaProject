@@ -3,16 +3,21 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated'; // MANTIDO: Necessário para o carrossel
 import { ThemeProvider } from '@/context/themeProvider';
 import { useState, useEffect } from 'react'; // NOVAS IMPORTAÇÕES
-
+import { testStorage } from '@/services/testAsync';
 export default function RootLayout() {
   // 1. Cria um estado para rastrear se a primeira renderização já passou
   const [isReady, setIsReady] = useState(false);
+
+
 
   useEffect(() => {
     // 2. O useEffect roda APÓS a primeira renderização.
     // Ele define o estado para true, o que aciona a segunda renderização segura.
     // Isso mitiga a race condition do reanimated.
     setIsReady(true);
+
+    // Testando AsyncStorage
+    testStorage();
   }, []);
 
   if (!isReady) {
