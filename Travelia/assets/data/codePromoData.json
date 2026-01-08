@@ -26,45 +26,45 @@
     {
       "id": 2,
       "imagem": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-      "nome": "12% Cashback Voucher",
-      "descricao": "Cashback em qualquer booking para destinos no Caribe",
-      "codigo": "CB12CARIB",
+      "nome": "Caribe Especial: R$ 800 off",
+      "descricao": "Desconto fixo para destinos no Caribe com voo direto",
+      "codigo": "CE800CARIB",
       "validade": "2024-11-15",
-      "valor_minimo": 0,
-      "tipo_desconto": "cashback",
-      "valor_desconto": 12,
+      "valor_minimo": 4000.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 800.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Reserve através do nosso aplicativo usando o código CB12CARIB. O cashback será devolvido em 30 dias.",
+      "instrucoes": "Use o código CE800CARIB para reservas em destinos caribenhos. Desconto de R$ 800 aplicado diretamente no valor final.",
       "termos_condicoes": [
-        "Cashback será creditado na forma de voucher para próxima viagem",
-        "Limite máximo de R$ 1.000 em cashback por reserva",
-        "Válido apenas para reservas pagas com cartão de crédito"
+        "Desconto único por reserva, não cumulativo",
+        "Válido apenas para pacotes completos (voo+hotel+traslado)",
+        "Mínimo de 5 diárias obrigatório"
       ],
       "outras_informacoes": [
-        "Voucher de cashback tem validade de 6 meses",
-        "Apenas para reservas feitas através do app móvel",
-        "Não se aplica a tarifas aéreas low-cost"
+        "Válido para destinos: República Dominicana, Jamaica, Cancún e Punta Cana",
+        "Desconto não aplicável em taxas de resort",
+        "Reserva com antecedência mínima de 30 dias"
       ]
     },
     {
       "id": 3,
       "imagem": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
-      "nome": "Pacote Lua de Mel: 30% off",
-      "descricao": "Desconto exclusivo para pacotes de lua de mel com voo + hotel + traslado",
-      "codigo": "LM30HONEY",
+      "nome": "Pacote Lua de Mel: R$ 1.200 off",
+      "descricao": "Desconto fixo exclusivo para pacotes de lua de mel premium",
+      "codigo": "LM1200HONEY",
       "validade": "2025-06-30",
-      "valor_minimo": 3000.00,
-      "tipo_desconto": "percentual",
-      "valor_desconto": 30,
+      "valor_minimo": 5000.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 1200.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Selecione pacotes marcados como 'Lua de Mel' e aplique o código LM30HONEY na finalização.",
+      "instrucoes": "Selecione pacotes marcados como 'Lua de Mel Premium' e aplique o código LM1200HONEY para desconto imediato.",
       "termos_condicoes": [
         "Exige comprovação de casamento (certidão com data máxima de 12 meses)",
-        "Reserva mínima de 8 dias e máxima de 15 dias",
-        "Alterações de datas sujeitas a disponibilidade e taxas"
+        "Reserva mínima de 7 dias em resorts 4+ estrelas",
+        "Não aplicável em períodos de alta temporada"
       ],
       "outras_informacoes": [
-        "Upgrade de quarto sujeito à disponibilidade no check-in",
+        "Upgrade de quarto sujeito à disponibilidade",
         "Jantar romântico de boas-vindas incluso",
         "Late check-out até 14h (mediante disponibilidade)"
       ]
@@ -72,24 +72,24 @@
     {
       "id": 4,
       "imagem": "https://images.unsplash.com/photo-1439066615861-d1af74d74000",
-      "nome": "Black Friday: 40% off Early Bird",
-      "descricao": "Promoção antecipada de Black Friday para viagens em 2025",
-      "codigo": "BF40EARLY",
+      "nome": "Black Friday: R$ 1.500 off Early Bird",
+      "descricao": "Desconto fixo antecipado de Black Friday para viagens em 2025",
+      "codigo": "BF1500EARLY",
       "validade": "2024-11-20",
-      "valor_minimo": 2000.00,
-      "tipo_desconto": "percentual",
-      "valor_desconto": 40,
+      "valor_minimo": 5000.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 1500.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Use o código BF40EARLY antes de 20/11 para reservar viagens com data até dezembro/2025.",
+      "instrucoes": "Use o código BF1500EARLY antes de 20/11 para reservar viagens com data até dezembro/2025.",
       "termos_condicoes": [
         "Pagamento não reembolsável em caso de cancelamento",
-        "Alterações de datas permitidas com taxa de R$ 200 por pessoa",
-        "Promoção limitada a 100 pacotes por destino"
+        "Limite de 1 uso por CPF",
+        "Promoção limitada a 200 pacotes"
       ],
       "outras_informacoes": [
         "Voo incluso apenas para classes econômica ou básica",
         "Bagagem despachada de 23kg por pessoa",
-        "Traslados aeroporto-hotel apenas em horários regulares"
+        "Traslados aeroporto-hotel incluso"
       ]
     },
     {
@@ -118,24 +118,24 @@
     {
       "id": 6,
       "imagem": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
-      "nome": "Ofertas de Natal: 12% Cashback",
-      "descricao": "CashBack especial de Natal em qualquer booking familiar",
-      "codigo": "NATAL12FAM",
+      "nome": "Natal em Família: R$ 600 off",
+      "descricao": "Desconto fixo para reservas familiares nas festas de fim de ano",
+      "codigo": "NATAL600FAM",
       "validade": "2024-12-25",
-      "valor_minimo": 0,
-      "tipo_desconto": "cashback",
-      "valor_desconto": 12,
+      "valor_minimo": 3000.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 600.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Use o código NATAL12FAM para reservas com 3 ou mais pessoas. Cashback creditado em janeiro.",
+      "instrucoes": "Use o código NATAL600FAM para reservas com 3 ou mais pessoas até 25/12/2024.",
       "termos_condicoes": [
         "Mínimo de 3 passageiros adultos por reserva",
-        "Cashback calculado sobre o valor líquido sem taxas",
-        "Não cumulativo com promoções de black friday"
+        "Válido para check-in entre 20/12/2024 e 05/01/2025",
+        "Não cumulativo com outras promoções"
       ],
       "outras_informacoes": [
-        "Crianças até 5 anos não pagam hospedagem",
-        "Cashback disponível a partir de 15/01/2025",
-        "Válido para destinos nacionais e internacionais"
+        "Crianças até 8 anos ganham kit de Natal",
+        "Desconto aplicado direto no valor final",
+        "Entretenimento infantil gratuito nos hotéis parceiros"
       ]
     },
     {
@@ -164,15 +164,15 @@
     {
       "id": 8,
       "imagem": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9",
-      "nome": "Melhor Negócio: 20% off Last Minute",
-      "descricao": "Descontos de última hora para viagens com partida em 30 dias",
-      "codigo": "LM20URG",
+      "nome": "Last Minute: R$ 400 off",
+      "descricao": "Desconto fixo de última hora para viagens com partida em 30 dias",
+      "codigo": "LM400URG",
       "validade": "2024-12-31",
-      "valor_minimo": 1200.00,
-      "tipo_desconto": "percentual",
-      "valor_desconto": 20,
+      "valor_minimo": 2000.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 400.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Aplicável apenas para viagens com início dentro de 30 dias a partir da reserva.",
+      "instrucoes": "Aplicável apenas para viagens com início dentro de 30 dias a partir da reserva. Código: LM400URG.",
       "termos_condicoes": [
         "Não permite alterações de datas ou nomes",
         "Cancelamentos resultam em perda total do valor pago",
@@ -210,23 +210,23 @@
     {
       "id": 10,
       "imagem": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
-      "nome": "Pacote Cultural: 10% off + City Tour",
-      "descricao": "Desconto em viagens culturais para cidades históricas",
-      "codigo": "PC10CULT",
+      "nome": "Pacote Cultural: R$ 300 off",
+      "descricao": "Desconto fixo em viagens culturais para cidades históricas",
+      "codigo": "PC300CULT",
       "validade": "2025-02-28",
-      "valor_minimo": 2200.00,
-      "tipo_desconto": "percentual",
-      "valor_desconto": 10,
+      "valor_minimo": 2500.00,
+      "tipo_desconto": "fixo",
+      "valor_desconto": 300.00,
       "aplicacao": "total_pacote",
-      "instrucoes": "Reserve pacotes marcados como 'Roteiros Culturais' e use o código PC10CULT.",
+      "instrucoes": "Reserve pacotes marcados como 'Roteiros Culturais' e use o código PC300CULT.",
       "termos_condicoes": [
         "Deve incluir visita a pelo menos 3 museus ou sítios históricos",
         "City tour é em grupo e com horários pré-definidos",
-        "Não inclui ingressos para eventos especiais ou temporadas"
+        "Não inclui ingressos para eventos especiais"
       ],
       "outras_informacoes": [
         "Guia turístico especializado incluso",
-        "Entradas para museus não inclusas no valor",
+        "Desconto aplicado direto no valor final",
         "Audio-guia disponível em 3 idiomas com custo extra"
       ]
     }

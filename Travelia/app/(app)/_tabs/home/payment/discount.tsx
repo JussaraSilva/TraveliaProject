@@ -125,7 +125,6 @@ export default function Discount() {
                 }
                 textTitle={item.nome}
                 textDescription={item.descricao}
-                textValue={item.valor_desconto}
                 contentCardStyle={[
                   styles.cardStyleRow,
                   isActive && styles.cardActive, // 👈 seleção visual

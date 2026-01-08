@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { CaretRight, DotIcon, MapPinAreaIcon, StarIcon } from 'phosphor-react-native';
+import { CaretRightIcon, DotIcon, MapPinAreaIcon, StarIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
 
@@ -57,7 +57,7 @@ export default function AccomodationInfo({include, checkIn, checkOut, noites, na
           </View>
           
           <TouchableOpacity style={styles.containerArrow}>
-            <CaretRight size={30} color={themeColors[theme].icon} weight="light" />
+            <CaretRightIcon size={30} color={themeColors[theme].icon} weight="light" />
           </TouchableOpacity>
           
         </View>
@@ -238,18 +238,23 @@ const createStyles = (theme: ThemeName) =>
 
     containerImagemHotel: {
       width: "40%",
-      height: 120,
+      height: 150,
       borderRadius: 20,
       alignItems: 'center',
+      marginTop: 20,
+      
     },
 
     containerTextAccomodantion: {
       flexDirection: 'column',
+      alignItems: 'flex-start',
       gap: 10,
+      padding : 10,
       wordWrap: 'wrap',
       height: "100%",
       width: "60%",
-      marginTop: 40,
+      marginTop: 50,
+      
     },
 
     textNameHotel: {

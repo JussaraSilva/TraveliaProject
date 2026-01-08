@@ -81,6 +81,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
 
   body: {
     flexDirection: 'column',
+    padding: 10,
     gap: 8,
   },
 

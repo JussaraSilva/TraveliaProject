@@ -8,6 +8,7 @@ import { PriceText } from '@/components/utils/priceText';
 
 type PriceDetailsProps = {
   labelRowPrice: string;
+  qtdPessoas: number;
   precoPorPessoa: number;
   moeda: string;
   parcelamento: string;
@@ -19,6 +20,7 @@ type PriceDetailsProps = {
 
 export default function PriceDetailsResume({
   labelRowPrice,
+  qtdPessoas,
   precoPorPessoa,
   moeda,
   parcelamento,
@@ -28,6 +30,8 @@ export default function PriceDetailsResume({
 }: PriceDetailsProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
+
+  
 
 
   return (
@@ -39,7 +43,7 @@ export default function PriceDetailsResume({
         <View style={styles.gridPriceDetails}>
           <View style={styles.rowPriceDetails}>
             <Text style={styles.labelPriceDetails}>
-              {labelRowPrice}
+              {labelRowPrice} ({qtdPessoas} Passengers)
             </Text>
             <Text style={styles.valuePriceDetails}>
               <PriceText
@@ -49,6 +53,21 @@ export default function PriceDetailsResume({
               />
             </Text>
           </View>
+
+          <View style={styles.rowPriceDetails}>
+            <Text style={styles.labelPriceDetails}>Travel Insurance</Text>
+            <Text style={styles.valuePriceDetails}>
+              R$ 40,00
+            </Text>
+          </View>
+
+          <View style={styles.rowPriceDetails}>
+            <Text style={styles.labelPriceDetails}>Tax</Text>
+            <Text style={styles.valuePriceDetails}>
+              R$ 10,00
+            </Text>
+          </View>
+
           <View style={styles.rowPriceDetails}>
             <Text style={styles.labelPriceDetails}>Price Parcel</Text>
             <Text style={styles.valuePriceDetails}>
@@ -59,7 +78,11 @@ export default function PriceDetailsResume({
           <View style={styles.rowPriceDetails}>
             <Text style={styles.labelPriceDetails}>Discount</Text>
             <Text style={styles.valuePriceDetails}>
-              {valorDesconto}
+              <PriceText
+                value={valorDesconto}
+                currency={moeda}
+                style={styles.textPriceValue}
+              />
             </Text>
           </View>
 

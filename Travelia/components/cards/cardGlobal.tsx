@@ -22,7 +22,7 @@ type CardGlobalProps = {
 };  
 
 
-export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription, textValue, onPress, imagem, leftIcon, rightIcon, containerIconLeftStyle }: CardGlobalProps) {
+export function CardGlobal({ variant, contentCardStyle, textTitle, textDescription,  onPress, imagem, leftIcon, rightIcon, containerIconLeftStyle }: CardGlobalProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
   
@@ -61,12 +61,6 @@ export function CardGlobal({ variant, contentCardStyle, textTitle, textDescripti
             ellipsizeMode="tail"
           >
             {textDescription}
-          </Text>
-          <Text style={styles.textPromoDescription}
-            numberOfLines={2}
-            ellipsizeMode="tail"
-          >
-            {textValue}
           </Text>
         </View>
 

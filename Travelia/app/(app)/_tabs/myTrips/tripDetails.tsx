@@ -5,10 +5,13 @@ import ActivitiesInfo from '@/components/details/activitiesInfo';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { DateText } from '@/components/utils/formatDate';
-import { PriceText } from '@/components/utils/priceText';
 import { themeColors, ThemeName } from '@/constants/theme';
-import { useTheme } from '@/context/themeProvider';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useDiscountCalculator } from '@/hooks/payment/useDiscountCalculator';
+import { usePaymentInfo } from '@/hooks/payment/usePaymentInfo';
+import { usePriceDetails } from '@/hooks/payment/usePriceDetails';
+import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
+import { useTripParams } from '@/hooks/params/useTripParams';
+import {  useRouter } from 'expo-router';
 import {
   AirplaneInFlightIcon,
   AirplaneTakeoffIcon,
@@ -22,7 +25,7 @@ import {
   ReceiptIcon,
   UsersIcon,
 } from 'phosphor-react-native';
-import { useMemo, useState } from 'react';
+import {useState } from 'react';
 import {
   Image,
   ScrollView,
@@ -33,8 +36,7 @@ import {
 } from 'react-native';
 
 export default function TripDetails() {
-  const { theme } = useTheme();
-  const styles = useMemo(() => createStyles(theme), [theme]);
+  const { theme, styles } = useThemedStyles(createStyles);
 
   const router = useRouter();
 
@@ -42,80 +44,19 @@ export default function TripDetails() {
   const [activeFilter, setActiveFilter] = useState(0);
 
   
-  const params = useLocalSearchParams();
-
-  const pacoteFinal = params.pacote
-  ? JSON.parse(
-      Array.isArray(params.pacote) ? params.pacote[0] : params.pacote
-    )
-  : null;
-
-
+  const { pacoteFinal } = useTripParams();
   
-  
-  const paymentInfo = [
-  { label: 'Status', value: 'Paid', type: 'badge' },
-  {
-    label: 'Payment Method',
-    value: `${pacoteFinal?.pagamento?.subtitle ?? 'None'}`,
+  const { items } = usePaymentInfo(pacoteFinal);
 
-  },
-  { label: 'Date & Time', value: 
-  <DateText 
-  value={pacoteFinal?.data_reserva}
-  variant='short'/> },
-  { label: 'Booking ID', value: 'BID122025BKG', copy: true },
-  { label: 'Transaction ID', value: 'TID094125TRX', copy: true },
-  { label: 'Merchant ID', value: 'MID374028MRC', copy: true },
-];
-
-  const valorDescontoFinal =
-  pacoteFinal?.desconto?.tipoDesconto === 'percentual'
-    ? ((pacoteFinal?.preco.total ?? 0) *
-        (pacoteFinal?.desconto?.valorDesconto ?? 0)) / 100
-    : pacoteFinal?.desconto?.valorDesconto ?? 0;
+  const valorDescontoFinal = useDiscountCalculator(
+    pacoteFinal,
+    pacoteFinal?.desconto
+  );
 
 
 
 
-  const priceInfo = [
-  {
-    label: `${pacoteFinal?.viajantes.quantidade ?? 0} Passengers`,
-    value: <PriceText 
-      value={pacoteFinal?.preco.total ?? 0}
-      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
-    />,
-  },
-  {
-    label: 'Travel Insurance',
-    value: 'R$ 40,00',
-  },
-  {
-    label: 'Tax',
-    value: 'R$ 10,00',
-  },
-  {
-    label:  'Desconto Aplicado',
-    value: pacoteFinal.desconto?.title ?? 'None',
-  },
-  {
-    label: 'Valor Desconto',
-    value:<PriceText
-      value={valorDescontoFinal}
-      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
-    />,
-  },
-
-  {
-  label: 'Total Price',
-  value: (
-    <PriceText
-      value={(pacoteFinal?.preco.total ?? 0) + 40 + 10 - valorDescontoFinal}
-      currency={pacoteFinal?.preco.moeda ?? 'BRL'}
-    />
-  ),
-},
-];
+  const priceInfo = usePriceDetails(pacoteFinal, valorDescontoFinal);
 
 
   if (!pacoteFinal) {
@@ -348,8 +289,9 @@ export default function TripDetails() {
 
           <View style={styles.containerPaymentInfo}>
             <PaymentInfoCard
-              paymentInfo={paymentInfo}
+              paymentInfo={items}
               cardTitle='Payment Info'
+              currency={pacoteFinal?.moeda}
               iconTitle={
                 <ReceiptIcon size={20} color={themeColors[theme].icon} />
               }
@@ -360,6 +302,7 @@ export default function TripDetails() {
             <PaymentInfoCard
               paymentInfo={priceInfo}
               cardTitle='Price Details'
+              currency={pacoteFinal?.moeda}
               iconTitle={
                 <CurrencyDollarIcon size={20} color={themeColors[theme].icon} />
               }

@@ -3,6 +3,7 @@ import { useTheme } from '@/context/themeProvider';
 import { CopyIcon } from 'phosphor-react-native';
 import { ReactNode, useMemo } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { PriceText } from '../utils/priceText';
 
 
 interface paymentProps {
@@ -13,9 +14,10 @@ interface paymentProps {
     copy?: boolean;
   }[];
   cardTitle: string;
+  currency: string;
   iconTitle: React.ReactNode
 }
-export default function PaymentInfoCard({paymentInfo,cardTitle,iconTitle}:paymentProps) {
+export default function PaymentInfoCard({paymentInfo, cardTitle, iconTitle, currency}:paymentProps) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
@@ -31,17 +33,29 @@ export default function PaymentInfoCard({paymentInfo,cardTitle,iconTitle}:paymen
           <Text style={styles.label}>{item.label}</Text>
 
           <View style={styles.valueContainer}>
-            {item.type === 'badge' ? (
+            {item.type === 'badge' && typeof item.value === 'number' && (
               <View style={styles.badge}>
-                <Text style={styles.badgeText}>{item.value}</Text>
+                <Text style={styles.badgeText}>
+                  <PriceText value={item.value} currency={currency} />
+                </Text>
               </View>
-            ) : (
-              <Text style={styles.value}
-                numberOfLines={2}
-                ellipsizeMode="tail"
-              >{item.value}</Text>
             )}
 
+            {item.type === 'price' && typeof item.value === 'number' && (
+              <Text style={styles.value}>
+                <PriceText value={item.value} currency={currency} />
+              </Text>
+            )}
+
+            {(!item.type || item.type === 'text') && (
+              <Text
+                style={styles.value}
+                numberOfLines={2}
+                ellipsizeMode="tail"
+              >
+                {item.value}
+              </Text>
+            )}
             {item.copy && (
               <TouchableOpacity>
                 <CopyIcon size={16} />
@@ -60,8 +74,6 @@ const createStyles = (theme: ThemeName) =>
       backgroundColor: themeColors[theme].backgroundCard,
       padding: 16,
       borderRadius: 8,
-      
-      
     },
 
     headerTitle: {
@@ -79,7 +91,7 @@ const createStyles = (theme: ThemeName) =>
     row: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      padding: 10,
+      padding: 5,
 
       
     },

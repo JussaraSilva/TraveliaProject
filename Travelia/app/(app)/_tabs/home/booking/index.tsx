@@ -201,6 +201,7 @@ const createStyles = (theme: ThemeName) =>
       flex: 1,
       justifyContent: 'center',
       backgroundColor: themeColors[theme].background,
+      
     },
 
     tagFlightTop: {
@@ -232,19 +233,22 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'row',
       alignItems: 'center',
       paddingHorizontal: 10,
+      
     },
 
     containerFlights: {
       flexDirection: 'row',
       alignItems: 'center',
       gap: 15,
-      paddingBottom: 20,
+      
+      
     },
 
     containerContactDetails: {
       width: '100%',
       marginTop: 20,
-      paddingHorizontal: 10,
+      paddingHorizontal: 20,
+      
     },
 
     textContactName: {
@@ -265,14 +269,14 @@ const createStyles = (theme: ThemeName) =>
       width: '100%',
       marginTop: 20,
       marginBottom: 10,
-      paddingHorizontal: 10,
+      paddingHorizontal: 20,
     },
 
     flightSeatsDeparture: {
       width: '100%',
       marginTop: 20,
       marginBottom: 30,
-      paddingHorizontal: 10,
+      paddingHorizontal: 20,
     },
 
     borderPriceDetails: {
@@ -284,13 +288,13 @@ const createStyles = (theme: ThemeName) =>
     flightSeatsReturn: {
       width: '100%',
       marginBottom: 30,
-      paddingHorizontal: 10,
+      paddingHorizontal: 20,
     },
 
     containerPriceDetails: {
       width: '100%',
       marginBottom: 30,
-      paddingHorizontal: 10,
+      paddingHorizontal: 20,
     },
 
     gridPriceDetails: {
