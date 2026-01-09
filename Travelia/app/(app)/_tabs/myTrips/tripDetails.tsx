@@ -34,25 +34,41 @@ import {
   Text,
   TouchableOpacity,
 } from 'react-native';
+import { useDownloadReceipt } from '@/hooks/trip/useDownloadReceipt';
+import { useCancelBooking } from '@/hooks/trip/useCancelBooking';
+import { ConfirmCancelModal } from '@/components/modal/confirmCancelModal';
+
 
 export default function TripDetails() {
   const { theme, styles } = useThemedStyles(createStyles);
 
   const router = useRouter();
 
+  
   const labelButton = ['Package', 'E-Ticket'];
   const [activeFilter, setActiveFilter] = useState(0);
-
+  
   
   const { pacoteFinal } = useTripParams();
   
   const { items } = usePaymentInfo(pacoteFinal);
-
+  
   const valorDescontoFinal = useDiscountCalculator(
     pacoteFinal,
     pacoteFinal?.desconto
   );
+  
+  
+  const { handleDownloadReceipt } = useDownloadReceipt({
+    pacoteFinal,
+  });
 
+  const {
+  visible,
+  openCancelModal,
+  closeCancelModal,
+  confirmCancelBooking,
+} = useCancelBooking({ pacoteFinal });
 
 
 
@@ -312,14 +328,16 @@ export default function TripDetails() {
           <View style={styles.containerButtonTrip}>
             <View style={styles.containerButtons}>
               <View style={styles.containerButtonRecibo}>
-                <TouchableOpacity style={styles.buttonRecibo}>
+                <TouchableOpacity style={styles.buttonRecibo}
+                  onPress={handleDownloadReceipt}
+                >
                   <Text style={styles.textButtonRecibo}>Download Receipt</Text>
                 </TouchableOpacity>
               </View>
               <View style={styles.containerButtonCancel}>
                 <TouchableOpacity
                   style={styles.buttonCancel}
-                  onPress={() => {}}
+                  onPress={openCancelModal}
                 >
                   <Text style={styles.textButtonCancel}>
                     Cancel Booking & Request Refund
@@ -330,6 +348,12 @@ export default function TripDetails() {
           </View>
         </View>
       </ScrollView>
+      <ConfirmCancelModal
+        visible={visible}
+        onCancel={closeCancelModal}
+        onConfirm={confirmCancelBooking}
+      />
+
     </View>
   );
 }

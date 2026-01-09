@@ -13,24 +13,35 @@ export function useConfirmPayment({
   const router = useRouter();
 
   return async () => {
-    if (!pacoteObj) return;
+    if (!pacoteObj) {
+        console.warn("Tentativa de confirmação sem objeto de pacote.");
+        return;
+    }
 
-    const pacoteFinal = {
-      ...pacoteObj,
-      pagamento: payment,
-      desconto: discount,
-      data_reserva: new Date().toISOString(),
-    };
+    try {
+      const pacoteFinal = {
+        ...pacoteObj,
+        // Garante que o ID exista para não duplicar ou sumir no Storage
+        id: pacoteObj.id || Date.now().toString(), 
+        pagamento: payment,
+        desconto: discount,
+        data_reserva: new Date().toISOString(),
+      };
 
-    // 1️⃣ Salva o pacote em My Trips
-    await saveTrip(pacoteFinal);
+      // 1️⃣ Aguarda a persistência completa
+      console.log("Salvando viagem...", pacoteFinal.id);
+      await saveTrip(pacoteFinal);
 
-    // 2️⃣ Redireciona para E-Ticket
-    router.push({
-      pathname: "/(app)/_tabs/home/payment/E-Ticket",
-      params: {
-        pacote: JSON.stringify(pacoteFinal),
-      },
-    });
+      // 2️⃣ Redireciona apenas após o sucesso do salvamento
+      router.push({
+        pathname: "/(app)/_tabs/home/payment/E-Ticket",
+        params: {
+          pacote: JSON.stringify(pacoteFinal),
+        },
+      });
+    } catch (error) {
+      console.error("Erro ao salvar a viagem:", error);
+      // Aqui você poderia disparar um Alert.alert("Erro", "Não foi possível salvar sua reserva")
+    }
   };
 }

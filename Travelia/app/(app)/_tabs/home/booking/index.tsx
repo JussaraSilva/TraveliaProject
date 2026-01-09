@@ -3,31 +3,26 @@
  * Rota: /(app)/_tabs/home/booking
  */
 
-
 import BookingStepsLine from '@/components/buttons/bookingStepsLine';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { themeColors, ThemeName } from '@/constants/theme';
-import { useTheme } from '@/context/themeProvider';
-import { CaretLeftIcon, CaretRightIcon, PencilLineIcon, PlusIcon, SeatIcon, UserIcon, UsersIcon } from 'phosphor-react-native';
-import { useMemo } from 'react';
-import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-native';
-import { router, useLocalSearchParams } from 'expo-router';
 
-import { PacoteViagem } from '@/assets/types/bookingType';
+import { CaretLeftIcon, CaretRightIcon, PencilLineIcon, PlusIcon, SeatIcon, UserIcon, UsersIcon } from 'phosphor-react-native';
+import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-native';
+import { router } from 'expo-router';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import CardDetailsGlobal from '@/components/cards/cardDetailsGlobal';
 import TravelerSelect from '@/components/details/travelerSelect';
 import { PriceText } from '@/components/utils/priceText';
+import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
+import { usePaymentParams } from '@/hooks/payment/usePaymentParams';
 
 
 
 export default function Booking() {
-  const { theme } = useTheme();
-  const styles = useMemo(() => createStyles(theme), [theme]);
+  const { theme, styles } = useThemedStyles(createStyles);
 
-  const params = useLocalSearchParams<{ pacote: string }>();
-
-  const pacoteObj: PacoteViagem = JSON.parse(params.pacote);
+  const { pacoteObj} = usePaymentParams();
 
   const handleContinuePayment = () => {
       router.push({
@@ -37,6 +32,15 @@ export default function Booking() {
           ),
         },
       });
+  }
+
+  const handlePassengers = () => {
+    router.push({
+      pathname: '/(app)/_tabs/home/booking/travelerAdd',
+      params: {
+        pacote: JSON.stringify(pacoteObj),
+      },
+    });
   }
 
 
@@ -115,10 +119,17 @@ return (
         title="Travelers Details"
         leftIcon={<UsersIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<PlusIcon size={24} color={themeColors[theme].realceBlue} />}
+
       >
-        <TravelerSelect label="Traveler 1" value="Traveler" onPress={() => {}} />
-        <TravelerSelect label="Traveler 2" value="Traveler" onPress={() => {}} />
-        
+        {/* Criamos um array vazio com o tamanho baseado no seu JSON */}
+        {Array.from({ length: pacoteObj?.viajantes.quantidade || 0 }).map((_, index) => (
+          <TravelerSelect 
+            key={index} 
+            label={`Traveler ${index + 1}`} 
+            value="Traveler" 
+            onPress={handlePassengers} 
+          />
+        ))}
       </CardDetailsGlobal>
     </View>
 

@@ -106,7 +106,14 @@ export default function Payment() {
       </ScrollView>
 
       <View style={styles.containerFooter}>
-        <TouchableOpacity style={styles.iconButtonFooter} onPress={handleConfirmPayment}>
+        <TouchableOpacity 
+          style={[
+            styles.iconButtonFooter, 
+            !pacoteObj && { opacity: 0.5 } // Estética de desabilitado
+          ]} 
+          onPress={handleConfirmPayment}
+          disabled={!pacoteObj} // Evita cliques acidentais se o objeto sumir
+        >
           <Text style={styles.textButtonFooter}>Confirm Payment - </Text>
           <PriceText
               value={totalFinal}

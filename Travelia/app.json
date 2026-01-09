@@ -41,11 +41,17 @@
           }
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      "@react-native-community/datetimepicker"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2dba66b2-fbc5-454e-824b-a736f7cbb937"
+      }
     }
   }
 }
