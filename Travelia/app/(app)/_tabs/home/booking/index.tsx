@@ -16,13 +16,30 @@ import TravelerSelect from '@/components/details/travelerSelect';
 import { PriceText } from '@/components/utils/priceText';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { usePaymentParams } from '@/hooks/payment/usePaymentParams';
+import { useTravelers } from '@/context/traveler/travelerContext';
 
 
 
 export default function Booking() {
+  const { savedTravelers } = useTravelers();
   const { theme, styles } = useThemedStyles(createStyles);
 
   const { pacoteObj} = usePaymentParams();
+
+  // DEBUG: Veja se isso aparece no seu terminal
+  console.log("PACOTE OBJ STATUS:", !!pacoteObj);
+
+
+  // ADICIONE ESTA VALIDAÇÃO AQUI:
+  if (!pacoteObj || !pacoteObj.voos) {
+    return (
+      <View style={[styles.container, { justifyContent: 'center' }]}>
+        <Text style={{ color: themeColors[theme].textPrimary }}>
+          Loading booking details...
+        </Text>
+      </View>
+    );
+  }
 
   const handleContinuePayment = () => {
       router.push({
@@ -119,17 +136,28 @@ return (
         title="Travelers Details"
         leftIcon={<UsersIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<PlusIcon size={24} color={themeColors[theme].realceBlue} />}
-
+        onPressIcon={handlePassengers}
       >
-        {/* Criamos um array vazio com o tamanho baseado no seu JSON */}
-        {Array.from({ length: pacoteObj?.viajantes.quantidade || 0 }).map((_, index) => (
-          <TravelerSelect 
-            key={index} 
-            label={`Traveler ${index + 1}`} 
-            value="Traveler" 
-            onPress={handlePassengers} 
-          />
-        ))}
+        {Array.from({ length: pacoteObj?.viajantes.quantidade || 0 }).map((_, index) => {
+          const traveler = savedTravelers[index];
+
+          return (
+            <TravelerSelect 
+              key={index} 
+              label={`Traveler ${index + 1}`} 
+              value={traveler ? traveler.nomeCompleto : "Select Traveler"} 
+              onPress={() => {
+                if (!traveler) {
+                  // USANDO O ROUTER (que você já importou lá em cima)
+                  router.push({
+                    pathname: '/(app)/_tabs/home/booking/travelerAdd',
+                    params: { pacote: JSON.stringify(pacoteObj) },
+                  });
+                }
+              }}
+            />
+          );
+        })}
       </CardDetailsGlobal>
     </View>
 
