@@ -13,29 +13,37 @@ import { useThemedStyles } from "@/hooks/theme/useThemedStyles";
 import { usePaymentCalculation } from "@/hooks/payment/usePaymentCalculation";
 import { usePaymentParams } from "@/hooks/payment/usePaymentParams";
 import { useConfirmPayment } from "@/hooks/payment/useConfirmPayment";
+import { useBooking } from "@/context/booking/bookingContext";
 
 
 
 export default function Payment() {
   const { theme, styles } = useThemedStyles(createStyles);
 
-  const { pacoteObj, payment, discount } = usePaymentParams();
+  const { pacote } = useBooking();
+
+  const { payment, discount } = usePaymentParams();
+
 
   const handleConfirmPayment = useConfirmPayment({
-    pacoteObj,
+    pacoteObj: pacote, // <--- use pacote
     payment,
     discount,
   });
   
   // 🧮 Cálculo de desconto e total
   const { valorDesconto, totalFinal } = usePaymentCalculation({
-    pacoteObj,
+    pacoteObj: pacote, // <--- use pacote
     discount,
   });
   
 
-  if (!pacoteObj) {
-    return <View />;
+  if (!pacote) {
+    return (
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+        <Text style={{ fontSize: 16, color: "red" }}>Loading booking data...</Text>
+      </View>
+    );
   }
 
 
@@ -55,22 +63,22 @@ export default function Payment() {
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.containerContentResume}>
           <CardPacketResume
-            namePacket={pacoteObj.nome_pacote}
-            dataCheckIn={pacoteObj.estadia.checkin}
-            dataCheckOut={pacoteObj.estadia.checkout}
-            imagePacket={pacoteObj.imagens[0]}
+            namePacket={pacote.nome_pacote}
+            dataCheckIn={pacote.estadia.checkin}
+            dataCheckOut={pacote.estadia.checkout}
+            imagePacket={pacote.imagens[0]}
             onPressResumePacket={() => {}}
           />
 
           <PaymentSummary
             payment={payment}
             discount={discount}
-            currency={pacoteObj.preco.moeda}
+            currency={pacote.preco.moeda}
             onSelectPayment={() => {
               router.push({
               pathname: "/(app)/_tabs/home/payment/selectPaymentMethod",
               params: {
-                pacote: JSON.stringify(pacoteObj),
+                pacote: JSON.stringify(pacote),
                 discountId: discount?.id,
                 discountTitle: discount?.title,
                 discountSubtitle: discount?.subtitle,
@@ -83,7 +91,7 @@ export default function Payment() {
               router.push({
                 pathname: "/(app)/_tabs/home/payment/discount",
                 params: {
-                  pacote: JSON.stringify(pacoteObj),
+                  pacote: JSON.stringify(pacote),
                   paymentId: payment?.id,
                   paymentTitle: payment?.title,
                   paymentSubtitle: payment?.subtitle,
@@ -95,10 +103,10 @@ export default function Payment() {
           <PriceDetailsResume
             leftIconPriceDetails={<CoinsIcon size={24} color={themeColors[theme].icon} />}
             labelRowPrice="Travel Package Price"
-            qtdPessoas={pacoteObj.viajantes.quantidade}
-            precoPorPessoa={pacoteObj.preco.total}
-            moeda={pacoteObj.preco.moeda}
-            parcelamento={pacoteObj.preco.parcelamento}
+            qtdPessoas={pacote.viajantes.quantidade}
+            precoPorPessoa={pacote.preco.total}
+            moeda={pacote.preco.moeda}
+            parcelamento={pacote.preco.parcelamento}
             valorDesconto={valorDesconto}
             precoTotal={totalFinal}
           />
@@ -109,15 +117,15 @@ export default function Payment() {
         <TouchableOpacity 
           style={[
             styles.iconButtonFooter, 
-            !pacoteObj && { opacity: 0.5 } // Estética de desabilitado
+            !pacote && { opacity: 0.5 } // Estética de desabilitado
           ]} 
           onPress={handleConfirmPayment}
-          disabled={!pacoteObj} // Evita cliques acidentais se o objeto sumir
+          disabled={!pacote} // Evita cliques acidentais se o objeto sumir
         >
           <Text style={styles.textButtonFooter}>Confirm Payment - </Text>
           <PriceText
               value={totalFinal}
-              currency={pacoteObj?.preco.moeda ?? 'BRL'}
+              currency={pacote?.preco.moeda ?? 'BRL'}
               style={styles.textPriceValue}
           />
         </TouchableOpacity>

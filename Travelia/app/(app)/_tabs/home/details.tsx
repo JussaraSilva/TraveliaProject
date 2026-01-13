@@ -11,29 +11,39 @@ import FooterPrice from '@/components/details/footerPrice';
 
 // Import tolls
 import { themeColors, ThemeName } from '@/constants/theme';
-import { useTheme } from '@/context/themeProvider';
 import { useLocalSearchParams } from 'expo-router';
 import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
-import { useMemo } from 'react';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
+import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
+import { useBooking } from '@/context/booking/bookingContext';
+import { useEffect } from 'react';
 
 
 export default function Details() {
-  const { theme } = useTheme();
-  const styles = useMemo(() => createStyles(theme), [theme]);
+  const { theme, styles } = useThemedStyles(createStyles)
 
   const params = useLocalSearchParams<{ pacote?: string }>();
 
-  const pacoteStr = params.pacote ?? '{}';
+  const { setPacoteInicial } = useBooking();
 
+
+  const pacoteStr = params.pacote ?? '{}';
+  
   let pacoteObj;
   try {
     pacoteObj = JSON.parse(pacoteStr);
   } catch {
     pacoteObj = {};
   }
-
-
+  
+  
+  useEffect(() => {
+    if (pacoteObj && pacoteObj.nome_pacote) {
+      // Usamos uma função de reset/set para garantir que 
+      // o rascunho anterior seja substituído pelo atual
+      setPacoteInicial(pacoteObj);
+    }
+  }, [pacoteObj, setPacoteInicial]);
 
 
   return (

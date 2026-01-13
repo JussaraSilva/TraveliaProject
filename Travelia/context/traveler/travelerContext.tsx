@@ -7,10 +7,17 @@ export interface Traveler {
   CPF: string;
   email?: string;
   phone?: string;
-  birthDate?: string;
+  dobDay?: string;
+  dobMonth?: string;
+  dobYear?: string;
   gender?: string;
-  documentType?: string;
-  documentNumber?: string;
+  identityNumber?: string;
+  identityCountry?: string;
+  identityIssueDate?: string;
+  identityExpiryDate?: string;
+  passportNumber?: string;
+  passportCountry?: string;
+  passportExpiryDate?: string;
   nationality?: string;
   driverLicenseNumber?: string;
   driverLicenseCountry?: string;
@@ -22,6 +29,7 @@ interface TravelerContextData {
   savedTravelers: Traveler[];
   addTraveler: (traveler: Traveler) => void;
   removeTraveler: (index: number) => void;
+  updateTraveler: (index: number, updatedTraveler: Traveler) => void; // NOVO
   clearTravelers: () => void;
 }
 
@@ -30,6 +38,7 @@ const defaultData: TravelerContextData = {
   savedTravelers: [],
   addTraveler: () => {},
   removeTraveler: () => {},
+  updateTraveler: () => {}, // NOVO
   clearTravelers: () => {},
 };
 
@@ -38,17 +47,23 @@ const TravelerContext = createContext<TravelerContextData>(defaultData);
 export const TravelerProvider = ({ children }: { children: React.ReactNode }) => {
   const [savedTravelers, setSavedTravelers] = useState<Traveler[]>([]);
 
-  // Adiciona um novo viajante à lista global
   const addTraveler = (traveler: Traveler) => {
     setSavedTravelers(prev => [...prev, traveler]);
   };
   
-  // Remove um viajante baseado no índice (posição no picker)
   const removeTraveler = (index: number) => {
     setSavedTravelers(prev => prev.filter((_, i) => i !== index));
   };
 
-  // Limpa a lista (útil após finalizar uma compra)
+  // FUNÇÃO PARA ATUALIZAR UM VIAJANTE EXISTENTE
+  const updateTraveler = (index: number, updatedTraveler: Traveler) => {
+    setSavedTravelers(prev => {
+      const newData = [...prev];
+      newData[index] = updatedTraveler;
+      return newData;
+    });
+  };
+
   const clearTravelers = () => {
     setSavedTravelers([]);
   };
@@ -59,6 +74,7 @@ export const TravelerProvider = ({ children }: { children: React.ReactNode }) =>
         savedTravelers, 
         addTraveler, 
         removeTraveler, 
+        updateTraveler, // ADICIONADO AQUI
         clearTravelers 
       }}
     >
@@ -67,14 +83,8 @@ export const TravelerProvider = ({ children }: { children: React.ReactNode }) =>
   );
 };
 
-// Hook personalizado com proteção contra contexto inexistente
 export const useTravelers = () => {
   const context = useContext(TravelerContext);
-  
-  if (!context) {
-    console.warn("useTravelers deve ser usado dentro de um TravelerProvider. Retornando dados padrão.");
-    return defaultData;
-  }
-  
+  if (!context) return defaultData;
   return context;
 };

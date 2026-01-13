@@ -1,36 +1,31 @@
 import { Slot } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated'; // MANTIDO: Necessário para o carrossel
+import 'react-native-reanimated'; 
 import { ThemeProvider } from '@/context/themeProvider';
-import { useState, useEffect } from 'react'; // NOVAS IMPORTAÇÕES
+import { TravelerProvider } from '@/context/traveler/travelerContext'; // ADICIONE ISSO
+import { useState, useEffect } from 'react'; 
 import { testStorage } from '@/services/testAsync';
+import { BookingProvider } from '@/context/booking/bookingContext';
+
 export default function RootLayout() {
-  // 1. Cria um estado para rastrear se a primeira renderização já passou
   const [isReady, setIsReady] = useState(false);
 
-
-
   useEffect(() => {
-    // 2. O useEffect roda APÓS a primeira renderização.
-    // Ele define o estado para true, o que aciona a segunda renderização segura.
-    // Isso mitiga a race condition do reanimated.
     setIsReady(true);
-
-    // Testando AsyncStorage
     testStorage();
   }, []);
 
-  if (!isReady) {
-    // 3. Na primeira renderização (rápida/problemática), retorna null.
-    // Isso previne que a árvore de componentes completa (incluindo o reanimated) seja carregada 
-    // antes que o ambiente esteja estável, evitando o erro da string solta.
-    return null;
-  }
+  if (!isReady) return null;
 
   return (
     <ThemeProvider>
-      <Slot /> 
-      <StatusBar style="auto" />
+      {/* O TravelerProvider envolve o Slot para que todas as rotas tenham acesso */}
+      <TravelerProvider>
+        <BookingProvider>
+          <Slot /> 
+          <StatusBar style="auto" />
+        </BookingProvider>
+      </TravelerProvider>
     </ThemeProvider>
   );
 }

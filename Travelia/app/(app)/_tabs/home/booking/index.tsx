@@ -8,57 +8,84 @@ import HeaderGlobal from '@/components/header/headerGlobal';
 import { themeColors, ThemeName } from '@/constants/theme';
 
 import { CaretLeftIcon, CaretRightIcon, PencilLineIcon, PlusIcon, SeatIcon, UserIcon, UsersIcon } from 'phosphor-react-native';
-import { StyleSheet, View, ScrollView, Text, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, ScrollView, Text, TouchableOpacity, Alert } from 'react-native';
 import { router } from 'expo-router';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import CardDetailsGlobal from '@/components/cards/cardDetailsGlobal';
 import TravelerSelect from '@/components/details/travelerSelect';
 import { PriceText } from '@/components/utils/priceText';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
-import { usePaymentParams } from '@/hooks/payment/usePaymentParams';
-import { useTravelers } from '@/context/traveler/travelerContext';
 
+import { useTravelers} from '@/context/traveler/travelerContext';
+import { useBooking } from '@/context/booking/bookingContext';
+import { useEffect } from 'react';
 
 
 export default function Booking() {
-  const { savedTravelers } = useTravelers();
+  const { savedTravelers, removeTraveler } = useTravelers();
   const { theme, styles } = useThemedStyles(createStyles);
 
-  const { pacoteObj} = usePaymentParams();
+  const { pacote, updateViajantes } = useBooking();
 
-  // DEBUG: Veja se isso aparece no seu terminal
-  console.log("PACOTE OBJ STATUS:", !!pacoteObj);
+// 4. Efeito para sincronizar a quantidade de viajantes
+  // Sempre que a lista de savedTravelers mudar, o JSON do pacote no contexto atualiza o preço
+  useEffect(() => {
+    if (pacote && savedTravelers.length !== pacote.viajantes.quantidade) {
+      updateViajantes(savedTravelers.length);
+    }
+  }, [savedTravelers.length, pacote, updateViajantes]);
 
-
-  // ADICIONE ESTA VALIDAÇÃO AQUI:
-  if (!pacoteObj || !pacoteObj.voos) {
+    // 4. Se o contexto ainda não tem o pacote (ex: refresh de página), mostra loading
+  if (!pacote) {
     return (
-      <View style={[styles.container, { justifyContent: 'center' }]}>
-        <Text style={{ color: themeColors[theme].textPrimary }}>
-          Loading booking details...
-        </Text>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text style={{ fontSize: 16, color: "red" }}>Loading booking data...</Text>
       </View>
     );
   }
 
   const handleContinuePayment = () => {
-      router.push({
-        pathname: '/(app)/_tabs/home/payment',
-        params: {
-          pacote: JSON.stringify(pacoteObj,
-          ),
-        },
-      });
-  }
+  console.log("Iniciando navegação para Payment...");
+  router.push({
+    pathname: '/(app)/_tabs/home/payment',
+    params: { id: pacote.id } // Passa apenas o ID, o resto o Payment pega do Contexto
+  });
+};
 
   const handlePassengers = () => {
     router.push({
       pathname: '/(app)/_tabs/home/booking/travelerAdd',
-      params: {
-        pacote: JSON.stringify(pacoteObj),
-      },
     });
   }
+
+  const handlePressTraveler = (index: number, traveler: any) => {
+  if (!traveler) {
+    // Se não tem ninguém, vai adicionar
+    router.push({
+      pathname: '/(app)/_tabs/home/booking/travelerAdd',
+    });
+  } else {
+    // Se já tem, pergunta o que fazer
+    Alert.alert(
+      "Manage Traveler",
+      `What do you want to do with ${traveler.nomeCompleto}?`,
+      [
+        { text: "Remove", onPress: () => removeTraveler(index), style: "destructive" },
+        { 
+          text: "Edit", 
+          onPress: () => router.push({
+            pathname: '/(app)/_tabs/home/booking/travelerAdd',
+            params: { 
+                travelerData: JSON.stringify(traveler), // Passa os dados atuais
+                editIndex: index.toString()// Passa o índice para saber quem atualizar
+            },
+          }) 
+        },
+        { text: "Cancel", style: "cancel" }
+      ]
+    );
+  }
+  };
 
 
 return (
@@ -88,28 +115,28 @@ return (
         <FlightDepartReturn
           direction="Departure"
           includeStyle={styles.tagFlightTop}
-          dateBoarding={pacoteObj.voos.ida.data_completa}
-          airport_origin={pacoteObj.voos.ida.aeroporto_origem ?? ''}
-          hour_boarding={pacoteObj.voos.ida.horario_partida}
-          airport_destination={pacoteObj.voos.ida.aeroporto_destino ?? ''}
-          hour_destination={pacoteObj.voos.ida.horario_chegada}
-          numero_voo={pacoteObj.voos.ida.numero}
-          escala={pacoteObj.voos.ida.escala ?? ''}
-          name_airline={pacoteObj.voos.companhia_aerea.nome}
-          logo_airline={pacoteObj.voos.companhia_aerea.logo}
+          dateBoarding={pacote.voos.ida.data_completa}
+          airport_origin={pacote.voos.ida.aeroporto_origem ?? ''}
+          hour_boarding={pacote.voos.ida.horario_partida}
+          airport_destination={pacote.voos.ida.aeroporto_destino ?? ''}
+          hour_destination={pacote.voos.ida.horario_chegada}
+          numero_voo={pacote.voos.ida.numero}
+          escala={pacote.voos.ida.escala ?? ''}
+          name_airline={pacote.voos.companhia_aerea.nome}
+          logo_airline={pacote.voos.companhia_aerea.logo}
         />
         <FlightDepartReturn
           direction="Return"
           includeStyle={styles.tagFlightTop}
-          dateBoarding={pacoteObj.voos.volta.data_completa}
-          airport_origin={pacoteObj.voos.volta.aeroporto_origem ?? ''}
-          hour_boarding={pacoteObj.voos.volta.horario_partida}
-          airport_destination={pacoteObj.voos.volta.aeroporto_destino ?? ''}
-          hour_destination={pacoteObj.voos.volta.horario_chegada}
-          numero_voo={pacoteObj.voos.volta.numero}
-          escala={pacoteObj.voos.volta.escala ?? ''}
-          name_airline={pacoteObj.voos.companhia_aerea.nome}
-          logo_airline={pacoteObj.voos.companhia_aerea.logo}
+          dateBoarding={pacote.voos.volta.data_completa}
+          airport_origin={pacote.voos.volta.aeroporto_origem ?? ''}
+          hour_boarding={pacote.voos.volta.horario_partida}
+          airport_destination={pacote.voos.volta.aeroporto_destino ?? ''}
+          hour_destination={pacote.voos.volta.horario_chegada}
+          numero_voo={pacote.voos.volta.numero}
+          escala={pacote.voos.volta.escala ?? ''}
+          name_airline={pacote.voos.companhia_aerea.nome}
+          logo_airline={pacote.voos.companhia_aerea.logo}
         />
       </View>
 
@@ -138,26 +165,18 @@ return (
         rightIcon={<PlusIcon size={24} color={themeColors[theme].realceBlue} />}
         onPressIcon={handlePassengers}
       >
-        {Array.from({ length: pacoteObj?.viajantes.quantidade || 0 }).map((_, index) => {
-          const traveler = savedTravelers[index];
-
-          return (
-            <TravelerSelect 
-              key={index} 
-              label={`Traveler ${index + 1}`} 
-              value={traveler ? traveler.nomeCompleto : "Select Traveler"} 
-              onPress={() => {
-                if (!traveler) {
-                  // USANDO O ROUTER (que você já importou lá em cima)
-                  router.push({
-                    pathname: '/(app)/_tabs/home/booking/travelerAdd',
-                    params: { pacote: JSON.stringify(pacoteObj) },
-                  });
-                }
-              }}
-            />
-          );
-        })}
+        {/* Agora o MAP é baseado no que está no Contexto */}
+          {Array.from({ length: Math.max(pacote.viajantes.quantidade, savedTravelers.length) }).map((_, index) => {
+            const traveler = savedTravelers[index];
+            return (
+              <TravelerSelect 
+                key={index} 
+                label={`Traveler ${index + 1}`} 
+                value={traveler ? traveler.nomeCompleto : "Select Traveler"} 
+                onPress={() => handlePressTraveler(index, traveler)}
+              />
+            );
+          })}
       </CardDetailsGlobal>
     </View>
 
@@ -187,10 +206,11 @@ return (
       >
       <View style ={styles.gridPriceDetails}>
         <View style={styles.rowPriceDetails}>
-          <Text style={styles.labelPriceDetails}>Travel Package ({pacoteObj.viajantes.quantidade}x)</Text>
+          <Text style={styles.labelPriceDetails}>
+            Travel Package ({pacote.viajantes.quantidade}x)</Text>
           <Text style={styles.valuePriceDetails}>
-            <PriceText value={pacoteObj.preco.total}
-              currency={pacoteObj.preco.moeda} 
+            <PriceText value={pacote.preco.total}
+              currency={pacote.preco.moeda} 
               style={styles.textPriceValue}
             />
           </Text>
@@ -198,14 +218,14 @@ return (
         <View style={styles.rowPriceDetails}>
           <Text style={styles.labelPriceDetails}>Price Parcel</Text>
           <Text style={styles.valuePriceDetails}>
-            {pacoteObj.preco.parcelamento}
+            {pacote.preco.parcelamento}
           </Text>
         </View>
         <View style={styles.rowPriceDetailsTotal}>
           <Text style={styles.labelPriceDetails}>Total Price</Text>
           <Text style={styles.valuePriceDetails}>
-            <PriceText value={pacoteObj.preco.total}
-              currency={pacoteObj.preco.moeda} 
+            <PriceText value={pacote.preco.total}
+              currency={pacote.preco.moeda} 
               style={styles.textPriceValue}
             />
           </Text>

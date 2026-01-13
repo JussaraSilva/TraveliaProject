@@ -36,7 +36,7 @@ export function BaseInput({
   style,
   ...rest // Captura todo o resto (keyboardType, value, onChangeText, etc)
 }: BaseInputProps) {
-  const { styles } = useThemedStyles(createStyles);
+  const { theme, styles } = useThemedStyles(createStyles);
 
   const Wrapper = onPress ? TouchableOpacity : View;
 
@@ -58,7 +58,7 @@ export function BaseInput({
 
         <TextInput
           style={[styles.input, style]}
-          placeholderTextColor="#999"
+          placeholderTextColor={themeColors[theme].textSecondary}
           editable={editable && !onPress}
           pointerEvents={onPress ? 'none' : 'auto'}
           {...rest} // Aplica automaticamente keyboardType e outros
@@ -93,12 +93,12 @@ const createStyles = (theme: ThemeName) => (
       height: 48,
       backgroundColor: themeColors[theme].background,
       borderWidth: 1,
-      borderColor: '#E5E5E5',
+      borderColor: themeColors[theme].borderColor,
     },
     input: {
       flex: 1,
       fontSize: 16,
-      color: '#333',
+      color: themeColors[theme].textPrimary,
     },
     leftIcon: {
       marginRight: 8,
@@ -107,15 +107,15 @@ const createStyles = (theme: ThemeName) => (
       marginLeft: 8,
     },
     disabled: {
-      backgroundColor: '#F4F4F4',
+      backgroundColor: themeColors[theme].backgroundCard,
     },
     errorBorder: {
-      borderColor: 'red',
+      borderColor: themeColors[theme].colorRed,
     },
     errorText: {
       marginTop: 4,
       fontSize: 12,
-      color: 'red',
+      color: themeColors[theme].colorRed,
     },
   })
 );

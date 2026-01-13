@@ -87,6 +87,7 @@ const createStyles = (theme: ThemeName) =>
     title: {
       fontSize: 20,
       fontWeight: 'bold',
+      color: themeColors[theme].textPrimary,
     },
     row: {
       flexDirection: 'row',

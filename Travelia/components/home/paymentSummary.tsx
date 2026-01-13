@@ -42,7 +42,7 @@ export default function PaymentSummary({
         onPressIcon={onSelectPayment}
         showDivider={!!payment}
       >
-        {payment && <Text>{payment.subtitle}</Text>}
+        {payment && <Text style={styles.textSelectOption}>{payment.subtitle}</Text>}
       </CardDetailsGlobal>
 
       <CardDetailsGlobal
@@ -54,7 +54,7 @@ export default function PaymentSummary({
       >
         {discount && (
           <View style={{ gap: 4 }}>
-            <Text style={styles.discountTitle}>
+            <Text style={styles.textSelectOption}>
               {discount.title}
             </Text>
         </View>
@@ -73,6 +73,12 @@ const createStyles = (theme: ThemeName) => (
     discountTitle: {
       fontWeight: "bold",
       color: themeColors[theme].textPrimary,
+    },
+
+    textSelectOption: {
+      color: themeColors[theme].textPrimary,
+      fontSize: 16,
+      
     },
 
   }))

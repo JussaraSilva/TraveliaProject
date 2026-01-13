@@ -53,12 +53,14 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: themeColors[theme].backgroundCard,
-    borderRadius: 8,
+    borderRadius: 12,
     paddingHorizontal: 12,
     paddingVertical: 10,
     borderWidth: 1,
-    borderColor: themeColors[theme].borderColor,
+    borderColor: themeColors[theme].icon,
     marginBottom: 10,
+    marginTop: 10,
+    position: 'relative',
   },
 
   containerLabel: {
@@ -68,6 +70,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     backgroundColor: themeColors[theme].backgroundCard,
     paddingHorizontal: 5,
     marginRight: 10,
+    zIndex: 1,
   },
 
   valueLabel: {
@@ -76,22 +79,21 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   valueArea: {
-    width: '100%',
+    flex: 1, // Ocupa o espaço todo do container pai
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    gap: 5,
-    padding: 10,
+    paddingVertical: 10,
   },
 
   valueContainer: {
-    maxWidth: 200,
+    flex: 1, // Importante: empurra o ícone para a direita
   },
 
   valueText: {
-    fontSize: 18,
-    color: themeColors[theme].textSecondary,
-    fontWeight: 'bold',
+    fontSize: 16,
+    color: themeColors[theme].textPrimary, // Mudei para Primary para destacar
+    fontWeight: '600',
   },
 
 

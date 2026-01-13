@@ -69,11 +69,13 @@ const createStyles = (theme: ThemeName) => StyleSheet.create ({
   textModalTitle: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
   },
 
   textModalDescription: {
     fontSize: 16,
     marginTop: 12,
+    color: themeColors[theme].textPrimary,
   },
 
   containerModalButtons: {
@@ -85,12 +87,12 @@ const createStyles = (theme: ThemeName) => StyleSheet.create ({
   },
 
   textCancel: {
-    color: themeColors[theme].colorRed,
+    color: themeColors[theme].textButton,
     fontWeight: 'bold',
   },
 
   containerButtonCancel: {
-    backgroundColor: themeColors[theme].background,
+    backgroundColor: themeColors[theme].colorGreen,
     padding: 12,
     borderRadius: 8,
   },

@@ -27,9 +27,6 @@ export default function FooterPrice(
   const handleBookPayment = () => {
   router.push({
     pathname: '/(app)/_tabs/home/booking',
-    params: {
-      pacote: JSON.stringify(pacote),
-    },
   });
 };
 
@@ -91,7 +88,13 @@ export default function FooterPrice(
         </View>
 
         <View style={styles.containerEditInfo}>
-            <TouchableOpacity style={styles.buttonEditInfo}>
+            <TouchableOpacity style={styles.buttonEditInfo}
+              onPress={() => {
+                router.push({
+                  pathname: '/(app)/_tabs/home/booking',
+                });
+              }}
+            >
                 <Text style={styles.textButtonEditInfo}>
                     Change
                 </Text>

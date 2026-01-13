@@ -2,8 +2,6 @@ import {  ScrollView, StyleSheet, View } from 'react-native';
 
 // Importe suas cores e o hook useTheme
 import { themeColors, ThemeName } from '@/constants/theme'; 
-import { useTheme } from '../../../../context/themeProvider'; 
-import { useMemo } from 'react';
 import {  CaretRightIcon} from 'phosphor-react-native';
 import { DadosViagem, PacoteViagem } from '@/assets/types/bookingType';
 
@@ -12,6 +10,7 @@ import pacotes from '../../../../assets/data/packetTrips.json';
 import HomeHeader from '@/components/header/homeHeader';
 import UserGreeting from '@/components/home/userGreeting';
 import RowList from '@/components/home/rowList';
+import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 
 // Declaração do Json
 
@@ -20,8 +19,7 @@ const dadosCompletos: DadosViagem = pacotes as DadosViagem;
 const listaDePacotes: PacoteViagem[] = dadosCompletos.pacotes;
 
 export default function HomeScreen() {
-  const { theme } = useTheme(); 
-  const styles = useMemo(() => createStyles(theme), [theme]);
+  const { theme, styles } = useThemedStyles(createStyles)
 
 
   return (

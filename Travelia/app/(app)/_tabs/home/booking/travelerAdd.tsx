@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Modal, Pressable } from 'react-native';
+import React, { useEffect } from 'react';
+import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Modal, Pressable, Alert } from 'react-native';
 import { BaseInput } from '@/components/inputs/form/baseInput';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { CaretDownIcon, XIcon, CalendarBlankIcon } from 'phosphor-react-native';
@@ -9,11 +9,14 @@ import { Section } from '@/components/inputs/form/section';
 import { Calendar } from 'react-native-calendars';
 import { useTravelerForm } from '@/hooks/forms/useTravelerForm';
 import { useTravelers } from '@/context/traveler/travelerContext';
-import { useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 
 export default function AddTraveler() {
   const router = useRouter();
-  const { addTraveler } = useTravelers();
+
+  const { editIndex, travelerData } = useLocalSearchParams();
+
+  const { addTraveler, updateTraveler } = useTravelers();
 
   const { theme, styles } = useThemedStyles(createStyles);
   const { 
@@ -26,7 +29,48 @@ export default function AddTraveler() {
     closeCalendar 
   } = useTravelerForm();
 
+
   const genderOptions = ['Masculino', 'Feminino', 'Outro', 'Prefiro não informar'];
+
+  useEffect(() => {
+      if (travelerData) {
+        const existingTraveler = JSON.parse(travelerData as string);
+        
+        // Itera sobre as chaves do viajante existente e atualiza o seu form
+        Object.keys(existingTraveler).forEach((key) => {
+          update(key as any, existingTraveler[key]);
+        });
+      }
+    }, [travelerData, update]);
+  // 1. Pegue os parâmetros da URL (onde enviamos o editIndex)
+
+const handleSave = () => {
+  if (!form.nomeCompleto || !form.CPF) {
+    Alert.alert("Error", "Please fill in Name and CPF.");
+    return;
+  }
+
+  // Se editIndex existe, estamos no modo EDIÇÃO
+  if (editIndex !== undefined) {
+    const index = Number(editIndex);
+    updateTraveler(index, { ...form } as any); // Você precisa exportar updateTraveler do Hook
+    
+    Alert.alert("Success", "Traveler updated!", [
+      { text: "OK", onPress: () => router.back() }
+    ]);
+  } else {
+    // Modo ADIÇÃO (seu código original)
+    const newTraveler = {
+      id: Math.random().toString(36).substr(2, 9),
+      ...form
+    };
+    addTraveler(newTraveler as any);
+    
+    Alert.alert("Success", "Traveler added!", [
+      { text: "OK", onPress: () => router.back() }
+    ]);
+  }
+};
 
   return (
     <View style={styles.container}>
@@ -88,7 +132,7 @@ export default function AddTraveler() {
             value={form.gender}
             editable={false}
             onPress={() => setGenderOpen(true)}
-            rightElement={<CaretDownIcon size={16} color="#999" />}
+            rightElement={<CaretDownIcon size={16} color={themeColors[theme].icon} />}
           />
         </Section>
 
@@ -229,7 +273,9 @@ export default function AddTraveler() {
           <TouchableOpacity style={styles.btnCancel}>
             <Text style={styles.txtCancel}>Cancel</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.btnSave}>
+          <TouchableOpacity style={styles.btnSave}
+            onPress={handleSave}
+          >
             <Text style={styles.txtSave}>Save Traveler</Text>
           </TouchableOpacity>
         </View>
