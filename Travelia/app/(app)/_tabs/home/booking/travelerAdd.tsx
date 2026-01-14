@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Modal, Pressable, Alert } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Modal, Pressable, Alert, KeyboardAvoidingView, Platform } from 'react-native';
 import { BaseInput } from '@/components/inputs/form/baseInput';
 import HeaderGlobal from '@/components/header/headerGlobal';
-import { CaretDownIcon, XIcon, CalendarBlankIcon } from 'phosphor-react-native';
+import { CaretDownIcon, XIcon, CalendarBlankIcon} from 'phosphor-react-native';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { Section } from '@/components/inputs/form/section';
@@ -19,6 +19,7 @@ export default function AddTraveler() {
   const { addTraveler, updateTraveler } = useTravelers();
 
   const { theme, styles } = useThemedStyles(createStyles);
+  
   const { 
     form, 
     update, 
@@ -44,9 +45,9 @@ export default function AddTraveler() {
     }, [travelerData, update]);
   // 1. Pegue os parâmetros da URL (onde enviamos o editIndex)
 
-const handleSave = () => {
-  if (!form.nomeCompleto || !form.CPF) {
-    Alert.alert("Error", "Please fill in Name and CPF.");
+  const handleSave = () => {
+    if (!form.nomeCompleto || !form.CPF) {
+      Alert.alert("Error", "Please fill in Name and CPF.");
     return;
   }
 
@@ -70,16 +71,27 @@ const handleSave = () => {
       { text: "OK", onPress: () => router.back() }
     ]);
   }
-};
+  };
+
+  const closeForm = () => {
+    router.back();
+  }
 
   return (
-    <View style={styles.container}>
-      <HeaderGlobal 
-        titlePage="Add Traveler" 
-        leftIcon={<XIcon size={24} color={themeColors[theme].textPrimary} />} 
-      />
+    <KeyboardAvoidingView style={{ flex: 1 }}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      keyboardVerticalOffset={Platform.OS === 'ios' ? 64 : 0}
+    >
+      <View style={styles.container}>
+        <HeaderGlobal 
+          titlePage="Add Traveler" 
+          leftIcon={<XIcon size={24} color={themeColors[theme].textPrimary} />}
+          onPressLeftIcon={closeForm} 
+        />
 
-      <ScrollView contentContainerStyle={styles.containerContent} showsVerticalScrollIndicator={false}>
+      <ScrollView contentContainerStyle={styles.containerContent} showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
+      >
         
         {/* PERSONAL INFO */}
         <Section title="Personal Information">
@@ -270,7 +282,9 @@ const handleSave = () => {
 
         {/* ACTIONS */}
         <View style={styles.actions}>
-          <TouchableOpacity style={styles.btnCancel}>
+          <TouchableOpacity style={styles.btnCancel}
+            onPress={closeForm}
+          >
             <Text style={styles.txtCancel}>Cancel</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.btnSave}
@@ -319,18 +333,21 @@ const handleSave = () => {
         </Pressable>
       </Modal>
     </View>
+  </KeyboardAvoidingView>
   );
 }
 
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   container: { 
-    flex: 1, 
+    flex: 1,
     backgroundColor: themeColors[theme].backgroundCard 
   },
   containerContent: { 
     padding: 16, 
     gap: 12, 
-    paddingBottom: 60 
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    flexGrow: 1,
   },
   row: { 
     flexDirection: 'row', 
@@ -354,25 +371,27 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
   btnCancel: { 
     flex: 1, 
-    backgroundColor: '#EEF2F5', 
+    backgroundColor: themeColors[theme].colorRed, 
     padding: 16, 
     borderRadius: 24, 
     alignItems: 'center' 
   },
   btnSave: { 
     flex: 2, 
-    backgroundColor: '#2F80ED', 
+    backgroundColor: themeColors[theme].realceBlue, 
     padding: 16, 
     borderRadius: 24, 
     alignItems: 'center' 
   },
   txtCancel: { 
-    color: '#2F80ED', 
-    fontWeight: '600' 
+    color: themeColors[theme].textButton, 
+    fontWeight: '600',
+    fontSize: 16
   },
   txtSave: { 
-    color: '#FFF', 
-    fontWeight: '700'
+    color: themeColors[theme].textButton, 
+    fontWeight: '700',
+    fontSize: 16,
   },
   modalOverlay: { 
     flex: 1, 
@@ -381,14 +400,14 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     alignItems: 'center' 
   },
   calendarContainer: { 
-    backgroundColor: '#FFF', 
+    backgroundColor: themeColors[theme].backgroundCard, 
     borderRadius: 16, 
     padding: 10, 
     width: '90%', 
     elevation: 5 
   },
   genderSheet: { 
-    backgroundColor: '#FFF', 
+    backgroundColor: themeColors[theme].backgroundCard, 
     borderTopLeftRadius: 24, 
     borderTopRightRadius: 24, 
     padding: 24, 
@@ -405,11 +424,11 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   sheetOption: { 
     paddingVertical: 15, 
     borderBottomWidth: 1, 
-    borderBottomColor: '#EEE'
+    borderBottomColor: themeColors[theme].borderColor,
   },
   sheetText: { 
     fontSize: 16, 
     textAlign: 'center', 
-    color: '#333' 
+    color: themeColors[theme].textSecondary, 
   }
 });

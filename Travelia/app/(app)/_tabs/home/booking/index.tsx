@@ -25,18 +25,17 @@ export default function Booking() {
   const { savedTravelers, removeTraveler } = useTravelers();
   const { theme, styles } = useThemedStyles(createStyles);
 
-  const { pacote, updateViajantes } = useBooking();
+  const { pacoteAtual, updateViajantes } = useBooking();
 
 // 4. Efeito para sincronizar a quantidade de viajantes
-  // Sempre que a lista de savedTravelers mudar, o JSON do pacote no contexto atualiza o preço
+  // Sempre que a lista de savedTravelers mudar, o JSON do pacoteAtual no contexto atualiza o preço
   useEffect(() => {
-    if (pacote && savedTravelers.length !== pacote.viajantes.quantidade) {
+    if (pacoteAtual && savedTravelers.length !== pacoteAtual.viajantes.quantidade) {
       updateViajantes(savedTravelers.length);
     }
-  }, [savedTravelers.length, pacote, updateViajantes]);
+  }, [savedTravelers.length, pacoteAtual, updateViajantes]);
 
-    // 4. Se o contexto ainda não tem o pacote (ex: refresh de página), mostra loading
-  if (!pacote) {
+  if (!pacoteAtual) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text style={{ fontSize: 16, color: "red" }}>Loading booking data...</Text>
@@ -48,7 +47,7 @@ export default function Booking() {
   console.log("Iniciando navegação para Payment...");
   router.push({
     pathname: '/(app)/_tabs/home/payment',
-    params: { id: pacote.id } // Passa apenas o ID, o resto o Payment pega do Contexto
+    params: { id: pacoteAtual.id } // Passa apenas o ID, o resto o Payment pega do Contexto
   });
 };
 
@@ -87,6 +86,13 @@ export default function Booking() {
   }
   };
 
+  const handleBoardingPass = () => {
+    router.push({
+      pathname: './boarding',
+      params: { id: pacoteAtual.id }
+    });
+  }
+
 
 return (
   <View style={styles.container}>
@@ -115,28 +121,28 @@ return (
         <FlightDepartReturn
           direction="Departure"
           includeStyle={styles.tagFlightTop}
-          dateBoarding={pacote.voos.ida.data_completa}
-          airport_origin={pacote.voos.ida.aeroporto_origem ?? ''}
-          hour_boarding={pacote.voos.ida.horario_partida}
-          airport_destination={pacote.voos.ida.aeroporto_destino ?? ''}
-          hour_destination={pacote.voos.ida.horario_chegada}
-          numero_voo={pacote.voos.ida.numero}
-          escala={pacote.voos.ida.escala ?? ''}
-          name_airline={pacote.voos.companhia_aerea.nome}
-          logo_airline={pacote.voos.companhia_aerea.logo}
+          dateBoarding={pacoteAtual.voos.ida.data_completa}
+          airport_origin={pacoteAtual.voos.ida.aeroporto_origem ?? ''}
+          hour_boarding={pacoteAtual.voos.ida.horario_partida}
+          airport_destination={pacoteAtual.voos.ida.aeroporto_destino ?? ''}
+          hour_destination={pacoteAtual.voos.ida.horario_chegada}
+          numero_voo={pacoteAtual.voos.ida.numero}
+          escala={pacoteAtual.voos.ida.escala ?? ''}
+          name_airline={pacoteAtual.voos.companhia_aerea.nome}
+          logo_airline={pacoteAtual.voos.companhia_aerea.logo}
         />
         <FlightDepartReturn
           direction="Return"
           includeStyle={styles.tagFlightTop}
-          dateBoarding={pacote.voos.volta.data_completa}
-          airport_origin={pacote.voos.volta.aeroporto_origem ?? ''}
-          hour_boarding={pacote.voos.volta.horario_partida}
-          airport_destination={pacote.voos.volta.aeroporto_destino ?? ''}
-          hour_destination={pacote.voos.volta.horario_chegada}
-          numero_voo={pacote.voos.volta.numero}
-          escala={pacote.voos.volta.escala ?? ''}
-          name_airline={pacote.voos.companhia_aerea.nome}
-          logo_airline={pacote.voos.companhia_aerea.logo}
+          dateBoarding={pacoteAtual.voos.volta.data_completa}
+          airport_origin={pacoteAtual.voos.volta.aeroporto_origem ?? ''}
+          hour_boarding={pacoteAtual.voos.volta.horario_partida}
+          airport_destination={pacoteAtual.voos.volta.aeroporto_destino ?? ''}
+          hour_destination={pacoteAtual.voos.volta.horario_chegada}
+          numero_voo={pacoteAtual.voos.volta.numero}
+          escala={pacoteAtual.voos.volta.escala ?? ''}
+          name_airline={pacoteAtual.voos.companhia_aerea.nome}
+          logo_airline={pacoteAtual.voos.companhia_aerea.logo}
         />
       </View>
 
@@ -166,7 +172,7 @@ return (
         onPressIcon={handlePassengers}
       >
         {/* Agora o MAP é baseado no que está no Contexto */}
-          {Array.from({ length: Math.max(pacote.viajantes.quantidade, savedTravelers.length) }).map((_, index) => {
+          {Array.from({ length: Math.max(pacoteAtual.viajantes.quantidade, savedTravelers.length) }).map((_, index) => {
             const traveler = savedTravelers[index];
             return (
               <TravelerSelect 
@@ -185,6 +191,7 @@ return (
         title="Departures Flight Seats"
         leftIcon={<SeatIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<CaretRightIcon size={24} color={themeColors[theme].realceBlue} />}
+        onPressIcon={handleBoardingPass}
         showDivider={false}
       />
     </View>
@@ -207,10 +214,10 @@ return (
       <View style ={styles.gridPriceDetails}>
         <View style={styles.rowPriceDetails}>
           <Text style={styles.labelPriceDetails}>
-            Travel Package ({pacote.viajantes.quantidade}x)</Text>
+            Travel Package ({pacoteAtual.viajantes.quantidade}x)</Text>
           <Text style={styles.valuePriceDetails}>
-            <PriceText value={pacote.preco.total}
-              currency={pacote.preco.moeda} 
+            <PriceText value={pacoteAtual.preco.total}
+              currency={pacoteAtual.preco.moeda} 
               style={styles.textPriceValue}
             />
           </Text>
@@ -218,14 +225,14 @@ return (
         <View style={styles.rowPriceDetails}>
           <Text style={styles.labelPriceDetails}>Price Parcel</Text>
           <Text style={styles.valuePriceDetails}>
-            {pacote.preco.parcelamento}
+            {pacoteAtual.preco.parcelamento}
           </Text>
         </View>
         <View style={styles.rowPriceDetailsTotal}>
           <Text style={styles.labelPriceDetails}>Total Price</Text>
           <Text style={styles.valuePriceDetails}>
-            <PriceText value={pacote.preco.total}
-              currency={pacote.preco.moeda} 
+            <PriceText value={pacoteAtual.preco.total}
+              currency={pacoteAtual.preco.moeda} 
               style={styles.textPriceValue}
             />
           </Text>
