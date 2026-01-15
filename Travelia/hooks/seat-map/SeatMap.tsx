@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { View, Text } from 'react-native';
 
 import { Seat } from '@/assets/types/seat/seat.types';
@@ -8,58 +7,95 @@ import { styles } from '@/assets/types/seat/seat.styles';
 
 
 type SeatMapProps = {
-  selectedPassengerIndex: number;
+  selectedSeats: string[];
+  currentPassengerIndex: number;
   onSelectSeat: (seatId: string) => void;
-  selectedSeatByPassenger?: string; // 👈 assento atual do passageiro
 };
 
-export default function SeatMap({ selectedPassengerIndex, onSelectSeat, selectedSeatByPassenger }: SeatMapProps) {
-  const [seats, setSeats] = useState<Seat[]>(initialSeats);
-  
 
-  function handleSelectSeat(selectedSeat: Seat) {
-  // não deixa clicar em ocupado
-  if (selectedSeat.status === 'occupied') return;
 
-  setSeats(prev =>
-    prev.map(seat => {
-      // libera assento antigo do passageiro
-      if (seat.id === selectedSeatByPassenger) {
-        return { ...seat, status: 'available' };
-      }
 
-      // ocupa o novo
-      if (seat.id === selectedSeat.id) {
-        return { ...seat, status: 'occupied' };
-      }
+export default function SeatMap({ selectedSeats,
+  currentPassengerIndex,
+  onSelectSeat, }: SeatMapProps) {
 
-      return seat;
-    })
+  const seats = initialSeats;
+  const occupiedByOthers = selectedSeats.filter(
+    (_, index) => index !== currentPassengerIndex
   );
 
-  // atualiza o passageiro IMEDIATAMENTE
-  onSelectSeat(selectedSeat.id);
-}
+  const currentPassengerSeat = selectedSeats[currentPassengerIndex];
+
+  const seatsWithStatus: Seat[] = seats.map(seat => {
+    if (seat.status === 'unavailable') return seat;
+
+    if (occupiedByOthers.includes(seat.id)) {
+      return { ...seat, status: 'occupied' };
+    }
+
+    if (seat.id === currentPassengerSeat) {
+      return { ...seat, status: 'selected' };
+    }
+
+    return { ...seat, status: 'available' };
+  });
 
 
-  const rows = [...new Set(seats.map(seat => seat.row))];
+
+  function handleSelectSeat(selectedSeat: Seat) {
+    if (
+      selectedSeat.status === 'occupied' ||
+      selectedSeat.status === 'unavailable'
+    ) {
+      return;
+    }
+
+    onSelectSeat(selectedSeat.id);
+  }
+
+  const rows = [...new Set(seatsWithStatus.map(seat => seat.row))];
+
+
 
   return (
     <View>
       {rows.map(row => {
-        const rowSeats = seats.filter(seat => seat.row === row);
+      const rowSeats = seatsWithStatus.filter(
+          seat => seat.row === row
+        );
+
+
 
         return (
           <View key={row} style={styles.row}>
-            <SeatItem seat={rowSeats.find(s => s.column === 'A')!} onPress={handleSelectSeat} />
-            <SeatItem seat={rowSeats.find(s => s.column === 'B')!} onPress={handleSelectSeat} />
+            {/* Lado esquerdo */}
+            {rowSeats
+              .filter(seat => seat.column === 'A' || seat.column === 'B')
+              .map(seat => (
+                <SeatItem
+                  key={seat.id}
+                  seat={seat}
+                  onPress={handleSelectSeat}
+                  isSelected={seat.status === 'selected'}
+                />
+              ))}
 
+            {/* Corredor com número da linha */}
             <View style={styles.aisle}>
-              <Text>{row}</Text>
+              <Text style={styles.rowLabel}>{row}</Text>
             </View>
 
-            <SeatItem seat={rowSeats.find(s => s.column === 'C')!} onPress={handleSelectSeat} />
-            <SeatItem seat={rowSeats.find(s => s.column === 'D')!} onPress={handleSelectSeat} />
+            {/* Lado direito */}
+            {rowSeats
+              .filter(seat => seat.column === 'C' || seat.column === 'D')
+              .map(seat => (
+                <SeatItem
+                  key={seat.id}
+                  seat={seat}
+                  onPress={handleSelectSeat}
+                  isSelected={seat.status === 'selected'}
+                />
+              ))}
           </View>
         );
       })}

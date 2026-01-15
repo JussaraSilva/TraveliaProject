@@ -1,10 +1,12 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 14,
+    
   },
 
   aisle: {
@@ -22,19 +24,35 @@ export const styles = StyleSheet.create({
   },
 
   available: {
-    backgroundColor: '#EAF2FF',
+    backgroundColor: '#e8f2ff',
+  },
+
+  occupied: {
+    backgroundColor: '#2F80ED',
   },
 
   selected: {
     backgroundColor: '#2F80ED',
   },
 
-  occupied: {
-    backgroundColor: '#8A94A6',
+  unavailable: {
+    backgroundColor: '#8495b3',
   },
 
   seatText: {
     fontWeight: 'bold',
-    color: '#000',
+    color: '#70acff',
   },
+
+  selectText: {
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+
+  rowLabel: {
+  width: 20,
+  textAlign: 'center',
+  fontWeight: 'bold',
+  },
+
 });

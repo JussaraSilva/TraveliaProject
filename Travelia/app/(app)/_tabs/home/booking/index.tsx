@@ -19,6 +19,8 @@ import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { useTravelers} from '@/context/traveler/travelerContext';
 import { useBooking } from '@/context/booking/bookingContext';
 import { useEffect } from 'react';
+import FlightSeatSelect from '@/components/details/flightSeatSelect';
+
 
 
 export default function Booking() {
@@ -86,12 +88,26 @@ export default function Booking() {
   }
   };
 
-  const handleBoardingPass = () => {
+
+  const handleBoardingDeparture = () => {
     router.push({
-      pathname: './boarding',
-      params: { id: pacoteAtual.id }
+      pathname: '/(app)/_tabs/home/boarding',
+      params: { flightType: 'departure' },
     });
   }
+  const handleBoardingReturn = () => {
+    router.push({
+      pathname: '/(app)/_tabs/home/boarding',
+      params: { flightType: 'return' },
+    });
+  }
+
+
+
+  const handleOpenSeatSelection = () => {
+      router.push('/(app)/_tabs/home/boarding');
+  };
+
 
 
 return (
@@ -191,9 +207,25 @@ return (
         title="Departures Flight Seats"
         leftIcon={<SeatIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<CaretRightIcon size={24} color={themeColors[theme].realceBlue} />}
-        onPressIcon={handleBoardingPass}
+        onPressIcon={handleBoardingDeparture}
         showDivider={false}
-      />
+      >
+        {/* Agora o MAP é baseado no que está no Contexto */}
+          {Array.from({ length: Math.max(pacoteAtual.viajantes.quantidade, savedTravelers.length) }).map((_, index) => {
+            const traveler = savedTravelers[index];
+            const seat = traveler?.seats?.departure;
+            return (
+              <FlightSeatSelect 
+                key={index} 
+                label={`Traveler ${index + 1}`}
+                labelRight={"Seat"} 
+                value={traveler ? traveler.nomeCompleto : "Select Traveler"}
+                valueSeats={seat ?? 'Select'}
+                onPress={handleOpenSeatSelection}
+              />
+            );
+          })}
+      </CardDetailsGlobal>
     </View>
 
     <View style={styles.flightSeatsReturn}>
@@ -201,8 +233,24 @@ return (
         title="Return Flight Seats"
         leftIcon={<SeatIcon size={24} color={themeColors[theme].icon} />}
         rightIcon={<CaretRightIcon size={24} color={themeColors[theme].realceBlue} />}
-        showDivider={false}
-      />
+        onPressIcon={handleBoardingReturn}
+        showDivider={false}>
+          {/* Agora o MAP é baseado no que está no Contexto */}
+          {Array.from({ length: Math.max(pacoteAtual.viajantes.quantidade, savedTravelers.length) }).map((_, index) => {
+            const traveler = savedTravelers[index];
+            const seat = traveler?.seats?.return;
+            return (
+              <FlightSeatSelect 
+                key={index} 
+                label={`Traveler ${index + 1}`}
+                labelRight={"Seat"} 
+                value={traveler ? traveler.nomeCompleto : "Select Traveler"}
+                valueSeats={seat ?? 'Select'} 
+                onPress={handleOpenSeatSelection}
+              />
+            );
+          })}
+        </CardDetailsGlobal>
     </View>
 
     <View style={styles.containerPriceDetails}>

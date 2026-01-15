@@ -35,6 +35,10 @@ export const themeColors = {
     starYellowColor:'#ff981f',
     transparentColor: '#73a4bf',
     shadowColor: '#0f0f0fdf',
+    selectedColor: '#237fff',
+    availableColor: '#e8f2ff',
+    occupiedColor: '#2F80ED',
+    unavailableColor: '#8495b3',
     
     
   },
@@ -64,6 +68,10 @@ export const themeColors = {
     starYellowColor:'#ff981f',
     transparentColor: '#76acc7',
     shadowColor: '#d4d4d4cc',
+    selectedColor: '#237fff',
+    availableColor: '#e8f2ff',
+    occupiedColor: '#2F80ED',
+    unavailableColor: '#8A94A6',
   },
 } as const;
 

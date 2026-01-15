@@ -2,9 +2,9 @@ import HeaderGlobal from '@/components/header/headerGlobal';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { useState } from 'react'; 
-import { View, Text, StyleSheet, FlatList, Pressable, Image } from 'react-native';
-import { CaretLeftIcon } from 'phosphor-react-native';
-import { router } from 'expo-router';
+import { View, Text, StyleSheet, FlatList, Pressable, Image, TouchableOpacity } from 'react-native';
+import { CaretLeftIcon, RectangleIcon } from 'phosphor-react-native';
+import { router, useLocalSearchParams } from 'expo-router';
 import { useTravelers } from '@/context/traveler/travelerContext';
 import { useBooking } from '@/context/booking/bookingContext';
 import { DateText } from '@/components/utils/formatDate';
@@ -13,31 +13,70 @@ import SeatMap from '@/hooks/seat-map/SeatMap';
 
 
 export default function Boarding() {
+  const { flightType } = useLocalSearchParams<{
+  flightType?: 'departure' | 'return';
+  }>();
+
+  const currentFlightType = flightType ?? 'departure';
+
   const { theme, styles } = useThemedStyles(createStyles);
 
   const { pacoteOriginal } = useBooking();
+  const flight =
+  currentFlightType === 'departure'
+    ? pacoteOriginal.voos.ida
+    : pacoteOriginal.voos.volta;
 
   const { savedTravelers } = useTravelers();
+
 
 
   const [selectedPassengerIndex, setSelectedPassengerIndex] = useState(0);
 
   const { updateSeatForTraveler } = useTravelers();
+
+  const [selectedSeats, setSelectedSeats] = useState(
+    savedTravelers.map(
+        t => t.seats?.[currentFlightType] || ''
+      )
+
+  );
   
-    function handleSeatSelect(seatId: string) {
-    updateSeatForTraveler(selectedPassengerIndex, seatId);
+  function handleSeatSelect(seatId: string) {
+    const updatedSeats = [...selectedSeats];
+    updatedSeats[selectedPassengerIndex] = seatId;
+
+    setSelectedSeats(updatedSeats);
+
+    updateSeatForTraveler(
+      selectedPassengerIndex,
+      seatId,
+      currentFlightType
+    );
   }
+
 
 
   const handleBack = () => {
     router.back();
   };
 
+  const handleDone = () => {
+    router.replace('/(app)/_tabs/home/booking');
+  };
+
+
+
+  
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
+      <View>
         <HeaderGlobal 
-          titlePage="Departure Flight Seat"
+          titlePage={
+            flightType === 'departure'
+              ? 'Departure Flight Seat'
+              : 'Return Flight Seat'
+          }
           leftIcon={
           <CaretLeftIcon 
             size={30} 
@@ -48,7 +87,7 @@ export default function Boarding() {
           onPressLeftIcon={handleBack}
         />
       </View>
-        <View style={styles.bodyTop}>
+        <View>
           <FlatList
             data={savedTravelers}
               horizontal
@@ -69,7 +108,10 @@ export default function Boarding() {
                     </View>
                     <View style={styles.containerSeatPassenger}>
                       <Text style={[styles.textSeatPassenger, index === selectedPassengerIndex && styles.selectedTextSeatStyle]}>
-                        {item.seat ? `Seat: ${item.seat}` : 'Select Seat'}
+                        {item.seats?.[currentFlightType]
+                          ? `Seat: ${item.seats[currentFlightType]}`
+                          : 'Select Seat'}
+
                         </Text>
                     </View>
                 </View>
@@ -94,41 +136,79 @@ export default function Boarding() {
                   </View>
                   <View style={styles.containerTextNameAirport}>
                     <Text style={styles.textNameAirport}>
-                      {pacoteOriginal.voos.ida.aeroporto_origem}
+                      {flight.aeroporto_origem}
                     </Text>
                     <Text style={styles.separator}>
                       -
                     </Text>
                     <Text style={styles.textNameAirport}>
-                      {pacoteOriginal.voos.ida.aeroporto_destino}
+                      {flight.aeroporto_destino}
                     </Text>
                   </View>
                 </View>
                 <View style={styles.containerHourFly}>
                   <View style={styles.containerTextHourFly}>
-                    <Text style={styles.hourTakeOff}>{pacoteOriginal.voos.ida.horario_partida}</Text>
+                    <Text style={styles.hourTakeOff}>{flight.horario_partida}</Text>
                     <Text style={styles.separator}>
                       -
                     </Text>
-                    <Text style={styles.hourLanding}>{pacoteOriginal.voos.ida.horario_chegada}</Text>
+                    <Text style={styles.hourLanding}>{flight.horario_chegada}</Text>
                   </View>
                   <View style={styles.containerTextData}>
-                    <DateText value={pacoteOriginal.voos.ida.data_completa} variant="short" />
+                    <DateText value={flight.data_completa} variant="short" />
                   </View>
                 </View>                    
+            </View>
+
+            <View style={styles.containerSeatsLabel}>
+              <View style={styles.containerSeatType}>
+                <RectangleIcon size={20} color={themeColors[theme].selectedColor} weight="fill" />
+                <Text style={styles.textSeatsLabel}>Selected</Text>
+              </View>
+              <View style={styles.containerSeatType}>
+                <RectangleIcon size={20} color={themeColors[theme].unavailableColor} weight="fill" />
+                <Text style={styles.textSeatsLabel}>Occupied</Text>
+              </View>
+              <View style={styles.containerSeatType}>
+                <RectangleIcon size={20} color={themeColors[theme].availableColor} weight="fill" />
+                <Text style={styles.textSeatsLabel}>Available</Text>
+              </View>
             </View>
 
             <View style={styles.containerSeatsBody}>
               
               <SeatMap
-                selectedPassengerIndex={selectedPassengerIndex}
-                selectedSeatByPassenger={savedTravelers[selectedPassengerIndex]?.seat}
+                selectedSeats={selectedSeats}
+                currentPassengerIndex={selectedPassengerIndex}
                 onSelectSeat={handleSeatSelect}
               />
 
 
             </View>
+
         </View>
+            <View style={styles.containerSeatsFooter}>
+                <View style={styles.containerTextSeatsFooter}>
+                  <Text style={styles.titleSeatsFooter}>Seats:</Text>
+
+                  <Text style={styles.containerSelectedSeatsFooter}>
+                    {savedTravelers
+                      .map(t => t.seats?.[currentFlightType])
+                      .filter(Boolean)
+                      .join(' • ')}
+                  </Text>
+
+                </View>
+              <View style={styles.containerButtonSeatsFooter}>
+                  <TouchableOpacity 
+                    style={styles.buttonSeatsFooter}
+                    onPress={handleDone}
+                  >
+                    <Text style={styles.textButtonSeatsFooter}>Done</Text>
+                  </TouchableOpacity>
+              </View>
+              <View></View>
+            </View>
 
 
 
@@ -139,17 +219,8 @@ export default function Boarding() {
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: themeColors[theme].background,
+    backgroundColor: themeColors[theme].backgroundCard,
   },
-
-  header: {
-    
-  },
-
-  bodyTop: {
-    
-  },
-
 
   containerCard: {
     height: 80,
@@ -227,11 +298,10 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
 
 
   bodySeats: {
-    width: '100%',
+    flex: 1,
     alignItems: 'center',
     // backgroundColor: "red",
     paddingHorizontal: 15,
-    
   },
 
   containerSeatsHeader: {
@@ -330,10 +400,93 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
 
   containerSeatsBody: {
     width: '100%',
-    marginTop: 60,
+    marginTop: 30,
     alignItems: 'center',
     gap: 10,
   },
+
+  containerSeatsFooter: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 10,
+    paddingHorizontal: 10,
+    marginBottom: 10,
+  },
+
+  containerTextSeatsFooter: {
+    width: '20%',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    gap: 5,
+  },
+
+  titleSeatsFooter: {
+    fontSize: 10,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+
+  containerSelectedSeatsFooter: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    
+  },
+
+  textSelectedSeatsFooter: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+
+  containerButtonSeatsFooter: {
+    width : '70%',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    gap: 10,
+    
+  },
+
+  buttonSeatsFooter: {
+    width: '100%',
+    backgroundColor: themeColors[theme].realceBlue,
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+    borderRadius: 20,
+    alignItems: 'center',
+    gap: 5,
+  },
+
+  textButtonSeatsFooter: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: themeColors[theme].textButton,
+  },
+
+  containerSeatsLabel: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 20,
+    marginTop: 10,
+  },
+
+  containerSeatType: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 2,
+  },
+
+  textSeatsLabel: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: themeColors[theme].textSecondary,
+  },
+
+
+
 
 });
 

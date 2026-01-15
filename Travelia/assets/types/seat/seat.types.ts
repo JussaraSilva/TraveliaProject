@@ -1,9 +1,13 @@
-export type SeatStatus = 'available' | 'occupied' | 'selected';
+export type SeatStatus = 
+  | 'available'
+  | 'selected'
+  | 'occupied'
+  | 'unavailable';
 
 export type Seat = {
-  id: string;        // A1, B2...
+  id: string;
   row: number;
-  column: 'A' | 'B' | 'C' | 'D';
+  column: string;
   status: SeatStatus;
 };
 

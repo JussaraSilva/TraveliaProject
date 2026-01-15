@@ -5,7 +5,10 @@ export interface Traveler {
   id: string;
   nomeCompleto: string;
   CPF: string;
-  seat: string;
+  seats?: {
+    departure?: string;
+    return?: string;
+  };
   email?: string;
   phone?: string;
   dobDay?: string;
@@ -32,7 +35,13 @@ interface TravelerContextData {
   removeTraveler: (index: number) => void;
   updateTraveler: (index: number, updatedTraveler: Traveler) => void; // NOVO
   clearTravelers: () => void;
-  updateSeatForTraveler: (index: number, seat: string) => void; // 🔥
+  updateSeatForTraveler: (
+  index: number,
+  seatId: string,
+  flightType: 'departure' | 'return'
+) => void;
+
+
 }
 
 // Valores padrão para evitar erros de 'undefined' antes do Provider carregar
@@ -71,13 +80,27 @@ export const TravelerProvider = ({ children }: { children: React.ReactNode }) =>
     setSavedTravelers([]);
   };
 
-    function updateSeatForTraveler(index: number, seat: string) {
-    setSavedTravelers(prev =>
-      prev.map((t, i) =>
-        i === index ? { ...t, seat } : t
-      )
-    );
-  }
+    function updateSeatForTraveler(
+        travelerIndex: number,
+        seatId: string,
+        flightType: 'departure' | 'return'
+      ) {
+        setSavedTravelers(prev =>
+          prev.map((traveler, index) =>
+            index === travelerIndex
+              ? {
+                  ...traveler,
+                  seats: {
+                    ...traveler.seats,
+                    [flightType]: seatId,
+                  },
+                }
+              : traveler
+          )
+        );
+      }
+
+
 
 
   return (
