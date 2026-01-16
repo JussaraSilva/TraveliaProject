@@ -46,12 +46,8 @@ export default function Booking() {
   }
 
   const handleContinuePayment = () => {
-  console.log("Iniciando navegação para Payment...");
-  router.push({
-    pathname: '/(app)/_tabs/home/payment',
-    params: { id: pacoteAtual.id } // Passa apenas o ID, o resto o Payment pega do Contexto
-  });
-};
+    router.push('/(app)/_tabs/home/payment');
+  };
 
   const handlePassengers = () => {
     router.push({
@@ -104,8 +100,16 @@ export default function Booking() {
 
 
 
-  const handleOpenSeatSelection = () => {
-      router.push('/(app)/_tabs/home/boarding');
+  // Em Booking.tsx
+
+  const handleOpenSeatSelection = (index: number, type: 'departure' | 'return') => {
+    router.push({
+      pathname: '/(app)/_tabs/home/boarding',
+      params: { 
+        passengerIndex: index.toString(), 
+        flightType: type 
+      },
+    });
   };
 
 
@@ -221,7 +225,7 @@ return (
                 labelRight={"Seat"} 
                 value={traveler ? traveler.nomeCompleto : "Select Traveler"}
                 valueSeats={seat ?? 'Select'}
-                onPress={handleOpenSeatSelection}
+                onPress={() => handleOpenSeatSelection(index, 'departure')}
               />
             );
           })}
@@ -246,7 +250,7 @@ return (
                 labelRight={"Seat"} 
                 value={traveler ? traveler.nomeCompleto : "Select Traveler"}
                 valueSeats={seat ?? 'Select'} 
-                onPress={handleOpenSeatSelection}
+                onPress={() => handleOpenSeatSelection(index, 'return')}
               />
             );
           })}

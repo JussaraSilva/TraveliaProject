@@ -18,9 +18,10 @@ import { useBooking } from "@/context/booking/bookingContext";
 
 
 export default function Payment() {
+  
   const { theme, styles } = useThemedStyles(createStyles);
 
-  const { pacote } = useBooking();
+  const { pacoteAtual: pacote } = useBooking();
 
   const { payment, discount } = usePaymentParams();
 

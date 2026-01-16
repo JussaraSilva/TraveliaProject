@@ -4,41 +4,49 @@ import { Seat } from '@/assets/types/seat/seat.types';
 import { initialSeats } from './seatData';
 import SeatItem from './SeatItem';
 import { styles } from '@/assets/types/seat/seat.styles';
+import { Traveler } from '@/context/traveler/travelerContext';
 
 
 type SeatMapProps = {
-  selectedSeats: string[];
+  travelers: Traveler[];
+  flightType: 'departure' | 'return';
   currentPassengerIndex: number;
   onSelectSeat: (seatId: string) => void;
 };
 
 
 
-
-export default function SeatMap({ selectedSeats,
+export default function SeatMap({
+  travelers,
+  flightType,
   currentPassengerIndex,
-  onSelectSeat, }: SeatMapProps) {
+  onSelectSeat,
+}: SeatMapProps) {
 
   const seats = initialSeats;
-  const occupiedByOthers = selectedSeats.filter(
-    (_, index) => index !== currentPassengerIndex
+  const seatsWithStatus: Seat[] = seats.map(seat => {
+  if (seat.status === 'unavailable') return seat;
+
+  const occupiedByOtherTraveler = travelers.some(
+    (traveler, index) =>
+      index !== currentPassengerIndex &&
+      traveler.seats?.[flightType] === seat.id
   );
 
-  const currentPassengerSeat = selectedSeats[currentPassengerIndex];
+  if (occupiedByOtherTraveler) {
+    return { ...seat, status: 'occupied' };
+  }
 
-  const seatsWithStatus: Seat[] = seats.map(seat => {
-    if (seat.status === 'unavailable') return seat;
+  const isSelectedByCurrent =
+    travelers[currentPassengerIndex]?.seats?.[flightType] === seat.id;
 
-    if (occupiedByOthers.includes(seat.id)) {
-      return { ...seat, status: 'occupied' };
-    }
-
-    if (seat.id === currentPassengerSeat) {
-      return { ...seat, status: 'selected' };
-    }
+  if (isSelectedByCurrent) {
+    return { ...seat, status: 'selected' };
+  }
 
     return { ...seat, status: 'available' };
   });
+
 
 
 
@@ -54,8 +62,6 @@ export default function SeatMap({ selectedSeats,
   }
 
   const rows = [...new Set(seatsWithStatus.map(seat => seat.row))];
-
-
 
   return (
     <View>

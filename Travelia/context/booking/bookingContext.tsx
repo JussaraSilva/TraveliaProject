@@ -25,6 +25,7 @@ export function BookingProvider({ children }: { children: ReactNode }) {
   }, []);
 
 
+  
   const updateViajantes = useCallback((novaQtd: number) => {
   setPacoteAtual((prev: any) => {
     if (!prev || !pacoteOriginal) return prev;
