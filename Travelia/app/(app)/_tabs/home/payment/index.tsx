@@ -53,7 +53,7 @@ export default function Payment() {
       <View style={styles.containerHeader}>
         <HeaderGlobal
           titlePage="Payment Details"
-          leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+          leftIcons={[<CaretLeftIcon key="back" size={24} color={themeColors[theme].icon} />]}
         />
 
         <View style={styles.containerSteps}>

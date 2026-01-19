@@ -17,10 +17,11 @@ type Props = {
   nameCountry: string;
   includeStyle?: StyleProp<ViewStyle>;
   imagemHotel: string;
+  onPressChangeOption?: () => void;
 }
 
 
-export default function AccomodationInfo({include, checkIn, checkOut, noites, name_hotel, tipo_hotel ,categoria_hotel, nameCity, nameCountry, includeStyle, imagemHotel }: Props) {
+export default function AccomodationInfo({include, checkIn, checkOut, noites, name_hotel, tipo_hotel ,categoria_hotel, nameCity, nameCountry, includeStyle, imagemHotel, onPressChangeOption }: Props) {
 
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -93,7 +94,9 @@ export default function AccomodationInfo({include, checkIn, checkOut, noites, na
                   {nameCity}, {nameCountry}
                   </Text>
                 </View>
-                <TouchableOpacity style={styles.buttonContainer}>
+                <TouchableOpacity style={styles.buttonContainer}
+                  onPress={onPressChangeOption}
+                >
                   <Text style={styles.textButton}>Change Option</Text>
                 </TouchableOpacity>
               </View>

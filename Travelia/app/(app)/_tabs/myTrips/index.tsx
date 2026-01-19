@@ -83,8 +83,8 @@ export default function MyTrips() {
       <View style={styles.containerHeader}>
         <HeaderGlobal
           titlePage='My Trips'
-          leftIcon={<Logo size={28} showText={false} />}
-          rightIcon={<CalendarIcon size={28} color={themeColors[theme].icon} />}
+          leftIcons={[<Logo key="logo" size={28}  showText={false} />]}
+          rightIcons={[<CalendarIcon key="calendar" size={28} color={themeColors[theme].icon} />]}
           onPressLeftIcon={() => {}}
           onPressRightIcon={() => {}}
         />

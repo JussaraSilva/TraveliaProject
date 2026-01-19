@@ -1,0 +1,4651 @@
+{
+  "hoteis": [
+    {
+      "id": 1,
+      "nome_hotel": "Luxury Water Villa Resort",
+      "categoria": "5 estrelas",
+      "localizacao": {
+        "endereco": "North Malé Atoll, Maldivas",
+        "cidade": "Malé",
+        "pais": "Maldivas",
+        "latitude": 4.1755,
+        "longitude": 73.5093,
+        "coordenadas_gmaps": "4.1755, 73.5093",
+        "google_maps_url": "https://www.google.com/maps?q=4.1755,73.5093"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "SPA completo com massagens tradicionais",
+        "Piscina infinita com vista para o oceano",
+        "3 restaurantes gourmet",
+        "Bar flutuante sobre as águas",
+        "Atividades aquáticas (snorkel, mergulho, jetski)",
+        "Transfer de barco para o aeroporto",
+        "Concierge 24 horas",
+        "Academia completa",
+        "Yoga ao nascer do sol",
+        "Praia privativa",
+        "Serviço de quarto 24h"
+      ],
+      "quartos": [
+        {
+          "tipo": "Bangalô Overwater Deluxe",
+          "descricao": "Bangalô privativo construído sobre as águas cristalinas do Oceano Índico",
+          "area_m2": 85,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Oceano Índico",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 55 polegadas",
+            "Sistema de som Bluetooth",
+            "Frigobar abastecido diariamente",
+            "Cafeteira Nespresso",
+            "Telefone direto",
+            "Cofre digital",
+            "Ar condicionado individual",
+            "Ventilador de teto",
+            "Varanda privativa com acesso direto ao mar",
+            "Espreguiçadeiras na varanda",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de efeito chuva e banheira",
+            "tipo_chuveiro": "Chuveiro de alta pressão com vista para o mar",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "amenidades": "Kit de amenidades de luxo, secador de cabelo, roupões e chinelos"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Patricia Mendes",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2024-01-15",
+          "avaliacao": "O bangalô overwater superou todas as expectativas. Acordar com vista para o oceano cristalino é indescritível. O serviço é impecável e a comida deliciosa!",
+          "tags": ["lua de mel", "vista incrível", "serviço impecável"]
+        },
+        {
+          "usuario": {
+            "nome": "James Mitchell",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Nova York, NY",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2024-01-10",
+          "avaliacao": "The overwater villa was absolutely stunning. Snorkeling right from our deck was a dream. Staff went above and beyond!",
+          "tags": ["snorkeling", "staff excelente", "villa incrível"]
+        },
+        {
+          "usuario": {
+            "nome": "Sophie Laurent",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Paris",
+            "pais": "França"
+          },
+          "estrelas": 5,
+          "data": "2023-12-28",
+          "avaliacao": "Un séjour inoubliable. La villa sur pilotis est spacieuse et luxueuse. Les couchers de soleil sont à couper le souffle!",
+          "tags": ["espaçoso", "luxuoso", "pôr do sol"]
+        },
+        {
+          "usuario": {
+            "nome": "Marco Bellini",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Roma",
+            "pais": "Itália"
+          },
+          "estrelas": 4,
+          "data": "2023-12-20",
+          "avaliacao": "Resort meraviglioso con servizi di altissimo livello. L'unico punto è che il volo è molto lungo, ma ne vale la pena!",
+          "tags": ["serviços excelentes", "longa viagem", "vale a pena"]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Carolina Silva",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Simplesmente perfeito! O quarto tem tudo. A banheira com vista pro mar é incrível. Café da manhã variado e delicioso.",
+          "tags": ["perfeito", "banheira com vista", "café da manhã excelente"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet internacional",
+          "horario": "06:00 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o resort"
+        },
+        "idiomas": ["Inglês", "Francês", "Alemão", "Japonês", "Português"],
+        "estacionamento": "Não disponível (resort acessível apenas por barco)",
+        "pet_friendly": false,
+        "acessibilidade": "Bangalôs adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+960 664-0011",
+          "email": "reservations@luxurywatervilla.com",
+          "website": "www.luxurywatervilla.com"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "nome_hotel": "Le Marais Charm",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "25 Rue des Archives, Le Marais, 75004 Paris",
+        "cidade": "Paris",
+        "pais": "França",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "coordenadas_gmaps": "48.8566, 2.3522",
+        "google_maps_url": "https://www.google.com/maps?q=48.8566,2.3522"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Café da manhã continental francês",
+        "Recepção 24 horas",
+        "Serviço de concierge",
+        "Bagageiro",
+        "Serviço de limusine (sobretaxa)",
+        "Wi-Fi em alta velocidade",
+        "Business center",
+        "Serviço de lavanderia",
+        "Tour desk"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Superior",
+          "descricao": "Quarto elegante com vista para as ruas históricas do Marais",
+          "area_m2": 28,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size ou 2 camas individuais",
+          "vista": "Rua parisiense",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 42 polegadas",
+            "Frigobar",
+            "Cofre digital",
+            "Ar condicionado",
+            "Telefone direto",
+            "Máquina de café Nespresso",
+            "Piso aquecido no banheiro",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro italiano",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Não disponível",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades de banho francesas, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Claire Dubois",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Paris",
+            "pais": "França"
+          },
+          "estrelas": 5,
+          "data": "2024-01-12",
+          "avaliacao": "Emplacement parfait dans le Marais. Le petit-déjeuner français est délicieux avec croissants frais chaque matin.",
+          "tags": ["localização perfeita", "croissants frescos", "Marais"]
+        },
+        {
+          "usuario": {
+            "nome": "Thomas Anderson",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Los Angeles, CA",
+            "pais": "USA"
+          },
+          "estrelas": 4,
+          "data": "2024-01-08",
+          "avaliacao": "Great boutique hotel in the heart of Le Marais. Walking distance to everything. Room was cozy though a bit small.",
+          "tags": ["boutique hotel", "walking distance", "cozy room"]
+        },
+        {
+          "usuario": {
+            "nome": "Isabella Romano",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Milão",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-12-30",
+          "avaliacao": "Hotel boutique perfetto per una fuga romantica a Parigi. La reception è sempre disponibile e gentile.",
+          "tags": ["romântico", "recepção atenciosa", "boutique"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Mendes",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-12-22",
+          "avaliacao": "Hotel charmoso em excelente localização. Quarto limpo e confortável. O bairro Le Marais é maravilhoso.",
+          "tags": ["charmoso", "limpo", "bairro excelente"]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Watson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Absolutely charming hotel with authentic Parisian character. The staff were incredibly helpful. Perfect base for exploring!",
+          "tags": ["autêntico", "staff útil", "base perfeita"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Continental francês",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Francês", "Inglês", "Espanhol"],
+        "estacionamento": "Parceria com garagem próxima (€35/dia)",
+        "pet_friendly": true,
+        "taxa_pet": "€20 por diária",
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
+        "contato": {
+          "telefone": "+33 1 42 71 20 00",
+          "email": "contact@lemaraischarm.fr",
+          "website": "www.lemaraischarm.com"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "nome_hotel": "Caldera View Suites",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Imerovigli, Santorini 84700",
+        "cidade": "Santorini",
+        "pais": "Grécia",
+        "latitude": 36.4231,
+        "longitude": 25.4315,
+        "coordenadas_gmaps": "36.4231, 25.4315",
+        "google_maps_url": "https://www.google.com/maps?q=36.4231,25.4315"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina infinita com vista panorâmica",
+        "Transfer do aeroporto/porto",
+        "Café da manhã servido na varanda",
+        "Concierge para excursões",
+        "Estacionamento privativo",
+        "Serviço de quarto limitado",
+        "Wi-Fi gratuito",
+        "Tour desk",
+        "Serviço de bagagem"
+      ],
+      "quartos": [
+        {
+          "tipo": "Suite com Vista para a Caldera",
+          "descricao": "Suite com terraço privativo e vista deslumbrante para o vulcão e mar Egeu",
+          "area_m2": 45,
+          "capacidade": "2 adultos + 1 criança",
+          "camas": "1 cama king size",
+          "vista": "Caldeira e Mar Egeu",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 48 polegadas",
+            "Sistema de som Bluetooth",
+            "Frigobar abastecido",
+            "Máquina de café",
+            "Telefone",
+            "Cofre",
+            "Ar condicionado",
+            "Varanda com mobiliário de exterior",
+            "Jacuzzi privativo na varanda",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de efeito chuva e hidromassagem",
+            "tipo_chuveiro": "Chuveiro de alta pressão com vista",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades de luxo gregas, secador de cabelo profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Sophia Papadopoulos",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Atenas",
+            "pais": "Grécia"
+          },
+          "estrelas": 5,
+          "data": "2024-01-10",
+          "avaliacao": "A vista da caldeira é simplesmente deslumbrante! A piscina infinita com o pôr do sol é mágica. Serviço excepcional!",
+          "tags": ["vista deslumbrante", "piscina infinita", "serviço excepcional"]
+        },
+        {
+          "usuario": {
+            "nome": "Michael Thompson",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Sydney",
+            "pais": "Australia"
+          },
+          "estrelas": 5,
+          "data": "2024-01-05",
+          "avaliacao": "The caldera view was absolutely breathtaking. Watching the sunset from the infinity pool was a dream. Perfect for honeymoon!",
+          "tags": ["breathtaking view", "sunset watching", "honeymoon perfect"]
+        },
+        {
+          "usuario": {
+            "nome": "Laura Bianchi",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Roma",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-12-28",
+          "avaliacao": "Santorini è magica e questo hotel la rende ancora più speciale. Le camere sono spaziose. Il personale è cordiale!",
+          "tags": ["Santorini mágica", "quartos espaçosos", "staff cordial"]
+        },
+        {
+          "usuario": {
+            "nome": "Rafael Costa",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-20",
+          "avaliacao": "A vista é de tirar o fôlego! Hotel lindo e bem localizado. As ruas são íngremes, mas faz parte do charme.",
+          "tags": ["vista incrível", "bem localizado", "ruas íngremes"]
+        },
+        {
+          "usuario": {
+            "nome": "Amanda Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "San Francisco, CA",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Most stunning caldera views in Santorini. The cave-style rooms are unique and romantic. Breakfast on the terrace was amazing!",
+          "tags": ["stunning views", "cave-style rooms", "romantic breakfast"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet grego e continental",
+          "horario": "07:30 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Grego", "Inglês", "Francês", "Alemão"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada devido à arquitetura tradicional",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+30 22860 22400",
+          "email": "info@calderaviewsuites.gr",
+          "website": "www.calderaviewsuites.com"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "nome_hotel": "Shinjuku Grand Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "3-1-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
+        "cidade": "Tóquio",
+        "pais": "Japão",
+        "latitude": 35.6938,
+        "longitude": 139.7036,
+        "coordenadas_gmaps": "35.6938, 139.7036",
+        "google_maps_url": "https://www.google.com/maps?q=35.6938,139.7036"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1595521624992-48a59aef95e3?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Business center 24 horas",
+        "Academia completa",
+        "2 restaurantes (japonês e internacional)",
+        "Serviço de lavanderia",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento (sobretaxa)",
+        "Transfer aeroporto",
+        "Tour desk"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Executivo",
+          "descricao": "Quarto espaçoso com vista para a cidade de Tóquio",
+          "area_m2": 32,
+          "capacidade": "2 adultos",
+          "camas": "2 camas individuais ou 1 cama queen size",
+          "vista": "Cidade de Tóquio",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 50 polegadas",
+            "Frigobar",
+            "Chaleira elétrica para chá",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Yukata (quimono tradicional)",
+            "Chapéu de banho",
+            "Secador de cabelo",
+            "Ferramentas de trabalho"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro japonês high-tech",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira tradicional japonesa (ofuro)",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades japonesas, escova de dentes, barbeador, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Yuki Tanaka",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Tóquio",
+            "pais": "Japão"
+          },
+          "estrelas": 5,
+          "data": "2024-01-10",
+          "avaliacao": "完璧なロケーション！新宿駅から近く、部屋も清潔で快適でした。朝食のバリエーションが素晴らしい。",
+          "tags": ["localização perfeita", "limpo", "café variado"]
+        },
+        {
+          "usuario": {
+            "nome": "David Kim",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Seoul",
+            "pais": "Coreia do Sul"
+          },
+          "estrelas": 5,
+          "data": "2024-01-05",
+          "avaliacao": "Perfect location in Shinjuku! Walking distance to everything. The Japanese breakfast was authentic and delicious. Staff very helpful!",
+          "tags": ["perfect location", "authentic breakfast", "helpful staff"]
+        },
+        {
+          "usuario": {
+            "nome": "Maria Santos",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-28",
+          "avaliacao": "Hotel excelente e bem localizado. Quarto compacto mas funcional (típico do Japão). Café da manhã muito bom!",
+          "tags": ["bem localizado", "compacto", "café bom"]
+        },
+        {
+          "usuario": {
+            "nome": "Pierre Dubois",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Paris",
+            "pais": "França"
+          },
+          "estrelas": 5,
+          "data": "2023-12-20",
+          "avaliacao": "Hôtel moderne et propre. Le personnel parle anglais et est très serviable. Proche du métro et des centres commerciaux.",
+          "tags": ["moderne et propre", "personnel serviable", "proche métro"]
+        },
+        {
+          "usuario": {
+            "nome": "Emily Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Amazing hotel! The high-tech toilet was an experience. Business center was excellent. Great value for money in Tokyo!",
+          "tags": ["high-tech toilet", "excellent business center", "great value"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet ocidental e japonês",
+          "horario": "06:30 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Japonês", "Inglês", "Chinês", "Coreano"],
+        "estacionamento": "Sim (¥3.000/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 3 dias antes",
+        "contato": {
+          "telefone": "+81 3-5322-1111",
+          "email": "info@shinjukugrand.jp",
+          "website": "www.shinjukugrand.com"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "nome_hotel": "Manhattan Central Hotel",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "790 7th Avenue, Times Square, New York, NY 10019",
+        "cidade": "Nova York",
+        "pais": "EUA",
+        "latitude": 40.7614,
+        "longitude": -73.9776,
+        "coordenadas_gmaps": "40.7614, -73.9776",
+        "google_maps_url": "https://www.google.com/maps?q=40.7614,-73.9776"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Fitness center",
+        "Business center",
+        "Wi-Fi gratuito",
+        "Serviço de concierge",
+        "Serviço de lavanderia",
+        "Café da manhã buffet",
+        "Guarda-volumes",
+        "Tour desk",
+        "Bagageiro"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Standard",
+          "descricao": "Quarto confortável com vista para a cidade",
+          "area_m2": 25,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size ou 2 camas full",
+          "vista": "Times Square ou cidade",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV a cabo 42 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Ferramentas de trabalho",
+            "Secador de cabelo",
+            "Mesa de trabalho"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro combinado com banheira",
+            "tipo_chuveiro": "Chuveiro padrão",
+            "banheira": "Sim (combinada)",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades básicas, secador de cabelo, sabonete, shampoo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Sarah Johnson",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Chicago, IL",
+            "pais": "USA"
+          },
+          "estrelas": 4,
+          "data": "2024-01-14",
+          "avaliacao": "Great location right in Times Square! The room was clean and comfortable. Breakfast buffet had good options.",
+          "tags": ["great location", "clean room", "good breakfast"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Rodriguez",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Miami, FL",
+            "pais": "USA"
+          },
+          "estrelas": 3,
+          "data": "2024-01-09",
+          "avaliacao": "Location is perfect but rooms are small. Good for short stays. The noise from Times Square can be loud at night.",
+          "tags": ["perfect location", "small rooms", "noisy"]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Wilson",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 4,
+          "data": "2023-12-30",
+          "avaliacao": "Perfect base for exploring NYC. Walking distance to Broadway shows and attractions. Basic but comfortable accommodation.",
+          "tags": ["perfect base", "walking distance", "basic comfort"]
+        },
+        {
+          "usuario": {
+            "nome": "Thomas Brown",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Toronto",
+            "pais": "Canadá"
+          },
+          "estrelas": 5,
+          "data": "2023-12-22",
+          "avaliacao": "Excellent value for Times Square location. Staff were friendly and helpful. Rooms were updated and clean.",
+          "tags": ["excellent value", "friendly staff", "updated rooms"]
+        },
+        {
+          "usuario": {
+            "nome": "Lisa Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Vancouver",
+            "pais": "Canadá"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Couldn't ask for a better location! Right in the heart of NYC action. Rooms are compact but have everything you need.",
+          "tags": ["best location", "compact rooms", "heart of NYC"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet americano",
+          "horario": "06:30 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Espanhol"],
+        "estacionamento": "Não disponível (garagens próximas)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
+        "contato": {
+          "telefone": "+1 212-581-4100",
+          "email": "reservations@manhattancentral.com",
+          "website": "www.manhattancentralhotel.com"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "nome_hotel": "Andean Lodge Cusco",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Plazoleta Nazarenas 231, Cusco 08002",
+        "cidade": "Cusco",
+        "pais": "Peru",
+        "latitude": -13.5171,
+        "longitude": -71.9785,
+        "coordenadas_gmaps": "-13.5171, -71.9785",
+        "google_maps_url": "https://www.google.com/maps?q=-13.5171,-71.9785"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Aquecimento central",
+        "Serviço de oxigênio (sobretaxa)",
+        "Depósito de bagagem",
+        "Wi-Fi nas áreas comuns",
+        "Serviço de despertar",
+        "Tour desk",
+        "Café de coca grátis",
+        "Informações turísticas",
+        "Serviço de bagagem"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Standard",
+          "descricao": "Quarto acolhedor com decoração andina e aquecimento para o clima frio",
+          "area_m2": 20,
+          "capacidade": "2 adultos",
+          "camas": "2 camas individuais ou 1 cama queen",
+          "vista": "Pátio interno ou rua",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV a cabo",
+            "Aquecedor elétrico",
+            "Cofre",
+            "Telefone",
+            "Janelas duplas para isolamento térmico",
+            "Manta de alpaca extra",
+            "Secador de cabelo (sob solicitação)"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro elétrico básico",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Baixa pressão",
+            "amenidades": "Sabonete e shampoo básicos"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Carlos Andrade",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lima",
+            "pais": "Peru"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Excelente localização no centro histórico! O aquecimento funcionou perfeitamente, o que é essencial em Cusco. Café da manhã com produtos locais.",
+          "tags": ["centro histórico", "aquecimento eficiente", "produtos locais"]
+        },
+        {
+          "usuario": {
+            "nome": "Juan Pérez",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Cusco",
+            "pais": "Peru"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "avaliacao": "Hotel simples mas muito acolhedor. A equipe ajudou muito com dicas para aclimatação à altitude. Wi-Fi poderia ser melhor.",
+          "tags": ["acolhedor", "dicas altitude", "Wi-Fi fraco"]
+        },
+        {
+          "usuario": {
+            "nome": "Amanda Silva",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-28",
+          "avaliacao": "A trilha é cansativa mas vale cada passo! Leve sapatos confortáveis. O hotel é básico mas cumpre sua função.",
+          "tags": ["trilha cansativa", "sapatos confortáveis", "hotel básico"]
+        },
+        {
+          "usuario": {
+            "nome": "Miguel Torres",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Bogotá",
+            "pais": "Colômbia"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Guia muito conhecimento sobre a cultura Inca. Impressionante! O hotel tem localização perfeita para explorar Cusco.",
+          "tags": ["cultura Inca", "localização perfeita", "guia conhecedor"]
+        },
+        {
+          "usuario": {
+            "nome": "Lucía Mendoza",
+            "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lima",
+            "pais": "Peru"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "El amanecer en Machu Picchu es una experiencia divina. El hotel es cómodo para descansar después de las caminatas.",
+          "tags": ["amanecer divino", "cómodo", "descanso caminatas"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "13:00",
+        "check_out": "10:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Continental com produtos peruanos",
+          "horario": "06:00 - 09:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Áreas comuns apenas"
+        },
+        "idiomas": ["Espanhol", "Inglês", "Quíchua"],
+        "estacionamento": "Não disponível",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 72 horas antes",
+        "contato": {
+          "telefone": "+51 84 231234",
+          "email": "reservas@andeanlodgecusco.com",
+          "website": "www.andeanlodgecusco.com"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "nome_hotel": "Harbour View Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Circular Quay West, The Rocks, Sydney NSW 2000",
+        "cidade": "Sydney",
+        "pais": "Austrália",
+        "latitude": -33.8591,
+        "longitude": 151.2093,
+        "coordenadas_gmaps": "-33.8591, 151.2093",
+        "google_maps_url": "https://www.google.com/maps?q=-33.8591,151.2093"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina com vista para o porto",
+        "Academia moderna",
+        "SPA com tratamentos australianos",
+        "Restaurante com frutos do mar",
+        "Bar no rooftop",
+        "Serviço de concierge",
+        "Estacionamento (sobretaxa)",
+        "Wi-Fi de alta velocidade",
+        "Business center"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Porto",
+          "descricao": "Quarto com vista deslumbrante para a Sydney Opera House e Harbour Bridge",
+          "area_m2": 35,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Porto de Sydney (Opera House e Harbour Bridge)",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 50\"",
+            "Sistema de som Bluetooth",
+            "Frigobar abastecido",
+            "Máquina de café",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda privativa",
+            "Binóculos para apreciar a vista",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira com vista",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades australianas, secador de cabelo profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Roberto Alves",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Melbourne",
+            "pais": "Austrália"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "A vista da Opera House do nosso quarto foi inacreditável! Acordar com essa vista vale cada centavo. Serviço impecável.",
+          "tags": ["vista inacreditável", "Opera House", "serviço impecável"]
+        },
+        {
+          "usuario": {
+            "nome": "James Wilson",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Brisbane",
+            "pais": "Austrália"
+          },
+          "estrelas": 4,
+          "data": "2023-12-10",
+          "avaliacao": "Perfect location for exploring Sydney! The rooftop bar has amazing sunset views. Rooms are modern and comfortable.",
+          "tags": ["perfect location", "rooftop bar", "modern rooms"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Santos",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-22",
+          "avaliacao": "Voo muito longo, mas a cidade compensa o cansaço. A vista do hotel é espetacular. Piscina aquecida é um plus.",
+          "tags": ["voo longo", "vista espetacular", "piscina aquecida"]
+        },
+        {
+          "usuario": {
+            "nome": "Diego Pereira",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Povo muito simpático e comida excelente! A localização é perfeita para conhecer Sydney. Hotel muito bem equipado.",
+          "tags": ["povo simpático", "comida excelente", "bem equipado"]
+        },
+        {
+          "usuario": {
+            "nome": "Olivia Taylor",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Auckland",
+            "pais": "Nova Zelândia"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Sydney Harbour at sunset is magical! Worth every penny. The seafood restaurant in the hotel is outstanding.",
+          "tags": ["harbour sunset", "worth every penny", "outstanding seafood"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet australiano",
+          "horario": "06:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Mandarim", "Japonês"],
+        "estacionamento": "Sim (AU$55/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+61 2 9256 1234",
+          "email": "bookings@harbourviewsydney.com",
+          "website": "www.harbourviewsydney.com.au"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "nome_hotel": "Ramblas Central Hotel",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "La Rambla, 120, 08002 Barcelona",
+        "cidade": "Barcelona",
+        "pais": "Espanha",
+        "latitude": 41.3809,
+        "longitude": 2.1734,
+        "coordenadas_gmaps": "41.3809, 2.1734",
+        "google_maps_url": "https://www.google.com/maps?q=41.3809,2.1734"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Ar condicionado central",
+        "Serviço de bagagem",
+        "Tour desk",
+        "Wi-Fi gratuito",
+        "Café da manhã buffet",
+        "Serviço de despertar",
+        "Informações turísticas",
+        "Recepção 24 horas",
+        "Guarda-volumes"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Standard",
+          "descricao": "Quarto funcional com vista para La Rambla ou pátio interno",
+          "area_m2": 18,
+          "capacidade": "2 adultos",
+          "camas": "2 camas individuais ou 1 cama double",
+          "vista": "La Rambla ou pátio interno",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 32\"",
+            "Ar condicionado individual",
+            "Cofre (sobretaxa)",
+            "Telefone",
+            "Frigobar vazio",
+            "Janelas duplas para isolamento acústico",
+            "Secador de cabelo",
+            "Mesa de trabalho"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro compacto",
+            "tipo_chuveiro": "Chuveiro padrão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Sabonete e shampoo, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Sofia Martinez",
+            "foto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Madri",
+            "pais": "Espanha"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "Arquitetura deslumbrante e tapas deliciosas! O hotel fica no coração de Barcelona. Quarto pequeno mas funcional.",
+          "tags": ["arquitetura deslumbrante", "coração Barcelona", "quarto funcional"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos García",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Valência",
+            "pais": "Espanha"
+          },
+          "estrelas": 3,
+          "data": "2023-11-15",
+          "avaliacao": "Como espanhol, recomendo os restaurantes locais fora das áreas turísticas. Hotel básico mas bem localizado.",
+          "tags": ["restaurantes locais", "básico", "bem localizado"]
+        },
+        {
+          "usuario": {
+            "nome": "Mariana Lima",
+            "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Sagrada Família é de tirar o fôlego! Hotel simples mas com excelente localização. Ideal para quem quer explorar a cidade.",
+          "tags": ["Sagrada Família", "excelente localização", "ideal explorar"]
+        },
+        {
+          "usuario": {
+            "nome": "Antonio Silva",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Porto",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-11-28",
+          "avaliacao": "Cidade linda, mas muito cheia de turistas. O hotel cumpre sua função de hospedagem básica no centro.",
+          "tags": ["muitos turistas", "hospedagem básica", "centro"]
+        },
+        {
+          "usuario": {
+            "nome": "Elena Rodríguez",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Sevilha",
+            "pais": "Espanha"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "¡Barcelona es arte vivo! Gaudí era un genio. El hotel está bien ubicado para ver todo. Habitación cómoda.",
+          "tags": ["arte vivo", "bien ubicado", "habitación cómoda"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet continental",
+          "horario": "07:00 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Espanhol", "Catalão", "Inglês"],
+        "estacionamento": "Não disponível",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 24 horas antes",
+        "contato": {
+          "telefone": "+34 933 01 12 34",
+          "email": "info@ramblascentral.com",
+          "website": "www.ramblascentralhotel.com"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "nome_hotel": "Windsor Palace Copacabana",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Av. Atlântica, 2610 - Copacabana, Rio de Janeiro - RJ, 22041-001",
+        "cidade": "Rio de Janeiro",
+        "pais": "Brasil",
+        "latitude": -22.9710,
+        "longitude": -43.1826,
+        "coordenadas_gmaps": "-22.9710, -43.1826",
+        "google_maps_url": "https://www.google.com/maps?q=-22.9710,-43.1826"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina com vista para o mar",
+        "Academia completa",
+        "Restaurante com gastronomia brasileira",
+        "Bar à beira da piscina",
+        "SPA com massagens",
+        "Serviço de praia (cadeiras e guarda-sóis)",
+        "Estacionamento coberto",
+        "Wi-Fi gratuito",
+        "Business center",
+        "Serviço de concierge"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Mar",
+          "descricao": "Quarto com varanda e vista panorâmica para a praia de Copacabana",
+          "area_m2": 32,
+          "capacidade": "2 adultos + 1 criança",
+          "camas": "1 cama king size ou 2 camas de solteiro",
+          "vista": "Praia de Copacabana",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 48\"",
+            "Frigobar abastecido",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com mobiliário",
+            "Roupão e chinelos",
+            "Secador de cabelo",
+            "Mesa de trabalho"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de alta pressão",
+            "tipo_chuveiro": "Chuveiro de chuva",
+            "banheira": "Banheira separada",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades brasileiras, secador de cabelo profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Pedro Costa",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belo Horizonte, MG",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-20",
+          "avaliacao": "Vista espetacular da praia de Copacabana! Café da manhã variado com frutas tropicais. Atendimento cordial e profissional.",
+          "tags": ["vista espetacular", "frutas tropicais", "atendimento profissional"]
+        },
+        {
+          "usuario": {
+            "nome": "Juliana Ribeiro",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Salvador, BA",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-15",
+          "avaliacao": "Localização perfeita para aproveitar o Rio! A piscina com vista é maravilhosa. O quarto poderia ser um pouco mais moderno.",
+          "tags": ["localização perfeita", "piscina com vista", "modernização"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Eduardo",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-08",
+          "avaliacao": "Como carioca, digo: o pôr do sol em Arpoador é único! Hotel com vista perfeita e ótima infraestrutura.",
+          "tags": ["pôr do sol Arpoador", "vista perfeita", "ótima infra"]
+        },
+        {
+          "usuario": {
+            "nome": "Amanda Souza",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Curitiba, PR",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Pão de Açúcar vale cada centavo. Vista espetacular! O hotel tem uma localização privilegiada em Copacabana.",
+          "tags": ["Pão de Açúcar", "vista espetacular", "localização privilegiada"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernando Santos",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-15",
+          "avaliacao": "Cidade linda mas o trânsito é complicado. O hotel compensa com a vista incrível e o acesso à praia.",
+          "tags": ["trânsito complicado", "vista incrível", "acesso praia"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet brasileiro",
+          "horario": "06:00 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Português", "Inglês", "Espanhol"],
+        "estacionamento": "Sim (R$ 50/dia)",
+        "pet_friendly": true,
+        "taxa_pet": "R$ 80 por diária",
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+55 21 2548-6000",
+          "email": "reservas@windsorpalace.com.br",
+          "website": "www.windsorpalacehotel.com.br"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "nome_hotel": "Big Ben View Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "12 Bridge St, Westminster, London SW1A 2JR",
+        "cidade": "Londres",
+        "pais": "Reino Unido",
+        "latitude": 51.5007,
+        "longitude": -0.1246,
+        "coordenadas_gmaps": "51.5007, -0.1246",
+        "google_maps_url": "https://www.google.com/maps?q=51.5007,-0.1246"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Chá da tarde inglês tradicional",
+        "Recepção 24 horas",
+        "Business center",
+        "Serviço de concierge",
+        "Wi-Fi de alta velocidade",
+        "Serviço de valet",
+        "Tour desk",
+        "Serviço de lavanderia",
+        "Bagageiro"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Executivo",
+          "descricao": "Quarto elegante com vista para os pontos turísticos de Westminster",
+          "area_m2": 28,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Big Ben e Parlamento",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 50\"",
+            "Frigobar",
+            "Máquina de chá e café",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Escrivaninha de trabalho",
+            "Ferro e tábua de passar (sob solicitação)",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira separada",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades britânicas, secador de cabelo profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Thomas Wilson",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Manchester",
+            "pais": "Reino Unido"
+          },
+          "estrelas": 5,
+          "data": "2023-12-14",
+          "avaliacao": "Perfect location for sightseeing! The view of Big Ben from our room was worth every penny. Traditional afternoon tea was delightful.",
+          "tags": ["perfect location", "Big Ben view", "delightful tea"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Mendonça",
+            "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-10-22",
+          "avaliacao": "Hotel muito bem localizado para conhecer Londres. O chá da tarde é uma experiência autêntica. Quartos confortáveis mas um pouco pequenos.",
+          "tags": ["bem localizado", "chá autêntico", "quartos pequenos"]
+        },
+        {
+          "usuario": {
+            "nome": "Elizabeth Taylor",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Bristol",
+            "pais": "Reino Unido"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Afternoon tea was absolutely delightful! Proper British experience. View of Parliament from the lounge is stunning.",
+          "tags": ["delightful tea", "British experience", "stunning view"]
+        },
+        {
+          "usuario": {
+            "nome": "Rafael Martins",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-30",
+          "avaliacao": "Choveu bastante, mas os museus são incríveis e gratuitos! Hotel com localização perfeita para cultura.",
+          "tags": ["museus gratuitos", "localização perfeita", "chuva"]
+        },
+        {
+          "usuario": {
+            "nome": "Patricia Green",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Edinburgh",
+            "pais": "Reino Unido"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Westminster Abbey is breathtaking. History comes alive! The hotel's afternoon tea service is exceptional.",
+          "tags": ["breathtaking abbey", "history alive", "exceptional tea"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Inglês completo",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Francês", "Espanhol", "Alemão"],
+        "estacionamento": "Não disponível",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 3 dias antes",
+        "contato": {
+          "telefone": "+44 20 7930 4830",
+          "email": "reservations@bigbenview.co.uk",
+          "website": "www.bigbenviewhotel.co.uk"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "nome_hotel": "Burj View Luxury Hotel",
+      "categoria": "5 estrelas",
+      "localizacao": {
+        "endereco": "Sheikh Zayed Road, Downtown Dubai, Dubai, Emirados Árabes",
+        "cidade": "Dubai",
+        "pais": "Emirados Árabes Unidos",
+        "latitude": 25.1972,
+        "longitude": 55.2744,
+        "coordenadas_gmaps": "25.1972, 55.2744",
+        "google_maps_url": "https://www.google.com/maps?q=25.1972,55.2744"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina infinita com vista para Burj Khalifa",
+        "SPA completo com tratamentos árabes",
+        "Academia de última geração",
+        "Café da manhã buffet premium",
+        "Wi-Fi premium em alta velocidade",
+        "Serviço de concierge 24h",
+        "Estacionamento valet",
+        "Serviço de quarto 24h",
+        "Business center",
+        "Transfer executivo"
+      ],
+      "quartos": [
+        {
+          "tipo": "Suite com Vista para Burj Khalifa",
+          "descricao": "Suite luxuosa com vista direta para o Burj Khalifa, o edifício mais alto do mundo",
+          "area_m2": 65,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Burj Khalifa e Dubai Fountain",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 65 polegadas",
+            "Sistema de som surround",
+            "Frigobar abastecido com produtos premium",
+            "Máquina de café Nespresso",
+            "Cofre digital",
+            "Telefone multilíngue",
+            "Ar condicionado inteligente",
+            "Varanda com lounge",
+            "Tablet para controle do quarto",
+            "Secador de cabelo profissional",
+            "Roupão de seda e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva e vapor",
+            "tipo_chuveiro": "Sistema de hidromassagem",
+            "banheira": "Banheira de hidromassagem com TV",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades de luxo, produtos de banho premium, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Ahmed Al-Mansoor",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Dubai",
+            "pais": "Emirados Árabes Unidos"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "avaliacao": "Luxo e modernidade impressionantes! O safári no deserto foi inesquecível. Vista do Burj Khalifa é espetacular.",
+          "tags": ["luxo impressionante", "safári deserto", "vista espetacular"]
+        },
+        {
+          "usuario": {
+            "nome": "Sandra Oliveira",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-25",
+          "avaliacao": "Cidade fascinante, mas muito quente durante o dia. O hotel é um oásis de conforto. Piscina com vista incrível.",
+          "tags": ["muito quente", "oásis conforto", "piscina incrível"]
+        },
+        {
+          "usuario": {
+            "nome": "Mohammed Rahman",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Abu Dhabi",
+            "pais": "Emirados Árabes Unidos"
+          },
+          "estrelas": 5,
+          "data": "2023-12-10",
+          "avaliacao": "Burj Khalifa view from 124th floor is mind-blowing! Hotel service is exceptional. Breakfast buffet is massive.",
+          "tags": ["mind-blowing view", "exceptional service", "massive breakfast"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Silva",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Compras excelentes, mas tudo é muito caro. O hotel compensa com o luxo e conforto. Vista digna de cartão postal.",
+          "tags": ["compras caras", "luxo e conforto", "vista cartão postal"]
+        },
+        {
+          "usuario": {
+            "nome": "Robert Chen",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Hong Kong",
+            "pais": "China"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Desert safari with dinner under the stars - unforgettable! Hotel's infinity pool has best Burj Khalifa view in Dubai.",
+          "tags": ["unforgettable safari", "infinity pool", "best view"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet internacional premium",
+          "horario": "06:30 - 11:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Árabe", "Inglês", "Francês", "Russo", "Mandarim"],
+        "estacionamento": "Valet (gratuito para hóspedes)",
+        "pet_friendly": false,
+        "acessibilidade": "Completa, quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+971 4 123 4567",
+          "email": "reservations@burjviewluxury.com",
+          "website": "www.burjviewluxurydubai.com"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "nome_hotel": "Pousada Maravilha",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Estrada do Sueste, Fernando de Noronha - PE, 53990-000",
+        "cidade": "Fernando de Noronha",
+        "pais": "Brasil",
+        "latitude": -3.8545,
+        "longitude": -32.4242,
+        "coordenadas_gmaps": "-3.8545, -32.4242",
+        "google_maps_url": "https://www.google.com/maps?q=-3.8545,-32.4242"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Café da manhã regional",
+        "Wi-Fi nas áreas comuns",
+        "Trilhas guiadas pela ilha",
+        "Informações turísticas detalhadas",
+        "Aluguel de equipamentos de snorkel",
+        "Transfer do aeroporto",
+        "Área de churrasco compartilhada",
+        "Lavanderia (sobretaxa)",
+        "Estacionamento gratuito"
+      ],
+      "quartos": [
+        {
+          "tipo": "Chalé Ecológico",
+          "descricao": "Chalé rústico e ecológico integrado à natureza da ilha",
+          "area_m2": 30,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size",
+          "vista": "Jardim tropical ou mar",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Ventilador de teto",
+            "Frigobar",
+            "Cofre simples",
+            "Varanda com rede",
+            "Janelas com tela mosquiteiro",
+            "Iluminação solar",
+            "Água aquecida solar"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro básico",
+            "banheira": "Não",
+            "agua_quente": "Sistema solar",
+            "pressao": "Baixa pressão",
+            "amenidades": "Sabonete e shampoo ecológicos"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Juliana Ferreira",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Recife, PE",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-09-12",
+          "avaliacao": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico. Pousada simples mas acolhedora.",
+          "tags": ["paraíso na terra", "águas cristalinas", "pousada acolhedora"]
+        },
+        {
+          "usuario": {
+            "nome": "Marcos Andrade",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Fortaleza, CE",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-08-30",
+          "avaliacao": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo! A pousada é rústica mas muito bem localizada.",
+          "tags": ["taxa ambiental cara", "vale cada centavo", "bem localizada"]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Carolina",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-10-15",
+          "avaliacao": "Baía do Sancho é a praia mais linda do Brasil! A pousada ajuda com dicas locais. Natureza intocada.",
+          "tags": ["praia mais linda", "dicas locais", "natureza intocada"]
+        },
+        {
+          "usuario": {
+            "nome": "Ricardo Lima",
+            "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belo Horizonte, MG",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-08",
+          "avaliacao": "Trilhas incríveis, mas exige preparo físico. A pousada é básica mas funciona bem. Internet limitada.",
+          "tags": ["trilhas exigentes", "pousada básica", "internet limitada"]
+        },
+        {
+          "usuario": {
+            "nome": "Beatriz Costa",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Pôr do sol no Mirante dos Golfinhos é inesquecível! A simplicidade da pousada combina com a ilha preservada.",
+          "tags": ["pôr do sol inesquecível", "simplicidade", "ilha preservada"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Regional nordestino",
+          "horario": "07:00 - 09:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": ["Português", "Inglês básico"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 15 dias antes (política especial da ilha)",
+        "contato": {
+          "telefone": "+55 81 3619-1234",
+          "email": "contato@pousadamaravilha.com.br",
+          "website": "www.pousadamaravilhanoronha.com.br"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "nome_hotel": "Colosseum View Hotel",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Via dei Fori Imperiali, 00184 Roma",
+        "cidade": "Roma",
+        "pais": "Itália",
+        "latitude": 41.8902,
+        "longitude": 12.4922,
+        "coordenadas_gmaps": "41.8902, 12.4922",
+        "google_maps_url": "https://www.google.com/maps?q=41.8902,12.4922"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Café da manhã italiano tradicional",
+        "Wi-Fi gratuito",
+        "Ar condicionado central",
+        "Recepção bilíngue (italiano/inglês)",
+        "Tour desk especializado",
+        "Serviço de bagagem",
+        "Guarda-volumes",
+        "Informações turísticas",
+        "Transfer do aeroporto (sobretaxa)"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Coliseu",
+          "descricao": "Quarto histórico com vista parcial ou total para o Coliseu Romano",
+          "area_m2": 22,
+          "capacidade": "2 adultos",
+          "camas": "1 cama double ou 2 camas individuais",
+          "vista": "Coliseu Romano",
+          "varanda": "Alguns quartos têm varanda",
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 40\"",
+            "Ar condicionado individual",
+            "Frigobar",
+            "Cofre digital",
+            "Telefone",
+            "Secador de cabelo",
+            "Máquina de café",
+            "Janelas com isolamento acústico"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro italiano",
+            "tipo_chuveiro": "Chuveiro de média pressão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades básicas, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Giovanni Rossi",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Roma",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-10-25",
+          "avaliacao": "História em cada esquina e comida divina! O gelato é o melhor do mundo. Vista do Coliseu do quarto é emocionante.",
+          "tags": ["história em cada esquina", "gelato melhor", "vista emocionante"]
+        },
+        {
+          "usuario": {
+            "nome": "Patrícia Lima",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-09-18",
+          "avaliacao": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar. Hotel com localização perfeita.",
+          "tags": ["muitos turistas", "acordar cedo", "localização perfeita"]
+        },
+        {
+          "usuario": {
+            "nome": "Marco Bellini",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Milão",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "avaliacao": "Colosseo di notte è magico! Da non perdere. L'hotel è pulito e il personale molto disponibile.",
+          "tags": ["Colosseo notte magico", "hotel pulito", "personale disponibile"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Alves",
+            "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-12",
+          "avaliacao": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda. Hotel simples mas bem localizado.",
+          "tags": ["Fontana di Trevi lotada", "experiência moeda", "bem localizado"]
+        },
+        {
+          "usuario": {
+            "nome": "Sophia Bianchi",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Florença",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "La pasta carbonara più buona della mia vita! Roma è amore. Vista del Colosseo dalla camera è incredibile.",
+          "tags": ["pasta carbonara buona", "Roma amore", "vista incredibile"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Italiano (café, croissant, suco)",
+          "horario": "07:00 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Italiano", "Inglês", "Espanhol"],
+        "estacionamento": "Não disponível",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada (edifício histórico)",
+        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
+        "contato": {
+          "telefone": "+39 06 1234 5678",
+          "email": "info@colosseumviewhotel.com",
+          "website": "www.colosseumviewhotelroma.com"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "nome_hotel": "Andaman Sea Resort",
+      "categoria": "5 estrelas",
+      "localizacao": {
+        "endereco": "Patong Beach, Kathu District, Phuket 83150",
+        "cidade": "Phuket",
+        "pais": "Tailândia",
+        "latitude": 7.8804,
+        "longitude": 98.3923,
+        "coordenadas_gmaps": "7.8804, 98.3923",
+        "google_maps_url": "https://www.google.com/maps?q=7.8804,98.3923"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina infinita com vista para o mar de Andaman",
+        "SPA tailandês tradicional",
+        "Academia completa",
+        "3 restaurantes (tailandês, internacional, frutos do mar)",
+        "Bar à beira da piscina",
+        "Atividades aquáticas (snorkel, mergulho)",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento gratuito",
+        "Transfer do aeroporto"
+      ],
+      "quartos": [
+        {
+          "tipo": "Villa à Beira-Mar",
+          "descricao": "Villa privativa com acesso direto à praia e vista para o mar de Andaman",
+          "area_m2": 75,
+          "capacidade": "2 adultos + 2 crianças",
+          "camas": "1 cama king size + 1 sofá-cama",
+          "vista": "Mar de Andaman",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 55 polegadas",
+            "Sistema de som Bluetooth",
+            "Frigobar abastecido",
+            "Máquina de café",
+            "Cofre digital",
+            "Telefone internacional",
+            "Ar condicionado",
+            "Ventilador de teto",
+            "Varanda com lounge",
+            "Acesso direto à praia",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro ao ar livre e interno",
+            "tipo_chuveiro": "Chuveiro de chuva",
+            "banheira": "Banheira de hidromassagem ao ar livre",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades tailandesas, produtos naturais, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Chen Li",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Bangkok",
+            "pais": "Tailândia"
+          },
+          "estrelas": 5,
+          "data": "2023-10-22",
+          "avaliacao": "Paraíso tropical com cultura tailandesa única! As ilhas Phi Phi são deslumbrantes. Resort com serviço impecável.",
+          "tags": ["paraíso tropical", "cultura tailandesa", "serviço impecável"]
+        },
+        {
+          "usuario": {
+            "nome": "Sompong Wong",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Chiang Mai",
+            "pais": "Tailândia"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Islands tour was amazing! Crystal clear water. Traditional Thai massage at the resort spa was heavenly.",
+          "tags": ["amazing tour", "crystal clear water", "heavenly massage"]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Paula",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "avaliacao": "Resort maravilhoso, mas cuidado com o sol forte! Use muito protetor. A comida tailandesa do restaurante é autêntica.",
+          "tags": ["sol forte", "comida autêntica", "resort maravilhoso"]
+        },
+        {
+          "usuario": {
+            "nome": "David Miller",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Melbourne",
+            "pais": "Austrália"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Best Thai massage ever! Beaches are paradise. The infinity pool overlooking Andaman Sea is breathtaking.",
+          "tags": ["best massage", "paradise beaches", "breathtaking pool"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Mendes",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Porto Alegre, RS",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Comida tailandesa autêntica e deliciosa! O Big Buddha é imperdível. Resort luxuoso mas com preços elevados.",
+          "tags": ["comida autêntica", "Big Buddha imperdível", "preços elevados"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet internacional e tailandês",
+          "horario": "06:30 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o resort"
+        },
+        "idiomas": ["Tailandês", "Inglês", "Chinês", "Russo"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+66 76 123 456",
+          "email": "reservations@andamansearesort.com",
+          "website": "www.andamansearesortphuket.com"
+        }
+      }
+    },
+    {
+      "id": 15,
+      "nome_hotel": "Grand Canal Palace",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Calle Larga Santa Maria Formosa, 5176, 30122 Veneza",
+        "cidade": "Veneza",
+        "pais": "Itália",
+        "latitude": 45.4408,
+        "longitude": 12.3155,
+        "coordenadas_gmaps": "45.4408, 12.3155",
+        "google_maps_url": "https://www.google.com/maps?q=45.4408,12.3155"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista para o Canal Grande",
+        "Café da manhã servido com vista para os canais",
+        "Wi-Fi gratuito",
+        "Serviço de concierge especializado",
+        "Tour desk para passeios de gôndola",
+        "Serviço de bagagem",
+        "Guarda-volumes",
+        "Recepção 24 horas",
+        "Informações turísticas"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Canal",
+          "descricao": "Quarto romântico com vista direta para o Canal Grande de Veneza",
+          "area_m2": 25,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size",
+          "vista": "Canal Grande de Veneza",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 42\"",
+            "Ar condicionado",
+            "Frigobar",
+            "Cofre digital",
+            "Telefone",
+            "Secador de cabelo",
+            "Máquina de café",
+            "Varanda com vista para o canal",
+            "Janelas com vidro duplo"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro italiano",
+            "tipo_chuveiro": "Chuveiro de média pressão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades básicas, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Marco Bellini",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Veneza",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-09-30",
+          "avaliacao": "Passeio de gôndola no pôr do sol é mágico! Vista do canal do quarto é romântica. Hotel com charme veneziano.",
+          "tags": ["gôndola pôr do sol", "vista romântica", "charme veneziano"]
+        },
+        {
+          "usuario": {
+            "nome": "Isabella Conti",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Milão",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-10-25",
+          "avaliacao": "Venezia è la città più romantica del mondo! La vista sul Canal Grande dalla camera è incantevole.",
+          "tags": ["città romantica", "vista incantevole", "Canal Grande"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Santos",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-11-18",
+          "avaliacao": "Cidade única, mas cuidado com as marés altas (acqua alta). Hotel bem localizado para explorar Veneza a pé.",
+          "tags": ["marés altas", "bem localizado", "explorar a pé"]
+        },
+        {
+          "usuario": {
+            "nome": "Sophia Rossi",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Roma",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-12-08",
+          "avaliacao": "Piazza San Marco at sunrise is absolutely magical! Gondola ride through small canals was unforgettable.",
+          "tags": ["sunrise magical", "gondola unforgettable", "small canals"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Eduardo",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-20",
+          "avaliacao": "Romântico, mas os preços são muito elevados. A experiência da gôndola vale a pena. Hotel charmoso.",
+          "tags": ["preços elevados", "gôndola vale a pena", "hotel charmoso"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Italiano com vista para o canal",
+          "horario": "07:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Italiano", "Inglês", "Francês"],
+        "estacionamento": "Não disponível (acesso apenas por barco ou a pé)",
+        "pet_friendly": false,
+        "acessibilidade": "Muito limitada (muitas pontes e degraus)",
+        "politica_cancelamento": "Cancelamento gratuito até 72 horas antes",
+        "contato": {
+          "telefone": "+39 041 123 4567",
+          "email": "info@grandcanalpalace.com",
+          "website": "www.grandcanalpalacevenice.com"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "nome_hotel": "Pyramids View Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Pyramids Road, Giza, Cairo Governorate",
+        "cidade": "Cairo",
+        "pais": "Egito",
+        "latitude": 29.9792,
+        "longitude": 31.1342,
+        "coordenadas_gmaps": "29.9792, 31.1342",
+        "google_maps_url": "https://www.google.com/maps?q=29.9792,31.1342"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina com vista para as pirâmides",
+        "Transfer para as pirâmides",
+        "Café da manhã egípcio",
+        "Wi-Fi gratuito",
+        "Tour desk especializado em egiptologia",
+        "Serviço de concierge",
+        "Estacionamento gratuito",
+        "Serviço de bagagem",
+        "Guarda-volumes"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para as Pirâmides",
+          "descricao": "Quarto com vista direta para as Grandes Pirâmides de Gizé",
+          "area_m2": 30,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size ou 2 camas individuais",
+          "vista": "Pirâmides de Gizé",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 45\"",
+            "Ar condicionado",
+            "Frigobar",
+            "Cofre digital",
+            "Telefone",
+            "Secador de cabelo",
+            "Varanda com vista",
+            "Janelas com vidro duplo",
+            "Chaleira para chá"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro combinado com banheira",
+            "tipo_chuveiro": "Chuveiro de média pressão",
+            "banheira": "Sim (combinada)",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades básicas, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Mohamed Ali",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Cairo",
+            "pais": "Egito"
+          },
+          "estrelas": 5,
+          "data": "2023-11-12",
+          "avaliacao": "As pirâmides são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
+          "tags": ["pirâmides impressionantes", "vista espetacular", "café egípcio"]
+        },
+        {
+          "usuario": {
+            "nome": "Fatima Hassan",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Alexandria",
+            "pais": "Egito"
+          },
+          "estrelas": 4,
+          "data": "2023-10-28",
+          "avaliacao": "Como egípcia, fiquei emocionada com o Museu Egípcio. Hotel com vista incrível. Passeio de camelo é imperdível.",
+          "tags": ["Museu Egípcio emocionante", "vista incrível", "camelo imperdível"]
+        },
+        {
+          "usuario": {
+            "nome": "Ricardo Gomes",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Esfinge de Gizé é surreal! História viva. Acordar com vista para as pirâmides é experiência única.",
+          "tags": ["Esfinge surreal", "história viva", "experiência única"]
+        },
+        {
+          "usuario": {
+            "nome": "Sarah Johnson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "Reino Unido"
+          },
+          "estrelas": 4,
+          "data": "2023-11-25",
+          "avaliacao": "Fascinating but very hot. Bring lots of water! Hotel view of pyramids is worth it. Egyptian breakfast interesting.",
+          "tags": ["very hot", "bring water", "view worth it"]
+        },
+        {
+          "usuario": {
+            "nome": "Ahmed Farouk",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Luxor",
+            "pais": "Egito"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Camel ride at sunset - unforgettable experience! Pyramids look magical in golden light. Hotel service excellent.",
+          "tags": ["unforgettable camel ride", "magical pyramids", "excellent service"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Egípcio (ful medames, pão, queijos)",
+          "horario": "06:00 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Árabe", "Inglês", "Francês"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+20 2 1234 5678",
+          "email": "reservations@pyramidsviewhotel.com",
+          "website": "www.pyramidsviewhotelcairo.com"
+        }
+      }
+    },
+    {
+      "id": 17,
+      "nome_hotel": "Paulista Business Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Av. Paulista, 2001 - Bela Vista, São Paulo - SP, 01311-300",
+        "cidade": "São Paulo",
+        "pais": "Brasil",
+        "latitude": -23.5558,
+        "longitude": -46.6605,
+        "coordenadas_gmaps": "-23.5558, -46.6605",
+        "google_maps_url": "https://www.google.com/maps?q=-23.5558,-46.6605"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Business center 24 horas",
+        "Academia moderna",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento coberto",
+        "Café da manhã executivo",
+        "Serviço de lavanderia",
+        "Meeting rooms",
+        "Transfer executivo (sobretaxa)"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Executivo",
+          "descricao": "Quarto moderno e funcional para executivos na Avenida Paulista",
+          "area_m2": 28,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Avenida Paulista ou cidade",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 48 polegadas",
+            "Escritório completo",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital para laptop",
+            "Telefone multilínhas",
+            "Ar condicionado individual",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Tomadas internacionais"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de alta pressão",
+            "tipo_chuveiro": "Chuveiro de chuva",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades executivas, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Camila Oliveira",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "Gastronomia incrível e vida noturna vibrante! Hotel bem localizado para negócios. Quarto confortável e silencioso.",
+          "tags": ["gastronomia incrível", "bem localizado", "quarto silencioso"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Silva",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Como paulistano, recomendo o Mercado Municipal e a Avenida Paulista. Hotel perfeito para trabalho e lazer.",
+          "tags": ["Mercado Municipal", "Avenida Paulista", "perfeito trabalho/lazer"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Costa",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Cidade enorme, precisa de planejamento para aproveitar bem. Hotel com excelente infraestrutura para trabalho.",
+          "tags": ["planejamento necessário", "excelente infra", "cidade enorme"]
+        },
+        {
+          "usuario": {
+            "nome": "Lucas Almeida",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belo Horizonte, MG",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "avaliacao": "MASP é imperdível! Acervo incrível. Hotel com localização perfeita para cultura e negócios.",
+          "tags": ["MASP imperdível", "acervo incrível", "localização perfeita"]
+        },
+        {
+          "usuario": {
+            "nome": "Patricia Santos",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Curitiba, PR",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-12",
+          "avaliacao": "Restaurantes de todos os cantos do mundo! Paraíso gastronômico. Hotel funcional para quem vem a trabalho.",
+          "tags": ["paraíso gastronômico", "hotel funcional", "todos os cantos"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Executivo (variedade paulistana)",
+          "horario": "06:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Português", "Inglês", "Espanhol"],
+        "estacionamento": "Sim (R$ 60/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Completa, quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
+        "contato": {
+          "telefone": "+55 11 2345-6789",
+          "email": "reservas@paulistabusiness.com.br",
+          "website": "www.paulistabusinesshotel.com.br"
+        }
+      }
+    },
+    {
+      "id": 18,
+      "nome_hotel": "Vancouver Bay Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "900 Canada Place Way, Vancouver, BC V6C 3L5",
+        "cidade": "Vancouver",
+        "pais": "Canadá",
+        "latitude": 49.2827,
+        "longitude": -123.1207,
+        "coordenadas_gmaps": "49.2827, -123.1207",
+        "google_maps_url": "https://www.google.com/maps?q=49.2827,-123.1207"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1647655806923-e8202f4f2b8c?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Academia moderna",
+        "Bicicletas para aluguel",
+        "Wi-Fi de alta velocidade",
+        "Business center",
+        "Serviço de concierge",
+        "Estacionamento (sobretaxa)",
+        "Café da manhã canadense",
+        "Serviço de lavanderia",
+        "Tour desk para Stanley Park"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para a Baía",
+          "descricao": "Quarto com vista para a Baía de Vancouver e montanhas",
+          "area_m2": 32,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size ou 2 camas queen",
+          "vista": "Baía de Vancouver e montanhas",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 50 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Tomadas norte-americanas e europeias"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira separada",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades canadenses, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "John Smith",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Toronto",
+            "pais": "Canadá"
+          },
+          "estrelas": 4,
+          "data": "2023-10-05",
+          "avaliacao": "Natureza deslumbrante e cidade limpa! Stanley Park é imperdível. Hotel bem localizado para explorar.",
+          "tags": ["natureza deslumbrante", "cidade limpa", "Stanley Park"]
+        },
+        {
+          "usuario": {
+            "nome": "Emily Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Vancouver",
+            "pais": "Canadá"
+          },
+          "estrelas": 5,
+          "data": "2023-11-18",
+          "avaliacao": "Stanley Park is massive and beautiful! Perfect for biking. Hotel has amazing bay views. Very clean and modern.",
+          "tags": ["massive park", "perfect biking", "amazing views"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Mendes",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "Capilano Suspension Bridge vale o preço. Vista incrível! Hotel com localização central e confortável.",
+          "tags": ["Capilano Bridge vale", "vista incrível", "localização central"]
+        },
+        {
+          "usuario": {
+            "nome": "Sarah Wilson",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Calgary",
+            "pais": "Canadá"
+          },
+          "estrelas": 5,
+          "data": "2023-11-25",
+          "avaliacao": "Whale watching tour was magical! Saw orcas! Hotel's breakfast with local products was delicious.",
+          "tags": ["magical whale watching", "saw orcas", "local breakfast"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Lima",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-15",
+          "avaliacao": "Cidade linda mas muito cara. A qualidade de vida é excelente. Hotel com vistas maravilhosas.",
+          "tags": ["cidade cara", "qualidade vida excelente", "vistas maravilhosas"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Canadense (produtos locais)",
+          "horario": "06:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Francês", "Mandarim"],
+        "estacionamento": "Sim (CA$ 45/dia)",
+        "pet_friendly": true,
+        "taxa_pet": "CA$ 30 por diária",
+        "acessibilidade": "Completa, quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+1 604-123-4567",
+          "email": "reservations@vancouverbayhotel.com",
+          "website": "www.vancouverbayhotel.com"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "nome_hotel": "Andes View Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Av. Providencia 1100, Providencia, Santiago",
+        "cidade": "Santiago",
+        "pais": "Chile",
+        "latitude": -33.4489,
+        "longitude": -70.6693,
+        "coordenadas_gmaps": "-33.4489, -70.6693",
+        "google_maps_url": "https://www.google.com/maps?q=-33.4489,-70.6693"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1549451371-64aa98a6f660?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "SPA com tratamentos andinos",
+        "Academia completa",
+        "Wi-Fi de alta velocidade",
+        "Business center",
+        "Estacionamento (gratuito)",
+        "Café da manhã chileno",
+        "Serviço de concierge",
+        "Tour desk para vinícolas",
+        "Transfer do aeroporto"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para os Andes",
+          "descricao": "Quarto com vista panorâmica para a Cordilheira dos Andes",
+          "area_m2": 35,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Cordilheira dos Andes",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 48 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Mesa de trabalho"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades chilenas, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Juan Pérez",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Santiago",
+            "pais": "Chile"
+          },
+          "estrelas": 4,
+          "data": "2023-11-28",
+          "avaliacao": "Vista dos Andes é impressionante! Vinho chileno excelente. Hotel bem localizado em Providencia.",
+          "tags": ["vista impressionante", "vinho excelente", "bem localizado"]
+        },
+        {
+          "usuario": {
+            "nome": "María González",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Valparaíso",
+            "pais": "Chile"
+          },
+          "estrelas": 5,
+          "data": "2023-12-12",
+          "avaliacao": "Los viñedos del Valle Central son maravillosos. ¡Vino excepcional! Hotel con vista increíble a la cordillera.",
+          "tags": ["viñedos maravillosos", "vino excepcional", "vista increíble"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Silva",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-15",
+          "avaliacao": "Cerro San Cristóbal tem vista panorâmica incrível da cidade. Hotel confortável e com bom café da manhã.",
+          "tags": ["Cerro San Cristóbal", "vista panorâmica", "bom café"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Mendes",
+            "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Porto Alegre, RS",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "avaliacao": "Show folclórico muito bom, mas o jantar poderia ser melhor. Vista dos Andes do quarto é deslumbrante.",
+          "tags": ["show folclórico bom", "jantar melhorável", "vista deslumbrante"]
+        },
+        {
+          "usuario": {
+            "nome": "David Miller",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Los Angeles, CA",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2023-12-20",
+          "avaliacao": "Chilean wine tasting was fantastic! Malbec is amazing. Andes view from the room is spectacular, especially at sunrise.",
+          "tags": ["fantastic wine tasting", "amazing Malbec", "spectacular sunrise"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Chileno (pan amasado, palta, huevos)",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Espanhol", "Inglês", "Português"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 3 dias antes",
+        "contato": {
+          "telefone": "+56 2 2345 6789",
+          "email": "reservas@andesviewhotel.cl",
+          "website": "www.andesviewhotelsantiago.com"
+        }
+      }
+    },
+    {
+      "id": 20,
+      "nome_hotel": "Jeri Eco Lodge",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Rua das Dunas, Jericoacoara - CE, 62598-000",
+        "cidade": "Jericoacoara",
+        "pais": "Brasil",
+        "latitude": -2.7933,
+        "longitude": -40.5128,
+        "coordenadas_gmaps": "-2.7933, -40.5128",
+        "google_maps_url": "https://www.google.com/maps?q=-2.7933,-40.5128"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Café da manhã regional",
+        "Wi-Fi nas áreas comuns",
+        "Rede para descanso",
+        "Aluguel de buggy (parceria)",
+        "Informações sobre trilhas",
+        "Estacionamento para buggy",
+        "Área de churrasco",
+        "Serviço de bagagem",
+        "Tour desk para passeios"
+      ],
+      "quartos": [
+        {
+          "tipo": "Chalé Rústico",
+          "descricao": "Chalé simples e rústico integrado ao ambiente natural de Jericoacoara",
+          "area_m2": 25,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size ou 2 camas individuais",
+          "vista": "Jardim ou dunas",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Ventilador de teto",
+            "Frigobar básico",
+            "Rede na varanda",
+            "Janelas com tela mosquiteiro",
+            "Iluminação solar",
+            "Tomadas 220V"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro básico",
+            "banheira": "Não",
+            "agua_quente": "Chuveiro elétrico",
+            "pressao": "Baixa pressão",
+            "amenidades": "Sabonete e shampoo básicos"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Bianca Costa",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Fortaleza, CE",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-09-15",
+          "avaliacao": "Pôr do sol na duna mais lindo do Brasil! Pousada rústica mas muito charmosa. Experiência autêntica.",
+          "tags": ["pôr do sol lindo", "pousada charmosa", "experiência autêntica"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Eduardo",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Jericoacoara, CE",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-10-08",
+          "avaliacao": "Buggy pelas dunas é adrenalina pura! Lagoas paradisíacas. Pousada ajuda com os melhores passeios.",
+          "tags": ["buggy adrenalina", "lagoas paradisíacas", "melhores passeios"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Lima",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-11-22",
+          "avaliacao": "Paraíso ecológico, mas a estrutura é rústica (faz parte do charme!). Leve lanterna para a noite.",
+          "tags": ["paraíso ecológico", "estrutura rústica", "leve lanterna"]
+        },
+        {
+          "usuario": {
+            "nome": "Rafael Santos",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Brasília, DF",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Pedra Furada no pôr do sol é cena de filme! Pousada simples mas muito acolhedora. Natureza preservada.",
+          "tags": ["Pedra Furada cena filme", "pousada acolhedora", "natureza preservada"]
+        },
+        {
+          "usuario": {
+            "nome": "Amanda Souza",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Kitesurf excelente, mas instrutores caros. Pousada básica mas limpa. Vale pela experiência única.",
+          "tags": ["kitesurf excelente", "instrutores caros", "experiência única"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Regional nordestino",
+          "horario": "07:00 - 09:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": ["Português"],
+        "estacionamento": "Sim (para buggy)",
+        "pet_friendly": true,
+        "acessibilidade": "Muito limitada (areia e terreno irregular)",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+55 88 3669-1234",
+          "email": "contato@jeriecolodge.com.br",
+          "website": "www.jeriecolodge.com.br"
+        }
+      }
+    },
+    {
+      "id": 21,
+      "nome_hotel": "Sultanahmet Palace Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Sultanahmet Mahallesi, Ayasofya Meydanı No:5, 34122 Fatih/İstanbul",
+        "cidade": "Istambul",
+        "pais": "Turquia",
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "coordenadas_gmaps": "41.0082, 28.9784",
+        "google_maps_url": "https://www.google.com/maps?q=41.0082,28.9784"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista para o Bósforo",
+        "Café da manhã turco completo",
+        "Wi-Fi de alta velocidade",
+        "SPA com hamam tradicional",
+        "Serviço de concierge",
+        "Tour desk especializado",
+        "Estacionamento (sobretaxa)",
+        "Serviço de bagagem",
+        "Restaurante com vista"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Bósforo",
+          "descricao": "Quarto elegante com vista para o Bósforo e principais monumentos de Sultanahmet",
+          "area_m2": 32,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size ou 2 camas individuais",
+          "vista": "Bósforo e cidade histórica",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 48 polegadas",
+            "Frigobar",
+            "Cafeteira turca",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Chinelos para hamam"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro tradicional",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Não (mas acesso a hamam)",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades turcas, secador profissional, chinelos hamam"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Mehmet Yılmaz",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Istambul",
+            "pais": "Turquia"
+          },
+          "estrelas": 5,
+          "data": "2023-10-10",
+          "avaliacao": "Cidade fascinante onde Oriente e Ocidente se encontram! Vista do Bósforo é espetacular. Hamam tradicional incrível.",
+          "tags": ["cidade fascinante", "vista espetacular", "hamam incrível"]
+        },
+        {
+          "usuario": {
+            "nome": "Ayşe Demir",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Ancara",
+            "pais": "Turquia"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Hagia Sophia ve Blue Mosque görülmeye değer! Hotel konumu mükemmel. Geleneksel Türk kahvaltısı harika.",
+          "tags": ["Hagia Sophia", "konum mükemmel", "kahvaltı harika"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Alves",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "avaliacao": "Grand Bazaar é imenso! Leve tempo para explorar. Hotel com vista incrível e café da manhã delicioso.",
+          "tags": ["Grand Bazaar imenso", "vista incrível", "café delicioso"]
+        },
+        {
+          "usuario": {
+            "nome": "Sophia Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Hong Kong",
+            "pais": "China"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Bosphorus cruise at sunset - absolutely magical! Turkish breakfast was incredible. Hagia Sophia takes your breath away.",
+          "tags": ["magical cruise", "incredible breakfast", "breathtaking"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Mendes",
+            "foto": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Comida turca deliciosa! Baklava imperdível. Vista do hotel é linda, mas prepare-se para andar muito.",
+          "tags": ["comida deliciosa", "baklava imperdível", "muito andar"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Turco completo (çay, peynir, zeytin)",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Turco", "Inglês", "Árabe", "Russo"],
+        "estacionamento": "Sim (€25/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada (edifício histórico)",
+        "politica_cancelamento": "Cancelamento gratuito até 3 dias antes",
+        "contato": {
+          "telefone": "+90 212 123 4567",
+          "email": "info@sultanahmetpalace.com",
+          "website": "www.sultanahmetpalacehotel.com"
+        }
+      }
+    },
+    {
+      "id": 22,
+      "nome_hotel": "Ocean Drive Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "1200 Ocean Dr, Miami Beach, FL 33139",
+        "cidade": "Miami",
+        "pais": "EUA",
+        "latitude": 25.7825,
+        "longitude": -80.1307,
+        "coordenadas_gmaps": "25.7825, -80.1307",
+        "google_maps_url": "https://www.google.com/maps?q=25.7825,-80.1307"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina com vista para Ocean Drive",
+        "Academia moderna",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento valet",
+        "Café da manhã americano",
+        "Bar à beira da piscina",
+        "Serviço de praia",
+        "Tour desk"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Oceano",
+          "descricao": "Quarto moderno com vista para o Oceano Atlântico e Art Deco District",
+          "area_m2": 30,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Oceano Atlântico e Ocean Drive",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 50 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Tomadas americanas"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira separada",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades premium, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Jennifer Lopez",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Miami, FL",
+            "pais": "USA"
+          },
+          "estrelas": 4,
+          "data": "2023-11-25",
+          "avaliacao": "Praias incríveis e vida noturna eletrizante! Hotel bem localizado em South Beach. Piscina com vista linda.",
+          "tags": ["praias incríveis", "vida noturna", "piscina vista"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Rodriguez",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Miami, FL",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2023-12-10",
+          "avaliacao": "South Beach art deco architecture is stunning! Perfect location for beach and nightlife. Breakfast could be better.",
+          "tags": ["art deco stunning", "perfect location", "breakfast better"]
+        },
+        {
+          "usuario": {
+            "nome": "Amanda Silva",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Passeio de barco pelas ilhas foi o ponto alto! Hotel moderno e confortável. Localização perfeita em Miami Beach.",
+          "tags": ["passeio barco", "hotel moderno", "localização perfeita"]
+        },
+        {
+          "usuario": {
+            "nome": "Michael Brown",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "New York, NY",
+            "pais": "USA"
+          },
+          "estrelas": 4,
+          "data": "2023-11-15",
+          "avaliacao": "Great beaches but very expensive restaurants. Hotel has amazing ocean views. Art Deco tour was interesting.",
+          "tags": ["expensive restaurants", "amazing views", "interesting tour"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Lima",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Celebrity restaurant experience was worth every penny! Miami é pura energia. Hotel com estilo e conforto.",
+          "tags": ["restaurante celebridade", "Miami energia", "estilo e conforto"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "16:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Americano (variedade)",
+          "horario": "07:00 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Espanhol", "Português"],
+        "estacionamento": "Valet (US$ 45/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 72 horas antes",
+        "contato": {
+          "telefone": "+1 305-123-4567",
+          "email": "reservations@oceandrivehotel.com",
+          "website": "www.oceandrivehotelmiami.com"
+        }
+      }
+    },
+    {
+      "id": 23,
+      "nome_hotel": "Bangkok Riverside Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "257 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
+        "cidade": "Bangkok",
+        "pais": "Tailândia",
+        "latitude": 13.7246,
+        "longitude": 100.4930,
+        "coordenadas_gmaps": "13.7246, 100.4930",
+        "google_maps_url": "https://www.google.com/maps?q=13.7246,100.4930"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Piscina com vista para o rio Chao Phraya",
+        "SPA tailandês tradicional",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento gratuito",
+        "Café da manhã tailandês e internacional",
+        "Bar rooftop",
+        "Serviço de ferry para pier",
+        "Tour desk"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Rio",
+          "descricao": "Quarto elegante com vista para o rio Chao Phraya e skyline de Bangkok",
+          "area_m2": 35,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size ou 2 camas queen",
+          "vista": "Rio Chao Phraya",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 48 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Tomadas internacionais"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira separada",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades tailandesas, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Somchai Wong",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Bangkok",
+            "pais": "Tailândia"
+          },
+          "estrelas": 4,
+          "data": "2023-10-28",
+          "avaliacao": "Templos magníficos e comida de rua deliciosa! Vista do rio é relaxante. Hotel bem localizado para templos.",
+          "tags": ["templos magníficos", "comida rua", "vista relaxante"]
+        },
+        {
+          "usuario": {
+            "nome": "Nicha Srisuk",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Chiang Mai",
+            "pais": "Tailândia"
+          },
+          "estrelas": 5,
+          "data": "2023-11-20",
+          "avaliacao": "Wat Arun at sunset is breathtaking! True Thai beauty. Hotel's river view rooms are worth the upgrade.",
+          "tags": ["Wat Arun sunset", "Thai beauty", "worth upgrade"]
+        },
+        {
+          "usuario": {
+            "nome": "Ricardo Almeida",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-12",
+          "avaliacao": "Canais de Bangkok são fascinantes, mas água não é muito limpa. Hotel com vista linda e piscina ótima.",
+          "tags": ["canais fascinantes", "água não limpa", "piscina ótima"]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Wilson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "avaliacao": "Thai massage was heavenly! Best $15 ever spent. Floating market tour was incredible experience.",
+          "tags": ["heavenly massage", "best value", "incredible experience"]
+        },
+        {
+          "usuario": {
+            "nome": "Pedro Costa",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Calor intenso, mas os templos valem o desconforto. Hotel com ar condicionado potente e vista incrível.",
+          "tags": ["calor intenso", "templos valem", "ar condicionado potente"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Tailandês e internacional",
+          "horario": "06:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Tailandês", "Inglês", "Chinês"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+66 2 123 4567",
+          "email": "reservations@bangkokriverside.com",
+          "website": "www.bangkokriversidehotel.com"
+        }
+      }
+    },
+    {
+      "id": 24,
+      "nome_hotel": "Gramado Suíço Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Rua Garibaldi, 500 - Centro, Gramado - RS, 95670-000",
+        "cidade": "Gramado",
+        "pais": "Brasil",
+        "latitude": -29.3735,
+        "longitude": -50.8760,
+        "coordenadas_gmaps": "-29.3735, -50.8760",
+        "google_maps_url": "https://www.google.com/maps?q=-29.3735,-50.8760"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1544716278-e513176f20b5?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Lareira no lobby",
+        "Chocolate quente gratuito",
+        "Wi-Fi gratuito",
+        "Estacionamento coberto",
+        "Café da manhã colonial",
+        "SPA com produtos naturais",
+        "Serviço de concierge",
+        "Tour desk para atrações",
+        "Área kids"
+      ],
+      "quartos": [
+        {
+          "tipo": "Suíte Temática",
+          "descricao": "Suíte temática com decoração alpina e lareira a lenha",
+          "area_m2": 40,
+          "capacidade": "2 adultos + 1 criança",
+          "camas": "1 cama king size + 1 sofá-cama",
+          "vista": "Jardins ou montanhas",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 42\"",
+            "Lareira a lenha",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado quente/frio",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de alta pressão",
+            "tipo_chuveiro": "Chuveiro de chuva",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades naturais, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Paula Schmidt",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Porto Alegre, RS",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-20",
+          "avaliacao": "Clima romântico e chocolates divinos! Lareira no quarto é aconchegante. Café colonial maravilhoso.",
+          "tags": ["clima romântico", "chocolates divinos", "café colonial"]
+        },
+        {
+          "usuario": {
+            "nome": "Hans Müller",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Gramado, RS",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Wie im Schwarzwald! Perfektes deutsches Essen. Das Hotel hat echten Alpen-Charme. Sehr gemütlich!",
+          "tags": ["wie Schwarzwald", "perfektes Essen", "Alpen-Charme"]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Santos",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Curitiba, PR",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "Mini Mundo encanta crianças e adultos! Detalhes incríveis. Hotel muito aconchegante, perfeito para o frio.",
+          "tags": ["Mini Mundo", "detalhes incríveis", "aconchegante frio"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Alves",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Fábricas de chocolate são paraíso para os doces! Hotel temático muito bem feito. Experiência europeia no Brasil.",
+          "tags": ["fábricas chocolate", "hotel temático", "experiência europeia"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Lima",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belo Horizonte, MG",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-15",
+          "avaliacao": "Frio intenso em junho, mas o chocolate quente ajuda! Hotel muito charmoso e bem localizado.",
+          "tags": ["frio intenso", "chocolate quente", "charmoso localizado"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Colonial gaúcho",
+          "horario": "07:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Português", "Alemão", "Inglês"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": true,
+        "taxa_pet": "R$ 50 por diária",
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+55 54 3286-1234",
+          "email": "reservas@gramadosuico.com.br",
+          "website": "www.gramadosuicohotel.com.br"
+        }
+      }
+    },
+    {
+      "id": 25,
+      "nome_hotel": "Venice Canal Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Fondamenta della Misericordia, 2519, 30121 Venezia VE",
+        "cidade": "Veneza",
+        "pais": "Itália",
+        "latitude": 45.4408,
+        "longitude": 12.3155,
+        "coordenadas_gmaps": "45.4408, 12.3155",
+        "google_maps_url": "https://www.google.com/maps?q=45.4408,12.3155"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Acesso privativo ao canal",
+        "Café da manhã veneziano",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Check-in privativo",
+        "Tour de gôndola exclusivo",
+        "Serviço de bagagem",
+        "Aluguel de máscaras de carnaval",
+        "Restaurante com vista para o canal"
+      ],
+      "quartos": [
+        {
+          "tipo": "Suíte com Vista para o Canal",
+          "descricao": "Suíte elegante com vista direta para o canal e arquitetura veneziana tradicional",
+          "area_m2": 28,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Canal veneziano",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 42 polegadas",
+            "Frigobar",
+            "Máquina de espresso",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda sobre o canal",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Máscara veneziana decorativa"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades de luxo italianas, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Marco Rossi",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Veneza",
+            "pais": "Itália"
+          },
+          "estrelas": 5,
+          "data": "2023-10-15",
+          "avaliacao": "Passeio de gôndola é romântico e único! Hotel com charme histórico. Acordar vendo o canal é mágico.",
+          "tags": ["gôndola romântica", "charme histórico", "vista mágica"]
+        },
+        {
+          "usuario": {
+            "nome": "Sophia Bianchi",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Milão",
+            "pais": "Itália"
+          },
+          "estrelas": 4,
+          "data": "2023-11-20",
+          "avaliacao": "Carnevale di Venezia è magico! Le maschere sono bellissime. Hotel incantevole ma prezzo alto.",
+          "tags": ["Carnevale magico", "maschere bellissime", "prezzo alto"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Mendes",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Cidade flutuante é surreal! Gôndolas, canais, arquitetura única. Hotel com localização perfeita.",
+          "tags": ["cidade flutuante", "arquitetura única", "localização perfeita"]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Johnson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 4,
+          "data": "2023-11-28",
+          "avaliacao": "Very crowded but absolutely magical. Gondola ride at sunset unforgettable. Hotel's canal view priceless.",
+          "tags": ["crowded magical", "sunset unforgettable", "view priceless"]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Paula",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Acqua alta foi uma experiência! Hotel bem preparado com botas. Veneza é um sonho realizado.",
+          "tags": ["acqua alta experiência", "hotel preparado", "sonho realizado"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Veneziano (café, pasticcini)",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Italiano", "Inglês", "Francês"],
+        "estacionamento": "Não disponível (apenas aquático)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada (pontes e degraus)",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+39 041 123 4567",
+          "email": "info@venicecanalhotel.com",
+          "website": "www.venicecanalhotel.com"
+        }
+      }
+    },
+    {
+      "id": 26,
+      "nome_hotel": "Kyoto Ryokan Inn",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "605 Higashiyama Ward, Kyoto, 605-0826",
+        "cidade": "Quioto",
+        "pais": "Japão",
+        "latitude": 35.0116,
+        "longitude": 135.7681,
+        "coordenadas_gmaps": "35.0116, 135.7681",
+        "google_maps_url": "https://www.google.com/maps?q=35.0116,135.7681"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1528164344705-47542687000d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1528164344705-47542687000d?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Jardim japonês tradicional",
+        "Onsen privativo",
+        "Wi-Fi gratuito",
+        "Cerimônia do chá diária",
+        "Quartos com tatami",
+        "Yukata fornecido",
+        "Café da manhã kaiseki",
+        "Serviço de concierge",
+        "Tour de templos"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Tradicional Japonês",
+          "descricao": "Quarto estilo ryokan com tatami, futon e vista para jardim japonês",
+          "area_m2": 25,
+          "capacidade": "2 adultos",
+          "camas": "Futon japonês",
+          "vista": "Jardim japonês",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana",
+            "Frigobar",
+            "Conjunto para chá japonês",
+            "Cofre digital",
+            "Yukata e geta",
+            "Ar condicionado",
+            "Varanda com vista para jardim",
+            "Área de tatami",
+            "Futon tradicional",
+            "Tabuleiro de go"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro japonês",
+            "tipo_chuveiro": "Chuveiro sentado",
+            "banheira": "Ofuro (banheira japonesa)",
+            "agua_quente": true,
+            "pressao": "Média",
+            "amenidades": "Amenidades japonesas, yukata, produtos naturais"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Yuki Tanaka",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Quioto",
+            "pais": "Japão"
+          },
+          "estrelas": 5,
+          "data": "2023-11-10",
+          "avaliacao": "Templos serenos e cerejeiras deslumbrantes! Onsen relaxante após caminhadas. Ryokan autêntico e pacífico.",
+          "tags": ["templos serenos", "cerejeiras deslumbrantes", "ryokan autêntico"]
+        },
+        {
+          "usuario": {
+            "nome": "Haruto Sato",
+            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Tóquio",
+            "pais": "Japão"
+          },
+          "estrelas": 5,
+          "data": "2023-12-01",
+          "avaliacao": "Gion matsuri festival was spectacular! Maiko spotting in historic district. Traditional kaiseki meal exquisite.",
+          "tags": ["Gion matsuri", "maiko spotting", "kaiseki exquisite"]
+        },
+        {
+          "usuario": {
+            "nome": "Luiz Takahashi",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-15",
+          "avaliacao": "Fushimi Inari com mil portões vermelhos é impressionante! Ryokan muito autêntico, mas futon dura para costas.",
+          "tags": ["Fushimi Inari", "portões vermelhos", "futom duro"]
+        },
+        {
+          "usuario": {
+            "nome": "Sarah Miller",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Nova York, NY",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2023-11-25",
+          "avaliacao": "Arashiyama bamboo grove is magical! Tea ceremony was serene experience. Onsen healed hiking fatigue.",
+          "tags": ["bamboo grove magical", "tea ceremony serene", "onsen healing"]
+        },
+        {
+          "usuario": {
+            "nome": "Ricardo Kimura",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Curitiba, PR",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-10",
+          "avaliacao": "Culinária japonesa autêntica incomparável! Templos de Quioto são patrimônio mundial. Experiência cultural profunda.",
+          "tags": ["culinária autêntica", "patrimônio mundial", "experiência cultural"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "10:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Kaiseki tradicional",
+          "horario": "07:30 - 09:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o ryokan"
+        },
+        "idiomas": ["Japonês", "Inglês"],
+        "estacionamento": "Sim (limitado)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada (tatami e degraus)",
+        "politica_cancelamento": "Cancelamento gratuito até 14 dias antes",
+        "contato": {
+          "telefone": "+81 75-123-4567",
+          "email": "info@kyotoryokaninn.jp",
+          "website": "www.kyotoryokaninn.jp"
+        }
+      }
+    },
+    {
+      "id": 27,
+      "nome_hotel": "Dubai Desert Resort",
+      "categoria": "5 estrelas",
+      "localizacao": {
+        "endereco": "Al Ain Road, Exit 50, Dubai, Emirados Árabes",
+        "cidade": "Dubai",
+        "pais": "Emirados Árabes Unidos",
+        "latitude": 24.9621,
+        "longitude": 55.2725,
+        "coordenadas_gmaps": "24.9621, 55.2725",
+        "google_maps_url": "https://www.google.com/maps?q=24.9621,55.2725"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Safári no deserto",
+        "Piscina infinita",
+        "Wi-Fi de alta velocidade",
+        "SPA de luxo",
+        "Restaurante gourmet",
+        "Academia completa",
+        "Serviço de concierge 24h",
+        "Passeio de camelo",
+        "Show cultural beduíno"
+      ],
+      "quartos": [
+        {
+          "tipo": "Villa no Deserto",
+          "descricao": "Villa privativa com piscina particular e vista para as dunas",
+          "area_m2": 120,
+          "capacidade": "2 adultos + 2 crianças",
+          "camas": "1 cama king size",
+          "vista": "Deserto do Dubai",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 65 polegadas",
+            "Sistema de som premium",
+            "Frigobar abastecido",
+            "Máquina de espresso",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Piscina privativa",
+            "Área de jantar externa",
+            "Churrasqueira"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva duplo",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Banheira de hidromassagem",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades de luxo, secador profissional, produtos premium"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Ahmed Al Mansoori",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Dubai",
+            "pais": "EAU"
+          },
+          "estrelas": 5,
+          "data": "2023-11-20",
+          "avaliacao": "Burj Khalifa é impressionante! Vista do topo incrível. Resort no deserto oferece experiência autêntica.",
+          "tags": ["Burj Khalifa", "vista incrível", "experiência autêntica"]
+        },
+        {
+          "usuario": {
+            "nome": "Fatima Rahman",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Abu Dhabi",
+            "pais": "EAU"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Desert safari at sunset - absolutely breathtaking! Traditional Bedouin dinner under stars magical.",
+          "tags": ["desert safari", "sunset breathtaking", "Bedouin dinner"]
+        },
+        {
+          "usuario": {
+            "nome": "José Silva",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "avaliacao": "Calor extremo no verão, mas shoppings são gelados! Resort luxuoso, safari emocionante. Dubai é extremos.",
+          "tags": ["calor extremo", "shoppings gelados", "luxo e aventura"]
+        },
+        {
+          "usuario": {
+            "nome": "Emily Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Singapura",
+            "pais": "Singapura"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "avaliacao": "Shopping malls are cities within cities! Ski Dubai surreal experience. Desert resort pure luxury.",
+          "tags": ["malls are cities", "Ski Dubai surreal", "pure luxury"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Santos",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-12",
+          "avaliacao": "Jantar no deserto com show beduíno inesquecível! Resort com piscina infinita nas dunas. Luxo absoluto.",
+          "tags": ["jantar deserto", "show beduíno", "luxo absoluto"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Buffet internacional",
+          "horario": "06:30 - 11:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o resort"
+        },
+        "idiomas": ["Árabe", "Inglês", "Francês", "Russo"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Totalmente acessível",
+        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
+        "contato": {
+          "telefone": "+971 4 123 4567",
+          "email": "reservations@dubaidesertresort.ae",
+          "website": "www.dubaidesertresort.ae"
+        }
+      }
+    },
+    {
+      "id": 28,
+      "nome_hotel": "Amazônia Jungle Lodge",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Rio Negro, Amazonas, 69000-000",
+        "cidade": "Manaus",
+        "pais": "Brasil",
+        "latitude": -3.1190,
+        "longitude": -60.0217,
+        "coordenadas_gmaps": "-3.1190, -60.0217",
+        "google_maps_url": "https://www.google.com/maps?q=-3.1190,-60.0217"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Passeios de barco na selva",
+        "Observação de animais selvagens",
+        "Alimentação incluída",
+        "Guias especializados",
+        "Wi-Fi limitado",
+        "Encontros com comunidades locais",
+        "Pesca de piranha",
+        "Caminhadas na floresta",
+        "Observação de botos"
+      ],
+      "quartos": [
+        {
+          "tipo": "Bangalô na Floresta",
+          "descricao": "Bangalô rústico sobre palafitas com rede e vista para a floresta",
+          "area_m2": 20,
+          "capacidade": "2 adultos",
+          "camas": "1 cama de casal",
+          "vista": "Floresta Amazônica",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Ventilador",
+            "Rede na varanda",
+            "Lâmpada solar",
+            "Mosquiteiro",
+            "Cofre básico",
+            "Água potável",
+            "Varanda com vista",
+            "Janelas com tela",
+            "Piso de madeira",
+            "Prateleiras"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro simples",
+            "tipo_chuveiro": "Chuveiro manual",
+            "banheira": "Não",
+            "agua_quente": "Limitada (solar)",
+            "pressao": "Baixa",
+            "amenidades": "Sabonete natural, shampoo ecológico"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "João Silva",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Manaus, AM",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-11-15",
+          "avaliacao": "Encontro das Águas é fenômeno único! Vida selvagem impressionante. Lodge rústico mas autêntico.",
+          "tags": ["Encontro das Águas", "vida selvagem", "autêntico"]
+        },
+        {
+          "usuario": {
+            "nome": "Maria Oliveira",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belém, PA",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-08",
+          "avaliacao": "Calor e umidade intensos, mas experiência vale! Ver botos cor-de-rosa emocionante. Comida regional deliciosa.",
+          "tags": ["calor intenso", "botos cor-de-rosa", "comida regional"]
+        },
+        {
+          "usuario": {
+            "nome": "David Müller",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Berlim",
+            "pais": "Alemanha"
+          },
+          "estrelas": 5,
+          "data": "2023-11-28",
+          "avaliacao": "Amazon rainforest is lungs of Earth! Wildlife spotting incredible. Basic lodge but authentic experience.",
+          "tags": ["lungs of Earth", "wildlife incredible", "authentic experience"]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Costa",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-20",
+          "avaliacao": "Muitos mosquitos, leve repelente! Comunidade ribeirinha visita enriquecedora. Passeio noturno assustador mas incrível.",
+          "tags": ["muitos mosquitos", "comunidade ribeirinha", "passeio noturno"]
+        },
+        {
+          "usuario": {
+            "nome": "Takashi Yamamoto",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Tóquio",
+            "pais": "Japão"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Meeting of Waters unbelievable natural phenomenon! Indigenous community visit very humbling. Basic but meaningful.",
+          "tags": ["natural phenomenon", "humbling visit", "meaningful experience"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "12:00",
+        "check_out": "10:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Regional (frutas, tapioca)",
+          "horario": "06:00 - 08:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": ["Português", "Inglês básico", "Espanhol"],
+        "estacionamento": "Não aplicável",
+        "pet_friendly": false,
+        "acessibilidade": "Não acessível",
+        "politica_cancelamento": "Cancelamento gratuito até 30 dias antes",
+        "contato": {
+          "telefone": "+55 92 1234-5678",
+          "email": "contato@amazonialodge.com.br",
+          "website": "www.amazoniajunglelodge.com.br"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "nome_hotel": "Sydney Harbour Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "5 Hickson Rd, The Rocks NSW 2000",
+        "cidade": "Sydney",
+        "pais": "Austrália",
+        "latitude": -33.8568,
+        "longitude": 151.2153,
+        "coordenadas_gmaps": "-33.8568, 151.2153",
+        "google_maps_url": "https://www.google.com/maps?q=-33.8568,151.2153"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista para Sydney Opera House",
+        "Piscina rooftop",
+        "Wi-Fi de alta velocidade",
+        "Academia moderna",
+        "Restaurante com vista",
+        "Serviço de concierge",
+        "Tour desk",
+        "Café da manhã australiano",
+        "Bar no terraço"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para a Ópera",
+          "descricao": "Quarto moderno com vista direta para a Sydney Opera House e Harbour Bridge",
+          "area_m2": 32,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size",
+          "vista": "Sydney Opera House e Harbour Bridge",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 55 polegadas",
+            "Frigobar",
+            "Máquina de café",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Tomadas australianas"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro de chuva",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Amenidades australianas, secador profissional"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Jack Wilson",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Sydney",
+            "pais": "Austrália"
+          },
+          "estrelas": 5,
+          "data": "2023-11-25",
+          "avaliacao": "Sydney Opera House é icônico! Visto do hotel perfeito. Bondi Beach ótima para surfar.",
+          "tags": ["Opera House icônico", "vista perfeita", "Bondi Beach surf"]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Thompson",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Melbourne",
+            "pais": "Austrália"
+          },
+          "estrelas": 4,
+          "data": "2023-12-10",
+          "avaliacao": "Harbour Bridge climb was exhilarating! Hotel location perfect for NYE fireworks. Australian breakfast delicious.",
+          "tags": ["Bridge climb", "perfect NYE location", "delicious breakfast"]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Pereira",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "avaliacao": "Vida selvagem única! Cangurus e coalas encantadores. Hotel com vista espetacular para a baía.",
+          "tags": ["vida selvagem única", "cangurus coalas", "vista espetacular"]
+        },
+        {
+          "usuario": {
+            "nome": "Lisa Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Hong Kong",
+            "pais": "China"
+          },
+          "estrelas": 4,
+          "data": "2023-11-30",
+          "avaliacao": "Very expensive but amazing views! Blue Mountains day trip worthwhile. Hotel service excellent.",
+          "tags": ["expensive amazing", "Blue Mountains trip", "service excellent"]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Santos",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Brasília, DF",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "avaliacao": "Great Barrier Reef é maravilha natural! Hotel em Sydney com localização perfeita para todos os passeios.",
+          "tags": ["Great Barrier Reef", "maravilha natural", "localização perfeita"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Australiano (vegemite, avocado toast)",
+          "horario": "06:30 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Inglês", "Mandarim", "Japonês"],
+        "estacionamento": "Sim (AU$ 55/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Totalmente acessível",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+61 2 1234 5678",
+          "email": "reservations@sydneyharbourhotel.com.au",
+          "website": "www.sydneyharbourhotel.com.au"
+        }
+      }
+    },
+    {
+      "id": 30,
+      "nome_hotel": "Cairo Pyramid View Hotel",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Pyramids Rd, Giza, Cairo Governorate, Egito",
+        "cidade": "Cairo",
+        "pais": "Egito",
+        "latitude": 29.9792,
+        "longitude": 31.1342,
+        "coordenadas_gmaps": "29.9792, 31.1342",
+        "google_maps_url": "https://www.google.com/maps?q=29.9792,31.1342"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista direta para as Pirâmides",
+        "Piscina com vista",
+        "Wi-Fi gratuito",
+        "Restaurante egípcio",
+        "Tour desk especializado",
+        "Serviço de concierge",
+        "Café da manhã egípcio",
+        "Loja de souvenirs",
+        "Transfer para atrações"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para as Pirâmides",
+          "descricao": "Quarto temático egípcio com vista direta para as Grandes Pirâmides de Gizé",
+          "area_m2": 30,
+          "capacidade": "2 adultos",
+          "camas": "1 cama king size ou 2 camas individuais",
+          "vista": "Pirâmides de Gizé",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos",
+            "Decoração temática egípcia"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro tradicional",
+            "tipo_chuveiro": "Chuveiro de média pressão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Média",
+            "amenidades": "Amenidades básicas, secador"
+          }
+        }
+      ],
+      "avaliacoes": [
+        {
+          "usuario": {
+            "nome": "Mohamed Hassan",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Cairo",
+            "pais": "Egito"
+          },
+          "estrelas": 5,
+          "data": "2023-11-10",
+          "avaliacao": "Pirâmides de Gizé são impressionantes! Hotel com vista direta. Museu Egípcio fascinante.",
+          "tags": ["Pirâmides impressionantes", "vista direta", "Museu fascinante"]
+        },
+        {
+          "usuario": {
+            "nome": "Aisha Farouk",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Alexandria",
+            "pais": "Egito"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "avaliacao": "Nile cruise at sunset magical! Hotel view of pyramids incredible. Bargaining in Khan el-Khalili fun.",
+          "tags": ["Nile cruise magical", "pyramid view", "bargaining fun"]
+        },
+        {
+          "usuario": {
+            "nome": "Ricardo Oliveira",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-15",
+          "avaliacao": "Civilização egípcia antiga fascinante! Esfinge misteriosa. Hotel simples mas com vista inesquecível.",
+          "tags": ["civilização fascinante", "Esfinge misteriosa", "vista inesquecível"]
+        },
+        {
+          "usuario": {
+            "nome": "Sarah Johnson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 4,
+          "data": "2023-11-25",
+          "avaliacao": "Extremely hot in summer but pyramids worth it! Camel ride touristy but fun. Hotel basic but view amazing.",
+          "tags": ["extremely hot", "camels touristy", "view amazing"]
+        },
+        {
+          "usuario": {
+            "nome": "Fernando Costa",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 5,
+          "data": "2023-12-08",
+          "avaliacao": "Tesouros de Tutancâmon deslumbrantes! Cruzeiro no Nilo relaxante. Acordar vendo as pirâmides é surreal.",
+          "tags": ["Tesouros Tutancâmon", "cruzeiro Nilo", "acordar surreal"]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Egípcio (ful medames, pão pita)",
+          "horario": "06:00 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": ["Árabe", "Inglês", "Francês"],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": false,
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+20 2 1234 5678",
+          "email": "info@cairopyramidview.com",
+          "website": "www.cairopyramidviewhotel.com"
+        }
+      }
+    }
+  ]
+}

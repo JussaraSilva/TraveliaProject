@@ -6,8 +6,8 @@ import {View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 interface HeaderGlobalProps {
   titlePage: string
-  leftIcon?: React.ReactNode
-  rightIcon?: React.ReactNode
+  leftIcons?: React.ReactNode[];
+  rightIcons?: React.ReactNode[];
   onPressLeftIcon?: () => void
   onPressRightIcon?: () => void
 }
@@ -15,8 +15,8 @@ interface HeaderGlobalProps {
 
 export default function HeaderGlobal({
   titlePage,
-  leftIcon,
-  rightIcon,
+  leftIcons,
+  rightIcons,
   onPressLeftIcon,
   onPressRightIcon
 }: HeaderGlobalProps) {
@@ -30,12 +30,16 @@ export default function HeaderGlobal({
 
         {/* ESQUERDA */}
         <View style={styles.sideContainer}>
-          {leftIcon && (
-            <TouchableOpacity onPress={onPressLeftIcon}>
-              {leftIcon}
+          {leftIcons?.map((icon, index) => (
+            <TouchableOpacity key={index} style={styles.iconButton}
+              onPress={onPressLeftIcon}
+              disabled={!onPressLeftIcon}
+            >
+              {icon}
             </TouchableOpacity>
-          )}
+          ))}
         </View>
+
 
         {/* CENTRO */}
         <View style={styles.containerTextHeader}>
@@ -44,12 +48,16 @@ export default function HeaderGlobal({
 
         {/* DIREITA */}
         <View style={styles.sideContainer}>
-          {rightIcon && (
-            <TouchableOpacity onPress={onPressRightIcon}>
-              {rightIcon}
+          {rightIcons?.map((icon, index) => (
+            <TouchableOpacity key={index} style={styles.iconButton}
+              onPress={onPressRightIcon}
+              disabled={!onPressRightIcon}
+            >
+              {icon}
             </TouchableOpacity>
-          )}
+          ))}
         </View>
+
 
       </View>
     </View>
@@ -78,6 +86,8 @@ const createStyles = (theme: ThemeName) =>
   },
   
   containerTextHeader: {
+    flex: 1,
+    alignItems: 'center',
     flexDirection: 'column',
     justifyContent: 'center',
     gap: 5,
@@ -91,7 +101,15 @@ const createStyles = (theme: ThemeName) =>
   
   
   sideContainer: {
-    width: 40, // reserva espaço fixo
+    width: 80,          // espaço pra até 2 ícones
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    gap: 12,
+  },
+
+
+  iconButton: {
     alignItems: 'center',
     justifyContent: 'center',
   },

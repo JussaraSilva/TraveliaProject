@@ -88,8 +88,8 @@ export default function TripDetails() {
       <View style={styles.containerHeader}>
         <HeaderGlobal
           titlePage='My Trip'
-          leftIcon={<CaretLeftIcon size={28} />}
-          rightIcon={<DotsThreeVerticalIcon size={28} />}
+          leftIcons={[<CaretLeftIcon key="back" size={28} />]}
+          rightIcons={[<DotsThreeVerticalIcon key="options" size={28} />]}
           onPressLeftIcon={() => {
             router.back();
           }}

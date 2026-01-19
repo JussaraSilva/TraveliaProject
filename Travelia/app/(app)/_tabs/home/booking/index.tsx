@@ -119,7 +119,7 @@ return (
     <View style={styles.containerHeader}>
       <HeaderGlobal
         titlePage="Booking Details"
-        leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+        leftIcons={[<CaretLeftIcon key='back' size={24} color={themeColors[theme].icon} />]}
         onPressRightIcon={() => {}}
       />
       <View style={styles.containerSteps}>

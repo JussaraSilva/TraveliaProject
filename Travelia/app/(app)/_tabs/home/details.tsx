@@ -11,7 +11,7 @@ import FooterPrice from '@/components/details/footerPrice';
 
 // Import tolls
 import { themeColors, ThemeName } from '@/constants/theme';
-import { useLocalSearchParams } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
@@ -44,6 +44,20 @@ export default function Details() {
       setPacoteInicial(pacoteObj);
     }
   }, [pacoteObj, setPacoteInicial]);
+
+  const handleAccomodation = () => {
+  router.push({
+    pathname: '/(app)/_tabs/home/accommodation',
+    params: {
+      hotelId: pacoteObj.acomodacao.id,
+    },
+  });
+  console.log("Details diz, O Id do hotel é: " + (pacoteObj.acomodacao.id));
+};
+
+
+
+
 
 
   return (
@@ -141,6 +155,8 @@ export default function Details() {
                   nameCity={pacoteObj.destino.nome}
                   nameCountry={pacoteObj.destino.pais}
                   imagemHotel={pacoteObj.acomodacao.imagem_hotel}
+                  onPressChangeOption={handleAccomodation}
+
                 />
               </View>
 

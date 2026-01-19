@@ -68,7 +68,7 @@ export default function Discount() {
       <View style={styles.containerHeader}>
         <HeaderGlobal
           titlePage='Discount / Vouchers'
-          leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+          leftIcons={[<CaretLeftIcon key="back" size={24} color={themeColors[theme].icon} />]}
           onPressLeftIcon={() => {}}
         />
       </View>

@@ -85,7 +85,7 @@ export default function AddTraveler() {
       <View style={styles.container}>
         <HeaderGlobal 
           titlePage="Add Traveler" 
-          leftIcon={<XIcon size={24} color={themeColors[theme].textPrimary} />}
+          leftIcons={[<XIcon key="close" size={24} color={themeColors[theme].textPrimary} />]}
           onPressLeftIcon={closeForm} 
         />
 

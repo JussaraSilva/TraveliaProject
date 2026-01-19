@@ -94,9 +94,9 @@ export default function SelectPaymentMethod() {
       <View style={styles.containerHeader}>
         <HeaderGlobal
           titlePage="Select Payment Method"
-          leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+          leftIcons={[<CaretLeftIcon key="back" size={24} color={themeColors[theme].icon} />]}
           onPressLeftIcon={iconLeftBack}
-          rightIcon={<PlusIcon size={24} color={themeColors[theme].icon} />}
+          rightIcons={[<PlusIcon key='add' size={24} color={themeColors[theme].icon} />]}
           onPressRightIcon={() => {}}
         />
       </View>

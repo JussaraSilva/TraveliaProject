@@ -43,10 +43,18 @@ export default function PromosScreen() {
             
            <HeaderGlobal
               titlePage="Promos"
-              leftIcon={Logo({size: 28, showText: false})}
-              rightIcon={<DotsThreeVerticalIcon size={24} color={themeColors[theme].icon} />}
+              leftIcons={[<Logo key="logo" size={28} showText={false} />
+              ]}
+              rightIcons={[
+                <DotsThreeVerticalIcon
+                  key="options"
+                  size={24}
+                  color={themeColors[theme].icon}
+                />
+              ]}
               onPressRightIcon={() => {}}
-           />
+            />
+
           <CardGlobal 
             variant={'icon-text-icon'}
             contentCardStyle={styles.contentDirection}

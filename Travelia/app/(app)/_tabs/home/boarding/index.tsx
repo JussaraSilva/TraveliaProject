@@ -78,12 +78,13 @@ export default function Boarding() {
               ? 'Departure Flight Seat'
               : 'Return Flight Seat'
           }
-          leftIcon={
+          leftIcons={[
             <CaretLeftIcon
+              key='back'
               size={30}
               color={themeColors[theme].icon}
               weight='light'
-            ></CaretLeftIcon>
+            ></CaretLeftIcon>]
           }
           onPressLeftIcon={handleBack}
         />

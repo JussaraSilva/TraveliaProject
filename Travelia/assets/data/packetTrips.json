@@ -39,10 +39,15 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 1,
         "tipo": "Bangalô Overwater",
         "categoria": "5 estrelas",
         "nome_hotel": "Luxury Water Villa Resort",
-        "servicos": ["Café da manhã", "Wi-Fi", "SPA"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "SPA"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -157,10 +162,20 @@
         "Seguro viagem",
         "City tour"
       ],
-      "tags": ["tropical", "luxo", "praia", "romântico", "lua-de-mel"],
+      "tags": [
+        "tropical",
+        "luxo",
+        "praia",
+        "romântico",
+        "lua-de-mel"
+      ],
       "disponibilidade": {
         "vagas": 8,
-        "datas_disponiveis": ["2025-03-15", "2025-04-10", "2025-05-05"]
+        "datas_disponiveis": [
+          "2025-03-15",
+          "2025-04-10",
+          "2025-05-05"
+        ]
       }
     },
     {
@@ -202,10 +217,15 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 2,
         "tipo": "Hotel Boutique",
         "categoria": "4 estrelas",
         "nome_hotel": "Le Marais Charm",
-        "servicos": ["Café da manhã", "Wi-Fi", "Recepção 24h"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Recepção 24h"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -320,10 +340,19 @@
         "Traslados",
         "Ingresso Louvre"
       ],
-      "tags": ["cultura", "romântico", "história", "gastronomia"],
+      "tags": [
+        "cultura",
+        "romântico",
+        "história",
+        "gastronomia"
+      ],
       "disponibilidade": {
         "vagas": 15,
-        "datas_disponiveis": ["2025-02-20", "2025-03-15", "2025-04-12"]
+        "datas_disponiveis": [
+          "2025-02-20",
+          "2025-03-15",
+          "2025-04-12"
+        ]
       }
     },
     {
@@ -365,10 +394,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 3,
         "tipo": "Hotel com vista para a caldeira",
         "categoria": "4 estrelas",
         "nome_hotel": "Caldera View Suites",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina infinita", "Transfer"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina infinita",
+          "Transfer"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -483,10 +518,19 @@
         "Tour pela ilha",
         "Seguro viagem"
       ],
-      "tags": ["romântico", "ilha", "gastronomia", "fotografia"],
+      "tags": [
+        "romântico",
+        "ilha",
+        "gastronomia",
+        "fotografia"
+      ],
       "disponibilidade": {
         "vagas": 6,
-        "datas_disponiveis": ["2024-06-10", "2024-07-05", "2024-08-20"]
+        "datas_disponiveis": [
+          "2024-06-10",
+          "2024-07-05",
+          "2024-08-20"
+        ]
       }
     },
     {
@@ -528,10 +572,15 @@
         "noites": 9
       },
       "acomodacao": {
+        "id": 4,
         "tipo": "Hotel de Negócios",
         "categoria": "4 estrelas",
         "nome_hotel": "Shinjuku Grand Hotel",
-        "servicos": ["Wi-Fi", "Café da manhã ocidental", "Business center"],
+        "servicos": [
+          "Wi-Fi",
+          "Café da manhã ocidental",
+          "Business center"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -646,10 +695,19 @@
         "Passeio metrô",
         "Guia local"
       ],
-      "tags": ["cultura", "tecnologia", "gastronomia", "shopping"],
+      "tags": [
+        "cultura",
+        "tecnologia",
+        "gastronomia",
+        "shopping"
+      ],
       "disponibilidade": {
         "vagas": 12,
-        "datas_disponiveis": ["2024-04-15", "2024-05-22", "2024-09-10"]
+        "datas_disponiveis": [
+          "2024-04-15",
+          "2024-05-22",
+          "2024-09-10"
+        ]
       }
     },
     {
@@ -691,10 +749,15 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 5,
         "tipo": "Hotel Times Square",
         "categoria": "3 estrelas",
         "nome_hotel": "Manhattan Central Hotel",
-        "servicos": ["Wi-Fi", "Café da manhã", "Fitness center"],
+        "servicos": [
+          "Wi-Fi",
+          "Café da manhã",
+          "Fitness center"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -809,10 +872,19 @@
         "City tour",
         "Metrô card 7 dias"
       ],
-      "tags": ["cidade", "shopping", "cultura", "musicais"],
+      "tags": [
+        "cidade",
+        "shopping",
+        "cultura",
+        "musicais"
+      ],
       "disponibilidade": {
         "vagas": 20,
-        "datas_disponiveis": ["2024-03-25", "2024-06-15", "2024-10-08"]
+        "datas_disponiveis": [
+          "2024-03-25",
+          "2024-06-15",
+          "2024-10-08"
+        ]
       }
     },
     {
@@ -854,10 +926,15 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 6,
         "tipo": "Hotel em Cusco",
         "categoria": "3 estrelas",
         "nome_hotel": "Andean Lodge Cusco",
-        "servicos": ["Café da manhã", "Wi-Fi", "Aquecimento"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Aquecimento"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -972,10 +1049,19 @@
         "Ingresso Machu Picchu",
         "Guia especializado"
       ],
-      "tags": ["aventura", "história", "trilha", "cultura"],
+      "tags": [
+        "aventura",
+        "história",
+        "trilha",
+        "cultura"
+      ],
       "disponibilidade": {
         "vagas": 10,
-        "datas_disponiveis": ["2024-04-05", "2024-05-18", "2024-08-22"]
+        "datas_disponiveis": [
+          "2024-04-05",
+          "2024-05-18",
+          "2024-08-22"
+        ]
       }
     },
     {
@@ -1017,10 +1103,16 @@
         "noites": 11
       },
       "acomodacao": {
+        "id": 7,
         "tipo": "Hotel com vista para o porto",
         "categoria": "4 estrelas",
         "nome_hotel": "Harbour View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "Academia"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1135,10 +1227,19 @@
         "City tour",
         "Transfer aeroporto"
       ],
-      "tags": ["praia", "cidade", "cultura", "família"],
+      "tags": [
+        "praia",
+        "cidade",
+        "cultura",
+        "família"
+      ],
       "disponibilidade": {
         "vagas": 8,
-        "datas_disponiveis": ["2024-01-20", "2024-03-10", "2024-11-15"]
+        "datas_disponiveis": [
+          "2024-01-20",
+          "2024-03-10",
+          "2024-11-15"
+        ]
       }
     },
     {
@@ -1180,10 +1281,15 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 8,
         "tipo": "Hotel em Las Ramblas",
         "categoria": "3 estrelas",
         "nome_hotel": "Ramblas Central Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Ar condicionado"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Ar condicionado"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1298,10 +1404,19 @@
         "Ingresso Sagrada Família",
         "City tour"
       ],
-      "tags": ["arquitetura", "gastronomia", "cultura", "noite"],
+      "tags": [
+        "arquitetura",
+        "gastronomia",
+        "cultura",
+        "noite"
+      ],
       "disponibilidade": {
         "vagas": 14,
-        "datas_disponiveis": ["2024-04-18", "2024-06-05", "2024-09-20"]
+        "datas_disponiveis": [
+          "2024-04-18",
+          "2024-06-05",
+          "2024-09-20"
+        ]
       }
     },
     {
@@ -1343,10 +1458,17 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 9,
         "tipo": "Hotel em Copacabana",
         "categoria": "4 estrelas",
         "nome_hotel": "Windsor Palace Copacabana",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia", "Restaurante"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "Academia",
+          "Restaurante"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1462,10 +1584,21 @@
         "Ingresso Cristo Redentor",
         "Ingresso Pão de Açúcar"
       ],
-      "tags": ["praia", "cidade", "nacional", "paisagem", "cultura"],
+      "tags": [
+        "praia",
+        "cidade",
+        "nacional",
+        "paisagem",
+        "cultura"
+      ],
       "disponibilidade": {
         "vagas": 25,
-        "datas_disponiveis": ["2024-02-10", "2024-03-25", "2024-07-15", "2024-12-20"]
+        "datas_disponiveis": [
+          "2024-02-10",
+          "2024-03-25",
+          "2024-07-15",
+          "2024-12-20"
+        ]
       }
     },
     {
@@ -1507,10 +1640,16 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 10,
         "tipo": "Hotel em Westminster",
         "categoria": "4 estrelas",
         "nome_hotel": "Big Ben View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Chá da tarde", "Recepção 24h"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Chá da tarde",
+          "Recepção 24h"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1626,10 +1765,21 @@
         "Transfer aeroporto-hotel",
         "Seguro viagem"
       ],
-      "tags": ["história", "cultura", "shopping", "museus", "real"],
+      "tags": [
+        "história",
+        "cultura",
+        "shopping",
+        "museus",
+        "real"
+      ],
       "disponibilidade": {
         "vagas": 18,
-        "datas_disponiveis": ["2024-03-08", "2024-05-25", "2024-09-12", "2024-10-30"]
+        "datas_disponiveis": [
+          "2024-03-08",
+          "2024-05-25",
+          "2024-09-12",
+          "2024-10-30"
+        ]
       }
     },
     {
@@ -1671,10 +1821,17 @@
         "noites": 7
       },
       "acomodacao": {
+        "id": 11,
         "tipo": "Hotel 5 estrelas com vista para Burj Khalifa",
         "categoria": "5 estrelas",
         "nome_hotel": "Burj View Luxury Hotel",
-        "servicos": ["Café da manhã buffet", "Wi-Fi premium", "SPA completo", "Piscina infinita", "Academia"],
+        "servicos": [
+          "Café da manhã buffet",
+          "Wi-Fi premium",
+          "SPA completo",
+          "Piscina infinita",
+          "Academia"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1790,10 +1947,21 @@
         "Safári no deserto",
         "Seguro viagem premium"
       ],
-      "tags": ["luxo", "moderno", "deserto", "shopping", "futurista"],
+      "tags": [
+        "luxo",
+        "moderno",
+        "deserto",
+        "shopping",
+        "futurista"
+      ],
       "disponibilidade": {
         "vagas": 10,
-        "datas_disponiveis": ["2024-02-28", "2024-04-15", "2024-10-20", "2024-11-25"]
+        "datas_disponiveis": [
+          "2024-02-28",
+          "2024-04-15",
+          "2024-10-20",
+          "2024-11-25"
+        ]
       }
     },
     {
@@ -1835,10 +2003,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 12,
         "tipo": "Pousada ecológica",
         "categoria": "3 estrelas",
         "nome_hotel": "Pousada Maravilha",
-        "servicos": ["Café da manhã regional", "Wi-Fi", "Trilhas guiadas", "Informações turísticas"],
+        "servicos": [
+          "Café da manhã regional",
+          "Wi-Fi",
+          "Trilhas guiadas",
+          "Informações turísticas"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -1954,10 +2128,21 @@
         "Trilhas guiadas",
         "Kit snorkel"
       ],
-      "tags": ["ecoturismo", "praia", "mergulho", "nacional", "preservação"],
+      "tags": [
+        "ecoturismo",
+        "praia",
+        "mergulho",
+        "nacional",
+        "preservação"
+      ],
       "disponibilidade": {
         "vagas": 6,
-        "datas_disponiveis": ["2024-03-05", "2024-06-18", "2024-11-10", "2025-01-15"]
+        "datas_disponiveis": [
+          "2024-03-05",
+          "2024-06-18",
+          "2024-11-10",
+          "2025-01-15"
+        ]
       }
     },
     {
@@ -1999,10 +2184,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 13,
         "tipo": "Hotel no centro histórico",
         "categoria": "3 estrelas",
         "nome_hotel": "Colosseum View Hotel",
-        "servicos": ["Café da manhã italiano", "Wi-Fi", "Ar condicionado", "Recepção bilíngue"],
+        "servicos": [
+          "Café da manhã italiano",
+          "Wi-Fi",
+          "Ar condicionado",
+          "Recepção bilíngue"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2118,10 +2309,21 @@
         "City tour guiado",
         "Transfer aeroporto"
       ],
-      "tags": ["história", "arte", "gastronomia", "cultura", "antiguidade"],
+      "tags": [
+        "história",
+        "arte",
+        "gastronomia",
+        "cultura",
+        "antiguidade"
+      ],
       "disponibilidade": {
         "vagas": 22,
-        "datas_disponiveis": ["2024-04-10", "2024-06-25", "2024-09-15", "2024-11-05"]
+        "datas_disponiveis": [
+          "2024-04-10",
+          "2024-06-25",
+          "2024-09-15",
+          "2024-11-05"
+        ]
       }
     },
     {
@@ -2163,10 +2365,16 @@
         "noites": 7
       },
       "acomodacao": {
+        "id": 14,
         "tipo": "Resort à beira-mar",
         "categoria": "5 estrelas",
         "nome_hotel": "Andaman Sea Resort",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "SPA"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2281,10 +2489,19 @@
         "Tour às ilhas",
         "Transfer"
       ],
-      "tags": ["tropical", "praia", "cultura", "aventura"],
+      "tags": [
+        "tropical",
+        "praia",
+        "cultura",
+        "aventura"
+      ],
       "disponibilidade": {
         "vagas": 9,
-        "datas_disponiveis": ["2024-02-25", "2024-06-15", "2024-11-08"]
+        "datas_disponiveis": [
+          "2024-02-25",
+          "2024-06-15",
+          "2024-11-08"
+        ]
       }
     },
     {
@@ -2326,10 +2543,15 @@
         "noites": 3
       },
       "acomodacao": {
+        "id": 15,
         "tipo": "Hotel à beira do canal",
         "categoria": "4 estrelas",
         "nome_hotel": "Grand Canal Palace",
-        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Vista para o canal"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2444,10 +2666,19 @@
         "Passeio de gôndola",
         "City tour"
       ],
-      "tags": ["romântico", "canais", "gôndola", "história"],
+      "tags": [
+        "romântico",
+        "canais",
+        "gôndola",
+        "história"
+      ],
       "disponibilidade": {
         "vagas": 7,
-        "datas_disponiveis": ["2024-04-05", "2024-07-18", "2024-10-12"]
+        "datas_disponiveis": [
+          "2024-04-05",
+          "2024-07-18",
+          "2024-10-12"
+        ]
       }
     },
     {
@@ -2489,10 +2720,16 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 16,
         "tipo": "Hotel com vista para as pirâmides",
         "categoria": "4 estrelas",
         "nome_hotel": "Pyramids View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Transfer"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "Transfer"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2607,10 +2844,19 @@
         "Ingressos para as pirâmides",
         "Guia egiptólogo"
       ],
-      "tags": ["história", "aventura", "pirâmides", "deserto"],
+      "tags": [
+        "história",
+        "aventura",
+        "pirâmides",
+        "deserto"
+      ],
       "disponibilidade": {
         "vagas": 11,
-        "datas_disponiveis": ["2024-03-22", "2024-05-14", "2024-10-28"]
+        "datas_disponiveis": [
+          "2024-03-22",
+          "2024-05-14",
+          "2024-10-28"
+        ]
       }
     },
     {
@@ -2652,10 +2898,16 @@
         "noites": 2
       },
       "acomodacao": {
+        "id": 17,
         "tipo": "Hotel na Avenida Paulista",
         "categoria": "4 estrelas",
         "nome_hotel": "Paulista Business Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Business center"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Academia",
+          "Business center"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2770,10 +3022,19 @@
         "City tour",
         "Metrô card"
       ],
-      "tags": ["gastronomia", "cultura", "negócios", "nacional"],
+      "tags": [
+        "gastronomia",
+        "cultura",
+        "negócios",
+        "nacional"
+      ],
       "disponibilidade": {
         "vagas": 40,
-        "datas_disponiveis": ["2024-02-05", "2024-04-18", "2024-07-30"]
+        "datas_disponiveis": [
+          "2024-02-05",
+          "2024-04-18",
+          "2024-07-30"
+        ]
       }
     },
     {
@@ -2815,10 +3076,16 @@
         "noites": 7
       },
       "acomodacao": {
+        "id": 18,
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Vancouver Bay Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "Bicicletas"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Academia",
+          "Bicicletas"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1647655806923-e8202f4f2b8c?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -2933,10 +3200,19 @@
         "City tour",
         "Transfer"
       ],
-      "tags": ["natureza", "aventura", "qualidade de vida", "paisagem"],
+      "tags": [
+        "natureza",
+        "aventura",
+        "qualidade de vida",
+        "paisagem"
+      ],
       "disponibilidade": {
         "vagas": 14,
-        "datas_disponiveis": ["2024-06-12", "2024-08-05", "2024-09-25"]
+        "datas_disponiveis": [
+          "2024-06-12",
+          "2024-08-05",
+          "2024-09-25"
+        ]
       }
     },
     {
@@ -2978,10 +3254,16 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 19,
         "tipo": "Hotel em Providencia",
         "categoria": "4 estrelas",
         "nome_hotel": "Andes View Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Academia", "SPA"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Academia",
+          "SPA"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1549451371-64aa98a6f660?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3096,10 +3378,19 @@
         "Tour vinícola",
         "City tour"
       ],
-      "tags": ["vinho", "montanhas", "cultura", "economico"],
+      "tags": [
+        "vinho",
+        "montanhas",
+        "cultura",
+        "economico"
+      ],
       "disponibilidade": {
         "vagas": 25,
-        "datas_disponiveis": ["2024-03-10", "2024-05-22", "2024-08-14"]
+        "datas_disponiveis": [
+          "2024-03-10",
+          "2024-05-22",
+          "2024-08-14"
+        ]
       }
     },
     {
@@ -3141,10 +3432,16 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 20,
         "tipo": "Pousada rústica",
         "categoria": "3 estrelas",
         "nome_hotel": "Jeri Eco Lodge",
-        "servicos": ["Café da manhã", "Wi-Fi", "Rede", "Aluguel de buggy"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Rede",
+          "Aluguel de buggy"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3259,10 +3556,19 @@
         "Passeio de buggy",
         "Trilhas guiadas"
       ],
-      "tags": ["ecoturismo", "dunas", "aventura", "nacional"],
+      "tags": [
+        "ecoturismo",
+        "dunas",
+        "aventura",
+        "nacional"
+      ],
       "disponibilidade": {
         "vagas": 8,
-        "datas_disponiveis": ["2024-07-12", "2024-08-25", "2024-12-10"]
+        "datas_disponiveis": [
+          "2024-07-12",
+          "2024-08-25",
+          "2024-12-10"
+        ]
       }
     },
     {
@@ -3304,10 +3610,15 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 21,
         "tipo": "Hotel no bairro histórico",
         "categoria": "4 estrelas",
         "nome_hotel": "Sultanahmet Palace Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o Bósforo"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Vista para o Bósforo"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3422,10 +3733,19 @@
         "City tour histórico",
         "Guia local"
       ],
-      "tags": ["história", "cultura", "shopping", "gastronomia"],
+      "tags": [
+        "história",
+        "cultura",
+        "shopping",
+        "gastronomia"
+      ],
       "disponibilidade": {
         "vagas": 15,
-        "datas_disponiveis": ["2024-04-25", "2024-06-18", "2024-09-05"]
+        "datas_disponiveis": [
+          "2024-04-25",
+          "2024-06-18",
+          "2024-09-05"
+        ]
       }
     },
     {
@@ -3467,10 +3787,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 22,
         "tipo": "Hotel em South Beach",
         "categoria": "4 estrelas",
         "nome_hotel": "Ocean Drive Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "Academia"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "Academia"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3585,10 +3911,19 @@
         "City tour",
         "Transfer"
       ],
-      "tags": ["praia", "noite", "shopping", "luxo"],
+      "tags": [
+        "praia",
+        "noite",
+        "shopping",
+        "luxo"
+      ],
       "disponibilidade": {
         "vagas": 20,
-        "datas_disponiveis": ["2024-03-18", "2024-06-08", "2024-11-22"]
+        "datas_disponiveis": [
+          "2024-03-18",
+          "2024-06-08",
+          "2024-11-22"
+        ]
       }
     },
     {
@@ -3630,10 +3965,16 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 23,
         "tipo": "Hotel no centro",
         "categoria": "4 estrelas",
         "nome_hotel": "Bangkok Riverside Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "SPA"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3748,10 +4089,19 @@
         "Tour pelos templos",
         "Transfer"
       ],
-      "tags": ["templos", "cultura", "gastronomia", "aventura"],
+      "tags": [
+        "templos",
+        "cultura",
+        "gastronomia",
+        "aventura"
+      ],
       "disponibilidade": {
         "vagas": 12,
-        "datas_disponiveis": ["2024-05-10", "2024-08-15", "2024-11-05"]
+        "datas_disponiveis": [
+          "2024-05-10",
+          "2024-08-15",
+          "2024-11-05"
+        ]
       }
     },
     {
@@ -3793,10 +4143,16 @@
         "noites": 3
       },
       "acomodacao": {
+        "id": 24,
         "tipo": "Hotel temático",
         "categoria": "4 estrelas",
         "nome_hotel": "Gramado Suíço Hotel",
-        "servicos": ["Café da manhã", "Wi-Fi", "Lareira", "Chocolate quente"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Lareira",
+          "Chocolate quente"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1544716278-e513176f20b5?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -3911,10 +4267,19 @@
         "City tour",
         "Transfer POA-Gramado"
       ],
-      "tags": ["romântico", "chocolate", "serra", "nacional"],
+      "tags": [
+        "romântico",
+        "chocolate",
+        "serra",
+        "nacional"
+      ],
       "disponibilidade": {
         "vagas": 22,
-        "datas_disponiveis": ["2024-06-20", "2024-07-30", "2024-12-01"]
+        "datas_disponiveis": [
+          "2024-06-20",
+          "2024-07-30",
+          "2024-12-01"
+        ]
       }
     },
     {
@@ -3956,10 +4321,16 @@
         "noites": 4
       },
       "acomodacao": {
+        "id": 25,
         "tipo": "Hotel-cassino na Strip",
         "categoria": "5 estrelas",
         "nome_hotel": "Bellagio Las Vegas",
-        "servicos": ["Wi-Fi", "Piscina", "Cassino", "Academia"],
+        "servicos": [
+          "Wi-Fi",
+          "Piscina",
+          "Cassino",
+          "Academia"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4075,10 +4446,19 @@
         "Tour pela Strip",
         "Transfer"
       ],
-      "tags": ["entretenimento", "noite", "luxo", "cassino"],
+      "tags": [
+        "entretenimento",
+        "noite",
+        "luxo",
+        "cassino"
+      ],
       "disponibilidade": {
         "vagas": 28,
-        "datas_disponiveis": ["2024-04-12", "2024-07-25", "2024-10-18"]
+        "datas_disponiveis": [
+          "2024-04-12",
+          "2024-07-25",
+          "2024-10-18"
+        ]
       }
     },
     {
@@ -4120,10 +4500,16 @@
         "noites": 6
       },
       "acomodacao": {
+        "id": 26,
         "tipo": "Resort All-Inclusive 5*",
         "categoria": "5 estrelas",
         "nome_hotel": "Caribe Dreams Resort & SPA",
-        "servicos": ["All-inclusive", "Wi-Fi", "SPA", "Atividades aquáticas"],
+        "servicos": [
+          "All-inclusive",
+          "Wi-Fi",
+          "SPA",
+          "Atividades aquáticas"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4238,10 +4624,19 @@
         "Atividades aquáticas",
         "Entretenimento noturno"
       ],
-      "tags": ["all-inclusive", "caribe", "praia", "romântico"],
+      "tags": [
+        "all-inclusive",
+        "caribe",
+        "praia",
+        "romântico"
+      ],
       "disponibilidade": {
         "vagas": 15,
-        "datas_disponiveis": ["2024-03-28", "2024-06-14", "2024-11-20"]
+        "datas_disponiveis": [
+          "2024-03-28",
+          "2024-06-14",
+          "2024-11-20"
+        ]
       }
     },
     {
@@ -4283,10 +4678,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 27,
         "tipo": "Pousada ecológica",
         "categoria": "3 estrelas",
         "nome_hotel": "Pousada Maravilha",
-        "servicos": ["Café da manhã regional", "Wi-Fi", "Trilhas guiadas", "Informações turísticas"],
+        "servicos": [
+          "Café da manhã regional",
+          "Wi-Fi",
+          "Trilhas guiadas",
+          "Informações turísticas"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4402,10 +4803,21 @@
         "Trilhas guiadas",
         "Kit snorkel"
       ],
-      "tags": ["ecoturismo", "praia", "mergulho", "nacional", "preservação"],
+      "tags": [
+        "ecoturismo",
+        "praia",
+        "mergulho",
+        "nacional",
+        "preservação"
+      ],
       "disponibilidade": {
         "vagas": 6,
-        "datas_disponiveis": ["2024-03-05", "2024-06-18", "2024-11-10", "2025-01-15"]
+        "datas_disponiveis": [
+          "2024-03-05",
+          "2024-06-18",
+          "2024-11-10",
+          "2025-01-15"
+        ]
       }
     },
     {
@@ -4447,10 +4859,16 @@
         "noites": 5
       },
       "acomodacao": {
+        "id": 28,
         "tipo": "Hotel no centro histórico",
         "categoria": "3 estrelas",
         "nome_hotel": "Colosseum View Hotel",
-        "servicos": ["Café da manhã italiano", "Wi-Fi", "Ar condicionado", "Recepção bilíngue"],
+        "servicos": [
+          "Café da manhã italiano",
+          "Wi-Fi",
+          "Ar condicionado",
+          "Recepção bilíngue"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4566,10 +4984,21 @@
         "City tour guiado",
         "Transfer aeroporto"
       ],
-      "tags": ["história", "arte", "gastronomia", "cultura", "antiguidade"],
+      "tags": [
+        "história",
+        "arte",
+        "gastronomia",
+        "cultura",
+        "antiguidade"
+      ],
       "disponibilidade": {
         "vagas": 22,
-        "datas_disponiveis": ["2024-04-10", "2024-06-25", "2024-09-15", "2024-11-05"]
+        "datas_disponiveis": [
+          "2024-04-10",
+          "2024-06-25",
+          "2024-09-15",
+          "2024-11-05"
+        ]
       }
     },
     {
@@ -4611,10 +5040,16 @@
         "noites": 7
       },
       "acomodacao": {
+        "id": 29,
         "tipo": "Resort à beira-mar",
         "categoria": "5 estrelas",
         "nome_hotel": "Andaman Sea Resort",
-        "servicos": ["Café da manhã", "Wi-Fi", "Piscina", "SPA"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Piscina",
+          "SPA"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4729,10 +5164,19 @@
         "Tour às ilhas",
         "Transfer"
       ],
-      "tags": ["tropical", "praia", "cultura", "aventura"],
+      "tags": [
+        "tropical",
+        "praia",
+        "cultura",
+        "aventura"
+      ],
       "disponibilidade": {
         "vagas": 9,
-        "datas_disponiveis": ["2024-02-25", "2024-06-15", "2024-11-08"]
+        "datas_disponiveis": [
+          "2024-02-25",
+          "2024-06-15",
+          "2024-11-08"
+        ]
       }
     },
     {
@@ -4774,10 +5218,15 @@
         "noites": 3
       },
       "acomodacao": {
+        "id": 30,
         "tipo": "Hotel à beira do canal",
         "categoria": "4 estrelas",
         "nome_hotel": "Grand Canal Palace",
-        "servicos": ["Café da manhã", "Wi-Fi", "Vista para o canal"],
+        "servicos": [
+          "Café da manhã",
+          "Wi-Fi",
+          "Vista para o canal"
+        ],
         "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
@@ -4892,10 +5341,19 @@
         "Passeio de gôndola",
         "City tour"
       ],
-      "tags": ["romântico", "canais", "gôndola", "história"],
+      "tags": [
+        "romântico",
+        "canais",
+        "gôndola",
+        "história"
+      ],
       "disponibilidade": {
         "vagas": 7,
-        "datas_disponiveis": ["2024-04-05", "2024-07-18", "2024-10-12"]
+        "datas_disponiveis": [
+          "2024-04-05",
+          "2024-07-18",
+          "2024-10-12"
+        ]
       }
     }
   ]
