@@ -8,7 +8,7 @@ import { router } from "expo-router";
 import CardPacketResume from "@/components/cards/cardPacketResume";
 import PriceDetailsResume from "@/components/cards/priceDetails";
 import { PriceText } from "@/components/utils/priceText";
-import PaymentSummary from "@/components/home/paymentSummary";
+import PaymentSummary from "@/components/home/payment/paymentSummary";
 import { useThemedStyles } from "@/hooks/theme/useThemedStyles";
 import { usePaymentCalculation } from "@/hooks/payment/usePaymentCalculation";
 import { usePaymentParams } from "@/hooks/payment/usePaymentParams";

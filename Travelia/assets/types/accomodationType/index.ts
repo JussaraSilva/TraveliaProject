@@ -1,9 +1,10 @@
 
-import { AvaliacaoType } from "./avaliacao";
+import { ReviewType } from "./reviews";
 import { ImagemType } from "./imagens";
 import { InformacoesGeraisType } from "./informacoesGerais";
 import { LocalizacaoType } from "./localizacao";
 import { QuartosType } from "./quartos";
+import { AvaliacaoType } from "./avaliacao";
 
 export type PacoteHotel = {
   id: number;
@@ -13,7 +14,8 @@ export type PacoteHotel = {
   imagens:ImagemType;
   servicos_hotel: string[];
   quartos:QuartosType[];
-  avaliacoes: AvaliacaoType[];
+  avaliacao?: AvaliacaoType;
+  review?: ReviewType[];
   informacoes_gerais: InformacoesGeraisType;
 }
 

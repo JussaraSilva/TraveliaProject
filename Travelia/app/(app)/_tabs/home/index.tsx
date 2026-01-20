@@ -8,7 +8,7 @@ import { DadosViagem, PacoteViagem } from '@/assets/types/bookingType';
 // Import componentes
 import pacotes from '../../../../assets/data/packetTrips.json';
 import HomeHeader from '@/components/header/homeHeader';
-import UserGreeting from '@/components/home/userGreeting';
+import UserGreeting from '@/components/home/welcomePage/userGreeting';
 import RowList from '@/components/home/rowList';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 

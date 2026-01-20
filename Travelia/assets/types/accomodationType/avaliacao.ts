@@ -1,15 +1,6 @@
 export interface AvaliacaoType {
-  usuario: UsuarioType;
+  pontuacao: number;
+  total_avaliacoes: number;
   estrelas: number;
-  data: string;
-  avaliacao: string;
-  tags: string[];
-}
-
-
-export interface UsuarioType {
-  nome: string;
-  foto: string;
-  cidade: string;
-  pais: string;
+  destaque: string;
 }

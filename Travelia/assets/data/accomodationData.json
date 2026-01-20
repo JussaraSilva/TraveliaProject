@@ -71,7 +71,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 318,
+        "estrelas": 4.5,
+        "destaque": "Maravilhoso"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Patricia Mendes",
@@ -225,7 +231,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 418,
+        "estrelas": 4.7,
+        "destaque": "Excepcional"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Claire Dubois",
@@ -382,7 +394,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 278,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Sophia Papadopoulos",
@@ -537,7 +555,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.1,
+        "total_avaliacoes": 512,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Yuki Tanaka",
@@ -691,7 +715,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.7,
+        "total_avaliacoes": 623,
+        "estrelas": 4.3,
+        "destaque": "Bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Sarah Johnson",
@@ -843,7 +873,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.9,
+        "total_avaliacoes": 187,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Carlos Andrade",
@@ -999,7 +1035,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.0,
+        "total_avaliacoes": 342,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Roberto Alves",
@@ -1152,7 +1194,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.5,
+        "total_avaliacoes": 456,
+        "estrelas": 4.2,
+        "destaque": "Bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Sofia Martinez",
@@ -1308,7 +1356,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.1,
+        "total_avaliacoes": 389,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Pedro Costa",
@@ -1464,7 +1518,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 412,
+        "estrelas": 4.6,
+        "destaque": "Excepcional"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Thomas Wilson",
@@ -1621,7 +1681,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.6,
+        "total_avaliacoes": 298,
+        "estrelas": 4.8,
+        "destaque": "Excepcional"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Ahmed Al-Mansoor",
@@ -1773,7 +1839,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 89,
+        "estrelas": 4.7,
+        "destaque": "Maravilhoso"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Juliana Ferreira",
@@ -1926,7 +1998,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.8,
+        "total_avaliacoes": 567,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Giovanni Rossi",
@@ -2084,7 +2162,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 234,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Chen Li",
@@ -2238,7 +2322,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.0,
+        "total_avaliacoes": 321,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Marco Bellini",
@@ -2392,7 +2482,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.9,
+        "total_avaliacoes": 287,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Mohamed Ali",
@@ -2547,7 +2643,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.0,
+        "total_avaliacoes": 432,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Camila Oliveira",
@@ -2702,7 +2804,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.1,
+        "total_avaliacoes": 356,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "John Smith",
@@ -2858,7 +2966,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.9,
+        "total_avaliacoes": 198,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Juan Pérez",
@@ -3009,7 +3123,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 124,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Bianca Costa",
@@ -3164,7 +3284,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.1,
+        "total_avaliacoes": 387,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Mehmet Yılmaz",
@@ -3319,7 +3445,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.8,
+        "total_avaliacoes": 512,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Jennifer Lopez",
@@ -3474,7 +3606,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.9,
+        "total_avaliacoes": 278,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Somchai Wong",
@@ -3629,7 +3767,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.3,
+        "total_avaliacoes": 245,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Paula Schmidt",
@@ -3785,7 +3929,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 198,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Marco Rossi",
@@ -3940,7 +4090,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.4,
+        "total_avaliacoes": 156,
+        "estrelas": 4.7,
+        "destaque": "Maravilhoso"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Yuki Tanaka",
@@ -4095,7 +4251,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.5,
+        "total_avaliacoes": 187,
+        "estrelas": 4.8,
+        "destaque": "Excepcional"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Ahmed Al Mansoori",
@@ -4250,7 +4412,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.0,
+        "total_avaliacoes": 98,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "João Silva",
@@ -4405,7 +4573,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 9.2,
+        "total_avaliacoes": 298,
+        "estrelas": 4.6,
+        "destaque": "Excelente"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Jack Wilson",
@@ -4560,7 +4734,13 @@
           }
         }
       ],
-      "avaliacoes": [
+      "avaliacao": {
+        "pontuacao": 8.8,
+        "total_avaliacoes": 312,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
         {
           "usuario": {
             "nome": "Mohamed Hassan",
@@ -4570,8 +4750,8 @@
           },
           "estrelas": 5,
           "data": "2023-11-10",
-          "avaliacao": "Pirâmides de Gizé são impressionantes! Hotel com vista direta. Museu Egípcio fascinante.",
-          "tags": ["Pirâmides impressionantes", "vista direta", "Museu fascinante"]
+          "avaliacao": "Pirâmides de Gizé são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
+          "tags": ["Pirâmides impressionantes", "vista espetacular", "café egípcio"]
         },
         {
           "usuario": {
@@ -4602,7 +4782,7 @@
             "nome": "Sarah Johnson",
             "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
             "cidade": "Londres",
-            "pais": "UK"
+            "pais": "Reino Unido"
           },
           "estrelas": 4,
           "data": "2023-11-25",
