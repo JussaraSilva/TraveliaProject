@@ -3,8 +3,8 @@ import { useTheme } from "@/context/themeProvider";
 import { AirplaneTakeoffIcon, CalendarDotsIcon, CaretDownIcon, DotIcon, UsersIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
-import { DateText } from "../utils/formatDate";
-import { PriceText } from "../utils/priceText";
+import { DateText } from "../utils/date/formatDate";
+import { PriceText } from "../utils/price/priceText";
 import { router } from "expo-router";
 
 

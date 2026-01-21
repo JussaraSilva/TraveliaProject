@@ -2,8 +2,8 @@ import { ButtonGlobal } from "@/components/buttons/buttonGlobal";
 import { CardGlobal } from "@/components/cards/cardGlobal";
 import HeaderGlobal from "@/components/header/headerGlobal";
 import DescriptionPacket from "@/components/list/descriptionPacket";
-import { DateText } from "@/components/utils/formatDate";
-import { PriceText } from "@/components/utils/priceText";
+import { DateText } from "@/components/utils/date/formatDate";
+import { PriceText } from "@/components/utils/price/priceText";
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { useLocalSearchParams, useRouter } from "expo-router";
@@ -37,7 +37,11 @@ export default function PromoDetails() {
       <View style={styles.headerContainer}>
         <HeaderGlobal
           titlePage="Promo"
-          leftIcon={<CaretLeftIcon size={24} color={themeColors[theme].icon} />}
+          leftIcons={[<CaretLeftIcon
+            key="options" 
+            size={24} 
+            color={themeColors[theme].icon  
+            } />]}
           onPressLeftIcon={() => router.back()}
         />
       </View>

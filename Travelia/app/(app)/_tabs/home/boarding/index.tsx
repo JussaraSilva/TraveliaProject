@@ -14,7 +14,7 @@ import { CaretLeftIcon, RectangleIcon } from 'phosphor-react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTravelers } from '@/context/traveler/travelerContext';
 import { useBooking } from '@/context/booking/bookingContext';
-import { DateText } from '@/components/utils/formatDate';
+import { DateText } from '@/components/utils/date/formatDate';
 import SeatMap from '@/hooks/seat-map/SeatMap';
 import { useState } from 'react';
 

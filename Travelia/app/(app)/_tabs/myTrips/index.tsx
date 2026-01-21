@@ -14,7 +14,7 @@ import { PacoteViagem } from '@/assets/types/bookingType';
 import ButtonFilter from '@/components/buttons/buttonFilters';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { Logo } from '@/components/others/logo';
-import { DateText } from '@/components/utils/formatDate';
+import { DateText } from '@/components/utils/date/formatDate';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useTheme } from '@/context/themeProvider';
 import { getTrips } from "@/services/tripStorage";

@@ -7,7 +7,7 @@ import BookingStepsLine from "@/components/buttons/bookingStepsLine";
 import { router } from "expo-router";
 import CardPacketResume from "@/components/cards/cardPacketResume";
 import PriceDetailsResume from "@/components/cards/priceDetails";
-import { PriceText } from "@/components/utils/priceText";
+import { PriceText } from "@/components/utils/price/priceText";
 import PaymentSummary from "@/components/home/payment/paymentSummary";
 import { useThemedStyles } from "@/hooks/theme/useThemedStyles";
 import { usePaymentCalculation } from "@/hooks/payment/usePaymentCalculation";

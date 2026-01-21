@@ -17,6 +17,7 @@ import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-nati
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { useBooking } from '@/context/booking/bookingContext';
 import { useEffect } from 'react';
+import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
 
 
 export default function Details() {
@@ -54,6 +55,8 @@ export default function Details() {
   });
   console.log("Details diz, O Id do hotel é: " + (pacoteObj.acomodacao.id));
 };
+
+  const reviewsUI = adaptReviewsToUI(pacoteObj.reviews ?? []);
 
 
 
@@ -193,7 +196,7 @@ export default function Details() {
               mediaStars={pacoteObj.avaliacao.estrelas}
               totalAvaliacoes={pacoteObj.avaliacao.total_avaliacoes}
 
-              reviews = {pacoteObj.reviews}
+              reviews={reviewsUI}
 
             />
           </View>

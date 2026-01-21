@@ -11,6 +11,7 @@ import { RatingStars } from '@/components/reviews/ratingStars';
 import { useState } from 'react';
 import AboutSection from '@/components/home/accomodation/aboutSection';
 import RoomDetailsSection from '@/components/home/accomodation/roomDetailsSection';
+import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
 
 
 
@@ -37,7 +38,8 @@ export default function Accomodation() {
     );
   }
 
-  
+
+  const reviewsUI = adaptReviewsToUI(hotel.reviews);
 
 
 
@@ -47,34 +49,34 @@ export default function Accomodation() {
   return (
     <View style={styles.container}>
           <View style={styles.containerHeader}>
-        <HeaderGlobal titlePage="Accommodation" 
-          leftIcons={[
-            <CaretLeftIcon
-              key="back" 
-              size={30} 
-              color={themeColors[theme].icon} 
-              weight="light" 
-            />]
-          }
-          rightIcons={[
-            <ShareNetworkIcon
-              key="share" 
-              size={30} 
-              color={themeColors[theme].icon} 
-              weight="light" 
-            />,
-            <DotsThreeOutlineVerticalIcon
-              key="options" 
-              size={30} 
-              color={themeColors[theme].icon} 
-              weight="light" 
-            />
-          ]
-          }
-          onPressLeftIcon={() => {
-            router.back();
-          }}          
-        />
+              <HeaderGlobal titlePage="Accommodation" 
+                leftIcons={[
+                  <CaretLeftIcon
+                    key="back" 
+                    size={30} 
+                    color={themeColors[theme].icon} 
+                    weight="light" 
+                  />]
+                }
+                rightIcons={[
+                  <ShareNetworkIcon
+                    key="share" 
+                    size={30} 
+                    color={themeColors[theme].icon} 
+                    weight="light" 
+                  />,
+                  <DotsThreeOutlineVerticalIcon
+                    key="options" 
+                    size={30} 
+                    color={themeColors[theme].icon} 
+                    weight="light" 
+                  />
+                ]
+                }
+                onPressLeftIcon={() => {
+                  router.back();
+                }}          
+              />
           </View>
       <ScrollView
         showsVerticalScrollIndicator={false}
@@ -109,7 +111,10 @@ export default function Accomodation() {
 
           <View style={styles.containerAdress}>
             <MapPinIcon size={20} color={themeColors[theme].realceBlue} weight='light' />
-            <Text style={styles.textAdress}>
+            <Text style={styles.textAdress}
+              numberOfLines={2}
+              ellipsizeMode='tail'
+            >
               {hotel.localizacao.endereco}
             </Text>
           </View>
@@ -146,15 +151,16 @@ export default function Accomodation() {
             </Pressable>
         </View>
 
-      
-
         <View style={styles.containerTabs}>
           {activeTab === 'about' && hotel.quartos.length > 0 && (
             <AboutSection
                 instalacoes={hotel.servicos_hotel} 
                 completeAdress={hotel.localizacao.endereco}
-                latitude={hotel.localizacao.latitude}
-                longitude={hotel.localizacao.longitude}
+                googleMapsUrl={hotel.localizacao.google_maps_url}
+                estrelas={hotel.avaliacao.estrelas}
+                estrelasMedia={hotel.avaliacao.estrelas}
+                totalAvaliacoes={hotel.avaliacao.total_avaliacoes}
+                reviewsUI={reviewsUI}
             />
           )}
           {activeTab === 'room' && hotel.quartos.length > 0 && (
@@ -163,6 +169,8 @@ export default function Accomodation() {
             />
           )}
         </View>
+
+        
 
       </ScrollView>
       
@@ -174,10 +182,12 @@ export default function Accomodation() {
 
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   container: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: themeColors[theme].backgroundCard,
     paddingHorizontal: 10,
+    paddingBottom: 10
   },
 
   containerHeader: {
@@ -185,12 +195,13 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   scrollPage: {
-    width: '100%',
+    
+    flex: 1,
   },
 
   containerGallery: {
-    
-    width: '100%',
+    flex: 1,
+    maxWidth: '100%',
     paddingHorizontal: 10,
     marginTop: 10
   },
@@ -217,13 +228,15 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   containerAdress: {
+    maxWidth: '100%',
+    width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: 10,
   },
 
   textAdress: {
-    fontSize: 16,
+    fontSize: 18,
     color: themeColors[theme].textPrimary,
     marginLeft: 5,
   },
@@ -285,6 +298,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     width: '100%',
     marginTop: 10,
   },
+  
 
 
 

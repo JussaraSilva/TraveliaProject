@@ -3,7 +3,7 @@ import { useTheme } from "@/context/themeProvider";
 import { CaretRightIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
-import { DateText } from "../utils/formatDate";
+import { DateText } from "../utils/date/formatDate";
 
 
 type Props = {

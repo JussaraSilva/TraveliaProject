@@ -80,26 +80,26 @@
       "reviews": [
         {
           "usuario": {
-            "nome": "Patricia Mendes",
-            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
-            "cidade": "São Paulo, SP",
+            "nome": "Maria Eduarda",
+            "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "cidade": "São Paulo",
             "pais": "Brasil"
           },
           "estrelas": 5,
           "data": "2024-01-15",
-          "avaliacao": "O bangalô overwater superou todas as expectativas. Acordar com vista para o oceano cristalino é indescritível. O serviço é impecável e a comida deliciosa!",
+          "comentario": "O bangalô overwater superou todas as expectativas. Acordar com vista para o oceano cristalino é indescritível. O serviço é impecável e a comida deliciosa!",
           "tags": ["lua de mel", "vista incrível", "serviço impecável"]
         },
         {
           "usuario": {
-            "nome": "James Mitchell",
+            "nome": "César Mitchell",
             "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Nova York, NY",
+            "cidade": "Nova York",
             "pais": "USA"
           },
           "estrelas": 5,
           "data": "2024-01-10",
-          "avaliacao": "The overwater villa was absolutely stunning. Snorkeling right from our deck was a dream. Staff went above and beyond!",
+          "comentario": "The overwater villa was absolutely stunning. Snorkeling right from our deck was a dream. Staff went above and beyond!",
           "tags": ["snorkeling", "staff excelente", "villa incrível"]
         },
         {
@@ -111,31 +111,31 @@
           },
           "estrelas": 5,
           "data": "2023-12-28",
-          "avaliacao": "Un séjour inoubliable. La villa sur pilotis est spacieuse et luxueuse. Les couchers de soleil sont à couper le souffle!",
+          "comentario": "Un séjour inoubliable. La villa sur pilotis est spacieuse et luxueuse. Les couchers de soleil sont à couper le souffle!",
           "tags": ["espaçoso", "luxuoso", "pôr do sol"]
         },
         {
           "usuario": {
-            "nome": "Marco Bellini",
+            "nome": "Carlos Andrade",
             "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
             "cidade": "Roma",
             "pais": "Itália"
           },
           "estrelas": 4,
           "data": "2023-12-20",
-          "avaliacao": "Resort meraviglioso con servizi di altissimo livello. L'unico punto è che il volo è molto lungo, ma ne vale la pena!",
+          "comentario": "Resort meraviglioso con servizi di altissimo livello. L'unico punto è che il volo è molto lungo, ma ne vale la pena!",
           "tags": ["serviços excelentes", "longa viagem", "vale a pena"]
         },
         {
           "usuario": {
-            "nome": "Ana Carolina Silva",
+            "nome": "Mariana Lima",
             "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Rio de Janeiro, RJ",
+            "cidade": "Rio de Janeiro",
             "pais": "Brasil"
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Simplesmente perfeito! O quarto tem tudo. A banheira com vista pro mar é incrível. Café da manhã variado e delicioso.",
+          "comentario": "Simplesmente perfeito! O quarto tem tudo. A banheira com vista pro mar é incrível. Café da manhã variado e delicioso.",
           "tags": ["perfeito", "banheira com vista", "café da manhã excelente"]
         }
       ],
@@ -247,19 +247,19 @@
           },
           "estrelas": 5,
           "data": "2024-01-12",
-          "avaliacao": "Emplacement parfait dans le Marais. Le petit-déjeuner français est délicieux avec croissants frais chaque matin.",
+          "comentario": "Emplacement parfait dans le Marais. Le petit-déjeuner français est délicieux avec croissants frais chaque matin.",
           "tags": ["localização perfeita", "croissants frescos", "Marais"]
         },
         {
           "usuario": {
             "nome": "Thomas Anderson",
             "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Los Angeles, CA",
+            "cidade": "Los Angeles",
             "pais": "USA"
           },
           "estrelas": 4,
           "data": "2024-01-08",
-          "avaliacao": "Great boutique hotel in the heart of Le Marais. Walking distance to everything. Room was cozy though a bit small.",
+          "comentario": "Great boutique hotel in the heart of Le Marais. Walking distance to everything. Room was cozy though a bit small.",
           "tags": ["boutique hotel", "walking distance", "cozy room"]
         },
         {
@@ -271,7 +271,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-30",
-          "avaliacao": "Hotel boutique perfetto per una fuga romantica a Parigi. La reception è sempre disponibile e gentile.",
+          "comentario": "Hotel boutique perfetto per una fuga romantica a Parigi. La reception è sempre disponibile e gentile.",
           "tags": ["romântico", "recepção atenciosa", "boutique"]
         },
         {
@@ -283,7 +283,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-22",
-          "avaliacao": "Hotel charmoso em excelente localização. Quarto limpo e confortável. O bairro Le Marais é maravilhoso.",
+          "comentario": "Hotel charmoso em excelente localização. Quarto limpo e confortável. O bairro Le Marais é maravilhoso.",
           "tags": ["charmoso", "limpo", "bairro excelente"]
         },
         {
@@ -295,7 +295,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Absolutely charming hotel with authentic Parisian character. The staff were incredibly helpful. Perfect base for exploring!",
+          "comentario": "Absolutely charming hotel with authentic Parisian character. The staff were incredibly helpful. Perfect base for exploring!",
           "tags": ["autêntico", "staff útil", "base perfeita"]
         }
       ],
@@ -410,7 +410,7 @@
           },
           "estrelas": 5,
           "data": "2024-01-10",
-          "avaliacao": "A vista da caldeira é simplesmente deslumbrante! A piscina infinita com o pôr do sol é mágica. Serviço excepcional!",
+          "comentario": "A vista da caldeira é simplesmente deslumbrante! A piscina infinita com o pôr do sol é mágica. Serviço excepcional!",
           "tags": ["vista deslumbrante", "piscina infinita", "serviço excepcional"]
         },
         {
@@ -422,7 +422,7 @@
           },
           "estrelas": 5,
           "data": "2024-01-05",
-          "avaliacao": "The caldera view was absolutely breathtaking. Watching the sunset from the infinity pool was a dream. Perfect for honeymoon!",
+          "comentario": "The caldera view was absolutely breathtaking. Watching the sunset from the infinity pool was a dream. Perfect for honeymoon!",
           "tags": ["breathtaking view", "sunset watching", "honeymoon perfect"]
         },
         {
@@ -434,7 +434,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-28",
-          "avaliacao": "Santorini è magica e questo hotel la rende ancora più speciale. Le camere sono spaziose. Il personale è cordiale!",
+          "comentario": "Santorini è magica e questo hotel la rende ancora più speciale. Le camere sono spaziose. Il personale è cordiale!",
           "tags": ["Santorini mágica", "quartos espaçosos", "staff cordial"]
         },
         {
@@ -446,7 +446,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-20",
-          "avaliacao": "A vista é de tirar o fôlego! Hotel lindo e bem localizado. As ruas são íngremes, mas faz parte do charme.",
+          "comentario": "A vista é de tirar o fôlego! Hotel lindo e bem localizado. As ruas são íngremes, mas faz parte do charme.",
           "tags": ["vista incrível", "bem localizado", "ruas íngremes"]
         },
         {
@@ -458,7 +458,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Most stunning caldera views in Santorini. The cave-style rooms are unique and romantic. Breakfast on the terrace was amazing!",
+          "comentario": "Most stunning caldera views in Santorini. The cave-style rooms are unique and romantic. Breakfast on the terrace was amazing!",
           "tags": ["stunning views", "cave-style rooms", "romantic breakfast"]
         }
       ],
@@ -571,7 +571,7 @@
           },
           "estrelas": 5,
           "data": "2024-01-10",
-          "avaliacao": "完璧なロケーション！新宿駅から近く、部屋も清潔で快適でした。朝食のバリエーションが素晴らしい。",
+          "comentario": "完璧なロケーション！新宿駅から近く、部屋も清潔で快適でした。朝食のバリエーションが素晴らしい。",
           "tags": ["localização perfeita", "limpo", "café variado"]
         },
         {
@@ -583,7 +583,7 @@
           },
           "estrelas": 5,
           "data": "2024-01-05",
-          "avaliacao": "Perfect location in Shinjuku! Walking distance to everything. The Japanese breakfast was authentic and delicious. Staff very helpful!",
+          "comentario": "Perfect location in Shinjuku! Walking distance to everything. The Japanese breakfast was authentic and delicious. Staff very helpful!",
           "tags": ["perfect location", "authentic breakfast", "helpful staff"]
         },
         {
@@ -595,7 +595,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-28",
-          "avaliacao": "Hotel excelente e bem localizado. Quarto compacto mas funcional (típico do Japão). Café da manhã muito bom!",
+          "comentario": "Hotel excelente e bem localizado. Quarto compacto mas funcional (típico do Japão). Café da manhã muito bom!",
           "tags": ["bem localizado", "compacto", "café bom"]
         },
         {
@@ -607,7 +607,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-20",
-          "avaliacao": "Hôtel moderne et propre. Le personnel parle anglais et est très serviable. Proche du métro et des centres commerciaux.",
+          "comentario": "Hôtel moderne et propre. Le personnel parle anglais et est très serviable. Proche du métro et des centres commerciaux.",
           "tags": ["moderne et propre", "personnel serviable", "proche métro"]
         },
         {
@@ -619,7 +619,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Amazing hotel! The high-tech toilet was an experience. Business center was excellent. Great value for money in Tokyo!",
+          "comentario": "Amazing hotel! The high-tech toilet was an experience. Business center was excellent. Great value for money in Tokyo!",
           "tags": ["high-tech toilet", "excellent business center", "great value"]
         }
       ],
@@ -731,7 +731,7 @@
           },
           "estrelas": 4,
           "data": "2024-01-14",
-          "avaliacao": "Great location right in Times Square! The room was clean and comfortable. Breakfast buffet had good options.",
+          "comentario": "Great location right in Times Square! The room was clean and comfortable. Breakfast buffet had good options.",
           "tags": ["great location", "clean room", "good breakfast"]
         },
         {
@@ -743,7 +743,7 @@
           },
           "estrelas": 3,
           "data": "2024-01-09",
-          "avaliacao": "Location is perfect but rooms are small. Good for short stays. The noise from Times Square can be loud at night.",
+          "comentario": "Location is perfect but rooms are small. Good for short stays. The noise from Times Square can be loud at night.",
           "tags": ["perfect location", "small rooms", "noisy"]
         },
         {
@@ -755,7 +755,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-30",
-          "avaliacao": "Perfect base for exploring NYC. Walking distance to Broadway shows and attractions. Basic but comfortable accommodation.",
+          "comentario": "Perfect base for exploring NYC. Walking distance to Broadway shows and attractions. Basic but comfortable accommodation.",
           "tags": ["perfect base", "walking distance", "basic comfort"]
         },
         {
@@ -767,7 +767,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-22",
-          "avaliacao": "Excellent value for Times Square location. Staff were friendly and helpful. Rooms were updated and clean.",
+          "comentario": "Excellent value for Times Square location. Staff were friendly and helpful. Rooms were updated and clean.",
           "tags": ["excellent value", "friendly staff", "updated rooms"]
         },
         {
@@ -779,7 +779,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Couldn't ask for a better location! Right in the heart of NYC action. Rooms are compact but have everything you need.",
+          "comentario": "Couldn't ask for a better location! Right in the heart of NYC action. Rooms are compact but have everything you need.",
           "tags": ["best location", "compact rooms", "heart of NYC"]
         }
       ],
@@ -889,7 +889,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Excelente localização no centro histórico! O aquecimento funcionou perfeitamente, o que é essencial em Cusco. Café da manhã com produtos locais.",
+          "comentario": "Excelente localização no centro histórico! O aquecimento funcionou perfeitamente, o que é essencial em Cusco. Café da manhã com produtos locais.",
           "tags": ["centro histórico", "aquecimento eficiente", "produtos locais"]
         },
         {
@@ -901,7 +901,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "avaliacao": "Hotel simples mas muito acolhedor. A equipe ajudou muito com dicas para aclimatação à altitude. Wi-Fi poderia ser melhor.",
+          "comentario": "Hotel simples mas muito acolhedor. A equipe ajudou muito com dicas para aclimatação à altitude. Wi-Fi poderia ser melhor.",
           "tags": ["acolhedor", "dicas altitude", "Wi-Fi fraco"]
         },
         {
@@ -913,7 +913,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-28",
-          "avaliacao": "A trilha é cansativa mas vale cada passo! Leve sapatos confortáveis. O hotel é básico mas cumpre sua função.",
+          "comentario": "A trilha é cansativa mas vale cada passo! Leve sapatos confortáveis. O hotel é básico mas cumpre sua função.",
           "tags": ["trilha cansativa", "sapatos confortáveis", "hotel básico"]
         },
         {
@@ -925,7 +925,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Guia muito conhecimento sobre a cultura Inca. Impressionante! O hotel tem localização perfeita para explorar Cusco.",
+          "comentario": "Guia muito conhecimento sobre a cultura Inca. Impressionante! O hotel tem localização perfeita para explorar Cusco.",
           "tags": ["cultura Inca", "localização perfeita", "guia conhecedor"]
         },
         {
@@ -937,7 +937,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "El amanecer en Machu Picchu es una experiencia divina. El hotel es cómodo para descansar después de las caminatas.",
+          "comentario": "El amanecer en Machu Picchu es una experiencia divina. El hotel es cómodo para descansar después de las caminatas.",
           "tags": ["amanecer divino", "cómodo", "descanso caminatas"]
         }
       ],
@@ -1051,7 +1051,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "A vista da Opera House do nosso quarto foi inacreditável! Acordar com essa vista vale cada centavo. Serviço impecável.",
+          "comentario": "A vista da Opera House do nosso quarto foi inacreditável! Acordar com essa vista vale cada centavo. Serviço impecável.",
           "tags": ["vista inacreditável", "Opera House", "serviço impecável"]
         },
         {
@@ -1063,7 +1063,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-10",
-          "avaliacao": "Perfect location for exploring Sydney! The rooftop bar has amazing sunset views. Rooms are modern and comfortable.",
+          "comentario": "Perfect location for exploring Sydney! The rooftop bar has amazing sunset views. Rooms are modern and comfortable.",
           "tags": ["perfect location", "rooftop bar", "modern rooms"]
         },
         {
@@ -1075,7 +1075,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-22",
-          "avaliacao": "Voo muito longo, mas a cidade compensa o cansaço. A vista do hotel é espetacular. Piscina aquecida é um plus.",
+          "comentario": "Voo muito longo, mas a cidade compensa o cansaço. A vista do hotel é espetacular. Piscina aquecida é um plus.",
           "tags": ["voo longo", "vista espetacular", "piscina aquecida"]
         },
         {
@@ -1087,7 +1087,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Povo muito simpático e comida excelente! A localização é perfeita para conhecer Sydney. Hotel muito bem equipado.",
+          "comentario": "Povo muito simpático e comida excelente! A localização é perfeita para conhecer Sydney. Hotel muito bem equipado.",
           "tags": ["povo simpático", "comida excelente", "bem equipado"]
         },
         {
@@ -1099,7 +1099,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Sydney Harbour at sunset is magical! Worth every penny. The seafood restaurant in the hotel is outstanding.",
+          "comentario": "Sydney Harbour at sunset is magical! Worth every penny. The seafood restaurant in the hotel is outstanding.",
           "tags": ["harbour sunset", "worth every penny", "outstanding seafood"]
         }
       ],
@@ -1210,7 +1210,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "Arquitetura deslumbrante e tapas deliciosas! O hotel fica no coração de Barcelona. Quarto pequeno mas funcional.",
+          "comentario": "Arquitetura deslumbrante e tapas deliciosas! O hotel fica no coração de Barcelona. Quarto pequeno mas funcional.",
           "tags": ["arquitetura deslumbrante", "coração Barcelona", "quarto funcional"]
         },
         {
@@ -1222,7 +1222,7 @@
           },
           "estrelas": 3,
           "data": "2023-11-15",
-          "avaliacao": "Como espanhol, recomendo os restaurantes locais fora das áreas turísticas. Hotel básico mas bem localizado.",
+          "comentario": "Como espanhol, recomendo os restaurantes locais fora das áreas turísticas. Hotel básico mas bem localizado.",
           "tags": ["restaurantes locais", "básico", "bem localizado"]
         },
         {
@@ -1234,7 +1234,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Sagrada Família é de tirar o fôlego! Hotel simples mas com excelente localização. Ideal para quem quer explorar a cidade.",
+          "comentario": "Sagrada Família é de tirar o fôlego! Hotel simples mas com excelente localização. Ideal para quem quer explorar a cidade.",
           "tags": ["Sagrada Família", "excelente localização", "ideal explorar"]
         },
         {
@@ -1246,7 +1246,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-28",
-          "avaliacao": "Cidade linda, mas muito cheia de turistas. O hotel cumpre sua função de hospedagem básica no centro.",
+          "comentario": "Cidade linda, mas muito cheia de turistas. O hotel cumpre sua função de hospedagem básica no centro.",
           "tags": ["muitos turistas", "hospedagem básica", "centro"]
         },
         {
@@ -1258,7 +1258,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "¡Barcelona es arte vivo! Gaudí era un genio. El hotel está bien ubicado para ver todo. Habitación cómoda.",
+          "comentario": "¡Barcelona es arte vivo! Gaudí era un genio. El hotel está bien ubicado para ver todo. Habitación cómoda.",
           "tags": ["arte vivo", "bien ubicado", "habitación cómoda"]
         }
       ],
@@ -1372,7 +1372,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-20",
-          "avaliacao": "Vista espetacular da praia de Copacabana! Café da manhã variado com frutas tropicais. Atendimento cordial e profissional.",
+          "comentario": "Vista espetacular da praia de Copacabana! Café da manhã variado com frutas tropicais. Atendimento cordial e profissional.",
           "tags": ["vista espetacular", "frutas tropicais", "atendimento profissional"]
         },
         {
@@ -1384,7 +1384,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-15",
-          "avaliacao": "Localização perfeita para aproveitar o Rio! A piscina com vista é maravilhosa. O quarto poderia ser um pouco mais moderno.",
+          "comentario": "Localização perfeita para aproveitar o Rio! A piscina com vista é maravilhosa. O quarto poderia ser um pouco mais moderno.",
           "tags": ["localização perfeita", "piscina com vista", "modernização"]
         },
         {
@@ -1396,7 +1396,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-08",
-          "avaliacao": "Como carioca, digo: o pôr do sol em Arpoador é único! Hotel com vista perfeita e ótima infraestrutura.",
+          "comentario": "Como carioca, digo: o pôr do sol em Arpoador é único! Hotel com vista perfeita e ótima infraestrutura.",
           "tags": ["pôr do sol Arpoador", "vista perfeita", "ótima infra"]
         },
         {
@@ -1408,7 +1408,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Pão de Açúcar vale cada centavo. Vista espetacular! O hotel tem uma localização privilegiada em Copacabana.",
+          "comentario": "Pão de Açúcar vale cada centavo. Vista espetacular! O hotel tem uma localização privilegiada em Copacabana.",
           "tags": ["Pão de Açúcar", "vista espetacular", "localização privilegiada"]
         },
         {
@@ -1420,7 +1420,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-15",
-          "avaliacao": "Cidade linda mas o trânsito é complicado. O hotel compensa com a vista incrível e o acesso à praia.",
+          "comentario": "Cidade linda mas o trânsito é complicado. O hotel compensa com a vista incrível e o acesso à praia.",
           "tags": ["trânsito complicado", "vista incrível", "acesso praia"]
         }
       ],
@@ -1534,7 +1534,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-14",
-          "avaliacao": "Perfect location for sightseeing! The view of Big Ben from our room was worth every penny. Traditional afternoon tea was delightful.",
+          "comentario": "Perfect location for sightseeing! The view of Big Ben from our room was worth every penny. Traditional afternoon tea was delightful.",
           "tags": ["perfect location", "Big Ben view", "delightful tea"]
         },
         {
@@ -1546,7 +1546,7 @@
           },
           "estrelas": 4,
           "data": "2023-10-22",
-          "avaliacao": "Hotel muito bem localizado para conhecer Londres. O chá da tarde é uma experiência autêntica. Quartos confortáveis mas um pouco pequenos.",
+          "comentario": "Hotel muito bem localizado para conhecer Londres. O chá da tarde é uma experiência autêntica. Quartos confortáveis mas um pouco pequenos.",
           "tags": ["bem localizado", "chá autêntico", "quartos pequenos"]
         },
         {
@@ -1558,7 +1558,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Afternoon tea was absolutely delightful! Proper British experience. View of Parliament from the lounge is stunning.",
+          "comentario": "Afternoon tea was absolutely delightful! Proper British experience. View of Parliament from the lounge is stunning.",
           "tags": ["delightful tea", "British experience", "stunning view"]
         },
         {
@@ -1570,7 +1570,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-30",
-          "avaliacao": "Choveu bastante, mas os museus são incríveis e gratuitos! Hotel com localização perfeita para cultura.",
+          "comentario": "Choveu bastante, mas os museus são incríveis e gratuitos! Hotel com localização perfeita para cultura.",
           "tags": ["museus gratuitos", "localização perfeita", "chuva"]
         },
         {
@@ -1582,7 +1582,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Westminster Abbey is breathtaking. History comes alive! The hotel's afternoon tea service is exceptional.",
+          "comentario": "Westminster Abbey is breathtaking. History comes alive! The hotel's afternoon tea service is exceptional.",
           "tags": ["breathtaking abbey", "history alive", "exceptional tea"]
         }
       ],
@@ -1697,7 +1697,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-30",
-          "avaliacao": "Luxo e modernidade impressionantes! O safári no deserto foi inesquecível. Vista do Burj Khalifa é espetacular.",
+          "comentario": "Luxo e modernidade impressionantes! O safári no deserto foi inesquecível. Vista do Burj Khalifa é espetacular.",
           "tags": ["luxo impressionante", "safári deserto", "vista espetacular"]
         },
         {
@@ -1709,7 +1709,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-25",
-          "avaliacao": "Cidade fascinante, mas muito quente durante o dia. O hotel é um oásis de conforto. Piscina com vista incrível.",
+          "comentario": "Cidade fascinante, mas muito quente durante o dia. O hotel é um oásis de conforto. Piscina com vista incrível.",
           "tags": ["muito quente", "oásis conforto", "piscina incrível"]
         },
         {
@@ -1721,7 +1721,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-10",
-          "avaliacao": "Burj Khalifa view from 124th floor is mind-blowing! Hotel service is exceptional. Breakfast buffet is massive.",
+          "comentario": "Burj Khalifa view from 124th floor is mind-blowing! Hotel service is exceptional. Breakfast buffet is massive.",
           "tags": ["mind-blowing view", "exceptional service", "massive breakfast"]
         },
         {
@@ -1733,7 +1733,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Compras excelentes, mas tudo é muito caro. O hotel compensa com o luxo e conforto. Vista digna de cartão postal.",
+          "comentario": "Compras excelentes, mas tudo é muito caro. O hotel compensa com o luxo e conforto. Vista digna de cartão postal.",
           "tags": ["compras caras", "luxo e conforto", "vista cartão postal"]
         },
         {
@@ -1745,7 +1745,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Desert safari with dinner under the stars - unforgettable! Hotel's infinity pool has best Burj Khalifa view in Dubai.",
+          "comentario": "Desert safari with dinner under the stars - unforgettable! Hotel's infinity pool has best Burj Khalifa view in Dubai.",
           "tags": ["unforgettable safari", "infinity pool", "best view"]
         }
       ],
@@ -1855,7 +1855,7 @@
           },
           "estrelas": 5,
           "data": "2023-09-12",
-          "avaliacao": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico. Pousada simples mas acolhedora.",
+          "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico. Pousada simples mas acolhedora.",
           "tags": ["paraíso na terra", "águas cristalinas", "pousada acolhedora"]
         },
         {
@@ -1867,7 +1867,7 @@
           },
           "estrelas": 4,
           "data": "2023-08-30",
-          "avaliacao": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo! A pousada é rústica mas muito bem localizada.",
+          "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo! A pousada é rústica mas muito bem localizada.",
           "tags": ["taxa ambiental cara", "vale cada centavo", "bem localizada"]
         },
         {
@@ -1879,7 +1879,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-15",
-          "avaliacao": "Baía do Sancho é a praia mais linda do Brasil! A pousada ajuda com dicas locais. Natureza intocada.",
+          "comentario": "Baía do Sancho é a praia mais linda do Brasil! A pousada ajuda com dicas locais. Natureza intocada.",
           "tags": ["praia mais linda", "dicas locais", "natureza intocada"]
         },
         {
@@ -1891,7 +1891,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-08",
-          "avaliacao": "Trilhas incríveis, mas exige preparo físico. A pousada é básica mas funciona bem. Internet limitada.",
+          "comentario": "Trilhas incríveis, mas exige preparo físico. A pousada é básica mas funciona bem. Internet limitada.",
           "tags": ["trilhas exigentes", "pousada básica", "internet limitada"]
         },
         {
@@ -1903,7 +1903,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Pôr do sol no Mirante dos Golfinhos é inesquecível! A simplicidade da pousada combina com a ilha preservada.",
+          "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível! A simplicidade da pousada combina com a ilha preservada.",
           "tags": ["pôr do sol inesquecível", "simplicidade", "ilha preservada"]
         }
       ],
@@ -2014,7 +2014,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-25",
-          "avaliacao": "História em cada esquina e comida divina! O gelato é o melhor do mundo. Vista do Coliseu do quarto é emocionante.",
+          "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo. Vista do Coliseu do quarto é emocionante.",
           "tags": ["história em cada esquina", "gelato melhor", "vista emocionante"]
         },
         {
@@ -2026,7 +2026,7 @@
           },
           "estrelas": 4,
           "data": "2023-09-18",
-          "avaliacao": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar. Hotel com localização perfeita.",
+          "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar. Hotel com localização perfeita.",
           "tags": ["muitos turistas", "acordar cedo", "localização perfeita"]
         },
         {
@@ -2038,7 +2038,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-30",
-          "avaliacao": "Colosseo di notte è magico! Da non perdere. L'hotel è pulito e il personale molto disponibile.",
+          "comentario": "Colosseo di notte è magico! Da non perdere. L'hotel è pulito e il personale molto disponibile.",
           "tags": ["Colosseo notte magico", "hotel pulito", "personale disponibile"]
         },
         {
@@ -2050,7 +2050,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-12",
-          "avaliacao": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda. Hotel simples mas bem localizado.",
+          "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda. Hotel simples mas bem localizado.",
           "tags": ["Fontana di Trevi lotada", "experiência moeda", "bem localizado"]
         },
         {
@@ -2062,7 +2062,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "La pasta carbonara più buona della mia vita! Roma è amore. Vista del Colosseo dalla camera è incredibile.",
+          "comentario": "La pasta carbonara più buona della mia vita! Roma è amore. Vista del Colosseo dalla camera è incredibile.",
           "tags": ["pasta carbonara buona", "Roma amore", "vista incredibile"]
         }
       ],
@@ -2178,7 +2178,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-22",
-          "avaliacao": "Paraíso tropical com cultura tailandesa única! As ilhas Phi Phi são deslumbrantes. Resort com serviço impecável.",
+          "comentario": "Paraíso tropical com cultura tailandesa única! As ilhas Phi Phi são deslumbrantes. Resort com serviço impecável.",
           "tags": ["paraíso tropical", "cultura tailandesa", "serviço impecável"]
         },
         {
@@ -2190,7 +2190,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Islands tour was amazing! Crystal clear water. Traditional Thai massage at the resort spa was heavenly.",
+          "comentario": "Islands tour was amazing! Crystal clear water. Traditional Thai massage at the resort spa was heavenly.",
           "tags": ["amazing tour", "crystal clear water", "heavenly massage"]
         },
         {
@@ -2202,7 +2202,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "avaliacao": "Resort maravilhoso, mas cuidado com o sol forte! Use muito protetor. A comida tailandesa do restaurante é autêntica.",
+          "comentario": "Resort maravilhoso, mas cuidado com o sol forte! Use muito protetor. A comida tailandesa do restaurante é autêntica.",
           "tags": ["sol forte", "comida autêntica", "resort maravilhoso"]
         },
         {
@@ -2214,7 +2214,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Best Thai massage ever! Beaches are paradise. The infinity pool overlooking Andaman Sea is breathtaking.",
+          "comentario": "Best Thai massage ever! Beaches are paradise. The infinity pool overlooking Andaman Sea is breathtaking.",
           "tags": ["best massage", "paradise beaches", "breathtaking pool"]
         },
         {
@@ -2226,7 +2226,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Comida tailandesa autêntica e deliciosa! O Big Buddha é imperdível. Resort luxuoso mas com preços elevados.",
+          "comentario": "Comida tailandesa autêntica e deliciosa! O Big Buddha é imperdível. Resort luxuoso mas com preços elevados.",
           "tags": ["comida autêntica", "Big Buddha imperdível", "preços elevados"]
         }
       ],
@@ -2338,7 +2338,7 @@
           },
           "estrelas": 5,
           "data": "2023-09-30",
-          "avaliacao": "Passeio de gôndola no pôr do sol é mágico! Vista do canal do quarto é romântica. Hotel com charme veneziano.",
+          "comentario": "Passeio de gôndola no pôr do sol é mágico! Vista do canal do quarto é romântica. Hotel com charme veneziano.",
           "tags": ["gôndola pôr do sol", "vista romântica", "charme veneziano"]
         },
         {
@@ -2350,7 +2350,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-25",
-          "avaliacao": "Venezia è la città più romantica del mondo! La vista sul Canal Grande dalla camera è incantevole.",
+          "comentario": "Venezia è la città più romantica del mondo! La vista sul Canal Grande dalla camera è incantevole.",
           "tags": ["città romantica", "vista incantevole", "Canal Grande"]
         },
         {
@@ -2362,7 +2362,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-18",
-          "avaliacao": "Cidade única, mas cuidado com as marés altas (acqua alta). Hotel bem localizado para explorar Veneza a pé.",
+          "comentario": "Cidade única, mas cuidado com as marés altas (acqua alta). Hotel bem localizado para explorar Veneza a pé.",
           "tags": ["marés altas", "bem localizado", "explorar a pé"]
         },
         {
@@ -2374,7 +2374,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-08",
-          "avaliacao": "Piazza San Marco at sunrise is absolutely magical! Gondola ride through small canals was unforgettable.",
+          "comentario": "Piazza San Marco at sunrise is absolutely magical! Gondola ride through small canals was unforgettable.",
           "tags": ["sunrise magical", "gondola unforgettable", "small canals"]
         },
         {
@@ -2386,7 +2386,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-20",
-          "avaliacao": "Romântico, mas os preços são muito elevados. A experiência da gôndola vale a pena. Hotel charmoso.",
+          "comentario": "Romântico, mas os preços são muito elevados. A experiência da gôndola vale a pena. Hotel charmoso.",
           "tags": ["preços elevados", "gôndola vale a pena", "hotel charmoso"]
         }
       ],
@@ -2498,7 +2498,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-12",
-          "avaliacao": "As pirâmides são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
+          "comentario": "As pirâmides são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
           "tags": ["pirâmides impressionantes", "vista espetacular", "café egípcio"]
         },
         {
@@ -2510,7 +2510,7 @@
           },
           "estrelas": 4,
           "data": "2023-10-28",
-          "avaliacao": "Como egípcia, fiquei emocionada com o Museu Egípcio. Hotel com vista incrível. Passeio de camelo é imperdível.",
+          "comentario": "Como egípcia, fiquei emocionada com o Museu Egípcio. Hotel com vista incrível. Passeio de camelo é imperdível.",
           "tags": ["Museu Egípcio emocionante", "vista incrível", "camelo imperdível"]
         },
         {
@@ -2522,7 +2522,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Esfinge de Gizé é surreal! História viva. Acordar com vista para as pirâmides é experiência única.",
+          "comentario": "Esfinge de Gizé é surreal! História viva. Acordar com vista para as pirâmides é experiência única.",
           "tags": ["Esfinge surreal", "história viva", "experiência única"]
         },
         {
@@ -2534,7 +2534,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-25",
-          "avaliacao": "Fascinating but very hot. Bring lots of water! Hotel view of pyramids is worth it. Egyptian breakfast interesting.",
+          "comentario": "Fascinating but very hot. Bring lots of water! Hotel view of pyramids is worth it. Egyptian breakfast interesting.",
           "tags": ["very hot", "bring water", "view worth it"]
         },
         {
@@ -2546,7 +2546,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Camel ride at sunset - unforgettable experience! Pyramids look magical in golden light. Hotel service excellent.",
+          "comentario": "Camel ride at sunset - unforgettable experience! Pyramids look magical in golden light. Hotel service excellent.",
           "tags": ["unforgettable camel ride", "magical pyramids", "excellent service"]
         }
       ],
@@ -2659,7 +2659,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "Gastronomia incrível e vida noturna vibrante! Hotel bem localizado para negócios. Quarto confortável e silencioso.",
+          "comentario": "Gastronomia incrível e vida noturna vibrante! Hotel bem localizado para negócios. Quarto confortável e silencioso.",
           "tags": ["gastronomia incrível", "bem localizado", "quarto silencioso"]
         },
         {
@@ -2671,7 +2671,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Como paulistano, recomendo o Mercado Municipal e a Avenida Paulista. Hotel perfeito para trabalho e lazer.",
+          "comentario": "Como paulistano, recomendo o Mercado Municipal e a Avenida Paulista. Hotel perfeito para trabalho e lazer.",
           "tags": ["Mercado Municipal", "Avenida Paulista", "perfeito trabalho/lazer"]
         },
         {
@@ -2683,7 +2683,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Cidade enorme, precisa de planejamento para aproveitar bem. Hotel com excelente infraestrutura para trabalho.",
+          "comentario": "Cidade enorme, precisa de planejamento para aproveitar bem. Hotel com excelente infraestrutura para trabalho.",
           "tags": ["planejamento necessário", "excelente infra", "cidade enorme"]
         },
         {
@@ -2695,7 +2695,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-30",
-          "avaliacao": "MASP é imperdível! Acervo incrível. Hotel com localização perfeita para cultura e negócios.",
+          "comentario": "MASP é imperdível! Acervo incrível. Hotel com localização perfeita para cultura e negócios.",
           "tags": ["MASP imperdível", "acervo incrível", "localização perfeita"]
         },
         {
@@ -2707,7 +2707,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-12",
-          "avaliacao": "Restaurantes de todos os cantos do mundo! Paraíso gastronômico. Hotel funcional para quem vem a trabalho.",
+          "comentario": "Restaurantes de todos os cantos do mundo! Paraíso gastronômico. Hotel funcional para quem vem a trabalho.",
           "tags": ["paraíso gastronômico", "hotel funcional", "todos os cantos"]
         }
       ],
@@ -2820,7 +2820,7 @@
           },
           "estrelas": 4,
           "data": "2023-10-05",
-          "avaliacao": "Natureza deslumbrante e cidade limpa! Stanley Park é imperdível. Hotel bem localizado para explorar.",
+          "comentario": "Natureza deslumbrante e cidade limpa! Stanley Park é imperdível. Hotel bem localizado para explorar.",
           "tags": ["natureza deslumbrante", "cidade limpa", "Stanley Park"]
         },
         {
@@ -2832,7 +2832,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-18",
-          "avaliacao": "Stanley Park is massive and beautiful! Perfect for biking. Hotel has amazing bay views. Very clean and modern.",
+          "comentario": "Stanley Park is massive and beautiful! Perfect for biking. Hotel has amazing bay views. Very clean and modern.",
           "tags": ["massive park", "perfect biking", "amazing views"]
         },
         {
@@ -2844,7 +2844,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "Capilano Suspension Bridge vale o preço. Vista incrível! Hotel com localização central e confortável.",
+          "comentario": "Capilano Suspension Bridge vale o preço. Vista incrível! Hotel com localização central e confortável.",
           "tags": ["Capilano Bridge vale", "vista incrível", "localização central"]
         },
         {
@@ -2856,7 +2856,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-25",
-          "avaliacao": "Whale watching tour was magical! Saw orcas! Hotel's breakfast with local products was delicious.",
+          "comentario": "Whale watching tour was magical! Saw orcas! Hotel's breakfast with local products was delicious.",
           "tags": ["magical whale watching", "saw orcas", "local breakfast"]
         },
         {
@@ -2868,7 +2868,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-15",
-          "avaliacao": "Cidade linda mas muito cara. A qualidade de vida é excelente. Hotel com vistas maravilhosas.",
+          "comentario": "Cidade linda mas muito cara. A qualidade de vida é excelente. Hotel com vistas maravilhosas.",
           "tags": ["cidade cara", "qualidade vida excelente", "vistas maravilhosas"]
         }
       ],
@@ -2982,7 +2982,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-28",
-          "avaliacao": "Vista dos Andes é impressionante! Vinho chileno excelente. Hotel bem localizado em Providencia.",
+          "comentario": "Vista dos Andes é impressionante! Vinho chileno excelente. Hotel bem localizado em Providencia.",
           "tags": ["vista impressionante", "vinho excelente", "bem localizado"]
         },
         {
@@ -2994,7 +2994,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-12",
-          "avaliacao": "Los viñedos del Valle Central son maravillosos. ¡Vino excepcional! Hotel con vista increíble a la cordillera.",
+          "comentario": "Los viñedos del Valle Central son maravillosos. ¡Vino excepcional! Hotel con vista increíble a la cordillera.",
           "tags": ["viñedos maravillosos", "vino excepcional", "vista increíble"]
         },
         {
@@ -3006,7 +3006,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-15",
-          "avaliacao": "Cerro San Cristóbal tem vista panorâmica incrível da cidade. Hotel confortável e com bom café da manhã.",
+          "comentario": "Cerro San Cristóbal tem vista panorâmica incrível da cidade. Hotel confortável e com bom café da manhã.",
           "tags": ["Cerro San Cristóbal", "vista panorâmica", "bom café"]
         },
         {
@@ -3018,7 +3018,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "avaliacao": "Show folclórico muito bom, mas o jantar poderia ser melhor. Vista dos Andes do quarto é deslumbrante.",
+          "comentario": "Show folclórico muito bom, mas o jantar poderia ser melhor. Vista dos Andes do quarto é deslumbrante.",
           "tags": ["show folclórico bom", "jantar melhorável", "vista deslumbrante"]
         },
         {
@@ -3030,7 +3030,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-20",
-          "avaliacao": "Chilean wine tasting was fantastic! Malbec is amazing. Andes view from the room is spectacular, especially at sunrise.",
+          "comentario": "Chilean wine tasting was fantastic! Malbec is amazing. Andes view from the room is spectacular, especially at sunrise.",
           "tags": ["fantastic wine tasting", "amazing Malbec", "spectacular sunrise"]
         }
       ],
@@ -3139,7 +3139,7 @@
           },
           "estrelas": 5,
           "data": "2023-09-15",
-          "avaliacao": "Pôr do sol na duna mais lindo do Brasil! Pousada rústica mas muito charmosa. Experiência autêntica.",
+          "comentario": "Pôr do sol na duna mais lindo do Brasil! Pousada rústica mas muito charmosa. Experiência autêntica.",
           "tags": ["pôr do sol lindo", "pousada charmosa", "experiência autêntica"]
         },
         {
@@ -3151,7 +3151,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-08",
-          "avaliacao": "Buggy pelas dunas é adrenalina pura! Lagoas paradisíacas. Pousada ajuda com os melhores passeios.",
+          "comentario": "Buggy pelas dunas é adrenalina pura! Lagoas paradisíacas. Pousada ajuda com os melhores passeios.",
           "tags": ["buggy adrenalina", "lagoas paradisíacas", "melhores passeios"]
         },
         {
@@ -3163,7 +3163,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-22",
-          "avaliacao": "Paraíso ecológico, mas a estrutura é rústica (faz parte do charme!). Leve lanterna para a noite.",
+          "comentario": "Paraíso ecológico, mas a estrutura é rústica (faz parte do charme!). Leve lanterna para a noite.",
           "tags": ["paraíso ecológico", "estrutura rústica", "leve lanterna"]
         },
         {
@@ -3175,7 +3175,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Pedra Furada no pôr do sol é cena de filme! Pousada simples mas muito acolhedora. Natureza preservada.",
+          "comentario": "Pedra Furada no pôr do sol é cena de filme! Pousada simples mas muito acolhedora. Natureza preservada.",
           "tags": ["Pedra Furada cena filme", "pousada acolhedora", "natureza preservada"]
         },
         {
@@ -3187,7 +3187,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Kitesurf excelente, mas instrutores caros. Pousada básica mas limpa. Vale pela experiência única.",
+          "comentario": "Kitesurf excelente, mas instrutores caros. Pousada básica mas limpa. Vale pela experiência única.",
           "tags": ["kitesurf excelente", "instrutores caros", "experiência única"]
         }
       ],
@@ -3300,7 +3300,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-10",
-          "avaliacao": "Cidade fascinante onde Oriente e Ocidente se encontram! Vista do Bósforo é espetacular. Hamam tradicional incrível.",
+          "comentario": "Cidade fascinante onde Oriente e Ocidente se encontram! Vista do Bósforo é espetacular. Hamam tradicional incrível.",
           "tags": ["cidade fascinante", "vista espetacular", "hamam incrível"]
         },
         {
@@ -3312,7 +3312,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Hagia Sophia ve Blue Mosque görülmeye değer! Hotel konumu mükemmel. Geleneksel Türk kahvaltısı harika.",
+          "comentario": "Hagia Sophia ve Blue Mosque görülmeye değer! Hotel konumu mükemmel. Geleneksel Türk kahvaltısı harika.",
           "tags": ["Hagia Sophia", "konum mükemmel", "kahvaltı harika"]
         },
         {
@@ -3324,7 +3324,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "avaliacao": "Grand Bazaar é imenso! Leve tempo para explorar. Hotel com vista incrível e café da manhã delicioso.",
+          "comentario": "Grand Bazaar é imenso! Leve tempo para explorar. Hotel com vista incrível e café da manhã delicioso.",
           "tags": ["Grand Bazaar imenso", "vista incrível", "café delicioso"]
         },
         {
@@ -3336,7 +3336,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Bosphorus cruise at sunset - absolutely magical! Turkish breakfast was incredible. Hagia Sophia takes your breath away.",
+          "comentario": "Bosphorus cruise at sunset - absolutely magical! Turkish breakfast was incredible. Hagia Sophia takes your breath away.",
           "tags": ["magical cruise", "incredible breakfast", "breathtaking"]
         },
         {
@@ -3348,7 +3348,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Comida turca deliciosa! Baklava imperdível. Vista do hotel é linda, mas prepare-se para andar muito.",
+          "comentario": "Comida turca deliciosa! Baklava imperdível. Vista do hotel é linda, mas prepare-se para andar muito.",
           "tags": ["comida deliciosa", "baklava imperdível", "muito andar"]
         }
       ],
@@ -3461,7 +3461,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-25",
-          "avaliacao": "Praias incríveis e vida noturna eletrizante! Hotel bem localizado em South Beach. Piscina com vista linda.",
+          "comentario": "Praias incríveis e vida noturna eletrizante! Hotel bem localizado em South Beach. Piscina com vista linda.",
           "tags": ["praias incríveis", "vida noturna", "piscina vista"]
         },
         {
@@ -3473,7 +3473,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-10",
-          "avaliacao": "South Beach art deco architecture is stunning! Perfect location for beach and nightlife. Breakfast could be better.",
+          "comentario": "South Beach art deco architecture is stunning! Perfect location for beach and nightlife. Breakfast could be better.",
           "tags": ["art deco stunning", "perfect location", "breakfast better"]
         },
         {
@@ -3485,7 +3485,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Passeio de barco pelas ilhas foi o ponto alto! Hotel moderno e confortável. Localização perfeita em Miami Beach.",
+          "comentario": "Passeio de barco pelas ilhas foi o ponto alto! Hotel moderno e confortável. Localização perfeita em Miami Beach.",
           "tags": ["passeio barco", "hotel moderno", "localização perfeita"]
         },
         {
@@ -3497,7 +3497,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-15",
-          "avaliacao": "Great beaches but very expensive restaurants. Hotel has amazing ocean views. Art Deco tour was interesting.",
+          "comentario": "Great beaches but very expensive restaurants. Hotel has amazing ocean views. Art Deco tour was interesting.",
           "tags": ["expensive restaurants", "amazing views", "interesting tour"]
         },
         {
@@ -3509,7 +3509,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Celebrity restaurant experience was worth every penny! Miami é pura energia. Hotel com estilo e conforto.",
+          "comentario": "Celebrity restaurant experience was worth every penny! Miami é pura energia. Hotel com estilo e conforto.",
           "tags": ["restaurante celebridade", "Miami energia", "estilo e conforto"]
         }
       ],
@@ -3622,7 +3622,7 @@
           },
           "estrelas": 4,
           "data": "2023-10-28",
-          "avaliacao": "Templos magníficos e comida de rua deliciosa! Vista do rio é relaxante. Hotel bem localizado para templos.",
+          "comentario": "Templos magníficos e comida de rua deliciosa! Vista do rio é relaxante. Hotel bem localizado para templos.",
           "tags": ["templos magníficos", "comida rua", "vista relaxante"]
         },
         {
@@ -3634,7 +3634,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-20",
-          "avaliacao": "Wat Arun at sunset is breathtaking! True Thai beauty. Hotel's river view rooms are worth the upgrade.",
+          "comentario": "Wat Arun at sunset is breathtaking! True Thai beauty. Hotel's river view rooms are worth the upgrade.",
           "tags": ["Wat Arun sunset", "Thai beauty", "worth upgrade"]
         },
         {
@@ -3646,7 +3646,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-12",
-          "avaliacao": "Canais de Bangkok são fascinantes, mas água não é muito limpa. Hotel com vista linda e piscina ótima.",
+          "comentario": "Canais de Bangkok são fascinantes, mas água não é muito limpa. Hotel com vista linda e piscina ótima.",
           "tags": ["canais fascinantes", "água não limpa", "piscina ótima"]
         },
         {
@@ -3658,7 +3658,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-30",
-          "avaliacao": "Thai massage was heavenly! Best $15 ever spent. Floating market tour was incredible experience.",
+          "comentario": "Thai massage was heavenly! Best $15 ever spent. Floating market tour was incredible experience.",
           "tags": ["heavenly massage", "best value", "incredible experience"]
         },
         {
@@ -3670,7 +3670,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Calor intenso, mas os templos valem o desconforto. Hotel com ar condicionado potente e vista incrível.",
+          "comentario": "Calor intenso, mas os templos valem o desconforto. Hotel com ar condicionado potente e vista incrível.",
           "tags": ["calor intenso", "templos valem", "ar condicionado potente"]
         }
       ],
@@ -3783,7 +3783,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-20",
-          "avaliacao": "Clima romântico e chocolates divinos! Lareira no quarto é aconchegante. Café colonial maravilhoso.",
+          "comentario": "Clima romântico e chocolates divinos! Lareira no quarto é aconchegante. Café colonial maravilhoso.",
           "tags": ["clima romântico", "chocolates divinos", "café colonial"]
         },
         {
@@ -3795,7 +3795,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Wie im Schwarzwald! Perfektes deutsches Essen. Das Hotel hat echten Alpen-Charme. Sehr gemütlich!",
+          "comentario": "Wie im Schwarzwald! Perfektes deutsches Essen. Das Hotel hat echten Alpen-Charme. Sehr gemütlich!",
           "tags": ["wie Schwarzwald", "perfektes Essen", "Alpen-Charme"]
         },
         {
@@ -3807,7 +3807,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "Mini Mundo encanta crianças e adultos! Detalhes incríveis. Hotel muito aconchegante, perfeito para o frio.",
+          "comentario": "Mini Mundo encanta crianças e adultos! Detalhes incríveis. Hotel muito aconchegante, perfeito para o frio.",
           "tags": ["Mini Mundo", "detalhes incríveis", "aconchegante frio"]
         },
         {
@@ -3819,7 +3819,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Fábricas de chocolate são paraíso para os doces! Hotel temático muito bem feito. Experiência europeia no Brasil.",
+          "comentario": "Fábricas de chocolate são paraíso para os doces! Hotel temático muito bem feito. Experiência europeia no Brasil.",
           "tags": ["fábricas chocolate", "hotel temático", "experiência europeia"]
         },
         {
@@ -3831,7 +3831,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-15",
-          "avaliacao": "Frio intenso em junho, mas o chocolate quente ajuda! Hotel muito charmoso e bem localizado.",
+          "comentario": "Frio intenso em junho, mas o chocolate quente ajuda! Hotel muito charmoso e bem localizado.",
           "tags": ["frio intenso", "chocolate quente", "charmoso localizado"]
         }
       ],
@@ -3945,7 +3945,7 @@
           },
           "estrelas": 5,
           "data": "2023-10-15",
-          "avaliacao": "Passeio de gôndola é romântico e único! Hotel com charme histórico. Acordar vendo o canal é mágico.",
+          "comentario": "Passeio de gôndola é romântico e único! Hotel com charme histórico. Acordar vendo o canal é mágico.",
           "tags": ["gôndola romântica", "charme histórico", "vista mágica"]
         },
         {
@@ -3957,7 +3957,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-20",
-          "avaliacao": "Carnevale di Venezia è magico! Le maschere sono bellissime. Hotel incantevole ma prezzo alto.",
+          "comentario": "Carnevale di Venezia è magico! Le maschere sono bellissime. Hotel incantevole ma prezzo alto.",
           "tags": ["Carnevale magico", "maschere bellissime", "prezzo alto"]
         },
         {
@@ -3969,7 +3969,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Cidade flutuante é surreal! Gôndolas, canais, arquitetura única. Hotel com localização perfeita.",
+          "comentario": "Cidade flutuante é surreal! Gôndolas, canais, arquitetura única. Hotel com localização perfeita.",
           "tags": ["cidade flutuante", "arquitetura única", "localização perfeita"]
         },
         {
@@ -3981,7 +3981,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-28",
-          "avaliacao": "Very crowded but absolutely magical. Gondola ride at sunset unforgettable. Hotel's canal view priceless.",
+          "comentario": "Very crowded but absolutely magical. Gondola ride at sunset unforgettable. Hotel's canal view priceless.",
           "tags": ["crowded magical", "sunset unforgettable", "view priceless"]
         },
         {
@@ -3993,7 +3993,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Acqua alta foi uma experiência! Hotel bem preparado com botas. Veneza é um sonho realizado.",
+          "comentario": "Acqua alta foi uma experiência! Hotel bem preparado com botas. Veneza é um sonho realizado.",
           "tags": ["acqua alta experiência", "hotel preparado", "sonho realizado"]
         }
       ],
@@ -4106,7 +4106,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-10",
-          "avaliacao": "Templos serenos e cerejeiras deslumbrantes! Onsen relaxante após caminhadas. Ryokan autêntico e pacífico.",
+          "comentario": "Templos serenos e cerejeiras deslumbrantes! Onsen relaxante após caminhadas. Ryokan autêntico e pacífico.",
           "tags": ["templos serenos", "cerejeiras deslumbrantes", "ryokan autêntico"]
         },
         {
@@ -4118,7 +4118,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-01",
-          "avaliacao": "Gion matsuri festival was spectacular! Maiko spotting in historic district. Traditional kaiseki meal exquisite.",
+          "comentario": "Gion matsuri festival was spectacular! Maiko spotting in historic district. Traditional kaiseki meal exquisite.",
           "tags": ["Gion matsuri", "maiko spotting", "kaiseki exquisite"]
         },
         {
@@ -4130,7 +4130,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-15",
-          "avaliacao": "Fushimi Inari com mil portões vermelhos é impressionante! Ryokan muito autêntico, mas futon dura para costas.",
+          "comentario": "Fushimi Inari com mil portões vermelhos é impressionante! Ryokan muito autêntico, mas futon dura para costas.",
           "tags": ["Fushimi Inari", "portões vermelhos", "futom duro"]
         },
         {
@@ -4142,7 +4142,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-25",
-          "avaliacao": "Arashiyama bamboo grove is magical! Tea ceremony was serene experience. Onsen healed hiking fatigue.",
+          "comentario": "Arashiyama bamboo grove is magical! Tea ceremony was serene experience. Onsen healed hiking fatigue.",
           "tags": ["bamboo grove magical", "tea ceremony serene", "onsen healing"]
         },
         {
@@ -4154,7 +4154,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-10",
-          "avaliacao": "Culinária japonesa autêntica incomparável! Templos de Quioto são patrimônio mundial. Experiência cultural profunda.",
+          "comentario": "Culinária japonesa autêntica incomparável! Templos de Quioto são patrimônio mundial. Experiência cultural profunda.",
           "tags": ["culinária autêntica", "patrimônio mundial", "experiência cultural"]
         }
       ],
@@ -4267,7 +4267,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-20",
-          "avaliacao": "Burj Khalifa é impressionante! Vista do topo incrível. Resort no deserto oferece experiência autêntica.",
+          "comentario": "Burj Khalifa é impressionante! Vista do topo incrível. Resort no deserto oferece experiência autêntica.",
           "tags": ["Burj Khalifa", "vista incrível", "experiência autêntica"]
         },
         {
@@ -4279,7 +4279,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Desert safari at sunset - absolutely breathtaking! Traditional Bedouin dinner under stars magical.",
+          "comentario": "Desert safari at sunset - absolutely breathtaking! Traditional Bedouin dinner under stars magical.",
           "tags": ["desert safari", "sunset breathtaking", "Bedouin dinner"]
         },
         {
@@ -4291,7 +4291,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-18",
-          "avaliacao": "Calor extremo no verão, mas shoppings são gelados! Resort luxuoso, safari emocionante. Dubai é extremos.",
+          "comentario": "Calor extremo no verão, mas shoppings são gelados! Resort luxuoso, safari emocionante. Dubai é extremos.",
           "tags": ["calor extremo", "shoppings gelados", "luxo e aventura"]
         },
         {
@@ -4303,7 +4303,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-30",
-          "avaliacao": "Shopping malls are cities within cities! Ski Dubai surreal experience. Desert resort pure luxury.",
+          "comentario": "Shopping malls are cities within cities! Ski Dubai surreal experience. Desert resort pure luxury.",
           "tags": ["malls are cities", "Ski Dubai surreal", "pure luxury"]
         },
         {
@@ -4315,7 +4315,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-12",
-          "avaliacao": "Jantar no deserto com show beduíno inesquecível! Resort com piscina infinita nas dunas. Luxo absoluto.",
+          "comentario": "Jantar no deserto com show beduíno inesquecível! Resort com piscina infinita nas dunas. Luxo absoluto.",
           "tags": ["jantar deserto", "show beduíno", "luxo absoluto"]
         }
       ],
@@ -4428,7 +4428,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-15",
-          "avaliacao": "Encontro das Águas é fenômeno único! Vida selvagem impressionante. Lodge rústico mas autêntico.",
+          "comentario": "Encontro das Águas é fenômeno único! Vida selvagem impressionante. Lodge rústico mas autêntico.",
           "tags": ["Encontro das Águas", "vida selvagem", "autêntico"]
         },
         {
@@ -4440,7 +4440,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-08",
-          "avaliacao": "Calor e umidade intensos, mas experiência vale! Ver botos cor-de-rosa emocionante. Comida regional deliciosa.",
+          "comentario": "Calor e umidade intensos, mas experiência vale! Ver botos cor-de-rosa emocionante. Comida regional deliciosa.",
           "tags": ["calor intenso", "botos cor-de-rosa", "comida regional"]
         },
         {
@@ -4452,7 +4452,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-28",
-          "avaliacao": "Amazon rainforest is lungs of Earth! Wildlife spotting incredible. Basic lodge but authentic experience.",
+          "comentario": "Amazon rainforest is lungs of Earth! Wildlife spotting incredible. Basic lodge but authentic experience.",
           "tags": ["lungs of Earth", "wildlife incredible", "authentic experience"]
         },
         {
@@ -4464,7 +4464,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-20",
-          "avaliacao": "Muitos mosquitos, leve repelente! Comunidade ribeirinha visita enriquecedora. Passeio noturno assustador mas incrível.",
+          "comentario": "Muitos mosquitos, leve repelente! Comunidade ribeirinha visita enriquecedora. Passeio noturno assustador mas incrível.",
           "tags": ["muitos mosquitos", "comunidade ribeirinha", "passeio noturno"]
         },
         {
@@ -4476,7 +4476,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Meeting of Waters unbelievable natural phenomenon! Indigenous community visit very humbling. Basic but meaningful.",
+          "comentario": "Meeting of Waters unbelievable natural phenomenon! Indigenous community visit very humbling. Basic but meaningful.",
           "tags": ["natural phenomenon", "humbling visit", "meaningful experience"]
         }
       ],
@@ -4589,7 +4589,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-25",
-          "avaliacao": "Sydney Opera House é icônico! Visto do hotel perfeito. Bondi Beach ótima para surfar.",
+          "comentario": "Sydney Opera House é icônico! Visto do hotel perfeito. Bondi Beach ótima para surfar.",
           "tags": ["Opera House icônico", "vista perfeita", "Bondi Beach surf"]
         },
         {
@@ -4601,7 +4601,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-10",
-          "avaliacao": "Harbour Bridge climb was exhilarating! Hotel location perfect for NYE fireworks. Australian breakfast delicious.",
+          "comentario": "Harbour Bridge climb was exhilarating! Hotel location perfect for NYE fireworks. Australian breakfast delicious.",
           "tags": ["Bridge climb", "perfect NYE location", "delicious breakfast"]
         },
         {
@@ -4613,7 +4613,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-18",
-          "avaliacao": "Vida selvagem única! Cangurus e coalas encantadores. Hotel com vista espetacular para a baía.",
+          "comentario": "Vida selvagem única! Cangurus e coalas encantadores. Hotel com vista espetacular para a baía.",
           "tags": ["vida selvagem única", "cangurus coalas", "vista espetacular"]
         },
         {
@@ -4625,7 +4625,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-30",
-          "avaliacao": "Very expensive but amazing views! Blue Mountains day trip worthwhile. Hotel service excellent.",
+          "comentario": "Very expensive but amazing views! Blue Mountains day trip worthwhile. Hotel service excellent.",
           "tags": ["expensive amazing", "Blue Mountains trip", "service excellent"]
         },
         {
@@ -4637,7 +4637,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-05",
-          "avaliacao": "Great Barrier Reef é maravilha natural! Hotel em Sydney com localização perfeita para todos os passeios.",
+          "comentario": "Great Barrier Reef é maravilha natural! Hotel em Sydney com localização perfeita para todos os passeios.",
           "tags": ["Great Barrier Reef", "maravilha natural", "localização perfeita"]
         }
       ],
@@ -4750,7 +4750,7 @@
           },
           "estrelas": 5,
           "data": "2023-11-10",
-          "avaliacao": "Pirâmides de Gizé são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
+          "comentario": "Pirâmides de Gizé são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
           "tags": ["Pirâmides impressionantes", "vista espetacular", "café egípcio"]
         },
         {
@@ -4762,7 +4762,7 @@
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "avaliacao": "Nile cruise at sunset magical! Hotel view of pyramids incredible. Bargaining in Khan el-Khalili fun.",
+          "comentario": "Nile cruise at sunset magical! Hotel view of pyramids incredible. Bargaining in Khan el-Khalili fun.",
           "tags": ["Nile cruise magical", "pyramid view", "bargaining fun"]
         },
         {
@@ -4774,7 +4774,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-15",
-          "avaliacao": "Civilização egípcia antiga fascinante! Esfinge misteriosa. Hotel simples mas com vista inesquecível.",
+          "comentario": "Civilização egípcia antiga fascinante! Esfinge misteriosa. Hotel simples mas com vista inesquecível.",
           "tags": ["civilização fascinante", "Esfinge misteriosa", "vista inesquecível"]
         },
         {
@@ -4786,7 +4786,7 @@
           },
           "estrelas": 4,
           "data": "2023-11-25",
-          "avaliacao": "Extremely hot in summer but pyramids worth it! Camel ride touristy but fun. Hotel basic but view amazing.",
+          "comentario": "Extremely hot in summer but pyramids worth it! Camel ride touristy but fun. Hotel basic but view amazing.",
           "tags": ["extremely hot", "camels touristy", "view amazing"]
         },
         {
@@ -4798,7 +4798,7 @@
           },
           "estrelas": 5,
           "data": "2023-12-08",
-          "avaliacao": "Tesouros de Tutancâmon deslumbrantes! Cruzeiro no Nilo relaxante. Acordar vendo as pirâmides é surreal.",
+          "comentario": "Tesouros de Tutancâmon deslumbrantes! Cruzeiro no Nilo relaxante. Acordar vendo as pirâmides é surreal.",
           "tags": ["Tesouros Tutancâmon", "cruzeiro Nilo", "acordar surreal"]
         }
       ],

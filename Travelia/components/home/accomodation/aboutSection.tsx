@@ -1,22 +1,30 @@
+
+import AppPressable from '@/components/buttons/pressable/appPressable';
 import MapSection from '@/components/mapsWebview/mapSection';
+import ReviewsDetails from '@/components/reviews/reviewsDetails';
+import { ReviewUI } from '@/components/ui/reviews/reviewUi';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { detectInstallationCategory } from '@/hooks/config/detectInstallationCategory';
 import { INSTALLATIONS_MAP } from '@/hooks/config/instalations.config';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
-import { MapPinIcon } from 'phosphor-react-native';
+import { CaretRightIcon, MapPinIcon } from 'phosphor-react-native';
 import { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+
 
 type Props = {
   instalacoes: string[],
   completeAdress: string,
-  latitude: number,
-  longitude: number,
+  googleMapsUrl: string,
+  estrelas: number,
+  estrelasMedia: number,
+  totalAvaliacoes: number,
+  reviewsUI?: ReviewUI[],
 }
 
 
 
-export default function AboutSection({instalacoes, completeAdress, latitude, longitude} : Props) {
+export default function AboutSection({instalacoes, completeAdress, googleMapsUrl, estrelas, estrelasMedia, totalAvaliacoes, reviewsUI} : Props) {
   const {theme, styles} = useThemedStyles(createStyles);
 
 
@@ -25,6 +33,7 @@ export default function AboutSection({instalacoes, completeAdress, latitude, lon
   const handleReadMore = () => {
     setIsExpanded(prev => !prev);
   }
+
 
 
   return (
@@ -107,11 +116,37 @@ export default function AboutSection({instalacoes, completeAdress, latitude, lon
             </View>
             <View style={styles.containerMapAdress}>
               <MapSection 
-                latitude={latitude} 
-                longitude={longitude} 
+                google_maps_url={googleMapsUrl}
               />
             </View>
           </View>
+      </View>
+
+      <View style={styles.containerReviews}>
+          <ReviewsDetails
+            starsNumber={estrelas}
+            mediaStars={estrelasMedia}
+            totalAvaliacoes={totalAvaliacoes}
+
+            reviews = {reviewsUI}
+          />
+      </View>
+
+      <View style={styles.containerPolicies}>
+          <AppPressable
+              style={styles.containerPoliciesText}
+              onPress={() => {
+                console.log('Policies clicked');
+              }}
+            >
+              <Text style={styles.textPolicies}>Accomodation Policies</Text>
+              <CaretRightIcon
+                size={20}
+                color={themeColors[theme].icon}
+                weight="light"
+              />
+            </AppPressable>
+
       </View>
     </View>
   )
@@ -120,8 +155,7 @@ export default function AboutSection({instalacoes, completeAdress, latitude, lon
 
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   container: {
-    borderBottomWidth: 1,
-    borderBottomColor: themeColors[theme].borderColor,
+    flex: 1,
     // backgroundColor: themeColors[theme].background,
   },
   containerDescription: {
@@ -199,6 +233,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: themeColors[theme].borderColor,
     paddingBottom: 20,
+    marginBottom: 30,
   },
 
   containerLocationTitle: {
@@ -207,6 +242,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
 
   containerLocationAdress: {
     gap: 10,
+    
   },
 
   contentLocationAdress: {
@@ -216,13 +252,43 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   textLocation: {
-    fontSize: 16,
+    fontSize: 14,
     color: themeColors[theme].textPrimary,
   },
 
   containerMapAdress: {
     width: '100%',
     
+  },
+
+  containerReviews: {
+    gap: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: themeColors[theme].borderColor,
+    paddingBottom: 20,
+  },
+
+  containerPolicies: {
+    maxWidth: '100%',
+    paddingVertical: 20,
+    paddingHorizontal: 10,
+    
+  },
+
+  containerPoliciesText: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderWidth: 1,
+    borderColor: themeColors[theme].borderColor,
+    borderRadius: 10,
+    padding: 10,
+  },
+
+  textPolicies: {
+    fontSize: 24,
+    fontWeight: 'bold',
   },
 
 

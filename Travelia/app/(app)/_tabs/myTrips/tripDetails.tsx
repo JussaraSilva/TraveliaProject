@@ -4,7 +4,7 @@ import AccomodationInfo from '@/components/details/accomodationInfo';
 import ActivitiesInfo from '@/components/details/activitiesInfo';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import HeaderGlobal from '@/components/header/headerGlobal';
-import { DateText } from '@/components/utils/formatDate';
+import { DateText } from '@/components/utils/date/formatDate';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useDiscountCalculator } from '@/hooks/payment/useDiscountCalculator';
 import { usePaymentInfo } from '@/hooks/payment/usePaymentInfo';

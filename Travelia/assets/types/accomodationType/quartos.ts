@@ -5,7 +5,7 @@ export interface QuartosType {
   capacidade: string,
   camas: string,
   vista: string,
-  varanda: boolean,
+  varanda: boolean | string,
   banheiro_privativo: boolean,
   amenidades_quarto:string[];
   banheiro: BanheiroType;

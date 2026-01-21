@@ -14,8 +14,8 @@ export type PacoteHotel = {
   imagens:ImagemType;
   servicos_hotel: string[];
   quartos:QuartosType[];
-  avaliacao?: AvaliacaoType;
-  review?: ReviewType[];
+  avaliacao: AvaliacaoType;
+  reviews: ReviewType[];
   informacoes_gerais: InformacoesGeraisType;
 }
 

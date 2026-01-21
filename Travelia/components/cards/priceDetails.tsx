@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import { useTheme } from '@/context/themeProvider';
 import { themeColors, ThemeName } from '@/constants/theme';
 import CardDetailsGlobal from '@/components/cards/cardDetailsGlobal';
-import { PriceText } from '@/components/utils/priceText';
+import { PriceText } from '@/components/utils/price/priceText';
 
 
 type PriceDetailsProps = {

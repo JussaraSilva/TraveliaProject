@@ -13,7 +13,7 @@ import { router } from 'expo-router';
 import FlightDepartReturn from '@/components/details/flightDepartReturn';
 import CardDetailsGlobal from '@/components/cards/cardDetailsGlobal';
 import TravelerSelect from '@/components/details/travelerSelect';
-import { PriceText } from '@/components/utils/priceText';
+import { PriceText } from '@/components/utils/price/priceText';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 
 import { useTravelers} from '@/context/traveler/travelerContext';

@@ -7,7 +7,7 @@ import { useTheme } from '../../context/themeProvider'; // Verifique se o caminh
 
 
 function ThemeToggleButton() {
-  const { theme, toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
 
 
   return (

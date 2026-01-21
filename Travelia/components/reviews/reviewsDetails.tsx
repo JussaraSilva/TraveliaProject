@@ -8,22 +8,16 @@ import {
   DotsThreeVerticalIcon,
   StarIcon,
 } from 'phosphor-react-native';
+import { ReviewUI } from '../ui/reviews/reviewUi';
 
 
-type Review = {
-  autor: string;
-  data: string;
-  nota: number
-  comentario: string;
-  votos_uteis: number;
-  imagem_perfil: string;
-};
+
 
 type Props = {
   starsNumber: number;
   mediaStars: number;
   totalAvaliacoes: number;
-  reviews?: Review[];
+  reviews?: ReviewUI[];
 };
 
 export default function ReviewsDetails({
@@ -74,7 +68,9 @@ export default function ReviewsDetails({
                   </View>
                   <View style={styles.containerNameHeader}>
                     <Text style={styles.textName}>{review.autor}</Text>
-                    <Text style={styles.subTextDate}>{review.data}</Text>
+                    {review.subtitle && (
+                      <Text style={styles.subTextDate}>{review.subtitle}</Text>
+                    )}
                   </View>
                   <View style={styles.containerHeaderIcons}>
                     <View style={styles.iconsBack}>
@@ -105,9 +101,9 @@ export default function ReviewsDetails({
                     </Text>
                   </View>
                   <View style={styles.reviewsVotos}>
-                    <Text style={styles.textVotos}>
-                      Votos Úteis: {review.votos_uteis}
-                    </Text>
+                    {review.footer && (
+                      <Text style={styles.textVotos}>{review.footer}</Text>
+                    )}
                   </View>
             </View>
             

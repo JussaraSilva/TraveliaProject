@@ -3,7 +3,7 @@ import { useTheme } from '@/context/themeProvider';
 import { CopyIcon } from 'phosphor-react-native';
 import { ReactNode, useMemo } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
-import { PriceText } from '../utils/priceText';
+import { PriceText } from '../utils/price/priceText';
 
 
 interface paymentProps {
