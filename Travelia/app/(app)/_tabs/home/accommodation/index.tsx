@@ -164,10 +164,14 @@ export default function Accomodation() {
             />
           )}
           {activeTab === 'room' && hotel.quartos.length > 0 && (
-            <RoomDetailsSection 
-              descriptionRoom={hotel.quartos[0].descricao}
-            />
+            hotel.quartos.map((quarto, index) => (
+              <RoomDetailsSection
+                key={index}
+                typeRoom={quarto.tipo}
+              />
+            ))
           )}
+
         </View>
 
         

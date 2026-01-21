@@ -4,25 +4,21 @@ import { View, Text, StyleSheet } from 'react-native'
 
 
 type PropsRoomDetailsSection = {
-  descriptionRoom: string
+  typeRoom: string
 }
 
 
 
 
-export default function RoomDetailsSection({descriptionRoom}: PropsRoomDetailsSection) {
-  const {theme, styles} = useThemedStyles(createStyles);
+export default function RoomDetailsSection({typeRoom}: PropsRoomDetailsSection) {
+  const { styles} = useThemedStyles(createStyles);
 
 
   return (
     <View style={styles.container}>
-      <View style={styles.containerDescription}>
+      <View style={styles.containerInfoTop}>
         <Text style={styles.textTitle}>
-          Description
-        </Text>
-
-        <Text style={styles.textDescription}>
-          {descriptionRoom}
+          {typeRoom}
         </Text>
       </View>
     </View>
@@ -34,10 +30,15 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 20,
-    backgroundColor: themeColors[theme].background,
   },
-  containerDescription: {},
-  textTitle: {},
-  textDescription: {},
+  containerInfoTop: {
+    marginTop: 10,
+  },
+  textTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
+  },
+  
 })
 
