@@ -9,6 +9,7 @@ import { AvaliacaoType } from "./avaliacao";
 export type PacoteHotel = {
   id: number;
   nome_hotel: string;
+  descricao_hotel: string;
   categoria: string;
   localizacao: LocalizacaoType;
   imagens:ImagemType;

@@ -9,8 +9,8 @@ import { hoteis } from '@/assets/data/accomodationData.json';
 import { ListaPacotesHotel } from '@/assets/types/accomodationType';
 import { RatingStars } from '@/components/reviews/ratingStars';
 import { useState } from 'react';
-import AboutSection from '@/components/home/accomodation/aboutSection';
-import RoomDetailsSection from '@/components/home/accomodation/roomDetailsSection';
+import AboutSection from '@/components/home/accomodation/screens/aboutSection';
+import RoomDetailsSection from '@/components/home/accomodation/screens/roomDetailsSection';
 import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
 
 
@@ -154,6 +154,7 @@ export default function Accomodation() {
         <View style={styles.containerTabs}>
           {activeTab === 'about' && hotel.quartos.length > 0 && (
             <AboutSection
+                descriptionHotel={hotel.descricao_hotel}
                 instalacoes={hotel.servicos_hotel} 
                 completeAdress={hotel.localizacao.endereco}
                 googleMapsUrl={hotel.localizacao.google_maps_url}
@@ -168,6 +169,14 @@ export default function Accomodation() {
               <RoomDetailsSection
                 key={index}
                 typeRoom={quarto.tipo}
+                typeBed={quarto.camas}
+                capacidade={quarto.capacidade}
+                size={quarto.area_m2}
+                amenities={quarto.amenidades_quarto} 
+                vista={quarto.vista}
+                temVaranda={quarto.varanda}
+                temBanheiroPrivativo={quarto.banheiro_privativo} 
+                images={hotel.imagens.quarto}           
               />
             ))
           )}

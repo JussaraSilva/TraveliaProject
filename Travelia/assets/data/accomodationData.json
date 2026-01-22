@@ -3,6 +3,7 @@
     {
       "id": 1,
       "nome_hotel": "Luxury Water Villa Resort",
+      "descricao_hotel": "Resort exclusivo localizado no North Malé Atoll, nas Maldivas, com bangalôs sobre as águas cristalinas do Oceano Índico. Oferece experiência de luxo com SPA completo, piscina infinita, restaurantes gourmet e atividades aquáticas como snorkel e mergulho.",
       "categoria": "5 estrelas",
       "localizacao": {
         "endereco": "North Malé Atoll, Maldivas",
@@ -18,7 +19,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -44,7 +48,7 @@
           "descricao": "Bangalô privativo construído sobre as águas cristalinas do Oceano Índico",
           "area_m2": 85,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Oceano Índico",
           "varanda": true,
           "banheiro_privativo": true,
@@ -167,6 +171,7 @@
     {
       "id": 2,
       "nome_hotel": "Le Marais Charm",
+      "descricao_hotel": "Hotel boutique charmoso localizado no coração do histórico bairro Le Marais, em Paris. Oferece quartos elegantes com decoração francesa, café da manhã continental e serviço de concierge para explorar a cidade.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "25 Rue des Archives, Le Marais, 75004 Paris",
@@ -182,7 +187,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
@@ -328,6 +336,7 @@
     {
       "id": 3,
       "nome_hotel": "Caldera View Suites",
+      "descricao_hotel": "Hotel boutique em Santorini com vistas deslumbrantes para a caldeira vulcânica e o mar Egeu. Oferece suítes com terraços privativos, piscina infinita e arquitetura tradicional das Cíclades.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Imerovigli, Santorini 84700",
@@ -343,7 +352,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -367,7 +379,7 @@
           "descricao": "Suite com terraço privativo e vista deslumbrante para o vulcão e mar Egeu",
           "area_m2": 45,
           "capacidade": "2 adultos + 1 criança",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Caldeira e Mar Egeu",
           "varanda": true,
           "banheiro_privativo": true,
@@ -490,6 +502,7 @@
     {
       "id": 4,
       "nome_hotel": "Shinjuku Grand Hotel",
+      "descricao_hotel": "Hotel moderno localizado no movimentado bairro de Shinjuku, em Tóquio. Oferece quartos funcionais, fácil acesso ao transporte público e serviços para viajantes de negócios e turistas.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "3-1-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
@@ -505,7 +518,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1595521624992-48a59aef95e3?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1595521624992-48a59aef95e3?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
@@ -651,6 +667,7 @@
     {
       "id": 5,
       "nome_hotel": "Manhattan Central Hotel",
+      "descricao_hotel": "Hotel econômico localizado no coração de Times Square, Nova York. Oferece quartos confortáveis, fácil acesso às atrações turísticas e serviços básicos para viajantes que buscam localização central.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "790 7th Avenue, Times Square, New York, NY 10019",
@@ -666,7 +683,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80",
@@ -811,6 +831,7 @@
     {
       "id": 6,
       "nome_hotel": "Andean Lodge Cusco",
+      "descricao_hotel": "Pousada acolhedora no centro histórico de Cusco, Peru, com decoração andina e aquecimento central para o clima frio da altitude. Ideal para viajantes que visitam Machu Picchu e buscam conforto simples e autêntico.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "Plazoleta Nazarenas 231, Cusco 08002",
@@ -826,7 +847,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -969,6 +993,7 @@
     {
       "id": 7,
       "nome_hotel": "Harbour View Hotel",
+      "descricao_hotel": "Hotel moderno com vistas espetaculares para o Porto de Sydney, localizado em Circular Quay. Oferece fácil acesso à Sydney Opera House, Harbour Bridge e principais atrações da cidade.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Circular Quay West, The Rocks, Sydney NSW 2000",
@@ -984,7 +1009,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1008,7 +1036,7 @@
           "descricao": "Quarto com vista deslumbrante para a Sydney Opera House e Harbour Bridge",
           "area_m2": 35,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Porto de Sydney (Opera House e Harbour Bridge)",
           "varanda": true,
           "banheiro_privativo": true,
@@ -1131,6 +1159,7 @@
     {
       "id": 8,
       "nome_hotel": "Ramblas Central Hotel",
+      "descricao_hotel": "Hotel funcional localizado na famosa La Rambla, no centro de Barcelona. Oferece quartos compactos com isolamento acústico, ideal para viajantes que buscam localização central para explorar a cidade.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "La Rambla, 120, 08002 Barcelona",
@@ -1146,7 +1175,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1290,6 +1322,7 @@
     {
       "id": 9,
       "nome_hotel": "Windsor Palace Copacabana",
+      "descricao_hotel": "Hotel clássico localizado na orla de Copacabana, Rio de Janeiro, com vistas panorâmicas para a praia. Oferece conforto, piscina com vista para o mar e fácil acesso às principais atrações cariocas.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Av. Atlântica, 2610 - Copacabana, Rio de Janeiro - RJ, 22041-001",
@@ -1305,7 +1338,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1330,7 +1366,7 @@
           "descricao": "Quarto com varanda e vista panorâmica para a praia de Copacabana",
           "area_m2": 32,
           "capacidade": "2 adultos + 1 criança",
-          "camas": "1 cama king size ou 2 camas de solteiro",
+          "camas": "1 cama King Size ou 2 camas de solteiro",
           "vista": "Praia de Copacabana",
           "varanda": true,
           "banheiro_privativo": true,
@@ -1453,6 +1489,7 @@
     {
       "id": 10,
       "nome_hotel": "Big Ben View Hotel",
+      "descricao_hotel": "Hotel elegante localizado em Westminster, Londres, com vistas diretas para o Big Ben e o Parlamento. Oferece quartos confortáveis, chá da tarde tradicional inglês e fácil acesso às principais atrações londrinas.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "12 Bridge St, Westminster, London SW1A 2JR",
@@ -1468,7 +1505,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1492,7 +1532,7 @@
           "descricao": "Quarto elegante com vista para os pontos turísticos de Westminster",
           "area_m2": 28,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Big Ben e Parlamento",
           "varanda": false,
           "banheiro_privativo": true,
@@ -1614,6 +1654,7 @@
     {
       "id": 11,
       "nome_hotel": "Burj View Luxury Hotel",
+      "descricao_hotel": "Hotel de luxo localizado no centro de Dubai, com vistas espetaculares para o Burj Khalifa. Oferece suítes exclusivas, piscina infinita, SPA premium e serviço personalizado para uma experiência memorável.",
       "categoria": "5 estrelas",
       "localizacao": {
         "endereco": "Sheikh Zayed Road, Downtown Dubai, Dubai, Emirados Árabes",
@@ -1629,7 +1670,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1654,7 +1698,7 @@
           "descricao": "Suite luxuosa com vista direta para o Burj Khalifa, o edifício mais alto do mundo",
           "area_m2": 65,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Burj Khalifa e Dubai Fountain",
           "varanda": true,
           "banheiro_privativo": true,
@@ -1777,6 +1821,7 @@
     {
       "id": 12,
       "nome_hotel": "Pousada Maravilha",
+      "descricao_hotel": "Pousada ecológica localizada em Fernando de Noronha, integrada à natureza da ilha. Oferece chalés rústicos, café da manhã regional e facilita o acesso às praias e trilhas deste paraíso preservado.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "Estrada do Sueste, Fernando de Noronha - PE, 53990-000",
@@ -1792,7 +1837,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -1935,6 +1983,7 @@
     {
       "id": 13,
       "nome_hotel": "Colosseum View Hotel",
+      "descricao_hotel": "Hotel histórico localizado próximo ao Coliseu Romano, oferecendo quartos com vistas parciais ou totais para este ícone da Roma Antiga. Ideal para viajantes que desejam imersão na história da cidade.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "Via dei Fori Imperiali, 00184 Roma",
@@ -1950,7 +1999,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2094,6 +2146,7 @@
     {
       "id": 14,
       "nome_hotel": "Andaman Sea Resort",
+      "descricao_hotel": "Resort de luxo localizado em Patong Beach, Phuket, com acesso direto ao mar de Andaman. Oferece villas privativas, SPA tailandês tradicional e diversas atividades aquáticas em um ambiente tropical paradisíaco.",
       "categoria": "5 estrelas",
       "localizacao": {
         "endereco": "Patong Beach, Kathu District, Phuket 83150",
@@ -2109,7 +2162,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2134,7 +2190,7 @@
           "descricao": "Villa privativa com acesso direto à praia e vista para o mar de Andaman",
           "area_m2": 75,
           "capacidade": "2 adultos + 2 crianças",
-          "camas": "1 cama king size + 1 sofá-cama",
+          "camas": "1 cama King Size + 1 sofá-cama",
           "vista": "Mar de Andaman",
           "varanda": true,
           "banheiro_privativo": true,
@@ -2258,6 +2314,7 @@
     {
       "id": 15,
       "nome_hotel": "Grand Canal Palace",
+      "descricao_hotel": "Palácio histórico transformado em hotel, localizado às margens do Canal Grande em Veneza. Oferece quartos românticos com vistas para os canais, arquitetura veneziana tradicional e serviço personalizado.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Calle Larga Santa Maria Formosa, 5176, 30122 Veneza",
@@ -2273,7 +2330,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2418,6 +2478,7 @@
     {
       "id": 16,
       "nome_hotel": "Pyramids View Hotel",
+      "descricao_hotel": "Hotel localizado próximo às Pirâmides de Gizé, no Cairo, oferecendo vistas espetaculares para estas maravilhas do mundo antigo. Combina conforto moderno com a experiência histórica egípcia.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Pyramids Road, Giza, Cairo Governorate",
@@ -2433,7 +2494,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2457,7 +2521,7 @@
           "descricao": "Quarto com vista direta para as Grandes Pirâmides de Gizé",
           "area_m2": 30,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size ou 2 camas individuais",
+          "camas": "1 cama King Size ou 2 camas individuais",
           "vista": "Pirâmides de Gizé",
           "varanda": true,
           "banheiro_privativo": true,
@@ -2578,6 +2642,7 @@
     {
       "id": 17,
       "nome_hotel": "Paulista Business Hotel",
+      "descricao_hotel": "Hotel executivo localizado na Avenida Paulista, coração financeiro de São Paulo. Oferece quartos funcionais para viajantes de negócios, com business center 24h, academia e fácil acesso ao transporte público.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Av. Paulista, 2001 - Bela Vista, São Paulo - SP, 01311-300",
@@ -2593,7 +2658,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2617,7 +2685,7 @@
           "descricao": "Quarto moderno e funcional para executivos na Avenida Paulista",
           "area_m2": 28,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Avenida Paulista ou cidade",
           "varanda": false,
           "banheiro_privativo": true,
@@ -2739,6 +2807,7 @@
     {
       "id": 18,
       "nome_hotel": "Vancouver Bay Hotel",
+      "descricao_hotel": "Hotel moderno localizado à beira da Baía de Vancouver, com vistas deslumbrantes para as montanhas e o oceano. Oferece fácil acesso a Stanley Park e às principais atrações da cidade canadense.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "900 Canada Place Way, Vancouver, BC V6C 3L5",
@@ -2754,7 +2823,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2778,7 +2850,7 @@
           "descricao": "Quarto com vista para a Baía de Vancouver e montanhas",
           "area_m2": 32,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size ou 2 camas queen",
+          "camas": "1 cama King Size ou 2 camas Queen",
           "vista": "Baía de Vancouver e montanhas",
           "varanda": true,
           "banheiro_privativo": true,
@@ -2901,6 +2973,7 @@
     {
       "id": 19,
       "nome_hotel": "Andes View Hotel",
+      "descricao_hotel": "Hotel localizado em Providencia, Santiago, com vistas panorâmicas para a Cordilheira dos Andes. Oferece SPA com tratamentos andinos, fácil acesso às vinícolas do Valle Central e conforto moderno.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Av. Providencia 1100, Providencia, Santiago",
@@ -2916,7 +2989,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -2940,7 +3016,7 @@
           "descricao": "Quarto com vista panorâmica para a Cordilheira dos Andes",
           "area_m2": 35,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Cordilheira dos Andes",
           "varanda": true,
           "banheiro_privativo": true,
@@ -3062,6 +3138,7 @@
     {
       "id": 20,
       "nome_hotel": "Jeri Eco Lodge",
+      "descricao_hotel": "Pousada ecológica em Jericoacoara, integrada às dunas e à natureza preservada do parque nacional. Oferece chalés rústicos, sustentabilidade e acesso às praias paradisíacas deste destino único no Nordeste brasileiro.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "Rua das Dunas, Jericoacoara - CE, 62598-000",
@@ -3077,7 +3154,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -3219,6 +3299,7 @@
     {
       "id": 21,
       "nome_hotel": "Sultanahmet Palace Hotel",
+      "descricao_hotel": "Hotel histórico localizado no coração de Sultanahmet, Istambul, com vistas para o Bósforo e principais monumentos. Oferece experiência autêntica turca com hamam tradicional e decoração otomana.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Sultanahmet Mahallesi, Ayasofya Meydanı No:5, 34122 Fatih/İstanbul",
@@ -3234,7 +3315,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -3258,7 +3342,7 @@
           "descricao": "Quarto elegante com vista para o Bósforo e principais monumentos de Sultanahmet",
           "area_m2": 32,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size ou 2 camas individuais",
+          "camas": "1 cama King Size ou 2 camas individuais",
           "vista": "Bósforo e cidade histórica",
           "varanda": true,
           "banheiro_privativo": true,
@@ -3380,6 +3464,7 @@
     {
       "id": 22,
       "nome_hotel": "Ocean Drive Hotel",
+      "descricao_hotel": "Hotel moderno localizado na famosa Ocean Drive, em Miami Beach, com vistas para o Oceano Atlântico. Oferece piscina rooftop, acesso à praia e está no coração do Art Deco District.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "1200 Ocean Dr, Miami Beach, FL 33139",
@@ -3395,7 +3480,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -3419,7 +3507,7 @@
           "descricao": "Quarto moderno com vista para o Oceano Atlântico e Art Deco District",
           "area_m2": 30,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Oceano Atlântico e Ocean Drive",
           "varanda": true,
           "banheiro_privativo": true,
@@ -3541,6 +3629,7 @@
     {
       "id": 23,
       "nome_hotel": "Bangkok Riverside Hotel",
+      "descricao_hotel": "Hotel localizado às margens do rio Chao Phraya, em Bangkok, com vistas para a cidade e fácil acesso aos templos históricos. Oferece piscina com vista para o rio, SPA tailandês e bar rooftop.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "257 Charoen Nakhon Rd, Khlong Ton Sai, Khlong San, Bangkok 10600",
@@ -3556,7 +3645,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -3580,7 +3672,7 @@
           "descricao": "Quarto elegante com vista para o rio Chao Phraya e skyline de Bangkok",
           "area_m2": 35,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size ou 2 camas queen",
+          "camas": "1 cama King Size ou 2 camas Queen",
           "vista": "Rio Chao Phraya",
           "varanda": true,
           "banheiro_privativo": true,
@@ -3702,6 +3794,7 @@
     {
       "id": 24,
       "nome_hotel": "Gramado Suíço Hotel",
+      "descricao_hotel": "Hotel temático inspirado nos alpes suíços, localizado no centro de Gramado, RS. Oferece suítes com lareira, chocolate quente gratuito e café da manhã colonial em um ambiente aconchegante de montanha.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Rua Garibaldi, 500 - Centro, Gramado - RS, 95670-000",
@@ -3717,7 +3810,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
@@ -3741,7 +3837,7 @@
           "descricao": "Suíte temática com decoração alpina e lareira a lenha",
           "area_m2": 40,
           "capacidade": "2 adultos + 1 criança",
-          "camas": "1 cama king size + 1 sofá-cama",
+          "camas": "1 cama King Size + 1 sofá-cama",
           "vista": "Jardins ou montanhas",
           "varanda": true,
           "banheiro_privativo": true,
@@ -3864,6 +3960,7 @@
     {
       "id": 25,
       "nome_hotel": "Venice Canal Hotel",
+      "descricao_hotel": "Hotel exclusivo localizado às margens de um canal veneziano, oferecendo acesso privativo às águas e vistas românticas. Ideal para experiências autênticas em Veneza, incluindo passeios de gôndola privativos.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Fondamenta della Misericordia, 2519, 30121 Venezia VE",
@@ -3879,7 +3976,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=1200&auto=format&fit=crop&q=80",
@@ -3903,7 +4003,7 @@
           "descricao": "Suíte elegante com vista direta para o canal e arquitetura veneziana tradicional",
           "area_m2": 28,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Canal veneziano",
           "varanda": true,
           "banheiro_privativo": true,
@@ -4025,6 +4125,7 @@
     {
       "id": 26,
       "nome_hotel": "Kyoto Ryokan Inn",
+      "descricao_hotel": "Ryokan tradicional localizado no histórico bairro de Higashiyama, em Quioto. Oferece quartos com tatami, futon, onsen privativo e cerimônia do chá diária para uma autêntica experiência cultural japonesa.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "605 Higashiyama Ward, Kyoto, 605-0826",
@@ -4040,7 +4141,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1528164344705-47542687000d?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80",
@@ -4186,6 +4290,7 @@
     {
       "id": 27,
       "nome_hotel": "Dubai Desert Resort",
+      "descricao_hotel": "Resort de luxo localizado no deserto de Dubai, oferecendo villas privativas com piscina e vistas para as dunas. Inclui safári no deserto, jantar beduíno sob as estrelas e SPA premium em um oásis de conforto.",
       "categoria": "5 estrelas",
       "localizacao": {
         "endereco": "Al Ain Road, Exit 50, Dubai, Emirados Árabes",
@@ -4201,7 +4306,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
@@ -4225,7 +4333,7 @@
           "descricao": "Villa privativa com piscina particular e vista para as dunas",
           "area_m2": 120,
           "capacidade": "2 adultos + 2 crianças",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Deserto do Dubai",
           "varanda": true,
           "banheiro_privativo": true,
@@ -4347,6 +4455,7 @@
     {
       "id": 28,
       "nome_hotel": "Amazônia Jungle Lodge",
+      "descricao_hotel": "Lodge ecológico localizado no Rio Negro, na Amazônia brasileira, oferecendo bangalôs sobre palafitas integrados à floresta. Ideal para observação de vida selvagem, pesca de piranha e encontros com comunidades ribeirinhas.",
       "categoria": "3 estrelas",
       "localizacao": {
         "endereco": "Rio Negro, Amazonas, 69000-000",
@@ -4362,7 +4471,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80",
@@ -4508,6 +4620,7 @@
     {
       "id": 29,
       "nome_hotel": "Sydney Harbour Hotel",
+      "descricao_hotel": "Hotel moderno com vistas espetaculares para o Porto de Sydney, localizado em The Rocks. Oferece fácil acesso à Sydney Opera House, Harbour Bridge e às principais atrações da cidade australiana.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "5 Hickson Rd, The Rocks NSW 2000",
@@ -4523,7 +4636,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80",
@@ -4547,7 +4663,7 @@
           "descricao": "Quarto moderno com vista direta para a Sydney Opera House e Harbour Bridge",
           "area_m2": 32,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size",
+          "camas": "1 cama King Size",
           "vista": "Sydney Opera House e Harbour Bridge",
           "varanda": true,
           "banheiro_privativo": true,
@@ -4669,6 +4785,7 @@
     {
       "id": 30,
       "nome_hotel": "Cairo Pyramid View Hotel",
+      "descricao_hotel": "Hotel localizado próximo às Pirâmides de Gizé, no Cairo, oferecendo vistas espetaculares para estas maravilhas do mundo antigo. Combina conforto moderno com decoração temática egípcia e fácil acesso às atrações históricas.",
       "categoria": "4 estrelas",
       "localizacao": {
         "endereco": "Pyramids Rd, Giza, Cairo Governorate, Egito",
@@ -4684,7 +4801,10 @@
         "quarto": [
           "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
           "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80",
@@ -4708,7 +4828,7 @@
           "descricao": "Quarto temático egípcio com vista direta para as Grandes Pirâmides de Gizé",
           "area_m2": 30,
           "capacidade": "2 adultos",
-          "camas": "1 cama king size ou 2 camas individuais",
+          "camas": "1 cama King Size ou 2 camas individuais",
           "vista": "Pirâmides de Gizé",
           "varanda": true,
           "banheiro_privativo": true,
