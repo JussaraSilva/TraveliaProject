@@ -46,6 +46,7 @@ export default function Accomodation() {
 
 
 
+
   return (
     <View style={styles.container}>
           <View style={styles.containerHeader}>
@@ -176,7 +177,7 @@ export default function Accomodation() {
                 vista={quarto.vista}
                 temVaranda={quarto.varanda}
                 temBanheiroPrivativo={quarto.banheiro_privativo} 
-                images={hotel.imagens.quarto}           
+                images={hotel?.imagens?.quarto || []} // O '?' e o '|| []' são cruciais           
               />
             ))
           )}

@@ -11,6 +11,7 @@ export default function ImageMosaic({images}: Props) {
   const {styles } = useThemedStyles(createStyles);
 
   if (!images || images.length === 0) return null;
+  
 
   const mainImage = images[0];
 
@@ -24,7 +25,8 @@ export default function ImageMosaic({images}: Props) {
       
       <View style={styles.mosaicWrapper}>
         {/* <Lado Esquerdo  - Imagem de Destaque/> */}
-        <TouchableOpacity>
+        <TouchableOpacity
+          style={styles.mainImageContainer}>
           <Image source={{uri: mainImage}} 
             style={styles.image}
           />
@@ -56,39 +58,41 @@ export default function ImageMosaic({images}: Props) {
 const createStyles = (theme: ThemeName) => StyleSheet.create({
 
   container: {
+    width: '100%',
     marginVertical: 15,
-    paddingHorizontal: 20,
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: '700',
-    color: themeColors[theme].textPrimary,
-    marginBottom: 12,
+    minHeight: 220, // Garante que o container tenha altura mínima
   },
   mosaicWrapper: {
     flexDirection: 'row',
-    height: 220, // Altura total do bloco de mosaico
+    width: '100%',
+    height: 220, 
     gap: 8,
   },
   mainImageContainer: {
-    flex: 1.5, // Ocupa a maior parte da largura
+    flex: 1.5, 
+    backgroundColor: 'red', // Agora DEVE aparecer se 'images' não for null
+    borderRadius: 10,
+    overflow: 'hidden',
   },
   sideGrid: {
-    flex: 1, // Coluna da direita
+    flex: 1, 
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 8,
   },
   thumbnailItem: {
-    width: '47%', // Quase metade para caber 2 por linha com gap
-    height: '48%', // Quase metade da altura total
+    width: '46%', // Reduzi um pouco para garantir que caibam dois
+    height: '47%', 
+    backgroundColor: 'blue', // Teste visual para a grade
+    borderRadius: 8,
+    overflow: 'hidden',
   },
   image: {
+    ...StyleSheet.absoluteFillObject, // Força a imagem a preencher o Touchable
     width: '100%',
     height: '100%',
-    borderRadius: 10,
-    backgroundColor: '#e1e1e1',
   },
+
   overlay: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: 'rgba(0,0,0,0.4)',
