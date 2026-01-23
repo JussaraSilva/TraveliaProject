@@ -2,17 +2,19 @@ import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
 import { StarHalfIcon, StarIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity, ViewStyle, StyleProp } from "react-native";
 
 type Props = {
   estrelas?: number;
   starsNumber?: number;
   avaliacoes?: number;
+  onpressReview?: (rating:number) => void;
+  directionStarReview?: StyleProp<ViewStyle>
 
 }
 
 
-export function RatingStars({ estrelas = 1, starsNumber, avaliacoes }: Props) {
+export function RatingStars({ estrelas = 1, starsNumber, avaliacoes, onpressReview, directionStarReview }: Props) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
@@ -21,7 +23,9 @@ export function RatingStars({ estrelas = 1, starsNumber, avaliacoes }: Props) {
   const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
 
   return (
-    <View style={styles.container}>
+    <TouchableOpacity style={[styles.container, directionStarReview]}
+      onPress={() => onpressReview?.(estrelas)}
+    >
       <View style={styles.containerStars}>
           {[...Array(fullStars)].map((_, index) => (
           <StarIcon key={`full-${index}`} size={20} color={themeColors[theme].starYellowColor} weight="fill" />
@@ -40,7 +44,7 @@ export function RatingStars({ estrelas = 1, starsNumber, avaliacoes }: Props) {
         </Text>
       </View>
       
-    </View>
+    </TouchableOpacity>
   )
 
 }

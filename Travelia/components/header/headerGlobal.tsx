@@ -29,7 +29,7 @@ export default function HeaderGlobal({
       <View style={styles.containerContentHeader}>
 
         {/* ESQUERDA */}
-        <View style={styles.sideContainer}>
+        <View style={styles.sideContainerLeft}>
           {leftIcons?.map((icon, index) => (
             <TouchableOpacity key={index} style={styles.iconButton}
               onPress={onPressLeftIcon}
@@ -47,7 +47,7 @@ export default function HeaderGlobal({
         </View>
 
         {/* DIREITA */}
-        <View style={styles.sideContainer}>
+        <View style={styles.sideContainerRight}>
           {rightIcons?.map((icon, index) => (
             <TouchableOpacity key={index} style={styles.iconButton}
               onPress={onPressRightIcon}
@@ -71,7 +71,6 @@ const createStyles = (theme: ThemeName) =>
   StyleSheet.create({
 
   header: {
-    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
     marginTop: 50,
@@ -88,7 +87,6 @@ const createStyles = (theme: ThemeName) =>
   containerTextHeader: {
     flex: 1,
     alignItems: 'center',
-    flexDirection: 'column',
     justifyContent: 'center',
     gap: 5,
   },
@@ -100,7 +98,7 @@ const createStyles = (theme: ThemeName) =>
   },
   
   
-  sideContainer: {
+  sideContainerLeft: {
     width: 80,          // espaço pra até 2 ícones
     flexDirection: 'row',
     alignItems: 'center',
@@ -112,6 +110,15 @@ const createStyles = (theme: ThemeName) =>
   iconButton: {
     alignItems: 'center',
     justifyContent: 'center',
+  },
+
+
+  sideContainerRight: {
+    width: 80,          // espaços pra até 2 ícones
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    gap: 12,
   },
 
 

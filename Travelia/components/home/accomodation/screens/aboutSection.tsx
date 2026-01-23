@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import { IconTextList } from '../components/lists/iconTextList';
 import { mapHotelInstallations } from '../constants/mapHotelInstallations';
+import { router } from 'expo-router';
 
 
 
@@ -35,6 +36,10 @@ export default function AboutSection({descriptionHotel,instalacoes, completeAdre
   const [isExpanded, setIsExpanded] = useState(false);
   const handleReadMore = () => {
     setIsExpanded(prev => !prev);
+  }
+
+  const handlePolicies = () => {
+    router.push('/(app)/_tabs/home/accommodation/accomodationPolicies');
   }
 
 
@@ -115,9 +120,7 @@ export default function AboutSection({descriptionHotel,instalacoes, completeAdre
       <View style={styles.containerPolicies}>
           <AppPressable
               style={styles.containerPoliciesText}
-              onPress={() => {
-                console.log('Policies clicked');
-              }}
+              onPress={handlePolicies}
             >
               <Text style={styles.textPolicies}>Accomodation Policies</Text>
               <CaretRightIcon

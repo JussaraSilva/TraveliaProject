@@ -42,7 +42,10 @@ export default function Accomodation() {
   const reviewsUI = adaptReviewsToUI(hotel.reviews);
 
 
-
+  const handleRatingPress = (rating: number) => {
+    // Lógica para lidar com a avaliação pressionada
+    router.push('../home/reviews/ratingReviews');
+  }
 
 
 
@@ -106,6 +109,7 @@ export default function Accomodation() {
                 estrelas={hotel.avaliacao.estrelas}
                 avaliacoes={hotel.avaliacao.total_avaliacoes}
                 starsNumber={hotel.avaliacao.estrelas}
+                onpressReview={handleRatingPress}
               />
             )}
           </View>
