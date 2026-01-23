@@ -1,12 +1,15 @@
 import { themeColors, ThemeName } from '@/constants/theme';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native';
 import { IconTextList } from '../components/lists/iconTextList';
 import { ROOM_SERVICES_MAP } from '@/hooks/config/detectInstallationRoom/instalationRoom.config';
 import { detectRoomService } from '@/hooks/config/detectInstallationRoom/detectRoomService';
 import ItemProprietyRoom from '../components/individual/itemProprietyRoom';
 import Highlights from '../components/highlights/highlights';
 import ImageMosaic from '../components/mosaicImages/imageMosaic';
+import BathroomDetails from '../components/bathroom/bathroomDetails';
+
+
 
 type PropsRoomDetailsSection = {
   typeRoom: string;
@@ -19,6 +22,18 @@ type PropsRoomDetailsSection = {
   temVaranda?: boolean | string;
   temBanheiroPrivativo?: boolean;
   images?: string[];
+
+
+  chuveiro: string;
+  chuveiroType: string;
+  banheira: string;
+  aguaQuente: boolean;
+  pressao: string;
+  amenitiesBathroom?: string;
+
+  descriptionRoom: string;
+
+  
 };
 
 export default function RoomDetailsSection({
@@ -31,6 +46,18 @@ export default function RoomDetailsSection({
   temVaranda = true,
   temBanheiroPrivativo = true,
   images= [],
+
+  chuveiro,
+  chuveiroType,
+  banheira,
+  aguaQuente = true,
+  pressao = "Alta pressão",
+  amenitiesBathroom = "Kit de amenidades de luxo, secador de cabelo, roupão e chinelos",
+  descriptionRoom,
+  
+
+
+  
 }: PropsRoomDetailsSection) {
 
   const { styles } = useThemedStyles(createStyles);
@@ -43,6 +70,11 @@ export default function RoomDetailsSection({
       Icon: ROOM_SERVICES_MAP[category].icon,
     };
   });
+
+  
+
+  
+
 
   return (
     <View style={styles.container}>
@@ -69,7 +101,7 @@ export default function RoomDetailsSection({
 
       <View style={styles.containerGallery}>
         <View style={styles.containerGalleryTitle}>
-          <Text style={styles.sectionTitle}>Room Gallery</Text>
+          <Text style={styles.textTitle}>Room Gallery</Text>
         </View>
         <View style={styles.containerGalleryImages}>
             <ImageMosaic 
@@ -79,8 +111,32 @@ export default function RoomDetailsSection({
       </View>
 
       <View style={styles.containerFacilitiesRoom}>
-        <Text style={styles.sectionTitle}>Main Room Facilities</Text>
+        <Text style={styles.textTitle}>Main Room Facilities</Text>
         <IconTextList items={items} />
+      </View>
+
+      <View style={styles.containerBathroomAmenities}>
+        <Text style={styles.textTitle}>Bathroom Facilities</Text>
+          <View style={styles.bathRoomAmenitiesList}>
+            <BathroomDetails 
+              chuveiro={chuveiro}
+              chuveiroType={chuveiroType}
+              banheira={banheira}
+              agua_quente={aguaQuente}
+              pressao={pressao}
+              amenitiesBathroom={amenitiesBathroom}
+              />
+          </View>
+
+      </View>
+
+      <View style={styles.containerDescriptionRoom}>
+        <Text style={styles.textTitle}>About Room</Text>
+        <View style={styles.containerDescriptionRoomText}>
+            <Text style={styles.textDescriptionRoom}>
+                {descriptionRoom}
+            </Text>            
+        </View>
       </View>
     </View>
   );
@@ -96,13 +152,17 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
   textTitle: {
     fontSize: 22,
-    fontWeight: 'bold',
+    fontWeight: 600,
     color: themeColors[theme].textPrimary,
     marginBottom: 10,
   },
   containerDetailsRoom: {
+    width: '100%',
     gap: 15, // Aumentado para dar respiro entre o ItemPropriety e as Badges
-    alignItems: 'flex-start', // Alinhado à esquerda fica mais elegante para badges
+    alignItems: 'flex-start', 
+    borderBottomWidth: 1,
+    borderBottomColor: themeColors[theme].borderColor,
+    paddingBottom: 20,
   },
   highlightRow: {
     flexDirection: 'row',
@@ -127,7 +187,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     color: themeColors[theme].textPrimary,
   },
   containerFacilitiesRoom: {
-    marginTop: 25,
+    marginTop: 10,
   },
   sectionTitle: {
     fontSize: 16,
@@ -137,14 +197,51 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   containerGallery: {
-    marginTop: 25,
+    marginTop: 10,
   },
+
   containerGalleryTitle: {
-    marginBottom: 10,
+    marginBottom: 5,
   },
 
   containerGalleryImages: {
     flexDirection: 'row',
     gap: 10,
   },
+
+  containerBathroomAmenities: {
+    marginTop: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: themeColors[theme].borderColor,
+    paddingBottom: 20,
+  },
+
+  bathRoomAmenitiesList: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+  },
+
+  containerDescriptionRoom: {
+    marginTop: 10,
+    gap: 10,
+    width: '100%',
+    paddingBottom: 20,
+  },
+
+  containerDescriptionRoomText: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 10,
+    padding: 10,
+    borderRadius: 10,
+    backgroundColor: themeColors[theme].background,
+  },
+
+  textDescriptionRoom: {
+    fontSize: 16,
+    color: themeColors[theme].textPrimary,
+    fontWeight: '500',
+  },
+
 });

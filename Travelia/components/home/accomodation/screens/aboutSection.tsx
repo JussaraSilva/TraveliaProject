@@ -223,7 +223,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     gap: 15,
     borderBottomWidth: 1,
     borderBottomColor: themeColors[theme].borderColor,
-    paddingBottom: 20,
+    paddingBottom: 10,
   },
 
   containerPolicies: {

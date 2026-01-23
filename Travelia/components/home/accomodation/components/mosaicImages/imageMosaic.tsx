@@ -21,8 +21,7 @@ export default function ImageMosaic({images}: Props) {
 
 
   return (
-    <View style={styles.container}>
-      
+    <View style={styles.container}>      
       <View style={styles.mosaicWrapper}>
         {/* <Lado Esquerdo  - Imagem de Destaque/> */}
         <TouchableOpacity
@@ -59,7 +58,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
 
   container: {
     width: '100%',
-    marginVertical: 15,
+    marginVertical: 5,
     minHeight: 220, // Garante que o container tenha altura mínima
   },
   mosaicWrapper: {
@@ -70,7 +69,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
   mainImageContainer: {
     flex: 1.5, 
-    backgroundColor: 'red', // Agora DEVE aparecer se 'images' não for null
+    backgroundColor: '#00000167', // Agora DEVE aparecer se 'images' não for null
     borderRadius: 10,
     overflow: 'hidden',
   },
@@ -101,7 +100,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     alignItems: 'center',
   },
   overlayText: {
-    color: '#fff',
+    color: themeColors[theme].textButton,
     fontSize: 10,
     fontWeight: 'bold',
   }

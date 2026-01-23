@@ -177,7 +177,16 @@ export default function Accomodation() {
                 vista={quarto.vista}
                 temVaranda={quarto.varanda}
                 temBanheiroPrivativo={quarto.banheiro_privativo} 
-                images={hotel?.imagens?.quarto || []} // O '?' e o '|| []' são cruciais           
+                images={hotel?.imagens?.quarto || []} 
+                
+                chuveiro={quarto.banheiro.chuveiro}
+                aguaQuente={quarto.banheiro.agua_quente}
+                chuveiroType={quarto.banheiro.tipo_chuveiro}
+                banheira={quarto.banheiro.banheira}
+                pressao={quarto.banheiro.pressao}
+                amenitiesBathroom={quarto.banheiro.amenidades}
+                descriptionRoom={quarto.descricao}
+                
               />
             ))
           )}

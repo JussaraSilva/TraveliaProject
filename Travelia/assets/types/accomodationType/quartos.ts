@@ -16,6 +16,7 @@ export interface BanheiroType {
   tipo_chuveiro: string,
   banheira: string,
   agua_quente: boolean,
+  pressao: string,
   amenidades: string
 }
 

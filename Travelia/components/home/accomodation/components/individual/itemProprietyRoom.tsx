@@ -63,6 +63,7 @@ export default function ItemProprietyRoom({ typeBed, capacidadePersons, sizeRoom
 
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   containerDetailsRoom: {
+    flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 15,
@@ -70,7 +71,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   containerItem: {
-
+    width: '30%',
     alignItems: 'center',
     gap: 5,
   },
@@ -82,14 +83,14 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   },
 
   textLabelItem: {
-    fontSize: 14,
+    fontSize: 12,
     color: themeColors[theme].textSecondary,
   },
 
   textItem: {
-    fontSize: 16,
+    fontSize: 14,
+    textAlign: 'center',
     color: themeColors[theme].textPrimary,
-    fontWeight: 'bold',
   },
 
 

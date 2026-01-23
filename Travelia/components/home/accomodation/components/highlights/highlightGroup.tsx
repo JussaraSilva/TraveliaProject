@@ -16,11 +16,18 @@ export default function HighlightGroup({ icon, label, value, showIf = true }: Hi
   if (!showIf || value === false) return null;
 
   // Transforma tudo em array para facilitar a renderização unificada
-  const items = Array.isArray(value) ? value : [String(value === true ? label : value)];
+  const items = Array.isArray(value)
+  ? value
+  : value === true && label
+    ? [label]
+    : value
+      ? [String(value)+`...`]
+      : [];
+
 
   return (
     <View style={styles.groupContainer}>
-      <MaterialCommunityIcons name={icon} size={16} color={themeColors[theme].icon} style={styles.mainIcon} />
+      <MaterialCommunityIcons name={icon} size={24} color={themeColors[theme].realceBlue} style={styles.mainIcon} />
       <View style={styles.badgeWrapper}>
         {items.map((item, index) => (
           <View key={index} style={styles.badge}>
@@ -37,6 +44,7 @@ export default function HighlightGroup({ icon, label, value, showIf = true }: Hi
 
 const createStyles = (theme: ThemeName) => StyleSheet.create({
   groupContainer: {
+    
     flexDirection: 'row',
     alignItems: 'flex-start',
     marginBottom: 10,
@@ -46,22 +54,23 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     marginTop: 6, // Alinha com a primeira linha de badges
   },
   badgeWrapper: {
+    
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 6,
     flex: 1,
   },
   badge: {
-    backgroundColor: themeColors[theme].backgroundCard || '#f0f0f0',
+    backgroundColor: themeColors[theme].realceLightBlue,
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
     borderWidth: 1,
-    borderColor: themeColors[theme].borderColor,
+    borderColor: themeColors[theme].realceBlue,
     flexDirection: 'row'
   },
   badgeText: {
-    fontSize: 12,
+    fontSize: 14,
     color: themeColors[theme].textPrimary,
   },
 });
