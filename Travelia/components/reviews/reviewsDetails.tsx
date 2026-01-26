@@ -18,6 +18,7 @@ type Props = {
   mediaStars: number;
   totalAvaliacoes: number;
   reviews?: ReviewUI[];
+  showHeaderReview?: boolean;
 };
 
 export default function ReviewsDetails({
@@ -25,6 +26,7 @@ export default function ReviewsDetails({
   mediaStars,
   totalAvaliacoes,
   reviews = [],
+  showHeaderReview = true,
 }: Props) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -32,26 +34,28 @@ export default function ReviewsDetails({
   return (
     <View style={styles.container}>
       <View style={styles.reviewsCard}>
-        <View style={styles.reviewsHeaderContent}>
-          <View style={styles.headerText}>
-            <Text style={styles.reviewsHeaderTitle}>
-              Reviews ({totalAvaliacoes})
-            </Text>
-            <RatingStars
-              estrelas={mediaStars}
-              starsNumber={starsNumber}
-              avaliacoes={totalAvaliacoes}
-            />
+        {showHeaderReview && (
+          <View style={styles.reviewsHeaderContent}>
+            <View style={styles.headerText}>
+              <Text style={styles.reviewsHeaderTitle}>
+                Reviews ({totalAvaliacoes})
+              </Text>
+              <RatingStars
+                estrelas={mediaStars}
+                starsNumber={starsNumber}
+                avaliacoes={totalAvaliacoes}
+              />
+            </View>
+            <TouchableOpacity style={styles.reviewsHeaderButton}>
+              <Text style={styles.reviewsHeaderButtonText}>Ver Tudo</Text>
+              <ArrowRightIcon
+                size={20}
+                color={themeColors[theme].realceBlue}
+                weight='light'
+              />
+            </TouchableOpacity>
           </View>
-          <TouchableOpacity style={styles.reviewsHeaderButton}>
-            <Text style={styles.reviewsHeaderButtonText}>Ver Tudo</Text>
-            <ArrowRightIcon
-              size={20}
-              color={themeColors[theme].realceBlue}
-              weight='light'
-            />
-          </TouchableOpacity>
-        </View>
+        )}
 
         {reviews.map ((review, index) => (
           <View
@@ -121,7 +125,6 @@ const createStyles = (theme: ThemeName) =>
     container: {
       flexDirection: 'column',
       width: '100%',
-      marginTop: 10,
       marginBottom: 10,
     },
 
@@ -129,7 +132,6 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'space-between',
-      padding: 10,
       backgroundColor: themeColors[theme].backgroundCard,
       maxWidth: '100%',
       borderRadius: 8,

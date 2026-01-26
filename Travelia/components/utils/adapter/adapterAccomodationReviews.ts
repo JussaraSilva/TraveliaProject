@@ -22,7 +22,7 @@ type ReviewBase =
     };
 
 export function adaptReviewsToUI(reviews: ReviewBase[]): ReviewUI[] {
-  return reviews.map((review: any) => {
+  return reviews.map((review) => {
     // 👉 CASO PACOTE
     if ('autor' in review) {
       return {

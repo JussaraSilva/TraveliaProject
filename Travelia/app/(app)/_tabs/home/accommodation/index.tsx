@@ -4,14 +4,13 @@ import { themeColors, ThemeName } from '@/constants/theme';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { CaretLeftIcon, DotsThreeOutlineVerticalIcon, MapPinIcon,  ShareNetworkIcon } from 'phosphor-react-native';
 import { View, StyleSheet, Text, Pressable, ScrollView } from 'react-native';
-import { useLocalSearchParams, router } from 'expo-router';
-import { hoteis } from '@/assets/data/accomodationData.json';
-import { ListaPacotesHotel } from '@/assets/types/accomodationType';
 import { RatingStars } from '@/components/reviews/ratingStars';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import AboutSection from '@/components/home/accomodation/screens/aboutSection';
 import RoomDetailsSection from '@/components/home/accomodation/screens/roomDetailsSection';
 import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
+import { router, useLocalSearchParams } from 'expo-router';
+import { useHotel } from '@/context/hotel/hotelProvider';
 
 
 
@@ -24,27 +23,36 @@ export default function Accomodation() {
 
   const [activeTab, setActiveTab] = useState<tabType>('about');
 
-   // 1. Pegamos o ID da URL
   const { hotelId } = useLocalSearchParams<{ hotelId?: string }>();
+  const { hotelSelecionado, setHotelById } = useHotel();
 
-  // Busca diretamente no JSON importado
-  const hotel = (hoteis as ListaPacotesHotel).find(h => String(h.id) === String(hotelId));
 
-  if (!hotel) {
+    useEffect(() => {
+    if (hotelId) {
+      setHotelById(Number(hotelId));
+    }
+  }, [hotelId, setHotelById]);
+
+
+  if (!hotelSelecionado) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Acomodação não encontrada (ID: {hotelId})</Text>
+        <Text>Acomodação não encontrada</Text>
       </View>
     );
   }
 
 
-  const reviewsUI = adaptReviewsToUI(hotel.reviews);
 
+  const reviewsUI = adaptReviewsToUI(hotelSelecionado.reviews);
 
   const handleRatingPress = (rating: number) => {
     // Lógica para lidar com a avaliação pressionada
-    router.push('../home/reviews/ratingReviews');
+    router.push({
+      pathname: '/(app)/_tabs/home/reviews/ratingReviews',
+    });
+    
+
   }
 
 
@@ -90,25 +98,25 @@ export default function Accomodation() {
         <View style={styles.containerGallery}>
           <Gallery 
             imagens={[
-              ...hotel.imagens.quarto, 
-              ...hotel.imagens.areas_comuns, // quando for um array
-              hotel.imagens.fachada]} // Se 'fachada' for uma única string (não array)
+              ...hotelSelecionado.imagens.quarto, 
+              ...hotelSelecionado.imagens.areas_comuns, // quando for um array
+              hotelSelecionado.imagens.fachada]} // Se 'fachada' for uma única string (não array)
             />
         </View>
 
         <View style={styles.containerInfoTop}>
           <View style={styles.containerTitle}>
             <Text style={styles.textTitle}>
-              {hotel.nome_hotel}
+              {hotelSelecionado.nome_hotel}
             </Text>
           </View>
 
           <View style={styles.containerRating}>
-            {hotel.avaliacao && ( // Se não existe avaliação, não mostra
+            {hotelSelecionado.avaliacao && ( // Se não existe avaliação, não mostra
               <RatingStars
-                estrelas={hotel.avaliacao.estrelas}
-                avaliacoes={hotel.avaliacao.total_avaliacoes}
-                starsNumber={hotel.avaliacao.estrelas}
+                estrelas={hotelSelecionado.avaliacao.estrelas}
+                avaliacoes={hotelSelecionado.avaliacao.total_avaliacoes}
+                starsNumber={hotelSelecionado.avaliacao.estrelas}
                 onpressReview={handleRatingPress}
               />
             )}
@@ -120,7 +128,7 @@ export default function Accomodation() {
               numberOfLines={2}
               ellipsizeMode='tail'
             >
-              {hotel.localizacao.endereco}
+              {hotelSelecionado.localizacao.endereco}
             </Text>
           </View>
         </View>
@@ -157,20 +165,20 @@ export default function Accomodation() {
         </View>
 
         <View style={styles.containerTabs}>
-          {activeTab === 'about' && hotel.quartos.length > 0 && (
+          {activeTab === 'about' && hotelSelecionado.quartos.length > 0 && (
             <AboutSection
-                descriptionHotel={hotel.descricao_hotel}
-                instalacoes={hotel.servicos_hotel} 
-                completeAdress={hotel.localizacao.endereco}
-                googleMapsUrl={hotel.localizacao.google_maps_url}
-                estrelas={hotel.avaliacao.estrelas}
-                estrelasMedia={hotel.avaliacao.estrelas}
-                totalAvaliacoes={hotel.avaliacao.total_avaliacoes}
+                descriptionHotel={hotelSelecionado.descricao_hotel}
+                instalacoes={hotelSelecionado.servicos_hotel} 
+                completeAdress={hotelSelecionado.localizacao.endereco}
+                googleMapsUrl={hotelSelecionado.localizacao.google_maps_url}
+                estrelas={hotelSelecionado.avaliacao.estrelas}
+                estrelasMedia={hotelSelecionado.avaliacao.estrelas}
+                totalAvaliacoes={hotelSelecionado.avaliacao.total_avaliacoes}
                 reviewsUI={reviewsUI}
             />
           )}
-          {activeTab === 'room' && hotel.quartos.length > 0 && (
-            hotel.quartos.map((quarto, index) => (
+          {activeTab === 'room' && hotelSelecionado.quartos.length > 0 && (
+            hotelSelecionado.quartos.map((quarto: any, index: number) => (
               <RoomDetailsSection
                 key={index}
                 typeRoom={quarto.tipo}
@@ -181,7 +189,7 @@ export default function Accomodation() {
                 vista={quarto.vista}
                 temVaranda={quarto.varanda}
                 temBanheiroPrivativo={quarto.banheiro_privativo} 
-                images={hotel?.imagens?.quarto || []} 
+                images={hotelSelecionado?.imagens?.quarto || []} 
                 
                 chuveiro={quarto.banheiro.chuveiro}
                 aguaQuente={quarto.banheiro.agua_quente}

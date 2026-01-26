@@ -1,11 +1,14 @@
 import { Slot } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated'; 
+import 'react-native-reanimated';
+
 import { ThemeProvider } from '@/context/themeProvider';
-import { TravelerProvider } from '@/context/traveler/travelerContext'; // ADICIONE ISSO
-import { useState, useEffect } from 'react'; 
-import { testStorage } from '@/services/testAsync';
+import { TravelerProvider } from '@/context/traveler/travelerContext';
 import { BookingProvider } from '@/context/booking/bookingContext';
+import { HotelProvider } from '@/context/hotel/hotelProvider';
+
+import { useState, useEffect } from 'react';
+import { testStorage } from '@/services/testAsync';
 
 export default function RootLayout() {
   const [isReady, setIsReady] = useState(false);
@@ -19,11 +22,12 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider>
-      {/* O TravelerProvider envolve o Slot para que todas as rotas tenham acesso */}
       <TravelerProvider>
         <BookingProvider>
-          <Slot /> 
-          <StatusBar style="auto" />
+          <HotelProvider>
+            <Slot />
+            <StatusBar style="auto" />
+          </HotelProvider>
         </BookingProvider>
       </TravelerProvider>
     </ThemeProvider>

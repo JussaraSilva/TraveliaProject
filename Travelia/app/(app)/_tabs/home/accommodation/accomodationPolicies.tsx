@@ -23,6 +23,7 @@ export default function AccomodationPolicies() {
               titlePage={'Policies'} 
             />
         </View>
+        
     </View>
   )
 }

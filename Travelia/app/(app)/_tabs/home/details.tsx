@@ -45,6 +45,7 @@ export default function Details() {
       setPacoteInicial(pacoteObj);
     }
   }, [pacoteObj, setPacoteInicial]);
+  
 
   const handleAccomodation = () => {
   router.push({
