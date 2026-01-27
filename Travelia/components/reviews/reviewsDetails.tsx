@@ -126,6 +126,7 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       width: '100%',
       marginBottom: 10,
+      
     },
 
     reviewsCard: {
@@ -133,8 +134,8 @@ const createStyles = (theme: ThemeName) =>
       alignItems: 'center',
       justifyContent: 'space-between',
       backgroundColor: themeColors[theme].backgroundCard,
-      maxWidth: '100%',
       borderRadius: 8,
+      padding: 10,
     },
 
     reviewsHeaderContent: {

@@ -92,7 +92,11 @@
           "estrelas": 5,
           "data": "2024-01-15",
           "comentario": "O bangalô overwater superou todas as expectativas. Acordar com vista para o oceano cristalino é indescritível. O serviço é impecável e a comida deliciosa!",
-          "tags": ["lua de mel", "vista incrível", "serviço impecável"]
+          "tags": [
+            "lua de mel",
+            "vista incrível",
+            "serviço impecável"
+          ]
         },
         {
           "usuario": {
@@ -104,7 +108,11 @@
           "estrelas": 5,
           "data": "2024-01-10",
           "comentario": "The overwater villa was absolutely stunning. Snorkeling right from our deck was a dream. Staff went above and beyond!",
-          "tags": ["snorkeling", "staff excelente", "villa incrível"]
+          "tags": [
+            "snorkeling",
+            "staff excelente",
+            "villa incrível"
+          ]
         },
         {
           "usuario": {
@@ -116,7 +124,11 @@
           "estrelas": 5,
           "data": "2023-12-28",
           "comentario": "Un séjour inoubliable. La villa sur pilotis est spacieuse et luxueuse. Les couchers de soleil sont à couper le souffle!",
-          "tags": ["espaçoso", "luxuoso", "pôr do sol"]
+          "tags": [
+            "espaçoso",
+            "luxuoso",
+            "pôr do sol"
+          ]
         },
         {
           "usuario": {
@@ -128,7 +140,11 @@
           "estrelas": 4,
           "data": "2023-12-20",
           "comentario": "Resort meraviglioso con servizi di altissimo livello. L'unico punto è che il volo è molto lungo, ma ne vale la pena!",
-          "tags": ["serviços excelentes", "longa viagem", "vale a pena"]
+          "tags": [
+            "serviços excelentes",
+            "longa viagem",
+            "vale a pena"
+          ]
         },
         {
           "usuario": {
@@ -140,7 +156,11 @@
           "estrelas": 5,
           "data": "2023-12-15",
           "comentario": "Simplesmente perfeito! O quarto tem tudo. A banheira com vista pro mar é incrível. Café da manhã variado e delicioso.",
-          "tags": ["perfeito", "banheira com vista", "café da manhã excelente"]
+          "tags": [
+            "perfeito",
+            "banheira com vista",
+            "café da manhã excelente"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -156,7 +176,13 @@
           "gratuito": true,
           "areas": "Todo o resort"
         },
-        "idiomas": ["Inglês", "Francês", "Alemão", "Japonês", "Português"],
+        "idiomas": [
+          "Inglês",
+          "Francês",
+          "Alemão",
+          "Japonês",
+          "Português"
+        ],
         "estacionamento": "Não disponível (resort acessível apenas por barco)",
         "pet_friendly": false,
         "acessibilidade": "Bangalôs adaptados disponíveis",
@@ -166,6 +192,39 @@
           "email": "reservations@luxurywatervilla.com",
           "website": "www.luxurywatervilla.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Luxury Water Villa Resort: Conheça as regras e informações importantes para sua estadia em nosso resort exclusivo nas Maldivas.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in e late check-out estão sujeitos à disponibilidade e podem ter taxas adicionais",
+          "Check-in antecipado antes das 14:00 não é garantido"
+        ],
+        "regras_check": [
+          "É necessário apresentar documento de identidade original com foto no check-in",
+          "O cartão de crédito utilizado na reserva deve ser apresentado no check-in para autorização de garantia",
+          "Todos os hóspedes devem se registrar no check-in, incluindo crianças",
+          "A ocupação máxima do bangalô é de 2 adultos conforme capacidade oficial"
+        ],
+        "identification_requirement": [
+          "Documento de identificação válido com foto é obrigatório para todos os hóspedes",
+          "Passaporte é necessário para hóspedes internacionais",
+          "Cópias ou documentos digitais não são aceitos, apenas originais",
+          "A identificação será verificada no check-in e mantida em arquivo conforme exigências legais"
+        ],
+        "criancas_camas_extras": [
+          "Crianças não são permitidas neste tipo de acomodação específica",
+          "O bangalô Overwater Deluxe tem capacidade máxima para 2 adultos apenas",
+          "Camas extras ou berços não estão disponíveis nesta categoria de quarto",
+          "Para famílias com crianças, recomendamos verificar outras opções de acomodação disponíveis"
+        ],
+        "politicas_fumantes": [
+          "Todos os bangalôs são estritamente não fumantes",
+          "Áreas designadas para fumantes estão disponíveis em locais específicos do resort",
+          "Multa de limpeza de US$ 500 será aplicada se houver violação da política de não fumantes",
+          "Fumar inclui cigarros, charutos, cachimbos e dispositivos eletrônicos de vapor"
+        ]
       }
     },
     {
@@ -256,7 +315,11 @@
           "estrelas": 5,
           "data": "2024-01-12",
           "comentario": "Emplacement parfait dans le Marais. Le petit-déjeuner français est délicieux avec croissants frais chaque matin.",
-          "tags": ["localização perfeita", "croissants frescos", "Marais"]
+          "tags": [
+            "localização perfeita",
+            "croissants frescos",
+            "Marais"
+          ]
         },
         {
           "usuario": {
@@ -268,7 +331,11 @@
           "estrelas": 4,
           "data": "2024-01-08",
           "comentario": "Great boutique hotel in the heart of Le Marais. Walking distance to everything. Room was cozy though a bit small.",
-          "tags": ["boutique hotel", "walking distance", "cozy room"]
+          "tags": [
+            "boutique hotel",
+            "walking distance",
+            "cozy room"
+          ]
         },
         {
           "usuario": {
@@ -280,7 +347,11 @@
           "estrelas": 5,
           "data": "2023-12-30",
           "comentario": "Hotel boutique perfetto per una fuga romantica a Parigi. La reception è sempre disponibile e gentile.",
-          "tags": ["romântico", "recepção atenciosa", "boutique"]
+          "tags": [
+            "romântico",
+            "recepção atenciosa",
+            "boutique"
+          ]
         },
         {
           "usuario": {
@@ -292,7 +363,11 @@
           "estrelas": 4,
           "data": "2023-12-22",
           "comentario": "Hotel charmoso em excelente localização. Quarto limpo e confortável. O bairro Le Marais é maravilhoso.",
-          "tags": ["charmoso", "limpo", "bairro excelente"]
+          "tags": [
+            "charmoso",
+            "limpo",
+            "bairro excelente"
+          ]
         },
         {
           "usuario": {
@@ -304,7 +379,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "Absolutely charming hotel with authentic Parisian character. The staff were incredibly helpful. Perfect base for exploring!",
-          "tags": ["autêntico", "staff útil", "base perfeita"]
+          "tags": [
+            "autêntico",
+            "staff útil",
+            "base perfeita"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -320,7 +399,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Francês", "Inglês", "Espanhol"],
+        "idiomas": [
+          "Francês",
+          "Inglês",
+          "Espanhol"
+        ],
         "estacionamento": "Parceria com garagem próxima (€35/dia)",
         "pet_friendly": true,
         "taxa_pet": "€20 por diária",
@@ -331,6 +414,39 @@
           "email": "contact@lemaraischarm.fr",
           "website": "www.lemaraischarm.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Le Marais Charm: Informações importantes para sua estadia em nosso hotel boutique no coração de Paris.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in e late check-out estão sujeitos à disponibilidade",
+          "Late check-out após 11:00 pode ter taxa adicional de 50% da diária"
+        ],
+        "regras_check": [
+          "Documento de identificação original obrigatório para todos os hóspedes",
+          "Cartão de crédito para autorização de garantia no check-in",
+          "Todos os hóspedes devem ser registrados, incluindo crianças",
+          "O horário de check-in após 22:00 deve ser comunicado antecipadamente"
+        ],
+        "identification_requirement": [
+          "Documento de identidade válido com foto é obrigatório",
+          "Passaporte é necessário para hóspedes não europeus",
+          "Carteira de motorista nacional ou passaporte são aceitos",
+          "A identificação será digitalizada para registro conforme exigido por lei francesa"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras não estão disponíveis devido ao tamanho dos quartos",
+          "Berços podem ser fornecidos sob solicitação prévia sem custo adicional",
+          "A capacidade máxima do quarto é de 2 adultos, independentemente da idade das crianças"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos e áreas internas são estritamente não fumantes",
+          "Fumar é permitido apenas na área externa designada",
+          "Multa de limpeza de €200 será aplicada por violação da política de não fumantes",
+          "A política inclui cigarros, charutos, cachimbos e vaporizadores"
+        ]
       }
     },
     {
@@ -423,7 +539,11 @@
           "estrelas": 5,
           "data": "2024-01-10",
           "comentario": "A vista da caldeira é simplesmente deslumbrante! A piscina infinita com o pôr do sol é mágica. Serviço excepcional!",
-          "tags": ["vista deslumbrante", "piscina infinita", "serviço excepcional"]
+          "tags": [
+            "vista deslumbrante",
+            "piscina infinita",
+            "serviço excepcional"
+          ]
         },
         {
           "usuario": {
@@ -435,7 +555,11 @@
           "estrelas": 5,
           "data": "2024-01-05",
           "comentario": "The caldera view was absolutely breathtaking. Watching the sunset from the infinity pool was a dream. Perfect for honeymoon!",
-          "tags": ["breathtaking view", "sunset watching", "honeymoon perfect"]
+          "tags": [
+            "breathtaking view",
+            "sunset watching",
+            "honeymoon perfect"
+          ]
         },
         {
           "usuario": {
@@ -447,7 +571,11 @@
           "estrelas": 5,
           "data": "2023-12-28",
           "comentario": "Santorini è magica e questo hotel la rende ancora più speciale. Le camere sono spaziose. Il personale è cordiale!",
-          "tags": ["Santorini mágica", "quartos espaçosos", "staff cordial"]
+          "tags": [
+            "Santorini mágica",
+            "quartos espaçosos",
+            "staff cordial"
+          ]
         },
         {
           "usuario": {
@@ -459,7 +587,11 @@
           "estrelas": 4,
           "data": "2023-12-20",
           "comentario": "A vista é de tirar o fôlego! Hotel lindo e bem localizado. As ruas são íngremes, mas faz parte do charme.",
-          "tags": ["vista incrível", "bem localizado", "ruas íngremes"]
+          "tags": [
+            "vista incrível",
+            "bem localizado",
+            "ruas íngremes"
+          ]
         },
         {
           "usuario": {
@@ -471,7 +603,11 @@
           "estrelas": 5,
           "data": "2023-12-15",
           "comentario": "Most stunning caldera views in Santorini. The cave-style rooms are unique and romantic. Breakfast on the terrace was amazing!",
-          "tags": ["stunning views", "cave-style rooms", "romantic breakfast"]
+          "tags": [
+            "stunning views",
+            "cave-style rooms",
+            "romantic breakfast"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -487,7 +623,12 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Grego", "Inglês", "Francês", "Alemão"],
+        "idiomas": [
+          "Grego",
+          "Inglês",
+          "Francês",
+          "Alemão"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Limitada devido à arquitetura tradicional",
@@ -497,6 +638,39 @@
           "email": "info@calderaviewsuites.gr",
           "website": "www.calderaviewsuites.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Caldera View Suites: Informações essenciais para sua estadia com vista para a caldeira de Santorini.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in antes das 14:00 não é garantido",
+          "Late check-out pode ser solicitado com taxa adicional de 50€ por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte ou documento de identidade original obrigatório para registro",
+          "Cartão de crédito para garantia de danos e extras",
+          "Todos os hóspedes devem estar presentes no check-in para registro",
+          "Check-in após 20:00 requer notificação prévia para arranjos especiais"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para todos os hóspedes internacionais",
+          "Cidadãos da UE podem apresentar carteira de identidade nacional",
+          "Documentos devem estar válidos durante toda a estadia",
+          "Registro policial obrigatório na Grécia para todos os hóspedes não residentes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são permitidas na suíte com vista para a caldeira",
+          "Cama extra para criança disponível sob solicitação prévia com taxa adicional",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva antecipada",
+          "Crianças até 2 anos compartilhando cama com os pais não pagam taxa adicional"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos e áreas internas são estritamente não fumantes",
+          "Fumar é permitido apenas nas varandas privativas dos quartos",
+          "Multa de limpeza de 150€ será aplicada por fumar dentro do quarto",
+          "Cinzeiros são fornecidos nas varandas para uso adequado"
+        ]
       }
     },
     {
@@ -588,7 +762,11 @@
           "estrelas": 5,
           "data": "2024-01-10",
           "comentario": "完璧なロケーション！新宿駅から近く、部屋も清潔で快適でした。朝食のバリエーションが素晴らしい。",
-          "tags": ["localização perfeita", "limpo", "café variado"]
+          "tags": [
+            "localização perfeita",
+            "limpo",
+            "café variado"
+          ]
         },
         {
           "usuario": {
@@ -600,7 +778,11 @@
           "estrelas": 5,
           "data": "2024-01-05",
           "comentario": "Perfect location in Shinjuku! Walking distance to everything. The Japanese breakfast was authentic and delicious. Staff very helpful!",
-          "tags": ["perfect location", "authentic breakfast", "helpful staff"]
+          "tags": [
+            "perfect location",
+            "authentic breakfast",
+            "helpful staff"
+          ]
         },
         {
           "usuario": {
@@ -612,7 +794,11 @@
           "estrelas": 4,
           "data": "2023-12-28",
           "comentario": "Hotel excelente e bem localizado. Quarto compacto mas funcional (típico do Japão). Café da manhã muito bom!",
-          "tags": ["bem localizado", "compacto", "café bom"]
+          "tags": [
+            "bem localizado",
+            "compacto",
+            "café bom"
+          ]
         },
         {
           "usuario": {
@@ -624,7 +810,11 @@
           "estrelas": 5,
           "data": "2023-12-20",
           "comentario": "Hôtel moderne et propre. Le personnel parle anglais et est très serviable. Proche du métro et des centres commerciaux.",
-          "tags": ["moderne et propre", "personnel serviable", "proche métro"]
+          "tags": [
+            "moderne et propre",
+            "personnel serviable",
+            "proche métro"
+          ]
         },
         {
           "usuario": {
@@ -636,7 +826,11 @@
           "estrelas": 5,
           "data": "2023-12-15",
           "comentario": "Amazing hotel! The high-tech toilet was an experience. Business center was excellent. Great value for money in Tokyo!",
-          "tags": ["high-tech toilet", "excellent business center", "great value"]
+          "tags": [
+            "high-tech toilet",
+            "excellent business center",
+            "great value"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -652,7 +846,12 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Japonês", "Inglês", "Chinês", "Coreano"],
+        "idiomas": [
+          "Japonês",
+          "Inglês",
+          "Chinês",
+          "Coreano"
+        ],
         "estacionamento": "Sim (¥3.000/dia)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -662,6 +861,39 @@
           "email": "info@shinjukugrand.jp",
           "website": "www.shinjukugrand.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Shinjuku Grand Hotel: Regras e informações para sua estadia em Tóquio.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in antes das 15:00 tem taxa adicional de ¥3.000 por hora",
+          "Late check-out após 11:00 tem taxa de ¥5.000 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para garantia no check-in",
+          "Registro obrigatório de todos os hóspedes conforme lei japonesa",
+          "Check-in após meia-noite requer notificação prévia"
+        ],
+        "identification_requirement": [
+          "Passaporte original é obrigatório para estrangeiros",
+          "Carteira de motorista japonesa ou cartão de residência para residentes",
+          "Documentos devem ser apresentados para cada hóspede individualmente",
+          "Registro na polícia local é realizado automaticamente pelo hotel"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis sob solicitação prévia",
+          "Berços podem ser fornecidos sem custo adicional",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Quartos são designados como fumantes ou não fumantes",
+          "Solicitação de preferência deve ser feita no momento da reserva",
+          "Multa de limpeza de ¥20.000 por violação da política designada",
+          "Áreas para fumantes estão disponíveis em locais específicos do hotel"
+        ]
       }
     },
     {
@@ -752,7 +984,11 @@
           "estrelas": 4,
           "data": "2024-01-14",
           "comentario": "Great location right in Times Square! The room was clean and comfortable. Breakfast buffet had good options.",
-          "tags": ["great location", "clean room", "good breakfast"]
+          "tags": [
+            "great location",
+            "clean room",
+            "good breakfast"
+          ]
         },
         {
           "usuario": {
@@ -764,7 +1000,11 @@
           "estrelas": 3,
           "data": "2024-01-09",
           "comentario": "Location is perfect but rooms are small. Good for short stays. The noise from Times Square can be loud at night.",
-          "tags": ["perfect location", "small rooms", "noisy"]
+          "tags": [
+            "perfect location",
+            "small rooms",
+            "noisy"
+          ]
         },
         {
           "usuario": {
@@ -776,7 +1016,11 @@
           "estrelas": 4,
           "data": "2023-12-30",
           "comentario": "Perfect base for exploring NYC. Walking distance to Broadway shows and attractions. Basic but comfortable accommodation.",
-          "tags": ["perfect base", "walking distance", "basic comfort"]
+          "tags": [
+            "perfect base",
+            "walking distance",
+            "basic comfort"
+          ]
         },
         {
           "usuario": {
@@ -788,7 +1032,11 @@
           "estrelas": 5,
           "data": "2023-12-22",
           "comentario": "Excellent value for Times Square location. Staff were friendly and helpful. Rooms were updated and clean.",
-          "tags": ["excellent value", "friendly staff", "updated rooms"]
+          "tags": [
+            "excellent value",
+            "friendly staff",
+            "updated rooms"
+          ]
         },
         {
           "usuario": {
@@ -800,7 +1048,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Couldn't ask for a better location! Right in the heart of NYC action. Rooms are compact but have everything you need.",
-          "tags": ["best location", "compact rooms", "heart of NYC"]
+          "tags": [
+            "best location",
+            "compact rooms",
+            "heart of NYC"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -816,7 +1068,10 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Inglês", "Espanhol"],
+        "idiomas": [
+          "Inglês",
+          "Espanhol"
+        ],
         "estacionamento": "Não disponível (garagens próximas)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -826,6 +1081,39 @@
           "email": "reservations@manhattancentral.com",
           "website": "www.manhattancentralhotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Manhattan Central Hotel: Informações importantes para sua estadia em Times Square, Nova York.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade sem garantia",
+          "Late check-out até 13:00 pode ser solicitado com taxa de US$ 50"
+        ],
+        "regras_check": [
+          "Documento de identificação governamental com foto obrigatório",
+          "Cartão de crédito ou débito para garantia de US$ 100 por diária",
+          "Todos os hóspedes adultos devem apresentar identificação",
+          "Check-in mínimo de 21 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte para hóspedes internacionais ou carteira de motorista estadual",
+          "ID militar ou carteira de identidade estadual também são aceitos",
+          "Cópias não são aceitas, apenas documentos originais",
+          "Verificação de idade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por US$ 25 por noite",
+          "Berços podem ser fornecidos sem custo adicional sob solicitação",
+          "Crianças até 12 anos ficam gratuitamente quando usando camas existentes"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de US$ 250 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis fora do hotel",
+          "A política inclui cigarros, charutos, cachimbos e vaporizadores"
+        ]
       }
     },
     {
@@ -914,7 +1202,11 @@
           "estrelas": 5,
           "data": "2023-12-15",
           "comentario": "Excelente localização no centro histórico! O aquecimento funcionou perfeitamente, o que é essencial em Cusco. Café da manhã com produtos locais.",
-          "tags": ["centro histórico", "aquecimento eficiente", "produtos locais"]
+          "tags": [
+            "centro histórico",
+            "aquecimento eficiente",
+            "produtos locais"
+          ]
         },
         {
           "usuario": {
@@ -926,7 +1218,11 @@
           "estrelas": 4,
           "data": "2023-12-05",
           "comentario": "Hotel simples mas muito acolhedor. A equipe ajudou muito com dicas para aclimatação à altitude. Wi-Fi poderia ser melhor.",
-          "tags": ["acolhedor", "dicas altitude", "Wi-Fi fraco"]
+          "tags": [
+            "acolhedor",
+            "dicas altitude",
+            "Wi-Fi fraco"
+          ]
         },
         {
           "usuario": {
@@ -938,7 +1234,11 @@
           "estrelas": 4,
           "data": "2023-11-28",
           "comentario": "A trilha é cansativa mas vale cada passo! Leve sapatos confortáveis. O hotel é básico mas cumpre sua função.",
-          "tags": ["trilha cansativa", "sapatos confortáveis", "hotel básico"]
+          "tags": [
+            "trilha cansativa",
+            "sapatos confortáveis",
+            "hotel básico"
+          ]
         },
         {
           "usuario": {
@@ -950,7 +1250,11 @@
           "estrelas": 5,
           "data": "2023-11-28",
           "comentario": "Guia muito conhecimento sobre a cultura Inca. Impressionante! O hotel tem localização perfeita para explorar Cusco.",
-          "tags": ["cultura Inca", "localização perfeita", "guia conhecedor"]
+          "tags": [
+            "cultura Inca",
+            "localização perfeita",
+            "guia conhecedor"
+          ]
         },
         {
           "usuario": {
@@ -962,7 +1266,11 @@
           "estrelas": 4,
           "data": "2023-12-08",
           "comentario": "El amanecer en Machu Picchu es una experiencia divina. El hotel es cómodo para descansar después de las caminatas.",
-          "tags": ["amanecer divino", "cómodo", "descanso caminatas"]
+          "tags": [
+            "amanecer divino",
+            "cómodo",
+            "descanso caminatas"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -978,7 +1286,11 @@
           "gratuito": true,
           "areas": "Áreas comuns apenas"
         },
-        "idiomas": ["Espanhol", "Inglês", "Quíchua"],
+        "idiomas": [
+          "Espanhol",
+          "Inglês",
+          "Quíchua"
+        ],
         "estacionamento": "Não disponível",
         "pet_friendly": false,
         "acessibilidade": "Limitada",
@@ -988,6 +1300,39 @@
           "email": "reservas@andeanlodgecusco.com",
           "website": "www.andeanlodgecusco.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Andean Lodge Cusco: Informações importantes para sua estadia em Cusco, Peru.",
+        "check_in_out": [
+          "Check-in disponível a partir das 13:00",
+          "Check-out deve ser realizado até as 10:00",
+          "Early check-in está sujeito à disponibilidade devido à alta demanda",
+          "Late check-out pode ser solicitado com taxa adicional de 50% da diária"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito ou depósito em dinheiro para garantia",
+          "Registro obrigatório de todos os hóspedes conforme lei peruana",
+          "Check-in recomendado durante o dia para melhor aclimatação à altitude"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Documento Nacional de Identidade para peruanos",
+          "Os documentos serão fotocopiados para registro policial obrigatório",
+          "Informações de visto devem ser fornecidas se aplicável"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis sob solicitação prévia",
+          "Berços podem ser fornecidos sem custo adicional",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos e áreas internas são estritamente não fumantes",
+          "Fumar é permitido apenas no pátio externo designado",
+          "Multa de US$ 50 será aplicada por violação da política de não fumantes",
+          "A política inclui todas as formas de fumo e vaporizadores"
+        ]
       }
     },
     {
@@ -1080,7 +1425,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "A vista da Opera House do nosso quarto foi inacreditável! Acordar com essa vista vale cada centavo. Serviço impecável.",
-          "tags": ["vista inacreditável", "Opera House", "serviço impecável"]
+          "tags": [
+            "vista inacreditável",
+            "Opera House",
+            "serviço impecável"
+          ]
         },
         {
           "usuario": {
@@ -1092,7 +1441,11 @@
           "estrelas": 4,
           "data": "2023-12-10",
           "comentario": "Perfect location for exploring Sydney! The rooftop bar has amazing sunset views. Rooms are modern and comfortable.",
-          "tags": ["perfect location", "rooftop bar", "modern rooms"]
+          "tags": [
+            "perfect location",
+            "rooftop bar",
+            "modern rooms"
+          ]
         },
         {
           "usuario": {
@@ -1104,7 +1457,11 @@
           "estrelas": 4,
           "data": "2023-11-22",
           "comentario": "Voo muito longo, mas a cidade compensa o cansaço. A vista do hotel é espetacular. Piscina aquecida é um plus.",
-          "tags": ["voo longo", "vista espetacular", "piscina aquecida"]
+          "tags": [
+            "voo longo",
+            "vista espetacular",
+            "piscina aquecida"
+          ]
         },
         {
           "usuario": {
@@ -1116,7 +1473,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "Povo muito simpático e comida excelente! A localização é perfeita para conhecer Sydney. Hotel muito bem equipado.",
-          "tags": ["povo simpático", "comida excelente", "bem equipado"]
+          "tags": [
+            "povo simpático",
+            "comida excelente",
+            "bem equipado"
+          ]
         },
         {
           "usuario": {
@@ -1128,7 +1489,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Sydney Harbour at sunset is magical! Worth every penny. The seafood restaurant in the hotel is outstanding.",
-          "tags": ["harbour sunset", "worth every penny", "outstanding seafood"]
+          "tags": [
+            "harbour sunset",
+            "worth every penny",
+            "outstanding seafood"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1144,7 +1509,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Inglês", "Mandarim", "Japonês"],
+        "idiomas": [
+          "Inglês",
+          "Mandarim",
+          "Japonês"
+        ],
         "estacionamento": "Sim (AU$55/dia)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -1154,6 +1523,39 @@
           "email": "bookings@harbourviewsydney.com",
           "website": "www.harbourviewsydney.com.au"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Harbour View Hotel: Informações importantes para sua estadia com vista para o porto de Sydney.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade e pode ter taxa de AU$ 50 por hora",
+          "Late check-out até 14:00 pode ser solicitado com taxa de AU$ 75"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de AU$ 100 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Idade mínima para check-in é 18 anos"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para visitantes internacionais",
+          "Carteira de motorista australiana ou cartão de identificação para residentes",
+          "Documentos de visto devem ser apresentados se aplicável",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por AU$ 35 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 12 anos em camas existentes não pagam taxa adicional"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de AU$ 350 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis fora do hotel",
+          "A política se aplica a todos os produtos de tabaco e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -1243,7 +1645,11 @@
           "estrelas": 4,
           "data": "2023-12-08",
           "comentario": "Arquitetura deslumbrante e tapas deliciosas! O hotel fica no coração de Barcelona. Quarto pequeno mas funcional.",
-          "tags": ["arquitetura deslumbrante", "coração Barcelona", "quarto funcional"]
+          "tags": [
+            "arquitetura deslumbrante",
+            "coração Barcelona",
+            "quarto funcional"
+          ]
         },
         {
           "usuario": {
@@ -1255,7 +1661,11 @@
           "estrelas": 3,
           "data": "2023-11-15",
           "comentario": "Como espanhol, recomendo os restaurantes locais fora das áreas turísticas. Hotel básico mas bem localizado.",
-          "tags": ["restaurantes locais", "básico", "bem localizado"]
+          "tags": [
+            "restaurantes locais",
+            "básico",
+            "bem localizado"
+          ]
         },
         {
           "usuario": {
@@ -1267,7 +1677,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Sagrada Família é de tirar o fôlego! Hotel simples mas com excelente localização. Ideal para quem quer explorar a cidade.",
-          "tags": ["Sagrada Família", "excelente localização", "ideal explorar"]
+          "tags": [
+            "Sagrada Família",
+            "excelente localização",
+            "ideal explorar"
+          ]
         },
         {
           "usuario": {
@@ -1279,7 +1693,11 @@
           "estrelas": 4,
           "data": "2023-11-28",
           "comentario": "Cidade linda, mas muito cheia de turistas. O hotel cumpre sua função de hospedagem básica no centro.",
-          "tags": ["muitos turistas", "hospedagem básica", "centro"]
+          "tags": [
+            "muitos turistas",
+            "hospedagem básica",
+            "centro"
+          ]
         },
         {
           "usuario": {
@@ -1291,7 +1709,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "¡Barcelona es arte vivo! Gaudí era un genio. El hotel está bien ubicado para ver todo. Habitación cómoda.",
-          "tags": ["arte vivo", "bien ubicado", "habitación cómoda"]
+          "tags": [
+            "arte vivo",
+            "bien ubicado",
+            "habitación cómoda"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1307,7 +1729,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Espanhol", "Catalão", "Inglês"],
+        "idiomas": [
+          "Espanhol",
+          "Catalão",
+          "Inglês"
+        ],
         "estacionamento": "Não disponível",
         "pet_friendly": false,
         "acessibilidade": "Limitada",
@@ -1317,6 +1743,39 @@
           "email": "info@ramblascentral.com",
           "website": "www.ramblascentralhotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Ramblas Central Hotel: Informações importantes para sua estadia no coração de Barcelona.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de €20 por hora adicional"
+        ],
+        "regras_check": [
+          "Documento de identificação original obrigatório para todos os hóspedes",
+          "Cartão de crédito para garantia de €50 no check-in",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in após 22:00 requer notificação prévia"
+        ],
+        "identification_requirement": [
+          "Passaporte ou documento de identidade nacional válido",
+          "Para cidadãos da UE, carteira de identidade nacional é aceita",
+          "Documentos serão verificados e registrados conforme exigido por lei",
+          "Cópias não são aceitas, apenas documentos originais"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras não estão disponíveis devido ao tamanho limitado dos quartos",
+          "Berços podem ser fornecidos sob solicitação prévia com taxa de €10 por noite",
+          "Crianças até 3 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos e áreas internas são estritamente não fumantes",
+          "Multa de limpeza de €150 será aplicada por violação",
+          "Fumar é permitido apenas na área externa designada",
+          "A política inclui todos os tipos de produtos de tabaco e vaporizadores"
+        ]
       }
     },
     {
@@ -1409,7 +1868,11 @@
           "estrelas": 5,
           "data": "2023-12-20",
           "comentario": "Vista espetacular da praia de Copacabana! Café da manhã variado com frutas tropicais. Atendimento cordial e profissional.",
-          "tags": ["vista espetacular", "frutas tropicais", "atendimento profissional"]
+          "tags": [
+            "vista espetacular",
+            "frutas tropicais",
+            "atendimento profissional"
+          ]
         },
         {
           "usuario": {
@@ -1421,7 +1884,11 @@
           "estrelas": 4,
           "data": "2023-11-15",
           "comentario": "Localização perfeita para aproveitar o Rio! A piscina com vista é maravilhosa. O quarto poderia ser um pouco mais moderno.",
-          "tags": ["localização perfeita", "piscina com vista", "modernização"]
+          "tags": [
+            "localização perfeita",
+            "piscina com vista",
+            "modernização"
+          ]
         },
         {
           "usuario": {
@@ -1433,7 +1900,11 @@
           "estrelas": 5,
           "data": "2023-12-08",
           "comentario": "Como carioca, digo: o pôr do sol em Arpoador é único! Hotel com vista perfeita e ótima infraestrutura.",
-          "tags": ["pôr do sol Arpoador", "vista perfeita", "ótima infra"]
+          "tags": [
+            "pôr do sol Arpoador",
+            "vista perfeita",
+            "ótima infra"
+          ]
         },
         {
           "usuario": {
@@ -1445,7 +1916,11 @@
           "estrelas": 5,
           "data": "2023-11-28",
           "comentario": "Pão de Açúcar vale cada centavo. Vista espetacular! O hotel tem uma localização privilegiada em Copacabana.",
-          "tags": ["Pão de Açúcar", "vista espetacular", "localização privilegiada"]
+          "tags": [
+            "Pão de Açúcar",
+            "vista espetacular",
+            "localização privilegiada"
+          ]
         },
         {
           "usuario": {
@@ -1457,7 +1932,11 @@
           "estrelas": 4,
           "data": "2023-12-15",
           "comentario": "Cidade linda mas o trânsito é complicado. O hotel compensa com a vista incrível e o acesso à praia.",
-          "tags": ["trânsito complicado", "vista incrível", "acesso praia"]
+          "tags": [
+            "trânsito complicado",
+            "vista incrível",
+            "acesso praia"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1473,7 +1952,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Português", "Inglês", "Espanhol"],
+        "idiomas": [
+          "Português",
+          "Inglês",
+          "Espanhol"
+        ],
         "estacionamento": "Sim (R$ 50/dia)",
         "pet_friendly": true,
         "taxa_pet": "R$ 80 por diária",
@@ -1484,6 +1967,39 @@
           "email": "reservas@windsorpalace.com.br",
           "website": "www.windsorpalacehotel.com.br"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Windsor Palace Copacabana: Informações importantes para sua estadia com vista para a praia de Copacabana.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 14:00 pode ser solicitado com taxa de R$ 100"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Cartão de crédito para garantia de R$ 300 por diária",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão copiados para registro hoteleiro obrigatório",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Cama extra disponível por R$ 80 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de R$ 500 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis nas varandas",
+          "A política inclui cigarros, charutos, cachimbos e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -1575,7 +2091,11 @@
           "estrelas": 5,
           "data": "2023-12-14",
           "comentario": "Perfect location for sightseeing! The view of Big Ben from our room was worth every penny. Traditional afternoon tea was delightful.",
-          "tags": ["perfect location", "Big Ben view", "delightful tea"]
+          "tags": [
+            "perfect location",
+            "Big Ben view",
+            "delightful tea"
+          ]
         },
         {
           "usuario": {
@@ -1587,7 +2107,11 @@
           "estrelas": 4,
           "data": "2023-10-22",
           "comentario": "Hotel muito bem localizado para conhecer Londres. O chá da tarde é uma experiência autêntica. Quartos confortáveis mas um pouco pequenos.",
-          "tags": ["bem localizado", "chá autêntico", "quartos pequenos"]
+          "tags": [
+            "bem localizado",
+            "chá autêntico",
+            "quartos pequenos"
+          ]
         },
         {
           "usuario": {
@@ -1599,7 +2123,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Afternoon tea was absolutely delightful! Proper British experience. View of Parliament from the lounge is stunning.",
-          "tags": ["delightful tea", "British experience", "stunning view"]
+          "tags": [
+            "delightful tea",
+            "British experience",
+            "stunning view"
+          ]
         },
         {
           "usuario": {
@@ -1611,7 +2139,11 @@
           "estrelas": 4,
           "data": "2023-11-30",
           "comentario": "Choveu bastante, mas os museus são incríveis e gratuitos! Hotel com localização perfeita para cultura.",
-          "tags": ["museus gratuitos", "localização perfeita", "chuva"]
+          "tags": [
+            "museus gratuitos",
+            "localização perfeita",
+            "chuva"
+          ]
         },
         {
           "usuario": {
@@ -1623,7 +2155,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "Westminster Abbey is breathtaking. History comes alive! The hotel's afternoon tea service is exceptional.",
-          "tags": ["breathtaking abbey", "history alive", "exceptional tea"]
+          "tags": [
+            "breathtaking abbey",
+            "history alive",
+            "exceptional tea"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1639,7 +2175,12 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Inglês", "Francês", "Espanhol", "Alemão"],
+        "idiomas": [
+          "Inglês",
+          "Francês",
+          "Espanhol",
+          "Alemão"
+        ],
         "estacionamento": "Não disponível",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -1649,6 +2190,39 @@
           "email": "reservations@bigbenview.co.uk",
           "website": "www.bigbenviewhotel.co.uk"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Big Ben View Hotel: Informações importantes para sua estadia com vista para o Big Ben em Londres.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade com taxa de £30 por hora",
+          "Late check-out até 13:00 pode ser solicitado com taxa de £40"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para hóspedes não britânicos",
+          "Cartão de crédito para garantia de £100 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Idade mínima para check-in é 18 anos"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para visitantes internacionais",
+          "Carteira de motorista britânica ou cartão de identidade para residentes do Reino Unido",
+          "Visto do Reino Unido deve ser apresentado se aplicável",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por £25 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 12 anos em camas existentes não pagam taxa adicional"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos e áreas internas são estritamente não fumantes",
+          "Multa de limpeza de £250 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis fora do hotel",
+          "A política se aplica a cigarros, charutos, cachimbos e dispositivos de vapor"
+        ]
       }
     },
     {
@@ -1742,7 +2316,11 @@
           "estrelas": 5,
           "data": "2023-11-30",
           "comentario": "Luxo e modernidade impressionantes! O safári no deserto foi inesquecível. Vista do Burj Khalifa é espetacular.",
-          "tags": ["luxo impressionante", "safári deserto", "vista espetacular"]
+          "tags": [
+            "luxo impressionante",
+            "safári deserto",
+            "vista espetacular"
+          ]
         },
         {
           "usuario": {
@@ -1754,7 +2332,11 @@
           "estrelas": 4,
           "data": "2023-11-25",
           "comentario": "Cidade fascinante, mas muito quente durante o dia. O hotel é um oásis de conforto. Piscina com vista incrível.",
-          "tags": ["muito quente", "oásis conforto", "piscina incrível"]
+          "tags": [
+            "muito quente",
+            "oásis conforto",
+            "piscina incrível"
+          ]
         },
         {
           "usuario": {
@@ -1766,7 +2348,11 @@
           "estrelas": 5,
           "data": "2023-12-10",
           "comentario": "Burj Khalifa view from 124th floor is mind-blowing! Hotel service is exceptional. Breakfast buffet is massive.",
-          "tags": ["mind-blowing view", "exceptional service", "massive breakfast"]
+          "tags": [
+            "mind-blowing view",
+            "exceptional service",
+            "massive breakfast"
+          ]
         },
         {
           "usuario": {
@@ -1778,7 +2364,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Compras excelentes, mas tudo é muito caro. O hotel compensa com o luxo e conforto. Vista digna de cartão postal.",
-          "tags": ["compras caras", "luxo e conforto", "vista cartão postal"]
+          "tags": [
+            "compras caras",
+            "luxo e conforto",
+            "vista cartão postal"
+          ]
         },
         {
           "usuario": {
@@ -1790,7 +2380,11 @@
           "estrelas": 5,
           "data": "2023-11-15",
           "comentario": "Desert safari with dinner under the stars - unforgettable! Hotel's infinity pool has best Burj Khalifa view in Dubai.",
-          "tags": ["unforgettable safari", "infinity pool", "best view"]
+          "tags": [
+            "unforgettable safari",
+            "infinity pool",
+            "best view"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1806,7 +2400,13 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Árabe", "Inglês", "Francês", "Russo", "Mandarim"],
+        "idiomas": [
+          "Árabe",
+          "Inglês",
+          "Francês",
+          "Russo",
+          "Mandarim"
+        ],
         "estacionamento": "Valet (gratuito para hóspedes)",
         "pet_friendly": false,
         "acessibilidade": "Completa, quartos adaptados disponíveis",
@@ -1816,6 +2416,39 @@
           "email": "reservations@burjviewluxury.com",
           "website": "www.burjviewluxurydubai.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Burj View Luxury Hotel: Informações importantes para sua estadia de luxo com vista para o Burj Khalifa em Dubai.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 14:00 pode ser solicitado com taxa de AED 200 por hora"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de AED 1000 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 21 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para todos os hóspedes não residentes nos EAU",
+          "Cartão de identidade dos EAU para residentes",
+          "Visto dos EAU deve ser apresentado se aplicável",
+          "Documentos serão digitalizados para registro conforme exigido por lei"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas, mas a suíte tem capacidade máxima de 2 adultos",
+          "Camas extras não estão disponíveis nesta categoria de suíte",
+          "Berços podem ser fornecidos sob solicitação prévia com taxa de AED 100 por noite",
+          "Para famílias com crianças, recomendamos reservar suítes familiares"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de AED 2000 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis em locais específicos do hotel",
+          "A política inclui todos os produtos de tabaco, narguilé e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -1904,7 +2537,11 @@
           "estrelas": 5,
           "data": "2023-09-12",
           "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico. Pousada simples mas acolhedora.",
-          "tags": ["paraíso na terra", "águas cristalinas", "pousada acolhedora"]
+          "tags": [
+            "paraíso na terra",
+            "águas cristalinas",
+            "pousada acolhedora"
+          ]
         },
         {
           "usuario": {
@@ -1916,7 +2553,11 @@
           "estrelas": 4,
           "data": "2023-08-30",
           "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo! A pousada é rústica mas muito bem localizada.",
-          "tags": ["taxa ambiental cara", "vale cada centavo", "bem localizada"]
+          "tags": [
+            "taxa ambiental cara",
+            "vale cada centavo",
+            "bem localizada"
+          ]
         },
         {
           "usuario": {
@@ -1928,7 +2569,11 @@
           "estrelas": 5,
           "data": "2023-10-15",
           "comentario": "Baía do Sancho é a praia mais linda do Brasil! A pousada ajuda com dicas locais. Natureza intocada.",
-          "tags": ["praia mais linda", "dicas locais", "natureza intocada"]
+          "tags": [
+            "praia mais linda",
+            "dicas locais",
+            "natureza intocada"
+          ]
         },
         {
           "usuario": {
@@ -1940,7 +2585,11 @@
           "estrelas": 4,
           "data": "2023-11-08",
           "comentario": "Trilhas incríveis, mas exige preparo físico. A pousada é básica mas funciona bem. Internet limitada.",
-          "tags": ["trilhas exigentes", "pousada básica", "internet limitada"]
+          "tags": [
+            "trilhas exigentes",
+            "pousada básica",
+            "internet limitada"
+          ]
         },
         {
           "usuario": {
@@ -1952,7 +2601,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível! A simplicidade da pousada combina com a ilha preservada.",
-          "tags": ["pôr do sol inesquecível", "simplicidade", "ilha preservada"]
+          "tags": [
+            "pôr do sol inesquecível",
+            "simplicidade",
+            "ilha preservada"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -1968,7 +2621,10 @@
           "gratuito": true,
           "areas": "Área comum apenas"
         },
-        "idiomas": ["Português", "Inglês básico"],
+        "idiomas": [
+          "Português",
+          "Inglês básico"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Limitada",
@@ -1978,6 +2634,39 @@
           "email": "contato@pousadamaravilha.com.br",
           "website": "www.pousadamaravilhanoronha.com.br"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação da Pousada Maravilha: Informações importantes para sua estadia ecológica em Fernando de Noronha.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade devido aos horários dos voos",
+          "Late check-out não é permitido devido à alta demanda e limpeza necessária"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Comprovante de pagamento da Taxa de Preservação Ambiental (TPA) obrigatório",
+          "Todos os hóspedes devem apresentar comprovante de hospedagem no aeroporto",
+          "Check-in recomendado durante a luz do dia para melhor orientação"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão registrados conforme exigido pela administração da ilha",
+          "Comprovante de TPA é verificado no check-in (obrigatório para acesso à ilha)"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas, mas os chalés têm capacidade máxima de 2 adultos",
+          "Camas extras não estão disponíveis devido ao tamanho limitado dos chalés",
+          "Berços podem ser fornecidos sob solicitação prévia com taxa de R$ 30 por noite",
+          "Para famílias com crianças, recomendamos reservar dois chalés adjacentes"
+        ],
+        "politicas_fumantes": [
+          "Todos os chalés e áreas comuns são estritamente não fumantes",
+          "Fumar é permitido apenas em áreas abertas designadas longe da vegetação",
+          "Multa de R$ 300 será aplicada por violação da política de não fumantes",
+          "É proibido jogar bitucas no chão devido ao risco de incêndio na ilha"
+        ]
       }
     },
     {
@@ -2067,7 +2756,11 @@
           "estrelas": 5,
           "data": "2023-10-25",
           "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo. Vista do Coliseu do quarto é emocionante.",
-          "tags": ["história em cada esquina", "gelato melhor", "vista emocionante"]
+          "tags": [
+            "história em cada esquina",
+            "gelato melhor",
+            "vista emocionante"
+          ]
         },
         {
           "usuario": {
@@ -2079,7 +2772,11 @@
           "estrelas": 4,
           "data": "2023-09-18",
           "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar. Hotel com localização perfeita.",
-          "tags": ["muitos turistas", "acordar cedo", "localização perfeita"]
+          "tags": [
+            "muitos turistas",
+            "acordar cedo",
+            "localização perfeita"
+          ]
         },
         {
           "usuario": {
@@ -2091,7 +2788,11 @@
           "estrelas": 5,
           "data": "2023-11-30",
           "comentario": "Colosseo di notte è magico! Da non perdere. L'hotel è pulito e il personale molto disponibile.",
-          "tags": ["Colosseo notte magico", "hotel pulito", "personale disponibile"]
+          "tags": [
+            "Colosseo notte magico",
+            "hotel pulito",
+            "personale disponibile"
+          ]
         },
         {
           "usuario": {
@@ -2103,7 +2804,11 @@
           "estrelas": 4,
           "data": "2023-12-12",
           "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda. Hotel simples mas bem localizado.",
-          "tags": ["Fontana di Trevi lotada", "experiência moeda", "bem localizado"]
+          "tags": [
+            "Fontana di Trevi lotada",
+            "experiência moeda",
+            "bem localizado"
+          ]
         },
         {
           "usuario": {
@@ -2115,7 +2820,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "La pasta carbonara più buona della mia vita! Roma è amore. Vista del Colosseo dalla camera è incredibile.",
-          "tags": ["pasta carbonara buona", "Roma amore", "vista incredibile"]
+          "tags": [
+            "pasta carbonara buona",
+            "Roma amore",
+            "vista incredibile"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2131,7 +2840,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Italiano", "Inglês", "Espanhol"],
+        "idiomas": [
+          "Italiano",
+          "Inglês",
+          "Espanhol"
+        ],
         "estacionamento": "Não disponível",
         "pet_friendly": false,
         "acessibilidade": "Limitada (edifício histórico)",
@@ -2141,6 +2854,39 @@
           "email": "info@colosseumviewhotel.com",
           "website": "www.colosseumviewhotelroma.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Colosseum View Hotel: Informações importantes para sua estadia com vista para o Coliseu Romano.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 13:00 pode ser solicitado com taxa de €30"
+        ],
+        "regras_check": [
+          "Documento de identificação válido obrigatório para todos os hóspedes",
+          "Cartão de crédito para garantia de €100 no check-in",
+          "Todos os hóspedes devem ser registrados individualmente conforme lei italiana",
+          "Check-in após 22:00 requer notificação prévia"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para não cidadãos da UE",
+          "Carteira de identidade nacional para cidadãos da UE",
+          "Documentos serão registrados e comunicados à polícia conforme exigido",
+          "Cópias não são aceitas, apenas documentos originais"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por €25 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de €150 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui todos os tipos de produtos de tabaco e vaporizadores"
+        ]
       }
     },
     {
@@ -2235,7 +2981,11 @@
           "estrelas": 5,
           "data": "2023-10-22",
           "comentario": "Paraíso tropical com cultura tailandesa única! As ilhas Phi Phi são deslumbrantes. Resort com serviço impecável.",
-          "tags": ["paraíso tropical", "cultura tailandesa", "serviço impecável"]
+          "tags": [
+            "paraíso tropical",
+            "cultura tailandesa",
+            "serviço impecável"
+          ]
         },
         {
           "usuario": {
@@ -2247,7 +2997,11 @@
           "estrelas": 5,
           "data": "2023-11-15",
           "comentario": "Islands tour was amazing! Crystal clear water. Traditional Thai massage at the resort spa was heavenly.",
-          "tags": ["amazing tour", "crystal clear water", "heavenly massage"]
+          "tags": [
+            "amazing tour",
+            "crystal clear water",
+            "heavenly massage"
+          ]
         },
         {
           "usuario": {
@@ -2259,7 +3013,11 @@
           "estrelas": 4,
           "data": "2023-12-05",
           "comentario": "Resort maravilhoso, mas cuidado com o sol forte! Use muito protetor. A comida tailandesa do restaurante é autêntica.",
-          "tags": ["sol forte", "comida autêntica", "resort maravilhoso"]
+          "tags": [
+            "sol forte",
+            "comida autêntica",
+            "resort maravilhoso"
+          ]
         },
         {
           "usuario": {
@@ -2271,7 +3029,11 @@
           "estrelas": 5,
           "data": "2023-11-28",
           "comentario": "Best Thai massage ever! Beaches are paradise. The infinity pool overlooking Andaman Sea is breathtaking.",
-          "tags": ["best massage", "paradise beaches", "breathtaking pool"]
+          "tags": [
+            "best massage",
+            "paradise beaches",
+            "breathtaking pool"
+          ]
         },
         {
           "usuario": {
@@ -2283,7 +3045,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Comida tailandesa autêntica e deliciosa! O Big Buddha é imperdível. Resort luxuoso mas com preços elevados.",
-          "tags": ["comida autêntica", "Big Buddha imperdível", "preços elevados"]
+          "tags": [
+            "comida autêntica",
+            "Big Buddha imperdível",
+            "preços elevados"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2299,7 +3065,12 @@
           "gratuito": true,
           "areas": "Todo o resort"
         },
-        "idiomas": ["Tailandês", "Inglês", "Chinês", "Russo"],
+        "idiomas": [
+          "Tailandês",
+          "Inglês",
+          "Chinês",
+          "Russo"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -2309,6 +3080,39 @@
           "email": "reservations@andamansearesort.com",
           "website": "www.andamansearesortphuket.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Andaman Sea Resort: Informações importantes para sua estadia de luxo em Phuket, Tailândia.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 14:00 pode ser solicitado com taxa de ฿1000 por hora"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de ฿5000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 20 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para todos os hóspedes não tailandeses",
+          "Cartão de identidade tailandês para residentes locais",
+          "Visto tailandês deve ser apresentado se aplicável",
+          "Documentos serão copiados para registro conforme exigido por lei"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas na villa à beira-mar",
+          "Sofá-cama está disponível para crianças",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 11 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de ฿3000 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui cigarros, charutos, cachimbos e narguilés"
+        ]
       }
     },
     {
@@ -2399,7 +3203,11 @@
           "estrelas": 5,
           "data": "2023-09-30",
           "comentario": "Passeio de gôndola no pôr do sol é mágico! Vista do canal do quarto é romântica. Hotel com charme veneziano.",
-          "tags": ["gôndola pôr do sol", "vista romântica", "charme veneziano"]
+          "tags": [
+            "gôndola pôr do sol",
+            "vista romântica",
+            "charme veneziano"
+          ]
         },
         {
           "usuario": {
@@ -2411,7 +3219,11 @@
           "estrelas": 5,
           "data": "2023-10-25",
           "comentario": "Venezia è la città più romantica del mondo! La vista sul Canal Grande dalla camera è incantevole.",
-          "tags": ["città romantica", "vista incantevole", "Canal Grande"]
+          "tags": [
+            "città romantica",
+            "vista incantevole",
+            "Canal Grande"
+          ]
         },
         {
           "usuario": {
@@ -2423,7 +3235,11 @@
           "estrelas": 4,
           "data": "2023-11-18",
           "comentario": "Cidade única, mas cuidado com as marés altas (acqua alta). Hotel bem localizado para explorar Veneza a pé.",
-          "tags": ["marés altas", "bem localizado", "explorar a pé"]
+          "tags": [
+            "marés altas",
+            "bem localizado",
+            "explorar a pé"
+          ]
         },
         {
           "usuario": {
@@ -2435,7 +3251,11 @@
           "estrelas": 5,
           "data": "2023-12-08",
           "comentario": "Piazza San Marco at sunrise is absolutely magical! Gondola ride through small canals was unforgettable.",
-          "tags": ["sunrise magical", "gondola unforgettable", "small canals"]
+          "tags": [
+            "sunrise magical",
+            "gondola unforgettable",
+            "small canals"
+          ]
         },
         {
           "usuario": {
@@ -2447,7 +3267,11 @@
           "estrelas": 4,
           "data": "2023-12-20",
           "comentario": "Romântico, mas os preços são muito elevados. A experiência da gôndola vale a pena. Hotel charmoso.",
-          "tags": ["preços elevados", "gôndola vale a pena", "hotel charmoso"]
+          "tags": [
+            "preços elevados",
+            "gôndola vale a pena",
+            "hotel charmoso"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2463,7 +3287,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Italiano", "Inglês", "Francês"],
+        "idiomas": [
+          "Italiano",
+          "Inglês",
+          "Francês"
+        ],
         "estacionamento": "Não disponível (acesso apenas por barco ou a pé)",
         "pet_friendly": false,
         "acessibilidade": "Muito limitada (muitas pontes e degraus)",
@@ -2473,6 +3301,39 @@
           "email": "info@grandcanalpalace.com",
           "website": "www.grandcanalpalacevenice.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Grand Canal Palace: Informações importantes para sua estadia histórica em Veneza.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade devido à alta demanda",
+          "Late check-out pode ser solicitado com taxa de €50 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte ou documento de identidade válido obrigatório",
+          "Cartão de crédito para garantia de €200 no check-in",
+          "Todos os hóspedes devem ser registrados conforme lei italiana",
+          "Check-in após 20:00 requer notificação prévia para arranjos especiais"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para não cidadãos da UE",
+          "Carteira de identidade nacional para cidadãos da UE",
+          "Documentos serão registrados e comunicados à polícia local",
+          "Verificação obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por €40 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de €200 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o canal",
+          "A política inclui todos os produtos de tabaco e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -2563,7 +3424,11 @@
           "estrelas": 5,
           "data": "2023-11-12",
           "comentario": "As pirâmides são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
-          "tags": ["pirâmides impressionantes", "vista espetacular", "café egípcio"]
+          "tags": [
+            "pirâmides impressionantes",
+            "vista espetacular",
+            "café egípcio"
+          ]
         },
         {
           "usuario": {
@@ -2575,7 +3440,11 @@
           "estrelas": 4,
           "data": "2023-10-28",
           "comentario": "Como egípcia, fiquei emocionada com o Museu Egípcio. Hotel com vista incrível. Passeio de camelo é imperdível.",
-          "tags": ["Museu Egípcio emocionante", "vista incrível", "camelo imperdível"]
+          "tags": [
+            "Museu Egípcio emocionante",
+            "vista incrível",
+            "camelo imperdível"
+          ]
         },
         {
           "usuario": {
@@ -2587,7 +3456,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Esfinge de Gizé é surreal! História viva. Acordar com vista para as pirâmides é experiência única.",
-          "tags": ["Esfinge surreal", "história viva", "experiência única"]
+          "tags": [
+            "Esfinge surreal",
+            "história viva",
+            "experiência única"
+          ]
         },
         {
           "usuario": {
@@ -2599,7 +3472,11 @@
           "estrelas": 4,
           "data": "2023-11-25",
           "comentario": "Fascinating but very hot. Bring lots of water! Hotel view of pyramids is worth it. Egyptian breakfast interesting.",
-          "tags": ["very hot", "bring water", "view worth it"]
+          "tags": [
+            "very hot",
+            "bring water",
+            "view worth it"
+          ]
         },
         {
           "usuario": {
@@ -2611,7 +3488,11 @@
           "estrelas": 5,
           "data": "2023-12-15",
           "comentario": "Camel ride at sunset - unforgettable experience! Pyramids look magical in golden light. Hotel service excellent.",
-          "tags": ["unforgettable camel ride", "magical pyramids", "excellent service"]
+          "tags": [
+            "unforgettable camel ride",
+            "magical pyramids",
+            "excellent service"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2627,7 +3508,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Árabe", "Inglês", "Francês"],
+        "idiomas": [
+          "Árabe",
+          "Inglês",
+          "Francês"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -2637,6 +3522,39 @@
           "email": "reservations@pyramidsviewhotel.com",
           "website": "www.pyramidsviewhotelcairo.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Pyramids View Hotel: Informações importantes para sua estadia com vista para as Pirâmides de Gizé.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de EGP 200 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para garantia de EGP 1000 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Cartão de identidade egípcio para cidadãos locais",
+          "Visto egípcio deve ser apresentado se aplicável",
+          "Documentos serão registrados conforme exigido pelas autoridades"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por EGP 150 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de EGP 500 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas e áreas externas designadas",
+          "A política inclui todos os produtos de tabaco e narguilés"
+        ]
       }
     },
     {
@@ -2728,7 +3646,11 @@
           "estrelas": 4,
           "data": "2023-12-08",
           "comentario": "Gastronomia incrível e vida noturna vibrante! Hotel bem localizado para negócios. Quarto confortável e silencioso.",
-          "tags": ["gastronomia incrível", "bem localizado", "quarto silencioso"]
+          "tags": [
+            "gastronomia incrível",
+            "bem localizado",
+            "quarto silencioso"
+          ]
         },
         {
           "usuario": {
@@ -2740,7 +3662,11 @@
           "estrelas": 5,
           "data": "2023-11-15",
           "comentario": "Como paulistano, recomendo o Mercado Municipal e a Avenida Paulista. Hotel perfeito para trabalho e lazer.",
-          "tags": ["Mercado Municipal", "Avenida Paulista", "perfeito trabalho/lazer"]
+          "tags": [
+            "Mercado Municipal",
+            "Avenida Paulista",
+            "perfeito trabalho/lazer"
+          ]
         },
         {
           "usuario": {
@@ -2752,7 +3678,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Cidade enorme, precisa de planejamento para aproveitar bem. Hotel com excelente infraestrutura para trabalho.",
-          "tags": ["planejamento necessário", "excelente infra", "cidade enorme"]
+          "tags": [
+            "planejamento necessário",
+            "excelente infra",
+            "cidade enorme"
+          ]
         },
         {
           "usuario": {
@@ -2764,7 +3694,11 @@
           "estrelas": 5,
           "data": "2023-11-30",
           "comentario": "MASP é imperdível! Acervo incrível. Hotel com localização perfeita para cultura e negócios.",
-          "tags": ["MASP imperdível", "acervo incrível", "localização perfeita"]
+          "tags": [
+            "MASP imperdível",
+            "acervo incrível",
+            "localização perfeita"
+          ]
         },
         {
           "usuario": {
@@ -2776,7 +3710,11 @@
           "estrelas": 4,
           "data": "2023-12-12",
           "comentario": "Restaurantes de todos os cantos do mundo! Paraíso gastronômico. Hotel funcional para quem vem a trabalho.",
-          "tags": ["paraíso gastronômico", "hotel funcional", "todos os cantos"]
+          "tags": [
+            "paraíso gastronômico",
+            "hotel funcional",
+            "todos os cantos"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2792,7 +3730,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Português", "Inglês", "Espanhol"],
+        "idiomas": [
+          "Português",
+          "Inglês",
+          "Espanhol"
+        ],
         "estacionamento": "Sim (R$ 60/dia)",
         "pet_friendly": false,
         "acessibilidade": "Completa, quartos adaptados disponíveis",
@@ -2802,6 +3744,39 @@
           "email": "reservas@paulistabusiness.com.br",
           "website": "www.paulistabusinesshotel.com.br"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Paulista Business Hotel: Informações importantes para sua estadia executiva na Avenida Paulista, São Paulo.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 14:00 pode ser solicitado com taxa de R$ 80"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Cartão de crédito para garantia de R$ 500 por diária",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão copiados para registro hoteleiro obrigatório",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas, mas o quarto executivo tem capacidade máxima de 2 adultos",
+          "Camas extras não estão disponíveis nesta categoria de quarto",
+          "Berços podem ser fornecidos sob solicitação prévia com taxa de R$ 50 por noite",
+          "Para famílias com crianças, recomendamos reservar quartos familiares"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de R$ 400 será aplicada por violação",
+          "Áreas designadas para fumantes estão disponíveis nas áreas externas do hotel",
+          "A política inclui cigarros, charutos, cachimbos e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -2893,7 +3868,11 @@
           "estrelas": 4,
           "data": "2023-10-05",
           "comentario": "Natureza deslumbrante e cidade limpa! Stanley Park é imperdível. Hotel bem localizado para explorar.",
-          "tags": ["natureza deslumbrante", "cidade limpa", "Stanley Park"]
+          "tags": [
+            "natureza deslumbrante",
+            "cidade limpa",
+            "Stanley Park"
+          ]
         },
         {
           "usuario": {
@@ -2905,7 +3884,11 @@
           "estrelas": 5,
           "data": "2023-11-18",
           "comentario": "Stanley Park is massive and beautiful! Perfect for biking. Hotel has amazing bay views. Very clean and modern.",
-          "tags": ["massive park", "perfect biking", "amazing views"]
+          "tags": [
+            "massive park",
+            "perfect biking",
+            "amazing views"
+          ]
         },
         {
           "usuario": {
@@ -2917,7 +3900,11 @@
           "estrelas": 4,
           "data": "2023-12-08",
           "comentario": "Capilano Suspension Bridge vale o preço. Vista incrível! Hotel com localização central e confortável.",
-          "tags": ["Capilano Bridge vale", "vista incrível", "localização central"]
+          "tags": [
+            "Capilano Bridge vale",
+            "vista incrível",
+            "localização central"
+          ]
         },
         {
           "usuario": {
@@ -2929,7 +3916,11 @@
           "estrelas": 5,
           "data": "2023-11-25",
           "comentario": "Whale watching tour was magical! Saw orcas! Hotel's breakfast with local products was delicious.",
-          "tags": ["magical whale watching", "saw orcas", "local breakfast"]
+          "tags": [
+            "magical whale watching",
+            "saw orcas",
+            "local breakfast"
+          ]
         },
         {
           "usuario": {
@@ -2941,7 +3932,11 @@
           "estrelas": 4,
           "data": "2023-12-15",
           "comentario": "Cidade linda mas muito cara. A qualidade de vida é excelente. Hotel com vistas maravilhosas.",
-          "tags": ["cidade cara", "qualidade vida excelente", "vistas maravilhosas"]
+          "tags": [
+            "cidade cara",
+            "qualidade vida excelente",
+            "vistas maravilhosas"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -2957,7 +3952,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Inglês", "Francês", "Mandarim"],
+        "idiomas": [
+          "Inglês",
+          "Francês",
+          "Mandarim"
+        ],
         "estacionamento": "Sim (CA$ 45/dia)",
         "pet_friendly": true,
         "taxa_pet": "CA$ 30 por diária",
@@ -2968,6 +3967,39 @@
           "email": "reservations@vancouverbayhotel.com",
           "website": "www.vancouverbayhotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Vancouver Bay Hotel: Informações importantes para sua estadia com vista para a baía de Vancouver.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade com taxa de CA$ 30 por hora",
+          "Late check-out até 13:00 pode ser solicitado com taxa de CA$ 50"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de CA$ 200 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Idade mínima para check-in é 19 anos (idade legal em BC)"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para visitantes internacionais",
+          "Carteira de motorista canadense ou cartão de identificação provincial",
+          "Documentos de visto devem ser apresentados se aplicável",
+          "Verificação de idade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por CA$ 25 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 12 anos em camas existentes não pagam taxa adicional"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de CA$ 300 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas a pelo menos 6 metros das entradas",
+          "A política inclui cigarros, charutos, cachimbos e vaporizadores"
+        ]
       }
     },
     {
@@ -3059,7 +4091,11 @@
           "estrelas": 4,
           "data": "2023-11-28",
           "comentario": "Vista dos Andes é impressionante! Vinho chileno excelente. Hotel bem localizado em Providencia.",
-          "tags": ["vista impressionante", "vinho excelente", "bem localizado"]
+          "tags": [
+            "vista impressionante",
+            "vinho excelente",
+            "bem localizado"
+          ]
         },
         {
           "usuario": {
@@ -3071,7 +4107,11 @@
           "estrelas": 5,
           "data": "2023-12-12",
           "comentario": "Los viñedos del Valle Central son maravillosos. ¡Vino excepcional! Hotel con vista increíble a la cordillera.",
-          "tags": ["viñedos maravillosos", "vino excepcional", "vista increíble"]
+          "tags": [
+            "viñedos maravillosos",
+            "vino excepcional",
+            "vista increíble"
+          ]
         },
         {
           "usuario": {
@@ -3083,7 +4123,11 @@
           "estrelas": 4,
           "data": "2023-11-15",
           "comentario": "Cerro San Cristóbal tem vista panorâmica incrível da cidade. Hotel confortável e com bom café da manhã.",
-          "tags": ["Cerro San Cristóbal", "vista panorâmica", "bom café"]
+          "tags": [
+            "Cerro San Cristóbal",
+            "vista panorâmica",
+            "bom café"
+          ]
         },
         {
           "usuario": {
@@ -3095,7 +4139,11 @@
           "estrelas": 4,
           "data": "2023-12-05",
           "comentario": "Show folclórico muito bom, mas o jantar poderia ser melhor. Vista dos Andes do quarto é deslumbrante.",
-          "tags": ["show folclórico bom", "jantar melhorável", "vista deslumbrante"]
+          "tags": [
+            "show folclórico bom",
+            "jantar melhorável",
+            "vista deslumbrante"
+          ]
         },
         {
           "usuario": {
@@ -3107,7 +4155,11 @@
           "estrelas": 5,
           "data": "2023-12-20",
           "comentario": "Chilean wine tasting was fantastic! Malbec is amazing. Andes view from the room is spectacular, especially at sunrise.",
-          "tags": ["fantastic wine tasting", "amazing Malbec", "spectacular sunrise"]
+          "tags": [
+            "fantastic wine tasting",
+            "amazing Malbec",
+            "spectacular sunrise"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3123,7 +4175,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Espanhol", "Inglês", "Português"],
+        "idiomas": [
+          "Espanhol",
+          "Inglês",
+          "Português"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -3133,6 +4189,39 @@
           "email": "reservas@andesviewhotel.cl",
           "website": "www.andesviewhotelsantiago.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Andes View Hotel: Informações importantes para sua estadia com vista para a Cordilheira dos Andes em Santiago.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de CLP 15.000 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de CLP 100.000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para estrangeiros",
+          "Cédula de identidad chilena para residentes",
+          "Documentos serão copiados para registro conforme exigido por lei",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por CLP 20.000 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de CLP 50.000 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para os Andes",
+          "A política inclui todos os produtos de tabaco e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -3220,7 +4309,11 @@
           "estrelas": 5,
           "data": "2023-09-15",
           "comentario": "Pôr do sol na duna mais lindo do Brasil! Pousada rústica mas muito charmosa. Experiência autêntica.",
-          "tags": ["pôr do sol lindo", "pousada charmosa", "experiência autêntica"]
+          "tags": [
+            "pôr do sol lindo",
+            "pousada charmosa",
+            "experiência autêntica"
+          ]
         },
         {
           "usuario": {
@@ -3232,7 +4325,11 @@
           "estrelas": 5,
           "data": "2023-10-08",
           "comentario": "Buggy pelas dunas é adrenalina pura! Lagoas paradisíacas. Pousada ajuda com os melhores passeios.",
-          "tags": ["buggy adrenalina", "lagoas paradisíacas", "melhores passeios"]
+          "tags": [
+            "buggy adrenalina",
+            "lagoas paradisíacas",
+            "melhores passeios"
+          ]
         },
         {
           "usuario": {
@@ -3244,7 +4341,11 @@
           "estrelas": 4,
           "data": "2023-11-22",
           "comentario": "Paraíso ecológico, mas a estrutura é rústica (faz parte do charme!). Leve lanterna para a noite.",
-          "tags": ["paraíso ecológico", "estrutura rústica", "leve lanterna"]
+          "tags": [
+            "paraíso ecológico",
+            "estrutura rústica",
+            "leve lanterna"
+          ]
         },
         {
           "usuario": {
@@ -3256,7 +4357,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Pedra Furada no pôr do sol é cena de filme! Pousada simples mas muito acolhedora. Natureza preservada.",
-          "tags": ["Pedra Furada cena filme", "pousada acolhedora", "natureza preservada"]
+          "tags": [
+            "Pedra Furada cena filme",
+            "pousada acolhedora",
+            "natureza preservada"
+          ]
         },
         {
           "usuario": {
@@ -3268,7 +4373,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Kitesurf excelente, mas instrutores caros. Pousada básica mas limpa. Vale pela experiência única.",
-          "tags": ["kitesurf excelente", "instrutores caros", "experiência única"]
+          "tags": [
+            "kitesurf excelente",
+            "instrutores caros",
+            "experiência única"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3284,7 +4393,9 @@
           "gratuito": true,
           "areas": "Área comum apenas"
         },
-        "idiomas": ["Português"],
+        "idiomas": [
+          "Português"
+        ],
         "estacionamento": "Sim (para buggy)",
         "pet_friendly": true,
         "acessibilidade": "Muito limitada (areia e terreno irregular)",
@@ -3294,6 +4405,39 @@
           "email": "contato@jeriecolodge.com.br",
           "website": "www.jeriecolodge.com.br"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Jeri Eco Lodge: Informações importantes para sua estadia ecológica em Jericoacoara.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade devido aos horários dos transportes",
+          "Late check-out não é recomendado devido à necessidade de limpeza para novos hóspedes"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Pagamento em dinheiro é preferencial (cartões podem ter aceitação limitada)",
+          "Todos os hóspedes devem ser registrados no check-in",
+          "Check-in recomendado durante a luz do dia para melhor orientação na vila"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão registrados conforme exigido pela administração local",
+          "Cópias não são aceitas, apenas documentos originais"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas, mas os chalés têm capacidade máxima de 2 adultos",
+          "Camas extras não estão disponíveis devido ao tamanho limitado dos chalés",
+          "Berços podem ser fornecidos sob solicitação prévia com taxa de R$ 40 por noite",
+          "Para famílias com crianças, recomendamos reservar dois chalés"
+        ],
+        "politicas_fumantes": [
+          "Todos os chalés e áreas comuns são estritamente não fumantes",
+          "Fumar é permitido apenas em áreas abertas designadas longe das construções",
+          "Multa de R$ 200 será aplicada por violação da política de não fumantes",
+          "É proibido jogar bitucas no chão devido ao risco de incêndio nas dunas"
+        ]
       }
     },
     {
@@ -3385,7 +4529,11 @@
           "estrelas": 5,
           "data": "2023-10-10",
           "comentario": "Cidade fascinante onde Oriente e Ocidente se encontram! Vista do Bósforo é espetacular. Hamam tradicional incrível.",
-          "tags": ["cidade fascinante", "vista espetacular", "hamam incrível"]
+          "tags": [
+            "cidade fascinante",
+            "vista espetacular",
+            "hamam incrível"
+          ]
         },
         {
           "usuario": {
@@ -3397,7 +4545,11 @@
           "estrelas": 5,
           "data": "2023-11-15",
           "comentario": "Hagia Sophia ve Blue Mosque görülmeye değer! Hotel konumu mükemmel. Geleneksel Türk kahvaltısı harika.",
-          "tags": ["Hagia Sophia", "konum mükemmel", "kahvaltı harika"]
+          "tags": [
+            "Hagia Sophia",
+            "konum mükemmel",
+            "kahvaltı harika"
+          ]
         },
         {
           "usuario": {
@@ -3409,7 +4561,11 @@
           "estrelas": 4,
           "data": "2023-12-05",
           "comentario": "Grand Bazaar é imenso! Leve tempo para explorar. Hotel com vista incrível e café da manhã delicioso.",
-          "tags": ["Grand Bazaar imenso", "vista incrível", "café delicioso"]
+          "tags": [
+            "Grand Bazaar imenso",
+            "vista incrível",
+            "café delicioso"
+          ]
         },
         {
           "usuario": {
@@ -3421,7 +4577,11 @@
           "estrelas": 5,
           "data": "2023-11-28",
           "comentario": "Bosphorus cruise at sunset - absolutely magical! Turkish breakfast was incredible. Hagia Sophia takes your breath away.",
-          "tags": ["magical cruise", "incredible breakfast", "breathtaking"]
+          "tags": [
+            "magical cruise",
+            "incredible breakfast",
+            "breathtaking"
+          ]
         },
         {
           "usuario": {
@@ -3433,7 +4593,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Comida turca deliciosa! Baklava imperdível. Vista do hotel é linda, mas prepare-se para andar muito.",
-          "tags": ["comida deliciosa", "baklava imperdível", "muito andar"]
+          "tags": [
+            "comida deliciosa",
+            "baklava imperdível",
+            "muito andar"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3449,7 +4613,12 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Turco", "Inglês", "Árabe", "Russo"],
+        "idiomas": [
+          "Turco",
+          "Inglês",
+          "Árabe",
+          "Russo"
+        ],
         "estacionamento": "Sim (€25/dia)",
         "pet_friendly": false,
         "acessibilidade": "Limitada (edifício histórico)",
@@ -3459,6 +4628,39 @@
           "email": "info@sultanahmetpalace.com",
           "website": "www.sultanahmetpalacehotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Sultanahmet Palace Hotel: Informações importantes para sua estadia histórica em Istambul.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade com taxa de €20 por hora",
+          "Late check-out pode ser solicitado com taxa de €30 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de €100 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Cartão de identidade turco para cidadãos turcos",
+          "Visto turco deve ser apresentado se aplicável",
+          "Documentos serão registrados e comunicados às autoridades conforme exigido"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por €25 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de €150 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o Bósforo",
+          "A política inclui todos os produtos de tabaco e narguilés"
+        ]
       }
     },
     {
@@ -3550,7 +4752,11 @@
           "estrelas": 4,
           "data": "2023-11-25",
           "comentario": "Praias incríveis e vida noturna eletrizante! Hotel bem localizado em South Beach. Piscina com vista linda.",
-          "tags": ["praias incríveis", "vida noturna", "piscina vista"]
+          "tags": [
+            "praias incríveis",
+            "vida noturna",
+            "piscina vista"
+          ]
         },
         {
           "usuario": {
@@ -3562,7 +4768,11 @@
           "estrelas": 5,
           "data": "2023-12-10",
           "comentario": "South Beach art deco architecture is stunning! Perfect location for beach and nightlife. Breakfast could be better.",
-          "tags": ["art deco stunning", "perfect location", "breakfast better"]
+          "tags": [
+            "art deco stunning",
+            "perfect location",
+            "breakfast better"
+          ]
         },
         {
           "usuario": {
@@ -3574,7 +4784,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "Passeio de barco pelas ilhas foi o ponto alto! Hotel moderno e confortável. Localização perfeita em Miami Beach.",
-          "tags": ["passeio barco", "hotel moderno", "localização perfeita"]
+          "tags": [
+            "passeio barco",
+            "hotel moderno",
+            "localização perfeita"
+          ]
         },
         {
           "usuario": {
@@ -3586,7 +4800,11 @@
           "estrelas": 4,
           "data": "2023-11-15",
           "comentario": "Great beaches but very expensive restaurants. Hotel has amazing ocean views. Art Deco tour was interesting.",
-          "tags": ["expensive restaurants", "amazing views", "interesting tour"]
+          "tags": [
+            "expensive restaurants",
+            "amazing views",
+            "interesting tour"
+          ]
         },
         {
           "usuario": {
@@ -3598,7 +4816,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Celebrity restaurant experience was worth every penny! Miami é pura energia. Hotel com estilo e conforto.",
-          "tags": ["restaurante celebridade", "Miami energia", "estilo e conforto"]
+          "tags": [
+            "restaurante celebridade",
+            "Miami energia",
+            "estilo e conforto"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3614,7 +4836,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Inglês", "Espanhol", "Português"],
+        "idiomas": [
+          "Inglês",
+          "Espanhol",
+          "Português"
+        ],
         "estacionamento": "Valet (US$ 45/dia)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -3624,6 +4850,39 @@
           "email": "reservations@oceandrivehotel.com",
           "website": "www.oceandrivehotelmiami.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Ocean Drive Hotel: Informações importantes para sua estadia em South Beach, Miami.",
+        "check_in_out": [
+          "Check-in disponível a partir das 16:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade com taxa de US$ 50 por hora",
+          "Late check-out até 13:00 pode ser solicitado com taxa de US$ 75"
+        ],
+        "regras_check": [
+          "Documento de identificação governamental com foto obrigatório",
+          "Cartão de crédito para autorização de garantia de US$ 150 por diária",
+          "Todos os hóspedes adultos devem apresentar identificação",
+          "Check-in mínimo de 21 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte para hóspedes internacionais ou carteira de motorista estadual",
+          "ID militar ou carteira de identidade estadual também são aceitos",
+          "Verificação de idade obrigatória para todos os hóspedes",
+          "Documentos devem estar válidos durante toda a estadia"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por US$ 30 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 12 anos em camas existentes não pagam taxa adicional"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de US$ 300 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o oceano",
+          "A política inclui cigarros, charutos, cachimbos e vaporizadores"
+        ]
       }
     },
     {
@@ -3715,7 +4974,11 @@
           "estrelas": 4,
           "data": "2023-10-28",
           "comentario": "Templos magníficos e comida de rua deliciosa! Vista do rio é relaxante. Hotel bem localizado para templos.",
-          "tags": ["templos magníficos", "comida rua", "vista relaxante"]
+          "tags": [
+            "templos magníficos",
+            "comida rua",
+            "vista relaxante"
+          ]
         },
         {
           "usuario": {
@@ -3727,7 +4990,11 @@
           "estrelas": 5,
           "data": "2023-11-20",
           "comentario": "Wat Arun at sunset is breathtaking! True Thai beauty. Hotel's river view rooms are worth the upgrade.",
-          "tags": ["Wat Arun sunset", "Thai beauty", "worth upgrade"]
+          "tags": [
+            "Wat Arun sunset",
+            "Thai beauty",
+            "worth upgrade"
+          ]
         },
         {
           "usuario": {
@@ -3739,7 +5006,11 @@
           "estrelas": 4,
           "data": "2023-12-12",
           "comentario": "Canais de Bangkok são fascinantes, mas água não é muito limpa. Hotel com vista linda e piscina ótima.",
-          "tags": ["canais fascinantes", "água não limpa", "piscina ótima"]
+          "tags": [
+            "canais fascinantes",
+            "água não limpa",
+            "piscina ótima"
+          ]
         },
         {
           "usuario": {
@@ -3751,7 +5022,11 @@
           "estrelas": 5,
           "data": "2023-11-30",
           "comentario": "Thai massage was heavenly! Best $15 ever spent. Floating market tour was incredible experience.",
-          "tags": ["heavenly massage", "best value", "incredible experience"]
+          "tags": [
+            "heavenly massage",
+            "best value",
+            "incredible experience"
+          ]
         },
         {
           "usuario": {
@@ -3763,7 +5038,11 @@
           "estrelas": 4,
           "data": "2023-12-18",
           "comentario": "Calor intenso, mas os templos valem o desconforto. Hotel com ar condicionado potente e vista incrível.",
-          "tags": ["calor intenso", "templos valem", "ar condicionado potente"]
+          "tags": [
+            "calor intenso",
+            "templos valem",
+            "ar condicionado potente"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3779,7 +5058,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Tailandês", "Inglês", "Chinês"],
+        "idiomas": [
+          "Tailandês",
+          "Inglês",
+          "Chinês"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
         "acessibilidade": "Quartos adaptados disponíveis",
@@ -3789,6 +5072,39 @@
           "email": "reservations@bangkokriverside.com",
           "website": "www.bangkokriversidehotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Bangkok Riverside Hotel: Informações importantes para sua estadia com vista para o rio Chao Phraya em Bangkok.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade com taxa de ฿500 por hora",
+          "Late check-out até 14:00 pode ser solicitado com taxa de ฿800"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para autorização de garantia de ฿2000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 20 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Cartão de identidade tailandês para residentes locais",
+          "Visto tailandês deve ser apresentado se aplicável",
+          "Documentos serão copiados para registro conforme exigido por lei"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por ฿800 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 12 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de ฿2000 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o rio",
+          "A política inclui cigarros, charutos, cachimbos e narguilés"
+        ]
       }
     },
     {
@@ -3880,7 +5196,11 @@
           "estrelas": 5,
           "data": "2023-12-20",
           "comentario": "Clima romântico e chocolates divinos! Lareira no quarto é aconchegante. Café colonial maravilhoso.",
-          "tags": ["clima romântico", "chocolates divinos", "café colonial"]
+          "tags": [
+            "clima romântico",
+            "chocolates divinos",
+            "café colonial"
+          ]
         },
         {
           "usuario": {
@@ -3892,7 +5212,11 @@
           "estrelas": 5,
           "data": "2023-11-15",
           "comentario": "Wie im Schwarzwald! Perfektes deutsches Essen. Das Hotel hat echten Alpen-Charme. Sehr gemütlich!",
-          "tags": ["wie Schwarzwald", "perfektes Essen", "Alpen-Charme"]
+          "tags": [
+            "wie Schwarzwald",
+            "perfektes Essen",
+            "Alpen-Charme"
+          ]
         },
         {
           "usuario": {
@@ -3904,7 +5228,11 @@
           "estrelas": 4,
           "data": "2023-12-08",
           "comentario": "Mini Mundo encanta crianças e adultos! Detalhes incríveis. Hotel muito aconchegante, perfeito para o frio.",
-          "tags": ["Mini Mundo", "detalhes incríveis", "aconchegante frio"]
+          "tags": [
+            "Mini Mundo",
+            "detalhes incríveis",
+            "aconchegante frio"
+          ]
         },
         {
           "usuario": {
@@ -3916,7 +5244,11 @@
           "estrelas": 5,
           "data": "2023-11-28",
           "comentario": "Fábricas de chocolate são paraíso para os doces! Hotel temático muito bem feito. Experiência europeia no Brasil.",
-          "tags": ["fábricas chocolate", "hotel temático", "experiência europeia"]
+          "tags": [
+            "fábricas chocolate",
+            "hotel temático",
+            "experiência europeia"
+          ]
         },
         {
           "usuario": {
@@ -3928,7 +5260,11 @@
           "estrelas": 4,
           "data": "2023-12-15",
           "comentario": "Frio intenso em junho, mas o chocolate quente ajuda! Hotel muito charmoso e bem localizado.",
-          "tags": ["frio intenso", "chocolate quente", "charmoso localizado"]
+          "tags": [
+            "frio intenso",
+            "chocolate quente",
+            "charmoso localizado"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -3944,7 +5280,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Português", "Alemão", "Inglês"],
+        "idiomas": [
+          "Português",
+          "Alemão",
+          "Inglês"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": true,
         "taxa_pet": "R$ 50 por diária",
@@ -3955,6 +5295,39 @@
           "email": "reservas@gramadosuico.com.br",
           "website": "www.gramadosuicohotel.com.br"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Gramado Suíço Hotel: Informações importantes para sua estadia temática em Gramado.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out até 14:00 pode ser solicitado com taxa de R$ 80"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Cartão de crédito para garantia de R$ 300 por diária",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão copiados para registro hoteleiro obrigatório",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas na suíte temática",
+          "Sofá-cama está disponível para crianças",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de R$ 300 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui cigarros, charutos, cachimbos e dispositivos eletrônicos"
+        ]
       }
     },
     {
@@ -4046,7 +5419,11 @@
           "estrelas": 5,
           "data": "2023-10-15",
           "comentario": "Passeio de gôndola é romântico e único! Hotel com charme histórico. Acordar vendo o canal é mágico.",
-          "tags": ["gôndola romântica", "charme histórico", "vista mágica"]
+          "tags": [
+            "gôndola romântica",
+            "charme histórico",
+            "vista mágica"
+          ]
         },
         {
           "usuario": {
@@ -4058,7 +5435,11 @@
           "estrelas": 4,
           "data": "2023-11-20",
           "comentario": "Carnevale di Venezia è magico! Le maschere sono bellissime. Hotel incantevole ma prezzo alto.",
-          "tags": ["Carnevale magico", "maschere bellissime", "prezzo alto"]
+          "tags": [
+            "Carnevale magico",
+            "maschere bellissime",
+            "prezzo alto"
+          ]
         },
         {
           "usuario": {
@@ -4070,7 +5451,11 @@
           "estrelas": 5,
           "data": "2023-12-05",
           "comentario": "Cidade flutuante é surreal! Gôndolas, canais, arquitetura única. Hotel com localização perfeita.",
-          "tags": ["cidade flutuante", "arquitetura única", "localização perfeita"]
+          "tags": [
+            "cidade flutuante",
+            "arquitetura única",
+            "localização perfeita"
+          ]
         },
         {
           "usuario": {
@@ -4082,7 +5467,11 @@
           "estrelas": 4,
           "data": "2023-11-28",
           "comentario": "Very crowded but absolutely magical. Gondola ride at sunset unforgettable. Hotel's canal view priceless.",
-          "tags": ["crowded magical", "sunset unforgettable", "view priceless"]
+          "tags": [
+            "crowded magical",
+            "sunset unforgettable",
+            "view priceless"
+          ]
         },
         {
           "usuario": {
@@ -4094,7 +5483,11 @@
           "estrelas": 5,
           "data": "2023-12-18",
           "comentario": "Acqua alta foi uma experiência! Hotel bem preparado com botas. Veneza é um sonho realizado.",
-          "tags": ["acqua alta experiência", "hotel preparado", "sonho realizado"]
+          "tags": [
+            "acqua alta experiência",
+            "hotel preparado",
+            "sonho realizado"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -4110,7 +5503,11 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Italiano", "Inglês", "Francês"],
+        "idiomas": [
+          "Italiano",
+          "Inglês",
+          "Francês"
+        ],
         "estacionamento": "Não disponível (apenas aquático)",
         "pet_friendly": false,
         "acessibilidade": "Limitada (pontes e degraus)",
@@ -4120,555 +5517,93 @@
           "email": "info@venicecanalhotel.com",
           "website": "www.venicecanalhotel.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Venice Canal Hotel: Informações importantes para sua estadia exclusiva em um canal veneziano.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade com taxa de €50 por hora",
+          "Late check-out até 13:00 pode ser solicitado com taxa de €70"
+        ],
+        "regras_check": [
+          "Passaporte ou documento de identidade válido obrigatório",
+          "Cartão de crédito para garantia de €300 no check-in",
+          "Todos os hóspedes devem ser registrados conforme lei italiana",
+          "Check-in após 20:00 requer notificação prévia para arranjos especiais"
+        ],
+        "identification_requirement": [
+          "Passaporte válido para não cidadãos da UE",
+          "Carteira de identidade nacional para cidadãos da UE",
+          "Documentos serão registrados e comunicados à polícia local",
+          "Verificação obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são bem-vindas na suíte temática",
+          "Sofá-cama está disponível para crianças",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de R$ 300 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui cigarros, charutos, cachimbos e dispositivos eletrônicos"
+        ]
       }
     },
     {
       "id": 26,
-      "nome_hotel": "Kyoto Ryokan Inn",
-      "descricao_hotel": "Ryokan tradicional localizado no histórico bairro de Higashiyama, em Quioto. Oferece quartos com tatami, futon, onsen privativo e cerimônia do chá diária para uma autêntica experiência cultural japonesa.",
+      "nome_hotel": "Plaza de Mayo Hotel",
+      "descricao_hotel": "Hotel histórico localizado em frente à Plaza de Mayo, Buenos Aires, oferecendo vistas para os principais monumentos e fácil acesso à Casa Rosada e aos bairros históricos da capital argentina.",
       "categoria": "4 estrelas",
       "localizacao": {
-        "endereco": "605 Higashiyama Ward, Kyoto, 605-0826",
-        "cidade": "Quioto",
-        "pais": "Japão",
-        "latitude": 35.0116,
-        "longitude": 135.7681,
-        "coordenadas_gmaps": "35.0116, 135.7681",
-        "google_maps_url": "https://www.google.com/maps?q=35.0116,135.7681"
+        "endereco": "Av. de Mayo 1080, C1085 CABA",
+        "cidade": "Buenos Aires",
+        "pais": "Argentina",
+        "latitude": -34.6083,
+        "longitude": -58.3712,
+        "coordenadas_gmaps": "-34.6083, -58.3712",
+        "google_maps_url": "https://www.google.com/maps?q=-34.6083,-58.3712"
       },
       "imagens": {
-        "fachada": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80",
+        "fachada": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80",
         "quarto": [
-          "https://images.unsplash.com/photo-1528164344705-47542687000d?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
           "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
         ],
         "areas_comuns": [
-          "https://images.unsplash.com/photo-1528353518104-dbd48bee7bc4?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1528164344705-47542687000d?w=1200&auto=format&fit=crop&q=80"
-        ]
-      },
-      "servicos_hotel": [
-        "Jardim japonês tradicional",
-        "Onsen privativo",
-        "Wi-Fi gratuito",
-        "Cerimônia do chá diária",
-        "Quartos com tatami",
-        "Yukata fornecido",
-        "Café da manhã kaiseki",
-        "Serviço de concierge",
-        "Tour de templos"
-      ],
-      "quartos": [
-        {
-          "tipo": "Quarto Tradicional Japonês",
-          "descricao": "Quarto estilo ryokan com tatami, futon e vista para jardim japonês",
-          "area_m2": 25,
-          "capacidade": "2 adultos",
-          "camas": "Futon japonês",
-          "vista": "Jardim japonês",
-          "varanda": true,
-          "banheiro_privativo": true,
-          "amenidades_quarto": [
-            "TV de tela plana",
-            "Frigobar",
-            "Conjunto para chá japonês",
-            "Cofre digital",
-            "Yukata e geta",
-            "Ar condicionado",
-            "Varanda com vista para jardim",
-            "Área de tatami",
-            "Futon tradicional",
-            "Tabuleiro de go"
-          ],
-          "banheiro": {
-            "chuveiro": "Chuveiro japonês",
-            "tipo_chuveiro": "Chuveiro sentado",
-            "banheira": "Ofuro (banheira japonesa)",
-            "agua_quente": true,
-            "pressao": "Média",
-            "amenidades": "Amenidades japonesas, yukata, produtos naturais"
-          }
-        }
-      ],
-      "avaliacao": {
-        "pontuacao": 9.4,
-        "total_avaliacoes": 156,
-        "estrelas": 4.7,
-        "destaque": "Maravilhoso"
-      },
-      "reviews": [
-        {
-          "usuario": {
-            "nome": "Yuki Tanaka",
-            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Quioto",
-            "pais": "Japão"
-          },
-          "estrelas": 5,
-          "data": "2023-11-10",
-          "comentario": "Templos serenos e cerejeiras deslumbrantes! Onsen relaxante após caminhadas. Ryokan autêntico e pacífico.",
-          "tags": ["templos serenos", "cerejeiras deslumbrantes", "ryokan autêntico"]
-        },
-        {
-          "usuario": {
-            "nome": "Haruto Sato",
-            "foto": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Tóquio",
-            "pais": "Japão"
-          },
-          "estrelas": 5,
-          "data": "2023-12-01",
-          "comentario": "Gion matsuri festival was spectacular! Maiko spotting in historic district. Traditional kaiseki meal exquisite.",
-          "tags": ["Gion matsuri", "maiko spotting", "kaiseki exquisite"]
-        },
-        {
-          "usuario": {
-            "nome": "Luiz Takahashi",
-            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "São Paulo, SP",
-            "pais": "Brasil"
-          },
-          "estrelas": 4,
-          "data": "2023-12-15",
-          "comentario": "Fushimi Inari com mil portões vermelhos é impressionante! Ryokan muito autêntico, mas futon dura para costas.",
-          "tags": ["Fushimi Inari", "portões vermelhos", "futom duro"]
-        },
-        {
-          "usuario": {
-            "nome": "Sarah Miller",
-            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Nova York, NY",
-            "pais": "USA"
-          },
-          "estrelas": 5,
-          "data": "2023-11-25",
-          "comentario": "Arashiyama bamboo grove is magical! Tea ceremony was serene experience. Onsen healed hiking fatigue.",
-          "tags": ["bamboo grove magical", "tea ceremony serene", "onsen healing"]
-        },
-        {
-          "usuario": {
-            "nome": "Ricardo Kimura",
-            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Curitiba, PR",
-            "pais": "Brasil"
-          },
-          "estrelas": 5,
-          "data": "2023-12-10",
-          "comentario": "Culinária japonesa autêntica incomparável! Templos de Quioto são patrimônio mundial. Experiência cultural profunda.",
-          "tags": ["culinária autêntica", "patrimônio mundial", "experiência cultural"]
-        }
-      ],
-      "informacoes_gerais": {
-        "check_in": "15:00",
-        "check_out": "10:00",
-        "cafe_manha": {
-          "incluido": true,
-          "tipo": "Kaiseki tradicional",
-          "horario": "07:30 - 09:00"
-        },
-        "wifi": {
-          "disponivel": true,
-          "gratuito": true,
-          "areas": "Todo o ryokan"
-        },
-        "idiomas": ["Japonês", "Inglês"],
-        "estacionamento": "Sim (limitado)",
-        "pet_friendly": false,
-        "acessibilidade": "Limitada (tatami e degraus)",
-        "politica_cancelamento": "Cancelamento gratuito até 14 dias antes",
-        "contato": {
-          "telefone": "+81 75-123-4567",
-          "email": "info@kyotoryokaninn.jp",
-          "website": "www.kyotoryokaninn.jp"
-        }
-      }
-    },
-    {
-      "id": 27,
-      "nome_hotel": "Dubai Desert Resort",
-      "descricao_hotel": "Resort de luxo localizado no deserto de Dubai, oferecendo villas privativas com piscina e vistas para as dunas. Inclui safári no deserto, jantar beduíno sob as estrelas e SPA premium em um oásis de conforto.",
-      "categoria": "5 estrelas",
-      "localizacao": {
-        "endereco": "Al Ain Road, Exit 50, Dubai, Emirados Árabes",
-        "cidade": "Dubai",
-        "pais": "Emirados Árabes Unidos",
-        "latitude": 24.9621,
-        "longitude": 55.2725,
-        "coordenadas_gmaps": "24.9621, 55.2725",
-        "google_maps_url": "https://www.google.com/maps?q=24.9621,55.2725"
-      },
-      "imagens": {
-        "fachada": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&auto=format&fit=crop&q=80",
-        "quarto": [
           "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
-        ],
-        "areas_comuns": [
-          "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80"
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
         ]
       },
       "servicos_hotel": [
-        "Safári no deserto",
-        "Piscina infinita",
+        "Vista para a Plaza de Mayo",
+        "Café da manhã argentino",
         "Wi-Fi de alta velocidade",
-        "SPA de luxo",
-        "Restaurante gourmet",
-        "Academia completa",
-        "Serviço de concierge 24h",
-        "Passeio de camelo",
-        "Show cultural beduíno"
-      ],
-      "quartos": [
-        {
-          "tipo": "Villa no Deserto",
-          "descricao": "Villa privativa com piscina particular e vista para as dunas",
-          "area_m2": 120,
-          "capacidade": "2 adultos + 2 crianças",
-          "camas": "1 cama King Size",
-          "vista": "Deserto do Dubai",
-          "varanda": true,
-          "banheiro_privativo": true,
-          "amenidades_quarto": [
-            "Smart TV 65 polegadas",
-            "Sistema de som premium",
-            "Frigobar abastecido",
-            "Máquina de espresso",
-            "Cofre digital",
-            "Telefone",
-            "Ar condicionado",
-            "Piscina privativa",
-            "Área de jantar externa",
-            "Churrasqueira"
-          ],
-          "banheiro": {
-            "chuveiro": "Chuveiro de chuva duplo",
-            "tipo_chuveiro": "Chuveiro de alta pressão",
-            "banheira": "Banheira de hidromassagem",
-            "agua_quente": true,
-            "pressao": "Alta pressão",
-            "amenidades": "Amenidades de luxo, secador profissional, produtos premium"
-          }
-        }
-      ],
-      "avaliacao": {
-        "pontuacao": 9.5,
-        "total_avaliacoes": 187,
-        "estrelas": 4.8,
-        "destaque": "Excepcional"
-      },
-      "reviews": [
-        {
-          "usuario": {
-            "nome": "Ahmed Al Mansoori",
-            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Dubai",
-            "pais": "EAU"
-          },
-          "estrelas": 5,
-          "data": "2023-11-20",
-          "comentario": "Burj Khalifa é impressionante! Vista do topo incrível. Resort no deserto oferece experiência autêntica.",
-          "tags": ["Burj Khalifa", "vista incrível", "experiência autêntica"]
-        },
-        {
-          "usuario": {
-            "nome": "Fatima Rahman",
-            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Abu Dhabi",
-            "pais": "EAU"
-          },
-          "estrelas": 5,
-          "data": "2023-12-05",
-          "comentario": "Desert safari at sunset - absolutely breathtaking! Traditional Bedouin dinner under stars magical.",
-          "tags": ["desert safari", "sunset breathtaking", "Bedouin dinner"]
-        },
-        {
-          "usuario": {
-            "nome": "José Silva",
-            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "São Paulo, SP",
-            "pais": "Brasil"
-          },
-          "estrelas": 4,
-          "data": "2023-12-18",
-          "comentario": "Calor extremo no verão, mas shoppings são gelados! Resort luxuoso, safari emocionante. Dubai é extremos.",
-          "tags": ["calor extremo", "shoppings gelados", "luxo e aventura"]
-        },
-        {
-          "usuario": {
-            "nome": "Emily Chen",
-            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Singapura",
-            "pais": "Singapura"
-          },
-          "estrelas": 5,
-          "data": "2023-11-30",
-          "comentario": "Shopping malls are cities within cities! Ski Dubai surreal experience. Desert resort pure luxury.",
-          "tags": ["malls are cities", "Ski Dubai surreal", "pure luxury"]
-        },
-        {
-          "usuario": {
-            "nome": "Roberto Santos",
-            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Rio de Janeiro, RJ",
-            "pais": "Brasil"
-          },
-          "estrelas": 5,
-          "data": "2023-12-12",
-          "comentario": "Jantar no deserto com show beduíno inesquecível! Resort com piscina infinita nas dunas. Luxo absoluto.",
-          "tags": ["jantar deserto", "show beduíno", "luxo absoluto"]
-        }
-      ],
-      "informacoes_gerais": {
-        "check_in": "15:00",
-        "check_out": "12:00",
-        "cafe_manha": {
-          "incluido": true,
-          "tipo": "Buffet internacional",
-          "horario": "06:30 - 11:00"
-        },
-        "wifi": {
-          "disponivel": true,
-          "gratuito": true,
-          "areas": "Todo o resort"
-        },
-        "idiomas": ["Árabe", "Inglês", "Francês", "Russo"],
-        "estacionamento": "Sim (gratuito)",
-        "pet_friendly": false,
-        "acessibilidade": "Totalmente acessível",
-        "politica_cancelamento": "Cancelamento gratuito até 48 horas antes",
-        "contato": {
-          "telefone": "+971 4 123 4567",
-          "email": "reservations@dubaidesertresort.ae",
-          "website": "www.dubaidesertresort.ae"
-        }
-      }
-    },
-    {
-      "id": 28,
-      "nome_hotel": "Amazônia Jungle Lodge",
-      "descricao_hotel": "Lodge ecológico localizado no Rio Negro, na Amazônia brasileira, oferecendo bangalôs sobre palafitas integrados à floresta. Ideal para observação de vida selvagem, pesca de piranha e encontros com comunidades ribeirinhas.",
-      "categoria": "3 estrelas",
-      "localizacao": {
-        "endereco": "Rio Negro, Amazonas, 69000-000",
-        "cidade": "Manaus",
-        "pais": "Brasil",
-        "latitude": -3.1190,
-        "longitude": -60.0217,
-        "coordenadas_gmaps": "-3.1190, -60.0217",
-        "google_maps_url": "https://www.google.com/maps?q=-3.1190,-60.0217"
-      },
-      "imagens": {
-        "fachada": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&auto=format&fit=crop&q=80",
-        "quarto": [
-          "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
-        ],
-        "areas_comuns": [
-          "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80"
-        ]
-      },
-      "servicos_hotel": [
-        "Passeios de barco na selva",
-        "Observação de animais selvagens",
-        "Alimentação incluída",
-        "Guias especializados",
-        "Wi-Fi limitado",
-        "Encontros com comunidades locais",
-        "Pesca de piranha",
-        "Caminhadas na floresta",
-        "Observação de botos"
-      ],
-      "quartos": [
-        {
-          "tipo": "Bangalô na Floresta",
-          "descricao": "Bangalô rústico sobre palafitas com rede e vista para a floresta",
-          "area_m2": 20,
-          "capacidade": "2 adultos",
-          "camas": "1 cama de casal",
-          "vista": "Floresta Amazônica",
-          "varanda": true,
-          "banheiro_privativo": true,
-          "amenidades_quarto": [
-            "Ventilador",
-            "Rede na varanda",
-            "Lâmpada solar",
-            "Mosquiteiro",
-            "Cofre básico",
-            "Água potável",
-            "Varanda com vista",
-            "Janelas com tela",
-            "Piso de madeira",
-            "Prateleiras"
-          ],
-          "banheiro": {
-            "chuveiro": "Chuveiro simples",
-            "tipo_chuveiro": "Chuveiro manual",
-            "banheira": "Não",
-            "agua_quente": "Limitada (solar)",
-            "pressao": "Baixa",
-            "amenidades": "Sabonete natural, shampoo ecológico"
-          }
-        }
-      ],
-      "avaliacao": {
-        "pontuacao": 9.0,
-        "total_avaliacoes": 98,
-        "estrelas": 4.5,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "usuario": {
-            "nome": "João Silva",
-            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Manaus, AM",
-            "pais": "Brasil"
-          },
-          "estrelas": 5,
-          "data": "2023-11-15",
-          "comentario": "Encontro das Águas é fenômeno único! Vida selvagem impressionante. Lodge rústico mas autêntico.",
-          "tags": ["Encontro das Águas", "vida selvagem", "autêntico"]
-        },
-        {
-          "usuario": {
-            "nome": "Maria Oliveira",
-            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Belém, PA",
-            "pais": "Brasil"
-          },
-          "estrelas": 4,
-          "data": "2023-12-08",
-          "comentario": "Calor e umidade intensos, mas experiência vale! Ver botos cor-de-rosa emocionante. Comida regional deliciosa.",
-          "tags": ["calor intenso", "botos cor-de-rosa", "comida regional"]
-        },
-        {
-          "usuario": {
-            "nome": "David Müller",
-            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Berlim",
-            "pais": "Alemanha"
-          },
-          "estrelas": 5,
-          "data": "2023-11-28",
-          "comentario": "Amazon rainforest is lungs of Earth! Wildlife spotting incredible. Basic lodge but authentic experience.",
-          "tags": ["lungs of Earth", "wildlife incredible", "authentic experience"]
-        },
-        {
-          "usuario": {
-            "nome": "Ana Costa",
-            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Rio de Janeiro, RJ",
-            "pais": "Brasil"
-          },
-          "estrelas": 4,
-          "data": "2023-12-20",
-          "comentario": "Muitos mosquitos, leve repelente! Comunidade ribeirinha visita enriquecedora. Passeio noturno assustador mas incrível.",
-          "tags": ["muitos mosquitos", "comunidade ribeirinha", "passeio noturno"]
-        },
-        {
-          "usuario": {
-            "nome": "Takashi Yamamoto",
-            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Tóquio",
-            "pais": "Japão"
-          },
-          "estrelas": 5,
-          "data": "2023-12-05",
-          "comentario": "Meeting of Waters unbelievable natural phenomenon! Indigenous community visit very humbling. Basic but meaningful.",
-          "tags": ["natural phenomenon", "humbling visit", "meaningful experience"]
-        }
-      ],
-      "informacoes_gerais": {
-        "check_in": "12:00",
-        "check_out": "10:00",
-        "cafe_manha": {
-          "incluido": true,
-          "tipo": "Regional (frutas, tapioca)",
-          "horario": "06:00 - 08:00"
-        },
-        "wifi": {
-          "disponivel": true,
-          "gratuito": true,
-          "areas": "Área comum apenas"
-        },
-        "idiomas": ["Português", "Inglês básico", "Espanhol"],
-        "estacionamento": "Não aplicável",
-        "pet_friendly": false,
-        "acessibilidade": "Não acessível",
-        "politica_cancelamento": "Cancelamento gratuito até 30 dias antes",
-        "contato": {
-          "telefone": "+55 92 1234-5678",
-          "email": "contato@amazonialodge.com.br",
-          "website": "www.amazoniajunglelodge.com.br"
-        }
-      }
-    },
-    {
-      "id": 29,
-      "nome_hotel": "Sydney Harbour Hotel",
-      "descricao_hotel": "Hotel moderno com vistas espetaculares para o Porto de Sydney, localizado em The Rocks. Oferece fácil acesso à Sydney Opera House, Harbour Bridge e às principais atrações da cidade australiana.",
-      "categoria": "4 estrelas",
-      "localizacao": {
-        "endereco": "5 Hickson Rd, The Rocks NSW 2000",
-        "cidade": "Sydney",
-        "pais": "Austrália",
-        "latitude": -33.8568,
-        "longitude": 151.2153,
-        "coordenadas_gmaps": "-33.8568, 151.2153",
-        "google_maps_url": "https://www.google.com/maps?q=-33.8568,151.2153"
-      },
-      "imagens": {
-        "fachada": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&auto=format&fit=crop&q=80",
-        "quarto": [
-          "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
-        ],
-        "areas_comuns": [
-          "https://images.unsplash.com/photo-1505881502353-a1986add3762?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&auto=format&fit=crop&q=80"
-        ]
-      },
-      "servicos_hotel": [
-        "Vista para Sydney Opera House",
-        "Piscina rooftop",
-        "Wi-Fi de alta velocidade",
-        "Academia moderna",
-        "Restaurante com vista",
+        "Business center",
         "Serviço de concierge",
+        "Estacionamento (sobretaxa)",
+        "Serviço de bagagem",
         "Tour desk",
-        "Café da manhã australiano",
-        "Bar no terraço"
+        "Academia"
       ],
       "quartos": [
         {
-          "tipo": "Quarto com Vista para a Ópera",
-          "descricao": "Quarto moderno com vista direta para a Sydney Opera House e Harbour Bridge",
-          "area_m2": 32,
+          "tipo": "Quarto Executivo",
+          "descricao": "Quarto elegante com vista para a Plaza de Mayo e Casa Rosada",
+          "area_m2": 30,
           "capacidade": "2 adultos",
           "camas": "1 cama King Size",
-          "vista": "Sydney Opera House e Harbour Bridge",
+          "vista": "Plaza de Mayo e Casa Rosada",
           "varanda": true,
           "banheiro_privativo": true,
           "amenidades_quarto": [
-            "Smart TV 55 polegadas",
+            "Smart TV 48 polegadas",
             "Frigobar",
             "Máquina de café",
             "Cofre digital",
@@ -4677,249 +5612,323 @@
             "Varanda com vista",
             "Secador de cabelo",
             "Roupão e chinelos",
-            "Tomadas australianas"
+            "Mesa de trabalho"
           ],
           "banheiro": {
             "chuveiro": "Chuveiro de chuva",
             "tipo_chuveiro": "Chuveiro de alta pressão",
-            "banheira": "Não",
+            "banheira": "Banheira separada",
             "agua_quente": true,
             "pressao": "Alta pressão",
-            "amenidades": "Amenidades australianas, secador profissional"
+            "amenidades": "Amenidades argentinas, secador profissional"
           }
         }
       ],
       "avaliacao": {
-        "pontuacao": 9.2,
-        "total_avaliacoes": 298,
-        "estrelas": 4.6,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "usuario": {
-            "nome": "Jack Wilson",
-            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Sydney",
-            "pais": "Austrália"
-          },
-          "estrelas": 5,
-          "data": "2023-11-25",
-          "comentario": "Sydney Opera House é icônico! Visto do hotel perfeito. Bondi Beach ótima para surfar.",
-          "tags": ["Opera House icônico", "vista perfeita", "Bondi Beach surf"]
-        },
-        {
-          "usuario": {
-            "nome": "Emma Thompson",
-            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Melbourne",
-            "pais": "Austrália"
-          },
-          "estrelas": 4,
-          "data": "2023-12-10",
-          "comentario": "Harbour Bridge climb was exhilarating! Hotel location perfect for NYE fireworks. Australian breakfast delicious.",
-          "tags": ["Bridge climb", "perfect NYE location", "delicious breakfast"]
-        },
-        {
-          "usuario": {
-            "nome": "Carlos Pereira",
-            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "São Paulo, SP",
-            "pais": "Brasil"
-          },
-          "estrelas": 5,
-          "data": "2023-12-18",
-          "comentario": "Vida selvagem única! Cangurus e coalas encantadores. Hotel com vista espetacular para a baía.",
-          "tags": ["vida selvagem única", "cangurus coalas", "vista espetacular"]
-        },
-        {
-          "usuario": {
-            "nome": "Lisa Chen",
-            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Hong Kong",
-            "pais": "China"
-          },
-          "estrelas": 4,
-          "data": "2023-11-30",
-          "comentario": "Very expensive but amazing views! Blue Mountains day trip worthwhile. Hotel service excellent.",
-          "tags": ["expensive amazing", "Blue Mountains trip", "service excellent"]
-        },
-        {
-          "usuario": {
-            "nome": "Roberto Santos",
-            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Brasília, DF",
-            "pais": "Brasil"
-          },
-          "estrelas": 5,
-          "data": "2023-12-05",
-          "comentario": "Great Barrier Reef é maravilha natural! Hotel em Sydney com localização perfeita para todos os passeios.",
-          "tags": ["Great Barrier Reef", "maravilha natural", "localização perfeita"]
-        }
-      ],
-      "informacoes_gerais": {
-        "check_in": "14:00",
-        "check_out": "11:00",
-        "cafe_manha": {
-          "incluido": true,
-          "tipo": "Australiano (vegemite, avocado toast)",
-          "horario": "06:30 - 10:30"
-        },
-        "wifi": {
-          "disponivel": true,
-          "gratuito": true,
-          "areas": "Todo o hotel"
-        },
-        "idiomas": ["Inglês", "Mandarim", "Japonês"],
-        "estacionamento": "Sim (AU$ 55/dia)",
-        "pet_friendly": false,
-        "acessibilidade": "Totalmente acessível",
-        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
-        "contato": {
-          "telefone": "+61 2 1234 5678",
-          "email": "reservations@sydneyharbourhotel.com.au",
-          "website": "www.sydneyharbourhotel.com.au"
-        }
-      }
-    },
-    {
-      "id": 30,
-      "nome_hotel": "Cairo Pyramid View Hotel",
-      "descricao_hotel": "Hotel localizado próximo às Pirâmides de Gizé, no Cairo, oferecendo vistas espetaculares para estas maravilhas do mundo antigo. Combina conforto moderno com decoração temática egípcia e fácil acesso às atrações históricas.",
-      "categoria": "4 estrelas",
-      "localizacao": {
-        "endereco": "Pyramids Rd, Giza, Cairo Governorate, Egito",
-        "cidade": "Cairo",
-        "pais": "Egito",
-        "latitude": 29.9792,
-        "longitude": 31.1342,
-        "coordenadas_gmaps": "29.9792, 31.1342",
-        "google_maps_url": "https://www.google.com/maps?q=29.9792,31.1342"
-      },
-      "imagens": {
-        "fachada": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
-        "quarto": [
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80"
-        ],
-        "areas_comuns": [
-          "https://images.unsplash.com/photo-1535060011366-3f6d4fae1d1f?w=1200&auto=format&fit=crop&q=80",
-          "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=1200&auto=format&fit=crop&q=80"
-        ]
-      },
-      "servicos_hotel": [
-        "Vista direta para as Pirâmides",
-        "Piscina com vista",
-        "Wi-Fi gratuito",
-        "Restaurante egípcio",
-        "Tour desk especializado",
-        "Serviço de concierge",
-        "Café da manhã egípcio",
-        "Loja de souvenirs",
-        "Transfer para atrações"
-      ],
-      "quartos": [
-        {
-          "tipo": "Quarto com Vista para as Pirâmides",
-          "descricao": "Quarto temático egípcio com vista direta para as Grandes Pirâmides de Gizé",
-          "area_m2": 30,
-          "capacidade": "2 adultos",
-          "camas": "1 cama King Size ou 2 camas individuais",
-          "vista": "Pirâmides de Gizé",
-          "varanda": true,
-          "banheiro_privativo": true,
-          "amenidades_quarto": [
-            "TV de tela plana",
-            "Frigobar",
-            "Cafeteira",
-            "Cofre digital",
-            "Telefone",
-            "Ar condicionado",
-            "Varanda com vista",
-            "Secador de cabelo",
-            "Roupão e chinelos",
-            "Decoração temática egípcia"
-          ],
-          "banheiro": {
-            "chuveiro": "Chuveiro tradicional",
-            "tipo_chuveiro": "Chuveiro de média pressão",
-            "banheira": "Não",
-            "agua_quente": true,
-            "pressao": "Média",
-            "amenidades": "Amenidades básicas, secador"
-          }
-        }
-      ],
-      "avaliacao": {
-        "pontuacao": 8.8,
-        "total_avaliacoes": 312,
+        "pontuacao": 8.9,
+        "total_avaliacoes": 287,
         "estrelas": 4.4,
         "destaque": "Muito bom"
       },
       "reviews": [
         {
           "usuario": {
-            "nome": "Mohamed Hassan",
+            "nome": "Carlos Martínez",
             "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Cairo",
-            "pais": "Egito"
+            "cidade": "Buenos Aires",
+            "pais": "Argentina"
           },
           "estrelas": 5,
-          "data": "2023-11-10",
-          "comentario": "Pirâmides de Gizé são ainda mais impressionantes pessoalmente! Vista do hotel é espetacular. Café da manhã egípcio delicioso.",
-          "tags": ["Pirâmides impressionantes", "vista espetacular", "café egípcio"]
+          "data": "2023-11-15",
+          "comentario": "¡Buenos Aires es pasión! El tango y el fútbol son parte del alma porteña. Vista a la Casa Rosada impresionante.",
+          "tags": [
+            "pasión Buenos Aires",
+            "tango fútbol",
+            "vista impresionante"
+          ]
         },
         {
           "usuario": {
-            "nome": "Aisha Farouk",
+            "nome": "María Rodríguez",
             "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Alexandria",
-            "pais": "Egito"
+            "cidade": "Córdoba",
+            "pais": "Argentina"
+          },
+          "estrelas": 4,
+          "data": "2023-10-28",
+          "comentario": "Show de tango emocionante, pero los precios son altos. Hotel con excelente ubicación histórica.",
+          "tags": [
+            "tango emocionante",
+            "precios altos",
+            "ubicación histórica"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Silva",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
           },
           "estrelas": 4,
           "data": "2023-12-05",
-          "comentario": "Nile cruise at sunset magical! Hotel view of pyramids incredible. Bargaining in Khan el-Khalili fun.",
-          "tags": ["Nile cruise magical", "pyramid view", "bargaining fun"]
+          "comentario": "Cidade vibrante e cheia de cultura! Bife argentino é imbatível. Hotel com vista incrível para pontos históricos.",
+          "tags": [
+            "cidade vibrante",
+            "bife imbatível",
+            "vista incrível"
+          ]
         },
         {
           "usuario": {
-            "nome": "Ricardo Oliveira",
+            "nome": "Sophia Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Nova York",
+            "pais": "USA"
+          },
+          "estrelas": 5,
+          "data": "2023-11-30",
+          "comentario": "Tango show was absolutely mesmerizing! Argentine steak is perfection. Hotel's Plaza de Mayo view is historic.",
+          "tags": [
+            "mesmerizing tango",
+            "steak perfection",
+            "historic view"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Lima",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Rio de Janeiro, RJ",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-18",
+          "comentario": "Cemitério da Recoleta é diferente de tudo! Arquitetura impressionante. Hotel bem localizado para turismo.",
+          "tags": [
+            "cemitério diferente",
+            "arquitetura impressionante",
+            "bem localizado"
+          ]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Argentino (medialunas, dulce de leche)",
+          "horario": "07:00 - 10:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Todo o hotel"
+        },
+        "idiomas": [
+          "Espanhol",
+          "Inglês",
+          "Português"
+        ],
+        "estacionamento": "Sim (ARS 3000/dia)",
+        "pet_friendly": false,
+        "acessibilidade": "Quartos adaptados disponíveis",
+        "politica_cancelamento": "Cancelamento gratuito até 3 dias antes",
+        "contato": {
+          "telefone": "+54 11 1234-5678",
+          "email": "reservas@plazademayohotel.com.ar",
+          "website": "www.plazademayohotel.com.ar"
+        }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Plaza de Mayo Hotel: Informações importantes para sua estadia histórica em Buenos Aires.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade com taxa de ARS 2000 por hora",
+          "Late check-out até 13:00 pode ser solicitado com taxa de ARS 3000"
+        ],
+        "regras_check": [
+          "Documento de identidade válido obrigatório para todos os hóspedes",
+          "Cartão de crédito para autorização de garantia de ARS 10000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Documento Nacional de Identidad (DNI) para argentinos",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão copiados para registro conforme exigido por lei",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por ARS 5000 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de ARS 8000 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para a praça",
+          "A política inclui cigarros, charutos, cachimbos e dispositivos eletrônicos"
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "nome_hotel": "Red Rock Hotel",
+      "descricao_hotel": "Hotel localizado em frente ao Parque Nacional da Chapada Diamantina, em Lençóis, oferecendo fácil acesso às cachoeiras e trilhas deste destino ecológico baiano.",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Rua das Pedras, 100 - Centro, Lençóis - BA, 46960-000",
+        "cidade": "Lençóis",
+        "pais": "Brasil",
+        "latitude": -12.5600,
+        "longitude": -41.3900,
+        "coordenadas_gmaps": "-12.5600, -41.3900",
+        "google_maps_url": "https://www.google.com/maps?q=-12.5600,-41.3900"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Café da manhã regional",
+        "Wi-Fi nas áreas comuns",
+        "Tour desk especializado",
+        "Estacionamento gratuito",
+        "Área de churrasco",
+        "Serviço de bagagem",
+        "Aluguel de equipamentos para trilha",
+        "Informações turísticas",
+        "Área de descanso pós-trilha"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Padrão",
+          "descricao": "Quarto simples e confortável com decoração rústica inspirada na Chapada",
+          "area_m2": 22,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size ou 2 camas individuais",
+          "vista": "Jardim ou cidade histórica",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 32\"",
+            "Frigobar",
+            "Ventilador de teto",
+            "Cofre simples",
+            "Telefone",
+            "Janelas com tela mosquiteiro",
+            "Tomadas 220V"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro básico",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Sabonete e shampoo básicos, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacao": {
+        "pontuacao": 8.8,
+        "total_avaliacoes": 132,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
+        {
+          "usuario": {
+            "nome": "Lucas Santos",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Salvador, BA",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-09-28",
+          "comentario": "Cachoeiras deslumbrantes e trilhas incríveis! Hotel simples mas muito acolhedor. Guias locais muito conhecedores.",
+          "tags": [
+            "cachoeiras deslumbrantes",
+            "hotel acolhedor",
+            "guias conhecedores"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Ana Paula",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-10-15",
+          "comentario": "Gruta do Lapão é impressionante! Leve lanterna boa. Hotel básico mas limpo e bem localizado.",
+          "tags": [
+            "gruta impressionante",
+            "leve lanterna",
+            "básico mas limpo"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Mendes",
             "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
             "cidade": "Rio de Janeiro, RJ",
             "pais": "Brasil"
           },
           "estrelas": 5,
-          "data": "2023-12-15",
-          "comentario": "Civilização egípcia antiga fascinante! Esfinge misteriosa. Hotel simples mas com vista inesquecível.",
-          "tags": ["civilização fascinante", "Esfinge misteriosa", "vista inesquecível"]
+          "data": "2023-11-08",
+          "comentario": "Poço Encantado parece uma pintura! Água cristalina incrível. Hotel ajuda com os melhores passeios.",
+          "tags": [
+            "Poço Encantado",
+            "água cristalina",
+            "melhores passeios"
+          ]
         },
         {
           "usuario": {
-            "nome": "Sarah Johnson",
-            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Londres",
-            "pais": "Reino Unido"
+            "nome": "Mariana Costa",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Belo Horizonte, MG",
+            "pais": "Brasil"
           },
           "estrelas": 4,
-          "data": "2023-11-25",
-          "comentario": "Extremely hot in summer but pyramids worth it! Camel ride touristy but fun. Hotel basic but view amazing.",
-          "tags": ["extremely hot", "camels touristy", "view amazing"]
+          "data": "2023-12-05",
+          "comentario": "Trilhas exigem preparo físico, mas valem cada esforço. Hotel rústico mas confortável. Comida regional excelente.",
+          "tags": [
+            "trilhas exigentes",
+            "rústico confortável",
+            "comida excelente"
+          ]
         },
         {
           "usuario": {
-            "nome": "Fernando Costa",
-            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
-            "cidade": "Lisboa",
-            "pais": "Portugal"
+            "nome": "Roberto Silva",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Fortaleza, CE",
+            "pais": "Brasil"
           },
           "estrelas": 5,
-          "data": "2023-12-08",
-          "comentario": "Tesouros de Tutancâmon deslumbrantes! Cruzeiro no Nilo relaxante. Acordar vendo as pirâmides é surreal.",
-          "tags": ["Tesouros Tutancâmon", "cruzeiro Nilo", "acordar surreal"]
+          "data": "2023-12-20",
+          "comentario": "Cachoeira da Fumaça é de tirar o fôlego! Natureza intocada. Pousada familiar muito atenciosa.",
+          "tags": [
+            "cachoeira fôlego",
+            "natureza intocada",
+            "familiar atenciosa"
+          ]
         }
       ],
       "informacoes_gerais": {
@@ -4927,7 +5936,448 @@
         "check_out": "12:00",
         "cafe_manha": {
           "incluido": true,
-          "tipo": "Egípcio (ful medames, pão pita)",
+          "tipo": "Regional baiano",
+          "horario": "06:30 - 09:30"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": [
+          "Português"
+        ],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": true,
+        "taxa_pet": "R$ 40 por diária",
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
+        "contato": {
+          "telefone": "+55 75 3334-1234",
+          "email": "contato@redrockhotel.com.br",
+          "website": "www.redrockhotellencois.com.br"
+        }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Red Rock Hotel: Informações importantes para sua estadia ecológica na Chapada Diamantina.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de R$ 50 por hora adicional"
+        ],
+        "regras_check": [
+          "Documento de identificação original com foto obrigatório",
+          "Cartão de crédito ou depósito em dinheiro para garantia de R$ 200",
+          "Todos os hóspedes devem ser registrados no check-in",
+          "Check-in recomendado durante o dia para melhor orientação"
+        ],
+        "identification_requirement": [
+          "RG original ou CNH para brasileiros",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão registrados conforme exigido pela administração",
+          "Cópias não são aceitas, apenas documentos originais"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por R$ 60 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de R$ 200 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui todos os tipos de produtos de tabaco"
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "nome_hotel": "Lake View Lodge",
+      "descricao_hotel": "Pousada acolhedora localizada às margens do Lago Nahuel Huapi, em Bariloche, oferecendo vistas deslumbrantes para os Andes e acesso fácil às estações de esqui e trilhas da Patagônia argentina.",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Av. Bustillo km 24,5, San Carlos de Bariloche, Río Negro",
+        "cidade": "Bariloche",
+        "pais": "Argentina",
+        "latitude": -41.1335,
+        "longitude": -71.3103,
+        "coordenadas_gmaps": "-41.1335, -71.3103",
+        "google_maps_url": "https://www.google.com/maps?q=-41.1335,-71.3103"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista para o Lago Nahuel Huapi",
+        "Café da manhã patagônico",
+        "Lareira no lobby",
+        "Wi-Fi nas áreas comuns",
+        "Estacionamento gratuito",
+        "Tour desk para esqui",
+        "Serviço de bagagem",
+        "Área de secagem de roupas",
+        "Informações turísticas"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Lago",
+          "descricao": "Quarto rústico e aconchegante com vista panorâmica para o lago e montanhas",
+          "area_m2": 25,
+          "capacidade": "2 adultos",
+          "camas": "1 cama queen size",
+          "vista": "Lago Nahuel Huapi e Andes",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 32\"",
+            "Aquecedor elétrico",
+            "Frigobar",
+            "Cofre simples",
+            "Telefone",
+            "Janelas com vidro duplo",
+            "Varanda com vista",
+            "Secador de cabelo"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro de alta pressão",
+            "banheira": "Não",
+            "agua_quente": true,
+            "pressao": "Alta pressão",
+            "amenidades": "Sabonete e shampoo, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacao": {
+        "pontuacao": 9.0,
+        "total_avaliacoes": 156,
+        "estrelas": 4.5,
+        "destaque": "Excelente"
+      },
+      "reviews": [
+        {
+          "usuario": {
+            "nome": "Juan Pérez",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Bariloche",
+            "pais": "Argentina"
+          },
+          "estrelas": 5,
+          "data": "2023-08-15",
+          "comentario": "Esquí en Cerro Catedral es increíble! Paisajes de película. Hotel con vista privilegiada al lago.",
+          "tags": [
+            "esquí increíble",
+            "paisajes película",
+            "vista privilegiada"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Carla Martínez",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Mendoza",
+            "pais": "Argentina"
+          },
+          "estrelas": 4,
+          "data": "2023-07-28",
+          "comentario": "Chocolate artesanal excepcional, pero caro. Invierno es mágico pero muy frío. Hotel cálido y acogedor.",
+          "tags": [
+            "chocolate excepcional",
+            "invierno frío",
+            "hotel acogedor"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Alves",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-09-10",
+          "comentario": "Circuito Chico de bike é deslumbrante! Vistas incríveis a cada curva. Pousada com atendimento familiar excelente.",
+          "tags": [
+            "Circuito Chico",
+            "vistas incríveis",
+            "atendimento familiar"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Wilson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 4,
+          "data": "2023-08-25",
+          "comentario": "Skiing was fantastic but very expensive. Scenery is breathtaking. Lodge has amazing lake views and cozy atmosphere.",
+          "tags": [
+            "skiing expensive",
+            "breathtaking scenery",
+            "cozy atmosphere"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Fernanda Lima",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Porto Alegre, RS",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-10-05",
+          "comentario": "Cerro Otto tem vista 360º incrível! Restaurante giratório é experiência única. Pousada aconchegante perfeita para o frio.",
+          "tags": [
+            "Cerro Otto vista",
+            "restaurante giratório",
+            "aconchegante frio"
+          ]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "15:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Patagônico (facturas, dulce de leche)",
+          "horario": "07:30 - 10:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": [
+          "Espanhol",
+          "Português",
+          "Inglês básico"
+        ],
+        "estacionamento": "Sim (gratuito)",
+        "pet_friendly": true,
+        "taxa_pet": "ARS 1000 por diária",
+        "acessibilidade": "Limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 7 dias antes",
+        "contato": {
+          "telefone": "+54 294 412-3456",
+          "email": "info@lakeviewlodge.com.ar",
+          "website": "www.lakeviewlodgebariloche.com.ar"
+        }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Lake View Lodge: Informações importantes para sua estadia com vista para o Lago Nahuel Huapi em Bariloche.",
+        "check_in_out": [
+          "Check-in disponível a partir das 15:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de ARS 2000 por hora adicional"
+        ],
+        "regras_check": [
+          "Documento de identidade válido obrigatório",
+          "Cartão de crédito ou depósito em dinheiro para garantia de ARS 5000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in recomendado durante o dia para melhor orientação"
+        ],
+        "identification_requirement": [
+          "Documento Nacional de Identidad (DNI) para argentinos",
+          "Passaporte válido para estrangeiros",
+          "Documentos serão registrados conforme exigido pela administração",
+          "Verificação de identidade obrigatória para todos os hóspedes"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por ARS 3000 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de ARS 5000 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o lago",
+          "A política inclui todos os produtos de tabaco e dispositivos eletrônicos"
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "nome_hotel": "Nile River Hotel",
+      "descricao_hotel": "Hotel histórico localizado às margens do Rio Nilo, em Luxor, oferecendo vistas para os templos e fácil acesso aos sítios arqueológicos do Antigo Egito.",
+      "categoria": "4 estrelas",
+      "localizacao": {
+        "endereco": "Corniche El Nile St, Luxor City, Luxor",
+        "cidade": "Luxor",
+        "pais": "Egito",
+        "latitude": 25.6872,
+        "longitude": 32.6396,
+        "coordenadas_gmaps": "25.6872, 32.6396",
+        "google_maps_url": "https://www.google.com/maps?q=25.6872,32.6396"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Vista para o Rio Nilo",
+        "Piscina com vista para os templos",
+        "Café da manhã egípcio",
+        "Wi-Fi de alta velocidade",
+        "Serviço de concierge",
+        "Estacionamento gratuito",
+        "Tour desk especializado",
+        "Serviço de bagagem",
+        "Bar com vista para o rio"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto com Vista para o Nilo",
+          "descricao": "Quarto elegante com vista para o Rio Nilo e templos de Luxor",
+          "area_m2": 32,
+          "capacidade": "2 adultos",
+          "camas": "1 cama King Size ou 2 camas individuais",
+          "vista": "Rio Nilo e templos",
+          "varanda": true,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "Smart TV 42 polegadas",
+            "Frigobar",
+            "Cafeteira",
+            "Cofre digital",
+            "Telefone",
+            "Ar condicionado",
+            "Varanda com vista",
+            "Secador de cabelo",
+            "Roupão e chinelos"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro combinado com banheira",
+            "tipo_chuveiro": "Chuveiro de média pressão",
+            "banheira": "Sim (combinada)",
+            "agua_quente": true,
+            "pressao": "Média pressão",
+            "amenidades": "Amenidades básicas, secador de cabelo"
+          }
+        }
+      ],
+      "avaliacao": {
+        "pontuacao": 8.8,
+        "total_avaliacoes": 189,
+        "estrelas": 4.4,
+        "destaque": "Muito bom"
+      },
+      "reviews": [
+        {
+          "usuario": {
+            "nome": "Ahmed Hassan",
+            "foto": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Luxor",
+            "pais": "Egito"
+          },
+          "estrelas": 5,
+          "data": "2023-11-10",
+          "comentario": "Vale dos Reis é impressionante! História viva do Antigo Egito. Hotel com vista espetacular para o Nilo.",
+          "tags": [
+            "Vale dos Reis",
+            "história viva",
+            "vista espetacular"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Fatima Ali",
+            "foto": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Cairo",
+            "pais": "Egito"
+          },
+          "estrelas": 4,
+          "data": "2023-10-22",
+          "comentario": "Templos de Luxor e Karnak são majestosos! Calor intenso mas vale cada minuto. Vista do Nilo ao pôr do sol é mágica.",
+          "tags": [
+            "templos majestosos",
+            "calor intenso",
+            "pôr do sol mágico"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Mendes",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Lisboa",
+            "pais": "Portugal"
+          },
+          "estrelas": 5,
+          "data": "2023-12-05",
+          "comentario": "Passeio de balão sobre o Vale dos Reis é inesquecível! Hotel com localização perfeita para os templos.",
+          "tags": [
+            "balão inesquecível",
+            "localização perfeita",
+            "Vale dos Reis"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Sophia Chen",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Hong Kong",
+            "pais": "China"
+          },
+          "estrelas": 4,
+          "data": "2023-11-28",
+          "comentario": "Hot air balloon ride was unforgettable! Ancient history comes alive. Hotel's Nile view is spectacular especially at sunset.",
+          "tags": [
+            "unforgettable balloon",
+            "history alive",
+            "spectacular sunset"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Roberto Silva",
+            "foto": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 5,
+          "data": "2023-12-18",
+          "comentario": "Templo de Hatshepsut é arquitetura pura! Egito supera todas as expectativas. Hotel com vista digna de faraó.",
+          "tags": [
+            "Hatshepsut arquitetura",
+            "Egito expectativas",
+            "vista faraó"
+          ]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "14:00",
+        "check_out": "12:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Egípcio (ful medames, pão, queijos)",
           "horario": "06:00 - 10:00"
         },
         "wifi": {
@@ -4935,16 +6385,271 @@
           "gratuito": true,
           "areas": "Todo o hotel"
         },
-        "idiomas": ["Árabe", "Inglês", "Francês"],
+        "idiomas": [
+          "Árabe",
+          "Inglês",
+          "Francês"
+        ],
         "estacionamento": "Sim (gratuito)",
         "pet_friendly": false,
-        "acessibilidade": "Limitada",
+        "acessibilidade": "Quartos adaptados disponíveis",
         "politica_cancelamento": "Cancelamento gratuito até 5 dias antes",
         "contato": {
-          "telefone": "+20 2 1234 5678",
-          "email": "info@cairopyramidview.com",
-          "website": "www.cairopyramidviewhotel.com"
+          "telefone": "+20 95 123 4567",
+          "email": "reservations@nileriverhotel.com",
+          "website": "www.nileriverhotelluxor.com"
         }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Nile River Hotel: Informações importantes para sua estadia histórica às margens do Rio Nilo em Luxor.",
+        "check_in_out": [
+          "Check-in disponível a partir das 14:00",
+          "Check-out deve ser realizado até as 12:00",
+          "Early check-in está sujeito à disponibilidade com taxa de EGP 200 por hora",
+          "Late check-out pode ser solicitado com taxa de EGP 300 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito para garantia de EGP 1000 por noite",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in mínimo de 18 anos de idade é requerido"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Cartão de identidade egípcio para cidadãos locais",
+          "Visto egípcio deve ser apresentado se aplicável",
+          "Documentos serão registrados conforme exigido pelas autoridades egípcias"
+        ],
+        "criancas_camas_extras": [
+          "Crianças de todas as idades são bem-vindas",
+          "Camas extras estão disponíveis por EGP 200 por noite",
+          "Berços podem ser fornecidos sem custo adicional mediante reserva",
+          "Crianças até 6 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de EGP 500 será aplicada por violação",
+          "Fumar é permitido apenas nas varandas com vista para o Nilo",
+          "A política inclui todos os produtos de tabaco e narguilés"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "nome_hotel": "Sagarmatha View Hotel",
+      "descricao_hotel": "Hotel simples localizado no bairro de Thamel, em Katmandu, oferecendo vistas para os Himalaias em dias claros e fácil acesso para trekking no Everest Base Camp e outras trilhas nepalesas.",
+      "categoria": "3 estrelas",
+      "localizacao": {
+        "endereco": "Thamel Marg, Kathmandu 44600",
+        "cidade": "Katmandu",
+        "pais": "Nepal",
+        "latitude": 27.7172,
+        "longitude": 85.3240,
+        "coordenadas_gmaps": "27.7172, 85.3240",
+        "google_maps_url": "https://www.google.com/maps?q=27.7172,85.3240"
+      },
+      "imagens": {
+        "fachada": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+        "quarto": [
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1200&auto=format&fit=crop&q=80"
+        ],
+        "areas_comuns": [
+          "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&auto=format&fit=crop&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200&auto=format&fit=crop&q=80"
+        ]
+      },
+      "servicos_hotel": [
+        "Terraço com vista para os Himalaias",
+        "Café da manhã nepales",
+        "Wi-Fi nas áreas comuns",
+        "Tour desk especializado em trekking",
+        "Serviço de bagagem",
+        "Estacionamento (limitado)",
+        "Área de preparação para trilhas",
+        "Informações sobre trekking",
+        "Aluguel de equipamentos (parceria)"
+      ],
+      "quartos": [
+        {
+          "tipo": "Quarto Padrão",
+          "descricao": "Quarto simples e funcional com decoração nepalesa",
+          "area_m2": 20,
+          "capacidade": "2 adultos",
+          "camas": "2 camas individuais ou 1 cama double",
+          "vista": "Thamel ou montanhas (em dias claros)",
+          "varanda": false,
+          "banheiro_privativo": true,
+          "amenidades_quarto": [
+            "TV de tela plana 32\"",
+            "Ventilador",
+            "Frigobar básico",
+            "Cofre simples",
+            "Telefone",
+            "Tomadas 220V",
+            "Água potável gratuita"
+          ],
+          "banheiro": {
+            "chuveiro": "Chuveiro elétrico",
+            "tipo_chuveiro": "Chuveiro básico",
+            "banheira": "Não",
+            "agua_quente": "Limitada (horários específicos)",
+            "pressao": "Baixa pressão",
+            "amenidades": "Sabonete e shampoo básicos"
+          }
+        }
+      ],
+      "avaliacao": {
+        "pontuacao": 8.6,
+        "total_avaliacoes": 143,
+        "estrelas": 4.3,
+        "destaque": "Bom"
+      },
+      "reviews": [
+        {
+          "usuario": {
+            "nome": "Raj Kumar",
+            "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Katmandu",
+            "pais": "Nepal"
+          },
+          "estrelas": 5,
+          "data": "2023-10-15",
+          "comentario": "Everest Base Camp trek é transformador! Paisagens himalaias são de outro mundo. Hotel ajuda com guias experientes.",
+          "tags": [
+            "trek transformador",
+            "paisagens himalaias",
+            "guias experientes"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Sita Sharma",
+            "foto": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Pokhara",
+            "pais": "Nepal"
+          },
+          "estrelas": 4,
+          "data": "2023-09-28",
+          "comentario": "Templos em Katmandu são espiritualidade pura! Mas a poluição atrapalha. Hotel simples mas com atendimento caloroso.",
+          "tags": [
+            "templos espiritualidade",
+            "poluição atrapalha",
+            "atendimento caloroso"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "David Miller",
+            "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Londres",
+            "pais": "UK"
+          },
+          "estrelas": 5,
+          "data": "2023-11-10",
+          "comentario": "Annapurna Circuit trek was life-changing! Himalayan views beyond imagination. Hotel's trekking advice was invaluable.",
+          "tags": [
+            "life-changing trek",
+            "beyond imagination",
+            "invaluable advice"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Carlos Andrade",
+            "foto": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+            "cidade": "São Paulo, SP",
+            "pais": "Brasil"
+          },
+          "estrelas": 4,
+          "data": "2023-12-05",
+          "comentario": "Altitude é desafiadora, mas as vistas compensam tudo! Hotel básico mas limpo. Thamel é caótico mas fascinante.",
+          "tags": [
+            "altitude desafiadora",
+            "hotel limpo",
+            "Thamel caótico"
+          ]
+        },
+        {
+          "usuario": {
+            "nome": "Emma Wilson",
+            "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+            "cidade": "Vancouver",
+            "pais": "Canadá"
+          },
+          "estrelas": 4,
+          "data": "2023-11-25",
+          "comentario": "Pokhara's lakeside is peaceful paradise! Trek preparation was excellent. Basic accommodation but perfect for adventurers.",
+          "tags": [
+            "peaceful paradise",
+            "excellent preparation",
+            "perfect adventurers"
+          ]
+        }
+      ],
+      "informacoes_gerais": {
+        "check_in": "13:00",
+        "check_out": "11:00",
+        "cafe_manha": {
+          "incluido": true,
+          "tipo": "Nepales (dal bhat, chá)",
+          "horario": "06:00 - 09:00"
+        },
+        "wifi": {
+          "disponivel": true,
+          "gratuito": true,
+          "areas": "Área comum apenas"
+        },
+        "idiomas": [
+          "Nepali",
+          "Inglês"
+        ],
+        "estacionamento": "Sim (limitado)",
+        "pet_friendly": false,
+        "acessibilidade": "Muito limitada",
+        "politica_cancelamento": "Cancelamento gratuito até 10 dias antes (devido à logística de trekking)",
+        "contato": {
+          "telefone": "+977 1 1234567",
+          "email": "info@sagarmathaviewhotel.com",
+          "website": "www.sagarmathaviewhotel.com.np"
+        }
+      },
+      "accommodation_policies": {
+        "introducao": "Políticas de acomodação do Sagarmatha View Hotel: Informações importantes para sua estadia preparatória para trekking nos Himalaias.",
+        "check_in_out": [
+          "Check-in disponível a partir das 13:00",
+          "Check-out deve ser realizado até as 11:00",
+          "Early check-in está sujeito à disponibilidade sem custo adicional",
+          "Late check-out pode ser solicitado com taxa de NPR 500 por hora adicional"
+        ],
+        "regras_check": [
+          "Passaporte obrigatório para todos os hóspedes internacionais",
+          "Cartão de crédito ou depósito em dinheiro para garantia de NPR 5000",
+          "Todos os hóspedes devem ser registrados individualmente",
+          "Check-in recomendado durante o dia para orientação sobre trekking"
+        ],
+        "identification_requirement": [
+          "Passaporte válido é obrigatório para estrangeiros",
+          "Documentos de visto do Nepal devem ser apresentados",
+          "Permissão de trekking TIMS card será verificada se aplicável",
+          "Documentos serão copiados para registro conforme exigido por lei nepalesa"
+        ],
+        "criancas_camas_extras": [
+          "Crianças são permitidas, mas trekking é recomendado apenas para maiores de 12 anos",
+          "Camas extras estão disponíveis por NPR 1000 por noite",
+          "Berços podem ser fornecidos sob solicitação prévia",
+          "Crianças até 5 anos compartilhando cama com os pais não pagam taxa"
+        ],
+        "politicas_fumantes": [
+          "Todos os quartos são estritamente não fumantes",
+          "Multa de limpeza de NPR 2000 será aplicada por violação",
+          "Fumar é permitido apenas em áreas externas designadas",
+          "A política inclui todos os produtos de tabaco e charutos"
+        ]
       }
     }
   ]

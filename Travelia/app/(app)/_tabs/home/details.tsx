@@ -230,7 +230,6 @@ const createStyles = (theme: ThemeName) =>
       justifyContent: 'center',
       backgroundColor: themeColors[theme].backgroundCard,
       flex: 1,
-      
     },
 
     containerScroll: {
@@ -406,6 +405,7 @@ const createStyles = (theme: ThemeName) =>
       flexDirection: 'column',
       marginTop: 5,
       width: '100%',
+      paddingHorizontal: 10,
       
     },
 

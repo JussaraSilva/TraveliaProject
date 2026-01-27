@@ -5,6 +5,7 @@ import { InformacoesGeraisType } from "./informacoesGerais";
 import { LocalizacaoType } from "./localizacao";
 import { QuartosType } from "./quartos";
 import { AvaliacaoType } from "./avaliacao";
+import { AccommodationPoliciesType } from "./accommodationPolicies";
 
 export type PacoteHotel = {
   id: number;
@@ -18,6 +19,7 @@ export type PacoteHotel = {
   avaliacao: AvaliacaoType;
   reviews: ReviewType[];
   informacoes_gerais: InformacoesGeraisType;
+  accommodation_policies: AccommodationPoliciesType;
 }
 
 export type ListaPacotesHotel = PacoteHotel[];
