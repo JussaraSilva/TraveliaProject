@@ -148,11 +148,10 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
     paddingBottom: 20,
   },
 
-
-
   textTitle: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
   },
 
   containerTextDescription: {
@@ -250,6 +249,7 @@ const createStyles = (theme: ThemeName) => StyleSheet.create({
   textPolicies: {
     fontSize: 24,
     fontWeight: 'bold',
+    color: themeColors[theme].textPrimary,
   },
 
 

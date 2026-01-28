@@ -138,21 +138,57 @@
         {
           "nome": "Mergulho com snorkel",
           "duracao": "3 horas",
+          "horario": "14:00 - 17:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 1
         },
         {
           "nome": "Passeio de barco ao entardecer",
           "duracao": "2 horas",
+          "horario": "18:00 - 20:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 2
         },
         {
           "nome": "Massagem no SPA",
           "duracao": "1 hora",
+          "horario": "10:00 - 11:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 350.00
+          "preco_extra": 350.00,
+          "id_atividade": 3
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto e transfer para o resort",
+            "Check-in no hotel",
+            "Visita ao resort",
+            "Almoço no restaurante",
+            "Tarde livre para aproveitar a praia"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Mergulho com snorkel",
+            "Passeio de barco ao entardecer",
+            "Jantar romântico na praia"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Almoço no restaurante",
+            "Check-out no hotel",
+            "Transfer para o aeroporto"
+          ]
         }
       ],
       "incluso": [
@@ -316,21 +352,78 @@
         {
           "nome": "Tour pelo Museu do Louvre",
           "duracao": "4 horas",
+          "horario": "10:00 - 14:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 4
         },
         {
           "nome": "Passeio de barco no Sena",
           "duracao": "1 hora",
+          "horario": "17:00 - 18:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 5
         },
         {
           "nome": "Jantar na Torre Eiffel",
           "duracao": "3 horas",
+          "horario": "20:00 - 23:00",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 600.00
+          "preco_extra": 600.00,
+          "id_atividade": 6
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto Charles de Gaulle",
+            "Transfer para o hotel em Le Marais",
+            "Check-in e descanso",
+            "Passeio inicial pelo bairro histórico",
+            "Jantar de boas-vindas em bistrô tradicional"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã francês completo",
+            "Tour pelo Museu do Louvre com guia especializado",
+            "Almoço no Quartier Latin",
+            "Passeio de barco pelo Rio Sena ao pôr do sol",
+            "Jantar livre no Marais"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita à Catedral de Notre-Dame",
+            "Almoço em Montmartre",
+            "Tour pelo bairro artístico de Montmartre",
+            "Jantar opcional na Torre Eiffel"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Palácio de Versalhes (opcional)",
+            "Almoço em Versalhes",
+            "Tarde livre para compras nos Champs-Élysées",
+            "Jantar de despedida em restaurante gourmet"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e tempo livre para últimas compras",
+            "Transfer para o aeroporto CDG",
+            "Embarque para retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -494,21 +587,88 @@
         {
           "nome": "Tour pelas vinícolas",
           "duracao": "4 horas",
+          "horario": "10:00 - 14:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 7
         },
         {
           "nome": "Passeio de catamarã",
           "duracao": "5 horas",
+          "horario": "13:00 - 18:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 8
         },
         {
           "nome": "Jantar romântico com vista",
           "duracao": "2 horas",
+          "horario": "20:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 450.00
+          "preco_extra": 450.00,
+          "id_atividade": 9
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Santorini",
+            "Transfer para o hotel em Fira",
+            "Check-in nas suites com vista para a caldeira",
+            "Passeio de orientação por Fira",
+            "Jantar de boas-vindas com especialidades gregas"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã grego tradicional",
+            "Tour pelas vinícolas de Santorini com degustação",
+            "Almoço em taverna local",
+            "Visita à praia de areia vermelha",
+            "Tarde livre para explorar Fira"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio de catamarã pelas águas do Mar Egeu",
+            "Parada para snorkeling nas águas cristalinas",
+            "Almoço a bordo do catamarã",
+            "Pôr do sol em Oia (famoso mundialmente)"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita às ruínas de Akrotiri (Pompeia grega)",
+            "Almoço no povoado de Megalochori",
+            "Tour pela ilha com paradas em pontos panorâmicos",
+            "Jantar romântico opcional com vista para o vulcão"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Manhã livre para compras de artesanato local",
+            "Almoço em taverna à beira-mar",
+            "Visita ao mosteiro de Profitis Ilias",
+            "Jantar de despedida com música grega ao vivo"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e tempo livre para últimas fotos",
+            "Transfer para o aeroporto de Santorini",
+            "Voo de retorno com conexão em Atenas"
+          ]
         }
       ],
       "incluso": [
@@ -671,21 +831,133 @@
         {
           "nome": "Visita ao Tsukiji Market",
           "duracao": "3 horas",
+          "horario": "06:00 - 09:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 10
         },
         {
           "nome": "Tour por Akihabara",
           "duracao": "4 horas",
+          "horario": "14:00 - 18:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 11
         },
         {
           "nome": "Cerimônia do chá tradicional",
           "duracao": "2 horas",
+          "horario": "11:00 - 13:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 300.00
+          "preco_extra": 300.00,
+          "id_atividade": 12
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Haneda, Tóquio",
+            "Transfer para o hotel em Shinjuku",
+            "Check-in e descanso para recuperação do jet lag",
+            "Passeio leve pelo bairro de Shinjuku",
+            "Jantar de adaptação em restaurante local"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã japonês/ocidental",
+            "Visita ao Tsukiji Outer Market para café da manhã",
+            "Tour pelo distrito de Ginza (shopping de luxo)",
+            "Almoço de ramen autêntico",
+            "Visita ao Palácio Imperial",
+            "Jantar em izakaya tradicional"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour por Akihabara (paraíso da eletrônica e anime)",
+            "Almoço em maid café (experiência única)",
+            "Visita ao Tokyo Skytree (vista panorâmica)",
+            "Jantar em Shibuya e visita ao cruzamento famoso"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio a Harajuku (moda jovem e Takeshita Street)",
+            "Visita ao Santuário Meiji",
+            "Almoço em restaurante de okonomiyaki",
+            "Tarde em Omotesando (arquitetura e compras)",
+            "Jantar livre em Shinjuku"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Viagem de dia inteiro a Kamakura (excursão)",
+            "Visita ao Grande Buda de Kamakura",
+            "Almoço em restaurante local",
+            "Retorno a Tóquio no final da tarde",
+            "Jantar de sushi em restaurante conveyor belt"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Museu Ghibli (com ingressos pré-reservados)",
+            "Almoço temático Ghibli",
+            "Tarde em Kichijoji (bairro vizinho ao museu)",
+            "Jantar em Shinjuku's Omoide Yokocho"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio a Asakusa e Senso-ji Temple",
+            "Almoço em restaurante de tempurá tradicional",
+            "Cruzeiro pelo rio Sumida",
+            "Tarde livre para compras em Nakamise-dori",
+            "Cerimônia do chá tradicional (opcional)"
+          ]
+        },
+        {
+          "dia": 8,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita a Odaiba (ilha futurista)",
+            "Almoço com vista para a Rainbow Bridge",
+            "Tarde no teamLab Borderless (exposição digital)",
+            "Jantar em Odaiba com vista para a baía"
+          ]
+        },
+        {
+          "dia": 9,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para compras ou atividades pessoais",
+            "Almoço livre (recomendações fornecidas)",
+            "Visita final a lugares favoritos",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 10,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Tempo livre para últimas compras",
+            "Transfer para o aeroporto de Haneda",
+            "Voo de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -848,21 +1120,104 @@
         {
           "nome": "Tour pela Estátua da Liberdade",
           "duracao": "3 horas",
+          "horario": "09:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 13
         },
         {
           "nome": "Passeio pelo Central Park",
           "duracao": "2 horas",
+          "horario": "14:00 - 16:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 14
         },
         {
           "nome": "Musical na Broadway",
           "duracao": "3 horas",
+          "horario": "19:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 550.00
+          "preco_extra": 550.00,
+          "id_atividade": 15
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto JFK, Nova York",
+            "Transfer para o hotel em Times Square",
+            "Check-in e descanso após o voo",
+            "Primeiro contato com Times Square à noite",
+            "Jantar leve em restaurante local"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã americano no hotel",
+            "Tour pela Estátua da Liberdade e Ellis Island",
+            "Almoço em Battery Park",
+            "Visita ao Memorial do 11 de Setembro",
+            "Passeio pelo Financial District",
+            "Jantar no bairro chinês"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio pelo Central Park (incluindo Strawberry Fields)",
+            "Almoço no Upper West Side",
+            "Visita ao Metropolitan Museum of Art",
+            "Passeio pela 5th Avenue",
+            "Jantar em Midtown"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Empire State Building",
+            "Almoço no famoso Junior's Cheesecake",
+            "Tour pelo Rockefeller Center",
+            "Compra de ingressos para Broadway (opcional)",
+            "Musical na Broadway (opcional, à noite)"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio pelo Brooklyn Bridge",
+            "Almoço no Brooklyn DUMBO",
+            "Visita ao Brooklyn Park com vista para Manhattan",
+            "Retorno a Manhattan de ferry",
+            "Jantar no West Village"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao American Museum of Natural History",
+            "Almoço no Upper West Side",
+            "Tarde livre para compras na 5th Avenue",
+            "Visita à Grand Central Terminal",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Últimas compras ou visitas",
+            "Transfer para o aeroporto JFK",
+            "Voo de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -1025,21 +1380,86 @@
         {
           "nome": "Trilha até Machu Picchu",
           "duracao": "6 horas",
+          "horario": "06:00 - 12:00",
           "dificuldade": "Difícil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 16
         },
         {
           "nome": "Tour por Cusco histórico",
           "duracao": "4 horas",
+          "horario": "09:00 - 13:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 17
         },
         {
           "nome": "Almoço no Vale Sagrado",
           "duracao": "2 horas",
+          "horario": "13:00 - 15:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 180.00
+          "preco_extra": 180.00,
+          "id_atividade": 18
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Cusco (3.399m altitude)",
+            "Transfer para o hotel em Cusco",
+            "Check-in e descanso para aclimatação à altitude",
+            "Chá de coca para ajudar na aclimatação",
+            "Jantar leve no hotel com comida local"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã andino no hotel",
+            "Tour por Cusco histórico: Plaza de Armas, Catedral",
+            "Visita ao Qorikancha (Templo do Sol)",
+            "Almoço em restaurante tradicional de Cusco",
+            "Visita às ruínas de Sacsayhuamán",
+            "Jantar com apresentação folclórica andina"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã bem reforçado no hotel",
+            "Transfer para Ollantaytambo no Vale Sagrado",
+            "Visita às ruínas de Ollantaytambo",
+            "Almoço no Vale Sagrado (opcional)",
+            "Trem para Águas Calientes (pé de Machu Picchu)",
+            "Check-in no hotel em Águas Calientes",
+            "Jantar e briefing para o dia seguinte"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã muito cedo (05:00)",
+            "Ônibus para a entrada de Machu Picchu",
+            "Trilha até Machu Picchu com guia especializado",
+            "Tour completo pela Cidadela Inca (3 horas)",
+            "Tempo livre para fotos e contemplação",
+            "Retorno a Águas Calientes para almoço",
+            "Trem de retorno para Ollantaytambo",
+            "Transfer para Cusco e jantar de celebração"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel em Cusco",
+            "Manhã livre para compras de artesanato",
+            "Visita ao Mercado de San Pedro",
+            "Almoço de despedida com ceviche",
+            "Transfer para o aeroporto de Cusco",
+            "Voo de retorno ao Brasil via Lima"
+          ]
         }
       ],
       "incluso": [
@@ -1203,21 +1623,159 @@
         {
           "nome": "Tour pela Opera House",
           "duracao": "2 horas",
+          "horario": "10:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 19
         },
         {
           "nome": "Passeio a Bondi Beach",
           "duracao": "5 horas",
+          "horario": "09:00 - 14:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 20
         },
         {
           "nome": "Cruzeiro pelo porto",
           "duracao": "3 horas",
+          "horario": "16:00 - 19:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 420.00
+          "preco_extra": 420.00,
+          "id_atividade": 21
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Sydney após voo longo",
+            "Transfer para o hotel com vista para o porto",
+            "Check-in e descanso para recuperação do jet lag",
+            "Passeio leve pela Circular Quay",
+            "Jantar leve em restaurante próximo"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã australiano no hotel",
+            "Tour pela Sydney Opera House com guia especializado",
+            "Almoço no Rocks District",
+            "Passeio pelo Royal Botanic Garden",
+            "Visita ao Mrs Macquarie's Chair",
+            "Jantar em restaurante com vista para a ponte"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio completo a Bondi Beach",
+            "Caminhada pela Bondi to Coogee Coastal Walk",
+            "Almoço em café à beira-mar em Bondi",
+            "Aula de surf para iniciantes (opcional)",
+            "Jantar em restaurante de frutos do mar"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Taronga Zoo (com ferry)",
+            "Show de animais nativos australianos",
+            "Almoço no zoo com vista para o porto",
+            "Retorno de ferry a Circular Quay",
+            "Jantar no Darling Harbour"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo Harbour Bridge (visita, não escalada)",
+            "Almoço no histórico Rocks District",
+            "Tarde livre para compras no Queen Victoria Building",
+            "Visita ao Hyde Park e St. Mary's Cathedral",
+            "Cruzeiro pelo porto ao pôr do sol (opcional)"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Excursão de dia inteiro às Blue Mountains",
+            "Visita a Three Sisters e Scenic World",
+            "Almoço incluído na excursão",
+            "Retorno a Sydney no final da tarde",
+            "Jantar livre no bairro de escolha"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Ferry para Manly Beach",
+            "Dia de praia em Manly",
+            "Almoço em restaurante à beira-mar",
+            "Caminhada pela Manly Scenic Walkway",
+            "Retorno de ferry a Sydney ao pôr do sol"
+          ]
+        },
+        {
+          "dia": 8,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Australian Museum",
+            "Almoço em Chinatown",
+            "Tarde no Powerhouse Museum",
+            "Passeio pelo Sydney Fish Market",
+            "Jantar com frutos do frescos do mercado"
+          ]
+        },
+        {
+          "dia": 9,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para atividades pessoais",
+            "Sugestões: Bondi Markets, Art Gallery of NSW",
+            "Almoço livre (recomendações fornecidas)",
+            "Tarde para relaxar nas praias locais",
+            "Jantar em restaurante premiado"
+          ]
+        },
+        {
+          "dia": 10,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo bairro histórico de Paddington",
+            "Visita às Paddington Markets (sábado)",
+            "Almoço em café boutique",
+            "Tarde em Woolloomooloo e Kings Cross",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 11,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Último dia para compras de souvenirs",
+            "Visita ao Sydney Tower Eye (vista 360°)",
+            "Almoço no Westfield Sydney",
+            "Tarde livre para visitas finais",
+            "Jantar leve antes do voo"
+          ]
+        },
+        {
+          "dia": 12,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Tempo livre para últimas atividades",
+            "Transfer para o aeroporto de Sydney",
+            "Voo de retorno ao Brasil via Santiago"
+          ]
         }
       ],
       "incluso": [
@@ -1380,21 +1938,94 @@
         {
           "nome": "Tour pela Sagrada Família",
           "duracao": "3 horas",
+          "horario": "09:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 22
         },
         {
           "nome": "Passeio pelo Parque Güell",
           "duracao": "2 horas",
+          "horario": "14:00 - 16:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 23
         },
         {
           "nome": "Show de flamenco",
           "duracao": "2 horas",
+          "horario": "21:00 - 23:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 250.00
+          "preco_extra": 250.00,
+          "id_atividade": 24
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Barcelona-El Prat",
+            "Transfer para o hotel em Las Ramblas",
+            "Check-in e descanso após o voo",
+            "Primeiro passeio por Las Ramblas",
+            "Jantar de tapas em restaurante local"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã espanhol no hotel",
+            "Tour completo pela Sagrada Família com guia arquiteto",
+            "Almoço no bairro de Gràcia",
+            "Visita à Casa Batlló de Gaudí",
+            "Passeio pela Passeig de Gràcia",
+            "Jantar em restaurante catalão tradicional"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio pelo Parque Güell (com ingressos pré-reservados)",
+            "Almoço no bairro de Gràcia",
+            "Visita à Casa Milà (La Pedrera)",
+            "Subida ao terraço para vista panorâmica",
+            "Jantar no Mercado de La Boquería"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao bairro gótico (Barri Gòtic)",
+            "Tour pela Catedral de Barcelona",
+            "Almoço em restaurante histórico",
+            "Passeio pelo Born e visita ao Picasso Museum",
+            "Show de flamenco no histórico Tablao (opcional)"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita à Montjuïc (teleférico inclinado)",
+            "Tour pelo Poble Espanyol",
+            "Almoço em Montjuïc",
+            "Visita ao Museu Nacional de Arte da Catalunha",
+            "Jantar de despedida em restaurante à beira-mar"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Tempo livre para últimas compras no Portal de l'Àngel",
+            "Visita à Basílica de Santa Maria del Mar",
+            "Transfer para o aeroporto",
+            "Voo de retorno ao Brasil via Madrid"
+          ]
         }
       ],
       "incluso": [
@@ -1559,21 +2190,86 @@
         {
           "nome": "Passeio ao Cristo Redentor",
           "duracao": "4 horas",
+          "horario": "08:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 25
         },
         {
           "nome": "Tour pelo Pão de Açúcar",
           "duracao": "3 horas",
+          "horario": "15:00 - 18:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 26
         },
         {
           "nome": "Passeio de barco pela Baía de Guanabara",
           "duracao": "3 horas",
+          "horario": "10:00 - 13:00",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.00
+          "preco_extra": 280.00,
+          "id_atividade": 27
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto Santos Dumont com vista para a Baía",
+            "Transfer para o hotel em Copacabana",
+            "Check-in e descanso rápido",
+            "Primeira caminhada pela orla de Copacabana",
+            "Pôr do sol no Arpoador (experiência única)",
+            "Jantar de boas-vindas em restaurante à beira-mar"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã carioca no hotel",
+            "Passeio ao Cristo Redentor (primeiro horário para evitar filas)",
+            "Visita ao mirante do Cristo Redentor",
+            "Almoço no bairro de Santa Teresa",
+            "Tarde livre em Santa Teresa (bairro boêmio)",
+            "Jantar em boteco tradicional do Rio"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo Pão de Açúcar (bondinho em dois trechos)",
+            "Vista panorâmica do Morro da Urca e Pão de Açúcar",
+            "Almoço na Praia Vermelha",
+            "Tarde na Praia de Ipanema (Posto 9)",
+            "Passeio de barco pela Baía de Guanabara (opcional)",
+            "Jantar no Leblon"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio pelo Jardim Botânico do Rio de Janeiro",
+            "Visita às palmeiras imperiais e orquidário",
+            "Almoço na zona sul",
+            "Tarde no Parque Lage (com vista para o Cristo)",
+            "Compra de souvenirs no Feira de Hippie de Ipanema",
+            "Jantar de despedida em churrascaria tradicional"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última manhã na praia de Copacabana",
+            "Almoço rápido em quiosque da orla",
+            "Transfer para o aeroporto Santos Dumont",
+            "Voo de retorno a São Paulo"
+          ]
         }
       ],
       "incluso": [
@@ -1740,21 +2436,107 @@
         {
           "nome": "Tour pelo Palácio de Buckingham",
           "duracao": "3 horas",
+          "horario": "10:00 - 13:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 28
         },
         {
           "nome": "Visita ao British Museum",
           "duracao": "4 horas",
+          "horario": "14:00 - 18:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 29
         },
         {
           "nome": "Cruzeiro no Rio Tâmisa",
           "duracao": "2 horas",
+          "horario": "17:00 - 19:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 320.00
+          "preco_extra": 320.00,
+          "id_atividade": 30
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Heathrow, Londres",
+            "Transfer para o hotel em Westminster",
+            "Check-in e descanso após o voo noturno",
+            "Passeio leve pelo bairro de Westminster",
+            "Primeiro contato com o Big Ben e Parlamento",
+            "Jantar de boas-vindas em pub tradicional"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã inglês completo no hotel",
+            "Tour pelo Palácio de Buckingham (troca da guarda às 11h)",
+            "Almoço em St. James's Park",
+            "Visita à Westminster Abbey",
+            "Passeio pelo Houses of Parliament",
+            "Jantar no bairro de Covent Garden"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao British Museum (entrada gratuita)",
+            "Tour pelos destaques: Rosetta Stone, múmias egípcias",
+            "Almoço no bairro de Bloomsbury",
+            "Tarde no British Library",
+            "Cruzeiro pelo Rio Tâmisa ao pôr do sol (opcional)",
+            "Jantar em restaurante à beira do rio"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita à Torre de Londres e Joias da Coroa",
+            "Almoço próximo à Tower Bridge",
+            "Passeio pela Tower Bridge (possibilidade de subir)",
+            "Tarde em Borough Market",
+            "Jantar no histórico Leadenhall Market"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio por Notting Hill e Portobello Road Market",
+            "Almoço em café boutique de Notting Hill",
+            "Tarde no Hyde Park e Kensington Gardens",
+            "Visita ao Kensington Palace",
+            "Afternoon tea tradicional em hotel luxuoso (opcional)"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Museu de História Natural",
+            "Almoço em South Kensington",
+            "Tarde no Victoria and Albert Museum",
+            "Compra de souvenirs em Harrods",
+            "Jantar de despedida em restaurante premiado"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última manhã para compras em Oxford Street",
+            "Almoço rápido em mercado de comida",
+            "Transfer para o aeroporto de Heathrow",
+            "Voo de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -1922,21 +2704,119 @@
         {
           "nome": "Visita ao Burj Khalifa (124º andar)",
           "duracao": "3 horas",
+          "horario": "16:00 - 19:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 31
         },
         {
           "nome": "Safári no deserto com jantar",
           "duracao": "6 horas",
+          "horario": "15:00 - 21:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 32
         },
         {
           "nome": "Jantar no Burj Al Arab",
           "duracao": "3 horas",
+          "horario": "20:00 - 23:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 800.00
+          "preco_extra": 800.00,
+          "id_atividade": 33
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Dubai International",
+            "Transfer VIP para o hotel com vista para Burj Khalifa",
+            "Check-in no hotel 5 estrelas",
+            "Descanso após o voo longo",
+            "Jantar leve no hotel com vista para as luzes da cidade"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã buffet de luxo no hotel",
+            "Visita ao Burj Khalifa (ingresso para o 124º andar)",
+            "Almoço no Dubai Mall com vista para a fonte",
+            "Tarde no Dubai Mall (shopping e Dubai Aquarium)",
+            "Show das fontes do Dubai Mall ao pôr do sol",
+            "Jantar em restaurante com vista para as fontes"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Safári no deserto (pick-up no hotel às 15h)",
+            "Passeio de 4x4 pelas dunas (dune bashing)",
+            "Parada para fotos do pôr do sol no deserto",
+            "Jantar no acampamento beduíno com show cultural",
+            "Retorno ao hotel por volta das 21h"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao bairro histórico de Al Fahidi",
+            "Tour pelo Dubai Museum (no forte Al Fahidi)",
+            "Passeio de abra (táxi aquático) pelo Dubai Creek",
+            "Almoço no bairro de Deira",
+            "Tarde no Gold Souk e Spice Souk",
+            "Jantar no Burj Al Arab (opcional, experiência de luxo)"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Excursão a Abu Dhabi (dia inteiro)",
+            "Visita à Sheikh Zayed Grand Mosque",
+            "Almoço em Abu Dhabi",
+            "Tour pelo Emirates Palace e Corniche",
+            "Retorno a Dubai no final da tarde",
+            "Jantar livre em Dubai Marina"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Manhã no Atlantis The Palm",
+            "Visita ao Aquaventure Waterpark (opcional)",
+            "Almoço no Atlantis",
+            "Tarde em Jumeirah Beach",
+            "Fotos da Burj Al Arab do exterior",
+            "Jantar em Madinat Jumeirah"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para compras",
+            "Visita ao Mall of the Emirates (com ski indoor)",
+            "Almoço no mall",
+            "Tarde no Dubai Miracle Garden (dependendo da temporada)",
+            "Jantar de despedida em restaurante temático"
+          ]
+        },
+        {
+          "dia": 8,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Últimas compras no Dubai Duty Free",
+            "Visita ao Dubai Frame (opcional)",
+            "Transfer para o aeroporto de Dubai",
+            "Voo noturno de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -2103,21 +2983,96 @@
         {
           "nome": "Mergulho com tartarugas marinhas",
           "duracao": "4 horas",
+          "horario": "09:00 - 13:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 34
         },
         {
           "nome": "Trilha até a Baía do Sancho",
           "duracao": "3 horas",
+          "horario": "08:00 - 11:00",
           "dificuldade": "Difícil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 35
         },
         {
           "nome": "Passeio de barco noturno",
           "duracao": "2 horas",
+          "horario": "19:00 - 21:00",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 280.00
+          "preco_extra": 280.00,
+          "id_atividade": 36
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Voo do Recife para Fernando de Noronha",
+            "Chegada ao arquipélago e recepção na pousada",
+            "Check-in na pousada ecológica",
+            "Orientações sobre preservação ambiental da ilha",
+            "Primeira visita à Praia do Cachorro",
+            "Jantar de boas-vindas com frutos do mar frescos"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã regional na pousada",
+            "Mergulho com tartarugas marinhas na Praia do Sueste",
+            "Almoço em restaurante local próximo à praia",
+            "Tarde na Praia do Sancho (acesso por escada)",
+            "Trilha leve pelo Mirante dos Golfinhos",
+            "Jantar em Vila dos Remédios"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã reforçado na pousada",
+            "Trilha até a Baía do Sancho (acesso mais difícil)",
+            "Dia de praia na Baía do Sancho (considerada uma das mais bonitas do mundo)",
+            "Almoço de piquenique na praia",
+            "Snorkeling nas piscinas naturais da baía",
+            "Jantar em restaurante com música ao vivo"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Passeio de buggy pela ilha (aluguel opcional)",
+            "Visita ao Forte de Nossa Senhora dos Remédios",
+            "Almoço em restaurante com vista para o mar",
+            "Tarde na Praia do Boldró",
+            "Passeio de barco noturno para ver bioluminescência (opcional)",
+            "Jantar em Vila do Trinta"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Trilha até o Pico (vista 360° da ilha)",
+            "Almoço em restaurante local",
+            "Tarde livre na Praia da Conceição",
+            "Visita ao Projeto Tamar (tartarugas marinhas)",
+            "Jantar de despedida com peixe assado na brasa"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Check-out da pousada",
+            "Última manhã na Praia do Cachorro",
+            "Almoço rápido antes do voo",
+            "Transfer para o aeroporto de Noronha",
+            "Voo de retorno ao Recife"
+          ]
         }
       ],
       "incluso": [
@@ -2284,21 +3239,97 @@
         {
           "nome": "Tour pelo Coliseu e Fórum Romano",
           "duracao": "4 horas",
+          "horario": "09:00 - 13:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 37
         },
         {
           "nome": "Visita à Fontana di Trevi",
           "duracao": "2 horas",
+          "horario": "10:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 38
         },
         {
           "nome": "Tour gastronômico por Trastevere",
           "duracao": "3 horas",
+          "horario": "19:00 - 22:00",
           "dificuldade": "Fácil",
           "incluso": false,
-          "preco_extra": 350.00
+          "preco_extra": 350.00,
+          "id_atividade": 39
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto Fiumicino, Roma",
+            "Transfer para o hotel no centro histórico",
+            "Check-in e descanso após o voo",
+            "Passeio leve pela Piazza Navona",
+            "Jantar de boas-vindas em trattoria tradicional"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã italiano no hotel",
+            "Tour pelo Coliseu com ingressos priority access",
+            "Visita ao Fórum Romano e Palatino",
+            "Almoço no bairro de Monti",
+            "Tarde livre para explorar o centro",
+            "Visita à Fontana di Trevi ao final da tarde",
+            "Jantar em restaurante próximo ao Pantheon"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Vaticano (Museus Vaticanos e Capela Sistina)",
+            "Almoço no bairro de Prati",
+            "Tour pela Basílica de São Pedro",
+            "Subida à cúpula da Basílica (vista panorâmica)",
+            "Jantar em restaurante típico romano"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Pantheon (entrada gratuita)",
+            "Passeio pela Piazza della Rotonda",
+            "Almoço em Trastevere",
+            "Tarde no bairro boêmio de Trastevere",
+            "Tour gastronômico por Trastevere (opcional)",
+            "Jantar com pasta artesanal"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Excursão às ruínas de Pompeia (dia inteiro, opcional)",
+            "Ou: dia livre em Roma para compras",
+            "Almoço em local de escolha",
+            "Visita à Piazza di Spagna e Escadaria",
+            "Compra de souvenirs na Via del Corso",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última visita à Piazza Venezia",
+            "Almoço rápido antes do voo",
+            "Transfer para o aeroporto Fiumicino",
+            "Voo de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -2465,21 +3496,121 @@
         {
           "nome": "Passeio de barco às ilhas Phi Phi",
           "duracao": "8 horas",
+          "horario": "08:00 - 16:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 40
         },
         {
           "nome": "Visita ao Big Buddha",
           "duracao": "3 horas",
+          "horario": "09:00 - 12:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 41
         },
         {
           "nome": "Massagem tailandesa tradicional",
           "duracao": "2 horas",
+          "horario": "16:00 - 18:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 180.00
+          "preco_extra": 180.00,
+          "id_atividade": 42
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Phuket após voo internacional",
+            "Transfer para o resort 5 estrelas em Patong Beach",
+            "Check-in no resort com boas-vindas tailandesa",
+            "Descanso após o voo longo",
+            "Passeio leve pela praia de Patong",
+            "Jantar de boas-vindas no resort"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã tailandês/internacional no resort",
+            "Dia de relaxamento na piscina do resort",
+            "Almoço no restaurante do resort",
+            "Primeiro contato com as águas do Mar de Andaman",
+            "Pôr do sol na praia de Patong",
+            "Jantar em restaurante de frutos do mar na praia"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no resort",
+            "Passeio de barco às ilhas Phi Phi (pick-up 08:00)",
+            "Snorkeling nas águas cristalinas de Maya Bay",
+            "Almoço buffet incluído no passeio de barco",
+            "Visita à Monkey Beach e Viking Cave",
+            "Retorno ao resort por volta das 16:00",
+            "Jantar no resort ou em restaurante local"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no resort",
+            "Visita ao Big Buddha de Phuket (45m de altura)",
+            "Parada no viewpoint de Karon",
+            "Almoço em restaurante com vista para o mar",
+            "Tarde no Wat Chalong (templo budista importante)",
+            "Massagem tailandesa tradicional (opcional)",
+            "Jantar no bairro antigo de Phuket Town"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no resort",
+            "Dia livre para atividades pessoais",
+            "Opções: SPA do resort, mais praia, compras",
+            "Almoço no resort ou em restaurante local",
+            "Tarde de relaxamento na praia",
+            "Show cultural tailandês com danças (opcional)",
+            "Jantar em restaurante com show cultural"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no resort",
+            "Excursão à James Bond Island (opcional)",
+            "Ou: dia em outra praia (Kata, Karon, Nai Harn)",
+            "Almoço em restaurante à beira-mar",
+            "Visita ao Phuket Weekend Market (se for final de semana)",
+            "Compra de souvenirs e artesanato local",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no resort",
+            "Último dia para aproveitar o resort",
+            "Manhã livre na praia ou piscina",
+            "Almoço no resort",
+            "Check-out do resort (bagagens armazenadas)",
+            "Última tarde em Phuket",
+            "Jantar leve antes do voo noturno"
+          ]
+        },
+        {
+          "dia": 8,
+          "atividades": [
+            "Transfer para o aeroporto de Phuket (madrugada)",
+            "Check-in para voo internacional",
+            "Voo de retorno ao Brasil via Bangkok",
+            "Conexão em Bangkok",
+            "Continuação do voo para São Paulo"
+          ]
         }
       ],
       "incluso": [
@@ -2642,21 +3773,79 @@
         {
           "nome": "Passeio de gôndola pelos canais",
           "duracao": "1 hora",
+          "horario": "18:00 - 19:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 43
         },
         {
           "nome": "Visita à Praça de São Marcos",
           "duracao": "3 horas",
+          "horario": "09:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 44
         },
         {
           "nome": "Jantar romântico em restaurante típico",
           "duracao": "2 horas",
+          "horario": "20:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 380.00
+          "preco_extra": 380.00,
+          "id_atividade": 45
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto Marco Polo, Veneza",
+            "Transfer de barco privativo para o hotel (vaporetto)",
+            "Check-in no hotel à beira do Grand Canal",
+            "Descanso após o voo",
+            "Primeiro passeio romântico pelos canais menores",
+            "Passeio de gôndola ao pôr do sol pelos canais secretos",
+            "Jantar de boas-vindas em trattoria veneziana"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã veneziano no hotel com vista para o canal",
+            "Visita à Praça de São Marcos (Piazza San Marco) cedo para evitar multidões",
+            "Tour pela Basílica de São Marcos",
+            "Subida ao Campanário de São Marcos (vista panorâmica)",
+            "Almoço em restaurante próximo à praça",
+            "Visita ao Palazzo Ducale (Palácio dos Doges)",
+            "Passeio pela Ponte dos Suspiros",
+            "Jantar romântico em restaurante à beira do canal (opcional)"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio de barco às ilhas de Murano e Burano",
+            "Visita a fábrica de vidro em Murano (demonstração)",
+            "Almoço em Burano (ilha das casas coloridas)",
+            "Tarde livre para explorar as ilhas",
+            "Retorno a Veneza no final da tarde",
+            "Compra de souvenirs em máscaras venezianas",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última caminhada romântica pela Ponte de Rialto",
+            "Visita ao Mercado de Rialto (manhã apenas)",
+            "Almoço rápido antes do transfer",
+            "Transfer de barco para o aeroporto Marco Polo",
+            "Voo de retorno ao Brasil via Roma"
+          ]
         }
       ],
       "incluso": [
@@ -2820,21 +4009,110 @@
         {
           "nome": "Tour pelas Pirâmides de Gizé",
           "duracao": "6 horas",
+          "horario": "08:00 - 14:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 46
         },
         {
           "nome": "Visita ao Museu Egípcio",
           "duracao": "4 horas",
+          "horario": "10:00 - 14:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 47
         },
         {
           "nome": "Passeio de camelo no deserto",
           "duracao": "2 horas",
+          "horario": "16:00 - 18:00",
           "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 150.00
+          "preco_extra": 150.00,
+          "id_atividade": 48
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto internacional do Cairo",
+            "Transfer para o hotel com vista para as pirâmides",
+            "Check-in e descanso após o voo",
+            "Primeiro vislumbre das pirâmides do hotel",
+            "Jantar de boas-vindas com comida egípcia tradicional"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã egípcio no hotel com vista para as pirâmides",
+            "Tour completo pelas Pirâmides de Gizé (Quéops, Quéfren, Miquerinos)",
+            "Visita à Grande Esfinge de Gizé",
+            "Entrada na Pirâmide de Quéops (opcional, adicional)",
+            "Almoço em restaurante com vista para as pirâmides",
+            "Passeio de camelo ao pôr do sol no deserto (opcional)",
+            "Show de luzes e som nas pirâmides à noite"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Museu Egípcio do Cairo (tesouro de Tutancâmon)",
+            "Tour pelas múmias reais e salas de antiguidades",
+            "Almoço no bairro de Downtown Cairo",
+            "Visita ao Bazar Khan el-Khalili",
+            "Compra de souvenirs e artesanato egípcio",
+            "Jantar em restaurante no bazar com música ao vivo"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Excursão a Mênfis e Saqqara (capital antiga do Egito)",
+            "Visita à Pirâmide Escalonada de Djoser (a mais antiga)",
+            "Almoço em restaurante local",
+            "Tarde no complexo de Saqqara",
+            "Retorno ao Cairo no final da tarde",
+            "Jantar em restaurante à beira do Nilo"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita à Cidadela de Saladino e Mesquita de Muhammad Ali",
+            "Tour pela Mesquita de Alabastro",
+            "Almoço no bairro islâmico do Cairo",
+            "Visita à Igreja Suspensa (Hanging Church)",
+            "Passeio pelo bairro copta do Cairo",
+            "Jantar em restaurante com dança do ventre (opcional)"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para atividades pessoais",
+            "Opção: cruzeiro pelo Rio Nilo (opcional)",
+            "Almoço livre (recomendações fornecidas)",
+            "Tarde para compras finais no Khan el-Khalili",
+            "Visita ao novo Grand Egyptian Museum (se aberto)",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última vista para as pirâmides do hotel",
+            "Almoço rápido antes do transfer",
+            "Transfer para o aeroporto internacional do Cairo",
+            "Voo noturno de retorno ao Brasil via Paris"
+          ]
         }
       ],
       "incluso": [
@@ -2998,21 +4276,66 @@
         {
           "nome": "Tour gastronômico pelo Mercado Municipal",
           "duracao": "3 horas",
+          "horario": "10:00 - 13:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 49
         },
         {
           "nome": "Visita ao MASP",
           "duracao": "2 horas",
+          "horario": "14:00 - 16:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 50
         },
         {
           "nome": "Jantar em restaurante premiado",
           "duracao": "2 horas",
+          "horario": "20:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 350.00
+          "preco_extra": 350.00,
+          "id_atividade": 51
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Voo do Rio de Janeiro para São Paulo (1h30 de duração)",
+            "Chegada ao aeroporto de Guarulhos",
+            "Transfer para o hotel na Avenida Paulista",
+            "Check-in no hotel e breve descanso",
+            "Primeiro passeio pela Avenida Paulista",
+            "Visita ao MASP (Museu de Arte de São Paulo)",
+            "Jantar de boas-vindas em restaurante na Paulista"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã paulistano no hotel",
+            "Tour gastronômico pelo Mercado Municipal de São Paulo",
+            "Degustação de sanduíche de mortadela e pastel de bacalhau",
+            "Almoço no Mercadão com frutas exóticas",
+            "Tarde no Centro Histórico: Pátio do Colégio, Mosteiro de São Bento",
+            "Visita à Catedral da Sé e Marco Zero",
+            "Jantar em restaurante premiado (opcional) ou livre na região"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Visita ao Parque Ibirapuera (se tempo permitir)",
+            "Almoço em restaurante temático na Vila Madalena",
+            "Tarde livre para compras na Rua Oscar Freire",
+            "Últimas atividades antes do voo",
+            "Transfer para o aeroporto de Guarulhos",
+            "Voo de retorno ao Rio de Janeiro"
+          ]
         }
       ],
       "incluso": [
@@ -3176,21 +4499,122 @@
         {
           "nome": "Tour pelo Stanley Park",
           "duracao": "3 horas",
+          "horario": "09:00 - 12:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 52
         },
         {
           "nome": "Visita à Capilano Suspension Bridge",
           "duracao": "4 horas",
+          "horario": "10:00 - 14:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 53
         },
         {
           "nome": "Passeio de barco para ver baleias",
           "duracao": "5 horas",
+          "horario": "08:00 - 13:00",
           "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 420.00
+          "preco_extra": 420.00,
+          "id_atividade": 54
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Vancouver após voo com escala",
+            "Transfer para o hotel no centro de Vancouver",
+            "Check-in e descanso para recuperação do jet lag",
+            "Passeio leve pela Robson Street",
+            "Jantar de boas-vindas em restaurante com vista para as montanhas"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã canadense no hotel",
+            "Tour completo pelo Stanley Park (9km de perímetro)",
+            "Aluguel de bicicletas para percorrer o parque",
+            "Visita aos Totem Poles e Brockton Point",
+            "Almoço no Aquarium dentro do parque",
+            "Passeio pela English Bay Beach",
+            "Jantar em Gastown (bairro histórico)"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita à Capilano Suspension Bridge (ponte suspensa)",
+            "Caminhada pelas treetop adventures",
+            "Almoço no Capilano",
+            "Tarde no Grouse Mountain (teleférico)",
+            "Show dos lumberjacks no Grouse Mountain",
+            "Jantar no topo de Grouse Mountain com vista para a cidade"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio de barco para ver baleias (opcional, 5 horas)",
+            "Busca por orcas, baleias cinzentas e golfinhos",
+            "Almoço a bordo incluído no passeio",
+            "Retorno ao final da tarde",
+            "Tempo livre para descanso",
+            "Jantar em Yaletown (bairro moderno)"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Ferry para Victoria (capital da Colúmbia Britânica)",
+            "Visita aos Butchart Gardens",
+            "Almoço em Victoria",
+            "Tour pelo Parliament Building e Empress Hotel",
+            "Retorno a Vancouver de ferry ao pôr do sol",
+            "Jantar leve no hotel"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Granville Island Public Market",
+            "Degustação de comida local no mercado",
+            "Almoço no mercado com produtos frescos",
+            "Tarde no Museum of Anthropology (UBC)",
+            "Passeio pelo campus da University of British Columbia",
+            "Jantar em Kitsilano (bairro à beira-mar)"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para atividades pessoais",
+            "Opções: Lynn Canyon Park, Queen Elizabeth Park",
+            "Almoço livre (recomendações fornecidas)",
+            "Tarde para compras no Pacific Centre",
+            "Último pôr do sol em English Bay",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 8,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última manhã para atividades",
+            "Almoço rápido antes do transfer",
+            "Transfer para o aeroporto de Vancouver",
+            "Voo de retorno ao Brasil via Toronto"
+          ]
         }
       ],
       "incluso": [
@@ -3354,21 +4778,88 @@
         {
           "nome": "Tour pelas vinícolas do Vale Central",
           "duracao": "8 horas",
+          "horario": "09:00 - 17:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 55
         },
         {
           "nome": "Visita ao Cerro San Cristóbal",
           "duracao": "3 horas",
+          "horario": "15:00 - 18:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 56
         },
         {
           "nome": "Jantar com show folclórico",
           "duracao": "3 horas",
+          "horario": "20:00 - 23:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 250.00
+          "preco_extra": 250.00,
+          "id_atividade": 57
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Voo de São Paulo para Santiago (4 horas de duração)",
+            "Chegada ao aeroporto de Santiago do Chile",
+            "Transfer para o hotel em Providencia",
+            "Check-in no hotel com vista para os Andes",
+            "Passeio leve pelo bairro de Providencia",
+            "Jantar de boas-vindas em restaurante chileno"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã chileno no hotel",
+            "Tour pelas vinícolas do Vale Central (pick-up 09:00)",
+            "Visita a duas vinícolas premium (Concha y Toro ou Santa Rita)",
+            "Degustação de vinhos tintos e brancos",
+            "Almoço incluído na vinícola com maridagem",
+            "Retorno a Santiago no final da tarde",
+            "Jantar livre em bairro à escolha"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Cerro San Cristóbal (funicular ou teleférico)",
+            "Vista panorâmica de Santiago e Cordilheira dos Andes",
+            "Visita ao Zoológico Nacional (opcional)",
+            "Almoço no bairro Bellavista",
+            "Tarde no bairro boêmio de Bellavista",
+            "Jantar com show folclórico chileno (opcional)"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo centro histórico de Santiago",
+            "Visita à Plaza de Armas e Catedral Metropolitana",
+            "Tour pelo Palácio de La Moneda (exterior)",
+            "Almoço no Mercado Central (frutos do mar frescos)",
+            "Tarde no bairro Lastarria (arte e cultura)",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Manhã livre para compras de souvenirs",
+            "Visita ao Costanera Center (torre mais alta da América Latina)",
+            "Almoço rápido antes do transfer",
+            "Transfer para o aeroporto de Santiago",
+            "Voo de retorno a São Paulo"
+          ]
         }
       ],
       "incluso": [
@@ -3532,21 +5023,89 @@
         {
           "nome": "Passeio de buggy pelas dunas",
           "duracao": "6 horas",
+          "horario": "09:00 - 15:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 58
         },
         {
           "nome": "Kitesurf na lagoa",
           "duracao": "3 horas",
+          "horario": "10:00 - 13:00",
           "dificuldade": "Difícil",
           "incluso": false,
-          "preco_extra": 350.00
+          "preco_extra": 350.00,
+          "id_atividade": 59
         },
         {
           "nome": "Trilha até a Pedra Furada",
           "duracao": "2 horas",
+          "horario": "16:00 - 18:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 60
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Voo de São Paulo para Jericoacoara via Fortaleza",
+            "Chegada ao pequeno aeroporto de Jericoacoara",
+            "Transfer para a pousada rústica no vilarejo",
+            "Check-in na pousada ecológica",
+            "Primeiro contato com as areias de Jeri (sem carros)",
+            "Pôr do sol na Duna do Pôr do Sol (obrigatório)",
+            "Jantar de boas-vindas em restaurante à beira da praia"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã regional na pousada",
+            "Passeio de buggy pelas dunas (pick-up 09:00)",
+            "Visita à Lagoa Azul e Lagoa do Paraíso",
+            "Parada para banho nas lagoas de água doce",
+            "Almoço em restaurante à beira da lagoa",
+            "Retorno a Jericoacoara no final da tarde",
+            "Jantar no vilarejo e caminhada pela Rua Principal"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Aula de kitesurf na Lagoa de Jijoca (opcional)",
+            "Ou: dia livre na Praia de Jericoacoara",
+            "Almoço em restaurante na praia",
+            "Tarde de relaxamento nas redes da pousada",
+            "Trilha até a Pedra Furada para o pôr do sol",
+            "Jantar em restaurante com música ao vivo"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Passeio a cavalo pelas dunas (opcional)",
+            "Visita à Vila de Preá",
+            "Almoço em restaurante na praia",
+            "Tarde na Praia do Preá (ótimas para kitesurf)",
+            "Último pôr do sol na Duna principal",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã na pousada",
+            "Check-out da pousada",
+            "Última manhã para caminhar na praia",
+            "Compra de artesanato local",
+            "Almoço rápido antes do voo",
+            "Transfer para o aeroporto de Jericoacoara",
+            "Voo de retorno a São Paulo via Fortaleza"
+          ]
         }
       ],
       "incluso": [
@@ -3709,21 +5268,100 @@
         {
           "nome": "Visita à Hagia Sophia e Blue Mosque",
           "duracao": "4 horas",
+          "horario": "09:00 - 13:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 61
         },
         {
           "nome": "Tour pelo Grand Bazaar",
           "duracao": "3 horas",
+          "horario": "14:00 - 17:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 62
         },
         {
           "nome": "Cruzeiro pelo Bósforo",
           "duracao": "2 horas",
+          "horario": "17:00 - 19:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 280.00
+          "preco_extra": 280.00,
+          "id_atividade": 63
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Istambul (novo aeroporto IST)",
+            "Transfer para o hotel no bairro histórico de Sultanahmet",
+            "Check-in no hotel com vista para o Bósforo",
+            "Descanso após o voo",
+            "Primeiro passeio pelo bairro histórico",
+            "Jantar de boas-vindas com comida turca tradicional"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã turco no hotel",
+            "Visita à Hagia Sophia (Santa Sofia) - museu/mesquita",
+            "Tour pela Blue Mosque (Mesquita Azul) com guia especializado",
+            "Almoço em restaurante com vista para as duas construções",
+            "Visita à Cisterna da Basílica (Yerebatan Sarnıcı)",
+            "Passeio pelo Hipódromo de Constantinopla",
+            "Jantar em restaurante típico do bairro histórico"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo Grand Bazaar (Kapalı Çarşı - um dos maiores do mundo)",
+            "Almoço no bazar ou em restaurante próximo",
+            "Tarde no Spice Bazaar (Bazar das Especiarias)",
+            "Compra de especiarias, chás e doces turcos",
+            "Cruzeiro pelo Bósforo ao pôr do sol (opcional)",
+            "Jantar em restaurante à beira do Bósforo"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Palácio de Topkapi (residência dos sultões otomanos)",
+            "Tour pelo Harém e Tesouro Imperial",
+            "Almoço no jardim do palácio",
+            "Tarde no Museu Arqueológico de Istambul",
+            "Passeio pelo Parque Gülhane",
+            "Jantar no bairro de Karaköy"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio pelo lado asiático de Istambul (ferry de Üsküdar)",
+            "Visita à Torre de Leandro (Kız Kulesi) vista do ferry",
+            "Almoço no lado asiático",
+            "Tarde no bairro de Kadıköy",
+            "Retorno ao lado europeu de ferry",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Últimas compras no Arasta Bazaar",
+            "Visita à Mesquita de Süleymaniye (vista panorâmica)",
+            "Almoço rápido antes do transfer",
+            "Transfer para o aeroporto de Istambul",
+            "Voo noturno de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -3887,21 +5525,99 @@
         {
           "nome": "Tour pelas casas art déco",
           "duracao": "3 horas",
+          "horario": "10:00 - 13:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 64
         },
         {
           "nome": "Passeio de barco pelas ilhas",
           "duracao": "4 horas",
+          "horario": "13:00 - 17:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 65
         },
         {
           "nome": "Jantar em restaurante celebridade",
           "duracao": "2 horas",
+          "horario": "20:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 450.00
+          "preco_extra": 450.00,
+          "id_atividade": 66
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto de Miami International",
+            "Transfer para o hotel em South Beach",
+            "Check-in no hotel em Ocean Drive",
+            "Descanso após o voo noturno",
+            "Primeira caminhada pela famosa Ocean Drive",
+            "Pôr do sol na praia de South Beach",
+            "Jantar de boas-vindas em restaurante na Collins Avenue"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã americano no hotel",
+            "Tour pelas casas art déco de South Beach (guia arquiteto)",
+            "Visita ao Art Deco Welcome Center",
+            "Almoço em restaurante art déco preservado",
+            "Tarde livre na praia de South Beach",
+            "Aluguel de cadeiras e guarda-sol na praia",
+            "Jantar em Lincoln Road Mall"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio de barco pelas ilhas de Miami (pick-up 13:00)",
+            "Tour pelas Star Islands (casas de celebridades)",
+            "Passagem por Fisher Island e Palm Island",
+            "Almoço leve a bordo do barco",
+            "Retorno a South Beach no final da tarde",
+            "Jantar em restaurante de celebridade (opcional)"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Vizcaya Museum and Gardens",
+            "Tour pela mansão histórica à beira da baía",
+            "Almoço em Coconut Grove",
+            "Tarde no Bayside Marketplace",
+            "Compra de souvenirs no mercado",
+            "Jantar em Little Havana (Calle Ocho)"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia de compras no Dolphin Mall ou Sawgrass Mills",
+            "Almoço no shopping center",
+            "Tarde livre para mais compras ou praia",
+            "Visita ao Wynwood Walls (arte de rua)",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Última manhã na praia de South Beach",
+            "Almoço rápido em restaurante de fast food local",
+            "Transfer para o aeroporto de Miami",
+            "Voo de retorno ao Brasil"
+          ]
         }
       ],
       "incluso": [
@@ -4065,21 +5781,110 @@
         {
           "nome": "Visita ao Wat Arun e Wat Pho",
           "duracao": "5 horas",
+          "horario": "08:00 - 13:00",
           "dificuldade": "Moderada",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 67
         },
         {
           "nome": "Passeio de barco pelos canais",
           "duracao": "3 horas",
+          "horario": "14:00 - 17:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 68
         },
         {
           "nome": "Massagem tailandesa tradicional",
           "duracao": "2 horas",
+          "horario": "18:00 - 20:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 150.00
+          "preco_extra": 150.00,
+          "id_atividade": 69
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto Suvarnabhumi, Bangkok",
+            "Transfer para o hotel à beira do rio",
+            "Check-in e descanso após o voo longo",
+            "Primeiro contato com o Rio Chao Phraya",
+            "Jantar de boas-vindas em restaurante flutuante"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã tailandês no hotel",
+            "Visita ao Wat Arun (Templo do Amanhecer)",
+            "Tour pelo Wat Pho (Templo do Buda Reclinado)",
+            "Almoço em restaurante próximo aos templos",
+            "Visita ao Grand Palace (Palácio Real)",
+            "Tarde no templo do Buda de Esmeralda",
+            "Jantar no bairro de Banglamphu"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Passeio de barco pelos canais (khlongs) de Bangkok",
+            "Visita ao mercado flutuante de Taling Chan",
+            "Almoço no mercado flutuante",
+            "Tarde no bairro de Thonburi (lado oeste do rio)",
+            "Pôr do sol no Wat Arun visto do rio",
+            "Jantar em restaurante com vista para o rio"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Chatuchak Weekend Market (se for final de semana)",
+            "Almoço no mercado (comida de rua tailandesa)",
+            "Tarde de compras no mercado",
+            "Ou: visita ao Jim Thompson House (se não for final de semana)",
+            "Massagem tailandesa tradicional (opcional)",
+            "Jantar no bairro de Sukhumvit"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Tour pelo bairro de Chinatown (Yaowarat)",
+            "Visita ao templo chinês Wat Traimit (Buda de Ouro)",
+            "Almoço em restaurante chinês em Chinatown",
+            "Tarde no mercado de joias e ourives",
+            "Passeio noturno por Khao San Road (área de mochileiros)",
+            "Jantar em restaurante de comida de rua"
+          ]
+        },
+        {
+          "dia": 6,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Dia livre para atividades pessoais",
+            "Opções: Siam Paragon shopping, MBK Center",
+            "Almoço em food court tailandês",
+            "Tarde no Lumphini Park",
+            "Visita ao Erawan Shrine (santuário hindú)",
+            "Jantar de despedida em restaurante especial"
+          ]
+        },
+        {
+          "dia": 7,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Últimas compras no mercado de Pratunam",
+            "Almoço rápido antes do transfer",
+            "Transfer para o aeroporto Suvarnabhumi",
+            "Voo noturno de retorno ao Brasil via Johanesburgo"
+          ]
         }
       ],
       "incluso": [
@@ -4243,21 +6048,76 @@
         {
           "nome": "Tour pelas fábricas de chocolate",
           "duracao": "4 horas",
+          "horario": "10:00 - 14:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 70
         },
         {
           "nome": "Visita ao Mini Mundo",
           "duracao": "2 horas",
+          "horario": "14:00 - 16:00",
           "dificuldade": "Fácil",
-          "incluso": true
+          "incluso": true,
+          "id_atividade": 71
         },
         {
           "nome": "Jantar típico alemão",
           "duracao": "2 horas",
+          "horario": "20:00 - 22:00",
           "dificuldade": "Nenhuma",
           "incluso": false,
-          "preco_extra": 200.00
+          "preco_extra": 200.00,
+          "id_atividade": 72
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Voo de São Paulo para Porto Alegre",
+            "Transfer de Porto Alegre para Gramado (1h30 de viagem)",
+            "Chegada a Gramado e check-in no hotel temático suíço",
+            "Primeiro passeio pela Rua Coberta (centro de Gramado)",
+            "Degustação de chocolate quente no hotel",
+            "Jantar de boas-vindas em restaurante com comida alemã"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã alemão/suíço no hotel",
+            "Tour pelas fábricas de chocolate de Gramado",
+            "Visita à Caracol Chocolates e Prawer Chocolates",
+            "Degustação de chocolates artesanais",
+            "Almoço em restaurante com fondue suíço",
+            "Tarde no Mini Mundo (maquete gigante)",
+            "Jantar típico alemão com chope artesanal (opcional)"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Snowland (parque de neve artificial)",
+            "Diversão na pista de snowboard e tubos de neve",
+            "Almoço no parque temático",
+            "Tarde no Lago Negro (passeio de pedalinho)",
+            "Compra de souvenirs na Feira da Colônia",
+            "Jantar de despedida em churrascaria gaúcha"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out do hotel",
+            "Visita à Igreja São Pedro (foto tradicional)",
+            "Compra de chocolates para levar de presente",
+            "Almoço rápido antes do transfer",
+            "Transfer de Gramado para Porto Alegre",
+            "Voo de retorno a São Paulo"
+          ]
         }
       ],
       "incluso": [
@@ -4301,12 +6161,12 @@
         "nome": "Las Vegas",
         "pais": "EUA",
         "continente": "América do Norte",
-        "descricao": "Capital do entretenimento com cassinos e shows world-class"
+        "descricao": "Capital mundial do entretenimento, shows e cassinos"
       },
       "preco": {
-        "total": 7800.00,
+        "total": 7500.00,
         "moeda": "BRL",
-        "parcelamento": "8x R$ 975,00",
+        "parcelamento": "8x R$ 937,50",
         "taxas_inclusas": true,
         "desconto": 5
       },
@@ -4316,22 +6176,24 @@
         "temporada": "Alta"
       },
       "estadia": {
-        "checkin": "Sexta-feira, 12 de Abril de 2024",
-        "checkout": "Quarta-feira, 17 de Abril de 2024",
+        "checkin": "Quarta-feira, 15 de Maio de 2024",
+        "checkout": "Domingo, 19 de Maio de 2024",
         "noites": 4
       },
       "acomodacao": {
         "id": 25,
-        "tipo": "Hotel-cassino na Strip",
+        "tipo": "Hotel-Cassino na Strip",
         "categoria": "5 estrelas",
         "nome_hotel": "Bellagio Las Vegas",
         "servicos": [
-          "Wi-Fi",
-          "Piscina",
-          "Cassino",
-          "Academia"
+          "Café da manhã executivo",
+          "Wi-Fi premium",
+          "Acesso ao cassino",
+          "Piscina com vista",
+          "SPA de luxo",
+          "Transfer para shows"
         ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80"
+        "imagem_hotel": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=1200&auto=format&fit=crop&q=80"
       },
       "viajantes": {
         "quantidade": 2,
@@ -4340,1021 +6202,1462 @@
       },
       "voos": {
         "companhia_aerea": {
-          "nome": "United Airlines",
-          "logo": "https://logoeps.com/wp-content/uploads/2012/12/united-airlines-logo-vector.png"
+          "nome": "Delta Air Lines",
+          "logo": "https://download.logo.wine/logo/Delta_Air_Lines/Delta_Air_Lines-Logo.wine.png"
         },
         "ida": {
-          "numero": "UA 821",
-          "horario_partida": "20:00",
-          "horario_chegada": "02:30",
-          "data_completa": "Sexta-feira, 12 de Abril de 2024",
+          "numero": "DL 415",
+          "horario_partida": "23:45",
+          "horario_chegada": "06:30",
+          "data_completa": "Quarta-feira, 15 de Maio de 2024",
           "aeroporto_origem": "GRU - São Paulo",
           "aeroporto_destino": "LAS - Las Vegas",
-          "escala": "Houston"
+          "escala": "Atlanta"
         },
         "volta": {
-          "numero": "UA 822",
-          "horario_partida": "23:45",
-          "horario_chegada": "13:30",
-          "data_completa": "Quarta-feira, 17 de Abril de 2024",
+          "numero": "DL 416",
+          "horario_partida": "22:15",
+          "horario_chegada": "15:45",
+          "data_completa": "Domingo, 19 de Maio de 2024",
           "aeroporto_origem": "LAS - Las Vegas",
           "aeroporto_destino": "GRU - São Paulo",
-          "escala": "Houston"
+          "escala": "Atlanta"
         }
       },
       "avaliacao": {
-        "pontuacao": 9.3,
-        "total_avaliacoes": 389,
-        "estrelas": 4.8,
+        "pontuacao": 9.1,
+        "total_avaliacoes": 387,
+        "estrelas": 4.5,
         "destaque": "Muito Bom"
       },
       "reviews": [
         {
           "autor": "Michael Johnson",
-          "data": "2023-11-15",
+          "data": "2023-11-10",
           "nota": 9,
-          "comentario": "Shows incríveis e energia única 24 horas!",
-          "votos_uteis": 89,
+          "comentario": "Shows de primeira linha e energia 24 horas!",
+          "votos_uteis": 145,
           "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
         },
         {
-          "autor": "Sarah Williams",
+          "autor": "Sarah Connor",
           "data": "2023-12-05",
           "nota": 10,
-          "comentario": "Bellagio fountains at night are magical! Best free show in Vegas.",
-          "votos_uteis": 134,
-          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Roberto Santos",
-          "data": "2023-11-28",
-          "nota": 8,
-          "comentario": "Cidade vibrante, mas cuidado com os gastos nos cassinos!",
-          "votos_uteis": 78,
-          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Jennifer Lee",
-          "data": "2023-12-18",
-          "nota": 10,
-          "comentario": "Cirque du Soleil show was mind-blowing! Worth every penny.",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Carlos Mendes",
-          "data": "2023-12-12",
-          "nota": 9,
-          "comentario": "Grand Canyon tour is a must-do! Breathtaking views.",
-          "votos_uteis": 92,
-          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Tour pela Las Vegas Strip",
-          "duracao": "3 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Visita ao Grand Canyon (opcional)",
-          "duracao": "12 horas",
-          "dificuldade": "Moderada",
-          "incluso": false,
-          "preco_extra": 650.00
-        },
-        {
-          "nome": "Show de circo no Bellagio",
-          "duracao": "2 horas",
-          "dificuldade": "Nenhuma",
-          "incluso": false,
-          "preco_extra": 350.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea",
-        "Hospedagem",
-        "Wi-Fi",
-        "Tour pela Strip",
-        "Transfer"
-      ],
-      "tags": [
-        "entretenimento",
-        "noite",
-        "luxo",
-        "cassino"
-      ],
-      "disponibilidade": {
-        "vagas": 28,
-        "datas_disponiveis": [
-          "2024-04-12",
-          "2024-07-25",
-          "2024-10-18"
-        ]
-      }
-    },
-    {
-      "id": 26,
-      "ranking": 26,
-      "nome_pacote": "Caribe Total: 7 Dias All-Inclusive em Punta Cana",
-      "resumo": {
-        "quantidade_voos": 2,
-        "quantidade_atividades": 3,
-        "quantidade_acomodacoes": 1,
-        "guia_turistico": {
-          "nome": "Carlos Rodriguez",
-          "especialidade": "Destinos Caribenhos",
-          "anos_experiencia": 8,
-          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
-        }
-      },
-      "destino": {
-        "nome": "Punta Cana",
-        "pais": "República Dominicana",
-        "continente": "América do Norte",
-        "descricao": "Paraíso caribenho com resorts all-inclusive e praias de palmeiras"
-      },
-      "preco": {
-        "total": 8500.00,
-        "moeda": "BRL",
-        "parcelamento": "10x R$ 850,00",
-        "taxas_inclusas": true,
-        "desconto": 18
-      },
-      "duracao": {
-        "dias": 7,
-        "noites": 6,
-        "temporada": "Alta"
-      },
-      "estadia": {
-        "checkin": "Quinta-feira, 28 de Março de 2024",
-        "checkout": "Quarta-feira, 03 de Abril de 2024",
-        "noites": 6
-      },
-      "acomodacao": {
-        "id": 26,
-        "tipo": "Resort All-Inclusive 5*",
-        "categoria": "5 estrelas",
-        "nome_hotel": "Caribe Dreams Resort & SPA",
-        "servicos": [
-          "All-inclusive",
-          "Wi-Fi",
-          "SPA",
-          "Atividades aquáticas"
-        ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "American Airlines",
-          "logo": "https://s202.q4cdn.com/986123435/files/doc_downloads/logos/american-airlines/THUMB-aa_aa__ahz_4cp_grd_pos-(1).png"
-        },
-        "ida": {
-          "numero": "AA 1234",
-          "horario_partida": "08:45",
-          "horario_chegada": "15:30",
-          "data_completa": "Quinta-feira, 28 de Março de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "PUJ - Punta Cana",
-          "escala": "Miami"
-        },
-        "volta": {
-          "numero": "AA 1235",
-          "horario_partida": "17:00",
-          "horario_chegada": "06:45",
-          "data_completa": "Quarta-feira, 03 de Abril de 2024",
-          "aeroporto_origem": "PUJ - Punta Cana",
-          "aeroporto_destino": "GRU - São Paulo",
-          "escala": "Miami"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.6,
-        "total_avaliacoes": 278,
-        "estrelas": 4.8,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "autor": "Carlos Rodriguez",
-          "data": "2023-10-05",
-          "nota": 10,
-          "comentario": "Paraíso no Caribe! Serviço impecável e praias perfeitas.",
-          "votos_uteis": 98,
-          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Maria González",
-          "data": "2023-11-18",
-          "nota": 10,
-          "comentario": "¡La isla Saona es un sueño! Aguas turquesas increíbles.",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "John Smith",
-          "data": "2023-12-08",
-          "nota": 9,
-          "comentario": "All-inclusive means ALL! Drinks, food, activities - amazing value.",
-          "votos_uteis": 89,
-          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Amanda Silva",
-          "data": "2023-11-25",
-          "nota": 10,
-          "comentario": "Massagem à beira-mar foi a experiência mais relaxante da minha vida!",
-          "votos_uteis": 78,
+          "comentario": "Cirque du Soleil shows are absolutely mind-blowing!",
+          "votos_uteis": 178,
           "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
         },
         {
-          "autor": "David Miller",
-          "data": "2023-12-15",
+          "autor": "James Wilson",
+          "data": "2023-11-22",
+          "nota": 8,
+          "comentario": "Bellagio fountains are magical, but gambling can be dangerous.",
+          "votos_uteis": 89,
+          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Patricia Souza",
+          "data": "2023-12-18",
           "nota": 9,
-          "comentario": "Catamaran snorkeling tour was fantastic! Saw amazing fish.",
-          "votos_uteis": 92,
-          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+          "comentario": "Vegas à noite é um espetáculo à parte. As luzes são incríveis!",
+          "votos_uteis": 134,
+          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+        },
+        {
+          "autor": "Robert Chen",
+          "data": "2023-11-30",
+          "nota": 7,
+          "comentario": "Very expensive everything. Bring lots of money!",
+          "votos_uteis": 67,
+          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
         }
       ],
       "imagens": [
-        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1581798459219-5a2c4c4f7d0a?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1592400420056-48a7d3dbfd5a?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1532465614-5f3e8d4d1c67?w=1200&auto=format&fit=crop&q=80"
       ],
       "atividades": [
         {
-          "nome": "Passeio de catamarã com snorkel",
-          "duracao": "5 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Visita à ilha Saona",
-          "duracao": "8 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Massagem romântica à beira-mar",
-          "duracao": "1 hora",
+          "nome": "Show do Cirque du Soleil 'O'",
+          "duracao": "1h30",
+          "horario": "19:30 - 21:00",
           "dificuldade": "Nenhuma",
+          "incluso": true,
+          "id_atividade": 73
+        },
+        {
+          "nome": "Tour pelos cassinos da Strip",
+          "duracao": "4 horas",
+          "horario": "20:00 - 00:00",
+          "dificuldade": "Fácil",
+          "incluso": true,
+          "id_atividade": 74
+        },
+        {
+          "nome": "Voo de helicóptero pelo Grand Canyon",
+          "duracao": "5 horas",
+          "horario": "09:00 - 14:00",
+          "dificuldade": "Moderada",
           "incluso": false,
-          "preco_extra": 320.00
+          "preco_extra": 1200.00,
+          "id_atividade": 75
+        }
+      ],
+      "itinerario": [
+        {
+          "dia": 1,
+          "atividades": [
+            "Chegada ao aeroporto McCarran, Las Vegas",
+            "Transfer para o Bellagio Hotel na Las Vegas Strip",
+            "Check-in e descanso após o voo noturno",
+            "Primeiro passeio pela Strip durante o dia",
+            "Visita ao Bellagio Conservatory & Botanical Gardens",
+            "Primeira experiência no cassino (opcional)",
+            "Jantar de boas-vindas em restaurante do hotel"
+          ]
+        },
+        {
+          "dia": 2,
+          "atividades": [
+            "Café da manhã executivo no Bellagio",
+            "Tour pela manhã pelos hotéis-cassino temáticos",
+            "Visita ao Venetian (canais de Veneza)",
+            "Almoço no Paris Las Vegas (torre Eiffel)",
+            "Tarde livre para compras no Forum Shops at Caesars",
+            "Show das fontes do Bellagio à noite",
+            "Jantar em restaurante de celebridade"
+          ]
+        },
+        {
+          "dia": 3,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Opção: Voo de helicóptero pelo Grand Canyon (pago extra)",
+            "Ou: Visita ao Fremont Street Experience (Centro antigo)",
+            "Almoço em Downtown Las Vegas",
+            "Tarde no High Roller Observation Wheel (roda-gigante)",
+            "Tour noturno pelos cassinos da Strip com guia",
+            "Show do Cirque du Soleil 'O' no Bellagio"
+          ]
+        },
+        {
+          "dia": 4,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Visita ao Stratosphere Tower (vista panorâmica)",
+            "Almoço no topo da torre com vista",
+            "Tarde no Miracle Mile Shops",
+            "Experiência em reality VR ou escape room",
+            "Jantar espetáculo em dinner show temático",
+            "Noite livre para tentar a sorte nos cassinos"
+          ]
+        },
+        {
+          "dia": 5,
+          "atividades": [
+            "Café da manhã no hotel",
+            "Check-out e armazenamento de bagagens",
+            "Últimas fotos na Welcome to Fabulous Las Vegas Sign",
+            "Almoço de despedida em buffet típico de Vegas",
+            "Tarde livre para últimas compras ou cassino",
+            "Transfer para o aeroporto McCarran",
+            "Voo de retorno ao Brasil via Atlanta"
+          ]
         }
       ],
       "incluso": [
         "Passagem aérea",
-        "Resort all-inclusive",
-        "Bebidas premium",
-        "Atividades aquáticas",
-        "Entretenimento noturno"
+        "Hospedagem 5 estrelas",
+        "Café da manhã executivo",
+        "Ingresso para show do Cirque du Soleil",
+        "Transfer aeroporto-hotel",
+        "Tour guiado pela Strip"
       ],
       "tags": [
-        "all-inclusive",
-        "caribe",
-        "praia",
-        "romântico"
+        "noite",
+        "shows",
+        "luxo",
+        "cassino",
+        "entretenimento"
       ],
       "disponibilidade": {
-        "vagas": 15,
+        "vagas": 18,
         "datas_disponiveis": [
-          "2024-03-28",
-          "2024-06-14",
+          "2024-05-15",
+          "2024-09-10",
           "2024-11-20"
         ]
       }
-    },
-    {
-      "id": 27,
-      "ranking": 27,
-      "nome_pacote": "Paraíso em Noronha: 6 Dias no Arquipélago Preservado",
-      "resumo": {
-        "quantidade_voos": 2,
-        "quantidade_atividades": 3,
-        "quantidade_acomodacoes": 1,
-        "guia_turistico": {
-          "nome": "Juliana Ferreira",
-          "especialidade": "Ecoturismo e Natureza",
-          "anos_experiencia": 7,
-          "imagem": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80"
-        }
-      },
-      "destino": {
-        "nome": "Fernando de Noronha",
-        "pais": "Brasil",
-        "continente": "América do Sul",
-        "descricao": "Arquipélago preservado com praias paradisíacas e vida marinha"
-      },
-      "preco": {
-        "total": 6800.00,
-        "moeda": "BRL",
-        "parcelamento": "6x R$ 1.133,33",
-        "taxas_inclusas": true,
-        "desconto": 10
-      },
-      "duracao": {
-        "dias": 6,
-        "noites": 5,
-        "temporada": "Alta"
-      },
-      "estadia": {
-        "checkin": "Terça-feira, 05 de Março de 2024",
-        "checkout": "Domingo, 10 de Março de 2024",
-        "noites": 5
-      },
-      "acomodacao": {
-        "id": 27,
-        "tipo": "Pousada ecológica",
-        "categoria": "3 estrelas",
-        "nome_hotel": "Pousada Maravilha",
-        "servicos": [
-          "Café da manhã regional",
-          "Wi-Fi",
-          "Trilhas guiadas",
-          "Informações turísticas"
-        ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 12
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "Gol Linhas Aéreas",
-          "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
-        },
-        "ida": {
-          "numero": "G3 1750",
-          "horario_partida": "06:00",
-          "horario_chegada": "10:30",
-          "data_completa": "Terça-feira, 05 de Março de 2024",
-          "aeroporto_origem": "REC - Recife",
-          "aeroporto_destino": "FEN - Fernando de Noronha",
-          "escala": null
-        },
-        "volta": {
-          "numero": "G3 1751",
-          "horario_partida": "11:30",
-          "horario_chegada": "16:00",
-          "data_completa": "Domingo, 10 de Março de 2024",
-          "aeroporto_origem": "FEN - Fernando de Noronha",
-          "aeroporto_destino": "REC - Recife",
-          "escala": null
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.9,
-        "total_avaliacoes": 198,
-        "estrelas": 4.8,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "autor": "Juliana Ferreira",
-          "data": "2023-09-12",
-          "nota": 10,
-          "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico.",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Marcos Andrade",
-          "data": "2023-08-30",
-          "nota": 9,
-          "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo!",
-          "votos_uteis": 78,
-          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Ana Carolina",
-          "data": "2023-10-15",
-          "nota": 10,
-          "comentario": "Baía do Sancho é a praia mais linda do Brasil!",
-          "votos_uteis": 134,
-          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Ricardo Lima",
-          "data": "2023-11-08",
-          "nota": 9,
-          "comentario": "Trilhas incríveis, mas exige preparo físico.",
-          "votos_uteis": 67,
-          "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Beatriz Costa",
-          "data": "2023-12-05",
-          "nota": 10,
-          "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível!",
-          "votos_uteis": 89,
-          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1564501049418-3c27787d01e8?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Mergulho com tartarugas marinhas",
-          "duracao": "4 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Trilha até a Baía do Sancho",
-          "duracao": "3 horas",
-          "dificuldade": "Difícil",
-          "incluso": true
-        },
-        {
-          "nome": "Passeio de barco noturno",
-          "duracao": "2 horas",
-          "dificuldade": "Fácil",
-          "incluso": false,
-          "preco_extra": 280.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea Recife-Noronha",
-        "Hospedagem em pousada ecológica",
-        "Café da manhã",
-        "Taxa ambiental da ilha",
-        "Trilhas guiadas",
-        "Kit snorkel"
-      ],
-      "tags": [
-        "ecoturismo",
-        "praia",
-        "mergulho",
-        "nacional",
-        "preservação"
-      ],
-      "disponibilidade": {
-        "vagas": 6,
-        "datas_disponiveis": [
-          "2024-03-05",
-          "2024-06-18",
-          "2024-11-10",
-          "2025-01-15"
-        ]
+    }, 
+  {
+    "id": 26,
+    "ranking": 26,
+    "nome_pacote": "Caribe Total: 7 Dias All-Inclusive em Punta Cana",
+    "resumo": {
+      "quantidade_voos": 2,
+      "quantidade_atividades": 3,
+      "quantidade_acomodacoes": 1,
+      "guia_turistico": {
+        "nome": "Carlos Rodriguez",
+        "especialidade": "Destinos Caribenhos",
+        "anos_experiencia": 8,
+        "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
       }
     },
-    {
-      "id": 28,
-      "ranking": 28,
-      "nome_pacote": "Roma Eterna: 6 Dias na Capital da História",
-      "resumo": {
-        "quantidade_voos": 2,
-        "quantidade_atividades": 3,
-        "quantidade_acomodacoes": 1,
-        "guia_turistico": {
-          "nome": "Giovanni Rossi",
-          "especialidade": "História Romana",
-          "anos_experiencia": 13,
-          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
-        }
-      },
-      "destino": {
-        "nome": "Roma",
-        "pais": "Itália",
-        "continente": "Europa",
-        "descricao": "Cidade eterna com história milenar e arte renascentista"
-      },
-      "preco": {
-        "total": 8300.00,
-        "moeda": "BRL",
-        "parcelamento": "10x R$ 830,00",
-        "taxas_inclusas": true,
-        "desconto": 12
-      },
-      "duracao": {
-        "dias": 6,
-        "noites": 5,
-        "temporada": "Média"
-      },
-      "estadia": {
-        "checkin": "Quarta-feira, 10 de Abril de 2024",
-        "checkout": "Terça-feira, 16 de Abril de 2024",
-        "noites": 5
-      },
-      "acomodacao": {
-        "id": 28,
-        "tipo": "Hotel no centro histórico",
-        "categoria": "3 estrelas",
-        "nome_hotel": "Colosseum View Hotel",
-        "servicos": [
-          "Café da manhã italiano",
-          "Wi-Fi",
-          "Ar condicionado",
-          "Recepção bilíngue"
-        ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "ITA Airways",
-          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
-        },
-        "ida": {
-          "numero": "AZ 680",
-          "horario_partida": "20:15",
-          "horario_chegada": "12:30",
-          "data_completa": "Quarta-feira, 10 de Abril de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "FCO - Roma",
-          "escala": null
-        },
-        "volta": {
-          "numero": "AZ 681",
-          "horario_partida": "14:00",
-          "horario_chegada": "04:45",
-          "data_completa": "Terça-feira, 16 de Abril de 2024",
-          "aeroporto_origem": "FCO - Roma",
-          "aeroporto_destino": "GRU - São Paulo",
-          "escala": null
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.6,
-        "total_avaliacoes": 567,
-        "estrelas": 4.8,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "autor": "Giovanni Rossi",
-          "data": "2023-10-25",
-          "nota": 10,
-          "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo.",
-          "votos_uteis": 134,
-          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Patrícia Lima",
-          "data": "2023-09-18",
-          "nota": 9,
-          "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar.",
-          "votos_uteis": 89,
-          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Marco Bellini",
-          "data": "2023-11-30",
-          "nota": 10,
-          "comentario": "Colosseo di notte è magico! Da non perdere.",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Fernanda Alves",
-          "data": "2023-12-12",
-          "nota": 9,
-          "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda.",
-          "votos_uteis": 67,
-          "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Sophia Bianchi",
-          "data": "2023-12-05",
-          "nota": 10,
-          "comentario": "La pasta carbonara più buona della mia vita! Roma è amore.",
-          "votos_uteis": 98,
-          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
-        }
+    "destino": {
+      "nome": "Punta Cana",
+      "pais": "República Dominicana",
+      "continente": "América do Norte",
+      "descricao": "Paraíso caribenho com resorts all-inclusive e praias de palmeiras"
+    },
+    "preco": {
+      "total": 8500.00,
+      "moeda": "BRL",
+      "parcelamento": "10x R$ 850,00",
+      "taxas_inclusas": true,
+      "desconto": 18
+    },
+    "duracao": {
+      "dias": 7,
+      "noites": 6,
+      "temporada": "Alta"
+    },
+    "estadia": {
+      "checkin": "Quinta-feira, 28 de Março de 2024",
+      "checkout": "Quarta-feira, 03 de Abril de 2024",
+      "noites": 6
+    },
+    "acomodacao": {
+      "id": 26,
+      "tipo": "Resort All-Inclusive 5*",
+      "categoria": "5 estrelas",
+      "nome_hotel": "Caribe Dreams Resort & SPA",
+      "servicos": [
+        "All-inclusive",
+        "Wi-Fi",
+        "SPA",
+        "Atividades aquáticas"
       ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1588614959060-4d144f28b207?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Tour pelo Coliseu e Fórum Romano",
-          "duracao": "4 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Visita à Fontana di Trevi",
-          "duracao": "2 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Tour gastronômico por Trastevere",
-          "duracao": "3 horas",
-          "dificuldade": "Fácil",
-          "incluso": false,
-          "preco_extra": 350.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea Alitalia",
-        "Hospedagem em hotel histórico",
-        "Café da manhã italiano",
-        "Ingresso para o Coliseu",
-        "City tour guiado",
-        "Transfer aeroporto"
-      ],
-      "tags": [
-        "história",
-        "arte",
-        "gastronomia",
-        "cultura",
-        "antiguidade"
-      ],
-      "disponibilidade": {
-        "vagas": 22,
-        "datas_disponiveis": [
-          "2024-04-10",
-          "2024-06-25",
-          "2024-09-15",
-          "2024-11-05"
-        ]
+      "imagem_hotel": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
+    },
+    "viajantes": {
+      "quantidade": 2,
+      "tipo": "Casal",
+      "idade_minima": 0
+    },
+    "voos": {
+      "companhia_aerea": {
+        "nome": "American Airlines",
+        "logo": "https://s202.q4cdn.com/986123435/files/doc_downloads/logos/american-airlines/THUMB-aa_aa__ahz_4cp_grd_pos-(1).png"
+      },
+      "ida": {
+        "numero": "AA 1234",
+        "horario_partida": "08:45",
+        "horario_chegada": "15:30",
+        "data_completa": "Quinta-feira, 28 de Março de 2024",
+        "aeroporto_origem": "GRU - São Paulo",
+        "aeroporto_destino": "PUJ - Punta Cana",
+        "escala": "Miami"
+      },
+      "volta": {
+        "numero": "AA 1235",
+        "horario_partida": "17:00",
+        "horario_chegada": "06:45",
+        "data_completa": "Quarta-feira, 03 de Abril de 2024",
+        "aeroporto_origem": "PUJ - Punta Cana",
+        "aeroporto_destino": "GRU - São Paulo",
+        "escala": "Miami"
       }
     },
-    {
-      "id": 29,
-      "ranking": 29,
-      "nome_pacote": "Paraíso Tailandês: 8 Dias em Phuket com Resort 5 Estrelas",
-      "resumo": {
-        "quantidade_voos": 2,
-        "quantidade_atividades": 3,
-        "quantidade_acomodacoes": 1,
-        "guia_turistico": {
-          "nome": "Sompong Wong",
-          "especialidade": "Cultura Tailandesa",
-          "anos_experiencia": 8,
-          "imagem": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&auto=format&fit=crop&q=80"
-        }
-      },
-      "destino": {
-        "nome": "Phuket",
-        "pais": "Tailândia",
-        "continente": "Ásia",
-        "descricao": "Ilha tropical com praias de areia branca e águas turquesa"
-      },
-      "preco": {
-        "total": 9200.00,
-        "moeda": "BRL",
-        "parcelamento": "10x R$ 920,00",
-        "taxas_inclusas": true,
-        "desconto": 12
-      },
-      "duracao": {
-        "dias": 8,
-        "noites": 7,
-        "temporada": "Média"
-      },
-      "estadia": {
-        "checkin": "Domingo, 25 de Fevereiro de 2024",
-        "checkout": "Domingo, 03 de Março de 2024",
-        "noites": 7
-      },
-      "acomodacao": {
-        "id": 29,
-        "tipo": "Resort à beira-mar",
-        "categoria": "5 estrelas",
-        "nome_hotel": "Andaman Sea Resort",
-        "servicos": [
-          "Café da manhã",
-          "Wi-Fi",
-          "Piscina",
-          "SPA"
-        ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
-      },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
-      },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "Thai Airways",
-          "logo": "https://download.logo.wine/logo/Thai_Airways/Thai_Airways-Logo.wine.png"
-        },
-        "ida": {
-          "numero": "TG 925",
-          "horario_partida": "01:00",
-          "horario_chegada": "00:30",
-          "data_completa": "Domingo, 25 de Fevereiro de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "HKT - Phuket",
-          "escala": "Bangkok"
-        },
-        "volta": {
-          "numero": "TG 926",
-          "horario_partida": "03:00",
-          "horario_chegada": "09:45",
-          "data_completa": "Domingo, 03 de Março de 2024",
-          "aeroporto_origem": "HKT - Phuket",
-          "aeroporto_destino": "GRU - São Paulo",
-          "escala": "Bangkok"
-        }
-      },
-      "avaliacao": {
-        "pontuacao": 9.6,
-        "total_avaliacoes": 278,
-        "estrelas": 5.0,
-        "destaque": "Excelente"
-      },
-      "reviews": [
-        {
-          "autor": "Chen Li",
-          "data": "2023-10-22",
-          "nota": 10,
-          "comentario": "Paraíso tropical com cultura tailandesa única!",
-          "votos_uteis": 78,
-          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Sompong Wong",
-          "data": "2023-11-15",
-          "nota": 10,
-          "comentario": "Islands tour was amazing! Crystal clear water.",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Ana Paula",
-          "data": "2023-12-05",
-          "nota": 9,
-          "comentario": "Resort maravilhoso, mas cuidado com o sol forte!",
-          "votos_uteis": 67,
-          "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "David Miller",
-          "data": "2023-11-28",
-          "nota": 10,
-          "comentario": "Best Thai massage ever! Beaches are paradise.",
-          "votos_uteis": 89,
-          "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Carla Mendes",
-          "data": "2023-12-18",
-          "nota": 9,
-          "comentario": "Comida tailandesa autêntica e deliciosa!",
-          "votos_uteis": 76,
-          "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGh1a2V0fGVufDB8fDB8fHww",
-        "https://plus.unsplash.com/premium_photo-1661962958462-9e52fda9954d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGh1a2V0fGVufDB8fDB8fHww",
-        "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGh1a2V0fGVufDB8fDB8fHww",
-        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Passeio de barco às ilhas Phi Phi",
-          "duracao": "8 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Visita ao Big Buddha",
-          "duracao": "3 horas",
-          "dificuldade": "Moderada",
-          "incluso": true
-        },
-        {
-          "nome": "Massagem tailandesa tradicional",
-          "duracao": "2 horas",
-          "dificuldade": "Nenhuma",
-          "incluso": false,
-          "preco_extra": 180.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea",
-        "Hospedagem",
-        "Café da manhã",
-        "Tour às ilhas",
-        "Transfer"
-      ],
-      "tags": [
-        "tropical",
-        "praia",
-        "cultura",
-        "aventura"
-      ],
-      "disponibilidade": {
-        "vagas": 9,
-        "datas_disponiveis": [
-          "2024-02-25",
-          "2024-06-15",
-          "2024-11-08"
-        ]
-      }
+    "avaliacao": {
+      "pontuacao": 9.6,
+      "total_avaliacoes": 278,
+      "estrelas": 4.8,
+      "destaque": "Excelente"
     },
-    {
-      "id": 30,
-      "ranking": 30,
-      "nome_pacote": "Canais da Paixão: 4 Dias Românticos em Veneza",
-      "resumo": {
-        "quantidade_voos": 2,
-        "quantidade_atividades": 3,
-        "quantidade_acomodacoes": 1,
-        "guia_turistico": {
-          "nome": "Marco Bellini",
-          "especialidade": "Destinos Românticos Italianos",
-          "anos_experiencia": 9,
-          "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
-        }
+    "reviews": [
+      {
+        "autor": "Carlos Rodriguez",
+        "data": "2023-10-05",
+        "nota": 10,
+        "comentario": "Paraíso no Caribe! Serviço impecável e praias perfeitas.",
+        "votos_uteis": 98,
+        "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
       },
-      "destino": {
-        "nome": "Veneza",
-        "pais": "Itália",
-        "continente": "Europa",
-        "descricao": "Cidade romântica construída sobre canais"
+      {
+        "autor": "Maria González",
+        "data": "2023-11-18",
+        "nota": 10,
+        "comentario": "¡La isla Saona es un sueño! Aguas turquesas increíbles.",
+        "votos_uteis": 112,
+        "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
       },
-      "preco": {
-        "total": 8900.00,
-        "moeda": "BRL",
-        "parcelamento": "10x R$ 890,00",
-        "taxas_inclusas": true,
-        "desconto": 8
+      {
+        "autor": "John Smith",
+        "data": "2023-12-08",
+        "nota": 9,
+        "comentario": "All-inclusive means ALL! Drinks, food, activities - amazing value.",
+        "votos_uteis": 89,
+        "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
       },
-      "duracao": {
-        "dias": 4,
-        "noites": 3,
-        "temporada": "Alta"
+      {
+        "autor": "Amanda Silva",
+        "data": "2023-11-25",
+        "nota": 10,
+        "comentario": "Massagem à beira-mar foi a experiência mais relaxante da minha vida!",
+        "votos_uteis": 78,
+        "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
       },
-      "estadia": {
-        "checkin": "Sexta-feira, 05 de Abril de 2024",
-        "checkout": "Segunda-feira, 08 de Abril de 2024",
-        "noites": 3
+      {
+        "autor": "David Miller",
+        "data": "2023-12-15",
+        "nota": 9,
+        "comentario": "Catamaran snorkeling tour was fantastic! Saw amazing fish.",
+        "votos_uteis": 92,
+        "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+      }
+    ],
+    "imagens": [
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&auto=format&fit=crop&q=80"
+    ],
+    "atividades": [
+      {
+        "nome": "Passeio de catamarã com snorkel",
+        "duracao": "5 horas",
+        "horario": "09:00 - 14:00",
+        "dificuldade": "Fácil",
+        "incluso": true,
+        "id_atividade": 76
       },
-      "acomodacao": {
-        "id": 30,
-        "tipo": "Hotel à beira do canal",
-        "categoria": "4 estrelas",
-        "nome_hotel": "Grand Canal Palace",
-        "servicos": [
-          "Café da manhã",
-          "Wi-Fi",
-          "Vista para o canal"
-        ],
-        "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+      {
+        "nome": "Visita à ilha Saona",
+        "duracao": "8 horas",
+        "horario": "08:00 - 16:00",
+        "dificuldade": "Moderada",
+        "incluso": true,
+        "id_atividade": 77
       },
-      "viajantes": {
-        "quantidade": 2,
-        "tipo": "Casal",
-        "idade_minima": 0
+      {
+        "nome": "Massagem romântica à beira-mar",
+        "duracao": "1 hora",
+        "horario": "16:00 - 17:00",
+        "dificuldade": "Nenhuma",
+        "incluso": false,
+        "preco_extra": 320.00,
+        "id_atividade": 78
+      }
+    ],
+    "itinerario": [
+      {
+        "dia": 1,
+        "atividades": [
+          "Chegada ao aeroporto de Punta Cana",
+          "Transfer para o resort all-inclusive",
+          "Check-in e orientação sobre o resort",
+          "Almoço no restaurante principal",
+          "Tarde livre na praia ou piscina"
+        ]
       },
-      "voos": {
-        "companhia_aerea": {
-          "nome": "ITA Airways",
-          "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
-        },
-        "ida": {
-          "numero": "AZ 712",
-          "horario_partida": "19:30",
-          "horario_chegada": "10:15",
-          "data_completa": "Sexta-feira, 05 de Abril de 2024",
-          "aeroporto_origem": "GRU - São Paulo",
-          "aeroporto_destino": "VCE - Veneza",
-          "escala": "Roma"
-        },
-        "volta": {
-          "numero": "AZ 713",
-          "horario_partida": "12:00",
-          "horario_chegada": "02:45",
-          "data_completa": "Segunda-feira, 08 de Abril de 2024",
-          "aeroporto_origem": "VCE - Veneza",
-          "aeroporto_destino": "GRU - São Paulo",
-          "escala": "Roma"
-        }
+      {
+        "dia": 2,
+        "atividades": [
+          "Café da manhã no resort",
+          "Passeio de catamarã com snorkel",
+          "Almoço a bordo",
+          "Tarde de relaxamento na praia",
+          "Jantar temático no resort"
+        ]
       },
-      "avaliacao": {
-        "pontuacao": 9.7,
-        "total_avaliacoes": 312,
-        "estrelas": 5.0,
-        "destaque": "Excelente"
+      {
+        "dia": 3,
+        "atividades": [
+          "Café da manhã no resort",
+          "Excursão para a ilha Saona",
+          "Almoço na ilha",
+          "Retorno ao resort",
+          "Noite de entretenimento ao vivo"
+        ]
       },
-      "reviews": [
-        {
-          "autor": "Marco Bellini",
-          "data": "2023-09-30",
-          "nota": 10,
-          "comentario": "Passeio de gôndola no pôr do sol é mágico!",
-          "votos_uteis": 134,
-          "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Isabella Conti",
-          "data": "2023-10-25",
-          "nota": 10,
-          "comentario": "Venezia è la città più romantica del mondo!",
-          "votos_uteis": 112,
-          "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Roberto Santos",
-          "data": "2023-11-18",
-          "nota": 9,
-          "comentario": "Cidade única, mas cuidado com as marés altas.",
-          "votos_uteis": 78,
-          "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Sophia Rossi",
-          "data": "2023-12-08",
-          "nota": 10,
-          "comentario": "Piazza San Marco at sunrise is absolutely magical!",
-          "votos_uteis": 89,
-          "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
-        },
-        {
-          "autor": "Carlos Eduardo",
-          "data": "2023-12-20",
-          "nota": 8,
-          "comentario": "Romântico, mas os preços são muito elevados.",
-          "votos_uteis": 67,
-          "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
-        }
-      ],
-      "imagens": [
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
-        "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
-      ],
-      "atividades": [
-        {
-          "nome": "Passeio de gôndola pelos canais",
-          "duracao": "1 hora",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Visita à Praça de São Marcos",
-          "duracao": "3 horas",
-          "dificuldade": "Fácil",
-          "incluso": true
-        },
-        {
-          "nome": "Jantar romântico em restaurante típico",
-          "duracao": "2 horas",
-          "dificuldade": "Nenhuma",
-          "incluso": false,
-          "preco_extra": 380.00
-        }
-      ],
-      "incluso": [
-        "Passagem aérea",
-        "Hospedagem",
-        "Café da manhã",
-        "Passeio de gôndola",
-        "City tour"
-      ],
-      "tags": [
-        "romântico",
-        "canais",
-        "gôndola",
-        "história"
-      ],
-      "disponibilidade": {
-        "vagas": 7,
-        "datas_disponiveis": [
-          "2024-04-05",
-          "2024-07-18",
-          "2024-10-12"
+      {
+        "dia": 4,
+        "atividades": [
+          "Café da manhã no resort",
+          "Dia livre para atividades do resort",
+          "Opcional: massagem à beira-mar",
+          "Aula de dança caribenha",
+          "Jantar romântico à beira-mar"
+        ]
+      },
+      {
+        "dia": 5,
+        "atividades": [
+          "Café da manhã no resort",
+          "Visita ao parque nacional",
+          "Almoço em restaurante local",
+          "Tarde livre para compras",
+          "Show folclórico dominicano"
+        ]
+      },
+      {
+        "dia": 6,
+        "atividades": [
+          "Café da manhã no resort",
+          "Dia livre para aproveitar as instalações",
+          "Esportes aquáticos (opcional)",
+          "Despedida com coquetel de frutas tropicais",
+          "Jantar de despedida"
+        ]
+      },
+      {
+        "dia": 7,
+        "atividades": [
+          "Café da manhã no resort",
+          "Check-out e tempo livre",
+          "Transfer para o aeroporto",
+          "Voo de retorno ao Brasil"
         ]
       }
+    ],
+    "incluso": [
+      "Passagem aérea",
+      "Resort all-inclusive",
+      "Bebidas premium",
+      "Atividades aquáticas",
+      "Entretenimento noturno"
+    ],
+    "tags": [
+      "all-inclusive",
+      "caribe",
+      "praia",
+      "romântico"
+    ],
+    "disponibilidade": {
+      "vagas": 15,
+      "datas_disponiveis": [
+        "2024-03-28",
+        "2024-06-14",
+        "2024-11-20"
+      ]
     }
-  ]
+  },
+  {
+    "id": 27,
+    "ranking": 27,
+    "nome_pacote": "Paraíso em Noronha: 6 Dias no Arquipélago Preservado",
+    "resumo": {
+      "quantidade_voos": 2,
+      "quantidade_atividades": 3,
+      "quantidade_acomodacoes": 1,
+      "guia_turistico": {
+        "nome": "Juliana Ferreira",
+        "especialidade": "Ecoturismo e Natureza",
+        "anos_experiencia": 7,
+        "imagem": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&auto=format&fit=crop&q=80"
+      }
+    },
+    "destino": {
+      "nome": "Fernando de Noronha",
+      "pais": "Brasil",
+      "continente": "América do Sul",
+      "descricao": "Arquipélago preservado com praias paradisíacas e vida marinha"
+    },
+    "preco": {
+      "total": 6800.00,
+      "moeda": "BRL",
+      "parcelamento": "6x R$ 1.133,33",
+      "taxas_inclusas": true,
+      "desconto": 10
+    },
+    "duracao": {
+      "dias": 6,
+      "noites": 5,
+      "temporada": "Alta"
+    },
+    "estadia": {
+      "checkin": "Terça-feira, 05 de Março de 2024",
+      "checkout": "Domingo, 10 de Março de 2024",
+      "noites": 5
+    },
+    "acomodacao": {
+      "id": 27,
+      "tipo": "Pousada ecológica",
+      "categoria": "3 estrelas",
+      "nome_hotel": "Pousada Maravilha",
+      "servicos": [
+        "Café da manhã regional",
+        "Wi-Fi",
+        "Trilhas guiadas",
+        "Informações turísticas"
+      ],
+      "imagem_hotel": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&auto=format&fit=crop&q=80"
+    },
+    "viajantes": {
+      "quantidade": 2,
+      "tipo": "Casal",
+      "idade_minima": 12
+    },
+    "voos": {
+      "companhia_aerea": {
+        "nome": "Gol Linhas Aéreas",
+        "logo": "https://static.wixstatic.com/media/956745_1360b47a31504222a2dc6423c6567a2a~mv2.png/v1/fill/w_768,h_768,al_c/gol.png"
+      },
+      "ida": {
+        "numero": "G3 1750",
+        "horario_partida": "06:00",
+        "horario_chegada": "10:30",
+        "data_completa": "Terça-feira, 05 de Março de 2024",
+        "aeroporto_origem": "REC - Recife",
+        "aeroporto_destino": "FEN - Fernando de Noronha",
+        "escala": null
+      },
+      "volta": {
+        "numero": "G3 1751",
+        "horario_partida": "11:30",
+        "horario_chegada": "16:00",
+        "data_completa": "Domingo, 10 de Março de 2024",
+        "aeroporto_origem": "FEN - Fernando de Noronha",
+        "aeroporto_destino": "REC - Recife",
+        "escala": null
+      }
+    },
+    "avaliacao": {
+      "pontuacao": 9.9,
+      "total_avaliacoes": 198,
+      "estrelas": 4.8,
+      "destaque": "Excelente"
+    },
+    "reviews": [
+      {
+        "autor": "Juliana Ferreira",
+        "data": "2023-09-12",
+        "nota": 10,
+        "comentario": "Paraíso na terra! Águas cristalinas e natureza preservada. O mergulho com tartarugas foi mágico.",
+        "votos_uteis": 112,
+        "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Marcos Andrade",
+        "data": "2023-08-30",
+        "nota": 9,
+        "comentario": "Lugar incrível, mas a taxa ambiental é cara. Vale cada centavo!",
+        "votos_uteis": 78,
+        "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Ana Carolina",
+        "data": "2023-10-15",
+        "nota": 10,
+        "comentario": "Baía do Sancho é a praia mais linda do Brasil!",
+        "votos_uteis": 134,
+        "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Ricardo Lima",
+        "data": "2023-11-08",
+        "nota": 9,
+        "comentario": "Trilhas incríveis, mas exige preparo físico.",
+        "votos_uteis": 67,
+        "imagem_perfil": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Beatriz Costa",
+        "data": "2023-12-05",
+        "nota": 10,
+        "comentario": "Pôr do sol no Mirante dos Golfinhos é inesquecível!",
+        "votos_uteis": 89,
+        "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+      }
+    ],
+    "imagens": [
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1564501049418-3c27787d01e8?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1200&auto=format&fit=crop&q=80"
+    ],
+    "atividades": [
+      {
+        "nome": "Mergulho com tartarugas marinhas",
+        "duracao": "4 horas",
+        "horario": "08:00 - 12:00",
+        "dificuldade": "Moderada",
+        "incluso": true,
+        "id_atividade": 79
+      },
+      {
+        "nome": "Trilha até a Baía do Sancho",
+        "duracao": "3 horas",
+        "horario": "14:00 - 17:00",
+        "dificuldade": "Difícil",
+        "incluso": true,
+        "id_atividade": 80
+      },
+      {
+        "nome": "Passeio de barco noturno",
+        "duracao": "2 horas",
+        "horario": "19:00 - 21:00",
+        "dificuldade": "Fácil",
+        "incluso": false,
+        "preco_extra": 280.00,
+        "id_atividade": 81
+      }
+    ],
+    "itinerario": [
+      {
+        "dia": 1,
+        "atividades": [
+          "Voo Recife-Noronha",
+          "Chegada ao arquipélago",
+          "Transfer para a pousada",
+          "Check-in e orientações",
+          "Visita à Vila dos Remédios",
+          "Pôr do sol no Forte"
+        ]
+      },
+      {
+        "dia": 2,
+        "atividades": [
+          "Café da manhã na pousada",
+          "Mergulho com tartarugas marinhas",
+          "Almoço em restaurante local",
+          "Trilha até a Praia do Sancho",
+          "Tempo livre na praia"
+        ]
+      },
+      {
+        "dia": 3,
+        "atividades": [
+          "Café da manhã na pousada",
+          "Trilha do Atalaia",
+          "Snorkel na piscina natural",
+          "Almoço picnic",
+          "Visita ao Projeto Tamar",
+          "Pôr do sol no Mirante dos Golfinhos"
+        ]
+      },
+      {
+        "dia": 4,
+        "atividades": [
+          "Café da manhã na pousada",
+          "Passeio de buggy pela ilha",
+          "Visita à Praia do Leão",
+          "Almoço na Praia da Conceição",
+          "Trilha da Ponta da Sapata",
+          "Opcional: passeio de barco noturno"
+        ]
+      },
+      {
+        "dia": 5,
+        "atividades": [
+          "Café da manhã na pousada",
+          "Dia livre para escolher atividades",
+          "Opções: mergulho autônomo, surf, ou relaxamento",
+          "Almoço à escolha",
+          "Compras de artesanato local",
+          "Jantar de despedida"
+        ]
+      },
+      {
+        "dia": 6,
+        "atividades": [
+          "Café da manhã na pousada",
+          "Check-out",
+          "Últimas fotos nas praias",
+          "Transfer para o aeroporto",
+          "Voo Noronha-Recife"
+        ]
+      }
+    ],
+    "incluso": [
+      "Passagem aérea Recife-Noronha",
+      "Hospedagem em pousada ecológica",
+      "Café da manhã",
+      "Taxa ambiental da ilha",
+      "Trilhas guiadas",
+      "Kit snorkel"
+    ],
+    "tags": [
+      "ecoturismo",
+      "praia",
+      "mergulho",
+      "nacional",
+      "preservação"
+    ],
+    "disponibilidade": {
+      "vagas": 6,
+      "datas_disponiveis": [
+        "2024-03-05",
+        "2024-06-18",
+        "2024-11-10",
+        "2025-01-15"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "ranking": 28,
+    "nome_pacote": "Roma Eterna: 6 Dias na Capital da História",
+    "resumo": {
+      "quantidade_voos": 2,
+      "quantidade_atividades": 3,
+      "quantidade_acomodacoes": 1,
+      "guia_turistico": {
+        "nome": "Giovanni Rossi",
+        "especialidade": "História Romana",
+        "anos_experiencia": 13,
+        "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+      }
+    },
+    "destino": {
+      "nome": "Roma",
+      "pais": "Itália",
+      "continente": "Europa",
+      "descricao": "Cidade eterna com história milenar e arte renascentista"
+    },
+    "preco": {
+      "total": 8300.00,
+      "moeda": "BRL",
+      "parcelamento": "10x R$ 830,00",
+      "taxas_inclusas": true,
+      "desconto": 12
+    },
+    "duracao": {
+      "dias": 6,
+      "noites": 5,
+      "temporada": "Média"
+    },
+    "estadia": {
+      "checkin": "Quarta-feira, 10 de Abril de 2024",
+      "checkout": "Terça-feira, 16 de Abril de 2024",
+      "noites": 5
+    },
+    "acomodacao": {
+      "id": 28,
+      "tipo": "Hotel no centro histórico",
+      "categoria": "3 estrelas",
+      "nome_hotel": "Colosseum View Hotel",
+      "servicos": [
+        "Café da manhã italiano",
+        "Wi-Fi",
+        "Ar condicionado",
+        "Recepção bilíngue"
+      ],
+      "imagem_hotel": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&auto=format&fit=crop&q=80"
+    },
+    "viajantes": {
+      "quantidade": 2,
+      "tipo": "Casal",
+      "idade_minima": 0
+    },
+    "voos": {
+      "companhia_aerea": {
+        "nome": "ITA Airways",
+        "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+      },
+      "ida": {
+        "numero": "AZ 680",
+        "horario_partida": "20:15",
+        "horario_chegada": "12:30",
+        "data_completa": "Quarta-feira, 10 de Abril de 2024",
+        "aeroporto_origem": "GRU - São Paulo",
+        "aeroporto_destino": "FCO - Roma",
+        "escala": null
+      },
+      "volta": {
+        "numero": "AZ 681",
+        "horario_partida": "14:00",
+        "horario_chegada": "04:45",
+        "data_completa": "Terça-feira, 16 de Abril de 2024",
+        "aeroporto_origem": "FCO - Roma",
+        "aeroporto_destino": "GRU - São Paulo",
+        "escala": null
+      }
+    },
+    "avaliacao": {
+      "pontuacao": 9.6,
+      "total_avaliacoes": 567,
+      "estrelas": 4.8,
+      "destaque": "Excelente"
+    },
+    "reviews": [
+      {
+        "autor": "Giovanni Rossi",
+        "data": "2023-10-25",
+        "nota": 10,
+        "comentario": "História em cada esquina e comida divina! O gelato é o melhor do mundo.",
+        "votos_uteis": 134,
+        "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Patrícia Lima",
+        "data": "2023-09-18",
+        "nota": 9,
+        "comentario": "Cidade linda, mas muito cheia de turistas. Vale a pena acordar cedo para aproveitar.",
+        "votos_uteis": 89,
+        "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Marco Bellini",
+        "data": "2023-11-30",
+        "nota": 10,
+        "comentario": "Colosseo di notte è magico! Da non perdere.",
+        "votos_uteis": 112,
+        "imagem_perfil": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Fernanda Alves",
+        "data": "2023-12-12",
+        "nota": 9,
+        "comentario": "Fontana di Trevi lotada, mas vale a experiência de jogar a moeda.",
+        "votos_uteis": 67,
+        "imagem_perfil": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Sophia Bianchi",
+        "data": "2023-12-05",
+        "nota": 10,
+        "comentario": "La pasta carbonara più buona della mia vita! Roma è amore.",
+        "votos_uteis": 98,
+        "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+      }
+    ],
+    "imagens": [
+      "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1588614959060-4d144f28b207?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1555992828-ca4d2c76bde8?w=1200&auto=format&fit=crop&q=80"
+    ],
+    "atividades": [
+      {
+        "nome": "Tour pelo Coliseu e Fórum Romano",
+        "duracao": "4 horas",
+        "horario": "09:00 - 13:00",
+        "dificuldade": "Moderada",
+        "incluso": true,
+        "id_atividade": 82
+      },
+      {
+        "nome": "Visita à Fontana di Trevi",
+        "duracao": "2 horas",
+        "horario": "15:00 - 17:00",
+        "dificuldade": "Fácil",
+        "incluso": true,
+        "id_atividade": 83
+      },
+      {
+        "nome": "Tour gastronômico por Trastevere",
+        "duracao": "3 horas",
+        "horario": "19:00 - 22:00",
+        "dificuldade": "Fácil",
+        "incluso": false,
+        "preco_extra": 350.00,
+        "id_atividade": 84
+      }
+    ],
+    "itinerario": [
+      {
+        "dia": 1,
+        "atividades": [
+          "Chegada ao aeroporto de Roma Fiumicino",
+          "Transfer para o hotel no centro histórico",
+          "Check-in no hotel",
+          "Passeio inicial pela Piazza Navona",
+          "Jantar de boas-vindas em trattoria tradicional"
+        ]
+      },
+      {
+        "dia": 2,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Tour pelo Coliseu e Fórum Romano",
+          "Almoço no bairro Monti",
+          "Visita ao Palatino",
+          "Arco de Constantino",
+          "Noite livre para explorar"
+        ]
+      },
+      {
+        "dia": 3,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Visita ao Vaticano (Museus Vaticanos e Capela Sistina)",
+          "Almoço na área do Vaticano",
+          "Basílica de São Pedro",
+          "Piazza di Spagna e Escadarias da Espanha",
+          "Fontana di Trevi"
+        ]
+      },
+      {
+        "dia": 4,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Pantheon e Panteão",
+          "Piazza Venezia e Monumento a Vittorio Emanuele II",
+          "Almoço no bairro de Trastevere",
+          "Tarde livre para compras",
+          "Opcional: tour gastronômico por Trastevere"
+        ]
+      },
+      {
+        "dia": 5,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Excursão às Catacumbas de Roma",
+          "Via Appia Antiga",
+          "Almoço em restaurante típico",
+          "Tarde no bairro de Testaccio",
+          "Jantar de despedida com vista para o Coliseu"
+        ]
+      },
+      {
+        "dia": 6,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Check-out",
+          "Últimas compras na Via del Corso",
+          "Transfer para o aeroporto",
+          "Voo de retorno ao Brasil"
+        ]
+      }
+    ],
+    "incluso": [
+      "Passagem aérea Alitalia",
+      "Hospedagem em hotel histórico",
+      "Café da manhã italiano",
+      "Ingresso para o Coliseu",
+      "City tour guiado",
+      "Transfer aeroporto"
+    ],
+    "tags": [
+      "história",
+      "arte",
+      "gastronomia",
+      "cultura",
+      "antiguidade"
+    ],
+    "disponibilidade": {
+      "vagas": 22,
+      "datas_disponiveis": [
+        "2024-04-10",
+        "2024-06-25",
+        "2024-09-15",
+        "2024-11-05"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "ranking": 29,
+    "nome_pacote": "Paraíso Tailandês: 8 Dias em Phuket com Resort 5 Estrelas",
+    "resumo": {
+      "quantidade_voos": 2,
+      "quantidade_atividades": 3,
+      "quantidade_acomodacoes": 1,
+      "guia_turistico": {
+        "nome": "Sompong Wong",
+        "especialidade": "Cultura Tailandesa",
+        "anos_experiencia": 8,
+        "imagem": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&auto=format&fit=crop&q=80"
+      }
+    },
+    "destino": {
+      "nome": "Phuket",
+      "pais": "Tailândia",
+      "continente": "Ásia",
+      "descricao": "Ilha tropical com praias de areia branca e águas turquesa"
+    },
+    "preco": {
+      "total": 9200.00,
+      "moeda": "BRL",
+      "parcelamento": "10x R$ 920,00",
+      "taxas_inclusas": true,
+      "desconto": 12
+    },
+    "duracao": {
+      "dias": 8,
+      "noites": 7,
+      "temporada": "Média"
+    },
+    "estadia": {
+      "checkin": "Domingo, 25 de Fevereiro de 2024",
+      "checkout": "Domingo, 03 de Março de 2024",
+      "noites": 7
+    },
+    "acomodacao": {
+      "id": 29,
+      "tipo": "Resort à beira-mar",
+      "categoria": "5 estrelas",
+      "nome_hotel": "Andaman Sea Resort",
+      "servicos": [
+        "Café da manhã",
+        "Wi-Fi",
+        "Piscina",
+        "SPA"
+      ],
+      "imagem_hotel": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&auto=format&fit=crop&q=80"
+    },
+    "viajantes": {
+      "quantidade": 2,
+      "tipo": "Casal",
+      "idade_minima": 0
+    },
+    "voos": {
+      "companhia_aerea": {
+        "nome": "Thai Airways",
+        "logo": "https://download.logo.wine/logo/Thai_Airways/Thai_Airways-Logo.wine.png"
+      },
+      "ida": {
+        "numero": "TG 925",
+        "horario_partida": "01:00",
+        "horario_chegada": "00:30",
+        "data_completa": "Domingo, 25 de Fevereiro de 2024",
+        "aeroporto_origem": "GRU - São Paulo",
+        "aeroporto_destino": "HKT - Phuket",
+        "escala": "Bangkok"
+      },
+      "volta": {
+        "numero": "TG 926",
+        "horario_partida": "03:00",
+        "horario_chegada": "09:45",
+        "data_completa": "Domingo, 03 de Março de 2024",
+        "aeroporto_origem": "HKT - Phuket",
+        "aeroporto_destino": "GRU - São Paulo",
+        "escala": "Bangkok"
+      }
+    },
+    "avaliacao": {
+      "pontuacao": 9.6,
+      "total_avaliacoes": 278,
+      "estrelas": 5.0,
+      "destaque": "Excelente"
+    },
+    "reviews": [
+      {
+        "autor": "Chen Li",
+        "data": "2023-10-22",
+        "nota": 10,
+        "comentario": "Paraíso tropical com cultura tailandesa única!",
+        "votos_uteis": 78,
+        "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Sompong Wong",
+        "data": "2023-11-15",
+        "nota": 10,
+        "comentario": "Islands tour was amazing! Crystal clear water.",
+        "votos_uteis": 112,
+        "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Ana Paula",
+        "data": "2023-12-05",
+        "nota": 9,
+        "comentario": "Resort maravilhoso, mas cuidado com o sol forte!",
+        "votos_uteis": 67,
+        "imagem_perfil": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "David Miller",
+        "data": "2023-11-28",
+        "nota": 10,
+        "comentario": "Best Thai massage ever! Beaches are paradise.",
+        "votos_uteis": 89,
+        "imagem_perfil": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Carla Mendes",
+        "data": "2023-12-18",
+        "nota": 9,
+        "comentario": "Comida tailandesa autêntica e deliciosa!",
+        "votos_uteis": 76,
+        "imagem_perfil": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=100&auto=format&fit=crop&q=80"
+      }
+    ],
+    "imagens": [
+      "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGh1a2V0fGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1661962958462-9e52fda9954d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGh1a2V0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGh1a2V0fGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1552465011-b4e30bf7349d?w=1200&auto=format&fit=crop&q=80"
+    ],
+    "atividades": [
+      {
+        "nome": "Passeio de barco às ilhas Phi Phi",
+        "duracao": "8 horas",
+        "horario": "08:00 - 16:00",
+        "dificuldade": "Moderada",
+        "incluso": true,
+        "id_atividade": 85
+      },
+      {
+        "nome": "Visita ao Big Buddha",
+        "duracao": "3 horas",
+        "horario": "14:00 - 17:00",
+        "dificuldade": "Moderada",
+        "incluso": true,
+        "id_atividade": 86
+      },
+      {
+        "nome": "Massagem tailandesa tradicional",
+        "duracao": "2 horas",
+        "horario": "10:00 - 12:00",
+        "dificuldade": "Nenhuma",
+        "incluso": false,
+        "preco_extra": 180.00,
+        "id_atividade": 87
+      }
+    ],
+    "itinerario": [
+      {
+        "dia": 1,
+        "atividades": [
+          "Chegada ao aeroporto de Phuket",
+          "Transfer para o resort à beira-mar",
+          "Check-in no resort",
+          "Almoço de boas-vindas",
+          "Tarde livre para relaxar na praia",
+          "Jantar no restaurante do resort"
+        ]
+      },
+      {
+        "dia": 2,
+        "atividades": [
+          "Café da manhã no resort",
+          "Passeio de barco às ilhas Phi Phi",
+          "Snorkel em águas cristalinas",
+          "Almoço buffet na ilha",
+          "Visita à Praia de Maya Bay",
+          "Retorno ao resort"
+        ]
+      },
+      {
+        "dia": 3,
+        "atividades": [
+          "Café da manhã no resort",
+          "Visita ao Big Buddha",
+          "Parada no Wat Chalong Temple",
+          "Almoço em restaurante local",
+          "Visita ao ponto de vista Karon",
+          "Pôr do sol na Praia de Kata"
+        ]
+      },
+      {
+        "dia": 4,
+        "atividades": [
+          "Café da manhã no resort",
+          "Dia livre no resort",
+          "Opcional: massagem tailandesa tradicional",
+          "Atividades aquáticas disponíveis",
+          "Aula de culinária tailandesa",
+          "Jantar à beira-mar"
+        ]
+      },
+      {
+        "dia": 5,
+        "atividades": [
+          "Café da manhã no resort",
+          "Excursão à Baía de Phang Nga",
+          "Passeio de canoa pelas grutas",
+          "Almoço em vilarejo flutuante",
+          "Visita à Ilha de James Bond",
+          "Retorno ao resort"
+        ]
+      },
+      {
+        "dia": 6,
+        "atividades": [
+          "Café da manhã no resort",
+          "Mercado flutuante de Phuket",
+          "Almoço no mercado",
+          "Tarde livre para compras",
+          "Visita ao Old Phuket Town",
+          "Show cultural tailandês com jantar"
+        ]
+      },
+      {
+        "dia": 7,
+        "atividades": [
+          "Café da manhã no resort",
+          "Dia livre para aproveitar o resort",
+          "Último mergulho no mar de Andaman",
+          "Almoço de despedida",
+          "Tempo para fotos no pôr do sol",
+          "Jantar de encerramento"
+        ]
+      },
+      {
+        "dia": 8,
+        "atividades": [
+          "Café da manhã no resort",
+          "Check-out",
+          "Tempo livre para últimas compras",
+          "Transfer para o aeroporto",
+          "Voo de retorno ao Brasil"
+        ]
+      }
+    ],
+    "incluso": [
+      "Passagem aérea",
+      "Hospedagem",
+      "Café da manhã",
+      "Tour às ilhas",
+      "Transfer"
+    ],
+    "tags": [
+      "tropical",
+      "praia",
+      "cultura",
+      "aventura"
+    ],
+    "disponibilidade": {
+      "vagas": 9,
+      "datas_disponiveis": [
+        "2024-02-25",
+        "2024-06-15",
+        "2024-11-08"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "ranking": 30,
+    "nome_pacote": "Canais da Paixão: 4 Dias Românticos em Veneza",
+    "resumo": {
+      "quantidade_voos": 2,
+      "quantidade_atividades": 3,
+      "quantidade_acomodacoes": 1,
+      "guia_turistico": {
+        "nome": "Marco Bellini",
+        "especialidade": "Destinos Românticos Italianos",
+        "anos_experiencia": 9,
+        "imagem": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+      }
+    },
+    "destino": {
+      "nome": "Veneza",
+      "pais": "Itália",
+      "continente": "Europa",
+      "descricao": "Cidade romântica construída sobre canais"
+    },
+    "preco": {
+      "total": 8900.00,
+      "moeda": "BRL",
+      "parcelamento": "10x R$ 890,00",
+      "taxas_inclusas": true,
+      "desconto": 8
+    },
+    "duracao": {
+      "dias": 4,
+      "noites": 3,
+      "temporada": "Alta"
+    },
+    "estadia": {
+      "checkin": "Sexta-feira, 05 de Abril de 2024",
+      "checkout": "Segunda-feira, 08 de Abril de 2024",
+      "noites": 3
+    },
+    "acomodacao": {
+      "id": 30,
+      "tipo": "Hotel à beira do canal",
+      "categoria": "4 estrelas",
+      "nome_hotel": "Grand Canal Palace",
+      "servicos": [
+        "Café da manhã",
+        "Wi-Fi",
+        "Vista para o canal"
+      ],
+      "imagem_hotel": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+    },
+    "viajantes": {
+      "quantidade": 2,
+      "tipo": "Casal",
+      "idade_minima": 0
+    },
+    "voos": {
+      "companhia_aerea": {
+        "nome": "ITA Airways",
+        "logo": "https://flyfairly.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fyge09889%2Fproduction%2F59d99500e49415bd73913dd13d44f46120489557-1100x600.png&w=1080&q=75"
+      },
+      "ida": {
+        "numero": "AZ 712",
+        "horario_partida": "19:30",
+        "horario_chegada": "10:15",
+        "data_completa": "Sexta-feira, 05 de Abril de 2024",
+        "aeroporto_origem": "GRU - São Paulo",
+        "aeroporto_destino": "VCE - Veneza",
+        "escala": "Roma"
+      },
+      "volta": {
+        "numero": "AZ 713",
+        "horario_partida": "12:00",
+        "horario_chegada": "02:45",
+        "data_completa": "Segunda-feira, 08 de Abril de 2024",
+        "aeroporto_origem": "VCE - Veneza",
+        "aeroporto_destino": "GRU - São Paulo",
+        "escala": "Roma"
+      }
+    },
+    "avaliacao": {
+      "pontuacao": 9.7,
+      "total_avaliacoes": 312,
+      "estrelas": 5.0,
+      "destaque": "Excelente"
+    },
+    "reviews": [
+      {
+        "autor": "Marco Bellini",
+        "data": "2023-09-30",
+        "nota": 10,
+        "comentario": "Passeio de gôndola no pôr do sol é mágico!",
+        "votos_uteis": 134,
+        "imagem_perfil": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Isabella Conti",
+        "data": "2023-10-25",
+        "nota": 10,
+        "comentario": "Venezia è la città più romantica del mondo!",
+        "votos_uteis": 112,
+        "imagem_perfil": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Roberto Santos",
+        "data": "2023-11-18",
+        "nota": 9,
+        "comentario": "Cidade única, mas cuidado com as marés altas.",
+        "votos_uteis": 78,
+        "imagem_perfil": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Sophia Rossi",
+        "data": "2023-12-08",
+        "nota": 10,
+        "comentario": "Piazza San Marco at sunrise is absolutely magical!",
+        "votos_uteis": 89,
+        "imagem_perfil": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80"
+      },
+      {
+        "autor": "Carlos Eduardo",
+        "data": "2023-12-20",
+        "nota": 8,
+        "comentario": "Romântico, mas os preços são muito elevados.",
+        "votos_uteis": 67,
+        "imagem_perfil": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&auto=format&fit=crop&q=80"
+      }
+    ],
+    "imagens": [
+      "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=1200&auto=format&fit=crop&q=80"
+    ],
+    "atividades": [
+      {
+        "nome": "Passeio de gôndola pelos canais",
+        "duracao": "1 hora",
+        "horario": "17:00 - 18:00",
+        "dificuldade": "Fácil",
+        "incluso": true,
+        "id_atividade": 88
+      },
+      {
+        "nome": "Visita à Praça de São Marcos",
+        "duracao": "3 horas",
+        "horario": "09:00 - 12:00",
+        "dificuldade": "Fácil",
+        "incluso": true,
+        "id_atividade": 89
+      },
+      {
+        "nome": "Jantar romântico em restaurante típico",
+        "duracao": "2 horas",
+        "horario": "20:00 - 22:00",
+        "dificuldade": "Nenhuma",
+        "incluso": false,
+        "preco_extra": 380.00,
+        "id_atividade": 90
+      }
+    ],
+    "itinerario": [
+      {
+        "dia": 1,
+        "atividades": [
+          "Chegada ao aeroporto de Veneza Marco Polo",
+          "Transfer de barco para o hotel",
+          "Check-in no hotel à beira do canal",
+          "Passeio inicial pela Ponte de Rialto",
+          "Primeira experiência de gôndola",
+          "Jantar de boas-vindas com vista para o Grand Canal"
+        ]
+      },
+      {
+        "dia": 2,
+        "atividades": [
+          "Café da manhã com vista para o canal",
+          "Visita à Praça de São Marcos",
+          "Tour pela Basílica de São Marcos",
+          "Almoço em trattoria veneziana",
+          "Visita ao Palácio Ducal",
+          "Passeio de gôndola ao pôr do sol pelos canais menores",
+          "Opcional: jantar romântico em restaurante típico"
+        ]
+      },
+      {
+        "dia": 3,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Passeio de vaporetto pelo Grand Canal",
+          "Visita à Ilha de Murano (fábrica de vidro)",
+          "Almoço em Murano",
+          "Visita à Ilha de Burano (casas coloridas)",
+          "Retorno a Veneza",
+          "Compra de máscaras venezianas",
+          "Último passeio noturno pela cidade"
+        ]
+      },
+      {
+        "dia": 4,
+        "atividades": [
+          "Café da manhã no hotel",
+          "Check-out",
+          "Últimas fotos na Ponte dos Suspiros",
+          "Tempo livre para compras de lembranças",
+          "Transfer de barco para o aeroporto",
+          "Voo de retorno ao Brasil"
+        ]
+      }
+    ],
+    "incluso": [
+      "Passagem aérea",
+      "Hospedagem",
+      "Café da manhã",
+      "Passeio de gôndola",
+      "City tour"
+    ],
+    "tags": [
+      "romântico",
+      "canais",
+      "gôndola",
+      "história"
+    ],
+    "disponibilidade": {
+      "vagas": 7,
+      "datas_disponiveis": [
+        "2024-04-05",
+        "2024-07-18",
+        "2024-10-12"
+      ]
+    }
+  }
+
+]
 }

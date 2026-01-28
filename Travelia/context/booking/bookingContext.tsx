@@ -1,9 +1,10 @@
+import { PacoteViagem } from '@/assets/types/bookingType';
 import React, { createContext, useContext, useState, ReactNode, useCallback } from 'react';
 
 interface BookingContextData {
-  pacoteOriginal: any;
-  pacoteAtual: any;
-  setPacoteInicial: (pacote: any) => void;
+  pacoteOriginal: PacoteViagem | null;
+  pacoteAtual: PacoteViagem | null;
+  setPacoteInicial: (pacote: PacoteViagem) => void;
   updateViajantes: (quantidade: number) => void;
   updatePagamento: (pagamento: any) => void;
   updateDesconto: (desconto: any) => void;
@@ -15,19 +16,21 @@ const BookingContext = createContext<BookingContextData>({} as BookingContextDat
 
 export function BookingProvider({ children }: { children: ReactNode }) {
 
-  const [pacoteOriginal, setPacoteOriginal] = useState<any>(null);
-  const [pacoteAtual, setPacoteAtual] = useState<any>(null);
+  const [pacoteOriginal, setPacoteOriginal] = useState<PacoteViagem | null>(null);
+const [pacoteAtual, setPacoteAtual] = useState<PacoteViagem | null>(null);
+
 
   // Use o useCallback para a função não ser recriada toda hora
-  const setPacoteInicial = useCallback((novoPacote: any) => {
-    setPacoteOriginal(novoPacote);
-    setPacoteAtual(novoPacote);
-  }, []);
+  const setPacoteInicial = useCallback((novoPacote: PacoteViagem) => {
+  setPacoteOriginal(novoPacote);
+  setPacoteAtual(novoPacote);
+}, []);
+
 
 
   
   const updateViajantes = useCallback((novaQtd: number) => {
-  setPacoteAtual((prev: any) => {
+  setPacoteAtual((prev) => {
     if (!prev || !pacoteOriginal) return prev;
 
     const precoUnitario =

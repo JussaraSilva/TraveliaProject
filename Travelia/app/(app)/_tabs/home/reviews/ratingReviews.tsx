@@ -8,6 +8,7 @@ import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodation
 import { themeColors, ThemeName } from '@/constants/theme'
 import { useHotel } from '@/context/hotel/hotelProvider'
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles'
+import { router } from 'expo-router'
 
 import { CaretLeftIcon,  DotsThreeVerticalIcon } from 'phosphor-react-native'
 import { View, StyleSheet, Text, ScrollView } from 'react-native'
@@ -48,7 +49,10 @@ export default function Ratingreviews() {
                     color={themeColors[theme].icon} 
                   />
                 ]
-              } 
+              }
+              onPressLeftIcon={
+                router.back
+              }
               />
         </View>
         <View style={styles.ratingTop}>

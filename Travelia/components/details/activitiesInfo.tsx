@@ -30,6 +30,7 @@ type Props = {
   quantidade_pessoas: number;
   tipo?: string;
   idade_minima?: number;
+  onPressChangeOption?: () => void;
 };
 
 export default function ActivitiesInfo({
@@ -43,6 +44,7 @@ export default function ActivitiesInfo({
   quantidade_pessoas,
   tipo,
   idade_minima,
+  onPressChangeOption,
 }: Props) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -138,7 +140,9 @@ export default function ActivitiesInfo({
               <Text style={styles.textIdadeMinima}>Idade Mínima: {idade_minima} anos</Text>
           </View>
           <View style={styles.containerBtnChange}>
-            <TouchableOpacity style={styles.containerButtonEdit}>
+            <TouchableOpacity style={styles.containerButtonEdit}
+              onPress={onPressChangeOption}
+            >
               <Text style={styles.textButtonEdit}>Change Option</Text>
             </TouchableOpacity>
           </View>

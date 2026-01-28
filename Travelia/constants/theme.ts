@@ -54,7 +54,7 @@ export const themeColors = {
     icon: '#ababae',
     colorRealceIcon:'#237fff',
     textColorButtonRealce: '#fff',
-    borderColor:"#242424",
+    borderColor:"#303030",
     backButton:"#237fff",
     textButton: '#fff',
     realceBlue:"#237fff",

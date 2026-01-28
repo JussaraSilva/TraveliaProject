@@ -18,6 +18,7 @@ import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { useBooking } from '@/context/booking/bookingContext';
 import { useEffect } from 'react';
 import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
+import { Atividades } from '@/assets/types/bookingType/atividades';
 
 
 export default function Details() {
@@ -47,17 +48,33 @@ export default function Details() {
   }, [pacoteObj, setPacoteInicial]);
   
 
-  const handleAccomodation = () => {
-  router.push({
-    pathname: '/(app)/_tabs/home/accommodation',
-    params: {
-      hotelId: pacoteObj.acomodacao.id,
-    },
-  });
-  console.log("Details diz, O Id do hotel é: " + (pacoteObj.acomodacao.id));
-};
+    const handleAccomodation = () => {
+    router.push({
+      pathname: '/(app)/_tabs/home/accommodation',
+      params: {
+        hotelId: pacoteObj.acomodacao.id,
+      },
+    });
+    console.log("Details diz, O Id do hotel é: " + (pacoteObj.acomodacao.id));
+  };
 
   const reviewsUI = adaptReviewsToUI(pacoteObj.reviews ?? []);
+
+  const handleAtividades = () => {
+    const atividadesIds = (pacoteObj.atividades as Atividades[]).map(
+      (atividade) => atividade.id_atividade
+    );
+
+    router.push({
+      pathname: '/(app)/_tabs/home/atividades',
+      params: {
+        atividadesIds: JSON.stringify(atividadesIds),
+      },
+    });
+
+    console.log('IDs enviados:', atividadesIds);
+  };
+
 
 
 
@@ -176,6 +193,7 @@ export default function Details() {
                   quantidade_pessoas={pacoteObj.viajantes.quantidade}
                   tipo={pacoteObj.viajantes.tipo}
                   idade_minima={pacoteObj.viajantes.idade_minima}
+                  onPressChangeOption={handleAtividades}
                 />
               </View>
           </View>

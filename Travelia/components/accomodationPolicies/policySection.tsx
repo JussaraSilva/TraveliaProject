@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { themeColors, ThemeName } from '@/constants/theme';
 import { DotIcon } from 'phosphor-react-native';
@@ -9,9 +9,11 @@ type PolicySectionProps = {
   title: string;
   icon: React.ReactNode;
   data: string[];
+  iconStyleVariant?: StyleProp<ViewStyle>;
+
 };
 
-export function PolicySection({ title, icon, data }: PolicySectionProps) {
+export function PolicySection({ title, icon, data, iconStyleVariant }: PolicySectionProps) {
 
   const {theme, styles} = useThemedStyles(createStyles);
 
@@ -19,7 +21,7 @@ export function PolicySection({ title, icon, data }: PolicySectionProps) {
   return (
     <View style={{ marginTop: 16 }}>
       <View style={styles.contentPoliciesTitleTop}>
-        <View style={styles.iconContainer}>
+        <View style={[styles.iconContainer, iconStyleVariant]}>
           {icon}
         </View>
         <Text style={styles.sectionTitle}>{title}</Text>
@@ -39,7 +41,7 @@ export function PolicySection({ title, icon, data }: PolicySectionProps) {
 
 const createStyles = (theme: ThemeName) => StyleSheet.create ({
   sectionTitle: {
-  fontSize: 18,
+  fontSize: 20,
   fontWeight: '500',
   color: themeColors[theme].textPrimary,
   }, 

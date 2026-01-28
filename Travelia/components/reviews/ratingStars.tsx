@@ -10,44 +10,71 @@ type Props = {
   avaliacoes?: number;
   onpressReview?: (rating:number) => void;
   directionStarReview?: StyleProp<ViewStyle>
-
 }
 
 
-export function RatingStars({ estrelas = 1, starsNumber, avaliacoes, onpressReview, directionStarReview }: Props) {
+export function RatingStars({
+  estrelas = 1,
+  starsNumber,
+  avaliacoes,
+  onpressReview,
+  directionStarReview,
+}: Props) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
 
-  const fullStars = Math.floor(estrelas);
-  const halfStar = estrelas % 1 >= 0.5;
+  const rating = starsNumber ?? 0;
+
+
+  const fullStars = Math.floor(rating);
+  const halfStar = rating % 1 >= 0.5;
   const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
 
+
+
   return (
-    <TouchableOpacity style={[styles.container, directionStarReview]}
+    <TouchableOpacity
+      style={[styles.container, directionStarReview]}
       onPress={() => onpressReview?.(estrelas)}
     >
       <View style={styles.containerStars}>
-          {[...Array(fullStars)].map((_, index) => (
-          <StarIcon key={`full-${index}`} size={20} color={themeColors[theme].starYellowColor} weight="fill" />
+        {[...Array(fullStars)].map((_, index) => (
+          <StarIcon
+            key={`full-${index}`}
+            size={20}
+            color={themeColors[theme].starYellowColor}
+            weight="fill"
+          />
         ))}
-        {halfStar && <StarHalfIcon size={20} color={themeColors[theme].starYellowColor} weight="fill" />}
+
+        {halfStar && (
+          <StarHalfIcon
+            size={20}
+            color={themeColors[theme].starYellowColor}
+            weight="fill"
+          />
+        )}
+
         {[...Array(emptyStars)].map((_, index) => (
-          <StarIcon key={`empty-${index}`} size={20} color={themeColors[theme].starYellowColor} weight="thin" />
+          <StarIcon
+            key={`empty-${index}`}
+            size={20}
+            color={themeColors[theme].starYellowColor}
+            weight="thin"
+          />
         ))}
       </View>
+
       <View style={styles.containerReview}>
-        <Text style={styles.textReview}>
-            {starsNumber}
-        </Text>
+        <Text style={styles.textReview}>{rating.toFixed(1)}</Text>
         <Text style={styles.textAvaliationQuantity}>
           ({avaliacoes} reviews)
         </Text>
       </View>
-      
     </TouchableOpacity>
-  )
-
+  );
 }
+
 
 const createStyles = (theme: ThemeName) =>
   StyleSheet.create({
