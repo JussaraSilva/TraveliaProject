@@ -1,6 +1,7 @@
 
+type ApenasString = string;
 
 
 export type MidiaAtividadesType = {
-  imagens: string[];
+  imagens: ApenasString[];
 }

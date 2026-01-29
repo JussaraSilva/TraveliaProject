@@ -1,28 +1,27 @@
-// formatarDate.tsx
+import { StyleProp, StyleSheet, Text, TextStyle } from "react-native";
+import { themeColors, ThemeName } from "@/constants/theme";
+import { useTheme } from "@/context/themeProvider";
+import { useMemo } from "react";
+import { formatarDataBR } from "./formatarDataBR";
 
-import { StyleProp, StyleSheet, Text, TextStyle } from "react-native"
-import { formatarDataBR } from "./formatarDataBR"
-import { themeColors, ThemeName } from "@/constants/theme"
-import { useTheme } from "@/context/themeProvider"
-import { useMemo } from "react"
+// --- COMPONENTE DateText ---
 
 type DateTextProps = {
-  value: string
-  variant?: "short" | "full"
-  textStyle?: StyleProp<TextStyle>
-}
+  value: string;
+  variant?: "short" | "full" | "itinerary";
+  textStyle?: StyleProp<TextStyle>;
+  addDays?: number;
+};
 
-export function DateText({ value, textStyle, variant = "full" }: DateTextProps) {
-  const { theme } = useTheme(); 
+export function DateText({ value, textStyle, variant = "full", addDays = 0 }: DateTextProps) {
+  const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
-
-
 
   return (
     <Text style={[styles.textDate, textStyle]}>
-      {formatarDataBR(value, variant)}
+      {formatarDataBR(value, variant, addDays)}
     </Text>
-  )
+  );
 }
 
 const createStyles = (theme: ThemeName) =>

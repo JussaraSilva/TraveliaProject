@@ -28,6 +28,7 @@ export default function Atividades() {
     ? JSON.parse(atividadesIds as string).map(Number)
     : [];
 
+
   const atividadesSelecionadas: ListaPacotesAtividades =
   atividadesData.atividades.filter((atividade) =>
     ids.includes(atividade.identificacao.id)
@@ -81,8 +82,7 @@ export default function Atividades() {
         <View style={styles.galleryHeader}>
           <Gallery imagens={[
             ...atividadesSelecionadas[0].midia.imagens, 
-            ...atividadesSelecionadas[1].midia.imagens,
-            ...atividadesSelecionadas[2].midia.imagens]} />
+            ...atividadesSelecionadas[1].midia.imagens]} />
           <View style={styles.containerInfoTop}>
             <Text style={styles.textTitle}>
               {[atividadesSelecionadas[0].identificacao.nome, 

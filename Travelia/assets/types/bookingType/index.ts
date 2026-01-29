@@ -8,6 +8,7 @@ import { Preco } from "./preco";
 import { Viajantes } from "./viajantes";
 import { Estadia } from './estadia';
 import { Resumo } from './resumo';
+import { ItinerarioType } from './itinerario';
 
 
 
@@ -27,6 +28,7 @@ export interface PacoteViagem {
   acomodacao: Acomodacao;
   estadia:Estadia;
   atividades: Atividades[];
+  itinerario: ItinerarioType[];
   avaliacao: Avaliacao; // Inclui (reviews)
   viajantes: Viajantes;
   voos: Voos;

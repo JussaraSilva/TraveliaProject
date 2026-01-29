@@ -1,3 +1,6 @@
+
+// --- FUNÇÃO DE FORMATAÇÃO ---
+
 const mesesMap: Record<string, string> = {
   Janeiro: "Jan",
   Fevereiro: "Fev",
@@ -11,7 +14,7 @@ const mesesMap: Record<string, string> = {
   Outubro: "Out",
   Novembro: "Nov",
   Dezembro: "Dez",
-}
+};
 
 const diasMap: Record<string, string> = {
   Segunda: "Seg",
@@ -21,73 +24,99 @@ const diasMap: Record<string, string> = {
   Sexta: "Sex",
   Sábado: "Sáb",
   Domingo: "Dom",
-}
+};
+
+// Lista auxiliar para converter nome em índice (necessário para seu JSON atual)
+const mesesLista = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
 export function formatarDataBR(
   data: string,
-  tipo: "short" | "full" = "full"
+  tipo: "short" | "full" | "itinerary" = "short",
+  addDays: number = 0
 ) {
-  if (!data) return ""
+  if (!data) return "";
 
-  // 🔹 CASO 0 — Data ISO completo: "2026-01-05T18:17:01.850Z"
-  const isFullISO = /^\d{4}-\d{2}-\d{2}T/.test(data)
+  let dataParaProcessar = data;
+  let dateObj: Date | null = null;
 
-  if (isFullISO) {
-    const dateObj = new Date(data)
+  // 1. Lógica para entender a string do seu JSON: "Sábado, 15 de Março de 2025"
+  if (data.includes(" de ")) {
+    try {
+      const partes = data.split(", ");
+      const textoData = partes[1] || partes[0]; // "15 de Março de 2025"
+      const [dia, , mesNome, , ano] = textoData.split(" ");
+      const mesIndex = mesesLista.indexOf(mesNome);
 
-    const datePart = dateObj.toLocaleDateString("en-US", {
-      month: "short",
-      day: "2-digit",
-      year: "numeric",
-    })
-
-    const timePart = dateObj.toLocaleTimeString("en-US", {
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    })
-
-    const ampm = dateObj.getHours() >= 12 ? "PM" : "AM"
-
-    return `${datePart} - ${timePart} ${ampm}`
+      if (mesIndex !== -1) {
+        dateObj = new Date(Number(ano), mesIndex, Number(dia), 12, 0, 0);
+      }
+    } catch (e) {
+      dateObj = null;
+    }
+  } 
+  // 2. Fallbacks para outros formatos (ISO ou DD/MM/YYYY)
+  else if (data.includes("/")) {
+    const [d, m, y] = data.split("/");
+    dateObj = new Date(Number(y), Number(m) - 1, Number(d), 12, 0, 0);
+  } else if (/^\d{4}-\d{2}-\d{2}/.test(data)) {
+    dateObj = new Date(`${data.split("T")[0]}T12:00:00`);
+  } else {
+    const tempDate = new Date(data);
+    if (!isNaN(tempDate.getTime())) dateObj = tempDate;
   }
 
-
-  // 🔹 CASO 1 — Data ISO: "2024-12-31"
-  const isISO = /^\d{4}-\d{2}-\d{2}$/.test(data)
-  if (isISO) {
-    const dateObj = new Date(`${data}T00:00:00`)
-
-    if (tipo === "full") {
-      return dateObj.toLocaleDateString("pt-BR", {
-        weekday: "long",
-        day: "2-digit",
-        month: "long",
-        year: "numeric",
-      })
+  // 3. Aplicação do addDays se o objeto Date for válido
+  if (dateObj && !isNaN(dateObj.getTime())) {
+    if (addDays !== 0) {
+      dateObj.setDate(dateObj.getDate() + addDays);
     }
 
-    return dateObj.toLocaleDateString("pt-BR", {
-      weekday: "short",
-      day: "2-digit",
-      month: "short",
-      year: "numeric",
-    })
+    // Retorno imediato para o formato da imagem (Ex: Dec 27)
+    if (tipo === "itinerary") {
+      return dateObj.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+      });
+    }
+
+    // Para "short" e "full", transformamos de volta em ISO para cair nos casos originais
+    dataParaProcessar = dateObj.toISOString().split("T")[0];
   }
 
-  // 🔹 CASO 2 — String completa já formatada
-  if (tipo === "full") return data
+  // --- LÓGICA ORIGINAL PRESERVADA ---
 
-  // Ex: "Sexta-feira, 12 de Abril de 2024"
-  const [diaSemanaRaw, resto] = data.split(", ")
+  // 🔹 CASO 0 — Data ISO completo
+  const isFullISO = /^\d{4}-\d{2}-\d{2}T/.test(data);
+  if (isFullISO && tipo !== "itinerary") {
+    const dObj = new Date(data);
+    const datePart = dObj.toLocaleDateString("en-US", { month: "short", day: "2-digit", year: "numeric" });
+    const timePart = dObj.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", hour12: false });
+    const ampm = dObj.getHours() >= 12 ? "PM" : "AM";
+    return `${datePart} - ${timePart} ${ampm}`;
+  }
 
-  if (!resto) return data // fallback de segurança
+  // 🔹 CASO 1 — Data ISO (Agora com a data processada e somada)
+  const isISO = /^\d{4}-\d{2}-\d{2}$/.test(dataParaProcessar);
+  if (isISO) {
+    const dObj = new Date(`${dataParaProcessar}T00:00:00`);
+    if (tipo === "full") {
+      return dObj.toLocaleDateString("pt-BR", { weekday: "long", day: "2-digit", month: "long", year: "numeric" });
+    }
+    return dObj.toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "short", year: "numeric" });
+  }
 
-  const [dia, , mes, , ano] = resto.split(" ")
+  // 🔹 CASO 2 — String legada ou formatada
+  if (tipo === "full") return dataParaProcessar;
 
-  const diaSemana = diasMap[diaSemanaRaw.replace("-feira", "")] ?? ""
-  const mesAbrev = mesesMap[mes] ?? mes
+  const partesOriginal = dataParaProcessar.split(", ");
+  if (partesOriginal.length < 2) return dataParaProcessar;
 
-  return `${diaSemana}, ${dia} ${mesAbrev} ${ano}`
+  const diaSemanaRaw = partesOriginal[0];
+  const restoTexto = partesOriginal[1];
+  const [diaNum, , mesNomeResto, , anoNum] = restoTexto.split(" ");
+
+  const diaSemana = diasMap[diaSemanaRaw.replace("-feira", "")] ?? "";
+  const mesAbrev = mesesMap[mesNomeResto] ?? mesNomeResto;
+
+  return `${diaSemana}, ${diaNum} ${mesAbrev} ${anoNum}`;
 }
-
