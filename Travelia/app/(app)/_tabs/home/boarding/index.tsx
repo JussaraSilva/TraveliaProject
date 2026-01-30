@@ -19,55 +19,60 @@ import SeatMap from '@/hooks/seat-map/SeatMap';
 import { useState } from 'react';
 
 export default function Boarding() {
+  // 1️⃣ Params de rota
   const { flightType, passengerIndex } = useLocalSearchParams<{
     flightType?: 'departure' | 'return';
     passengerIndex?: string;
   }>();
 
-  const currentPassengerIndex = Number(passengerIndex ?? 0);
-
+  const currentPassengerIndex = Number(passengerIndex) || 0;
   const currentFlightType = flightType ?? 'departure';
 
+  // 2️⃣ Hooks SEMPRE primeiro
   const { theme, styles } = useThemedStyles(createStyles);
-
   const { pacoteOriginal } = useBooking();
+  const { updateSeatForTraveler, savedTravelers } = useTravelers();
+
+  const [selectedPassengerIndex, setSelectedPassengerIndex] = useState(
+    currentPassengerIndex
+  );
+
+  // 3️⃣ Guard clause (AGORA sim)
+  if (!pacoteOriginal) {
+    return (
+      <View style={styles.container}>
+        <Text>Sem Pacote Original</Text>
+      </View>
+    );
+  }
+
+  // 4️⃣ Derivações que dependem do pacote
   const flight =
     currentFlightType === 'departure'
       ? pacoteOriginal.voos.ida
       : pacoteOriginal.voos.volta;
 
-  const { savedTravelers } = useTravelers();
-
-  const { updateSeatForTraveler } = useTravelers();
-
+  // 5️⃣ Handlers
   function handleSeatSelect(seatId: string) {
-    // 1. Salva o assento para o passageiro que está selecionado no momento
-    updateSeatForTraveler(selectedPassengerIndex, seatId, currentFlightType);
+    updateSeatForTraveler(
+      selectedPassengerIndex,
+      seatId,
+      currentFlightType
+    );
 
-    // 2. Lógica para pular para o próximo passageiro
     const nextIndex = selectedPassengerIndex + 1;
 
-    // Verifica se o próximo índice existe dentro da lista de viajantes
     if (nextIndex < savedTravelers.length) {
-      // Pequeno delay opcional para o usuário ver o assento sendo marcado
-      // antes da interface pular para o próximo (melhora a percepção visual)
       setTimeout(() => {
         setSelectedPassengerIndex(nextIndex);
       }, 300);
     }
   }
 
-  const [selectedPassengerIndex, setSelectedPassengerIndex] = useState(
-    currentPassengerIndex
-  );
-
-  const handleBack = () => {
-    router.back();
-  };
-
   const handleDone = () => {
     router.replace('/(app)/_tabs/home/booking');
   };
+
 
   return (
     <View style={styles.container}>
@@ -86,7 +91,9 @@ export default function Boarding() {
               weight='light'
             ></CaretLeftIcon>]
           }
-          onPressLeftIcon={handleBack}
+          onPressLeftIcon={
+            router.back
+          }
         />
       </View>
       <View>
@@ -249,7 +256,7 @@ export default function Boarding() {
       </View>
     </View>
   );
-}
+};
 
 const createStyles = (theme: ThemeName) =>
   StyleSheet.create({

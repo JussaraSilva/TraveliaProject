@@ -74,6 +74,7 @@ const createStyles = (theme: ThemeName) =>
     alignItems: 'center',
     justifyContent: 'space-between',
     marginTop: 50,
+    paddingHorizontal: 6,
   },
   
   
@@ -92,14 +93,14 @@ const createStyles = (theme: ThemeName) =>
   },
 
   textPage: {
-    fontSize: 30,
+    fontSize: 28,
     fontWeight: 'bold',
     color: themeColors[theme].textPrimary,
   },
   
   
   sideContainerLeft: {
-    width: 80,          // espaço pra até 2 ícones
+    width: 60,          // espaço pra até 2 ícones
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-start',
@@ -114,7 +115,7 @@ const createStyles = (theme: ThemeName) =>
 
 
   sideContainerRight: {
-    width: 80,          // espaços pra até 2 ícones
+    width: 60,          // espaços pra até 2 ícones
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-end',

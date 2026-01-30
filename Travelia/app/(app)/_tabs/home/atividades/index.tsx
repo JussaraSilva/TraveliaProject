@@ -44,6 +44,16 @@ export default function Atividades() {
     );
     
   };
+  const handleTermsPress = (atividadeId: number) => {
+    // Lógica para lidar com o roteiro pressionado
+    router.push(
+      {
+        pathname: '/(app)/_tabs/home/atividades/terms',
+        params: { atividadeId: atividadeId.toString() },
+      }
+    );
+    
+  };
 
   
 
@@ -169,10 +179,18 @@ export default function Atividades() {
             data={atividadesSelecionadas[0].highlights.locais_visitados}
           />
 
+          <TouchableOpacity style={styles.containerButtonMoreDetails}
+            onPress={handleItineraryPress.bind(null, atividadesSelecionadas[0].identificacao.id)}
+          >
+            <View style={styles.buttonMoreDetails}>
+              <Text style={styles.textButtonDetails}>Visualizar Itinerário</Text>
+            </View>
+          </TouchableOpacity>
+
         </View>
 
         <TouchableOpacity style={styles.containerButtonMore}
-          onPress={handleItineraryPress.bind(null, atividadesSelecionadas[0].identificacao.id)}
+          onPress={handleTermsPress.bind(null, atividadesSelecionadas[0].identificacao.id)}
         >
           <View style={styles.buttonMore}>
             <Text style={styles.textButton}>More Info</Text>
@@ -310,6 +328,22 @@ const createStyles = (theme: ThemeName) =>
       fontSize: 18,
       fontWeight: '600',
       color: themeColors[theme].textPrimary,
+    },
+
+    containerButtonMoreDetails: {
+      alignItems: 'center',
+      marginTop: 16,
+    },
+
+    buttonMoreDetails: {
+      alignItems: 'center',
+    },
+
+    textButtonDetails: {
+      fontSize: 18,
+      fontWeight: '500',
+      textDecorationLine: 'underline',
+      color: themeColors[theme].realceBlue,
     },
 
   });
