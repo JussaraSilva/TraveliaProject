@@ -50,6 +50,10 @@ export default function Accomodation() {
     // Lógica para lidar com a avaliação pressionada
     router.push({
       pathname: '/(app)/_tabs/home/reviews/ratingReviews',
+      params: {
+        source:"hotel",
+        hotelId: hotelSelecionado.id,
+      }
     });
     
 

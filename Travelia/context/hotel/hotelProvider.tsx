@@ -15,6 +15,7 @@ interface HotelContextData {
   
   hotelSelecionado: PacoteHotel | null;
   setHotelById: (id: number) => void;
+  getHotelById: (id: number) => PacoteHotel | null;
   limparHotel: () => void;
 }
 const HotelContext = createContext<HotelContextData>(
@@ -30,13 +31,21 @@ export function HotelProvider({ children }: { children: ReactNode }) {
     setHotelSelecionado(hotel);
   }, []);
 
+  const getHotelById = useCallback((id: number) => {
+    return hoteis.find(h => h.id === id) ?? null;
+  }, []);
+
   const limparHotel = useCallback(() => {
     setHotelSelecionado(null);
   }, []);
 
   return (
     <HotelContext.Provider
-      value={{ hotelSelecionado, setHotelById, limparHotel }}
+      value={{ 
+        hotelSelecionado, 
+        setHotelById,
+        getHotelById, 
+        limparHotel }}
     >
       {children}
     </HotelContext.Provider>

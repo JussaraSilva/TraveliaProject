@@ -1,8 +1,8 @@
 import ButtonFilter from '@/components/buttons/buttonFilters';
 import PaymentInfoCard from '@/components/cards/paymentInfoCard';
-import AccomodationInfo from '@/components/details/accomodationInfo';
-import ActivitiesInfo from '@/components/details/activitiesInfo';
-import FlightDepartReturn from '@/components/details/flightDepartReturn';
+import AccomodationInfo from '@/components/details/accomodationSection/accomodationInfo';
+import ActivitiesInfo from '@/components/details/activitiesSection/activitiesInfo';
+import FlightDepartReturn from '@/components/details/vooSection/flightDepartReturn';
 import HeaderGlobal from '@/components/header/headerGlobal';
 import { DateText } from '@/components/utils/date/formatDate';
 import { themeColors, ThemeName } from '@/constants/theme';

@@ -9,6 +9,7 @@ import { Viajantes } from "./viajantes";
 import { Estadia } from './estadia';
 import { Resumo } from './resumo';
 import { ItinerarioType } from './itinerario';
+import { ReviewType } from './review';
 
 
 
@@ -29,7 +30,8 @@ export interface PacoteViagem {
   estadia:Estadia;
   atividades: Atividades[];
   itinerario: ItinerarioType[];
-  avaliacao: Avaliacao; // Inclui (reviews)
+  avaliacao: Avaliacao; 
+  reviews?: ReviewType[];
   viajantes: Viajantes;
   voos: Voos;
   incluso:string[];

@@ -1,6 +1,6 @@
 import { themeColors, ThemeName } from "@/constants/theme";
 import { useTheme } from "@/context/themeProvider";
-import { AirplaneTakeoffIcon, CalendarDotsIcon, CaretDownIcon, DotIcon, UsersIcon } from 'phosphor-react-native';
+import { AirplaneTakeoffIcon, CalendarDotsIcon, DotIcon, UsersIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { DateText } from "../utils/date/formatDate";
@@ -107,11 +107,6 @@ export default function FooterPrice(
       <View style={styles.containerFooterBottom}>
         <View style={styles.containerPrice}>
           <View style={styles.containerPriceDetailPassenger}>
-            <CaretDownIcon 
-              size={20} 
-              color={themeColors[theme].icon} 
-              weight="light"
-            />
             <Text style={styles.priceTextTotal}>Total Price: </Text>
           </View>
           <View style={styles.containerPriceValue}>
@@ -146,21 +141,24 @@ const createStyles = (theme: ThemeName) =>
     containerFooter: {
       flexDirection: 'column',
       alignItems: 'center',
-      width: 400,
+      width: '100%',
       backgroundColor: themeColors[theme].backgroundCard,
     },
 
     containerFooterTop: {
-      width: '100%',
+      width: "100%",
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
+      paddingHorizontal: 8,
     },
 
     containerDestiny: {
       flexDirection: 'row',
+      width: '25%',
       alignItems: 'center',
-      paddingHorizontal: 3,
+      justifyContent: 'flex-start',
+      paddingHorizontal: 2,
       gap: 2,
       borderRightWidth: 1,
       borderRightColor: themeColors[theme].borderColor,
@@ -168,6 +166,7 @@ const createStyles = (theme: ThemeName) =>
 
     containerDate: {
       flexDirection: 'row',
+      width: '47%',
       alignItems: 'center',
       paddingHorizontal: 2,
       borderRightWidth: 1,
@@ -198,10 +197,11 @@ const createStyles = (theme: ThemeName) =>
     },
 
     containerPassageiros: {
+      width: '10%',
       flexDirection: 'row',
       alignItems: 'center',
       gap: 5,
-      paddingHorizontal: 5,
+      paddingHorizontal: 3,
     },
 
     textDestiny: {
@@ -213,6 +213,7 @@ const createStyles = (theme: ThemeName) =>
     containerEditInfo: {
       flexDirection: 'row',
       alignItems: 'center',
+      width: '100%',
       gap: 5,
       paddingHorizontal: 5,
       paddingVertical: 5,

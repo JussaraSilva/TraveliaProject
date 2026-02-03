@@ -10,7 +10,7 @@ import { themeColors, ThemeName } from '@/constants/theme';
 import { CaretLeftIcon, CaretRightIcon, PencilLineIcon, PlusIcon, SeatIcon, UserIcon, UsersIcon } from 'phosphor-react-native';
 import { StyleSheet, View, ScrollView, Text, TouchableOpacity, Alert } from 'react-native';
 import { router } from 'expo-router';
-import FlightDepartReturn from '@/components/details/flightDepartReturn';
+import FlightDepartReturn from '@/components/details/vooSection/flightDepartReturn';
 import CardDetailsGlobal from '@/components/cards/cardDetailsGlobal';
 import TravelerSelect from '@/components/details/travelerSelect';
 import { PriceText } from '@/components/utils/price/priceText';
@@ -19,7 +19,7 @@ import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
 import { useTravelers} from '@/context/traveler/travelerContext';
 import { useBooking } from '@/context/booking/bookingContext';
 import { useEffect } from 'react';
-import FlightSeatSelect from '@/components/details/flightSeatSelect';
+import FlightSeatSelect from '@/components/details/vooSection/flightSeatSelect';
 
 
 

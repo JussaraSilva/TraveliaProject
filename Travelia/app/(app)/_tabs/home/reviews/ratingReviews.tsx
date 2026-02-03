@@ -1,31 +1,58 @@
 
 import ButtonFilter from '@/components/buttons/buttonFilters'
 import HeaderGlobal from '@/components/header/headerGlobal'
+import { adaptHotelToRatingUI, adaptPacoteToRatingUI, RatingSourceUI } from '@/components/reviews/adapterReviews/adapterReviews'
 import { PercentBarsRating } from '@/components/reviews/ratingDistribuition/percentBarsRating'
 import { RatingStars } from '@/components/reviews/ratingStars'
 import ReviewsDetails from '@/components/reviews/reviewsDetails'
-import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews'
 import { themeColors, ThemeName } from '@/constants/theme'
 import { useHotel } from '@/context/hotel/hotelProvider'
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles'
-import { router } from 'expo-router'
+import { router, useLocalSearchParams } from 'expo-router'
 
 import { CaretLeftIcon,  DotsThreeVerticalIcon } from 'phosphor-react-native'
 import { View, StyleSheet, Text, ScrollView } from 'react-native'
+import { useBooking } from '@/context/booking/bookingContext'
+import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews'
 
 
 
-export default function Ratingreviews() {
+export default function RatingReviews() {
   const { theme, styles } = useThemedStyles(createStyles);
   
-  const {hotelSelecionado} = useHotel();
+
+  const params = useLocalSearchParams<{
+    source?: 'hotel' | 'pacote';
+  }>();
+
+  const source = params.source;
+  
+  const { hotelSelecionado } = useHotel();
+  const { pacoteOriginal } = useBooking();
+
+
+  let ratingSource: RatingSourceUI | null = null;
+
+  if (source === 'hotel' && hotelSelecionado) {
+    const base = adaptHotelToRatingUI(hotelSelecionado);
+
+    ratingSource = {
+      ...base,
+      reviews: adaptReviewsToUI(hotelSelecionado.reviews ?? []),
+    };
+  }
+
+  if (source === 'pacote' && pacoteOriginal) {
+    ratingSource = adaptPacoteToRatingUI(pacoteOriginal);
+    };
+  
+
+
+  if (!ratingSource) return null;
 
   
-  if (!hotelSelecionado) {
-    return null; // ou loading / fallback
-  }
-  
-  const reviewsUI = adaptReviewsToUI(hotelSelecionado.reviews);
+
+
 
   const labelFilters = ['All Reviews', '5 Stars', '4 Stars', '3 Stars', '2 Stars', '1 Star'];
 
@@ -60,7 +87,7 @@ export default function Ratingreviews() {
           <View style={styles.ratingNoteLeft}>
             <View style={styles.ratingNoteContentText}>
               <Text style={styles.ratingNote}>
-                  {hotelSelecionado.avaliacao.estrelas.toFixed(1)}
+                  {ratingSource.avaliacao.estrelas.toFixed(1)}
               </Text>
               <Text style={styles.ratingNoteSeparate}>/</Text>
               <Text style={styles.ratingNoteTotal}>
@@ -69,8 +96,9 @@ export default function Ratingreviews() {
             </View>
             <View style={styles.ratingNoteContentStars}>
               <RatingStars 
-                estrelas={hotelSelecionado.avaliacao.estrelas} 
-                avaliacoes={hotelSelecionado.avaliacao.total_avaliacoes} 
+                estrelas={ratingSource.avaliacao.estrelas}
+                starsNumber={ratingSource.avaliacao.estrelas}
+                avaliacoes={ratingSource.avaliacao.totalAvaliacoes}
                 directionStarReview={styles.starReviewContent}
               />
             </View>
@@ -78,8 +106,8 @@ export default function Ratingreviews() {
 
           <View style={styles.ratingScaleStars}>
               <PercentBarsRating 
-                estrelas={hotelSelecionado.avaliacao.estrelas} 
-                totalAvaliacoes={hotelSelecionado.avaliacao.total_avaliacoes} 
+                estrelas={ratingSource.avaliacao.estrelas} 
+                totalAvaliacoes={ratingSource.avaliacao.totalAvaliacoes} 
               />
           </View>
         </View>
@@ -105,12 +133,13 @@ export default function Ratingreviews() {
             {/* Comentários dos usuários aqui */}
             
             <ReviewsDetails 
-              starsNumber={hotelSelecionado.avaliacao.estrelas}
-              mediaStars={hotelSelecionado.avaliacao.estrelas}
-              totalAvaliacoes={hotelSelecionado.avaliacao.total_avaliacoes}
-              reviews={reviewsUI}
+              starsNumber={ratingSource.avaliacao.estrelas}
+              mediaStars={ratingSource.avaliacao.estrelas}
+              totalAvaliacoes={ratingSource.avaliacao.totalAvaliacoes}
+              reviews={ratingSource.reviews}
               showHeaderReview={false}
             />
+
           </ScrollView>
         </View>
     </View>

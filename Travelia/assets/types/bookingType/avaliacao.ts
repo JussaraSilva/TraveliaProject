@@ -4,13 +4,5 @@ export interface Avaliacao {
   total_avaliacoes: number;
   estrelas: number;
   destaque: string;
-  
-  reviews?:Review[];
-}
-export interface Review {
-  autor: string;
-  data: string;
-  nota: number;
-  comentario: string;
-  votos_uteis: number;
+
 }

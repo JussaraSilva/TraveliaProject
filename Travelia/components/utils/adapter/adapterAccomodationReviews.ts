@@ -7,7 +7,7 @@ type ReviewBase =
       nota: number;
       comentario: string;
       votos_uteis?: number;
-      imagem_perfil: string;
+      imagem_perfil?: string;
     }
   | {
       usuario: {
@@ -21,28 +21,41 @@ type ReviewBase =
       comentario: string;
     };
 
+
 export function adaptReviewsToUI(reviews: ReviewBase[]): ReviewUI[] {
   return reviews.map((review) => {
-    // 👉 CASO PACOTE
     if ('autor' in review) {
       return {
         autor: review.autor,
         comentario: review.comentario,
-        nota: review.nota,
+        nota: review.nota / 2,
         imagem_perfil: review.imagem_perfil,
-        subtitle: review.data,                // 👈 data no subtitle
-        footer: `Votos úteis: ${review.votos_uteis}`, // 👈 votos no footer
+        subtitle: review.data,
+        footer: review.votos_uteis
+          ? `Votos úteis: ${review.votos_uteis}`
+          : undefined,
       };
     }
 
-    // 👉 CASO ACOMODAÇÃO
+    if ('usuario' in review) {
+      return {
+        autor: review.usuario.nome,
+        comentario: review.comentario,
+        nota: review.estrelas,
+        imagem_perfil: review.usuario.foto,
+        subtitle: `${review.usuario.cidade}, ${review.usuario.pais}`,
+        footer: review.data,
+      };
+    }
+
+    // 🔒 fallback REAL (não toca em review)
     return {
-      autor: review.usuario.nome,
-      comentario: review.comentario,
-      nota: review.estrelas,
-      imagem_perfil: review.usuario.foto,
-      subtitle: `${review.usuario.cidade}, ${review.usuario.pais}`, // 👈 cidade/pais
-      footer: review.data,                                          // 👈 data no fim
+      autor: 'Usuário',
+      comentario: '',
+      nota: 0,
     };
   });
 }
+
+
+

@@ -1,7 +1,6 @@
 // Import Components
-import AccomodationInfo from '@/components/details/accomodationInfo';
-import ActivitiesInfo from '@/components/details/activitiesInfo';
-import FlightDepartReturn from '@/components/details/flightDepartReturn';
+import AccomodationInfo from '@/components/details/accomodationSection/accomodationInfo';
+import ActivitiesInfo from '@/components/details/activitiesSection/activitiesInfo';
 import ReviewsDetails from '@/components/reviews/reviewsDetails';
 import DescriptionPacket from '@/components/list/descriptionPacket';
 import Gallery from '@/components/others/carouselPagination';
@@ -10,76 +9,19 @@ import { RatingStars } from '@/components/reviews/ratingStars';
 import FooterPrice from '@/components/details/footerPrice';
 
 // Import tolls
-import { themeColors, ThemeName } from '@/constants/theme';
-import { router, useLocalSearchParams } from 'expo-router';
+import { themeColors } from '@/constants/theme';
 import { ArrowRightIcon, MapPinIcon, TrophyIcon } from 'phosphor-react-native';
-import { StyleSheet, View, Text, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { useThemedStyles } from '@/hooks/theme/useThemedStyles';
-import { useBooking } from '@/context/booking/bookingContext';
-import { useEffect } from 'react';
-import { adaptReviewsToUI } from '@/components/utils/adapter/adapterAccomodationReviews';
-import { Atividades } from '@/assets/types/bookingType/atividades';
+import { useDetailsLogic } from '@/hooks/detailsHome/useDetailsLogic';
+import { FlightSection } from '@/components/details/vooSection/flightSection';
+import createStyles from './details.styles'
 
 
 export default function Details() {
   const { theme, styles } = useThemedStyles(createStyles)
 
-  const params = useLocalSearchParams<{ pacote?: string }>();
-
-  const { setPacoteInicial } = useBooking();
-
-
-  const pacoteStr = params.pacote ?? '{}';
-  
-  let pacoteObj;
-  try {
-    pacoteObj = JSON.parse(pacoteStr);
-  } catch {
-    pacoteObj = {};
-  }
-  
-  
-  useEffect(() => {
-    if (pacoteObj && pacoteObj.nome_pacote) {
-      // Usamos uma função de reset/set para garantir que 
-      // o rascunho anterior seja substituído pelo atual
-      setPacoteInicial(pacoteObj);
-    }
-  }, [pacoteObj, setPacoteInicial]);
-  
-
-    const handleAccomodation = () => {
-    router.push({
-      pathname: '/(app)/_tabs/home/accommodation',
-      params: {
-        hotelId: pacoteObj.acomodacao.id,
-      },
-    });
-    console.log("Details diz, O Id do hotel é: " + (pacoteObj.acomodacao.id));
-  };
-
-  const reviewsUI = adaptReviewsToUI(pacoteObj.reviews ?? []);
-
-  const handleAtividades = () => {
-    const atividadesIds = (pacoteObj.atividades as Atividades[]).map(
-      (atividade) => atividade.id_atividade
-    );
-
-    router.push({
-      pathname: '/(app)/_tabs/home/atividades',
-      params: {
-        atividadesIds: JSON.stringify(atividadesIds),
-      },
-    });
-
-    console.log('IDs enviados:', atividadesIds);
-  };
-
-
-
-
-
-
+  const { pacoteObj, handleAccomodation, handleAtividades, reviewsUI, handleReviews } = useDetailsLogic();
 
   return (
     <View style={styles.container}>
@@ -134,33 +76,10 @@ export default function Details() {
               <Text style={styles.textInclude}>Included in the Package</Text>
 
               <View style={styles.containerIncludeFlight}>
-              <FlightDepartReturn
-                include="Flight"
-                direction="Departure"
-                dateBoarding={pacoteObj.voos.ida.data_completa}
-                airport_origin={pacoteObj.voos.ida.aeroporto_origem}
-                hour_boarding={pacoteObj.voos.ida.horario_partida}
-                airport_destination={pacoteObj.voos.ida.aeroporto_destino}
-                hour_destination={pacoteObj.voos.ida.horario_chegada}
-                numero_voo={pacoteObj.voos.ida.numero}
-                escala={pacoteObj.voos.ida.escala}
-                name_airline={pacoteObj.voos.companhia_aerea.nome}
-                logo_airline={pacoteObj.voos.companhia_aerea.logo}
-                
-              />
-              <FlightDepartReturn
-                includeStyle={styles.flightReturn}
-                direction="Return"
-                dateBoarding={pacoteObj.voos.volta.data_completa}
-                airport_origin={pacoteObj.voos.ida.aeroporto_destino}
-                hour_boarding={pacoteObj.voos.volta.horario_partida}
-                airport_destination={pacoteObj.voos.ida.aeroporto_origem}
-                hour_destination={pacoteObj.voos.volta.horario_chegada}
-                numero_voo={pacoteObj.voos.volta.numero}
-                escala={pacoteObj.voos.ida.escala}
-                name_airline={pacoteObj.voos.companhia_aerea.nome}
-                logo_airline={pacoteObj.voos.companhia_aerea.logo}
-              />
+                <FlightSection
+                  voos={pacoteObj.voos}
+                  styles={styles}
+                />
               </View>
 
               <View style={styles.containerIncludeAccomodation}>
@@ -214,6 +133,8 @@ export default function Details() {
               starsNumber={pacoteObj.avaliacao.estrelas}
               mediaStars={pacoteObj.avaliacao.estrelas}
               totalAvaliacoes={pacoteObj.avaliacao.total_avaliacoes}
+              onPressAllReviews={handleReviews}
+
 
               reviews={reviewsUI}
 
@@ -240,203 +161,4 @@ export default function Details() {
   );
 }
 
-const createStyles = (theme: ThemeName) =>
-  StyleSheet.create({
-    container: {
-      marginTop: 40,
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundColor: themeColors[theme].backgroundCard,
-      flex: 1,
-    },
 
-    containerScroll: {
-      backgroundColor: themeColors[theme].backgroundCard,
-    },
-
-    containerInfoPacoteTop: {
-      width: 400,
-      marginTop: 5,
-      alignItems: 'center',
-    },
-
-    iconTop: {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      flexDirection: 'row',
-      alignItems: 'center',
-      gap: 5,
-      backgroundColor: themeColors[theme].recomendedIconBack,
-      borderTopLeftRadius: 8,
-      borderBottomRightRadius: 8,
-      paddingHorizontal: 10,
-      paddingVertical: 5,
-      zIndex: 1,
-    },
-
-    textIconTop: {
-      fontSize: 16,
-      fontWeight: 'bold',
-      color: themeColors[theme].textButton,
-    },
-
-    imagemCapa: {
-      width: 360,
-      height: 300,
-      borderRadius: 10,
-    },
-
-    imagem: {
-      width: '100%',
-      height: '100%',
-      borderRadius: 10,
-    },
-
-    textContainerPacoteInfo: {
-      width: '100%',
-      marginTop: 5,
-      paddingHorizontal: 12,
-
-    },
-
-    nomePacote: {
-      fontSize: 24,
-      fontWeight: 'bold',
-      color: themeColors[theme].textPrimary,
-    },
-
-    review: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      gap: 5,
-      marginTop: 10,
-    },
-
-    destinoPais: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      gap: 5,
-      marginTop: 10,
-    },
-
-    textDestino: {
-      fontSize: 20,
-      color: themeColors[theme].textPrimary,
-    },
-
-    textPais: {
-      fontSize: 20,
-      color: themeColors[theme].textPrimary,
-    },
-
-    
-
-    containerInfoMiddle: {
-      flexDirection: 'column',
-      width: 400,
-      marginTop: 5,
-      backgroundColor: themeColors[theme].background,
-      paddingVertical: 5,
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-
-    containerInfoInclude: {
-      flexDirection: 'column',
-      marginTop: 5,
-      maxWidth: '100%',
-      
-    },
-
-    containerIncludeFlight: {
-      flexDirection: 'column',
-      marginTop: 5,
-      maxWidth: '100%',
-      
-    },
-
-    containerIncludeAccomodation: {
-      flexDirection: 'column',
-      marginTop: 5,
-      maxWidth: '100%',
-      
-    },
-
-    textInclude: {
-      fontSize: 20,
-      fontWeight: 'bold',
-      color: themeColors[theme].textPrimary,
-    },
-
-    flightReturn: {
-      backgroundColor: "transparent",
-    },
-
-    accomodation: {
-      backgroundColor: themeColors[theme].colorRed,
-    },
-
-    containerIncludeActivity: {
-      flexDirection: 'column',
-      marginTop: 5,
-      width: '100%',
-
-      
-    },
-
-    activities: {
-      backgroundColor: themeColors[theme].colorRed,
-    },
-
-    containerTermsConditions: {
-      flexDirection: 'row',
-      width: '100%',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-      backgroundColor: themeColors[theme].background,
-      marginTop: 10,
-      
-    },
-
-    containerTextTermsConditions: {
-      flexDirection: 'row',
-      padding: 10,
-      alignItems: 'center',
-      width: '100%',
-      justifyContent: 'space-between',
-      backgroundColor: themeColors[theme].backgroundCard,
-      borderRadius: 5,
-    },
-
-    textTermsConditions: {
-      fontSize: 18,
-      fontWeight: 'bold',
-      color: themeColors[theme].textPrimary,
-    },
-
-    containerArrowMore: {
-      padding: 10,
-    },
-
-    containerReviews: {
-      flexDirection: 'column',
-      marginTop: 5,
-      width: '100%',
-      paddingHorizontal: 10,
-      
-    },
-
-    containerInfoFooter: {
-      flexDirection: 'column',
-      backgroundColor: themeColors[theme].backgroundCard,
-      marginTop: 5,
-      width: 400,
-      
-    },
-
-    
-    
-
-
-  });

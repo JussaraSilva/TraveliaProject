@@ -28,6 +28,8 @@ const [pacoteAtual, setPacoteAtual] = useState<PacoteViagem | null>(null);
 
 
 
+
+
   
   const updateViajantes = useCallback((novaQtd: number) => {
   setPacoteAtual((prev) => {
@@ -68,6 +70,8 @@ const [pacoteAtual, setPacoteAtual] = useState<PacoteViagem | null>(null);
   }, []);
 
 
+
+
   return (
     <BookingContext.Provider
       value={{
@@ -77,6 +81,7 @@ const [pacoteAtual, setPacoteAtual] = useState<PacoteViagem | null>(null);
         updateViajantes,
         updatePagamento,
         updateDesconto,
+        
       }}
     >
       {children}

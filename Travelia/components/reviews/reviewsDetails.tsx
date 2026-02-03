@@ -19,6 +19,7 @@ type Props = {
   totalAvaliacoes: number;
   reviews?: ReviewUI[];
   showHeaderReview?: boolean;
+  onPressAllReviews?: () => void;
 };
 
 export default function ReviewsDetails({
@@ -27,6 +28,7 @@ export default function ReviewsDetails({
   totalAvaliacoes,
   reviews = [],
   showHeaderReview = true,
+  onPressAllReviews = () => {},
 }: Props) {
   const { theme } = useTheme();
   const styles = useMemo(() => createStyles(theme), [theme]);
@@ -46,7 +48,9 @@ export default function ReviewsDetails({
                 avaliacoes={totalAvaliacoes}
               />
             </View>
-            <TouchableOpacity style={styles.reviewsHeaderButton}>
+            <TouchableOpacity style={styles.reviewsHeaderButton}
+              onPress={onPressAllReviews}
+            >
               <Text style={styles.reviewsHeaderButtonText}>Ver Tudo</Text>
               <ArrowRightIcon
                 size={20}

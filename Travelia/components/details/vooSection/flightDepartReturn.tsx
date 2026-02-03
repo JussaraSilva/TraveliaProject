@@ -3,7 +3,7 @@ import { useTheme } from "@/context/themeProvider";
 import { CaretRightIcon } from 'phosphor-react-native';
 import { useMemo } from "react";
 import { StyleSheet, View, Text, Image, ViewStyle, StyleProp, TouchableOpacity } from "react-native";
-import { DateText } from "../utils/date/formatDate";
+import { DateText } from "../../utils/date/formatDate";
 
 
 type Props = {
@@ -82,10 +82,12 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
           </View>
           
           <View style={styles.textCardDateContainer}>
-            <Text style={styles.textCardDate}><DateText 
-            value={dateBoarding}
-            variant="full"
-            /></Text>
+            <Text style={styles.textCardDate}>
+              <DateText 
+                value={dateBoarding}
+                variant="full"
+              />
+            </Text>
           </View>
           <View style={styles.containerButtonMore}>
             <TouchableOpacity style={styles.buttonMore}>
@@ -132,7 +134,9 @@ export default function FlightDepartReturn({include, direction, dateBoarding, ai
           </View>
 
           <View style={styles.buttonContainer}>
-            <Text style={styles.textButton}>Change Option</Text>
+            <TouchableOpacity style={styles.buttonChange}>
+              <Text style={styles.textButton}>Change Option</Text>
+            </TouchableOpacity>
           </View>
           
         </View>
@@ -160,6 +164,7 @@ const createStyles = (theme: ThemeName) =>
       padding: 15,
       gap: 5,
       width: 360,
+      maxWidth: "100%",
       paddingHorizontal : 10,
     },
 
@@ -217,7 +222,7 @@ const createStyles = (theme: ThemeName) =>
     },
 
     textCardDate: {
-      fontSize: 14,
+      fontSize: 16,
       color: themeColors[theme].textPrimary,
       fontWeight: 'bold',
     },
@@ -299,30 +304,31 @@ const createStyles = (theme: ThemeName) =>
     },
 
     cardFlightBottom: {
+      width: "100%",
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      gap: 20,
-      width: "100%",
+      gap: 10,
     },
 
     companyAreaContainer: {
+      
+      width: "60%",
       flexDirection: 'column',
       alignItems: 'center',
     },
 
     airline: {
-      
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'flex-start',
-      gap: 20,
+      gap: 8,
 
     },
 
     logoAirline: {
-      width: 50,
-      height: 50,
+      width: 45,
+      height: 45,
       borderRadius: 50,
       alignItems: 'center',
       justifyContent: 'center',
@@ -337,13 +343,21 @@ const createStyles = (theme: ThemeName) =>
     },
 
     buttonContainer: {
-      flexDirection: 'column',
+      width : "37%",
       alignItems: 'center',
-      justifyContent: 'center',
-      padding: 10,
+    },
+
+
+    buttonChange : {
+      width: "100%",
+      alignItems: 'center',
       backgroundColor: themeColors[theme].realceLightBlue,
+      flexDirection: 'column',
+      padding: 8,
       borderRadius: 20,
     },
+
+
 
     textButton: {
       fontSize: 16,
